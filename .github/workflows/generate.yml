@@ -19,10 +19,10 @@ jobs:
       - name: Release
         uses: fnkr/github-action-ghr@v1
         env:
-          GHR_PATH: stations.json
+          GHR_PATH: json_out/
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: stations.json
+          publish_dir: json_out/

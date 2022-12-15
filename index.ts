@@ -75,4 +75,4 @@ const unique_station_data = deduplicate_stations(filtered_station_data);
 
 console.log(`got ${unique_station_data.length} stations`)
 
-Deno.writeTextFile("./stations.json", JSON.stringify(unique_station_data))
+Deno.writeTextFile("./json_out/stations.json", JSON.stringify(unique_station_data))
