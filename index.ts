@@ -32,8 +32,8 @@ type stationdata = {
 async function get_all_stations(): Promise<stationdata[]> {
     let station_data: stationdata[] = [];
     // latitude and longitude are the bounds of germany
-    for (let i=47.2; i<55.2; i=i+0.5) {
-        for (let x=5.7; x<15.2; x=x+0.5) {
+    for (let i=47.2701; i<55.0583; i=i+0.2) {
+        for (let x=5.8655; x<15.0419; x=x+0.2) {
             console.log(`${i}:${x}`)
             let fetching = true;
             let current_station_data: stationdata[] = [];
@@ -72,7 +72,7 @@ function deduplicate_stations(array: stationdata[]): stationdata[] {
 // remove duplicates
 const unique_station_data = deduplicate_stations(filtered_station_data);
 
+console.log(`got ${unique_station_data.length} stations`);
 
-console.log(`got ${unique_station_data.length} stations`)
-
-Deno.writeTextFile("./json_out/stations.json", JSON.stringify(unique_station_data))
+Deno.writeTextFileSync("./json_out/stations.json", JSON.stringify(unique_station_data, undefined, 4));
+Deno.writeTextFileSync("./json_out/stations_min.json", JSON.stringify(unique_station_data));
