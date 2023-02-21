@@ -1,5 +1,18 @@
 {
-    "tasks": {
-      "run": "deno run --allow-write --allow-net='tankstellenfinder.aral.de' index.ts"
-    }
+	"tasks": {
+		"run": "deno run --allow-write --allow-net='tankstellenfinder.aral.de' index.ts"
+	},
+	"fmt": {
+		"files": {
+			"include": ["index.ts", "deno.json"],
+			"exclude": []
+		},
+		"options": {
+			"useTabs": true,
+			"lineWidth": 140,
+			"indentWidth": 4,
+			"singleQuote": true,
+			"proseWrap": "preserve"
+		}
+	}
 }
