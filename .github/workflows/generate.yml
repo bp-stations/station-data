@@ -14,8 +14,12 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.11' 
       - name: Run
         run: deno task run
+      - run: python database.py
       - name: Release
         uses: fnkr/github-action-ghr@v1
         env:
