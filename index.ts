@@ -10,6 +10,8 @@ async function get_nearest(lat: number, long: number): Promise<stationdata[]> {
 	}
 }
 
+const is_dev: boolean = Deno.args[0] == 'dev';
+
 type stationdata = {
 	id: string;
 	name: string;
@@ -30,11 +32,21 @@ type stationdata = {
 	website?: string;
 };
 
+let a = 47.2701,
+	b = 55.0583,
+	c = 5.8655,
+	d = 15.0419;
+
+if (is_dev) {
+	console.log('using dev mode');
+	a = 47.2701, b = 48, c = 5.8655, d = 6.5;
+}
+
 async function get_all_stations(): Promise<stationdata[]> {
 	let station_data: stationdata[] = [];
 	// latitude and longitude are the bounds of germany
-	for (let i = 47.2701; i < 55.0583; i = i + 0.2) {
-		for (let x = 5.8655; x < 15.0419; x = x + 0.2) {
+	for (let i = a; i < b; i = i + 0.2) {
+		for (let x = c; x < d; x = x + 0.2) {
 			console.log(`${i}:${x}`);
 			let fetching = true;
 			let current_station_data: stationdata[] = [];
