@@ -90,10 +90,10 @@ const unique_station_data = deduplicate_stations(filtered_station_data);
 console.log(`got ${unique_station_data.length} stations`);
 
 Deno.writeTextFileSync(
-	'./json_out/stations.json',
+	'./out/stations.json',
 	JSON.stringify(unique_station_data, undefined, 4),
 );
 Deno.writeTextFileSync(
-	'./json_out/stations_min.json',
+	'./out/stations_min.json',
 	JSON.stringify(unique_station_data),
 );
