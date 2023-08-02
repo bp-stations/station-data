@@ -1,4 +1,4 @@
-name: Generate
+name: generate data files
 
 on:
   push:
@@ -17,10 +17,16 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: '3.11' 
-      - name: Generate stations.json
+      - name: generate stations.json
         run: deno task run
-      - name: Generate aral.db
+      - name: generate aral.db
         run: python database.py
+      - name: generate fuel.json
+        run: python generator.py -ff
+      - name: generate facilities.json
+        run: python generator.py -f
+      - name: generate sitemap.xml
+        run: python generator.py -s
       - name: create Release
         uses: fnkr/github-action-ghr@v1
         env:
