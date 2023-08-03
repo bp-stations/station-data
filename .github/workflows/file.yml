@@ -2,11 +2,9 @@ name: push data files to nickwasused/aral-prices
 
 on:
   workflow_dispatch:
-    branches:
-      - 'gh-pages'
+    branches: ['gh-pages']
   push:
-    branches:
-      - 'gh-pages'
+    branches: ['gh-pages']
 
 jobs:
   generate_and_push:
