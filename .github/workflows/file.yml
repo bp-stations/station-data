@@ -1,0 +1,24 @@
+name: push data files to nickwasused/aral-prices
+
+on:
+    workflow_dispatch:
+    push:
+        branches: 
+        - gh-pages
+
+jobs:
+  generate_and_push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Push stations.json to other repo
+        uses: cpina/github-action-push-to-another-repository@main
+        with:
+          source-directory: '/'
+          destination-github-token: ${{ secrets.ACTION_TOKEN }}
+          destination-repository: 'nickwasused/aral-prices'  # Format: username/repo
+          user-email: github.lix1s@simplelogin.co
+          target-branch: main
