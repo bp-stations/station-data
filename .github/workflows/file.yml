@@ -1,8 +1,8 @@
 name: push data files to nickwasused/aral-prices
 
 on:
-  - workflow-dispatch
-  - push:
+  workflow_dispatch:
+  push:
     branches:
       - 'gh-pages'
 
