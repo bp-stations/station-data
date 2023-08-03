@@ -19,6 +19,7 @@ jobs:
         with:
           source-directory: '/'
           destination-github-token: ${{ secrets.ACTION_TOKEN }}
-          destination-repository: 'nickwasused/aral-prices'  # Format: username/repo
+          destination-repository-name: 'aral-prices'  # Format: username/repo
+          destination-github-username: 'nickwasused'
           user-email: github.lix1s@simplelogin.co
           target-branch: main
