@@ -18,7 +18,7 @@ jobs:
         uses: cpina/github-action-push-to-another-repository@main
         with:
           source-directory: '/'
-          destination-repository-name: 'aral-prices'  # Format: username/repo
+          destination-repository-name: 'aral-prices'
           destination-github-username: 'nickwasused'
           user-email: github.lix1s@simplelogin.co
           target-branch: main
