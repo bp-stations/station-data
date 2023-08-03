@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - '*'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -37,3 +38,14 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: out/
+      - name: Push stations.json to other repo
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+            SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+        with:
+          source-directory: 'out/'
+          destination-repository-name: 'aral-prices'
+          destination-github-username: 'nickwasused'
+          user-email: github.lix1s@simplelogin.co
+          target-branch: main
+          target-directory: 'data'
