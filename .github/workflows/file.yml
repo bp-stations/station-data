@@ -18,7 +18,6 @@ jobs:
         uses: cpina/github-action-push-to-another-repository@main
         with:
           source-directory: '/'
-          destination-github-token: ${{ secrets.ACTION_TOKEN }}
           destination-repository-name: 'aral-prices'  # Format: username/repo
           destination-github-username: 'nickwasused'
           user-email: github.lix1s@simplelogin.co
