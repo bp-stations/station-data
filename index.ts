@@ -32,6 +32,25 @@ type stationdata = {
 	website?: string;
 };
 
+type converted_stationdata = {
+	id: string;
+	name: string;
+	lat: string;
+	lng: string;
+	adress: string;
+	city: string;
+	state: string;
+	postcode: string;
+	country_code: string;
+	telephone: string;
+	facilities: string[];
+	products: string[];
+	opening_hours: string[];
+	site_brand: string;
+	watchlist_id?: string;
+	website?: string;
+};
+
 let a = 47.2701,
 	b = 55.0583,
 	c = 5.8655,
@@ -87,13 +106,18 @@ function deduplicate_stations(array: stationdata[]): stationdata[] {
 // remove duplicates
 const unique_station_data = deduplicate_stations(filtered_station_data);
 
-console.log(`got ${unique_station_data.length} stations`);
+const filtered_converted_station_data: converted_stationdata[] = unique_station_data.map((obj) => {
+	const { ["open_status"]: _removedKey, ...rest } = obj;
+	return rest;
+});
+
+console.log(`got ${filtered_converted_station_data.length} stations`);
 
 Deno.writeTextFileSync(
 	'./out/stations.json',
-	JSON.stringify(unique_station_data, undefined, 4),
+	JSON.stringify(filtered_converted_station_data, undefined, 4),
 );
 Deno.writeTextFileSync(
 	'./out/stations_min.json',
-	JSON.stringify(unique_station_data),
+	JSON.stringify(filtered_converted_station_data),
 );
