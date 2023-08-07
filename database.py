@@ -12,7 +12,7 @@ def load_json(file):
 station_path = Path(__file__).parent.absolute().joinpath('./out/stations_min.json')
 output_path = Path(__file__).parent.absolute().joinpath('./out/aral.db')
 
-station_query = "CREATE TABLE IF NOT EXISTS `stations`(id INTEGER PRIMARY KEY, name TEXT NOT NULL, lat FLOAT NOT NULL, lng FLOAT NOT NULL, address TEXT NOT NULL, city TEXT NOT NULL, state TEXT, postcode INTEGER NOT NULL, country_code TEXT NOT NULL, telephone TEXT NOT NULL, open_status TEXT NOT NULL, site_brand TEXT NOT NULL, watchlist_id INTEGER NOT NULL, website TEXT NOT NULL, fuel TEXT NOT NULL, facilities TEXT NOT NULL);"
+station_query = "CREATE TABLE IF NOT EXISTS `stations`(id INTEGER PRIMARY KEY, name TEXT NOT NULL, lat FLOAT NOT NULL, lng FLOAT NOT NULL, address TEXT NOT NULL, city TEXT NOT NULL, state TEXT, postcode INTEGER NOT NULL, country_code TEXT NOT NULL, telephone TEXT NOT NULL, site_brand TEXT NOT NULL, watchlist_id INTEGER NOT NULL, website TEXT NOT NULL, fuel TEXT NOT NULL, facilities TEXT NOT NULL);"
 fuel_query = "CREATE TABLE IF NOT EXISTS `fuel`(id INTEGER PRIMARY KEY, name TEXT NOT NULL);"
 facilities_query = "CREATE TABLE IF NOT EXISTS `facilities`(id INTEGER PRIMARY KEY, name TEXT NOT NULL);"
 
@@ -47,7 +47,7 @@ def export_stations():
     station_data = load_json(station_path)
     for station in station_data:
         try:
-            cursor.execute("INSERT INTO stations (id,name,lat,lng,address,city,state,postcode,country_code,telephone,open_status,site_brand,watchlist_id,website,fuel,facilities) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);", (
+            cursor.execute("INSERT INTO stations (id,name,lat,lng,address,city,state,postcode,country_code,telephone,site_brand,watchlist_id,website,fuel,facilities) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);", (
                 station["id"],
                 station["name"],
                 station["lat"],
@@ -58,7 +58,6 @@ def export_stations():
                 station["postcode"],
                 station["country_code"],
                 station["telephone"],
-                station["open_status"],
                 station["site_brand"],
                 station["watchlist_id"],
                 station["website"],
