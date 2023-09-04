@@ -1,9 +1,9 @@
 name: generate data files
 
 on:
-  push:
-    tags:
-      - '*'
+  schedule:
+    - cron: '3 2 * * 1'
+  workflow_dispatch:
 
 jobs:
   build:
