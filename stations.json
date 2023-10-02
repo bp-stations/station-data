@@ -75,7 +75,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:30",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "20:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -316,7 +338,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -733,7 +777,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "20:30"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "20:30"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -1179,7 +1245,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -3884,7 +3972,6 @@
             "lpg",
             "ad_blue",
             "super_e5",
-            "super_98",
             "e10"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/19149000",
@@ -4509,8 +4596,7 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
-                    "Fri"
+                    "Mon"
                 ],
                 "hours": [
                     [
@@ -4521,12 +4607,24 @@
             },
             {
                 "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "11:00",
+                        "18:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Sat"
                 ],
                 "hours": [
                     [
                         "08:00",
-                        "14:30"
+                        "18:00"
                     ]
                 ]
             },
@@ -4537,7 +4635,7 @@
                 "hours": [
                     [
                         "11:00",
-                        "14:00"
+                        "18:00"
                     ]
                 ]
             }
@@ -7102,7 +7200,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "20:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "10:00",
+                        "15:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -11761,7 +11881,18 @@
             {
                 "days": [
                     "Mon",
-                    "Thu"
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "20:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed"
                 ],
                 "hours": [
                     [
@@ -11772,13 +11903,24 @@
             },
             {
                 "days": [
-                    "Fri",
+                    "Thu",
+                    "Fri"
+                ],
+                "hours": [
+                    [
+                        "05:30",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
                     "Sat"
                 ],
                 "hours": [
                     [
-                        "07:00",
-                        "20:00"
+                        "06:00",
+                        "21:00"
                     ]
                 ]
             },
@@ -17097,83 +17239,6 @@
         ]
     },
     {
-        "id": "15126500",
-        "name": "Adolf Präg GmbH&Co. KG",
-        "lat": 48.620371,
-        "lng": 9.540233,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Zeller Straße 15",
-        "city": "Weilheim",
-        "state": null,
-        "postcode": "73235",
-        "telephone": "+49 7023 9564184",
-        "facilities": [
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "lpg",
-            "super_e5",
-            "super_98",
-            "e10",
-            "truck_diesel"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/15126500",
-        "watchlist_id": "15126500",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Wed"
-                ],
-                "hours": [
-                    [
-                        "06:30",
-                        "20:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Thu",
-                    "Fri"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "07:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "08:00",
-                        "20:00"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
         "id": "28574600",
         "name": "Philipp Glauner",
         "lat": 48.723202,
@@ -17646,6 +17711,49 @@
         ]
     },
     {
+        "id": "15128800",
+        "name": "SÜDRAMOL GmbH&Co. KG",
+        "lat": 48.708973,
+        "lng": 9.633905,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Stuttgarter Straße 80",
+        "city": "Göppingen",
+        "state": null,
+        "postcode": "73033",
+        "telephone": "+49 7161 922495",
+        "facilities": [
+            "open_24_hours",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "lpg",
+            "super_e5",
+            "super_98",
+            "e10"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/15128800",
+        "watchlist_id": "15128800",
+        "opening_hours": [
+            {
+                "days": [
+                    "Mon",
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "00:00",
+                        "23:59"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "id": "15060500",
         "name": "Markus Bruchbacher",
         "lat": 48.609757,
@@ -17869,49 +17977,6 @@
                     [
                         "08:00",
                         "22:00"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "id": "15128800",
-        "name": "SÜDRAMOL GmbH&Co. KG",
-        "lat": 48.708973,
-        "lng": 9.633905,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Stuttgarter Straße 80",
-        "city": "Göppingen",
-        "state": null,
-        "postcode": "73033",
-        "telephone": "+49 7161 922495",
-        "facilities": [
-            "open_24_hours",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "lpg",
-            "super_e5",
-            "super_98",
-            "e10"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/15128800",
-        "watchlist_id": "15128800",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "00:00",
-                        "23:59"
                     ]
                 ]
             }
@@ -22164,7 +22229,7 @@
                 "hours": [
                     [
                         "06:00",
-                        "21:00"
+                        "20:00"
                     ]
                 ]
             },
@@ -22176,7 +22241,7 @@
                 "hours": [
                     [
                         "07:00",
-                        "21:00"
+                        "20:00"
                     ]
                 ]
             }
@@ -24583,8 +24648,7 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
-                    "Sat"
+                    "Mon"
                 ],
                 "hours": [
                     [
@@ -24595,12 +24659,57 @@
             },
             {
                 "days": [
-                    "Sun"
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
+                    "Thu"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Fri"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sat"
                 ],
                 "hours": [
                     [
                         "06:00",
                         "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "21:00"
                     ]
                 ]
             }
@@ -32225,17 +32334,6 @@
             {
                 "days": [
                     "Mon",
-                    "Fri"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
                     "Sat"
                 ],
                 "hours": [
@@ -32455,17 +32553,6 @@
             {
                 "days": [
                     "Mon",
-                    "Fri"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
                     "Sat"
                 ],
                 "hours": [
@@ -32529,12 +32616,67 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
-                    "Sun"
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Thu"
                 ],
                 "hours": [
                     [
                         "04:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Fri"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sat",
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "06:00",
                         "22:00"
                     ]
                 ]
@@ -34696,34 +34838,12 @@
             {
                 "days": [
                     "Mon",
-                    "Fri"
-                ],
-                "hours": [
-                    [
-                        "06:30",
-                        "20:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "07:30",
-                        "20:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
                     "Sun"
                 ],
                 "hours": [
                     [
-                        "08:00",
-                        "20:00"
+                        "05:00",
+                        "21:00"
                     ]
                 ]
             }
@@ -35230,6 +35350,49 @@
         ]
     },
     {
+        "id": "22104700",
+        "name": "Reiner Schäfer BAT Ob Der Tauber Ost",
+        "lat": 49.62291,
+        "lng": 9.72944,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "A81",
+        "city": "Grünsfeld",
+        "state": null,
+        "postcode": "97947",
+        "telephone": "+49 9346 92170",
+        "facilities": [
+            "open_24_hours",
+            "motorway_site",
+            "loyalty",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ad_blue",
+            "super_e5",
+            "e10",
+            "truck_diesel"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/22104700",
+        "watchlist_id": "22104700",
+        "opening_hours": [
+            {
+                "days": [
+                    "Mon",
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "00:00",
+                        "23:59"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "id": "19134300",
         "name": "MTV Förster GmbH&Co. KG",
         "lat": 49.752156,
@@ -35407,7 +35570,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "08:30",
+                        "20:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "08:30",
+                        "09:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -35797,13 +35982,35 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "20:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
                     [
                         "06:00",
-                        "21:00"
+                        "20:00"
                     ]
                 ]
             },
@@ -35919,12 +36126,34 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
                     [
-                        "05:00",
+                        "06:00",
                         "22:00"
                     ]
                 ]
@@ -35936,7 +36165,7 @@
                 ],
                 "hours": [
                     [
-                        "06:00",
+                        "07:00",
                         "22:00"
                     ]
                 ]
@@ -36034,6 +36263,18 @@
             {
                 "days": [
                     "Mon",
+                    "Fri"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sat",
                     "Sun"
                 ],
                 "hours": [
@@ -37291,20 +37532,30 @@
                 ],
                 "hours": [
                     [
-                        "08:00",
+                        "06:00",
                         "20:00"
                     ]
                 ]
             },
             {
                 "days": [
-                    "Sat",
+                    "Sat"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "20:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
                     "Sun"
                 ],
                 "hours": [
                     [
                         "08:00",
-                        "19:00"
+                        "20:00"
                     ]
                 ]
             }
@@ -37686,7 +37937,7 @@
         "lng": 8.333475,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "Rheinstraße 47-49",
+        "address": "Rheinstraße 47",
         "city": "Osthofen",
         "state": null,
         "postcode": "67574",
@@ -39711,7 +39962,6 @@
         "postcode": "95502",
         "telephone": "+49 9273 57337",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -39745,12 +39995,23 @@
             {
                 "days": [
                     "Mon",
-                    "Sun"
+                    "Sat"
                 ],
                 "hours": [
                     [
                         "00:00",
                         "23:59"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "21:00"
                     ]
                 ]
             }
@@ -40097,8 +40358,7 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
-                    "Tue"
+                    "Mon"
                 ],
                 "hours": [
                     [
@@ -40109,7 +40369,7 @@
             },
             {
                 "days": [
-                    "Wed",
+                    "Tue",
                     "Sat"
                 ],
                 "hours": [
@@ -40197,6 +40457,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -40214,7 +40475,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/12146100",
         "watchlist_id": "12146100",
@@ -43073,79 +43335,6 @@
         ]
     },
     {
-        "id": "28454900",
-        "name": "Alperen Birgül",
-        "lat": 50.075266,
-        "lng": 9.001623,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Forststraße 3 - 5",
-        "city": "Kahl",
-        "state": null,
-        "postcode": "63796",
-        "telephone": "+49 6188 900819",
-        "facilities": [
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "recup",
-            "shop",
-            "bistro",
-            "too_good_to_go",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "vda",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/28454900",
-        "watchlist_id": "28454900",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Fri"
-                ],
-                "hours": [
-                    [
-                        "05:00",
-                        "22:30"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "07:30",
-                        "22:00"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
         "id": "12159500",
         "name": "Aral Aktiengesellschaft",
         "lat": 50.128079,
@@ -43411,6 +43600,7 @@
         "postcode": "96052",
         "telephone": "+49 951 31562",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -43439,34 +43629,12 @@
             {
                 "days": [
                     "Mon",
-                    "Fri"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "21:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "07:00",
-                        "21:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
                     "Sun"
                 ],
                 "hours": [
                     [
-                        "08:00",
-                        "21:00"
+                        "00:00",
+                        "23:59"
                     ]
                 ]
             }
@@ -43674,7 +43842,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:30",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Sat"
                 ],
                 "hours": [
@@ -44854,6 +45044,7 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
+            "ad_blue",
             "super_e5",
             "e10"
         ],
@@ -44917,7 +45108,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "20:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "20:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -48327,6 +48540,79 @@
         ]
     },
     {
+        "id": "28454900",
+        "name": "Alperen Birgül",
+        "lat": 50.075266,
+        "lng": 9.001623,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Forststraße 3 - 5",
+        "city": "Kahl",
+        "state": null,
+        "postcode": "63796",
+        "telephone": "+49 6188 900819",
+        "facilities": [
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "recup",
+            "shop",
+            "bistro",
+            "too_good_to_go",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/28454900",
+        "watchlist_id": "28454900",
+        "opening_hours": [
+            {
+                "days": [
+                    "Mon",
+                    "Fri"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "22:30"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sat"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "07:30",
+                        "22:00"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "id": "12156500",
         "name": "Aral Aktiengesellschaft",
         "lat": 50.114393,
@@ -48759,6 +49045,7 @@
         "postcode": "36148",
         "telephone": "+49 9742 275",
         "facilities": [
+            "open_24_hours",
             "motorway_site",
             "loyalty",
             "open_saturday",
@@ -48773,7 +49060,20 @@
         ],
         "website": "http://tankstelle.aral.de/tankstelle/17091900",
         "watchlist_id": "17091900",
-        "opening_hours": []
+        "opening_hours": [
+            {
+                "days": [
+                    "Mon",
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "00:00",
+                        "23:59"
+                    ]
+                ]
+            }
+        ]
     },
     {
         "id": "22017900",
@@ -49673,7 +49973,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -50949,7 +51271,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "19:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "17:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -52868,13 +53212,24 @@
             },
             {
                 "days": [
-                    "Tue",
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "20:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
                     [
                         "06:00",
-                        "22:00"
+                        "21:00"
                     ]
                 ]
             },
@@ -52884,8 +53239,8 @@
                 ],
                 "hours": [
                     [
-                        "06:00",
-                        "21:00"
+                        "07:00",
+                        "20:00"
                     ]
                 ]
             },
@@ -55589,7 +55944,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -56186,7 +56563,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -58215,7 +58614,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "09:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Sat"
                 ],
                 "hours": [
@@ -58396,7 +58817,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "23:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "07:30",
+                        "23:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Sat"
                 ],
                 "hours": [
@@ -58463,7 +58906,7 @@
                 "hours": [
                     [
                         "06:00",
-                        "22:00"
+                        "21:00"
                     ]
                 ]
             },
@@ -58474,7 +58917,7 @@
                 "hours": [
                     [
                         "07:00",
-                        "22:00"
+                        "21:00"
                     ]
                 ]
             }
@@ -59753,11 +60196,23 @@
             {
                 "days": [
                     "Mon",
+                    "Fri"
+                ],
+                "hours": [
+                    [
+                        "05:30",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sat",
                     "Sun"
                 ],
                 "hours": [
                     [
-                        "06:00",
+                        "06:30",
                         "22:00"
                     ]
                 ]
@@ -61163,7 +61618,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -61599,6 +62076,7 @@
         "facilities": [
             "car_wash",
             "cash_point",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -65380,6 +65858,7 @@
         "postcode": "99817",
         "telephone": "+49 3691 818095",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -65411,44 +65890,11 @@
             {
                 "days": [
                     "Mon",
-                    "Thu"
-                ],
-                "hours": [
-                    [
-                        "00:00",
-                        "23:59"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Fri"
-                ],
-                "hours": [
-                    [
-                        "00:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
                     "Sun"
                 ],
                 "hours": [
                     [
-                        "06:00",
+                        "00:00",
                         "23:59"
                     ]
                 ]
@@ -66755,7 +67201,13 @@
             "open_saturday",
             "open_sunday"
         ],
-        "products": [],
+        "products": [
+            "ultimate",
+            "ad_blue",
+            "super_e5",
+            "e10",
+            "truck_diesel"
+        ],
         "website": "http://tankstelle.aral.de/tankstelle/20189800",
         "watchlist_id": "20189800",
         "opening_hours": [
@@ -72588,6 +73040,7 @@
         "telephone": "+49 2204 53818",
         "facilities": [
             "car_wash",
+            "electric_charging",
             "recup",
             "shop",
             "pay_at_pump_supported",
@@ -72600,7 +73053,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/20023800",
         "watchlist_id": "20023800",
@@ -73837,7 +74291,7 @@
     },
     {
         "id": "14051400",
-        "name": "Carsten Geldmacher",
+        "name": "Thomas Baumhoff",
         "lat": 51.250439,
         "lng": 8.202831,
         "site_brand": "ARAL Tankstelle",
@@ -74377,7 +74831,7 @@
     },
     {
         "id": "17046000",
-        "name": "Cengiz Yagci",
+        "name": "Cristina Merdan",
         "lat": 51.309211,
         "lng": 9.462022,
         "site_brand": "ARAL Tankstelle",
@@ -74389,6 +74843,7 @@
         "telephone": "+49 561 24343",
         "facilities": [
             "car_wash",
+            "recup",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -75230,7 +75685,7 @@
                 "hours": [
                     [
                         "06:00",
-                        "20:30"
+                        "22:00"
                     ]
                 ]
             },
@@ -81351,6 +81806,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -81369,7 +81825,8 @@
             "ultimate_diesel",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/13137100",
         "watchlist_id": "13137100",
@@ -83001,7 +83458,7 @@
             {
                 "days": [
                     "Mon",
-                    "Fri"
+                    "Sat"
                 ],
                 "hours": [
                     [
@@ -83012,7 +83469,6 @@
             },
             {
                 "days": [
-                    "Sat",
                     "Sun"
                 ],
                 "hours": [
@@ -88540,6 +88996,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -88557,7 +89014,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/28823700",
         "watchlist_id": "28823700",
@@ -98665,6 +99123,7 @@
         ],
         "products": [
             "lpg",
+            "ad_blue",
             "super_e5",
             "super_98",
             "e10",
@@ -101583,7 +102042,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "23:59"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -102278,7 +102759,7 @@
     },
     {
         "id": "28734400",
-        "name": "Matthias Berkowsky",
+        "name": "Stefan Uhlig",
         "lat": 52.367852,
         "lng": 13.12857,
         "site_brand": "ARAL Tankstelle",
@@ -102293,6 +102774,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "recup",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -108906,11 +109388,22 @@
             {
                 "days": [
                     "Mon",
-                    "Sat"
+                    "Fri"
                 ],
                 "hours": [
                     [
                         "06:00",
+                        "23:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sat"
+                ],
+                "hours": [
+                    [
+                        "07:00",
                         "23:00"
                     ]
                 ]
@@ -111453,7 +111946,7 @@
         "lng": 13.371043,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "Schöneberger Str. / Alboi",
+        "address": "Schöneberger Straße 19-20",
         "city": "Berlin",
         "state": null,
         "postcode": "12103",
@@ -111952,6 +112445,7 @@
         "postcode": "15344",
         "telephone": "+49 3341 22321",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -111984,8 +112478,8 @@
                 ],
                 "hours": [
                     [
-                        "06:00",
-                        "22:00"
+                        "00:00",
+                        "23:59"
                     ]
                 ]
             }
@@ -112068,7 +112562,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "07:30",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -112601,6 +113117,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -112617,7 +113134,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/13131600",
         "watchlist_id": "13131600",
@@ -113843,7 +114361,7 @@
     },
     {
         "id": "28814500",
-        "name": "Rudolf Schloemer GmbH",
+        "name": "Autohaus Rudolf Schloemer GmbH",
         "lat": 52.860882,
         "lng": 7.328503,
         "site_brand": "ARAL Tankstelle",
@@ -113993,7 +114511,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "23:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "23:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -116476,7 +117016,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "09:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Thu"
                 ],
                 "hours": [
@@ -118252,6 +118814,7 @@
         "telephone": "+49 3301 530720",
         "facilities": [
             "car_wash",
+            "recup",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -118785,7 +119348,6 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
-            "lpg",
             "super_e5",
             "e10"
         ],
@@ -119327,7 +119889,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "20:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "10:00",
+                        "18:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -121297,6 +121881,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -121332,7 +121917,7 @@
     },
     {
         "id": "27003600",
-        "name": "Michael Walther",
+        "name": "Madeleine Walther-Schulz",
         "lat": 53.128937,
         "lng": 13.489475,
         "site_brand": "ARAL Tankstelle",
@@ -121347,10 +121932,8 @@
             "car_wash",
             "recup",
             "cash_point",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -123318,7 +123901,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -126191,8 +126796,19 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
-                    "Fri"
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue",
+                    "Thu"
                 ],
                 "hours": [
                     [
@@ -126203,23 +126819,13 @@
             },
             {
                 "days": [
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
+                    "Fri",
                     "Sun"
                 ],
                 "hours": [
                     [
                         "06:00",
-                        "23:59"
+                        "22:00"
                     ]
                 ]
             }
