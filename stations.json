@@ -292,7 +292,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -1915,7 +1914,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -2191,6 +2189,18 @@
             {
                 "days": [
                     "Mon",
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "10:00",
+                        "17:30"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -2593,23 +2603,13 @@
                 "hours": [
                     [
                         "06:00",
-                        "22:00"
+                        "21:00"
                     ]
                 ]
             },
             {
                 "days": [
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "07:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
+                    "Sat",
                     "Sun"
                 ],
                 "hours": [
@@ -3182,62 +3182,6 @@
         ]
     },
     {
-        "id": "19144300",
-        "name": "Johann Deisenhofer GmbH",
-        "lat": 47.738571,
-        "lng": 9.598375,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Friedrichshafener Straße 73",
-        "city": "Ravensburg",
-        "state": null,
-        "postcode": "88214",
-        "telephone": "+49 751 62384",
-        "facilities": [
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "lpg",
-            "ad_blue",
-            "super_e5",
-            "e10",
-            "truck_diesel"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/19144300",
-        "watchlist_id": "19144300",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "07:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "08:00",
-                        "22:00"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
         "id": "19144400",
         "name": "Johann Deisenhofer GmbH",
         "lat": 47.772072,
@@ -3402,59 +3346,6 @@
                     [
                         "08:00",
                         "21:00"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "id": "19144700",
-        "name": "Johann Deisenhofer GmbH",
-        "lat": 47.81205,
-        "lng": 9.64076,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Schussenstraße 10",
-        "city": "Weingarten",
-        "state": null,
-        "postcode": "88250",
-        "telephone": "+49 751 45623",
-        "facilities": [
-            "loyalty",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "ad_blue",
-            "super_e5",
-            "e10",
-            "truck_diesel"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/19144700",
-        "watchlist_id": "19144700",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "00:00",
-                        "23:59"
                     ]
                 ]
             }
@@ -5867,6 +5758,74 @@
         ]
     },
     {
+        "id": "15013300",
+        "name": "Oßwald GbR",
+        "lat": 48.01911,
+        "lng": 9.49707,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Herbertinger Straße 1",
+        "city": "Bad Saulgau",
+        "state": null,
+        "postcode": "88348",
+        "telephone": "+49 7581 488636",
+        "facilities": [
+            "recup",
+            "shop",
+            "bistro",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10",
+            "truck_diesel"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/15013300",
+        "watchlist_id": "15013300",
+        "opening_hours": [
+            {
+                "days": [
+                    "Mon",
+                    "Fri"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "23:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sat"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "23:30"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "23:00"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "id": "28581600",
         "name": "Dirk Ammann",
         "lat": 48.096917,
@@ -6376,7 +6335,7 @@
             {
                 "days": [
                     "Mon",
-                    "Fri"
+                    "Tue"
                 ],
                 "hours": [
                     [
@@ -6387,7 +6346,29 @@
             },
             {
                 "days": [
-                    "Sat",
+                    "Wed",
+                    "Fri"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sat"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
                     "Sun"
                 ],
                 "hours": [
@@ -8074,8 +8055,8 @@
                 ],
                 "hours": [
                     [
-                        "09:00",
-                        "19:00"
+                        "08:00",
+                        "21:00"
                     ]
                 ]
             }
@@ -9077,74 +9058,6 @@
         ]
     },
     {
-        "id": "15013300",
-        "name": "Oßwald GbR",
-        "lat": 48.01911,
-        "lng": 9.49707,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Herbertinger Straße 1",
-        "city": "Bad Saulgau",
-        "state": null,
-        "postcode": "88348",
-        "telephone": "+49 7581 488636",
-        "facilities": [
-            "recup",
-            "shop",
-            "bistro",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10",
-            "truck_diesel"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/15013300",
-        "watchlist_id": "15013300",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Fri"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "23:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "23:30"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "07:00",
-                        "23:00"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
         "id": "15005900",
         "name": "Dirk Ammann",
         "lat": 48.14829,
@@ -9315,6 +9228,58 @@
         ]
     },
     {
+        "id": "15061600",
+        "name": "Ibrahim Ilhan",
+        "lat": 48.320287,
+        "lng": 10.049629,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Kemptener Straße 61",
+        "city": "Senden",
+        "state": null,
+        "postcode": "89250",
+        "telephone": "+49 7307 5217",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "recup",
+            "shop",
+            "bistro",
+            "too_good_to_go",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/15061600",
+        "watchlist_id": "15061600",
+        "opening_hours": [
+            {
+                "days": [
+                    "Mon",
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "00:00",
+                        "23:59"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "id": "15057800",
         "name": "Thomas Kegreiß",
         "lat": 48.307509,
@@ -9354,58 +9319,6 @@
         ],
         "website": "http://tankstelle.aral.de/tankstelle/15057800",
         "watchlist_id": "15057800",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "00:00",
-                        "23:59"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "id": "15061600",
-        "name": "Ibrahim Ilhan",
-        "lat": 48.320287,
-        "lng": 10.049629,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Kemptener Straße 61",
-        "city": "Senden",
-        "state": null,
-        "postcode": "89250",
-        "telephone": "+49 7307 5217",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "recup",
-            "shop",
-            "bistro",
-            "too_good_to_go",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "vda",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/15061600",
-        "watchlist_id": "15061600",
         "opening_hours": [
             {
                 "days": [
@@ -9482,6 +9395,59 @@
                     [
                         "07:30",
                         "21:00"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "15114300",
+        "name": "Thomas Kegreiß",
+        "lat": 48.358242,
+        "lng": 9.970291,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Raiffeisenstraße 1",
+        "city": "Ulm",
+        "state": null,
+        "postcode": "89079",
+        "telephone": "+49 731 44488",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "recup",
+            "rewe_to_go",
+            "shop",
+            "bistro",
+            "too_good_to_go",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/15114300",
+        "watchlist_id": "15114300",
+        "opening_hours": [
+            {
+                "days": [
+                    "Mon",
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "00:00",
+                        "23:59"
                     ]
                 ]
             }
@@ -10207,7 +10173,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -12068,7 +12033,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -12091,6 +12055,60 @@
         ],
         "website": "http://tankstelle.aral.de/tankstelle/12143700",
         "watchlist_id": "12143700",
+        "opening_hours": [
+            {
+                "days": [
+                    "Mon",
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "00:00",
+                        "23:59"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "18119300",
+        "name": "Markus Burger",
+        "lat": 48.576097,
+        "lng": 7.818007,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Strassburger Straße 11a",
+        "city": "Kehl",
+        "state": null,
+        "postcode": "77694",
+        "telephone": "+49 7851 958081",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "recup",
+            "rewe_to_go",
+            "shop",
+            "bistro",
+            "too_good_to_go",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10",
+            "truck_diesel"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/18119300",
+        "watchlist_id": "18119300",
         "opening_hours": [
             {
                 "days": [
@@ -12180,60 +12198,6 @@
         ],
         "website": "http://tankstelle.aral.de/tankstelle/18119600",
         "watchlist_id": "18119600",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "00:00",
-                        "23:59"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "id": "18119300",
-        "name": "Markus Burger",
-        "lat": 48.576097,
-        "lng": 7.818007,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Strassburger Straße 11a",
-        "city": "Kehl",
-        "state": null,
-        "postcode": "77694",
-        "telephone": "+49 7851 958081",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "recup",
-            "rewe_to_go",
-            "shop",
-            "bistro",
-            "too_good_to_go",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "vda",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10",
-            "truck_diesel"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/18119300",
-        "watchlist_id": "18119300",
         "opening_hours": [
             {
                 "days": [
@@ -12453,7 +12417,7 @@
             {
                 "days": [
                     "Mon",
-                    "Fri"
+                    "Sat"
                 ],
                 "hours": [
                     [
@@ -12464,7 +12428,6 @@
             },
             {
                 "days": [
-                    "Sat",
                     "Sun"
                 ],
                 "hours": [
@@ -13181,32 +13144,26 @@
         ]
     },
     {
-        "id": "15114300",
-        "name": "Thomas Kegreiß",
-        "lat": 48.358242,
-        "lng": 9.970291,
+        "id": "28567100",
+        "name": "Auto Weiss GmbH",
+        "lat": 48.582309,
+        "lng": 9.368684,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "Raiffeisenstraße 1",
-        "city": "Ulm",
+        "address": "Theodor Heuss Straße 20",
+        "city": "Frickenhausen",
         "state": null,
-        "postcode": "89079",
-        "telephone": "+49 731 44488",
+        "postcode": "72636",
+        "telephone": "+49 7025 2555",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
-            "rewe_to_go",
             "shop",
-            "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
             "special_car_wash",
-            "vda",
             "open_saturday",
             "open_sunday"
         ],
@@ -13216,8 +13173,100 @@
             "super_e5",
             "e10"
         ],
-        "website": "http://tankstelle.aral.de/tankstelle/15114300",
-        "watchlist_id": "15114300",
+        "website": "http://tankstelle.aral.de/tankstelle/28567100",
+        "watchlist_id": "28567100",
+        "opening_hours": [
+            {
+                "days": [
+                    "Mon",
+                    "Thu"
+                ],
+                "hours": [
+                    [
+                        "06:30",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Fri"
+                ],
+                "hours": [
+                    [
+                        "06:30",
+                        "21:30"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sat"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "21:30"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "08:30",
+                        "21:00"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "15121800",
+        "name": "Ibrahim Ilhan",
+        "lat": 48.516101,
+        "lng": 9.75969,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Nellinger Straße 24",
+        "city": "Merklingen",
+        "state": null,
+        "postcode": "89188",
+        "telephone": "+49 7337 9233029",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "electric_charging",
+            "truck_parking",
+            "recup",
+            "rewe_to_go",
+            "shop",
+            "bistro",
+            "too_good_to_go",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "natural_gas",
+            "lpg",
+            "ad_blue",
+            "super_e5",
+            "e10",
+            "truck_diesel",
+            "electric_charging"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/15121800",
+        "watchlist_id": "15121800",
         "opening_hours": [
             {
                 "days": [
@@ -13271,66 +13320,6 @@
         ],
         "website": "http://tankstelle.aral.de/tankstelle/28597300",
         "watchlist_id": "28597300",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "00:00",
-                        "23:59"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "id": "15121800",
-        "name": "Ibrahim Ilhan",
-        "lat": 48.516101,
-        "lng": 9.75969,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Nellinger Straße 24",
-        "city": "Merklingen",
-        "state": null,
-        "postcode": "89188",
-        "telephone": "+49 7337 9233029",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "electric_charging",
-            "truck_parking",
-            "recup",
-            "cash_point",
-            "rewe_to_go",
-            "shop",
-            "bistro",
-            "too_good_to_go",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "natural_gas",
-            "lpg",
-            "ad_blue",
-            "super_e5",
-            "e10",
-            "truck_diesel",
-            "electric_charging"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/15121800",
-        "watchlist_id": "15121800",
         "opening_hours": [
             {
                 "days": [
@@ -13509,6 +13498,73 @@
                     [
                         "07:00",
                         "22:00"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "28561700",
+        "name": "Adolf Präg GmbH&Co. KG",
+        "lat": 48.581652,
+        "lng": 9.684212,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Bahnhofstraße 4-8",
+        "city": "Bad Ditzenbach",
+        "state": null,
+        "postcode": "73342",
+        "telephone": "+49 7335 5304",
+        "facilities": [
+            "car_wash",
+            "shop",
+            "bistro",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "super_e5",
+            "super_98",
+            "e10",
+            "truck_diesel"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/28561700",
+        "watchlist_id": "28561700",
+        "opening_hours": [
+            {
+                "days": [
+                    "Mon",
+                    "Fri"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sat"
+                ],
+                "hours": [
+                    [
+                        "07:30",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "07:30",
+                        "20:00"
                     ]
                 ]
             }
@@ -13931,7 +13987,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -16534,86 +16589,6 @@
         ]
     },
     {
-        "id": "28567100",
-        "name": "Auto Weiss GmbH",
-        "lat": 48.582309,
-        "lng": 9.368684,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Theodor Heuss Straße 20",
-        "city": "Frickenhausen",
-        "state": null,
-        "postcode": "72636",
-        "telephone": "+49 7025 2555",
-        "facilities": [
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "shop",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/28567100",
-        "watchlist_id": "28567100",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Thu"
-                ],
-                "hours": [
-                    [
-                        "06:30",
-                        "21:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Fri"
-                ],
-                "hours": [
-                    [
-                        "06:30",
-                        "21:30"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "07:00",
-                        "21:30"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "08:30",
-                        "21:00"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
         "id": "15122600",
         "name": "STEGRU GmbH",
         "lat": 48.615639,
@@ -16793,6 +16768,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "cash_point",
             "rewe_to_go",
@@ -16814,7 +16790,8 @@
             "ad_blue",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/19124500",
         "watchlist_id": "19124500",
@@ -17243,73 +17220,6 @@
                     [
                         "07:00",
                         "22:00"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "id": "28561700",
-        "name": "Adolf Präg GmbH&Co. KG",
-        "lat": 48.581652,
-        "lng": 9.684212,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Bahnhofstraße 4-8",
-        "city": "Bad Ditzenbach",
-        "state": null,
-        "postcode": "73342",
-        "telephone": "+49 7335 5304",
-        "facilities": [
-            "car_wash",
-            "shop",
-            "bistro",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "super_e5",
-            "super_98",
-            "e10",
-            "truck_diesel"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/28561700",
-        "watchlist_id": "28561700",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Fri"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "07:30",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "07:30",
-                        "20:00"
                     ]
                 ]
             }
@@ -23439,7 +23349,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -23907,7 +23816,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -27954,7 +27862,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -30298,7 +30205,6 @@
         "telephone": "+49 7066 915353",
         "facilities": [
             "truck_parking",
-            "cash_point",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -31905,7 +31811,8 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon"
+                    "Mon",
+                    "Sat"
                 ],
                 "hours": [
                     [
@@ -31916,7 +31823,6 @@
             },
             {
                 "days": [
-                    "Tue",
                     "Sun"
                 ],
                 "hours": [
@@ -32125,6 +32031,17 @@
             {
                 "days": [
                     "Mon",
+                    "Sat"
+                ],
+                "hours": [
+                    [
+                        "00:00",
+                        "23:59"
+                    ]
+                ]
+            },
+            {
+                "days": [
                     "Sun"
                 ],
                 "hours": [
@@ -32275,7 +32192,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -35617,18 +35533,7 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Tue",
+                    "Mon",
                     "Fri"
                 ],
                 "hours": [
@@ -35640,22 +35545,12 @@
             },
             {
                 "days": [
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
+                    "Sat",
                     "Sun"
                 ],
                 "hours": [
                     [
-                        "07:00",
+                        "06:00",
                         "22:00"
                     ]
                 ]
@@ -35753,6 +35648,18 @@
             {
                 "days": [
                     "Mon",
+                    "Fri"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sat",
                     "Sun"
                 ],
                 "hours": [
@@ -36026,7 +35933,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -37184,7 +37090,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -37312,7 +37217,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -39134,7 +39038,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -39561,7 +39464,6 @@
         "postcode": "09456",
         "telephone": "+49 3733 51015",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "recup",
             "shop",
@@ -39585,12 +39487,35 @@
             {
                 "days": [
                     "Mon",
-                    "Sun"
+                    "Thu"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Fri",
+                    "Sat"
                 ],
                 "hours": [
                     [
                         "00:00",
                         "23:59"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "06:30",
+                        "21:00"
                     ]
                 ]
             }
@@ -40203,7 +40128,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -41104,19 +41028,29 @@
                 "hours": [
                     [
                         "06:00",
-                        "21:00"
+                        "22:00"
                     ]
                 ]
             },
             {
                 "days": [
-                    "Sat",
-                    "Sun"
+                    "Sat"
                 ],
                 "hours": [
                     [
                         "07:00",
-                        "21:00"
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "22:00"
                     ]
                 ]
             }
@@ -41316,6 +41250,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -41333,7 +41268,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/28359900",
         "watchlist_id": "28359900",
@@ -42542,7 +42478,6 @@
         "facilities": [
             "open_24_hours",
             "electric_charging",
-            "truck_parking",
             "recup",
             "rewe_to_go",
             "shop",
@@ -43504,7 +43439,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -46036,7 +45970,6 @@
         "telephone": "+49 611 700710",
         "facilities": [
             "recup",
-            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -46097,7 +46030,6 @@
         "facilities": [
             "open_24_hours",
             "recup",
-            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -49717,7 +49649,6 @@
         "facilities": [
             "open_24_hours",
             "recup",
-            "cash_point",
             "motorway_site",
             "rewe_to_go",
             "shop",
@@ -52676,7 +52607,6 @@
         "facilities": [
             "open_24_hours",
             "recup",
-            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -52724,7 +52654,6 @@
         "facilities": [
             "open_24_hours",
             "recup",
-            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -53035,7 +52964,6 @@
         "facilities": [
             "open_24_hours",
             "recup",
-            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -53615,6 +53543,7 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -53632,7 +53561,8 @@
             "ad_blue",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/12167900",
         "watchlist_id": "12167900",
@@ -53764,7 +53694,6 @@
         "facilities": [
             "open_24_hours",
             "recup",
-            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -54471,11 +54400,22 @@
             {
                 "days": [
                     "Mon",
-                    "Sun"
+                    "Sat"
                 ],
                 "hours": [
                     [
                         "06:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "08:00",
                         "22:00"
                     ]
                 ]
@@ -54923,7 +54863,6 @@
         "postcode": "09648",
         "telephone": "+49 3727 90602",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -54951,7 +54890,40 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "00:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "23:59"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Thu",
                     "Sun"
                 ],
                 "hours": [
@@ -56429,7 +56401,6 @@
             "open_24_hours",
             "car_wash",
             "recup",
-            "bistro",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -59755,7 +59726,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -60090,7 +60060,7 @@
                 ],
                 "hours": [
                     [
-                        "05:00",
+                        "06:00",
                         "21:00"
                     ]
                 ]
@@ -60125,7 +60095,6 @@
             "open_24_hours",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -66346,6 +66315,8 @@
         "telephone": "+49 2203 371622",
         "facilities": [
             "open_24_hours",
+            "car_wash",
+            "car_wash_plant",
             "jet_wash",
             "super_wash",
             "recup",
@@ -67679,7 +67650,6 @@
         "postcode": "35083",
         "telephone": "+49 6423 92110",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -67710,8 +67680,8 @@
                 ],
                 "hours": [
                     [
-                        "00:00",
-                        "23:59"
+                        "06:00",
+                        "21:00"
                     ]
                 ]
             }
@@ -68526,7 +68496,6 @@
         "facilities": [
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -75180,6 +75149,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -75197,7 +75167,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/28280700",
         "watchlist_id": "28280700",
@@ -78175,8 +78146,8 @@
                 ],
                 "hours": [
                     [
-                        "10:00",
-                        "18:00"
+                        "09:00",
+                        "20:00"
                     ]
                 ]
             }
@@ -84763,7 +84734,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -85705,7 +85675,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -86198,7 +86167,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -86759,7 +86727,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -88053,6 +88020,54 @@
         ],
         "website": "http://tankstelle.aral.de/tankstelle/27040500",
         "watchlist_id": "27040500",
+        "opening_hours": [
+            {
+                "days": [
+                    "Mon",
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "00:00",
+                        "23:59"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "27019700",
+        "name": "Sven Marquardt",
+        "lat": 52.140165,
+        "lng": 14.634248,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Karl-Marx-Straße 67",
+        "city": "Eisenhüttenstadt",
+        "state": null,
+        "postcode": "15890",
+        "telephone": "+49 3364 44953",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "recup",
+            "cash_point",
+            "rewe_to_go",
+            "shop",
+            "bistro",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "super_e5",
+            "super_98",
+            "e10"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/27019700",
+        "watchlist_id": "27019700",
         "opening_hours": [
             {
                 "days": [
@@ -94555,7 +94570,6 @@
             "open_24_hours",
             "electric_charging",
             "recup",
-            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -94606,7 +94620,6 @@
         "facilities": [
             "open_24_hours",
             "electric_charging",
-            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -94729,54 +94742,6 @@
         ],
         "website": "http://tankstelle.aral.de/tankstelle/27047600",
         "watchlist_id": "27047600",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "00:00",
-                        "23:59"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "id": "27019700",
-        "name": "Sven Marquardt",
-        "lat": 52.140165,
-        "lng": 14.634248,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Karl-Marx-Straße 67",
-        "city": "Eisenhüttenstadt",
-        "state": null,
-        "postcode": "15890",
-        "telephone": "+49 3364 44953",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "recup",
-            "cash_point",
-            "rewe_to_go",
-            "shop",
-            "bistro",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "super_e5",
-            "super_98",
-            "e10"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/27019700",
-        "watchlist_id": "27019700",
         "opening_hours": [
             {
                 "days": [
@@ -99529,7 +99494,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -101271,19 +101235,29 @@
                 "hours": [
                     [
                         "06:00",
-                        "20:30"
+                        "22:00"
                     ]
                 ]
             },
             {
                 "days": [
-                    "Sat",
+                    "Sat"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
                     "Sun"
                 ],
                 "hours": [
                     [
                         "08:00",
-                        "20:30"
+                        "22:00"
                     ]
                 ]
             }
@@ -103201,7 +103175,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -103458,7 +103431,6 @@
         "facilities": [
             "open_24_hours",
             "motorway_site",
-            "loyalty",
             "open_saturday",
             "open_sunday"
         ],
@@ -104773,7 +104745,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -105177,8 +105148,6 @@
         "facilities": [
             "open_24_hours",
             "truck_parking",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
             "loyalty",
             "open_saturday",
             "open_sunday"
@@ -105766,7 +105735,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -106240,7 +106208,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -107009,7 +106976,6 @@
             "open_24_hours",
             "electric_charging",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -108938,8 +108904,18 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
-                    "Sat"
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
                 ],
                 "hours": [
                     [
@@ -108950,12 +108926,24 @@
             },
             {
                 "days": [
+                    "Wed",
+                    "Sat"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
                     "Sun"
                 ],
                 "hours": [
                     [
                         "08:00",
-                        "23:00"
+                        "22:00"
                     ]
                 ]
             }
@@ -110286,7 +110274,6 @@
             "open_24_hours",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -110427,17 +110414,6 @@
                     [
                         "07:00",
                         "14:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "07:00",
-                        "21:00"
                     ]
                 ]
             }
@@ -113282,7 +113258,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -113392,7 +113367,6 @@
             "super_wash",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -114082,7 +114056,6 @@
             "open_24_hours",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -115757,7 +115730,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -116305,7 +116277,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -116877,7 +116848,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -119238,7 +119208,6 @@
             "truck_parking",
             "truck_wash",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -121078,7 +121047,6 @@
             "truck_parking",
             "truck_wash",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -122564,7 +122532,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -123864,7 +123831,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -124754,6 +124720,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -125241,18 +125208,7 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon"
-                ],
-                "hours": [
-                    [
-                        "07:00",
-                        "21:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Tue",
+                    "Mon",
                     "Fri"
                 ],
                 "hours": [
@@ -125536,6 +125492,7 @@
             "open_24_hours",
             "car_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "too_good_to_go",
