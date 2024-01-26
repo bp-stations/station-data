@@ -4,26 +4,31 @@ from pathlib import Path
 from json import load, dumps
 import argparse
 
-empty_sitemap_start = """<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">"""
+empty_sitemap_start = """<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">"""
 
 empty_sitemap_end = "</urlset>"
 
-empty_site = """<url>
+empty_site = """
+<url>
     <loc>{}</loc>
     <lastmod>{}</lastmod>
+    <changefreq>weekly</changefreq>
 </url>"""
 
 base_url = "https://tankpreise.uk/station/{}"
+
 
 def load_json(file):
     f = open(file, encoding="utf8")
     return load(f)
 
+
 station_path = Path(__file__).parent.absolute().joinpath('./out/stations_min.json')
 output_path = Path(__file__).parent.absolute().joinpath('./out/sitemap.xml')
 output_path_facilities = Path(__file__).parent.absolute().joinpath('./out/facilities.json')
 output_path_fuel = Path(__file__).parent.absolute().joinpath('./out/fuel.json')
+
 
 def generate_sitemap():
     station_data = load_json(station_path)
@@ -33,6 +38,7 @@ def generate_sitemap():
         for station in station_data:
             f.write(empty_site.format(base_url.format(station["id"]), now))
         f.write(empty_sitemap_end)
+
 
 def export_facilities():
     station_data = load_json(station_path)
@@ -45,6 +51,7 @@ def export_facilities():
     with open(output_path_facilities, "w+") as f:
         f.write(dumps(unique_facilities, indent=4))
 
+
 def export_fuel():
     station_data = load_json(station_path)
     unique_fuel = []
@@ -55,6 +62,7 @@ def export_fuel():
 
     with open(output_path_fuel, "w+") as f:
         f.write(dumps(unique_fuel, indent=4))
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="generator")
