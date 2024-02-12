@@ -1,50 +1,5 @@
 [
     {
-        "id": "18123100",
-        "name": "ATR Südbaden GmbH",
-        "lat": 47.600207,
-        "lng": 7.603025,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "A 5",
-        "city": "Weil am Rhein",
-        "state": null,
-        "postcode": "79576",
-        "telephone": "+49 7621 16361980",
-        "facilities": [
-            "open_24_hours",
-            "motorway_site",
-            "loyalty",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "ad_blue",
-            "super_e5",
-            "super_98",
-            "e10",
-            "truck_diesel"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/18123100",
-        "watchlist_id": "18123100",
-        "formatted_address": "A 5\nWeil am Rhein\n79576",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "00:00",
-                        "23:59"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
         "id": "23052100",
         "name": "Anna Stanusch",
         "lat": 47.562824,
@@ -303,6 +258,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -1508,6 +1464,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -1747,6 +1704,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -2276,7 +2234,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "10:00",
+                        "17:30"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "09:00",
+                        "14:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -2546,6 +2526,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -3223,6 +3204,51 @@
         ]
     },
     {
+        "id": "18123100",
+        "name": "ATR Südbaden GmbH",
+        "lat": 47.600207,
+        "lng": 7.603025,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "A 5",
+        "city": "Weil am Rhein",
+        "state": null,
+        "postcode": "79576",
+        "telephone": "+49 7621 16361980",
+        "facilities": [
+            "open_24_hours",
+            "motorway_site",
+            "loyalty",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ad_blue",
+            "super_e5",
+            "super_98",
+            "e10",
+            "truck_diesel"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/18123100",
+        "watchlist_id": "18123100",
+        "formatted_address": "A 5\nWeil am Rhein\n79576",
+        "opening_hours": [
+            {
+                "days": [
+                    "Mon",
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "00:00",
+                        "23:59"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
         "id": "23033700",
         "name": "Autohaus Manske GmbH&Co.KG",
         "lat": 47.633867,
@@ -3517,6 +3543,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -4373,6 +4400,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -4904,6 +4932,7 @@
         "telephone": "+49 761 21720504",
         "facilities": [
             "recup",
+            "cash_point",
             "rewe_to_go",
             "bistro",
             "too_good_to_go",
@@ -6475,6 +6504,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -6771,18 +6801,6 @@
             {
                 "days": [
                     "Mon",
-                    "Wed"
-                ],
-                "hours": [
-                    [
-                        "05:00",
-                        "22:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Thu",
                     "Fri"
                 ],
                 "hours": [
@@ -7115,6 +7133,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -7227,6 +7246,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -7335,6 +7355,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -7390,6 +7411,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -7445,6 +7467,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -7770,6 +7793,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -8004,6 +8028,7 @@
             "electric_charging",
             "truck_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -8058,6 +8083,70 @@
                     [
                         "06:00",
                         "23:00"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "23018200",
+        "name": "Christian Stöcks",
+        "lat": 48.216332,
+        "lng": 7.779243,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Hauptstraße 106 A",
+        "city": "Herbolzheim",
+        "state": null,
+        "postcode": "79336",
+        "telephone": "+49 7643 4230",
+        "facilities": [
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "recup",
+            "shop",
+            "bistro",
+            "too_good_to_go",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/23018200",
+        "watchlist_id": "23018200",
+        "formatted_address": "Hauptstraße 106 A\nHerbolzheim\n79336",
+        "opening_hours": [
+            {
+                "days": [
+                    "Mon",
+                    "Sat"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "21:30"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "21:30"
                     ]
                 ]
             }
@@ -8125,70 +8214,6 @@
                     [
                         "08:00",
                         "21:00"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
-        "id": "23018200",
-        "name": "Christian Stöcks",
-        "lat": 48.216332,
-        "lng": 7.779243,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Hauptstraße 106 A",
-        "city": "Herbolzheim",
-        "state": null,
-        "postcode": "79336",
-        "telephone": "+49 7643 4230",
-        "facilities": [
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "recup",
-            "shop",
-            "bistro",
-            "too_good_to_go",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "vda",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/23018200",
-        "watchlist_id": "23018200",
-        "formatted_address": "Hauptstraße 106 A\nHerbolzheim\n79336",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "21:30"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "07:00",
-                        "21:30"
                     ]
                 ]
             }
@@ -8368,18 +8393,7 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "18:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Tue",
+                    "Mon",
                     "Fri"
                 ],
                 "hours": [
@@ -8407,7 +8421,7 @@
                 "hours": [
                     [
                         "06:00",
-                        "18:00"
+                        "22:00"
                     ]
                 ]
             }
@@ -8511,7 +8525,7 @@
             {
                 "days": [
                     "Mon",
-                    "Wed"
+                    "Fri"
                 ],
                 "hours": [
                     [
@@ -8522,24 +8536,12 @@
             },
             {
                 "days": [
-                    "Thu",
-                    "Fri"
-                ],
-                "hours": [
-                    [
-                        "06:30",
-                        "21:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
                     "Sat"
                 ],
                 "hours": [
                     [
-                        "07:00",
-                        "21:00"
+                        "08:00",
+                        "20:00"
                     ]
                 ]
             },
@@ -8550,7 +8552,7 @@
                 "hours": [
                     [
                         "09:00",
-                        "19:00"
+                        "14:00"
                     ]
                 ]
             }
@@ -8608,6 +8610,60 @@
                     [
                         "08:00",
                         "20:00"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "28429200",
+        "name": "Oel-Heimburger GmbH",
+        "lat": 48.34032,
+        "lng": 8.024665,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Hauptstraße 41",
+        "city": "Biberach",
+        "state": null,
+        "postcode": "77781",
+        "telephone": "+49 7835 3925",
+        "facilities": [
+            "car_wash",
+            "shop",
+            "loyalty",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "super_e5",
+            "super_98",
+            "e10"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/28429200",
+        "watchlist_id": "28429200",
+        "formatted_address": "Hauptstraße 41\nBiberach\n77781",
+        "opening_hours": [
+            {
+                "days": [
+                    "Mon",
+                    "Fri"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "19:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sat"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "18:00"
                     ]
                 ]
             }
@@ -10178,6 +10234,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -10631,6 +10688,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -10810,6 +10868,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -10918,6 +10977,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -11081,6 +11141,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -11196,6 +11257,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -11990,6 +12052,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -12211,60 +12274,6 @@
         ]
     },
     {
-        "id": "28429200",
-        "name": "Oel-Heimburger GmbH",
-        "lat": 48.34032,
-        "lng": 8.024665,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Hauptstraße 41",
-        "city": "Biberach",
-        "state": null,
-        "postcode": "77781",
-        "telephone": "+49 7835 3925",
-        "facilities": [
-            "car_wash",
-            "shop",
-            "loyalty",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "super_e5",
-            "super_98",
-            "e10"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/28429200",
-        "watchlist_id": "28429200",
-        "formatted_address": "Hauptstraße 41\nBiberach\n77781",
-        "opening_hours": [
-            {
-                "days": [
-                    "Mon",
-                    "Fri"
-                ],
-                "hours": [
-                    [
-                        "07:00",
-                        "19:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sat"
-                ],
-                "hours": [
-                    [
-                        "08:00",
-                        "18:00"
-                    ]
-                ]
-            }
-        ]
-    },
-    {
         "id": "15129100",
         "name": "Bernd Weber GmbH&Co. KG",
         "lat": 48.399732,
@@ -12433,6 +12442,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -12659,7 +12669,7 @@
                 "hours": [
                     [
                         "05:30",
-                        "21:00"
+                        "20:00"
                     ]
                 ]
             },
@@ -12669,8 +12679,8 @@
                 ],
                 "hours": [
                     [
-                        "06:00",
-                        "21:00"
+                        "07:00",
+                        "20:00"
                     ]
                 ]
             },
@@ -12803,7 +12813,6 @@
         "postcode": "72202",
         "telephone": "+49 7452 3562",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -12834,11 +12843,22 @@
             {
                 "days": [
                     "Mon",
-                    "Sun"
+                    "Sat"
                 ],
                 "hours": [
                     [
                         "00:00",
+                        "23:59"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "06:00",
                         "23:59"
                     ]
                 ]
@@ -13359,6 +13379,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -13474,6 +13495,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -13972,6 +13994,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -14150,7 +14173,6 @@
         "postcode": "86368",
         "telephone": "+49 821 42092000",
         "facilities": [
-            "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
             "open_saturday",
@@ -14280,6 +14302,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -14386,6 +14409,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -14442,6 +14466,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -15168,6 +15193,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -15296,6 +15322,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -15403,6 +15430,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -15420,7 +15448,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/28422300",
         "watchlist_id": "28422300",
@@ -16261,6 +16290,7 @@
         "telephone": "+49 7841 24099",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -16878,6 +16908,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -17280,6 +17311,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -17526,6 +17558,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -18672,6 +18705,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -18779,6 +18813,7 @@
         "telephone": "+49 8751 5838",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -18849,6 +18884,7 @@
         "postcode": "84061",
         "telephone": "+49 8771 1345",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -18878,23 +18914,12 @@
             {
                 "days": [
                     "Mon",
-                    "Sat"
+                    "Sun"
                 ],
                 "hours": [
                     [
                         "00:00",
                         "23:59"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "22:00"
                     ]
                 ]
             }
@@ -18918,6 +18943,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -19323,7 +19349,18 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "13:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue",
                     "Fri"
                 ],
                 "hours": [
@@ -19672,6 +19709,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -19842,6 +19880,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -19945,6 +19984,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -20173,7 +20213,7 @@
         "city": "Karlsbad-Ittersbach",
         "state": null,
         "postcode": "76307",
-        "telephone": "+49 7248 934163",
+        "telephone": "+49 7248 9267093",
         "facilities": [
             "loyalty",
             "open_saturday",
@@ -20521,6 +20561,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -20856,6 +20897,7 @@
         "facilities": [
             "open_24_hours",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -20964,6 +21006,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -21412,7 +21455,6 @@
         "postcode": "73660",
         "telephone": "+49 7181 981808",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -21443,12 +21485,23 @@
             {
                 "days": [
                     "Mon",
-                    "Sun"
+                    "Sat"
                 ],
                 "hours": [
                     [
                         "00:00",
                         "23:59"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "23:00"
                     ]
                 ]
             }
@@ -21955,6 +22008,7 @@
         "facilities": [
             "car_wash",
             "car_wash_plant",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -22468,6 +22522,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -22577,6 +22632,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -22911,6 +22967,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -23498,6 +23555,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -23847,6 +23905,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -24013,6 +24072,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -24070,6 +24130,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -24558,6 +24619,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -24673,6 +24735,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -24782,6 +24845,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -25079,6 +25143,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -25135,6 +25200,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -25669,7 +25735,7 @@
         "city": "Merkendorf",
         "state": null,
         "postcode": "91732",
-        "telephone": "+49 9826 655222",
+        "telephone": "+49 9826 65520",
         "facilities": [
             "open_24_hours",
             "car_wash",
@@ -26834,6 +26900,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -27672,6 +27739,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -27853,6 +27921,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -27920,6 +27989,7 @@
             "super_wash",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -28715,6 +28785,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -28887,6 +28958,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -28941,6 +29013,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -29091,6 +29164,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -29147,6 +29221,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -30412,6 +30487,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -31277,6 +31353,7 @@
         "facilities": [
             "open_24_hours",
             "truck_parking",
+            "cash_point",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -31330,6 +31407,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -31594,6 +31672,7 @@
         "postcode": "74199",
         "telephone": "+49 7131 976124",
         "facilities": [
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -31656,6 +31735,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -32289,6 +32369,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -32466,6 +32547,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -32637,6 +32719,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -32693,6 +32776,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -32870,6 +32954,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -33176,6 +33261,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -34627,6 +34713,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -34793,6 +34880,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -35203,6 +35291,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -36443,6 +36532,7 @@
             "open_24_hours",
             "electric_charging",
             "truck_parking",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -36769,6 +36859,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -37495,6 +37586,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -37618,6 +37710,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -37996,6 +38089,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -38127,6 +38221,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -38437,6 +38532,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -40269,6 +40365,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -40384,6 +40481,7 @@
         "telephone": "+49 9251 80710",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -40577,6 +40675,7 @@
         "postcode": "08340",
         "telephone": "+49 3774 86350",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -40605,23 +40704,12 @@
             {
                 "days": [
                     "Mon",
-                    "Sat"
+                    "Sun"
                 ],
                 "hours": [
                     [
                         "00:00",
                         "23:59"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "06:30",
-                        "21:00"
                     ]
                 ]
             }
@@ -40665,7 +40753,7 @@
             {
                 "days": [
                     "Mon",
-                    "Fri"
+                    "Tue"
                 ],
                 "hours": [
                     [
@@ -40676,7 +40764,18 @@
             },
             {
                 "days": [
-                    "Sat",
+                    "Wed",
+                    "Sat"
+                ],
+                "hours": [
+                    [
+                        "00:00",
+                        "23:59"
+                    ]
+                ]
+            },
+            {
+                "days": [
                     "Sun"
                 ],
                 "hours": [
@@ -40720,29 +40819,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
-                    "Wed"
+                    "Mon"
                 ],
                 "hours": [
                     [
-                        "07:00",
-                        "21:00"
+                        "08:00",
+                        "12:00"
                     ]
                 ]
             },
             {
                 "days": [
-                    "Thu"
+                    "Tue"
                 ],
                 "hours": [
                     [
-                        "07:00",
-                        "18:00"
+                        "08:00",
+                        "16:00"
                     ]
                 ]
             },
             {
                 "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -40760,17 +40859,6 @@
                     [
                         "08:00",
                         "21:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "10:00",
-                        "18:00"
                     ]
                 ]
             }
@@ -41349,6 +41437,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -42358,6 +42447,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -42576,6 +42666,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -42632,6 +42723,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -42973,6 +43065,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -43319,6 +43412,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -43413,7 +43507,18 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "05:00",
+                        "13:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue",
                     "Fri"
                 ],
                 "hours": [
@@ -43902,6 +44007,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -44327,6 +44433,7 @@
         "telephone": "+49 3741 137066",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -44645,6 +44752,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -44757,7 +44865,9 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -44776,7 +44886,8 @@
             "ultimate_diesel",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/27023600",
         "watchlist_id": "27023600",
@@ -44814,6 +44925,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -44924,6 +45036,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -45030,6 +45143,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -45196,6 +45310,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -45245,6 +45360,7 @@
         "telephone": "+49 351 2015155",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -45309,6 +45425,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -45470,6 +45587,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -45594,6 +45712,7 @@
         "telephone": "+49 3581 78180",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -45627,13 +45746,23 @@
             },
             {
                 "days": [
-                    "Sat",
-                    "Sun"
+                    "Sat"
                 ],
                 "hours": [
                     [
                         "06:00",
                         "21:30"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "18:00"
                     ]
                 ]
             }
@@ -45851,7 +45980,18 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "18:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue",
                     "Fri"
                 ],
                 "hours": [
@@ -46408,7 +46548,29 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "20:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "16:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Fri"
                 ],
                 "hours": [
@@ -46529,6 +46691,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -46644,6 +46807,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -46894,6 +47058,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -46980,12 +47145,22 @@
             },
             {
                 "days": [
-                    "Sat",
-                    "Sun"
+                    "Sat"
                 ],
                 "hours": [
                     [
                         "06:00",
+                        "23:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "08:00",
                         "23:00"
                     ]
                 ]
@@ -47121,6 +47296,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -47212,6 +47388,7 @@
         "telephone": "+49 611 700710",
         "facilities": [
             "recup",
+            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -47274,6 +47451,7 @@
         "facilities": [
             "open_24_hours",
             "recup",
+            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -47383,6 +47561,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -47957,6 +48136,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -48075,6 +48255,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -48384,6 +48565,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -48440,6 +48622,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -48552,6 +48735,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -48785,6 +48969,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -48891,6 +49076,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -49631,6 +49817,18 @@
             {
                 "days": [
                     "Mon",
+                    "Tue"
+                ],
+                "hours": [
+                    [
+                        "09:00",
+                        "19:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Wed",
                     "Sat"
                 ],
                 "hours": [
@@ -49917,6 +50115,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -49974,6 +50173,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -50287,7 +50487,7 @@
             {
                 "days": [
                     "Mon",
-                    "Thu"
+                    "Fri"
                 ],
                 "hours": [
                     [
@@ -50298,23 +50498,12 @@
             },
             {
                 "days": [
-                    "Fri"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "20:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
                     "Sat"
                 ],
                 "hours": [
                     [
                         "07:00",
-                        "20:00"
+                        "19:00"
                     ]
                 ]
             },
@@ -50410,6 +50599,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -50534,6 +50724,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -50591,7 +50782,7 @@
         "lng": 12.374233,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "Greizer Straße 1",
+        "address": "Greizer Straße 11",
         "city": "Werdau",
         "state": null,
         "postcode": "08412",
@@ -50614,7 +50805,7 @@
         ],
         "website": "http://tankstelle.aral.de/tankstelle/27074500",
         "watchlist_id": "27074500",
-        "formatted_address": "Greizer Straße 1\nWerdau\n08412",
+        "formatted_address": "Greizer Straße 11\nWerdau\n08412",
         "opening_hours": [
             {
                 "days": [
@@ -50661,6 +50852,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -50886,6 +51078,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -50938,6 +51131,7 @@
         "postcode": "09114",
         "telephone": "+49 371 3301680",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -50970,23 +51164,12 @@
             {
                 "days": [
                     "Mon",
-                    "Sat"
+                    "Sun"
                 ],
                 "hours": [
                     [
                         "00:00",
                         "23:59"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "07:00",
-                        "21:30"
                     ]
                 ]
             }
@@ -51132,6 +51315,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -51186,6 +51370,7 @@
         "facilities": [
             "open_24_hours",
             "recup",
+            "cash_point",
             "motorway_site",
             "rewe_to_go",
             "shop",
@@ -51237,6 +51422,7 @@
         "facilities": [
             "open_24_hours",
             "recup",
+            "cash_point",
             "motorway_site",
             "rewe_to_go",
             "shop",
@@ -51293,6 +51479,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -51409,6 +51596,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -51702,6 +51890,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -51921,6 +52110,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -51989,6 +52179,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -52666,17 +52857,6 @@
             {
                 "days": [
                     "Mon",
-                    "Wed"
-                ],
-                "hours": [
-                    [
-                        "04:00",
-                        "21:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
                     "Thu"
                 ],
                 "hours": [
@@ -52715,7 +52895,7 @@
                 "hours": [
                     [
                         "08:00",
-                        "21:00"
+                        "20:00"
                     ]
                 ]
             }
@@ -53071,6 +53251,7 @@
             "ultimate",
             "ultimate_diesel",
             "lpg",
+            "ad_blue",
             "super_e5",
             "e10",
             "truck_diesel"
@@ -53112,6 +53293,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -53328,6 +53510,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -53445,6 +53628,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -53519,7 +53703,8 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon"
+                    "Mon",
+                    "Fri"
                 ],
                 "hours": [
                     [
@@ -53530,23 +53715,11 @@
             },
             {
                 "days": [
-                    "Tue",
-                    "Fri"
-                ],
-                "hours": [
-                    [
-                        "06:00",
-                        "21:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
                     "Sat"
                 ],
                 "hours": [
                     [
-                        "07:00",
+                        "08:00",
                         "20:00"
                     ]
                 ]
@@ -54271,6 +54444,7 @@
         "facilities": [
             "open_24_hours",
             "recup",
+            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -54320,6 +54494,7 @@
         "facilities": [
             "open_24_hours",
             "recup",
+            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -54427,6 +54602,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -54641,6 +54817,7 @@
         "facilities": [
             "open_24_hours",
             "recup",
+            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -54877,6 +55054,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -54932,6 +55110,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -54987,6 +55166,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "bistro",
             "too_good_to_go",
@@ -55096,6 +55276,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -55272,6 +55453,7 @@
         "facilities": [
             "open_24_hours",
             "recup",
+            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -55741,12 +55923,35 @@
             {
                 "days": [
                     "Mon",
-                    "Sun"
+                    "Thu"
+                ],
+                "hours": [
+                    [
+                        "11:00",
+                        "19:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Fri",
+                    "Sat"
                 ],
                 "hours": [
                     [
                         "06:00",
                         "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sun"
+                ],
+                "hours": [
+                    [
+                        "11:00",
+                        "19:00"
                     ]
                 ]
             }
@@ -55863,7 +56068,18 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "06:00",
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue",
                     "Fri"
                 ],
                 "hours": [
@@ -56018,6 +56234,7 @@
         "facilities": [
             "car_wash",
             "recup",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -56128,6 +56345,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -56193,6 +56411,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -56263,6 +56482,7 @@
             "super_wash",
             "truck_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -56620,6 +56840,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -56676,6 +56897,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -56730,6 +56952,7 @@
             "open_24_hours",
             "car_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -56942,24 +57165,24 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
-                    "Wed"
+                    "Mon"
                 ],
                 "hours": [
                     [
-                        "05:00",
-                        "21:00"
+                        "08:00",
+                        "16:00"
                     ]
                 ]
             },
             {
                 "days": [
+                    "Tue",
                     "Thu"
                 ],
                 "hours": [
                     [
                         "05:00",
-                        "19:00"
+                        "21:00"
                     ]
                 ]
             },
@@ -56992,7 +57215,7 @@
                 "hours": [
                     [
                         "08:00",
-                        "22:00"
+                        "19:00"
                     ]
                 ]
             }
@@ -57119,7 +57342,9 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -57137,7 +57362,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/20033600",
         "watchlist_id": "20033600",
@@ -57175,6 +57401,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -57540,6 +57767,7 @@
         "telephone": "+49 2423 1745",
         "facilities": [
             "car_wash",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -57671,6 +57899,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -57988,7 +58217,18 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue",
                     "Sat"
                 ],
                 "hours": [
@@ -58709,6 +58949,7 @@
             "open_24_hours",
             "car_wash",
             "car_wash_plant",
+            "cash_point",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -59147,6 +59388,7 @@
         "telephone": "+49 2684 978878",
         "facilities": [
             "car_wash",
+            "cash_point",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -59275,6 +59517,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -59463,6 +59706,7 @@
         "telephone": "+49 2680 442",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -59522,6 +59766,7 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
+            "cash_point",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -60007,6 +60252,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -60061,6 +60307,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -60127,6 +60374,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -60189,6 +60437,7 @@
         "telephone": "+49 6172 450201",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -60982,6 +61231,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -61036,6 +61286,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -61063,23 +61314,12 @@
             {
                 "days": [
                     "Mon",
-                    "Sat"
+                    "Sun"
                 ],
                 "hours": [
                     [
                         "07:00",
                         "23:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Sun"
-                ],
-                "hours": [
-                    [
-                        "00:00",
-                        "23:59"
                     ]
                 ]
             }
@@ -61207,6 +61447,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -61494,6 +61735,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -61607,6 +61849,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -61713,6 +61956,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -61878,6 +62122,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -61989,6 +62234,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -62042,6 +62288,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -62215,7 +62462,18 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "08:00",
+                        "15:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue",
                     "Fri"
                 ],
                 "hours": [
@@ -62227,8 +62485,7 @@
             },
             {
                 "days": [
-                    "Sat",
-                    "Sun"
+                    "Sat"
                 ],
                 "hours": [
                     [
@@ -62322,7 +62579,18 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "14:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue",
                     "Fri"
                 ],
                 "hours": [
@@ -62365,6 +62633,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -62478,6 +62747,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -62534,6 +62804,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -62644,6 +62915,7 @@
         "telephone": "+49 2232 941130",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -63089,6 +63361,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -63922,6 +64195,7 @@
         "telephone": "+49 2741 7278",
         "facilities": [
             "car_wash",
+            "cash_point",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -64905,6 +65179,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -66065,6 +66340,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -66242,6 +66518,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -66432,6 +66709,7 @@
             "ultimate",
             "ultimate_diesel",
             "lpg",
+            "ad_blue",
             "super_e5",
             "e10",
             "truck_diesel"
@@ -66608,6 +66886,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -66836,6 +67115,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -67036,7 +67316,18 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon",
+                    "Mon"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "14:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Tue",
                     "Fri"
                 ],
                 "hours": [
@@ -67321,6 +67612,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -67607,6 +67899,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -67662,6 +67955,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -67777,6 +68071,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -67832,6 +68127,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -67946,6 +68242,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -68125,6 +68422,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -68367,6 +68665,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -68964,6 +69263,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -69159,6 +69459,7 @@
             "open_24_hours",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -69572,6 +69873,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -70445,6 +70747,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -70687,6 +70990,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -71301,6 +71605,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -71795,6 +72100,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -71975,6 +72281,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -72267,6 +72574,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -72379,6 +72687,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -72434,6 +72743,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -72539,6 +72849,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -72760,6 +73071,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -74859,6 +75171,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -75166,6 +75479,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -75225,6 +75539,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -75604,6 +75919,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -75660,6 +75976,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -75863,6 +76180,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -75938,6 +76256,7 @@
             "open_24_hours",
             "car_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -76011,7 +76330,7 @@
                 "hours": [
                     [
                         "06:00",
-                        "22:00"
+                        "20:30"
                     ]
                 ]
             },
@@ -76022,7 +76341,7 @@
                 "hours": [
                     [
                         "07:00",
-                        "22:00"
+                        "20:30"
                     ]
                 ]
             }
@@ -76103,6 +76422,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -76161,6 +76481,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -76217,6 +76538,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -76406,6 +76728,7 @@
         "facilities": [
             "car_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -76467,6 +76790,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -76813,6 +77137,7 @@
             "open_24_hours",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -77049,6 +77374,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -77106,6 +77432,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -77162,6 +77489,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -77695,6 +78023,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -77876,6 +78205,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -78018,7 +78348,6 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
-            "natural_gas",
             "super_e5",
             "e10"
         ],
@@ -78058,6 +78387,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -78876,6 +79206,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -78930,6 +79261,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -79463,6 +79795,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -79627,6 +79960,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -80322,6 +80656,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -80434,6 +80769,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -80629,6 +80965,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -81358,6 +81695,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -81650,6 +81988,7 @@
         "telephone": "+49 2903 97120",
         "facilities": [
             "car_wash",
+            "cash_point",
             "bistro",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -82958,6 +83297,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -83169,6 +83509,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -83223,6 +83564,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -83240,6 +83582,7 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
+            "ad_blue",
             "super_e5",
             "e10",
             "truck_diesel",
@@ -83443,6 +83786,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -83497,6 +83841,7 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -83610,6 +83955,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -83906,6 +84252,7 @@
         "telephone": "+49 341 2323185",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -83981,6 +84328,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -84036,6 +84384,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -84264,8 +84613,8 @@
                 ],
                 "hours": [
                     [
-                        "06:00",
-                        "20:00"
+                        "07:00",
+                        "19:00"
                     ]
                 ]
             }
@@ -84289,6 +84638,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -84344,6 +84694,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -84490,6 +84841,7 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -84653,6 +85005,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -84714,6 +85067,7 @@
         "telephone": "+49 2151 730295",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -84789,6 +85143,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -84921,6 +85276,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -85075,6 +85431,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -85142,6 +85499,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -85250,6 +85608,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -85306,6 +85665,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -85416,6 +85776,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -85472,6 +85833,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -85586,6 +85948,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -85706,6 +86069,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -85930,12 +86294,23 @@
             {
                 "days": [
                     "Mon",
-                    "Sat"
+                    "Fri"
                 ],
                 "hours": [
                     [
                         "06:00",
-                        "22:00"
+                        "21:00"
+                    ]
+                ]
+            },
+            {
+                "days": [
+                    "Sat"
+                ],
+                "hours": [
+                    [
+                        "07:00",
+                        "21:00"
                     ]
                 ]
             },
@@ -85945,8 +86320,8 @@
                 ],
                 "hours": [
                     [
-                        "07:00",
-                        "22:00"
+                        "08:00",
+                        "21:00"
                     ]
                 ]
             }
@@ -86191,6 +86566,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -86309,6 +86685,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -86443,6 +86820,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -86498,6 +86876,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -86555,6 +86934,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -86610,6 +86990,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -86898,6 +87279,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87277,6 +87659,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87334,6 +87717,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87389,6 +87773,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87447,6 +87832,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87716,6 +88102,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87770,6 +88157,7 @@
             "jet_wash",
             "super_wash",
             "electric_charging",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -88396,6 +88784,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -88753,7 +89142,7 @@
                 ],
                 "hours": [
                     [
-                        "08:00",
+                        "07:00",
                         "20:30"
                     ]
                 ]
@@ -88980,6 +89369,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -89053,29 +89443,7 @@
         "opening_hours": [
             {
                 "days": [
-                    "Mon"
-                ],
-                "hours": [
-                    [
-                        "06:30",
-                        "20:30"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Tue"
-                ],
-                "hours": [
-                    [
-                        "06:30",
-                        "21:00"
-                    ]
-                ]
-            },
-            {
-                "days": [
-                    "Wed",
+                    "Mon",
                     "Fri"
                 ],
                 "hours": [
@@ -89611,6 +89979,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -89907,6 +90276,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -90064,6 +90434,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -90120,6 +90491,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -90501,6 +90873,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -90928,6 +91301,7 @@
             "open_24_hours",
             "car_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -91555,7 +91929,6 @@
         "postcode": "46562",
         "telephone": "+49 2855 93022",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -91591,8 +91964,8 @@
                 ],
                 "hours": [
                     [
-                        "00:00",
-                        "23:59"
+                        "05:00",
+                        "23:00"
                     ]
                 ]
             }
@@ -91616,6 +91989,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -91963,6 +92337,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -92017,6 +92392,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -92074,6 +92450,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -92366,6 +92743,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -92444,6 +92822,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -92635,6 +93014,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -92756,6 +93136,7 @@
             "open_24_hours",
             "car_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -92980,6 +93361,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -93037,6 +93419,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -93162,6 +93545,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -93401,6 +93785,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -93458,6 +93843,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -93513,6 +93899,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -93622,6 +94009,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -93876,6 +94264,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -93931,6 +94320,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -94144,6 +94534,7 @@
         "facilities": [
             "open_24_hours",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -94268,6 +94659,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -94675,6 +95067,7 @@
         "telephone": "+49 2361 26544",
         "facilities": [
             "car_wash",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -95055,6 +95448,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -96692,6 +97086,7 @@
         "telephone": "+49 5531 93510",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -97041,6 +97436,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -97789,6 +98185,7 @@
         "facilities": [
             "open_24_hours",
             "electric_charging",
+            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -97842,6 +98239,7 @@
             "open_24_hours",
             "electric_charging",
             "recup",
+            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -97897,6 +98295,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -97949,6 +98348,7 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -99648,7 +100048,7 @@
         "city": "Bielefeld",
         "state": null,
         "postcode": "33719",
-        "telephone": "+49 5208 9592215",
+        "telephone": "+49 5208 3448210",
         "facilities": [
             "open_24_hours",
             "motorway_site",
@@ -99701,6 +100101,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -100268,6 +100669,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -100420,6 +100822,7 @@
         "telephone": "+49 5751 5275",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -100493,6 +100896,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -100816,6 +101220,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -101468,6 +101873,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -101522,6 +101928,7 @@
             "open_24_hours",
             "car_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -101576,6 +101983,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -102092,6 +102500,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -102208,6 +102617,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -102495,6 +102905,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -102550,6 +102961,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -102604,6 +103016,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -102821,6 +103234,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -102976,6 +103390,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -103033,6 +103448,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -103147,6 +103563,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -103200,6 +103617,7 @@
         "telephone": "+49 335 64190",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -103663,6 +104081,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -103775,6 +104194,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -104400,6 +104820,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -105617,6 +106038,7 @@
         "telephone": "+49 5721 3360",
         "facilities": [
             "open_24_hours",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -105718,6 +106140,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -105773,6 +106196,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -105979,6 +106403,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -106036,6 +106461,7 @@
             "electric_charging",
             "recup",
             "cash_point",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -106294,6 +106720,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -106408,6 +106835,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -106791,6 +107219,7 @@
             "open_24_hours",
             "car_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -106911,6 +107340,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -107070,6 +107500,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -107180,6 +107611,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -107511,6 +107943,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -107565,6 +107998,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -107620,6 +108054,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -107785,6 +108220,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -107906,6 +108342,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -107963,6 +108400,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -108012,6 +108450,7 @@
         "telephone": "+49 30 6614212",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -108073,6 +108512,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -108126,6 +108566,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -108349,6 +108790,7 @@
         "telephone": "+49 3362 24701",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -108433,6 +108875,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -108486,6 +108929,7 @@
             "open_24_hours",
             "car_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -108539,6 +108983,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -108594,6 +109039,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -109589,6 +110035,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -110011,6 +110458,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -110135,6 +110583,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -110243,6 +110692,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -110510,6 +110960,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -110568,6 +111019,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -110584,6 +111036,7 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
+            "lpg",
             "ad_blue",
             "super_e5",
             "e10",
@@ -110768,7 +111221,9 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -110785,7 +111240,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/16096500",
         "watchlist_id": "16096500",
@@ -110823,6 +111279,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -110936,6 +111393,7 @@
             "open_24_hours",
             "electric_charging",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -111084,6 +111542,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -111500,6 +111959,7 @@
         "telephone": "+49 3931 796822",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -111623,6 +112083,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -111680,6 +112141,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -111734,6 +112196,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -111893,6 +112356,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -111947,6 +112411,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -112001,6 +112466,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -112218,6 +112684,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -112277,6 +112744,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -112334,6 +112802,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "bistro",
             "too_good_to_go",
@@ -112390,6 +112859,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -112500,6 +112970,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -113632,6 +114103,7 @@
         "postcode": "29339",
         "telephone": "+49 5144 681",
         "facilities": [
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -113705,6 +114177,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -113865,6 +114338,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -114134,6 +114608,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -114244,6 +114719,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -114344,6 +114820,7 @@
             "open_24_hours",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -115069,6 +115546,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -115468,6 +115946,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -115645,6 +116124,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -115802,6 +116282,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -115951,6 +116432,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -116006,6 +116488,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -116060,7 +116543,9 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -116079,7 +116564,8 @@
             "ultimate_diesel",
             "ad_blue",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/11034300",
         "watchlist_id": "11034300",
@@ -116172,6 +116658,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -116226,6 +116713,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -116279,6 +116767,7 @@
             "open_24_hours",
             "car_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -116436,7 +116925,9 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -116455,7 +116946,8 @@
             "natural_gas",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/27003800",
         "watchlist_id": "27003800",
@@ -116847,6 +117339,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -116954,6 +117447,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -117427,6 +117921,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -117536,6 +118031,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -117594,6 +118090,7 @@
             "super_wash",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -117651,6 +118148,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -117762,6 +118260,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -117818,6 +118317,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -118293,6 +118793,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -118559,6 +119060,7 @@
             "jet_wash",
             "super_wash",
             "truck_wash",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -118720,6 +119222,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -118800,6 +119303,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -118908,6 +119412,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -119745,6 +120250,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -120068,6 +120574,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -120259,6 +120766,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -120629,6 +121137,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -120685,6 +121194,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -120805,6 +121315,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -120937,6 +121448,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -121302,6 +121814,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -121455,6 +121968,7 @@
             "open_24_hours",
             "car_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -121560,6 +122074,7 @@
             "open_24_hours",
             "car_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -122030,6 +122545,7 @@
             "open_24_hours",
             "car_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -122355,7 +122871,7 @@
     },
     {
         "id": "13142700",
-        "name": "Tanja Mählmann",
+        "name": "Johanna Reumann",
         "lat": 53.526613,
         "lng": 8.065767,
         "site_brand": "ARAL Tankstelle",
@@ -122372,10 +122888,8 @@
             "super_wash",
             "recup",
             "cash_point",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -122547,6 +123061,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -122601,6 +123116,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -122650,7 +123166,6 @@
         "postcode": "27574",
         "telephone": "+49 471 35219",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -122681,8 +123196,8 @@
                 ],
                 "hours": [
                     [
-                        "00:00",
-                        "23:59"
+                        "05:00",
+                        "22:00"
                     ]
                 ]
             }
@@ -122940,6 +123455,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -123258,6 +123774,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -123315,6 +123832,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -123752,6 +124270,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -123807,6 +124326,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -123970,6 +124490,7 @@
             "truck_parking",
             "truck_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -124028,6 +124549,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -124378,6 +124900,7 @@
             "car_wash",
             "car_wash_plant",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -124600,6 +125123,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -124865,6 +125389,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -124921,6 +125446,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -125380,6 +125906,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -125543,6 +126070,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -125773,6 +126301,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -125883,6 +126412,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -125994,6 +126524,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -126049,6 +126580,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -126290,6 +126822,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -126345,6 +126878,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -126706,6 +127240,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -126815,6 +127350,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -127039,6 +127575,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -127097,6 +127634,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -127202,6 +127740,7 @@
         "telephone": "+49 3821 811922",
         "facilities": [
             "car_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -127486,7 +128025,7 @@
     },
     {
         "id": "13070700",
-        "name": "Selami Kocpinar",
+        "name": "Gamze Selin Kilinc",
         "lat": 53.959975,
         "lng": 9.007651,
         "site_brand": "ARAL Tankstelle",
@@ -127503,7 +128042,6 @@
             "recup",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -127664,6 +128202,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -127721,6 +128260,7 @@
             "truck_parking",
             "truck_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -127834,6 +128374,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -128062,6 +128603,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -128432,6 +128974,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -128860,6 +129403,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -128972,6 +129516,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -129077,6 +129622,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -129134,6 +129680,7 @@
             "jet_wash",
             "super_wash",
             "electric_charging",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -129244,6 +129791,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -129319,6 +129867,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -129907,6 +130456,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -130072,6 +130622,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -130267,6 +130818,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -130544,6 +131096,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -130596,6 +131149,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -130650,6 +131204,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -130706,6 +131261,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -130938,6 +131494,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
