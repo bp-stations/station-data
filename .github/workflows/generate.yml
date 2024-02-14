@@ -13,14 +13,11 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
-      - uses: denoland/setup-deno@v1
-        with:
-          deno-version: v1.x
       - uses: actions/setup-python@v4
         with:
           python-version: '3.11' 
-      - name: generate stations.json
-        run: deno task run
+      - name: generate stations.json & stations_min.json
+        run: python get.py
       - name: generate aral.db
         run: python database.py
       - name: generate fuel.json
