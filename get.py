@@ -5,7 +5,7 @@ import os
 
 in_ci = os.getenv("CI") == "true"
 
-print(in_ci)
+print(f"ci status {in_ci}")
 
 bounds_request = ("https://tankstellenfinder.aral.de/api/v1/locations/within_bounds?sw[]={}&sw[]={}&ne[]={}&ne[]={"
                   "}&autoload=true&travel_mode=driving&avoid_tolls=false&avoid_highways=false&show_stations_on_route"
