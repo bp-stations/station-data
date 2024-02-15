@@ -18,8 +18,6 @@ jobs:
         with:
           python-version: '3.12'
           cache: 'pip'
-      - name: install requests
-        run: pip install requests
       - name: generate all station data
         run: python get.py
       - name: generate aral.db
