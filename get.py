@@ -34,29 +34,53 @@ def get_stations(sw1, sw2, ne1, ne2):
 
 
 if __name__ == "__main__":
-    # all
-    # get_locations(-90, -180, 90, 180)
-    # germany
-    get_stations(45.1, -4.9, 57.6, 29.2)
-
+    # """Get all locations World Wide"""
+    # get_stations(-90, -180, 90, 180)
+    with open("./out/stations.json", "r") as f:
+        stations = json.loads(f.read())
     print(f"got {len(stations)} stations")
 
-    unique_objects = []
-    seen_ids = set()
+    # unique_objects = []
+    # seen_ids = set()
 
+    # for data in stations:
+    #     current_id = data["id"]
+
+    #     if current_id not in seen_ids:
+    #        unique_objects.append(data)
+    #        seen_ids.add(current_id)
+
+    #"""Worldwide stations"""
+    #print(f"got {len(unique_objects)} worldwide stations")
+    #with open("./out/stations_min.json", "w+") as f:
+    #    f.write(json.dumps(unique_objects))
+
+    #with open("./out/stations.json", "w+") as f:
+    #    f.write(json.dumps(unique_objects, indent=4))
+
+    """Stations by Country found"""
+    countries = []
+    unique_countries = set()
     for data in stations:
-        """We want to deduplicate all stations here and apply the following filters
-        - only german stations
-        - only Aral (not BP)"""
-        current_id = data["id"]
+        """Get all countries that exists in stations data"""
+        country = data["country_code"]
 
-        if current_id not in seen_ids and data["site_brand"] == "ARAL Tankstelle" and data["country_code"] == "DE":
-            unique_objects.append(data)
-            seen_ids.add(current_id)
+        if country not in unique_countries:
+            countries.append(country)
+            unique_countries.add(country)
 
-    print(f"got {len(unique_objects)} deduplicated and filtered stations")
-    with open("./out/stations_min.json", "w+") as f:
-        f.write(json.dumps(unique_objects))
+    for country in countries:
+        """Create files for all countries"""
+        tmp_stations = []
+        for data in stations:
+            if data["country_code"] == country:
+                tmp_stations.append(data)
 
-    with open("./out/stations.json", "w+") as f:
-        f.write(json.dumps(unique_objects, indent=4))
+        print(f"got {len(tmp_stations)} stations for country {country}")
+
+        with open(f"./out/stations_{country}.json", "w+") as f:
+            f.write(json.dumps(tmp_stations, indent=4))
+
+        with open(f"./out/stations_{country}_min.json", "w+") as f:
+            f.write(json.dumps(tmp_stations, indent=4))
+
