@@ -46,8 +46,8 @@ if __name__ == "__main__":
     with open("./out/README.md", "w+") as readme:
         readme.writelines(f"""This is the data for BP stations like aral.\n
 
-    # Stats\n\r
-    Total station count: {len(stations)}\n""")
+# Stats\n\r
+Total station count: {len(stations)}\n""")
         print(f"got {len(stations)} stations")
 
         unique_objects = []
