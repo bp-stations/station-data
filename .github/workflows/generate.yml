@@ -45,7 +45,7 @@ jobs:
         env:
             SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
         with:
-          source-directory: 'out/'
+          source-directory: 'out/other'
           destination-repository-name: 'aral-prices'
           destination-github-username: 'nickwasused'
           user-email: github.lix1s@simplelogin.co
