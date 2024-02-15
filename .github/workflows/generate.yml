@@ -20,7 +20,7 @@ jobs:
           cache: 'pip'
       - name: install requests
         run: pip install requests
-      - name: generate stations.json & stations_min.json
+      - name: generate all station data
         run: python get.py
       - name: generate aral.db
         run: python database.py
