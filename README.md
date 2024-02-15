@@ -2,6 +2,23 @@
 
 Generate a JSON list of all [BP](https://www.bp.com/) Gas Stations.
 
+# Structure
+
+````commandline
+/
+    /get.py # gets all stations and automatically sorts them in /out
+    /generator.py # generates the following files in /out/other: sitemap.xml, facilities.json and fuel.json
+    /database.py # generates a sqlite3 file based on "stations_ARAL Tankstelle_min.json" which is used in "aral-prices"
+````
+
+## Usage
+
+Install the dependencies with ``pip install -r requirements.txt``  
+Then you can get all gas stations by running ``python3 get.py``  
+The data will be in the ``/out`` folder.
+
+# Data
+
 The stations are divided by Brand and Country.
 
 Directory structure:
@@ -18,7 +35,7 @@ out/
     /other # used in another project
 ````
 
-There is always a ``_min.json`` available that has the whole JSON on a single line.  
+There is always a ``_min.json`` available (e.g. `stations_min.json`) that has the whole JSON on a single line.  
 Use the default file for better readability.
 
 You can find the data [here](https://github.com/aral-preise/aral-station-data/tree/gh-pages).
