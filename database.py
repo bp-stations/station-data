@@ -11,7 +11,7 @@ def load_json(file):
     return load(f)
 
 
-station_path = Path(__file__).parent.absolute().joinpath('./out/stations_min.json')
+station_path = Path(__file__).parent.absolute().joinpath('./out/brands/stations_ARAL Tankstelle_min.json')
 output_path = Path(__file__).parent.absolute().joinpath('./out/aral.db')
 
 station_query = ("CREATE TABLE IF NOT EXISTS `stations`(id INTEGER PRIMARY KEY, name TEXT NOT NULL, lat FLOAT NOT "
