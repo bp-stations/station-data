@@ -24,3 +24,14 @@ Use the default file for better readability.
 You can find the data [here](https://github.com/aral-preise/aral-station-data/tree/gh-pages).
 
 There is also a README.md in the data that has basic stats.
+
+# Data accuracy
+
+The data may not be accurate as the script calls the [gas station locator API](https://mein.aral.de/tankstellenfinder/) and this can be prone to errors.  
+  
+Please note that there may be stations missing!
+
+# Data updated
+
+The data is updated by [this](https://github.com/aral-preise/aral-station-data/blob/main/.github/workflows/generate.yml) GitHub action.  
+The version is automatically bumped by [this](https://github.com/aral-preise/aral-station-data/blob/main/.github/workflows/version.yml) GitHub action on cron '0 2 * * 1'.
