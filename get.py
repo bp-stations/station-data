@@ -42,80 +42,92 @@ def get_stations(sw1, sw2, ne1, ne2):
 if __name__ == "__main__":
     """Get all locations World Wide"""
     get_stations(-90, -180, 90, 180)
-    with open("out/all/stations.json", "r") as f:
-        stations = json.loads(f.read())
-    print(f"got {len(stations)} stations")
 
-    unique_objects = []
-    seen_ids = set()
+    with open("./out/README.md", "w+") as readme:
+        readme.writelines(f"""This is the data for BP stations like aral.\n
 
-    for data in stations:
-        current_id = data["id"]
+    # Stats\n\r
+    Total station count: {len(stations)}\n""")
+        print(f"got {len(stations)} stations")
 
-        if current_id not in seen_ids:
-            unique_objects.append(data)
-            seen_ids.add(current_id)
+        unique_objects = []
+        seen_ids = set()
 
-    """Worldwide stations"""
-    print(f"got {len(unique_objects)} worldwide stations")
-    with open("./out/all/stations_min.json", "w+") as f:
-        f.write(json.dumps(unique_objects))
-
-    with open("./out/all/stations.json", "w+") as f:
-        f.write(json.dumps(unique_objects, indent=4))
-
-    """Stations by Country found"""
-    countries = []
-    unique_countries = set()
-    for data in stations:
-        """Get all countries that exists in stations data"""
-        country = data["country_code"]
-
-        if country not in unique_countries:
-            countries.append(country)
-            unique_countries.add(country)
-
-    print(f"got the following countries: {countries}")
-
-    for country in countries:
-        """Create files for all countries"""
-        tmp_stations = []
         for data in stations:
-            if data["country_code"] == country:
-                tmp_stations.append(data)
+            current_id = data["id"]
 
-        print(f"got {len(tmp_stations)} stations for country {country}")
+            if current_id not in seen_ids:
+                unique_objects.append(data)
+                seen_ids.add(current_id)
 
-        with open(f"./out/countries/stations_{country}.json", "w+") as f:
-            f.write(json.dumps(tmp_stations, indent=4))
+        """Worldwide stations"""
+        print(f"got {len(unique_objects)} worldwide stations")
+        with open("./out/all/stations_min.json", "w+") as f:
+            f.write(json.dumps(unique_objects))
 
-        with open(f"./out/countries/stations_{country}_min.json", "w+") as f:
-            f.write(json.dumps(tmp_stations))
+        with open("./out/all/stations.json", "w+") as f:
+            f.write(json.dumps(unique_objects, indent=4))
 
-    """Stations by Brand found"""
-    brands = []
-    unique_brands = set()
-    for data in stations:
-        """Get all countries that exists in stations data"""
-        brand = data["site_brand"]
-
-        if brand not in unique_brands:
-            brands.append(brand)
-            unique_brands.add(brand)
-
-    print(f"got the following brands: {brands}")
-
-    for brand in brands:
-        """Create files for all countries"""
-        tmp_stations = []
+        """Stations by Country found"""
+        countries = []
+        unique_countries = set()
         for data in stations:
-            if data["site_brand"] == brand:
-                tmp_stations.append(data)
+            """Get all countries that exists in stations data"""
+            country = data["country_code"]
 
-        print(f"got {len(tmp_stations)} stations for Brand {brand}")
+            if country not in unique_countries:
+                countries.append(country)
+                unique_countries.add(country)
 
-        with open(f"./out/brands/stations_{brand}.json", "w+") as f:
-            f.write(json.dumps(tmp_stations, indent=4))
+        print(f"got the following countries: {countries}")
+        readme.writelines(f"""## By Country\n
+| Country | Count
+| - | - \n""")
 
-        with open(f"./out/brands/stations_{brand}_min.json", "w+") as f:
-            f.write(json.dumps(tmp_stations))
+        for country in countries:
+            """Create files for all countries"""
+            tmp_stations = []
+            for data in stations:
+                if data["country_code"] == country:
+                    tmp_stations.append(data)
+
+            print(f"got {len(tmp_stations)} stations for country {country}")
+            readme.write(f"| {country} | {len(tmp_stations)}\n")
+
+            with open(f"./out/countries/stations_{country}.json", "w+") as f:
+                f.write(json.dumps(tmp_stations, indent=4))
+
+            with open(f"./out/countries/stations_{country}_min.json", "w+") as f:
+                f.write(json.dumps(tmp_stations))
+
+        """Stations by Brand found"""
+        brands = []
+        unique_brands = set()
+        for data in stations:
+            """Get all countries that exists in stations data"""
+            brand = data["site_brand"]
+
+            if brand not in unique_brands:
+                brands.append(brand)
+                unique_brands.add(brand)
+
+        print(f"got the following brands: {brands}")
+        readme.writelines(f"""## By Brand\n
+| Brand | Count
+| - | - \n""")
+
+        for brand in brands:
+            """Create files for all countries"""
+            tmp_stations = []
+            for data in stations:
+                if data["site_brand"] == brand:
+                    tmp_stations.append(data)
+
+            print(f"got {len(tmp_stations)} stations for Brand {brand}")
+            readme.write(f"| {brand} | {len(tmp_stations)}\n")
+
+            with open(f"./out/brands/stations_{brand}.json", "w+") as f:
+                f.write(json.dumps(tmp_stations, indent=4))
+
+            with open(f"./out/brands/stations_{brand}_min.json", "w+") as f:
+                f.write(json.dumps(tmp_stations))
