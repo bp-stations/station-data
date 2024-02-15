@@ -19,7 +19,7 @@ def get_stations(sw1, sw2, ne1, ne2):
     for entry in first_data:
         if "size" in entry:
             tmp_sub_data = get_bounds(entry["bounds"]["sw"][0], entry["bounds"]["sw"][1], entry["bounds"]["ne"][0],
-                           entry["bounds"]["ne"][1])
+                                      entry["bounds"]["ne"][1])
             for tmp in tmp_sub_data:
                 if "size" in tmp:
                     print(f"getting new stations on bounds {tmp["bounds"]["sw"][0]}, {tmp["bounds"]["sw"][1]}, "
@@ -34,29 +34,29 @@ def get_stations(sw1, sw2, ne1, ne2):
 
 
 if __name__ == "__main__":
-    # """Get all locations World Wide"""
-    # get_stations(-90, -180, 90, 180)
-    with open("./out/stations.json", "r") as f:
+    """Get all locations World Wide"""
+    get_stations(-90, -180, 90, 180)
+    with open("out/all/stations.json", "r") as f:
         stations = json.loads(f.read())
     print(f"got {len(stations)} stations")
 
-    # unique_objects = []
-    # seen_ids = set()
+    unique_objects = []
+    seen_ids = set()
 
-    # for data in stations:
-    #     current_id = data["id"]
+    for data in stations:
+        current_id = data["id"]
 
-    #     if current_id not in seen_ids:
-    #        unique_objects.append(data)
-    #        seen_ids.add(current_id)
+        if current_id not in seen_ids:
+            unique_objects.append(data)
+            seen_ids.add(current_id)
 
-    #"""Worldwide stations"""
-    #print(f"got {len(unique_objects)} worldwide stations")
-    #with open("./out/stations_min.json", "w+") as f:
-    #    f.write(json.dumps(unique_objects))
+    """Worldwide stations"""
+    print(f"got {len(unique_objects)} worldwide stations")
+    with open("./out/all/stations_min.json", "w+") as f:
+        f.write(json.dumps(unique_objects))
 
-    #with open("./out/stations.json", "w+") as f:
-    #    f.write(json.dumps(unique_objects, indent=4))
+    with open("./out/all/stations.json", "w+") as f:
+        f.write(json.dumps(unique_objects, indent=4))
 
     """Stations by Country found"""
     countries = []
@@ -69,6 +69,8 @@ if __name__ == "__main__":
             countries.append(country)
             unique_countries.add(country)
 
+    print(f"got the following countries: {countries}")
+
     for country in countries:
         """Create files for all countries"""
         tmp_stations = []
@@ -78,9 +80,36 @@ if __name__ == "__main__":
 
         print(f"got {len(tmp_stations)} stations for country {country}")
 
-        with open(f"./out/stations_{country}.json", "w+") as f:
+        with open(f"./out/countries/stations_{country}.json", "w+") as f:
             f.write(json.dumps(tmp_stations, indent=4))
 
-        with open(f"./out/stations_{country}_min.json", "w+") as f:
+        with open(f"./out/countries/stations_{country}_min.json", "w+") as f:
+            f.write(json.dumps(tmp_stations))
+
+    """Stations by Brand found"""
+    brands = []
+    unique_brands = set()
+    for data in stations:
+        """Get all countries that exists in stations data"""
+        brand = data["site_brand"]
+
+        if brand not in unique_brands:
+            brands.append(brand)
+            unique_brands.add(brand)
+
+    print(f"got the following brands: {brands}")
+
+    for brand in brands:
+        """Create files for all countries"""
+        tmp_stations = []
+        for data in stations:
+            if data["site_brand"] == brand:
+                tmp_stations.append(data)
+
+        print(f"got {len(tmp_stations)} stations for Brand {brand}")
+
+        with open(f"./out/brands/stations_{brand}.json", "w+") as f:
             f.write(json.dumps(tmp_stations, indent=4))
 
+        with open(f"./out/brands/stations_{brand}_min.json", "w+") as f:
+            f.write(json.dumps(tmp_stations))

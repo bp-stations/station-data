@@ -24,10 +24,10 @@ def load_json(file):
     return load(f)
 
 
-station_path = Path(__file__).parent.absolute().joinpath('./out/stations_min.json')
-output_path = Path(__file__).parent.absolute().joinpath('./out/sitemap.xml')
-output_path_facilities = Path(__file__).parent.absolute().joinpath('./out/facilities.json')
-output_path_fuel = Path(__file__).parent.absolute().joinpath('./out/fuel.json')
+station_path = Path(__file__).parent.absolute().joinpath('./out/brands/stations_ARAL Tankstelle_min.json')
+output_path = Path(__file__).parent.absolute().joinpath('./out/other/sitemap.xml')
+output_path_facilities = Path(__file__).parent.absolute().joinpath('./out/other/facilities.json')
+output_path_fuel = Path(__file__).parent.absolute().joinpath('./out/other/fuel.json')
 
 
 def generate_sitemap():
@@ -44,9 +44,9 @@ def export_facilities():
     station_data = load_json(station_path)
     unique_facilities = []
     for station in station_data:
-        for facilitie in station["facilities"]:
-            if facilitie not in unique_facilities:
-                unique_facilities.append(facilitie)
+        for facility in station["facilities"]:
+            if facility not in unique_facilities:
+                unique_facilities.append(facility)
 
     with open(output_path_facilities, "w+") as f:
         f.write(dumps(unique_facilities, indent=4))
@@ -61,7 +61,7 @@ def export_fuel():
                 unique_fuel.append(fuel)
 
     with open(output_path_fuel, "w+") as f:
-        f.write(dumps(unique_fuel, indent=4))
+        f.write(dumps(unique_fuel))
 
 
 if __name__ == "__main__":
