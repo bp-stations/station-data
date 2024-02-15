@@ -1,8 +1,6 @@
 #!/bin/python3
-from datetime import datetime
 from pathlib import Path
-from json import load, dumps
-import argparse
+from json import load
 import sqlite3
 
 

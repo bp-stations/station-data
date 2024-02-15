@@ -1,6 +1,11 @@
 #!/bin/python3
 import requests
 import json
+import os
+
+in_ci = os.getenv("CI") == "true"
+
+print(in_ci)
 
 bounds_request = ("https://tankstellenfinder.aral.de/api/v1/locations/within_bounds?sw[]={}&sw[]={}&ne[]={}&ne[]={"
                   "}&autoload=true&travel_mode=driving&avoid_tolls=false&avoid_highways=false&show_stations_on_route"
@@ -27,7 +32,8 @@ def get_stations(sw1, sw2, ne1, ne2):
                     get_stations(tmp["bounds"]["sw"][0], tmp["bounds"]["sw"][1],
                                  tmp["bounds"]["ne"][0], tmp["bounds"]["ne"][1])
                 else:
-                    print(f"saving station")
+                    if not in_ci:
+                        print(f"saving station")
                     stations.append(tmp)
         else:
             stations.append(entry)
