@@ -1,5 +1,7 @@
 #!/bin/python3
-import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util import Retry
+from requests import Session
 import json
 import os
 
@@ -12,10 +14,28 @@ bounds_request = ("https://tankstellenfinder.aral.de/api/v1/locations/within_bou
                   "=true&corridor_radius=5&format=json")
 
 stations = []
+s = Session()
+retries = Retry(
+    total=3,
+    backoff_factor=1,
+    status_forcelist=[403, 502, 503, 504],
+    allowed_methods={'GET'},
+)
+s.mount('https://', HTTPAdapter(max_retries=retries))
+s.headers.update({
+    "User-Agent": "https://github.com/aral-preise/aral-station-data",
+    "Accept": "application/json",
+    "Host": "tankstellenfinder.aral.de",
+    "Referer": "https://tankstellenfinder.aral.de/?"
+})
+
+s.cookies.set("ap-functional", "true", domain=".aral.de")
+s.cookies.set("ap-analytics", "false", domain=".aral.de")
+s.cookies.set("ap-marketing", "false", domain=".aral.de")
 
 
 def get_bounds(sw1, sw2, ne1, ne2):
-    return requests.get(bounds_request.format(sw1, sw2, ne1, ne2)).json()
+    return s.get(bounds_request.format(sw1, sw2, ne1, ne2)).json()
 
 
 def get_stations(sw1, sw2, ne1, ne2):
