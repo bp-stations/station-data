@@ -32,6 +32,9 @@ out/
     /countries
         /stations_DE.json # all German stations from all brands
         /stations_US.json # all stations in the US from all Brands
+    /ov2 # note that there are no skipper records yet! The performance will be very bad
+        /stations.ov2 # all stations
+        /stations_DE.ov2 # all german stations
     /other # used in another project
 ````
 
