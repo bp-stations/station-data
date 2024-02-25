@@ -107,7 +107,7 @@ Total station count: {len(stations)}\n""")
         with open("./out/all/stations.json", "w+") as f:
             f.write(json.dumps(unique_objects, indent=4))
 
-        with open("./out/poi/stations.ov2", "wb+") as f:
+        with open("./out/ov2/stations.ov2", "wb+") as f:
             for entry in unique_objects:
                 f.write(to_ov2(entry["lng"], entry["lat"],
                                f'[DE-{entry["postcode"]}] {entry["name"]}; {entry["address"]} [{entry["city"]}]>[{entry["telephone"]}]'))
@@ -144,7 +144,7 @@ Total station count: {len(stations)}\n""")
             with open(f"./out/countries/stations_{country}_min.json", "w+") as f:
                 f.write(json.dumps(tmp_stations))
 
-            with open(f"./out/poi/stations_{country}.ov2", "wb+") as f:
+            with open(f"./out/ov2/stations_{country}.ov2", "wb+") as f:
                 for entry in tmp_stations:
                     f.write(to_ov2(entry["lng"], entry["lat"],
                                    f'[DE-{entry["postcode"]}] {entry["name"]}; {entry["address"]} [{entry["city"]}]>[{entry["telephone"]}]'))
@@ -181,7 +181,7 @@ Total station count: {len(stations)}\n""")
             with open(f"./out/brands/stations_{brand}_min.json", "w+") as f:
                 f.write(json.dumps(tmp_stations))
 
-            with open(f"./out/poi/stations_{brand}.ov2", "wb+") as f:
+            with open(f"./out/ov2/stations_{brand}.ov2", "wb+") as f:
                 for entry in tmp_stations:
                     f.write(to_ov2(entry["lng"], entry["lat"],
                                    f'[DE-{entry["postcode"]}] {entry["name"]}; {entry["address"]} [{entry["city"]}]>[{entry["telephone"]}]'))
