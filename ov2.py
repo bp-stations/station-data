@@ -1,4 +1,5 @@
 import argparse
+import io
 import json
 import logging
 import struct
@@ -20,12 +21,25 @@ class Record:
 
 
 def to_ov2(lon, lat, label):
-    size = 14 + len(label)
     lon = int(lon * 100000)
     lat = int(lat * 100000)
     label = label.encode('raw_unicode_escape')
+    size = 14 + len(label)
     buff = struct.pack(f'<B3i{len(label) + 1}s', 2, size, lon, lat, label)
     return buff
+
+
+def from_ov2_simple(buff):
+    status, size, lon, lat, label = struct.unpack(f'<B3i{len(buff) - 14}sx', buff)
+    lon /= 100000
+    lat /= 100000
+    label = label.decode('raw_unicode_escape')
+    logging.info(f"decoded simple record: {status} {size} {lon} {lat} {label}")
+
+
+def from_ov2_skipper(buff):
+    _type, size, ne_long_2, ne_lat_2, sw_long_2, sw_lat_2 = struct.unpack(f'<Bi4i', buff)
+    logging.info(f"decoded skipper record: {_type} {size} {ne_long_2} {ne_lat_2} {sw_long_2} {sw_lat_2}")
 
 
 def skipper_record(ne_long, ne_lat, sw_long, sw_lat, skip=0):
@@ -141,7 +155,8 @@ def generate_ov2(tmp_args):
         for point in map_point_list:
             map_points.append((point["lat"], point["lng"]))
             new_entry = to_ov2(point["lng"], point["lat"],
-                               f'[DE-{point["postcode"]}] {point["name"]}; {point["address"]} [{point["city"]}]>[{point["telephone"]}]')
+                               f'[{point["country_code"]}-{point["postcode"]}] {point["name"]}; {point["address"]} '
+                               f'[{point["city"]}]>[{point["telephone"]}]')
             cache.write(new_entry)
 
         tmp_ne_1, tmp_ne_2, tmp_sw_1, tmp_sw_2 = bounding_box(map_points)
@@ -157,6 +172,47 @@ def generate_ov2(tmp_args):
     tmp_args.output.write(all_data.getvalue())
 
 
+def get_type(buffer):
+    _type = struct.unpack("<B", buffer)[0]
+    return _type
+
+
+def decode_record(local_file, location):
+    local_file.seek(location, 0)
+    x = local_file.read(1)
+    return get_type(x)
+
+
+def get_file_size(tmp_file: io.BufferedReader):
+    tmp_cache = BytesIO()
+    tmp_cache.write(tmp_file.read())
+    return tmp_cache.getbuffer().nbytes
+
+
+def decode(tmp_args):
+    tmp_data: io.BufferedReader = tmp_args.input
+    current_cursor = 0
+    tmp_file_byte_size = get_file_size(tmp_data)
+    while True:
+        if current_cursor == tmp_file_byte_size:
+            logging.info("reached end of file")
+            break
+        tmp_record = decode_record(tmp_data, current_cursor)
+
+        if tmp_record == 1:
+            tmp_data.seek(current_cursor, 0)
+            from_ov2_skipper(tmp_data.read(21))
+            current_cursor += 21
+        elif tmp_record == 2:
+            tmp_data.seek(current_cursor, 0)
+            _type, local_size = struct.unpack("<Bi", tmp_data.read(5))
+            tmp_data.seek(current_cursor, 0)
+            from_ov2_simple(tmp_data.read(local_size))
+            current_cursor += local_size
+        else:
+            logging.warning(f"got unknown type at {current_cursor} {tmp_record}")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert a json file to ov2 with skipper records")
     subparsers = parser.add_subparsers(title='subcommands', help='additional help', required=True)
@@ -166,6 +222,11 @@ if __name__ == "__main__":
                             type=argparse.FileType('r', encoding="utf-8"))
     x.add_argument("-o", "--output", help="output file", required=True, type=argparse.FileType('wb+'))
     x.set_defaults(func=generate_ov2)
+
+    y = subparsers.add_parser('decode')
+    y.add_argument("-i", "--input", help="input file", required=True,
+                   type=argparse.FileType('rb'))
+    y.set_defaults(func=decode)
 
     args = parser.parse_args()
     args.func(args)
