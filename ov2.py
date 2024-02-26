@@ -145,19 +145,15 @@ def generate_ov2(tmp_args):
             cache.write(new_entry)
 
         tmp_ne_1, tmp_ne_2, tmp_sw_1, tmp_sw_2 = bounding_box(map_points)
-
-        x = skipper_record(tmp_ne_2, tmp_ne_1, tmp_sw_2, tmp_sw_1, cache.getbuffer().nbytes)
-        unpacked_data = struct.unpack('<Bi4i', x)
-        all_data.write(x)
+        tmp_skipper = skipper_record(tmp_ne_2, tmp_ne_1, tmp_sw_2, tmp_sw_1, cache.getbuffer().nbytes)
+        all_data.write(tmp_skipper)
         all_data.write(cache.getbuffer())
 
     # now lets wrap a skipper record around all points in the file
     # e.g. if you have a map that only has points in europe and you are currently in africa then skip the whole file
     logging.info(f"bounding box of all items z_1: {z_1}, z_2: {z_2}, v_1: {v_1}, v_2: {v_2}")
-    skip_all = skipper_record(z_2, z_1, v_2, v_1, all_data.getbuffer().nbytes)
-    # unpacked_data_2 = struct.unpack('<Bi4i', skip_all)
-    # print(f"{unpacked_data_2[0]} {unpacked_data_2[1]} {unpacked_data_2[2] / 100000} {unpacked_data_2[3] / 100000} {unpacked_data_2[4] / 100000} {unpacked_data_2[5] / 100000}")
-    tmp_args.output.write(skip_all)
+    skipper_all = skipper_record(z_2, z_1, v_2, v_1, all_data.getbuffer().nbytes)
+    tmp_args.output.write(skipper_all)
     tmp_args.output.write(all_data.getvalue())
 
 
