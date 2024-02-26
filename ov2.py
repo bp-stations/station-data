@@ -102,8 +102,9 @@ def check_data(x1, y1, x2, y2, local_json, last_split=0):
             check_data(x1, y1, midpoint, y2, local_json, 2)
 
     else:
-        logging.info(f"good data for {x1} {x2} {y1} {y2} with {a} stations")
-        data.append(local_data)
+        if a > 0:
+            logging.info(f"good data for {x1} {x2} {y1} {y2} with {a} stations")
+            data.append(local_data)
 
 
 def generate_ov2(tmp_args):
