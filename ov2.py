@@ -1,18 +1,14 @@
+import argparse
 import json
 import logging
 import struct
 from enum import Enum
-from pathlib import Path
 from io import BytesIO
 
 
 logging.basicConfig(level=logging.INFO)
 logging.getLogger().setLevel(logging.INFO)
-
 data = []
-station_path = Path(__file__).parent.absolute().joinpath('./out/brands/stations_ARAL Tankstelle_min.json')
-with open(station_path, "r", encoding="utf-8") as f:
-    json_data = json.load(f)
 
 
 class Record:
@@ -53,7 +49,7 @@ def bounding_box(points):
 
 # x1 and y1 define northeast
 # x2 and y2 define southwest
-def check_data(x1, y1, x2, y2, last_split=0):
+def check_data(x1, y1, x2, y2, local_json, last_split=0):
     """
     We get 4 cords and a split value. With that we check if more than 20 points are inside
     If there are more than 20 then we split the coordinates in half first from East/West and then North/South
@@ -62,6 +58,7 @@ def check_data(x1, y1, x2, y2, last_split=0):
     :param y1: long / East
     :param x2: lat / south
     :param y2: long / West
+    :param local_json: json
     :param last_split:
     :return:
     """
@@ -74,8 +71,7 @@ def check_data(x1, y1, x2, y2, last_split=0):
     a = 0
     b = 0
     local_data = []
-
-    for local_station_entry in json_data:
+    for local_station_entry in local_json:
         # print(f"{x1} {entry["lat"]} {x2}")
         # print(f"{y1} {entry["lng"]} {y2}")
         if x1 <= local_station_entry["lat"] <= x2 and y1 <= local_station_entry["lng"] <= y2:
@@ -98,19 +94,21 @@ def check_data(x1, y1, x2, y2, last_split=0):
 
         if last_split == 1:
             midpoint = (y1 + y2) / 2
-            check_data(x1, midpoint, x2, y2, 1)
-            check_data(x1, y1, x2, midpoint, 1)
+            check_data(x1, midpoint, x2, y2, local_json, 1)
+            check_data(x1, y1, x2, midpoint, local_json, 1)
         elif last_split == 2:
             midpoint = (x1 + x2) / 2
-            check_data(midpoint, y1, x2, y2, 2)
-            check_data(x1, y1, midpoint, y2, 2)
+            check_data(midpoint, y1, x2, y2, local_json, 2)
+            check_data(x1, y1, midpoint, y2, local_json, 2)
 
     else:
         logging.info(f"good data for {x1} {x2} {y1} {y2} with {a} stations")
         data.append(local_data)
 
 
-if __name__ == "__main__":
+def generate_ov2(tmp_args):
+    json_data = json.load(tmp_args.input)
+
     # get all lat / long cords
     map_points = []
     for entry in json_data:
@@ -122,7 +120,7 @@ if __name__ == "__main__":
     logging.info(f"bounding box of all items ne_1: {ne_1}, ne_2: {ne_2}, sw_1: {sw_1}, sw_2: {sw_2}")
 
     # start box generation
-    check_data(ne_1, ne_2, sw_1, sw_2, 0)
+    check_data(ne_1, ne_2, sw_1, sw_2, json_data, 0)
 
     logging.info(f"i have {len(data)} zones")
     logging.info(f"originally got {len(json_data)} stations")
@@ -141,7 +139,8 @@ if __name__ == "__main__":
 
         for point in map_point_list:
             map_points.append((point["lat"], point["lng"]))
-            new_entry = to_ov2(point["lng"], point["lat"], f'[DE-{point["postcode"]}] {point["name"]}; {point["address"]} [{point["city"]}]>[{point["telephone"]}]')
+            new_entry = to_ov2(point["lng"], point["lat"],
+                               f'[DE-{point["postcode"]}] {point["name"]}; {point["address"]} [{point["city"]}]>[{point["telephone"]}]')
             cache.write(new_entry)
 
         tmp_ne_1, tmp_ne_2, tmp_sw_1, tmp_sw_2 = bounding_box(map_points)
@@ -155,8 +154,21 @@ if __name__ == "__main__":
     # e.g. if you have a map that only has points in europe and you are currently in africa then skip the whole file
     logging.info(f"bounding box of all items z_1: {z_1}, z_2: {z_2}, v_1: {v_1}, v_2: {v_2}")
     skip_all = skipper_record(z_2, z_1, v_2, v_1, all_data.getbuffer().nbytes)
-    unpacked_data_2 = struct.unpack('<Bi4i', skip_all)
-    print(f"{unpacked_data_2[0]} {unpacked_data_2[1]} {unpacked_data_2[2] / 100000} {unpacked_data_2[3] / 100000} {unpacked_data_2[4] / 100000} {unpacked_data_2[5] / 100000}")
-    with open("debug.ov2", "wb+") as f:
-        f.write(skip_all)
-        f.write(all_data.getvalue())
+    # unpacked_data_2 = struct.unpack('<Bi4i', skip_all)
+    # print(f"{unpacked_data_2[0]} {unpacked_data_2[1]} {unpacked_data_2[2] / 100000} {unpacked_data_2[3] / 100000} {unpacked_data_2[4] / 100000} {unpacked_data_2[5] / 100000}")
+    tmp_args.output.write(skip_all)
+    tmp_args.output.write(all_data.getvalue())
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Convert a json file to ov2 with skipper records")
+    subparsers = parser.add_subparsers(title='subcommands', help='additional help', required=True)
+
+    x = subparsers.add_parser('generate')
+    x.add_argument("-i", "--input", help="input file", required=True,
+                            type=argparse.FileType('r', encoding="utf-8"))
+    x.add_argument("-o", "--output", help="output file", required=True, type=argparse.FileType('wb+'))
+    x.set_defaults(func=generate_ov2)
+
+    args = parser.parse_args()
+    args.func(args)
