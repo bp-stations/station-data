@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
+import os
 import io
 import json
 import struct
 import logging
 import argparse
+from pathlib import Path
+
 import simplekml
 from enum import Enum
 from io import BytesIO
-
 
 logging.basicConfig(level=logging.INFO)
 logging.getLogger().setLevel(logging.INFO)
@@ -99,7 +101,7 @@ def check_data(x1, y1, x2, y2, local_json, last_split=0):
         if x1 <= local_station_entry["lat"] <= x2 and y1 <= local_station_entry["lng"] <= y2:
             # print("point inside")
             local_data.append(local_station_entry)
-            a +=1
+            a += 1
         else:
             # print("point outside")
             b += 1
@@ -173,7 +175,7 @@ def generate_ov2(tmp_args):
         all_data.write(cache.getbuffer())
 
     # now lets wrap a skipper record around all points in the file
-    # e.g. if you have a map that only has points in europe and you are currently in africa then skip the whole file
+    # e.g. if you have a map that only has points in europe, and you are currently in africa then skip the whole file
     logging.info(f"bounding box of all items z_1: {z_1}, z_2: {z_2}, v_1: {v_1}, v_2: {v_2}")
     skipper_all = skipper_record(z_2, z_1, v_2, v_1, all_data.getbuffer().nbytes)
     tmp_args.output.write(skipper_all)
@@ -222,6 +224,7 @@ def decode(tmp_args):
 
 
 def convert(tmp_args):
+    print(tmp_args)
     tmp_kml = simplekml.Kml()
     tmp_data: io.BufferedReader = tmp_args.input
     current_cursor = 0
@@ -239,9 +242,9 @@ def convert(tmp_args):
             tmp_data.seek(current_cursor, 0)
             _type, size, tmp_ne_2, tmp_ne_1, tmp_sw_2, tmp_sw_1 = from_ov2_skipper(tmp_data.read(21))
             tmp_folder.newpolygon(outerboundaryis=[(tmp_ne_2, tmp_sw_1), (tmp_ne_2, tmp_ne_1),
-                                            (tmp_sw_2, tmp_ne_1), (tmp_sw_2, tmp_sw_1)],
-                           innerboundaryis=[(tmp_ne_2, tmp_sw_1), (tmp_ne_2, tmp_ne_1),
-                                            (tmp_sw_2, tmp_ne_1), (tmp_sw_2, tmp_sw_1)])
+                                                   (tmp_sw_2, tmp_ne_1), (tmp_sw_2, tmp_sw_1)],
+                                  innerboundaryis=[(tmp_ne_2, tmp_sw_1), (tmp_ne_2, tmp_ne_1),
+                                                   (tmp_sw_2, tmp_ne_1), (tmp_sw_2, tmp_sw_1)])
             current_items += 1
             current_cursor += 21
         elif tmp_record == 2:
@@ -262,25 +265,53 @@ def convert(tmp_args):
     tmp_kml.save("output.kml", format=False)
 
 
+def auto(tmp_args):
+    input_path = Path(__file__).parent.absolute().joinpath('./out/json/')
+    output_path = Path(__file__).parent.absolute().joinpath('./out/ov2/')
+    folders = ["all", "brands", "countries"]
+    logging.info("automatically converting all files in out/json to ov2")
+    for folder_name in folders:
+        tmp_path_input = input_path.joinpath(folder_name)
+        tmp_path_output = output_path.joinpath(folder_name)
+        try:
+            os.mkdir(tmp_path_output)
+        except FileExistsError:
+            pass
+
+        for tmp_file in os.listdir(tmp_path_input):
+            if tmp_file.startswith("."):
+                continue
+            if "_min.json" in tmp_file:
+                continue
+            logging.info(f"converting {tmp_path_input.joinpath(tmp_file)} to "
+                         f"{tmp_path_output.joinpath(tmp_file.replace(".json", ".ov2"))}")
+            tmp_args = parser.parse_args(['generate', '-i', str(tmp_path_input.joinpath(tmp_file)), '-o',
+                                          str(tmp_path_output.joinpath(tmp_file.replace(".json", ".ov2")))])
+            generate_ov2(tmp_args)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert a json file to ov2 with skipper records")
     subparsers = parser.add_subparsers(title='subcommands', help='additional help', required=True)
 
     tmp_parser_generate = subparsers.add_parser('generate')
     tmp_parser_generate.add_argument("-i", "--input", help="input file", required=True,
-                            type=argparse.FileType('r', encoding="utf-8"))
+                                     type=argparse.FileType('r', encoding="utf-8"))
     tmp_parser_generate.add_argument("-o", "--output", help="output file", required=True, type=argparse.FileType('wb+'))
     tmp_parser_generate.set_defaults(func=generate_ov2)
 
     tmp_parser_decode = subparsers.add_parser('decode')
     tmp_parser_decode.add_argument("-i", "--input", help="input file", required=True,
-                   type=argparse.FileType('rb'))
+                                   type=argparse.FileType('rb'))
     tmp_parser_decode.set_defaults(func=decode)
 
     tmp_parser_convert = subparsers.add_parser('convert')
     tmp_parser_convert.add_argument("-i", "--input", help="input file", required=True,
-                   type=argparse.FileType('rb'))
+                                    type=argparse.FileType('rb'))
     tmp_parser_convert.set_defaults(func=convert)
+
+    tmp_parser_auto = subparsers.add_parser('auto')
+    tmp_parser_auto.set_defaults(func=auto)
 
     args = parser.parse_args()
     args.func(args)

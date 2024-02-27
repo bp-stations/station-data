@@ -56,6 +56,29 @@ jobs:
           name: tmp-data-small-files
           path: out/json/other
 
+  generate-ov2:
+    needs: [ fetch ]
+    timeout-minutes: 15
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: tmp-data
+          path: out/json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      - name: install requirements
+        run: pip install -r requirements.txt
+      - name: generate ov2 files
+        run: python ov2.py auto
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tmp-data-ov2
+          path: out/ov2/
+
   deploy:
     needs: [generate-small-files]
     timeout-minutes: 20
@@ -69,6 +92,10 @@ jobs:
       with:
         name: tmp-data-small-files
         path: out/json/other
+    - uses: actions/download-artifact@v4
+      with:
+        name: tmp-data-ov2
+        path: out/ov2/
     - name: create github Release
       uses: fnkr/github-action-ghr@v1
       env:
@@ -94,12 +121,16 @@ jobs:
       with:
         name: tmp-data-small-files
         path: out/other
+    - uses: actions/download-artifact@v4
+      with:
+        name: tmp-data-ov2
+        path: out/ov2/
     - name: Push generated files to https://github.com/aral-preise/aral-prices
       uses: cpina/github-action-push-to-another-repository@main
       env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
       with:
-        source-directory: 'out/other'
+        source-directory: 'out/json/other'
         destination-repository-name: 'aral-prices'
         destination-github-username: 'nickwasused'
         user-email: github.lix1s@simplelogin.co
@@ -118,3 +149,4 @@ jobs:
           name: |
             tmp-data
             tmp-data-small-files
+            tmp-data-ov2
