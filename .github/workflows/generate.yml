@@ -22,14 +22,6 @@ jobs:
         run: pip install -r requirements.txt
       - name: generate all station data
         run: python get.py
-      - name: generate aral.db
-        run: python database.py
-      - name: generate fuel.json
-        run: python generator.py -ff
-      - name: generate facilities.json
-        run: python generator.py -f
-      - name: generate sitemap.xml
-        run: python generator.py -s
       - uses: actions/upload-artifact@v4
         with:
           name: tmp-data
