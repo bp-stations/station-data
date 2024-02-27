@@ -63,7 +63,7 @@ if __name__ == "__main__":
     """Get all locations World Wide"""
     get_stations(-90, -180, 90, 180)
 
-    with open("./json/out/README.md", "w+") as readme:
+    with open("./out/json/README.md", "w+") as readme:
         readme.writelines(f"""This is the data for BP stations like aral.\n
 
 # Stats\n\r
