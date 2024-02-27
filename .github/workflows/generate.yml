@@ -54,7 +54,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: tmp-data-small-files
-          path: out/
+          path: out/other
 
   deploy:
     needs: [generate-small-files]
@@ -68,7 +68,7 @@ jobs:
     - uses: actions/download-artifact@v4
       with:
         name: tmp-data-small-files
-        path: out/
+        path: out/other
     - name: create github Release
       uses: fnkr/github-action-ghr@v1
       env:
@@ -93,7 +93,7 @@ jobs:
     - uses: actions/download-artifact@v4
       with:
         name: tmp-data-small-files
-        path: out/
+        path: out/other
     - name: Push generated files to https://github.com/aral-preise/aral-prices
       uses: cpina/github-action-push-to-another-repository@main
       env:
