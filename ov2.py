@@ -43,6 +43,10 @@ def from_ov2_simple(buff):
 def from_ov2_skipper(buff):
     _type, size, ne_long_2, ne_lat_2, sw_long_2, sw_lat_2 = struct.unpack(f'<Bi4i', buff)
     logging.info(f"decoded skipper record: {_type} {size} {ne_long_2} {ne_lat_2} {sw_long_2} {sw_lat_2}")
+    ne_long_2 /= 100000
+    ne_lat_2 /= 100000
+    sw_long_2 /= 100000
+    sw_lat_2 /= 100000
     return _type, size, ne_long_2, ne_lat_2, sw_long_2, sw_lat_2
 
 
@@ -233,7 +237,7 @@ def convert(tmp_args):
 
         if tmp_record == 1:
             tmp_data.seek(current_cursor, 0)
-            _type, size, tmp_ne_1, tmp_ne_2, tmp_sw_1, tmp_sw_2 = from_ov2_skipper(tmp_data.read(21))
+            _type, size, tmp_ne_2, tmp_ne_1, tmp_sw_2, tmp_sw_1 = from_ov2_skipper(tmp_data.read(21))
             tmp_folder.newpolygon(outerboundaryis=[(tmp_ne_2, tmp_sw_1), (tmp_ne_2, tmp_ne_1),
                                             (tmp_sw_2, tmp_ne_1), (tmp_sw_2, tmp_sw_1)],
                            innerboundaryis=[(tmp_ne_2, tmp_sw_1), (tmp_ne_2, tmp_ne_1),
@@ -255,7 +259,7 @@ def convert(tmp_args):
             current_index += 1
             tmp_folder = tmp_kml.newfolder(name=f"{current_index}")
 
-    tmp_kml.save("test.kml", format=False)
+    tmp_kml.save("output.kml", format=False)
 
 
 if __name__ == "__main__":
