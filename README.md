@@ -24,22 +24,31 @@ The stations are divided by Brand and Country.
 Directory structure:
 ````commandline
 out/
-    /all
-        /stations.json # these are all BP Stations worldwide
-    /brands
-        /stations_BP.json # all stations with the Brand BP
-        /stations_ARAL Tankstelle.json # all stations from the Brand Aral
-    /countries
-        /stations_DE.json # all German stations from all brands
-        /stations_US.json # all stations in the US from all Brands
-    /ov2 # note that there are no skipper records yet! The performance will be very bad
-        /stations.ov2 # all stations
-        /stations_DE.ov2 # all german stations
-    /other # used in another project
+    /json
+        /all
+            /stations.json # these are all BP Stations worldwide
+        /brands
+            /stations_BP.json # all stations with the Brand BP
+            /stations_ARAL Tankstelle.json # all stations from the Brand Aral
+        /countries
+            /stations_DE.json # all German stations from all brands
+            /stations_US.json # all stations in the US from all Brands
+        /other # used in another project
+    /ov2 # 
+        /all
+            /stations.ov2 # these are all BP Stations worldwide
+        /brands
+            /stations_BP.ov2 # all stations with the Brand BP
+            /stations_ARAL Tankstelle.ov2 # all stations from the Brand Aral
+        /countries
+            /stations_DE.ov2 # all German stations from all brands
+            /stations_US.ov2 # all stations in the US from all Brands
 ````
 
 There is always a ``_min.json`` available (e.g. `stations_min.json`) that has the whole JSON on a single line.  
 Use the default file for better readability.
+
+The ``.ov2`` files have skipper records, so performance should be good.
 
 You can find the data [here](https://github.com/aral-preise/aral-station-data/tree/gh-pages).
 
