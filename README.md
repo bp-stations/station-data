@@ -50,7 +50,7 @@ Use the default file for better readability.
 
 The ``.ov2`` files have skipper records, so performance should be good.
 
-You can find the data [here](https://github.com/aral-preise/aral-station-data/tree/gh-pages).
+You can find the data [here](https://github.com/bp-stations/station-data/tree/gh-pages).
 
 There is also a README.md in the data that has basic stats.
 
@@ -62,5 +62,5 @@ Please note that there may be stations missing!
 
 # Data updated
 
-The data is updated by [this](https://github.com/aral-preise/aral-station-data/blob/main/.github/workflows/generate.yml) GitHub action.  
-The version is automatically bumped by [this](https://github.com/aral-preise/aral-station-data/blob/main/.github/workflows/version.yml) GitHub action on cron '0 2 * * 1'.
+The data is updated by [this](https://github.com/bp-stations/station-data/blob/main/.github/workflows/generate.yml) GitHub action.  
+The version is automatically bumped by [this](https://github.com/bp-stations/station-data/blob/main/.github/workflows/version.yml) GitHub action on cron '0 2 * * 1'.
