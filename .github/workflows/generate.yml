@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     if: startsWith(github.ref, 'refs/tags/')
-    timeout-minutes: 120
+    timeout-minutes: 20
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -30,24 +30,39 @@ jobs:
         run: python generator.py -f
       - name: generate sitemap.xml
         run: python generator.py -s
-      - name: create Release
-        uses: fnkr/github-action-ghr@v1
-        env:
-          GHR_PATH: out/
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Deploy to gh-pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: out/
-      - name: Push stations.json to other repo
-        uses: cpina/github-action-push-to-another-repository@main
-        env:
-            SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
-        with:
-          source-directory: 'out/other'
-          destination-repository-name: 'aral-prices'
-          destination-github-username: 'nickwasused'
-          user-email: github.lix1s@simplelogin.co
-          target-branch: main
-          target-directory: 'data'
+
+  deploy:
+    needs: [build]
+    if: startsWith(github.ref, 'refs/tags/')
+    timeout-minutes: 20
+    runs-on: ubuntu-latest
+    steps:
+    - name: create github Release
+      uses: fnkr/github-action-ghr@v1
+      env:
+        GHR_PATH: out/
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Deploy to gh-pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: out/
+
+  copy:
+    needs: [build]
+    if: startsWith(github.ref, 'refs/tags/')
+    timeout-minutes: 20
+    runs-on: ubuntu-latest
+    steps:
+    - name: Push generated files to other repo
+      uses: cpina/github-action-push-to-another-repository@main
+      env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+      with:
+        source-directory: 'out/other'
+        destination-repository-name: 'aral-prices'
+        destination-github-username: 'nickwasused'
+        user-email: github.lix1s@simplelogin.co
+        target-branch: main
+        target-directory: 'data'
