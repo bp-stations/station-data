@@ -80,7 +80,7 @@ jobs:
           path: out/ov2/
 
   deploy:
-    needs: [generate-small-files]
+    needs: [generate-small-files, generate-ov2]
     timeout-minutes: 20
     runs-on: ubuntu-latest
     steps:
@@ -109,7 +109,7 @@ jobs:
         publish_dir: out/
 
   copy:
-    needs: [generate-small-files]
+    needs: [generate-small-files, generate-ov2]
     timeout-minutes: 20
     runs-on: ubuntu-latest
     steps:
