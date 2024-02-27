@@ -94,7 +94,7 @@ jobs:
       with:
         name: tmp-data-small-files
         path: out/
-    - name: Push generated files to other repo
+    - name: Push generated files to https://github.com/aral-preise/aral-prices
       uses: cpina/github-action-push-to-another-repository@main
       env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
