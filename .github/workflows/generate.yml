@@ -40,8 +40,7 @@ jobs:
     timeout-minutes: 5
     runs-on: ubuntu-latest
     steps:
-      - name: download fetched data
-        uses: @actions/download-artifact@v4
+      - uses: @actions/download-artifact@v4
         with:
           name: tmp-data
           path: out/
@@ -69,13 +68,11 @@ jobs:
     timeout-minutes: 20
     runs-on: ubuntu-latest
     steps:
-    - name: download fetched data
-      uses: @actions/download-artifact@v4
+    - uses: @actions/download-artifact@v4
       with:
         name: tmp-data
         path: out/
-    - name: download small files data
-      uses: @actions/download-artifact@v4
+    - uses: @actions/download-artifact@v4
       with:
         name: tmp-data-small-files
         path: out/
@@ -96,13 +93,11 @@ jobs:
     timeout-minutes: 20
     runs-on: ubuntu-latest
     steps:
-    - name: download fetched data
-      uses: @actions/download-artifact@v4
+    - uses: @actions/download-artifact@v4
       with:
         name: tmp-data
         path: out/
-    - name: download small files data
-      uses: @actions/download-artifact@v4
+    - uses: @actions/download-artifact@v4
       with:
         name: tmp-data-small-files
         path: out/
