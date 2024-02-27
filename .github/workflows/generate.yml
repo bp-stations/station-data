@@ -108,6 +108,8 @@ jobs:
 
   cleanup:
     needs: [deploy, copy]
+    permissions:
+      actions: write
     timeout-minutes: 5
     runs-on: ubuntu-latest
     steps:
