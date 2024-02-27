@@ -26,7 +26,7 @@ def load_json(file):
 
 station_path = Path(__file__).parent.absolute().joinpath('./out/json/brands/stations_ARAL Tankstelle_min.json')
 output_path = Path(__file__).parent.absolute().joinpath('./out/json/other/sitemap.xml')
-output_path_facilities = Path(__file__).parent.absolute().joinpath('./out/other/facilities.json')
+output_path_facilities = Path(__file__).parent.absolute().joinpath('./out/json/other/facilities.json')
 output_path_fuel = Path(__file__).parent.absolute().joinpath('./out/json/other/fuel.json')
 
 
