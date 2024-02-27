@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/env python3
 from datetime import datetime
 from pathlib import Path
 from json import load, dumps

@@ -1,8 +1,10 @@
-import argparse
+#!/usr/bin/env python3
 import io
 import json
-import logging
 import struct
+import logging
+import argparse
+import simplekml
 from enum import Enum
 from io import BytesIO
 
@@ -35,11 +37,13 @@ def from_ov2_simple(buff):
     lat /= 100000
     label = label.decode('raw_unicode_escape')
     logging.info(f"decoded simple record: {status} {size} {lon} {lat} {label}")
+    return status, size, lon, lat, label
 
 
 def from_ov2_skipper(buff):
     _type, size, ne_long_2, ne_lat_2, sw_long_2, sw_lat_2 = struct.unpack(f'<Bi4i', buff)
     logging.info(f"decoded skipper record: {_type} {size} {ne_long_2} {ne_lat_2} {sw_long_2} {sw_lat_2}")
+    return _type, size, ne_long_2, ne_lat_2, sw_long_2, sw_lat_2
 
 
 def skipper_record(ne_long, ne_lat, sw_long, sw_lat, skip=0):
@@ -213,20 +217,66 @@ def decode(tmp_args):
             logging.warning(f"got unknown type at {current_cursor} {tmp_record}")
 
 
+def convert(tmp_args):
+    tmp_kml = simplekml.Kml()
+    tmp_data: io.BufferedReader = tmp_args.input
+    current_cursor = 0
+    current_items = 0
+    current_index = 0
+    tmp_file_byte_size = get_file_size(tmp_data)
+    tmp_folder = tmp_kml.newfolder(name="0")
+    while True:
+        if current_cursor == tmp_file_byte_size:
+            logging.info("reached end of file")
+            break
+        tmp_record = decode_record(tmp_data, current_cursor)
+
+        if tmp_record == 1:
+            tmp_data.seek(current_cursor, 0)
+            _type, size, tmp_ne_1, tmp_ne_2, tmp_sw_1, tmp_sw_2 = from_ov2_skipper(tmp_data.read(21))
+            tmp_folder.newpolygon(outerboundaryis=[(tmp_ne_2, tmp_sw_1), (tmp_ne_2, tmp_ne_1),
+                                            (tmp_sw_2, tmp_ne_1), (tmp_sw_2, tmp_sw_1)],
+                           innerboundaryis=[(tmp_ne_2, tmp_sw_1), (tmp_ne_2, tmp_ne_1),
+                                            (tmp_sw_2, tmp_ne_1), (tmp_sw_2, tmp_sw_1)])
+            current_items += 1
+            current_cursor += 21
+        elif tmp_record == 2:
+            tmp_data.seek(current_cursor, 0)
+            _type, local_size = struct.unpack("<Bi", tmp_data.read(5))
+            tmp_data.seek(current_cursor, 0)
+            status, size, tmp_lng, tmp_lat, tmp_name = from_ov2_simple(tmp_data.read(local_size))
+            tmp_folder.newpoint(name=tmp_name, coords=[(tmp_lng, tmp_lat)])
+            current_items += 1
+            current_cursor += local_size
+        else:
+            logging.warning(f"got unknown type at {current_cursor} {tmp_record}")
+
+        if current_items >= 1999:
+            current_index += 1
+            tmp_folder = tmp_kml.newfolder(name=f"{current_index}")
+
+    tmp_kml.save("test.kml", format=False)
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Convert a json file to ov2 with skipper records")
     subparsers = parser.add_subparsers(title='subcommands', help='additional help', required=True)
 
-    x = subparsers.add_parser('generate')
-    x.add_argument("-i", "--input", help="input file", required=True,
+    tmp_parser_generate = subparsers.add_parser('generate')
+    tmp_parser_generate.add_argument("-i", "--input", help="input file", required=True,
                             type=argparse.FileType('r', encoding="utf-8"))
-    x.add_argument("-o", "--output", help="output file", required=True, type=argparse.FileType('wb+'))
-    x.set_defaults(func=generate_ov2)
+    tmp_parser_generate.add_argument("-o", "--output", help="output file", required=True, type=argparse.FileType('wb+'))
+    tmp_parser_generate.set_defaults(func=generate_ov2)
 
-    y = subparsers.add_parser('decode')
-    y.add_argument("-i", "--input", help="input file", required=True,
+    tmp_parser_decode = subparsers.add_parser('decode')
+    tmp_parser_decode.add_argument("-i", "--input", help="input file", required=True,
                    type=argparse.FileType('rb'))
-    y.set_defaults(func=decode)
+    tmp_parser_decode.set_defaults(func=decode)
+
+    tmp_parser_convert = subparsers.add_parser('convert')
+    tmp_parser_convert.add_argument("-i", "--input", help="input file", required=True,
+                   type=argparse.FileType('rb'))
+    tmp_parser_convert.set_defaults(func=convert)
 
     args = parser.parse_args()
     args.func(args)
