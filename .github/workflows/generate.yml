@@ -73,12 +73,12 @@ jobs:
       uses: fnkr/github-action-ghr@v1
       env:
         GHR_PATH: out/
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.SECRET }}
 
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.SECRET }}
         publish_dir: out/
 
   copy:
