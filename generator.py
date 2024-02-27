@@ -24,10 +24,10 @@ def load_json(file):
     return load(f)
 
 
-station_path = Path(__file__).parent.absolute().joinpath('./out/brands/stations_ARAL Tankstelle_min.json')
-output_path = Path(__file__).parent.absolute().joinpath('./out/other/sitemap.xml')
+station_path = Path(__file__).parent.absolute().joinpath('./out/json/brands/stations_ARAL Tankstelle_min.json')
+output_path = Path(__file__).parent.absolute().joinpath('./out/json/other/sitemap.xml')
 output_path_facilities = Path(__file__).parent.absolute().joinpath('./out/other/facilities.json')
-output_path_fuel = Path(__file__).parent.absolute().joinpath('./out/other/fuel.json')
+output_path_fuel = Path(__file__).parent.absolute().joinpath('./out/json/other/fuel.json')
 
 
 def generate_sitemap():

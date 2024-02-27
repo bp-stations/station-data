@@ -2,8 +2,6 @@
 from requests.adapters import HTTPAdapter
 from urllib3.util import Retry
 from requests import Session
-from enum import Enum
-import struct
 import json
 import os
 
@@ -61,28 +59,11 @@ def get_stations(sw1, sw2, ne1, ne2):
             stations.append(entry)
 
 
-class Record:
-    class Type(Enum):
-        deleted = 0
-        skipper = 1
-        regular = 2
-        extended = 3
-
-
-def to_ov2(lon, lat, label, status=Record.Type.regular.value):
-    size = 14 + len(label)
-    lon = int(lon * 100000)
-    lat = int(lat * 100000)
-    label = label.encode('raw_unicode_escape')
-    buff = struct.pack(f'<B3i{len(label) + 1}s', status, size, lon, lat, label)
-    return buff
-
-
 if __name__ == "__main__":
     """Get all locations World Wide"""
     get_stations(-90, -180, 90, 180)
 
-    with open("./out/README.md", "w+") as readme:
+    with open("./json/out/README.md", "w+") as readme:
         readme.writelines(f"""This is the data for BP stations like aral.\n
 
 # Stats\n\r
@@ -101,16 +82,11 @@ Total station count: {len(stations)}\n""")
 
         """Worldwide stations"""
         print(f"got {len(unique_objects)} worldwide stations")
-        with open("./out/all/stations_min.json", "w+") as f:
+        with open("./out/json/all/stations_min.json", "w+") as f:
             f.write(json.dumps(unique_objects))
 
-        with open("./out/all/stations.json", "w+") as f:
+        with open("./out/json/all/stations.json", "w+") as f:
             f.write(json.dumps(unique_objects, indent=4))
-
-        with open("./out/ov2/stations.ov2", "wb+") as f:
-            for entry in unique_objects:
-                f.write(to_ov2(entry["lng"], entry["lat"],
-                               f'[DE-{entry["postcode"]}] {entry["name"]}; {entry["address"]} [{entry["city"]}]>[{entry["telephone"]}]'))
 
         """Stations by Country found"""
         countries = []
@@ -138,16 +114,11 @@ Total station count: {len(stations)}\n""")
             print(f"got {len(tmp_stations)} stations for country {country}")
             readme.write(f"| {country} | {len(tmp_stations)}\n")
 
-            with open(f"./out/countries/stations_{country}.json", "w+") as f:
+            with open(f"./out/json/countries/stations_{country}.json", "w+") as f:
                 f.write(json.dumps(tmp_stations, indent=4))
 
-            with open(f"./out/countries/stations_{country}_min.json", "w+") as f:
+            with open(f"./out/json/countries/stations_{country}_min.json", "w+") as f:
                 f.write(json.dumps(tmp_stations))
-
-            with open(f"./out/ov2/stations_{country}.ov2", "wb+") as f:
-                for entry in tmp_stations:
-                    f.write(to_ov2(entry["lng"], entry["lat"],
-                                   f'[DE-{entry["postcode"]}] {entry["name"]}; {entry["address"]} [{entry["city"]}]>[{entry["telephone"]}]'))
 
         """Stations by Brand found"""
         brands = []
@@ -175,13 +146,8 @@ Total station count: {len(stations)}\n""")
             print(f"got {len(tmp_stations)} stations for Brand {brand}")
             readme.write(f"| {brand} | {len(tmp_stations)}\n")
 
-            with open(f"./out/brands/stations_{brand}.json", "w+") as f:
+            with open(f"./out/json/brands/stations_{brand}.json", "w+") as f:
                 f.write(json.dumps(tmp_stations, indent=4))
 
-            with open(f"./out/brands/stations_{brand}_min.json", "w+") as f:
+            with open(f"./out/json/brands/stations_{brand}_min.json", "w+") as f:
                 f.write(json.dumps(tmp_stations))
-
-            with open(f"./out/ov2/stations_{brand}.ov2", "wb+") as f:
-                for entry in tmp_stations:
-                    f.write(to_ov2(entry["lng"], entry["lat"],
-                                   f'[DE-{entry["postcode"]}] {entry["name"]}; {entry["address"]} [{entry["city"]}]>[{entry["telephone"]}]'))

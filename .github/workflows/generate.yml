@@ -25,7 +25,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: tmp-data
-          path: out/
+          path: out/json
 
   generate-small-files:
     needs: [ fetch ]
@@ -36,7 +36,7 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: tmp-data
-          path: out/
+          path: out/json
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -54,7 +54,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: tmp-data-small-files
-          path: out/other
+          path: out/json/other
 
   deploy:
     needs: [generate-small-files]
@@ -64,11 +64,11 @@ jobs:
     - uses: actions/download-artifact@v4
       with:
         name: tmp-data
-        path: out/
+        path: out/json
     - uses: actions/download-artifact@v4
       with:
         name: tmp-data-small-files
-        path: out/other
+        path: out/json/other
     - name: create github Release
       uses: fnkr/github-action-ghr@v1
       env:
