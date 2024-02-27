@@ -109,22 +109,14 @@ jobs:
         publish_dir: out/
 
   copy:
-    needs: [generate-small-files, generate-ov2]
+    needs: [generate-small-files]
     timeout-minutes: 20
     runs-on: ubuntu-latest
     steps:
     - uses: actions/download-artifact@v4
       with:
-        name: tmp-data
-        path: out/
-    - uses: actions/download-artifact@v4
-      with:
         name: tmp-data-small-files
-        path: out/other
-    - uses: actions/download-artifact@v4
-      with:
-        name: tmp-data-ov2
-        path: out/ov2/
+        path: out/json/other
     - name: Push generated files to https://github.com/aral-preise/aral-prices
       uses: cpina/github-action-push-to-another-repository@main
       env:
