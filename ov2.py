@@ -68,10 +68,20 @@ def skipper_record(x1, y1, x2, y2, skip=0):
     :return:
     """
     size = 21 + skip
+
+    # check if x1 is west and if not swap them
+    if x1 > x2:
+        x2, x1 = x1, x2
+
+    # check if y1 is south and if not swap them
+    if y1 > y2:
+        y2, y1 = y1, y2
+
     x1 = int(x1 * 100000)
     y1 = int(y1 * 100000)
     x2 = int(x2 * 100000)
     y2 = int(y2 * 100000)
+
     buff = struct.pack(f'<Bi4i', Record.Type.skipper.value, size, x1, y1, x2, y2)
     return buff
 
@@ -85,7 +95,8 @@ def bounding_box(points) -> [float, float, float, float]:
     x2 = east
     y2 = north
     """
-    # we get point (latitude, longitude)
+    # we get point (long, lat)
+    # x = long, y = lat
     x_coordinates, y_coordinates = zip(*points)
     # x_coordinates = latitude
     # y_coordinates = longitude
@@ -159,7 +170,7 @@ def generate_ov2(tmp_args):
     # get all lat / long cords
     map_points = []
     for entry in json_data:
-        map_points.append((entry["lat"], entry["lng"]))
+        map_points.append((entry["lng"], entry["lat"]))
 
     # generate a box around all map points
     west, south, east, north = bounding_box(map_points)
@@ -185,7 +196,7 @@ def generate_ov2(tmp_args):
             continue
 
         for point in map_point_list:
-            map_points.append((point["lat"], point["lng"]))
+            map_points.append((point["lng"], point["lat"]))
             new_entry = to_ov2(point["lng"], point["lat"],
                                f'[{point["country_code"]}-{point["postcode"]}] {point["name"]}; {point["address"]} '
                                f'[{point["city"]}]>[{point["telephone"]}]')
@@ -250,7 +261,6 @@ def convert(tmp_args):
     tmp_data: io.BufferedReader = tmp_args.input
     current_cursor = 0
     current_items = 0
-    current_index = 0
     tmp_file_byte_size = get_file_size(tmp_data)
     tmp_folder = tmp_kml.newfolder(name="0")
     while True:
@@ -261,11 +271,11 @@ def convert(tmp_args):
 
         if tmp_record == 1:
             tmp_data.seek(current_cursor, 0)
-            _type, size, tmp_ne_2, tmp_ne_1, tmp_sw_2, tmp_sw_1 = from_ov2_skipper(tmp_data.read(21))
-            tmp_folder.newpolygon(outerboundaryis=[(tmp_ne_2, tmp_sw_1), (tmp_ne_2, tmp_ne_1),
-                                                   (tmp_sw_2, tmp_ne_1), (tmp_sw_2, tmp_sw_1)],
-                                  innerboundaryis=[(tmp_ne_2, tmp_sw_1), (tmp_ne_2, tmp_ne_1),
-                                                   (tmp_sw_2, tmp_ne_1), (tmp_sw_2, tmp_sw_1)])
+            _type, size, tmp_west, tmp_south, tmp_east, tmp_north = from_ov2_skipper(tmp_data.read(21))
+            tmp_folder.newpolygon(outerboundaryis=[(tmp_south, tmp_west), (tmp_north, tmp_west),
+                                                   (tmp_south, tmp_east), (tmp_north, tmp_east)],
+                                  innerboundaryis=[(tmp_south, tmp_west), (tmp_north, tmp_west),
+                                                   (tmp_south, tmp_east), (tmp_north, tmp_east)])
             current_items += 1
             current_cursor += 21
         elif tmp_record == 2:
@@ -280,10 +290,8 @@ def convert(tmp_args):
             logging.warning(f"got unknown type at {current_cursor} {tmp_record}")
 
         if current_items >= 1999:
-            current_index += 1
-            tmp_folder = tmp_kml.newfolder(name=f"{current_index}")
-
-    tmp_kml.save("output.kml", format=False)
+            tmp_kml.save("output.kml", format=False)
+            exit()
 
 
 def auto(tmp_args):
