@@ -132,7 +132,7 @@ def check_data(x1, y1, x2, y2, local_json, new_split=2):
     b = 0
     local_data = []
     for local_station_entry in local_json:
-        if x1 <= local_station_entry["lat"] <= x2 and y1 <= local_station_entry["lng"] <= y2:
+        if x1 <= local_station_entry["lng"] <= x2 and y1 <= local_station_entry["lat"] <= y2:
             local_data.append(local_station_entry)
             a += 1
         else:
@@ -167,14 +167,14 @@ def check_data(x1, y1, x2, y2, local_json, new_split=2):
 def generate_ov2(tmp_args):
     json_data = json.load(tmp_args.input)
 
-    # get all lat / long cords
+    # get all cords
     map_points = []
     for entry in json_data:
         map_points.append((entry["lng"], entry["lat"]))
 
     # generate a box around all map points
     west, south, east, north = bounding_box(map_points)
-    logging.info(f"bounding box of all items ne_1: {west}, ne_2: {south}, sw_1: {east}, sw_2: {north}")
+    logging.info(f"bounding box of all items west: {west}, south: {south}, east: {east}, north: {north}")
 
     # start box generation
     check_data(west, south, east, north, json_data, 0)
