@@ -24,12 +24,18 @@ class Record:
         extended = 3
 
 
-def to_ov2(lon, lat, label):
-    lon = int(lon * 100000)
-    lat = int(lat * 100000)
+def to_ov2(x, y, label):
+    """
+    :param x: longitude coordinate of the POI
+    :param y: latitude coordinate of the POI
+    :param label: zero-terminated ASCII string specifying the name of the POI
+    :return:
+    """
+    x = int(x * 100000)
+    y = int(y * 100000)
     label = label.encode('raw_unicode_escape')
     size = 14 + len(label)
-    buff = struct.pack(f'<B3i{len(label) + 1}s', 2, size, lon, lat, label)
+    buff = struct.pack(f'<B3i{len(label) + 1}s', 2, size, x, y, label)
     return buff
 
 
@@ -52,17 +58,26 @@ def from_ov2_skipper(buff):
     return _type, size, ne_long_2, ne_lat_2, sw_long_2, sw_lat_2
 
 
-def skipper_record(ne_long, ne_lat, sw_long, sw_lat, skip=0):
+def skipper_record(x1, y1, x2, y2, skip=0):
+    """
+
+    :param x1: longitude coordinate of the west edge of the rectangle
+    :param y1: latitude coordinate of the south edge of the rectangle
+    :param x2: longitude coordinate of the east edge of the rectangle
+    :param y2: latitude coordinate of the north edge of the rectangle
+    :param skip: the size to skip, excluding the skipper record
+    :return:
+    """
     size = 21 + skip
-    ne_long_2 = int(ne_long * 100000)
-    ne_lat_2 = int(ne_lat * 100000)
-    sw_long_2 = int(sw_long * 100000)
-    sw_lat_2 = int(sw_lat * 100000)
-    buff = struct.pack(f'<Bi4i', Record.Type.skipper.value, size, ne_long_2, ne_lat_2, sw_long_2, sw_lat_2)
+    x1 = int(x1 * 100000)
+    y1 = int(y1 * 100000)
+    x2 = int(x2 * 100000)
+    y2 = int(y2 * 100000)
+    buff = struct.pack(f'<Bi4i', Record.Type.skipper.value, size, x1, y1, x2, y2)
     return buff
 
 
-def bounding_box(points):
+def bounding_box(points) -> [float, float, float, float]:
     # we get point (latitude, longitude)
     x_coordinates, y_coordinates = zip(*points)
     # x_coordinates = latitude
@@ -73,22 +88,25 @@ def bounding_box(points):
 
 # x1 and y1 define northeast
 # x2 and y2 define southwest
-def check_data(x1, y1, x2, y2, local_json, last_split=0):
+def check_data(x1, y1, x2, y2, local_json, new_split=2):
     """
     We get 4 cords and a split value. With that we check if more than 20 points are inside
     If there are more than 20 then we split the coordinates in half first from East/West and then North/South
     After that the direction gets swapped every time
-    :param x1: lat / North
-    :param y1: long / East
-    :param x2: lat / south
-    :param y2: long / West
+    :param x1: long of east or west
+    :param y1: lat of north or south
+    :param x2: long of east or west
+    :param y2: lat of north or south
     :param local_json: json
-    :param last_split:
+    :param new_split:
     :return:
     """
+
+    # check if x1 is west and if not swap them
     if x1 > x2:
         x2, x1 = x1, x2
 
+    # check if y1 is south and if not swap them
     if y1 > y2:
         y2, y1 = y1, y2
 
@@ -96,31 +114,28 @@ def check_data(x1, y1, x2, y2, local_json, last_split=0):
     b = 0
     local_data = []
     for local_station_entry in local_json:
-        # print(f"{x1} {entry["lat"]} {x2}")
-        # print(f"{y1} {entry["lng"]} {y2}")
         if x1 <= local_station_entry["lat"] <= x2 and y1 <= local_station_entry["lng"] <= y2:
-            # print("point inside")
             local_data.append(local_station_entry)
             a += 1
         else:
-            # print("point outside")
             b += 1
 
     if a > 20:
         logging.info(f"too many points for {x1} {x2} {y1} {y2} inside. splitting")
-        if last_split != 0:
-            if last_split == 1:
-                last_split = 2
-            elif last_split == 2:
-                last_split = 1
+        if new_split == 1:
+            # split east / west
+            new_split = 2
         else:
-            last_split = 1
+            # split north / south
+            new_split = 1
 
-        if last_split == 1:
+        if new_split == 1:
+            # split north / south
             midpoint = (y1 + y2) / 2
             check_data(x1, midpoint, x2, y2, local_json, 1)
             check_data(x1, y1, x2, midpoint, local_json, 1)
-        elif last_split == 2:
+        elif new_split == 2:
+            # split east / west
             midpoint = (x1 + x2) / 2
             check_data(midpoint, y1, x2, y2, local_json, 2)
             check_data(x1, y1, midpoint, y2, local_json, 2)
@@ -224,7 +239,6 @@ def decode(tmp_args):
 
 
 def convert(tmp_args):
-    print(tmp_args)
     tmp_kml = simplekml.Kml()
     tmp_data: io.BufferedReader = tmp_args.input
     current_cursor = 0
