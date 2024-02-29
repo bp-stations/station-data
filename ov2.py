@@ -174,7 +174,6 @@ def generate_ov2(tmp_args):
 
     # generate a box around all map points
     west, south, east, north = bounding_box(map_points)
-    west2, south2, east2, north2 = west, south, east, north
     logging.info(f"bounding box of all items ne_1: {west}, ne_2: {south}, sw_1: {east}, sw_2: {north}")
 
     # start box generation
@@ -209,8 +208,8 @@ def generate_ov2(tmp_args):
 
     # now lets wrap a skipper record around all points in the file
     # e.g. if you have a map that only has points in europe, and you are currently in africa then skip the whole file
-    logging.info(f"bounding box of all items west: {west2}, south: {south2}, east: {east2}, north: {north2}")
-    skipper_all = skipper_record(west2, south2, east2, north2, all_data.getbuffer().nbytes)
+    logging.info(f"bounding box of all items west: {west}, south: {south}, east: {east}, north: {north}")
+    skipper_all = skipper_record(west, south, east, north, all_data.getbuffer().nbytes)
     tmp_args.output.write(skipper_all)
     tmp_args.output.write(all_data.getvalue())
 
@@ -272,10 +271,10 @@ def convert(tmp_args):
         if tmp_record == 1:
             tmp_data.seek(current_cursor, 0)
             _type, size, tmp_west, tmp_south, tmp_east, tmp_north = from_ov2_skipper(tmp_data.read(21))
-            tmp_folder.newpolygon(outerboundaryis=[(tmp_south, tmp_west), (tmp_north, tmp_west),
-                                                   (tmp_south, tmp_east), (tmp_north, tmp_east)],
-                                  innerboundaryis=[(tmp_south, tmp_west), (tmp_north, tmp_west),
-                                                   (tmp_south, tmp_east), (tmp_north, tmp_east)])
+            tmp_folder.newpolygon(name=f"{size}", outerboundaryis=[(tmp_west, tmp_south), (tmp_west, tmp_north),
+                                                                   (tmp_east, tmp_north), (tmp_east, tmp_south)],
+                                  innerboundaryis=[(tmp_west, tmp_south), (tmp_west, tmp_north),
+                                                   (tmp_east, tmp_north), (tmp_east, tmp_south)])
             current_items += 1
             current_cursor += 21
         elif tmp_record == 2:
