@@ -44,23 +44,22 @@ def from_ov2_simple(buff):
     lon /= 100000
     lat /= 100000
     label = label.decode('raw_unicode_escape')
-    logging.info(f"decoded simple record: {status} {size} {lon} {lat} {label}")
+    logging.info(f"decoded simple record: {status} {size} {lat} {lon} {label}")
     return status, size, lon, lat, label
 
 
 def from_ov2_skipper(buff):
-    _type, size, ne_long_2, ne_lat_2, sw_long_2, sw_lat_2 = struct.unpack(f'<Bi4i', buff)
-    logging.info(f"decoded skipper record: {_type} {size} {ne_long_2} {ne_lat_2} {sw_long_2} {sw_lat_2}")
-    ne_long_2 /= 100000
-    ne_lat_2 /= 100000
-    sw_long_2 /= 100000
-    sw_lat_2 /= 100000
-    return _type, size, ne_long_2, ne_lat_2, sw_long_2, sw_lat_2
+    _type, size, tmp_west, tmp_south, tmp_east, tmp_north = struct.unpack(f'<Bi4i', buff)
+    tmp_west /= 100000
+    tmp_south /= 100000
+    tmp_east /= 100000
+    tmp_north /= 100000
+    logging.info(f"decoded skipper record: {_type} {size} {tmp_west} {tmp_south} {tmp_east} {tmp_north}")
+    return _type, size, tmp_west, tmp_south, tmp_east, tmp_north
 
 
 def skipper_record(x1, y1, x2, y2, skip=0):
     """
-
     :param x1: longitude coordinate of the west edge of the rectangle
     :param y1: latitude coordinate of the south edge of the rectangle
     :param x2: longitude coordinate of the east edge of the rectangle
@@ -78,12 +77,20 @@ def skipper_record(x1, y1, x2, y2, skip=0):
 
 
 def bounding_box(points) -> [float, float, float, float]:
+    """
+    :param points:
+    :return:
+    x1 = west
+    y1 = south
+    x2 = east
+    y2 = north
+    """
     # we get point (latitude, longitude)
     x_coordinates, y_coordinates = zip(*points)
     # x_coordinates = latitude
     # y_coordinates = longitude
 
-    return max(x_coordinates), max(y_coordinates), min(x_coordinates), min(y_coordinates)
+    return min(x_coordinates), min(y_coordinates), max(x_coordinates), max(y_coordinates),
 
 
 # x1 and y1 define northeast
@@ -121,7 +128,7 @@ def check_data(x1, y1, x2, y2, local_json, new_split=2):
             b += 1
 
     if a > 20:
-        logging.info(f"too many points for {x1} {x2} {y1} {y2} inside. splitting")
+        logging.info(f"too many points for {x1} {y1} {x2} {y2} inside. splitting")
         if new_split == 1:
             # split east / west
             new_split = 2
@@ -142,7 +149,7 @@ def check_data(x1, y1, x2, y2, local_json, new_split=2):
 
     else:
         if a > 0:
-            logging.info(f"good data for {x1} {x2} {y1} {y2} with {a} stations")
+            logging.info(f"good data for {x1} {y1} {x2} {y2} with {a} stations")
             data.append(local_data)
 
 
@@ -155,12 +162,12 @@ def generate_ov2(tmp_args):
         map_points.append((entry["lat"], entry["lng"]))
 
     # generate a box around all map points
-    ne_1, ne_2, sw_1, sw_2 = bounding_box(map_points)
-    z_1, z_2, v_1, v_2 = ne_1, ne_2, sw_1, sw_2
-    logging.info(f"bounding box of all items ne_1: {ne_1}, ne_2: {ne_2}, sw_1: {sw_1}, sw_2: {sw_2}")
+    west, south, east, north = bounding_box(map_points)
+    west2, south2, east2, north2 = west, south, east, north
+    logging.info(f"bounding box of all items ne_1: {west}, ne_2: {south}, sw_1: {east}, sw_2: {north}")
 
     # start box generation
-    check_data(ne_1, ne_2, sw_1, sw_2, json_data, 0)
+    check_data(west, south, east, north, json_data, 0)
 
     logging.info(f"i have {len(data)} zones")
     logging.info(f"originally got {len(json_data)} stations")
@@ -184,15 +191,15 @@ def generate_ov2(tmp_args):
                                f'[{point["city"]}]>[{point["telephone"]}]')
             cache.write(new_entry)
 
-        tmp_ne_1, tmp_ne_2, tmp_sw_1, tmp_sw_2 = bounding_box(map_points)
-        tmp_skipper = skipper_record(tmp_ne_2, tmp_ne_1, tmp_sw_2, tmp_sw_1, cache.getbuffer().nbytes)
+        tmp_west, tmp_south, tmp_east, tmp_north = bounding_box(map_points)
+        tmp_skipper = skipper_record(tmp_west, tmp_south, tmp_east, tmp_north, cache.getbuffer().nbytes)
         all_data.write(tmp_skipper)
         all_data.write(cache.getbuffer())
 
     # now lets wrap a skipper record around all points in the file
     # e.g. if you have a map that only has points in europe, and you are currently in africa then skip the whole file
-    logging.info(f"bounding box of all items z_1: {z_1}, z_2: {z_2}, v_1: {v_1}, v_2: {v_2}")
-    skipper_all = skipper_record(z_2, z_1, v_2, v_1, all_data.getbuffer().nbytes)
+    logging.info(f"bounding box of all items west: {west2}, south: {south2}, east: {east2}, north: {north2}")
+    skipper_all = skipper_record(west2, south2, east2, north2, all_data.getbuffer().nbytes)
     tmp_args.output.write(skipper_all)
     tmp_args.output.write(all_data.getvalue())
 
