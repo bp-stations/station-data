@@ -5,36 +5,26 @@ import json
 import struct
 import logging
 import argparse
-from pathlib import Path
-
 import simplekml
-from enum import Enum
 from io import BytesIO
+from pathlib import Path
 
 logging.basicConfig(level=logging.INFO)
 logging.getLogger().setLevel(logging.INFO)
 data = []
 
 
-class Record:
-    class Type(Enum):
-        deleted = 0
-        skipper = 1
-        regular = 2
-        extended = 3
-
-
-def to_ov2(x, y, label):
+def to_ov2(x, y, label) -> bytes:
     """
     :param x: longitude coordinate of the POI
     :param y: latitude coordinate of the POI
     :param label: zero-terminated ASCII string specifying the name of the POI
     :return:
     """
+    size = 14 + len(label)
     x = int(x * 100000)
     y = int(y * 100000)
     label = label.encode('raw_unicode_escape')
-    size = 14 + len(label)
     buff = struct.pack(f'<B3i{len(label) + 1}s', 2, size, x, y, label)
     return buff
 
@@ -58,12 +48,14 @@ def from_ov2_skipper(buff):
     return _type, size, tmp_west, tmp_south, tmp_east, tmp_north
 
 
-def skipper_record(x1, y1, x2, y2, skip=0):
+def skipper_record(x1, y1, x2, y2, skip):
     """
-    :param x1: longitude coordinate of the west edge of the rectangle
-    :param y1: latitude coordinate of the south edge of the rectangle
-    :param x2: longitude coordinate of the east edge of the rectangle
-    :param y2: latitude coordinate of the north edge of the rectangle
+    fixme: there seems to be a difference between the documentation avalible online: x1, y1, x2, y2 can be different!
+
+    :param x1: longitude coordinate of the west edge of the rectangle / or Longitude of NE corner
+    :param y1: latitude coordinate of the south edge of the rectangle / or Latitude of NE corner
+    :param x2: longitude coordinate of the east edge of the rectangle / or Longitude of SW corner
+    :param y2: latitude coordinate of the north edge of the rectangle / or Latitude of SW corner
     :param skip: the size to skip, excluding the skipper record
     :return:
     """
@@ -82,7 +74,7 @@ def skipper_record(x1, y1, x2, y2, skip=0):
     x2 = int(x2 * 100000)
     y2 = int(y2 * 100000)
 
-    buff = struct.pack(f'<Bi4i', Record.Type.skipper.value, size, x1, y1, x2, y2)
+    buff = struct.pack('<B5i', 1, size, x2, y2, x1, y1)
     return buff
 
 
@@ -139,7 +131,7 @@ def check_data(x1, y1, x2, y2, local_json, new_split=2):
             b += 1
 
     if a > 20:
-        logging.info(f"too many points for {x1} {y1} {x2} {y2} inside. splitting")
+        logging.debug(f"too many points for {x1} {y1} {x2} {y2} inside. splitting")
         if new_split == 1:
             # split east / west
             new_split = 2
@@ -160,12 +152,13 @@ def check_data(x1, y1, x2, y2, local_json, new_split=2):
 
     else:
         if a > 0:
-            logging.info(f"good data for {x1} {y1} {x2} {y2} with {a} stations")
+            logging.debug(f"good data for {x1} {y1} {x2} {y2} with {a} stations")
             data.append(local_data)
 
 
 def generate_ov2(tmp_args):
     json_data = json.load(tmp_args.input)
+    data.clear()
 
     # get all cords
     map_points = []
@@ -186,32 +179,32 @@ def generate_ov2(tmp_args):
         x += len(map_point_list)
     logging.info(f"now got {x} stations")
 
-    all_data = BytesIO()
+    with BytesIO() as all_data:
+        for map_point_list in data:
+            map_points = []
+            with BytesIO() as cache:
+                if len(map_point_list) == 0:
+                    continue
 
-    for map_point_list in data:
-        map_points = []
-        cache = BytesIO()
-        if len(map_point_list) == 0:
-            continue
+                for point in map_point_list:
+                    map_points.append((point["lng"], point["lat"]))
+                    new_entry = to_ov2(point["lng"], point["lat"],
+                                       f'[{point["country_code"]}-{point["postcode"]}] {point["name"]}; {point["address"]} '
+                                       f'[{point["city"]}]')
+                    cache.write(new_entry)
 
-        for point in map_point_list:
-            map_points.append((point["lng"], point["lat"]))
-            new_entry = to_ov2(point["lng"], point["lat"],
-                               f'[{point["country_code"]}-{point["postcode"]}] {point["name"]}; {point["address"]} '
-                               f'[{point["city"]}]>[{point["telephone"]}]')
-            cache.write(new_entry)
+                tmp_west, tmp_south, tmp_east, tmp_north = bounding_box(map_points)
+                tmp_skipper = skipper_record(tmp_west, tmp_south, tmp_east, tmp_north, cache.getbuffer().nbytes)
+                all_data.write(tmp_skipper)
+                all_data.write(cache.getvalue())
 
-        tmp_west, tmp_south, tmp_east, tmp_north = bounding_box(map_points)
-        tmp_skipper = skipper_record(tmp_west, tmp_south, tmp_east, tmp_north, cache.getbuffer().nbytes)
-        all_data.write(tmp_skipper)
-        all_data.write(cache.getbuffer())
-
-    # now lets wrap a skipper record around all points in the file
-    # e.g. if you have a map that only has points in europe, and you are currently in africa then skip the whole file
-    logging.info(f"bounding box of all items west: {west}, south: {south}, east: {east}, north: {north}")
-    skipper_all = skipper_record(west, south, east, north, all_data.getbuffer().nbytes)
-    tmp_args.output.write(skipper_all)
-    tmp_args.output.write(all_data.getvalue())
+        # now lets wrap a skipper record around all points in the file
+        # e.g. if you have a map that only has points in europe,
+        # and you are currently in africa then skip the whole file
+        logging.info(f"bounding box of all items west: {west}, south: {south}, east: {east}, north: {north}")
+        skipper_all = skipper_record(west, south, east, north, all_data.getbuffer().nbytes)
+        tmp_args.output.write(skipper_all)
+        tmp_args.output.write(all_data.getvalue())
 
 
 def get_type(buffer):
