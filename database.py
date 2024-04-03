@@ -9,14 +9,22 @@ def load_json(file):
     return load(f)
 
 
-station_path = Path(__file__).parent.absolute().joinpath('./out/json/brands/stations_ARAL Tankstelle_min.json')
-output_path = Path(__file__).parent.absolute().joinpath('./out/json/other/aral.db')
+station_path = (
+    Path(__file__)
+    .parent.absolute()
+    .joinpath("./out/json/brands/stations_ARAL Tankstelle_min.json")
+)
+output_path = Path(__file__).parent.absolute().joinpath("./out/json/other/aral.db")
 
-station_query = ("CREATE TABLE IF NOT EXISTS `stations`(id INTEGER PRIMARY KEY, name TEXT NOT NULL, lat FLOAT NOT "
-                 "NULL, lng FLOAT NOT NULL, address TEXT NOT NULL, city TEXT NOT NULL, state TEXT, postcode INTEGER "
-                 "NOT NULL, country_code TEXT NOT NULL, telephone TEXT NOT NULL, site_brand TEXT NOT NULL, "
-                 "watchlist_id INTEGER NOT NULL, website TEXT NOT NULL, fuel TEXT NOT NULL, facilities TEXT NOT NULL);")
-fuel_query = "CREATE TABLE IF NOT EXISTS `fuel`(id INTEGER PRIMARY KEY, name TEXT NOT NULL);"
+station_query = (
+    "CREATE TABLE IF NOT EXISTS `stations`(id INTEGER PRIMARY KEY, name TEXT NOT NULL, lat FLOAT NOT "
+    "NULL, lng FLOAT NOT NULL, address TEXT NOT NULL, city TEXT NOT NULL, state TEXT, postcode INTEGER "
+    "NOT NULL, country_code TEXT NOT NULL, telephone TEXT NOT NULL, site_brand TEXT NOT NULL, "
+    "watchlist_id INTEGER NOT NULL, website TEXT NOT NULL, fuel TEXT NOT NULL, facilities TEXT NOT NULL);"
+)
+fuel_query = (
+    "CREATE TABLE IF NOT EXISTS `fuel`(id INTEGER PRIMARY KEY, name TEXT NOT NULL);"
+)
 facilities_query = "CREATE TABLE IF NOT EXISTS `facilities`(id INTEGER PRIMARY KEY, name TEXT NOT NULL);"
 
 connection = sqlite3.connect(output_path)
@@ -70,9 +78,10 @@ def export_stations():
                     station["site_brand"],
                     station["watchlist_id"],
                     station["website"],
-                    ', '.join(station["products"]),
-                    ', '.join(station["facilities"])
-                ))
+                    ", ".join(station["products"]),
+                    ", ".join(station["facilities"]),
+                ),
+            )
         except sqlite3.IntegrityError:
             print(f"error while inserting {station['id']}")
 

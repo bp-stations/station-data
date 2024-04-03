@@ -24,10 +24,18 @@ def load_json(file):
     return load(f)
 
 
-station_path = Path(__file__).parent.absolute().joinpath('./out/json/brands/stations_ARAL Tankstelle_min.json')
-output_path = Path(__file__).parent.absolute().joinpath('./out/json/other/sitemap.xml')
-output_path_facilities = Path(__file__).parent.absolute().joinpath('./out/json/other/facilities.json')
-output_path_fuel = Path(__file__).parent.absolute().joinpath('./out/json/other/fuel.json')
+station_path = (
+    Path(__file__)
+    .parent.absolute()
+    .joinpath("./out/json/brands/stations_ARAL Tankstelle_min.json")
+)
+output_path = Path(__file__).parent.absolute().joinpath("./out/json/other/sitemap.xml")
+output_path_facilities = (
+    Path(__file__).parent.absolute().joinpath("./out/json/other/facilities.json")
+)
+output_path_fuel = (
+    Path(__file__).parent.absolute().joinpath("./out/json/other/fuel.json")
+)
 
 
 def generate_sitemap():
@@ -67,8 +75,12 @@ def export_fuel():
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="generator")
     parser.add_argument("-s", "--sitemap", help="generate sitemap", action="store_true")
-    parser.add_argument("-f", "--facilities", help="generate unique facilities", action="store_true")
-    parser.add_argument("-ff", "--fuel", help="generate unique fuel types", action="store_true")
+    parser.add_argument(
+        "-f", "--facilities", help="generate unique facilities", action="store_true"
+    )
+    parser.add_argument(
+        "-ff", "--fuel", help="generate unique fuel types", action="store_true"
+    )
     args = parser.parse_args()
 
     if args.sitemap:

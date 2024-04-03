@@ -9,9 +9,11 @@ in_ci = os.getenv("CI") == "true"
 
 print(f"ci status {in_ci}")
 
-bounds_request = ("https://tankstellenfinder.aral.de/api/v1/locations/within_bounds?sw[]={}&sw[]={}&ne[]={}&ne[]={"
-                  "}&autoload=true&travel_mode=driving&avoid_tolls=false&avoid_highways=false&show_stations_on_route"
-                  "=true&corridor_radius=5&format=json")
+bounds_request = (
+    "https://tankstellenfinder.aral.de/api/v1/locations/within_bounds?sw[]={}&sw[]={}&ne[]={}&ne[]={"
+    "}&autoload=true&travel_mode=driving&avoid_tolls=false&avoid_highways=false&show_stations_on_route"
+    "=true&corridor_radius=5&format=json"
+)
 
 stations = []
 s = Session()
@@ -19,15 +21,17 @@ retries = Retry(
     total=3,
     backoff_factor=1,
     status_forcelist=[403, 502, 503, 504],
-    allowed_methods={'GET'},
+    allowed_methods={"GET"},
 )
-s.mount('https://', HTTPAdapter(max_retries=retries))
-s.headers.update({
-    "User-Agent": "https://github.com/aral-preise/aral-station-data",
-    "Accept": "application/json",
-    "Host": "tankstellenfinder.aral.de",
-    "Referer": "https://tankstellenfinder.aral.de/?"
-})
+s.mount("https://", HTTPAdapter(max_retries=retries))
+s.headers.update(
+    {
+        "User-Agent": "https://github.com/aral-preise/aral-station-data",
+        "Accept": "application/json",
+        "Host": "tankstellenfinder.aral.de",
+        "Referer": "https://tankstellenfinder.aral.de/?",
+    }
+)
 
 s.cookies.set("ap-functional", "true", domain=".aral.de")
 s.cookies.set("ap-analytics", "false", domain=".aral.de")
@@ -43,17 +47,27 @@ def get_stations(sw1, sw2, ne1, ne2):
     first_data = get_bounds(sw1, sw2, ne1, ne2)
     for entry in first_data:
         if "size" in entry:
-            tmp_sub_data = get_bounds(entry["bounds"]["sw"][0], entry["bounds"]["sw"][1], entry["bounds"]["ne"][0],
-                                      entry["bounds"]["ne"][1])
+            tmp_sub_data = get_bounds(
+                entry["bounds"]["sw"][0],
+                entry["bounds"]["sw"][1],
+                entry["bounds"]["ne"][0],
+                entry["bounds"]["ne"][1],
+            )
             for tmp in tmp_sub_data:
                 if "size" in tmp:
-                    print(f"getting new stations on bounds {tmp["bounds"]["sw"][0]}, {tmp["bounds"]["sw"][1]}, "
-                          f"{tmp["bounds"]["ne"][0]}, {tmp["bounds"]["ne"][1]}")
-                    get_stations(tmp["bounds"]["sw"][0], tmp["bounds"]["sw"][1],
-                                 tmp["bounds"]["ne"][0], tmp["bounds"]["ne"][1])
+                    print(
+                        f"getting new stations on bounds {tmp["bounds"]["sw"][0]}, {tmp["bounds"]["sw"][1]}, "
+                        f"{tmp["bounds"]["ne"][0]}, {tmp["bounds"]["ne"][1]}"
+                    )
+                    get_stations(
+                        tmp["bounds"]["sw"][0],
+                        tmp["bounds"]["sw"][1],
+                        tmp["bounds"]["ne"][0],
+                        tmp["bounds"]["ne"][1],
+                    )
                 else:
                     if not in_ci:
-                        print(f"saving station")
+                        print("saving station")
                     stations.append(tmp)
         else:
             stations.append(entry)
@@ -100,7 +114,7 @@ Total station count: {len(stations)}\n""")
                 unique_countries.add(country)
 
         print(f"got the following countries: {countries}")
-        readme.writelines(f"""## By Country\n
+        readme.writelines("""## By Country\n
 | Country | Count
 | - | - \n""")
 
@@ -132,7 +146,7 @@ Total station count: {len(stations)}\n""")
                 unique_brands.add(brand)
 
         print(f"got the following brands: {brands}")
-        readme.writelines(f"""## By Brand\n
+        readme.writelines("""## By Brand\n
 | Brand | Count
 | - | - \n""")
 

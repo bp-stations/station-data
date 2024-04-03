@@ -24,27 +24,31 @@ def to_ov2(x, y, label) -> bytes:
     size = 14 + len(label)
     x = int(x * 100000)
     y = int(y * 100000)
-    label = label.encode('raw_unicode_escape')
-    buff = struct.pack(f'<B3i{len(label) + 1}s', 2, size, x, y, label)
+    label = label.encode("raw_unicode_escape")
+    buff = struct.pack(f"<B3i{len(label) + 1}s", 2, size, x, y, label)
     return buff
 
 
 def from_ov2_simple(buff):
-    status, size, lon, lat, label = struct.unpack(f'<B3i{len(buff) - 14}sx', buff)
+    status, size, lon, lat, label = struct.unpack(f"<B3i{len(buff) - 14}sx", buff)
     lon /= 100000
     lat /= 100000
-    label = label.decode('raw_unicode_escape')
+    label = label.decode("raw_unicode_escape")
     logging.info(f"decoded simple record: {status} {size} {lat} {lon} {label}")
     return status, size, lon, lat, label
 
 
 def from_ov2_skipper(buff):
-    _type, size, tmp_west, tmp_south, tmp_east, tmp_north = struct.unpack(f'<Bi4i', buff)
+    _type, size, tmp_west, tmp_south, tmp_east, tmp_north = struct.unpack(
+        "<Bi4i", buff
+    )
     tmp_west /= 100000
     tmp_south /= 100000
     tmp_east /= 100000
     tmp_north /= 100000
-    logging.info(f"decoded skipper record: {_type} {size} {tmp_west} {tmp_south} {tmp_east} {tmp_north}")
+    logging.info(
+        f"decoded skipper record: {_type} {size} {tmp_west} {tmp_south} {tmp_east} {tmp_north}"
+    )
     return _type, size, tmp_west, tmp_south, tmp_east, tmp_north
 
 
@@ -74,7 +78,7 @@ def skipper_record(x1, y1, x2, y2, skip):
     x2 = int(x2 * 100000)
     y2 = int(y2 * 100000)
 
-    buff = struct.pack('<B5i', 1, size, x2, y2, x1, y1)
+    buff = struct.pack("<B5i", 1, size, x2, y2, x1, y1)
     return buff
 
 
@@ -93,7 +97,12 @@ def bounding_box(points) -> [float, float, float, float]:
     # x_coordinates = latitude
     # y_coordinates = longitude
 
-    return min(x_coordinates), min(y_coordinates), max(x_coordinates), max(y_coordinates),
+    return (
+        min(x_coordinates),
+        min(y_coordinates),
+        max(x_coordinates),
+        max(y_coordinates),
+    )
 
 
 # x1 and y1 define northeast
@@ -124,7 +133,10 @@ def check_data(x1, y1, x2, y2, local_json, new_split=2):
     b = 0
     local_data = []
     for local_station_entry in local_json:
-        if x1 <= local_station_entry["lng"] <= x2 and y1 <= local_station_entry["lat"] <= y2:
+        if (
+            x1 <= local_station_entry["lng"] <= x2
+            and y1 <= local_station_entry["lat"] <= y2
+        ):
             local_data.append(local_station_entry)
             a += 1
         else:
@@ -167,7 +179,9 @@ def generate_ov2(tmp_args):
 
     # generate a box around all map points
     west, south, east, north = bounding_box(map_points)
-    logging.info(f"bounding box of all items west: {west}, south: {south}, east: {east}, north: {north}")
+    logging.info(
+        f"bounding box of all items west: {west}, south: {south}, east: {east}, north: {north}"
+    )
 
     # start box generation
     check_data(west, south, east, north, json_data, 0)
@@ -188,21 +202,30 @@ def generate_ov2(tmp_args):
 
                 for point in map_point_list:
                     map_points.append((point["lng"], point["lat"]))
-                    new_entry = to_ov2(point["lng"], point["lat"],
-                                       f'[{point["country_code"]}-{point["postcode"]}] {point["name"]}; {point["address"]} '
-                                       f'[{point["city"]}]')
+                    new_entry = to_ov2(
+                        point["lng"],
+                        point["lat"],
+                        f'[{point["country_code"]}-{point["postcode"]}] {point["name"]}; {point["address"]} '
+                        f'[{point["city"]}]',
+                    )
                     cache.write(new_entry)
 
                 tmp_west, tmp_south, tmp_east, tmp_north = bounding_box(map_points)
-                tmp_skipper = skipper_record(tmp_west, tmp_south, tmp_east, tmp_north, cache.getbuffer().nbytes)
+                tmp_skipper = skipper_record(
+                    tmp_west, tmp_south, tmp_east, tmp_north, cache.getbuffer().nbytes
+                )
                 all_data.write(tmp_skipper)
                 all_data.write(cache.getvalue())
 
         # now lets wrap a skipper record around all points in the file
         # e.g. if you have a map that only has points in europe,
         # and you are currently in africa then skip the whole file
-        logging.info(f"bounding box of all items west: {west}, south: {south}, east: {east}, north: {north}")
-        skipper_all = skipper_record(west, south, east, north, all_data.getbuffer().nbytes)
+        logging.info(
+            f"bounding box of all items west: {west}, south: {south}, east: {east}, north: {north}"
+        )
+        skipper_all = skipper_record(
+            west, south, east, north, all_data.getbuffer().nbytes
+        )
         tmp_args.output.write(skipper_all)
         tmp_args.output.write(all_data.getvalue())
 
@@ -263,18 +286,33 @@ def convert(tmp_args):
 
         if tmp_record == 1:
             tmp_data.seek(current_cursor, 0)
-            _type, size, tmp_west, tmp_south, tmp_east, tmp_north = from_ov2_skipper(tmp_data.read(21))
-            tmp_folder.newpolygon(name=f"{size}", outerboundaryis=[(tmp_west, tmp_south), (tmp_west, tmp_north),
-                                                                   (tmp_east, tmp_north), (tmp_east, tmp_south)],
-                                  innerboundaryis=[(tmp_west, tmp_south), (tmp_west, tmp_north),
-                                                   (tmp_east, tmp_north), (tmp_east, tmp_south)])
+            _type, size, tmp_west, tmp_south, tmp_east, tmp_north = from_ov2_skipper(
+                tmp_data.read(21)
+            )
+            tmp_folder.newpolygon(
+                name=f"{size}",
+                outerboundaryis=[
+                    (tmp_west, tmp_south),
+                    (tmp_west, tmp_north),
+                    (tmp_east, tmp_north),
+                    (tmp_east, tmp_south),
+                ],
+                innerboundaryis=[
+                    (tmp_west, tmp_south),
+                    (tmp_west, tmp_north),
+                    (tmp_east, tmp_north),
+                    (tmp_east, tmp_south),
+                ],
+            )
             current_items += 1
             current_cursor += 21
         elif tmp_record == 2:
             tmp_data.seek(current_cursor, 0)
             _type, local_size = struct.unpack("<Bi", tmp_data.read(5))
             tmp_data.seek(current_cursor, 0)
-            status, size, tmp_lng, tmp_lat, tmp_name = from_ov2_simple(tmp_data.read(local_size))
+            status, size, tmp_lng, tmp_lat, tmp_name = from_ov2_simple(
+                tmp_data.read(local_size)
+            )
             tmp_folder.newpoint(name=tmp_name, coords=[(tmp_lng, tmp_lat)])
             current_items += 1
             current_cursor += local_size
@@ -287,8 +325,8 @@ def convert(tmp_args):
 
 
 def auto(tmp_args):
-    input_path = Path(__file__).parent.absolute().joinpath('./out/json/')
-    output_path = Path(__file__).parent.absolute().joinpath('./out/ov2/')
+    input_path = Path(__file__).parent.absolute().joinpath("./out/json/")
+    output_path = Path(__file__).parent.absolute().joinpath("./out/ov2/")
     folders = ["all", "brands", "countries"]
     logging.info("automatically converting all files in out/json to ov2")
     for folder_name in folders:
@@ -304,34 +342,60 @@ def auto(tmp_args):
                 continue
             if "_min.json" in tmp_file:
                 continue
-            logging.info(f"converting {tmp_path_input.joinpath(tmp_file)} to "
-                         f"{tmp_path_output.joinpath(tmp_file.replace(".json", ".ov2"))}")
-            tmp_args = parser.parse_args(['generate', '-i', str(tmp_path_input.joinpath(tmp_file)), '-o',
-                                          str(tmp_path_output.joinpath(tmp_file.replace(".json", ".ov2")))])
+            logging.info(
+                f"converting {tmp_path_input.joinpath(tmp_file)} to "
+                f"{tmp_path_output.joinpath(tmp_file.replace(".json", ".ov2"))}"
+            )
+            tmp_args = parser.parse_args(
+                [
+                    "generate",
+                    "-i",
+                    str(tmp_path_input.joinpath(tmp_file)),
+                    "-o",
+                    str(tmp_path_output.joinpath(tmp_file.replace(".json", ".ov2"))),
+                ]
+            )
             generate_ov2(tmp_args)
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Convert a json file to ov2 with skipper records")
-    subparsers = parser.add_subparsers(title='subcommands', help='additional help', required=True)
+    parser = argparse.ArgumentParser(
+        description="Convert a json file to ov2 with skipper records"
+    )
+    subparsers = parser.add_subparsers(
+        title="subcommands", help="additional help", required=True
+    )
 
-    tmp_parser_generate = subparsers.add_parser('generate')
-    tmp_parser_generate.add_argument("-i", "--input", help="input file", required=True,
-                                     type=argparse.FileType('r', encoding="utf-8"))
-    tmp_parser_generate.add_argument("-o", "--output", help="output file", required=True, type=argparse.FileType('wb+'))
+    tmp_parser_generate = subparsers.add_parser("generate")
+    tmp_parser_generate.add_argument(
+        "-i",
+        "--input",
+        help="input file",
+        required=True,
+        type=argparse.FileType("r", encoding="utf-8"),
+    )
+    tmp_parser_generate.add_argument(
+        "-o",
+        "--output",
+        help="output file",
+        required=True,
+        type=argparse.FileType("wb+"),
+    )
     tmp_parser_generate.set_defaults(func=generate_ov2)
 
-    tmp_parser_decode = subparsers.add_parser('decode')
-    tmp_parser_decode.add_argument("-i", "--input", help="input file", required=True,
-                                   type=argparse.FileType('rb'))
+    tmp_parser_decode = subparsers.add_parser("decode")
+    tmp_parser_decode.add_argument(
+        "-i", "--input", help="input file", required=True, type=argparse.FileType("rb")
+    )
     tmp_parser_decode.set_defaults(func=decode)
 
-    tmp_parser_convert = subparsers.add_parser('convert')
-    tmp_parser_convert.add_argument("-i", "--input", help="input file", required=True,
-                                    type=argparse.FileType('rb'))
+    tmp_parser_convert = subparsers.add_parser("convert")
+    tmp_parser_convert.add_argument(
+        "-i", "--input", help="input file", required=True, type=argparse.FileType("rb")
+    )
     tmp_parser_convert.set_defaults(func=convert)
 
-    tmp_parser_auto = subparsers.add_parser('auto')
+    tmp_parser_auto = subparsers.add_parser("auto")
     tmp_parser_auto.set_defaults(func=auto)
 
     args = parser.parse_args()
