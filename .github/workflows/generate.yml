@@ -21,7 +21,7 @@ jobs:
       - name: install requirements
         run: pip install -r requirements.txt
       - name: generate all station data
-        run: python get.py
+        run: python main.py
       - uses: actions/upload-artifact@v4
         with:
           name: tmp-data
