@@ -109,5 +109,5 @@ The code is formatted and checked with [ruff](https://github.com/astral-sh/ruff)
 ## ⛏️ Built Using <a name = "built_using"></a>
 None
 
-### Affiliation <a name = "affiliation"></a>
+## Affiliation <a name = "affiliation"></a>
 I am not affiliated with the Aral Aktiengesellschaft nor the BP p.l.c.
