@@ -94,6 +94,8 @@ Total station count: {len(stations)}\n""")
                 unique_objects.append(data)
                 seen_ids.add(current_id)
 
+        unique_objects = sorted(unique_objects, key=lambda x: x['id'])
+
         """Worldwide stations"""
         print(f"got {len(unique_objects)} worldwide stations")
         with open("./out/json/all/stations_min.json", "w+") as f:
@@ -124,15 +126,16 @@ Total station count: {len(stations)}\n""")
             for data in stations:
                 if data["country_code"] == country:
                     tmp_stations.append(data)
+            tmp_sorted = sorted(tmp_stations, key=lambda x: x['id'])
 
             print(f"got {len(tmp_stations)} stations for country {country}")
             readme.write(f"| {country} | {len(tmp_stations)}\n")
 
             with open(f"./out/json/countries/stations_{country}.json", "w+") as f:
-                f.write(json.dumps(tmp_stations, indent=4))
+                f.write(json.dumps(tmp_sorted, indent=4))
 
             with open(f"./out/json/countries/stations_{country}_min.json", "w+") as f:
-                f.write(json.dumps(tmp_stations))
+                f.write(json.dumps(tmp_sorted))
 
         """Stations by Brand found"""
         brands = []
@@ -156,12 +159,13 @@ Total station count: {len(stations)}\n""")
             for data in stations:
                 if data["site_brand"] == brand:
                     tmp_stations.append(data)
+            tmp_sorted = sorted(tmp_stations, key=lambda x: x['id'])
 
             print(f"got {len(tmp_stations)} stations for Brand {brand}")
             readme.write(f"| {brand} | {len(tmp_stations)}\n")
 
             with open(f"./out/json/brands/stations_{brand}.json", "w+") as f:
-                f.write(json.dumps(tmp_stations, indent=4))
+                f.write(json.dumps(tmp_sorted, indent=4))
 
             with open(f"./out/json/brands/stations_{brand}_min.json", "w+") as f:
-                f.write(json.dumps(tmp_stations))
+                f.write(json.dumps(tmp_sorted))
