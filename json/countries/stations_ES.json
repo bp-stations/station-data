@@ -1477,6 +1477,7 @@
             "jet_wash",
             "disabled_facilities",
             "toilet",
+            "supermarket",
             "bakery_bistro",
             "bistro",
             "petit_bistro",
@@ -1683,9 +1684,12 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_cannister",
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -3157,6 +3161,7 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "electricity",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -4128,37 +4133,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CR. DE SAN JOSE KM 0\nRUESCAS\n04151",
-        "channel_of_trade": null
-    },
-    {
-        "id": "1443945097",
-        "name": "CALA BENIDORM",
-        "lat": 38.53306,
-        "lng": -0.16608,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "Avinguda de la Vila Joiosa 44",
-        "city": "Benidorm",
-        "state": null,
-        "postcode": "03502",
-        "telephone": "+34 966 47 56 22",
-        "facilities": [
-            "car_wash",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Avinguda de la Vila Joiosa 44\nBenidorm\n03502",
         "channel_of_trade": null
     },
     {
@@ -5276,6 +5250,7 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_cannister",
             "diesel_on",
             "red_diesel",
             "ultimate",
@@ -7099,6 +7074,7 @@
             "toilet",
             "bakery_bistro",
             "accepts_routex_cards",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -8199,53 +8175,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "16421",
-        "name": "bp MANZANIL",
-        "lat": 37.1655,
-        "lng": -4.1694,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "CR A-92, KM. 192",
-        "city": "LOJA",
-        "state": null,
-        "postcode": "18300",
-        "telephone": "+34 958 32 39 76",
-        "facilities": [
-            "open_24_hours",
-            "alcohol",
-            "tobacco",
-            "jet_wash",
-            "high_speed_pump",
-            "truck_parking",
-            "truck_suitable_site",
-            "truck_wash",
-            "disabled_facilities",
-            "toilet",
-            "motorway_site",
-            "bakery_bistro",
-            "bistro",
-            "petit_bistro",
-            "restaurant",
-            "accepts_routex_cards",
-            "shop_open_24_hours",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "CR A-92, KM. 192\nLOJA\n18300",
-        "channel_of_trade": null
-    },
-    {
         "id": "16423",
         "name": "bp MAQUEDA",
         "lat": 40.0583,
@@ -8623,6 +8552,7 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
             "ultimate",
@@ -8793,9 +8723,7 @@
         "postcode": "28810",
         "telephone": "+34 658 70 68 97",
         "facilities": [
-            "high_speed_pump",
             "truck_suitable_site",
-            "toilet",
             "accepts_routex_cards",
             "open_saturday"
         ],
@@ -13372,7 +13300,7 @@
         "city": "ARONA",
         "state": null,
         "postcode": "38650",
-        "telephone": "+34 638 72 16 48",
+        "telephone": "+34 922 08 80 44",
         "facilities": [
             "open_24_hours",
             "alcohol",
@@ -15531,15 +15459,18 @@
         "telephone": "+34 956 53 54 28",
         "facilities": [
             "open_24_hours",
+            "alcohol",
             "tobacco",
             "car_wash",
             "jet_wash",
             "truck_suitable_site",
+            "disabled_facilities",
             "toilet",
             "supermarket",
             "bakery_bistro",
             "accepts_routex_cards",
             "shop_open_24_hours",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -16964,7 +16895,7 @@
     },
     {
         "id": "1871948923",
-        "name": "MANZANIL",
+        "name": "bp MANZANIL",
         "lat": 37.1655,
         "lng": -4.1694,
         "site_brand": "BP",
@@ -16976,8 +16907,19 @@
         "telephone": "+34 675 59 81 93",
         "facilities": [
             "open_24_hours",
+            "alcohol",
+            "tobacco",
+            "jet_wash",
+            "high_speed_pump",
+            "truck_parking",
+            "truck_suitable_site",
+            "disabled_facilities",
+            "toilet",
             "motorway_site",
+            "bakery_bistro",
+            "restaurant",
             "accepts_routex_cards",
+            "shop_open_24_hours",
             "open_saturday",
             "open_sunday"
         ],
@@ -17197,7 +17139,6 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
-            "bakery_bistro",
             "accepts_routex_cards",
             "shop_open_24_hours",
             "open_saturday",
@@ -17751,6 +17692,7 @@
             "bistro",
             "petit_bistro",
             "accepts_routex_cards",
+            "shop_open_24_hours",
             "open_saturday",
             "open_sunday"
         ],
@@ -19107,6 +19049,7 @@
         "facilities": [
             "alcohol",
             "tobacco",
+            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
@@ -19124,7 +19067,6 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -19266,7 +19208,7 @@
         "lng": -3.6506,
         "site_brand": "BP",
         "country_code": "ES",
-        "address": "CR N 322   K.M 119",
+        "address": "CR. N-322 KM 119",
         "city": "LINARES",
         "state": null,
         "postcode": "23700",
@@ -19300,7 +19242,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "CR N 322   K.M 119\nLINARES\n23700",
+        "formatted_address": "CR. N-322 KM 119\nLINARES\n23700",
         "channel_of_trade": null
     },
     {
@@ -21090,7 +21032,7 @@
     },
     {
         "id": "320937416",
-        "name": "ARENYS DE MAR",
+        "name": "bp ARENYS DE MAR",
         "lat": 41.5751,
         "lng": 2.54234,
         "site_brand": "BP",
@@ -21139,6 +21081,7 @@
         "postcode": "11370",
         "telephone": "+34 619 87 46 99",
         "facilities": [
+            "open_24_hours",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -21631,7 +21574,7 @@
     },
     {
         "id": "35157428",
-        "name": "E.S. BP AVENIDA CARTAGENA",
+        "name": "bp AVENIDA CARTAGENA",
         "lat": 36.1769,
         "lng": -5.3388,
         "site_brand": "BP",
@@ -21643,9 +21586,12 @@
         "telephone": "+34 956 64 31 83",
         "facilities": [
             "open_24_hours",
+            "tobacco",
             "disabled_facilities",
             "toilet",
+            "bakery_bistro",
             "accepts_routex_cards",
+            "shop_open_24_hours",
             "open_saturday",
             "open_sunday"
         ],
@@ -22337,8 +22283,9 @@
         "city": "LOJA",
         "state": null,
         "postcode": "18300",
-        "telephone": "+34 675 59 81 93",
+        "telephone": "+34 649 98 79 67",
         "facilities": [
+            "open_24_hours",
             "alcohol",
             "tobacco",
             "high_speed_pump",
@@ -22350,6 +22297,8 @@
             "motorway_site",
             "supermarket",
             "bakery_bistro",
+            "bistro",
+            "petit_bistro",
             "restaurant",
             "accepts_routex_cards",
             "shop_open_24_hours",
@@ -24152,6 +24101,7 @@
         "postcode": "30007",
         "telephone": "+34 868 69 50 27",
         "facilities": [
+            "alcohol",
             "tobacco",
             "jet_wash",
             "disabled_facilities",
