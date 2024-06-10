@@ -1696,6 +1696,7 @@
         "telephone": "+43 7242 64105",
         "facilities": [
             "accepts_routex_cards",
+            "accepts_toll_payments",
             "open_saturday",
             "open_sunday"
         ],
@@ -1797,7 +1798,6 @@
         "telephone": "+43 676 4135228",
         "facilities": [
             "open_24_hours",
-            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "open_saturday",
@@ -3371,7 +3371,6 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
-            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
@@ -7857,6 +7856,47 @@
         "channel_of_trade": null
     },
     {
+        "id": "8947",
+        "name": "Schaerding, Passauer Str. 29",
+        "lat": 48.4642133,
+        "lng": 13.4356022,
+        "site_brand": "BP",
+        "country_code": "AT",
+        "address": "Passauer Stra\u00dfe 29",
+        "city": "Sch\u00e4rding",
+        "state": null,
+        "postcode": "4780",
+        "telephone": "+43 7712 50021",
+        "facilities": [
+            "tobacco",
+            "car_wash",
+            "high_speed_pump",
+            "truck_suitable_site",
+            "toilet",
+            "merkur",
+            "shop",
+            "bakery_bistro",
+            "wild_bean_cafe",
+            "accepts_routex_cards",
+            "accepts_toll_payments",
+            "reminder_service",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "diesel_on",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Passauer Stra\u00dfe 29\nSch\u00e4rding\n4780",
+        "channel_of_trade": null
+    },
+    {
         "id": "8952",
         "name": "Maishofen, Zellerstr. 29",
         "lat": 47.3507,
@@ -8355,7 +8395,7 @@
         "city": "Lustenau",
         "state": null,
         "postcode": "6890",
-        "telephone": "+43 5577 88184",
+        "telephone": "+43 5577 62385",
         "facilities": [
             "tobacco",
             "car_wash",
@@ -8836,9 +8876,7 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
-            "shop",
             "bakery_bistro",
-            "bistro",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",

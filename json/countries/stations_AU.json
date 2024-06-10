@@ -1110,7 +1110,6 @@
         "postcode": "3357",
         "telephone": "+61 3 5341 2154",
         "facilities": [
-            "open_24_hours",
             "toilet",
             "food_offer_instore",
             "restaurant"
@@ -6508,7 +6507,6 @@
         "postcode": "3175",
         "telephone": "+61 3 9782 0510",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "bdouble_access",
             "truck_parking",
@@ -7621,7 +7619,9 @@
         "state": "TAS",
         "postcode": "7470",
         "telephone": "+61 3 6473 1193",
-        "facilities": [],
+        "facilities": [
+            "pump_rewards"
+        ],
         "products": [
             "premium_unlead",
             "ultimate_diesel",
@@ -9000,6 +9000,30 @@
         "channel_of_trade": null
     },
     {
+        "id": "1128",
+        "name": "BP WILLIAMSTOWN NORTH",
+        "lat": -37.8555,
+        "lng": 144.8701,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "268 Kororoit Creek Road",
+        "city": "Williamstown North",
+        "state": "VIC",
+        "postcode": "3016",
+        "telephone": "+61 418 337 142",
+        "facilities": [
+            "loyalty",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "268 Kororoit Creek Road\nWilliamstown North\n3016",
+        "channel_of_trade": null
+    },
+    {
         "id": "1130",
         "name": "BP SOMERTON",
         "lat": -33.6998,
@@ -9732,7 +9756,7 @@
         "city": "Rolleston",
         "state": "QLD",
         "postcode": "4702",
-        "telephone": "+61 425 137 696",
+        "telephone": "",
         "facilities": [
             "bp_rewards_unlocked",
             "loyalty",
@@ -12718,20 +12742,25 @@
         "postcode": "4560",
         "telephone": "+61 7 5445 7405",
         "facilities": [
-            "gift_card",
+            "cash_point",
             "toilet",
+            "barista_coffee",
+            "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
             "restaurant",
+            "takeaway_food",
             "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
             "auto_gas",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -26390,6 +26419,7 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
+            "bppulse",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -36248,7 +36278,7 @@
         "city": "MULLALOO",
         "state": "WA",
         "postcode": "6027",
-        "telephone": "+61 8 9401 9010",
+        "telephone": "+61 8 9240 4105",
         "facilities": [
             "open_24_hours",
             "gift_card",
@@ -42514,7 +42544,7 @@
         "city": "COHUNA",
         "state": "VIC",
         "postcode": "3568",
-        "telephone": "",
+        "telephone": "+61 3 4403 4646",
         "facilities": [
             "national_diesel_offer",
             "bdouble_access",
@@ -44264,6 +44294,7 @@
         "postcode": "4207",
         "telephone": "+61 7 3287 5551",
         "facilities": [
+            "open_24_hours",
             "gift_card",
             "trailers",
             "cash_point",
@@ -45630,50 +45661,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "420 TOURIST DRIVE\nTANAWHA\n4556",
-        "channel_of_trade": null
-    },
-    {
-        "id": "7385",
-        "name": "BP BARGO",
-        "lat": -34.293,
-        "lng": 150.5802,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "116-118 RAILSIDE AVE (REMEMBRANCE HWY)",
-        "city": "BARGO",
-        "state": "NSW",
-        "postcode": "2574",
-        "telephone": "+61 2 4684 1149",
-        "facilities": [
-            "gift_card",
-            "high_flow_diesel",
-            "cash_point",
-            "toilet",
-            "takeaway_food_offer",
-            "food_offer_instore",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "loyalty",
-            "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "restaurant",
-            "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "e10",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "116-118 RAILSIDE AVE (REMEMBRANCE HWY)\nBARGO\n2574",
         "channel_of_trade": null
     },
     {
@@ -59736,7 +59723,6 @@
             "hand_wash",
             "bdouble_access",
             "rigid_access",
-            "truck_suitable_site",
             "toilet",
             "bp_rewards_redemption",
             "loyalty",

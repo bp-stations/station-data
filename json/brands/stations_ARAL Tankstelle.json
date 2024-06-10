@@ -2797,6 +2797,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "recup",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -2816,7 +2817,7 @@
         "website": "http://tankstelle.aral.de/tankstelle/12081100",
         "watchlist_id": "12081100",
         "formatted_address": "Ostallee 22\nTrier\n54290",
-        "channel_of_trade": "COFO"
+        "channel_of_trade": "COSI"
     },
     {
         "id": "12082600",
@@ -5135,6 +5136,44 @@
         "watchlist_id": "12146500",
         "formatted_address": "Bahnhofstra\u00dfe 72\nBad Laasphe\n57334",
         "channel_of_trade": "COSI"
+    },
+    {
+        "id": "12146900",
+        "name": "Christian Welle",
+        "lat": 50.552548,
+        "lng": 9.701944,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Petersberger Stra\u00dfe 101",
+        "city": "Petersberg",
+        "state": null,
+        "postcode": "36100",
+        "telephone": "+49 661 65535",
+        "facilities": [
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "shop",
+            "bistro",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/12146900",
+        "watchlist_id": "12146900",
+        "formatted_address": "Petersberger Stra\u00dfe 101\nPetersberg\n36100",
+        "channel_of_trade": "DODO"
     },
     {
         "id": "12147100",
@@ -13209,7 +13248,7 @@
         "lng": 10.495459,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "Lindenstra\u00dfe 5",
+        "address": "Lindenstra\u00dfe 1A",
         "city": "Fl\u00f6the",
         "state": null,
         "postcode": "38312",
@@ -13233,7 +13272,7 @@
         ],
         "website": "http://tankstelle.aral.de/tankstelle/13145900",
         "watchlist_id": "13145900",
-        "formatted_address": "Lindenstra\u00dfe 5\nFl\u00f6the\n38312",
+        "formatted_address": "Lindenstra\u00dfe 1A\nFl\u00f6the\n38312",
         "channel_of_trade": "JOBR"
     },
     {
@@ -13493,7 +13532,11 @@
         "telephone": "",
         "facilities": [
             "open_24_hours",
+            "recup",
             "bistro",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
             "open_saturday",
             "open_sunday",
             "ryd"
@@ -15903,7 +15946,6 @@
         "postcode": "47647",
         "telephone": "+49 2833 7594",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -19255,6 +19297,7 @@
             "ultimate",
             "ultimate_diesel",
             "lpg",
+            "ad_blue",
             "super_e5",
             "e10",
             "truck_diesel",
@@ -34234,7 +34277,7 @@
     },
     {
         "id": "18062600",
-        "name": "G\u00fcnther Regert",
+        "name": "Michael Klein",
         "lat": 49.195579,
         "lng": 8.277498,
         "site_brand": "ARAL Tankstelle",
@@ -40299,6 +40342,7 @@
         "telephone": "+49 8467 805892",
         "facilities": [
             "car_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -40316,7 +40360,8 @@
             "ultimate_diesel",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/19124700",
         "watchlist_id": "19124700",
@@ -50083,8 +50128,8 @@
     {
         "id": "20187000",
         "name": "BMV Mineral\u00f6lvertriebs GmbH",
-        "lat": 51.400465,
-        "lng": 7.697738,
+        "lat": 51.400123,
+        "lng": 7.69700852,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
         "address": "Baarstra\u00dfe 162",
@@ -54864,7 +54909,7 @@
     },
     {
         "id": "22045300",
-        "name": "Peter Finsinger",
+        "name": "VEWAG Verwaltungsgesellschaft mbH",
         "lat": 49.69798,
         "lng": 10.803122,
         "site_brand": "ARAL Tankstelle",
@@ -54878,10 +54923,8 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -54902,7 +54945,7 @@
         "website": "http://tankstelle.aral.de/tankstelle/22045300",
         "watchlist_id": "22045300",
         "formatted_address": "F\u00fcrther Stra\u00dfe 1\nH\u00f6chstadt\n91315",
-        "channel_of_trade": "COSI"
+        "channel_of_trade": "JOBR"
     },
     {
         "id": "22045400",
@@ -60000,7 +60043,6 @@
         "postcode": "99867",
         "telephone": "+49 3621 709631",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -63545,7 +63587,6 @@
         "postcode": "14558",
         "telephone": "+49 33200 508777",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -71458,7 +71499,7 @@
         "lng": 9.741357,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "Ferdinand-Wallbrecht-Stra",
+        "address": "Ferdinand-Wallbrecht-Stra\u00dfe 85",
         "city": "Hannover",
         "state": null,
         "postcode": "30163",
@@ -71490,7 +71531,7 @@
         ],
         "website": "http://tankstelle.aral.de/tankstelle/28207800",
         "watchlist_id": "28207800",
-        "formatted_address": "Ferdinand-Wallbrecht-Stra\nHannover\n30163",
+        "formatted_address": "Ferdinand-Wallbrecht-Stra\u00dfe 85\nHannover\n30163",
         "channel_of_trade": "COSI"
     },
     {
@@ -74068,6 +74109,7 @@
         "postcode": "51063",
         "telephone": "+49 221 9641905",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -80793,7 +80835,6 @@
         "postcode": "14109",
         "telephone": "+49 30 8051018",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -82405,45 +82446,6 @@
         "channel_of_trade": "COSI"
     },
     {
-        "id": "28628800",
-        "name": "team energie GmbH&Co. KG",
-        "lat": 54.388788,
-        "lng": 10.373199,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Bahnhofstra\u00dfe 32",
-        "city": "Sch\u00f6nberg",
-        "state": null,
-        "postcode": "24217",
-        "telephone": "+49 4344 4107075",
-        "facilities": [
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "shop",
-            "bistro",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "vda",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "lpg",
-            "ad_blue",
-            "super_e5",
-            "super_98",
-            "e10"
-        ],
-        "website": "http://tankstelle.aral.de/tankstelle/28628800",
-        "watchlist_id": "28628800",
-        "formatted_address": "Bahnhofstra\u00dfe 32\nSch\u00f6nberg\n24217",
-        "channel_of_trade": "JOBR"
-    },
-    {
         "id": "28628900",
         "name": "J\u00f6rg Plath",
         "lat": 54.12896,
@@ -82908,6 +82910,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -84023,6 +84026,7 @@
         "postcode": "09648",
         "telephone": "+49 3727 90602",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -86311,7 +86315,6 @@
         "postcode": "66121",
         "telephone": "+49 681 61887",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
