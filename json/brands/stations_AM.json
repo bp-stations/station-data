@@ -1365,6 +1365,7 @@
         "telephone": "+1 773-725-0230",
         "facilities": [
             "toilet",
+            "loyalty",
             "mobile_acceptance",
             "mobile_enabled"
         ],
@@ -1654,8 +1655,8 @@
     {
         "id": "125481",
         "name": "Amoco",
-        "lat": 40.6650261,
-        "lng": -73.7354563,
+        "lat": 40.665035,
+        "lng": -73.735478,
         "site_brand": "AM",
         "country_code": "US",
         "address": "243-02 S Conduit Ave",
@@ -1665,13 +1666,15 @@
         "telephone": "+1 718-341-7120",
         "facilities": [
             "open_24_hours",
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
             "loyalty",
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [
-            "regular_diesel"
-        ],
+        "products": [],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "243-02 S Conduit Ave\nNew York\n11422",
@@ -2199,7 +2202,9 @@
             "grocer_reward",
             "harris_teeter",
             "loyalty",
-            "citi_rewards"
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
         ],
         "products": [],
         "website": null,
@@ -3218,33 +3223,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "807 Eastanallee Ave\nAthens\n37303",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "127862",
-        "name": "Amoco",
-        "lat": 41.60529184,
-        "lng": -93.61936942,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "1443 2nd Ave",
-        "city": "Des Moines",
-        "state": "IA",
-        "postcode": "50314",
-        "telephone": "+1 515-348-9584",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1443 2nd Ave\nDes Moines\n50314",
         "channel_of_trade": "BJBR"
     },
     {
@@ -5346,7 +5324,9 @@
             "toilet",
             "shop",
             "loyalty",
-            "citi_rewards"
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
         ],
         "products": [],
         "website": null,
@@ -7367,7 +7347,6 @@
             "workshop",
             "toilet",
             "shop",
-            "loyalty",
             "mobile_acceptance",
             "mobile_enabled"
         ],
@@ -7415,7 +7394,7 @@
         "city": "KIMBALL",
         "state": "MI",
         "postcode": "48074",
-        "telephone": "+1 734-516-0119",
+        "telephone": "+1 810-328-3721",
         "facilities": [
             "car_wash",
             "workshop",
@@ -7811,6 +7790,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "13400 Rogers Dr\nRogers\n55374",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "128725",
+        "name": "Amoco",
+        "lat": 42.42959524,
+        "lng": -83.23295716,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "19331 W 7 Mile Rd",
+        "city": "Detroit",
+        "state": "MI",
+        "postcode": "48219",
+        "telephone": "+1 313-999-6442",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "19331 W 7 Mile Rd\nDetroit\n48219",
         "channel_of_trade": "BJBR"
     },
     {
@@ -8494,6 +8500,36 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "4901 Erdman Ave\nBaltimore\n21205",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "128817",
+        "name": "Amoco",
+        "lat": 41.1644639658,
+        "lng": -90.0424877667,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "12 SW 2nd St",
+        "city": "Galva",
+        "state": "IL",
+        "postcode": "61434",
+        "telephone": "+1 309-932-8935",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "marianos",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "12 SW 2nd St\nGalva\n61434",
         "channel_of_trade": "BJBR"
     },
     {
@@ -9432,6 +9468,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "129024",
+        "name": "Amoco",
+        "lat": 41.4842909969,
+        "lng": -95.3374796579,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "904 N Walnut St",
+        "city": "Avoca",
+        "state": "IA",
+        "postcode": "51521",
+        "telephone": "+1 712-343-2550",
+        "facilities": [
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [
+            "regular_diesel"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "904 N Walnut St\nAvoca\n51521",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "129047",
         "name": "Amoco",
         "lat": 43.1336701174,
@@ -9576,8 +9639,8 @@
     {
         "id": "129109",
         "name": "Amoco",
-        "lat": 45.4936982906,
-        "lng": -93.2354100391,
+        "lat": 45.493414,
+        "lng": -93.235348,
         "site_brand": "AM",
         "country_code": "US",
         "address": "501 County Road 23",
@@ -9648,6 +9711,7 @@
             "shop",
             "grocer_reward",
             "harris_teeter",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -9955,7 +10019,9 @@
             "toilet",
             "shop",
             "loyalty",
-            "citi_rewards"
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
         ],
         "products": [],
         "website": null,
@@ -10081,6 +10147,36 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "15491164452175236100100000000000",
+        "name": "Amoco",
+        "lat": 41.6851,
+        "lng": -91.911251,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "2217 U Ave",
+        "city": "Williamsburg",
+        "state": "IA",
+        "postcode": "52361",
+        "telephone": "+1 319-668-2868",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [
+            "regular_diesel"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2217 U Ave\nWilliamsburg\n52361",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "15518553144004697500100000000000",
         "name": "Amoco",
         "lat": 41.07054,
@@ -10162,6 +10258,34 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2253 S Limestone St\nSpringfield\n45505",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "15732059470503800200100000000000",
+        "name": "Amoco",
+        "lat": 35.26376742,
+        "lng": -89.66543846,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "4930 Airline Rd",
+        "city": "Arlington",
+        "state": "TN",
+        "postcode": "38002",
+        "telephone": "+1 901-337-6167",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "4930 Airline Rd\nArlington\n38002",
         "channel_of_trade": "BJBR"
     },
     {
@@ -13423,34 +13547,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "8772 Hiwassee St N\nCharleston\n37310",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "45632773620020800200100000000000",
-        "name": "Amoco",
-        "lat": 39.914361,
-        "lng": -75.010682,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "2 Marlton Pike",
-        "city": "Cherry Hill",
-        "state": "NJ",
-        "postcode": "08002",
-        "telephone": "1111111111",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "2 Marlton Pike\nCherry Hill\n08002",
         "channel_of_trade": "BJBR"
     },
     {
@@ -18922,7 +19018,9 @@
             "toilet",
             "shop",
             "loyalty",
-            "citi_rewards"
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
         ],
         "products": [],
         "website": null,

@@ -6947,16 +6947,15 @@
         "postcode": "2500",
         "telephone": "+61 2 4229 4804",
         "facilities": [
+            "rigid_access",
             "bp_rewards_redemption",
             "loyalty",
             "pump_rewards"
         ],
         "products": [
             "ad_blue_cannister",
-            "auto_gas",
-            "premium_unlead",
+            "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -7315,44 +7314,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "1048",
-        "name": "BILLABONG HOTEL MOTEL - Temporary closed",
-        "lat": -26.816025,
-        "lng": 114.614254,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "LOT 3 NW Coastal Highway",
-        "city": "Meadow",
-        "state": "WA",
-        "postcode": "6530",
-        "telephone": "+61 8 9942 5980",
-        "facilities": [
-            "truck_parking",
-            "high_flow_diesel",
-            "toilet",
-            "barista_coffee",
-            "takeaway_food_offer",
-            "food_offer_instore",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "pump_rewards",
-            "restaurant",
-            "takeaway_food",
-            "high_speed_pump"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "premium_unlead",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "LOT 3 NW Coastal Highway\nMeadow\n6530",
-        "channel_of_trade": null
-    },
-    {
         "id": "1049",
         "name": "bp Clifton Beach",
         "lat": -16.764483,
@@ -7657,47 +7618,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "53 BOMBALA ST.\nNIMMITABEL\n2631",
-        "channel_of_trade": null
-    },
-    {
-        "id": "1066",
-        "name": "bp OPT BILLABONG HOTEL MOTEL",
-        "lat": -26.817125,
-        "lng": 114.61464,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "LOT 3 NW COASTAL HIGHWAY",
-        "city": "MEADOW",
-        "state": "WA",
-        "postcode": "6530",
-        "telephone": "+61 8 9942 5980",
-        "facilities": [
-            "open_24_hours",
-            "truck_parking",
-            "high_flow_diesel",
-            "toilet",
-            "barista_coffee",
-            "takeaway_food_offer",
-            "food_offer_instore",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "pump_rewards",
-            "restaurant",
-            "takeaway_food",
-            "high_speed_pump"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "premium_unlead",
-            "regular_diesel",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "LOT 3 NW COASTAL HIGHWAY\nMEADOW\n6530",
         "channel_of_trade": null
     },
     {
@@ -9707,7 +9627,7 @@
         "city": "Wubin",
         "state": "WA",
         "postcode": "6612",
-        "telephone": "+61 424 259 830",
+        "telephone": "+61 8 9664 1013",
         "facilities": [
             "open_24_hours",
             "high_flow_diesel",
@@ -9737,7 +9657,9 @@
         "telephone": "+61 405 664 442",
         "facilities": [
             "loyalty",
-            "bpmeplus"
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "mobile_enabled"
         ],
         "products": [],
         "website": null,
@@ -9756,7 +9678,7 @@
         "city": "Rolleston",
         "state": "QLD",
         "postcode": "4702",
-        "telephone": "",
+        "telephone": "+61 7 4984 3028",
         "facilities": [
             "bp_rewards_unlocked",
             "loyalty",
@@ -11441,6 +11363,7 @@
             "ad_blue_cannister",
             "e10",
             "premium_unlead",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "ad_blue"
         ],
@@ -13204,7 +13127,9 @@
             "bdouble_access",
             "rigid_access",
             "truck_suitable_site",
-            "toilet"
+            "toilet",
+            "loyalty",
+            "pump_rewards"
         ],
         "products": [
             "ad_blue_cannister",
@@ -26288,6 +26213,8 @@
             "cash_point",
             "toilet",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "loyalty",
             "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
@@ -42449,6 +42376,7 @@
         "products": [
             "e10",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
         ],
@@ -45301,7 +45229,7 @@
             "high_speed_pump"
         ],
         "products": [
-            "ad_blue_cannister",
+            "ad_blue_pump",
             "ad_blue"
         ],
         "website": null,
@@ -46542,7 +46470,6 @@
             "gift_card",
             "trailers",
             "rigid_access",
-            "ultra_high_flow_diesel",
             "cash_point",
             "toilet",
             "barista_coffee",
@@ -46555,16 +46482,14 @@
             "bpme_technically_enabled",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump",
             "mobile_enabled"
         ],
         "products": [
-            "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
             "lpg",
+            "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -49895,8 +49820,6 @@
         ],
         "products": [
             "ad_blue_pump",
-            "premium_unlead",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -56718,13 +56641,14 @@
         "city": "MURRUMBATEMAN",
         "state": "NSW",
         "postcode": "2582",
-        "telephone": "+61 2 6227 5068",
+        "telephone": "+61 424 277 768",
         "facilities": [
             "rigid_access",
             "high_flow_diesel",
             "cash_point",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
             "restaurant",
@@ -61868,25 +61792,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1 BARRIER HIGHWAY\nTEROWIE\n5421",
-        "channel_of_trade": null
-    },
-    {
-        "id": "9773",
-        "name": "Closed-BP NEATH",
-        "lat": -32.827011,
-        "lng": 151.407013,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "133-137 CESSNOCK ROAD",
-        "city": "NEATH",
-        "state": "NSW",
-        "postcode": "2326",
-        "telephone": "",
-        "facilities": [],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "133-137 CESSNOCK ROAD\nNEATH\n2326",
         "channel_of_trade": null
     },
     {

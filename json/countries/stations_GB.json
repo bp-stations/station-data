@@ -50,7 +50,7 @@
         "address": "1 EDINBURGH ROAD",
         "city": "LAUDER",
         "state": null,
-        "postcode": "TD2 6YW",
+        "postcode": "TD2 6PA",
         "telephone": "+44 1578 722834",
         "facilities": [
             "alcohol",
@@ -75,7 +75,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "1 EDINBURGH ROAD\nLAUDER\nTD2 6YW",
+        "formatted_address": "1 EDINBURGH ROAD\nLAUDER\nTD2 6PA",
         "channel_of_trade": null
     },
     {
@@ -674,6 +674,8 @@
         "postcode": "S41 0JF",
         "telephone": "+44 1246 273328",
         "facilities": [
+            "alcohol",
+            "wifi",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -854,7 +856,7 @@
     },
     {
         "id": "1060226449",
-        "name": "BRENT KNOLL GARAGE BRENT KNOLL",
+        "name": "BRENT KNOLL GARAGE",
         "lat": 51.24396,
         "lng": -2.945361,
         "site_brand": "BP",
@@ -867,6 +869,11 @@
         "facilities": [
             "open_24_hours",
             "bunker_site",
+            "cash_point",
+            "disabled_facilities",
+            "toilet",
+            "wifi",
+            "bakery_bistro",
             "bistro",
             "wild_bean_cafe",
             "accepts_routex_cards",
@@ -875,6 +882,7 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_cannister",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
@@ -979,6 +987,10 @@
         "postcode": "HP20 1JJ",
         "telephone": "+44 1296 250001",
         "facilities": [
+            "alcohol",
+            "disabled_facilities",
+            "toilet",
+            "wifi",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -1851,6 +1863,8 @@
         "postcode": "SY9 5AA",
         "telephone": "+44 1588 630390",
         "facilities": [
+            "alcohol",
+            "wifi",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -3346,6 +3360,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "electricity",
             "red_diesel",
             "truck_diesel",
             "ultimate",
@@ -6255,7 +6270,6 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -7362,42 +7376,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Ashton Road\nSTOCKPORT\nSK6 2QN",
-        "channel_of_trade": null
-    },
-    {
-        "id": "14772",
-        "name": "TRAFFORD CENTRE SERVICE STN.",
-        "lat": 53.46767,
-        "lng": -2.35284,
-        "site_brand": "BP",
-        "country_code": "GB",
-        "address": "The Trafford Centre",
-        "city": "MANCHESTER",
-        "state": null,
-        "postcode": "M17 8AT",
-        "telephone": "+44 161 747 8764",
-        "facilities": [
-            "car_wash",
-            "jet_wash",
-            "cash_point",
-            "bakery_bistro",
-            "bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "The Trafford Centre\nMANCHESTER\nM17 8AT",
         "channel_of_trade": null
     },
     {
@@ -11240,6 +11218,8 @@
         "postcode": "DE4 2EW",
         "telephone": "+44 1629 733144",
         "facilities": [
+            "alcohol",
+            "wifi",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -11896,11 +11876,16 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
+            "jet_wash",
+            "truck_suitable_site",
+            "cash_point",
+            "bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
+            "ad_blue_cannister",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded"
@@ -16198,6 +16183,7 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "electricity",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
@@ -17587,8 +17573,12 @@
         "telephone": "+44 161 302 4218",
         "facilities": [
             "open_24_hours",
+            "alcohol",
             "jet_wash",
             "cash_point",
+            "disabled_facilities",
+            "toilet",
+            "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -20116,6 +20106,7 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "electricity",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -22455,7 +22446,6 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
-            "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -23266,45 +23256,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "North Deeside Road\nABERDEEN\nAB14 0QL",
-        "channel_of_trade": null
-    },
-    {
-        "id": "3877",
-        "name": "DEAL PS1030",
-        "lat": 51.22197,
-        "lng": 1.3951,
-        "site_brand": "BP",
-        "country_code": "GB",
-        "address": "47-51 London Road",
-        "city": "DEAL",
-        "state": null,
-        "postcode": "CT14 9TF",
-        "telephone": "+44 1304 793847",
-        "facilities": [
-            "alcohol",
-            "truck_suitable_site",
-            "cash_point",
-            "disabled_facilities",
-            "toilet",
-            "bakery_bistro",
-            "bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "red_diesel",
-            "truck_diesel",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "47-51 London Road\nDEAL\nCT14 9TF",
         "channel_of_trade": null
     },
     {
@@ -26071,6 +26022,7 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "electricity",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -30551,6 +30503,7 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "electricity",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
@@ -31682,6 +31635,9 @@
         "postcode": "E11 4PG",
         "telephone": "+44 20 8558 9707",
         "facilities": [
+            "truck_suitable_site",
+            "cash_point",
+            "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -31689,6 +31645,7 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_cannister",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
@@ -32091,42 +32048,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "4406",
-        "name": "PLANTATION F/STN - FS472",
-        "lat": 54.364218,
-        "lng": -2.79739,
-        "site_brand": "BP",
-        "country_code": "GB",
-        "address": "A591 Southbound",
-        "city": "KENDAL",
-        "state": null,
-        "postcode": "LA8 9JA",
-        "telephone": "+44 15394 82149",
-        "facilities": [
-            "alcohol",
-            "jet_wash",
-            "cash_point",
-            "toilet",
-            "bakery_bistro",
-            "bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "A591 Southbound\nKENDAL\nLA8 9JA",
-        "channel_of_trade": null
-    },
-    {
         "id": "4407",
         "name": "POLLOKSHAWS SF CONNECT",
         "lat": 55.83351,
@@ -32289,41 +32210,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "99 Chase Side\nLONDON\nN14 5BU",
-        "channel_of_trade": null
-    },
-    {
-        "id": "4418",
-        "name": "PRIORY S/STN - FS1032",
-        "lat": 51.12607,
-        "lng": 1.3085,
-        "site_brand": "BP",
-        "country_code": "GB",
-        "address": "6-12 Folkestone Road",
-        "city": "DOVER",
-        "state": null,
-        "postcode": "CT17 9RU",
-        "telephone": "+44 1304 793840",
-        "facilities": [
-            "open_24_hours",
-            "alcohol",
-            "cash_point",
-            "bakery_bistro",
-            "bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "6-12 Folkestone Road\nDOVER\nCT17 9RU",
         "channel_of_trade": null
     },
     {
@@ -32714,6 +32600,7 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "electricity",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
@@ -35585,8 +35472,6 @@
         "facilities": [
             "bunker_site",
             "truck_suitable_site",
-            "disabled_facilities",
-            "toilet",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -36291,6 +36176,7 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "electricity",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
@@ -36936,6 +36822,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "electricity",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -37273,51 +37160,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "A14 Eastbound\nNR NEWMARKET\nCB8 0XG",
-        "channel_of_trade": null
-    },
-    {
-        "id": "4698",
-        "name": "THREE ELMS PS1035",
-        "lat": 51.2137,
-        "lng": 0.31229,
-        "site_brand": "BP",
-        "country_code": "GB",
-        "address": "A26 Hadlow Road",
-        "city": "TONBRIDGE",
-        "state": null,
-        "postcode": "TN11 0AB",
-        "telephone": "+44 1732 444516",
-        "facilities": [
-            "open_24_hours",
-            "alcohol",
-            "jet_wash",
-            "bunker_site",
-            "truck_suitable_site",
-            "cash_point",
-            "disabled_facilities",
-            "toilet",
-            "bakery_bistro",
-            "bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "electricity",
-            "red_diesel",
-            "truck_diesel",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "A26 Hadlow Road\nTONBRIDGE\nTN11 0AB",
         "channel_of_trade": null
     },
     {
@@ -40617,10 +40459,13 @@
         "city": "DUNBEG",
         "state": null,
         "postcode": "PA37 1PX",
-        "telephone": "+44 7931 465484",
+        "telephone": "+44 1631 562784",
         "facilities": [
             "open_24_hours",
+            "jet_wash",
             "bunker_site",
+            "truck_suitable_site",
+            "cash_point",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday",
@@ -41932,6 +41777,7 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "electricity",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -42123,8 +41969,10 @@
         "postcode": "PA35 1HT",
         "telephone": "+44 7716 716222",
         "facilities": [
+            "alcohol",
             "bunker_site",
             "truck_suitable_site",
+            "toilet",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -43339,8 +43187,12 @@
         "telephone": "+44 151 315 0190",
         "facilities": [
             "open_24_hours",
+            "alcohol",
             "jet_wash",
             "cash_point",
+            "disabled_facilities",
+            "toilet",
+            "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -43397,6 +43249,44 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Blackdown View\nLANGPORT\nTA10 0ER",
+        "channel_of_trade": null
+    },
+    {
+        "id": "764425035",
+        "name": "KINGS PARK SERVICE STATION",
+        "lat": 55.82797,
+        "lng": -4.24667,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "AITKENHEAD ROAD",
+        "city": "GLASGOW",
+        "state": null,
+        "postcode": "G42 0NT",
+        "telephone": "+44 20 8540 0597",
+        "facilities": [
+            "open_24_hours",
+            "alcohol",
+            "car_wash",
+            "jet_wash",
+            "cash_point",
+            "disabled_facilities",
+            "toilet",
+            "bakery_bistro",
+            "bistro",
+            "wild_bean_cafe",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "AITKENHEAD ROAD\nGLASGOW\nG42 0NT",
         "channel_of_trade": null
     },
     {
@@ -44189,6 +44079,8 @@
         "postcode": "S40 3JQ",
         "telephone": "+44 1246 559136",
         "facilities": [
+            "alcohol",
+            "wifi",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -44982,6 +44874,8 @@
         "postcode": "S42 5TE",
         "telephone": "+44 1246 850530",
         "facilities": [
+            "alcohol",
+            "wifi",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -46523,6 +46417,8 @@
         "postcode": "OX49 5QF",
         "telephone": "+44 1491 614339",
         "facilities": [
+            "alcohol",
+            "bakery_bistro",
             "bistro",
             "wild_bean_cafe",
             "accepts_routex_cards",
@@ -46531,6 +46427,7 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_cannister",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
