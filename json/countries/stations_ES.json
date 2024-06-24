@@ -3351,11 +3351,13 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -3845,29 +3847,45 @@
     },
     {
         "id": "1399905352",
-        "name": "ESTACION DE SERVICIO BELLAVIST",
+        "name": "bp BELLAVISTA",
         "lat": 40.35856,
         "lng": -5.51649,
         "site_brand": "BP",
         "country_code": "ES",
-        "address": "Carretera Soria - Plasencia",
+        "address": "N-110 Soria - Plasencia, Km 335",
         "city": "El Barco de\u00c1vila",
         "state": null,
         "postcode": "05600",
-        "telephone": "+34 609 26 38 09",
+        "telephone": "+34 920 34 05 16",
         "facilities": [
+            "alcohol",
+            "tobacco",
+            "car_wash",
+            "jet_wash",
+            "high_speed_pump",
+            "truck_suitable_site",
+            "disabled_facilities",
+            "toilet",
+            "bakery_bistro",
+            "bistro",
+            "petit_bistro",
+            "restaurant",
             "accepts_routex_cards",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
+            "diesel_on",
+            "red_diesel",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "Carretera Soria - Plasencia\nEl Barco de\u00c1vila\n05600",
+        "formatted_address": "N-110 Soria - Plasencia, Km 335\nEl Barco de\u00c1vila\n05600",
         "channel_of_trade": null
     },
     {
@@ -5478,16 +5496,28 @@
         "city": "Lugo",
         "state": null,
         "postcode": "27004",
-        "telephone": "+34 659 03 00 88",
+        "telephone": "+34 686 03 32 42",
         "facilities": [
+            "tobacco",
+            "car_wash",
+            "jet_wash",
+            "high_speed_pump",
+            "truck_suitable_site",
+            "disabled_facilities",
+            "toilet",
+            "supermarket",
+            "bistro",
+            "petit_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -7327,7 +7357,7 @@
     },
     {
         "id": "16377",
-        "name": "E.S. BP GALFAB",
+        "name": "bp GALFAB",
         "lat": 40.448,
         "lng": -3.6796,
         "site_brand": "BP",
@@ -7339,15 +7369,18 @@
         "telephone": "+34 915 61 05 22",
         "facilities": [
             "open_24_hours",
-            "high_speed_pump",
+            "alcohol",
+            "tobacco",
             "truck_suitable_site",
+            "disabled_facilities",
             "toilet",
+            "bakery_bistro",
             "accepts_routex_cards",
+            "shop_open_24_hours",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
-            "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
             "ultimate",
@@ -10450,15 +10483,16 @@
         "site_brand": "BP",
         "country_code": "ES",
         "address": "CL GUILLEM DE MUNTANYANS 208",
-        "city": "TERRASA",
+        "city": "TERRASSA",
         "state": null,
         "postcode": "08223",
         "telephone": "+34 937 83 14 64",
         "facilities": [
+            "tobacco",
             "car_wash",
             "jet_wash",
+            "truck_suitable_site",
             "toilet",
-            "bakery_bistro",
             "bistro",
             "petit_bistro",
             "accepts_routex_cards",
@@ -10478,7 +10512,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "CL GUILLEM DE MUNTANYANS 208\nTERRASA\n08223",
+        "formatted_address": "CL GUILLEM DE MUNTANYANS 208\nTERRASSA\n08223",
         "channel_of_trade": null
     },
     {
@@ -10495,7 +10529,7 @@
         "telephone": "+34 937 14 50 50",
         "facilities": [
             "alcohol",
-            "tobacco",
+            "truck_suitable_site",
             "toilet",
             "accepts_routex_cards",
             "open_saturday",
@@ -12148,11 +12182,18 @@
         "postcode": "11160",
         "telephone": "+34 671 43 76 83",
         "facilities": [
+            "tobacco",
+            "jet_wash",
+            "truck_suitable_site",
+            "cash_point",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
         ],
-        "products": [],
+        "products": [
+            "diesel_on",
+            "unleaded_95"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Avenida de los marineros\nBarbate\n11160",
@@ -12816,7 +12857,7 @@
         "city": "CASTELLAR DEL VALLES",
         "state": null,
         "postcode": "08211",
-        "telephone": "+34 937 14 50 50",
+        "telephone": "+34 937 14 40 33",
         "facilities": [
             "alcohol",
             "tobacco",
@@ -13298,49 +13339,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CR A-44 SALIDA 84\nCAMPOTEJAR\n18565",
-        "channel_of_trade": null
-    },
-    {
-        "id": "16749",
-        "name": "E.S. BP JOSMA",
-        "lat": 40.0836,
-        "lng": -3.8663,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "CR CM-4004 MD KM. 24.8",
-        "city": "NUMANCIA DE LA SAGRA",
-        "state": null,
-        "postcode": "45230",
-        "telephone": "+34 925 53 72 23",
-        "facilities": [
-            "open_24_hours",
-            "alcohol",
-            "tobacco",
-            "car_wash",
-            "jet_wash",
-            "high_speed_pump",
-            "truck_suitable_site",
-            "disabled_facilities",
-            "toilet",
-            "bakery_bistro",
-            "accepts_routex_cards",
-            "shop_open_24_hours",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "CR CM-4004 MD KM. 24.8\nNUMANCIA DE LA SAGRA\n45230",
         "channel_of_trade": null
     },
     {
@@ -15181,12 +15179,12 @@
     },
     {
         "id": "17276",
-        "name": "E.S. BP PALMA",
+        "name": "bp PALMA",
         "lat": 39.5793,
         "lng": 2.63628,
         "site_brand": "BP",
         "country_code": "ES",
-        "address": "AV. SAN FERNANDO, S/N ESQ. PASCUAL",
+        "address": "AV. SANT FERRAN ESQ. PASCUAL RIBOT",
         "city": "PALMA DE MALLORCA",
         "state": null,
         "postcode": "07013",
@@ -15210,7 +15208,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "AV. SAN FERNANDO, S/N ESQ. PASCUAL\nPALMA DE MALLORCA\n07013",
+        "formatted_address": "AV. SANT FERRAN ESQ. PASCUAL RIBOT\nPALMA DE MALLORCA\n07013",
         "channel_of_trade": null
     },
     {
@@ -15597,7 +15595,6 @@
         "telephone": "+34 959 45 92 49",
         "facilities": [
             "tobacco",
-            "car_wash",
             "jet_wash",
             "truck_suitable_site",
             "disabled_facilities",
@@ -15981,19 +15978,22 @@
         "lng": 2.49164,
         "site_brand": "BP",
         "country_code": "ES",
-        "address": "CR Santa Pau,  Esq. AVDA. San Jordi",
+        "address": "CTRA SANTA PAU  ESQ. AV. SAN JORDI",
         "city": "OLOT",
         "state": null,
         "postcode": "17800",
-        "telephone": "+34 627 72 40 99",
+        "telephone": "+34 972 26 14 87",
         "facilities": [
             "alcohol",
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
             "supermarket",
             "bakery_bistro",
+            "bistro",
+            "petit_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -16008,7 +16008,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "CR Santa Pau,  Esq. AVDA. San Jordi\nOLOT\n17800",
+        "formatted_address": "CTRA SANTA PAU  ESQ. AV. SAN JORDI\nOLOT\n17800",
         "channel_of_trade": null
     },
     {
@@ -16588,47 +16588,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CTRA. N-120 KM 3.8\nTROBAJO DEL CAMINO\n24010",
-        "channel_of_trade": null
-    },
-    {
-        "id": "1848716953",
-        "name": "bp CIUDAD ARC\u00d3BRIGA",
-        "lat": 41.30725,
-        "lng": -2.1228055,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "CR NACIONAL II KM 186",
-        "city": "MONREAL DE ARIZA",
-        "state": null,
-        "postcode": "50291",
-        "telephone": "+34 695 92 47 38",
-        "facilities": [
-            "open_24_hours",
-            "high_speed_pump",
-            "truck_parking",
-            "truck_suitable_site",
-            "disabled_facilities",
-            "toilet",
-            "bakery_bistro",
-            "bistro",
-            "petit_bistro",
-            "restaurant",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "CR NACIONAL II KM 186\nMONREAL DE ARIZA\n50291",
         "channel_of_trade": null
     },
     {
@@ -18827,6 +18786,36 @@
         "channel_of_trade": null
     },
     {
+        "id": "2137697303",
+        "name": "BP JOSMA",
+        "lat": 40.0836,
+        "lng": -3.8663,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "CR CM-4004 MD KM. 24.8",
+        "city": "NUMANCIA DE LA SAGRA",
+        "state": null,
+        "postcode": "45230",
+        "telephone": "+34 925 53 72 23",
+        "facilities": [
+            "open_24_hours",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "diesel_on",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "CR CM-4004 MD KM. 24.8\nNUMANCIA DE LA SAGRA\n45230",
+        "channel_of_trade": null
+    },
+    {
         "id": "2139942214",
         "name": "bp VILANOVA - AV EDUARDO TOLDRA",
         "lat": 41.2297,
@@ -20142,8 +20131,7 @@
             "petit_bistro",
             "restaurant",
             "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
+            "open_saturday"
         ],
         "products": [
             "ad_blue_cannister",
@@ -26034,7 +26022,7 @@
         "city": "MUTXAMEL",
         "state": null,
         "postcode": "03110",
-        "telephone": "+34 965 95 00 50",
+        "telephone": "+34 965 95 06 11",
         "facilities": [
             "accepts_routex_cards",
             "open_saturday",
@@ -28442,8 +28430,9 @@
         "city": "PEDRO ABAD",
         "state": null,
         "postcode": "14630",
-        "telephone": "+34 618 35 52 04",
+        "telephone": "+34 957 33 11 43",
         "facilities": [
+            "open_24_hours",
             "tobacco",
             "jet_wash",
             "high_speed_pump",
@@ -28453,8 +28442,10 @@
             "toilet",
             "motorway_site",
             "bakery_bistro",
-            "restaurant",
+            "bistro",
+            "petit_bistro",
             "accepts_routex_cards",
+            "shop_open_24_hours",
             "open_saturday",
             "open_sunday"
         ],

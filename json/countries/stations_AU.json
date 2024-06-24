@@ -2331,7 +2331,7 @@
         "city": "HOPETOUN",
         "state": "VIC",
         "postcode": "3396",
-        "telephone": "+61 428 971 150",
+        "telephone": "+61 1300 456 937",
         "facilities": [
             "open_24_hours",
             "national_diesel_offer",
@@ -8932,7 +8932,9 @@
         "postcode": "3016",
         "telephone": "+61 418 337 142",
         "facilities": [
+            "bp_rewards_unlocked",
             "loyalty",
+            "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
             "mobile_enabled"
@@ -9517,6 +9519,41 @@
         "channel_of_trade": null
     },
     {
+        "id": "1158",
+        "name": "BP OPT CEDUNA",
+        "lat": -32.1239,
+        "lng": 133.6941,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "94 McKenzie Street",
+        "city": "Ceduna",
+        "state": "SA",
+        "postcode": "5690",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "bdouble_access",
+            "rigid_access",
+            "road_train_access",
+            "truck_parking",
+            "truck_suitable_site",
+            "high_flow_diesel",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "truck_only",
+            "high_speed_pump"
+        ],
+        "products": [
+            "ad_blue_pump",
+            "regular_diesel",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "94 McKenzie Street\nCeduna\n5690",
+        "channel_of_trade": null
+    },
+    {
         "id": "1159",
         "name": "BP FORBES",
         "lat": -33.38137,
@@ -9656,12 +9693,23 @@
         "postcode": "2164",
         "telephone": "+61 405 664 442",
         "facilities": [
+            "gift_card",
+            "barista_coffee",
+            "wild_bean_cafe",
+            "takeaway_food_offer",
+            "food_offer_instore",
             "loyalty",
             "bpmeplus",
             "bpme_technically_enabled",
+            "restaurant",
+            "takeaway_food",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "ad_blue_cannister",
+            "lpg",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "186 Woodpark Road\nSmithfield\n2164",
@@ -12669,7 +12717,6 @@
             "toilet",
             "barista_coffee",
             "takeaway_food_offer",
-            "food_offer_instore",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "loyalty",
@@ -12682,9 +12729,7 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "auto_gas",
             "premium_unlead",
-            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -22141,7 +22186,7 @@
         "city": "MURTOA",
         "state": "VIC",
         "postcode": "3390",
-        "telephone": "+61 428 971 150",
+        "telephone": "+61 1300 456 937",
         "facilities": [
             "open_24_hours",
             "national_diesel_offer",
@@ -25309,54 +25354,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CNR MOGGILL RD & STAMFORD ST\nINDOOROOPILLY\n4068",
-        "channel_of_trade": null
-    },
-    {
-        "id": "4262",
-        "name": "BP KEDRON",
-        "lat": -27.402159,
-        "lng": 153.031888,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "411 GYMPIE ROAD",
-        "city": "KEDRON",
-        "state": "QLD",
-        "postcode": "4031",
-        "telephone": "+61 7 3359 1641",
-        "facilities": [
-            "gift_card",
-            "car_wash",
-            "trailers",
-            "rigid_access",
-            "high_flow_diesel",
-            "toilet",
-            "western_union",
-            "takeaway_food_offer",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "bp_rewards_unlocked_convenience",
-            "loyalty",
-            "pump_rewards",
-            "loyalty_home_delivery",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "restaurant",
-            "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "e10",
-            "lpg",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "411 GYMPIE ROAD\nKEDRON\n4031",
         "channel_of_trade": null
     },
     {
