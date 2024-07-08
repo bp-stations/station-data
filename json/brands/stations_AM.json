@@ -1376,34 +1376,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "117703",
-        "name": "Amoco",
-        "lat": 38.40572311,
-        "lng": -96.20822372,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "2102 US-50 W",
-        "city": "Emporia",
-        "state": "KS",
-        "postcode": "66801",
-        "telephone": "+1 620-343-8280",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "2102 US-50 W\nEmporia\n66801",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "11779820787595320700100000000000",
         "name": "Amoco",
         "lat": 42.994636,
@@ -1986,8 +1958,8 @@
     {
         "id": "126733",
         "name": "Amoco",
-        "lat": 38.62079438,
-        "lng": -94.69265241,
+        "lat": 38.6205507881,
+        "lng": -94.6926758789,
         "site_brand": "AM",
         "country_code": "US",
         "address": "1701 W Amity St",
@@ -1996,12 +1968,12 @@
         "postcode": "66053",
         "telephone": "+1 913-837-2948",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
             "shop",
             "loyalty",
+            "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
         ],
@@ -3153,7 +3125,7 @@
         "city": "Atlanta",
         "state": "GA",
         "postcode": "30310",
-        "telephone": "1111111111",
+        "telephone": "+1 404-343-2352",
         "facilities": [
             "car_wash",
             "workshop",
@@ -3458,13 +3430,12 @@
         "city": "Lawrenceville",
         "state": "GA",
         "postcode": "30046",
-        "telephone": "1111111111",
+        "telephone": "+1 678-349-2773",
         "facilities": [
             "car_wash",
             "workshop",
             "toilet",
             "shop",
-            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -3684,7 +3655,7 @@
         "city": "SUMMERVILLE",
         "state": "GA",
         "postcode": "30747",
-        "telephone": "1111111111",
+        "telephone": "+1 706-808-0049",
         "facilities": [
             "car_wash",
             "workshop",
@@ -4391,7 +4362,7 @@
         "city": "Atlanta",
         "state": "GA",
         "postcode": "30315",
-        "telephone": "1111111111",
+        "telephone": "+1 678-705-1780",
         "facilities": [
             "car_wash",
             "workshop",
@@ -6403,7 +6374,6 @@
             "workshop",
             "toilet",
             "shop",
-            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -7946,6 +7916,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "mobile_acceptance",
             "mobile_enabled"
         ],
@@ -8603,6 +8574,7 @@
             "shop",
             "grocer_reward",
             "marianos",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -9307,6 +9279,7 @@
         "telephone": "+1 678-363-8333",
         "facilities": [
             "open_24_hours",
+            "workshop",
             "toilet",
             "shop",
             "loyalty",
@@ -9314,7 +9287,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2536 Charles Hardy Pkwy\nDallas\n30157",
@@ -9390,7 +9365,7 @@
         "city": "Stone Mountain",
         "state": "GA",
         "postcode": "30083",
-        "telephone": "1111111111",
+        "telephone": "+1 404-963-6670",
         "facilities": [
             "open_24_hours",
             "car_wash",
@@ -9420,7 +9395,7 @@
         "city": "Stone Mountain",
         "state": "GA",
         "postcode": "30083",
-        "telephone": "1111111111",
+        "telephone": "+1 404-907-4525",
         "facilities": [
             "open_24_hours",
             "toilet",
@@ -9447,7 +9422,7 @@
         "city": "Powder Springs",
         "state": "GA",
         "postcode": "30127",
-        "telephone": "+1 404-943-7743",
+        "telephone": "+1 678-903-5644",
         "facilities": [
             "car_wash",
             "workshop",
@@ -9505,7 +9480,7 @@
         "city": "Doraville",
         "state": "GA",
         "postcode": "30340",
-        "telephone": "+1 718-370-0876",
+        "telephone": "+1 770-449-3717",
         "facilities": [
             "open_24_hours",
             "workshop",
@@ -9593,6 +9568,7 @@
         "facilities": [
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -9744,33 +9720,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "4600 Austell Rd\nAustell\n30106",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "129102",
-        "name": "Amoco",
-        "lat": 33.9019469667,
-        "lng": -84.5668200613,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "455 Pat Mell Rd SW",
-        "city": "Marietta",
-        "state": "GA",
-        "postcode": "30060",
-        "telephone": "+1 678-698-5525",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "455 Pat Mell Rd SW\nMarietta\n30060",
         "channel_of_trade": "BJBR"
     },
     {
@@ -9943,6 +9892,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "129274",
+        "name": "Amoco",
+        "lat": 43.0424403971,
+        "lng": -83.694177761,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "2905 N Saginaw St",
+        "city": "Flint",
+        "state": "MI",
+        "postcode": "48505",
+        "telephone": "+1 810-787-5923",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2905 N Saginaw St\nFlint\n48505",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "129301",
         "name": "Amoco",
         "lat": 44.7860512738,
@@ -9953,7 +9929,7 @@
         "city": "Eau Claire",
         "state": "WI",
         "postcode": "54701",
-        "telephone": "1111111111",
+        "telephone": "+1 715-225-4003",
         "facilities": [
             "toilet",
             "shop",
@@ -12526,6 +12502,7 @@
             "toilet",
             "shop",
             "loyalty",
+            "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
         ],
@@ -13134,6 +13111,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2740 Monroe St\nDearborn\n48124",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "40404930521256126500100000000000",
+        "name": "Amoco",
+        "lat": 41.49363427,
+        "lng": -90.53657872,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "125 19th Ave",
+        "city": "Moline",
+        "state": "IL",
+        "postcode": "61265",
+        "telephone": "+1 309-736-7749",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "125 19th Ave\nMoline\n61265",
         "channel_of_trade": "BJBR"
     },
     {
