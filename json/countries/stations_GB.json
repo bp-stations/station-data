@@ -1551,6 +1551,7 @@
         "postcode": "SO52 9DU",
         "telephone": "+44 23 8074 1975",
         "facilities": [
+            "car_wash",
             "cash_point",
             "bistro",
             "accepts_routex_cards",
@@ -9282,6 +9283,7 @@
         "telephone": "+44 23 9255 2595",
         "facilities": [
             "alcohol",
+            "car_wash",
             "jet_wash",
             "cash_point",
             "disabled_facilities",
@@ -9720,7 +9722,6 @@
         "telephone": "+44 1274 616998",
         "facilities": [
             "open_24_hours",
-            "car_wash",
             "jet_wash",
             "cash_point",
             "bistro",
@@ -15041,9 +15042,13 @@
         "postcode": "AL9 7NF",
         "telephone": "+44 1707 267100",
         "facilities": [
-            "accepts_routex_cards"
+            "bistro",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded"
@@ -15721,6 +15726,7 @@
         "telephone": "+44 141 952 7552",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "jet_wash",
             "bunker_site",
             "disabled_facilities",
@@ -19496,7 +19502,6 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
-            "car_wash",
             "bunker_site",
             "high_speed_pump",
             "truck_suitable_site",
@@ -22794,7 +22799,6 @@
         "telephone": "+44 1328 878332",
         "facilities": [
             "alcohol",
-            "car_wash",
             "jet_wash",
             "bunker_site",
             "high_speed_pump",
@@ -26658,7 +26662,6 @@
         "telephone": "+44 20 8993 7610",
         "facilities": [
             "open_24_hours",
-            "car_wash",
             "jet_wash",
             "truck_suitable_site",
             "cash_point",
@@ -29815,6 +29818,7 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
+            "car_wash",
             "jet_wash",
             "truck_suitable_site",
             "cash_point",
@@ -32031,7 +32035,6 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
-            "car_wash",
             "jet_wash",
             "truck_suitable_site",
             "cash_point",
@@ -35610,6 +35613,7 @@
         "postcode": "CA7 9PZ",
         "telephone": "+44 16973 45234",
         "facilities": [
+            "car_wash",
             "jet_wash",
             "cash_point",
             "bistro",
@@ -36607,7 +36611,6 @@
         "telephone": "+44 1865 891837",
         "facilities": [
             "alcohol",
-            "car_wash",
             "jet_wash",
             "disabled_facilities",
             "toilet",
@@ -37630,7 +37633,6 @@
         "telephone": "+44 1768 862175",
         "facilities": [
             "alcohol",
-            "car_wash",
             "jet_wash",
             "cash_point",
             "bakery_bistro",
@@ -38157,7 +38159,6 @@
         "telephone": "+44 1970 828330",
         "facilities": [
             "alcohol",
-            "car_wash",
             "jet_wash",
             "toilet",
             "bistro",
@@ -39317,7 +39318,6 @@
         "telephone": "+44 1782 313764",
         "facilities": [
             "open_24_hours",
-            "car_wash",
             "jet_wash",
             "truck_suitable_site",
             "cash_point",
@@ -40699,6 +40699,30 @@
         "channel_of_trade": null
     },
     {
+        "id": "520295123",
+        "name": "SPAR GWERSYLLT",
+        "lat": 53.07863,
+        "lng": -3.0216,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "MOLD ROAD",
+        "city": "GWERSYLLT",
+        "state": null,
+        "postcode": "LL11 4AH",
+        "telephone": "+44 1978 754902",
+        "facilities": [
+            "open_24_hours",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "MOLD ROAD\nGWERSYLLT\nLL11 4AH",
+        "channel_of_trade": null
+    },
+    {
         "id": "520536035",
         "name": "WILLESBOROUGH SERVICE STATION",
         "lat": 51.141427,
@@ -41579,6 +41603,7 @@
         "telephone": "+44 1889 565784",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "bunker_site",
             "truck_suitable_site",
             "cash_point",
@@ -41802,6 +41827,31 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "188 Maidstone Road\nCHATHAM\nME4 6EW",
+        "channel_of_trade": null
+    },
+    {
+        "id": "590087929",
+        "name": "BP SPAR FAIRFIELD",
+        "lat": 53.38315,
+        "lng": -0.00777,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "BOLLINGBROKE ROAD, F. IND. E.",
+        "city": "LOUTH",
+        "state": null,
+        "postcode": "LN11 0WA",
+        "telephone": "+44 1507 601358",
+        "facilities": [
+            "open_24_hours",
+            "bunker_site",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "BOLLINGBROKE ROAD, F. IND. E.\nLOUTH\nLN11 0WA",
         "channel_of_trade": null
     },
     {
@@ -42342,6 +42392,7 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
+            "car_wash",
             "jet_wash",
             "cash_point",
             "disabled_facilities",
@@ -43190,6 +43241,27 @@
         "channel_of_trade": null
     },
     {
+        "id": "747710725",
+        "name": "BP SPAR LACEBY LODGE",
+        "lat": 53.53571,
+        "lng": -0.18163,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "A18 BARTON STREET",
+        "city": "GRIMSBY",
+        "state": null,
+        "postcode": "DN37 7LG",
+        "telephone": "+44 1472 877090",
+        "facilities": [
+            "accepts_routex_cards"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "A18 BARTON STREET\nGRIMSBY\nDN37 7LG",
+        "channel_of_trade": null
+    },
+    {
         "id": "75706967",
         "name": "ELLESMERE PORT SERVICE STATION",
         "lat": 53.27707,
@@ -43296,9 +43368,11 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -46019,6 +46093,7 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
+            "car_wash",
             "cash_point",
             "bistro",
             "accepts_routex_cards",
