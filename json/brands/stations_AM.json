@@ -7086,33 +7086,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "128574",
-        "name": "Amoco",
-        "lat": 45.224968,
-        "lng": -87.997296,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "13 S US Highway 141",
-        "city": "Crivitz",
-        "state": "WI",
-        "postcode": "54114",
-        "telephone": "1111111111",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "13 S US Highway 141\nCrivitz\n54114",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "128588",
         "name": "Amoco",
         "lat": 28.393092,
@@ -7193,6 +7166,34 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3416 Freedom Dr\nCharlotte\n28208",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "128604",
+        "name": "Amoco",
+        "lat": 39.48914365,
+        "lng": -84.33845311,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "2222 Cincinnati Dayton Rd",
+        "city": "Middletown",
+        "state": "OH",
+        "postcode": "45044",
+        "telephone": "+1 513-217-0866",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2222 Cincinnati Dayton Rd\nMiddletown\n45044",
         "channel_of_trade": "BJBR"
     },
     {
@@ -7921,7 +7922,10 @@
             "workshop",
             "toilet",
             "shop",
+            "grocer_reward",
+            "harris_teeter",
             "loyalty",
+            "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
         ],
@@ -9284,6 +9288,7 @@
         "postcode": "49014",
         "telephone": "+1 313-559-3445",
         "facilities": [
+            "open_24_hours",
             "toilet",
             "shop",
             "loyalty",
@@ -9291,7 +9296,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "14301 Beadle Lake Rd\nBattle Creek\n49014",
@@ -9689,6 +9696,7 @@
             "car_wash",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -9830,6 +9838,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -9964,8 +9973,6 @@
         "postcode": "63143",
         "telephone": "+1 314-646-7653",
         "facilities": [
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "loyalty",
@@ -10121,33 +10128,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "129276",
-        "name": "Amoco",
-        "lat": 35.3990212511,
-        "lng": -84.3518632625,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "8000 New Highway 68",
-        "city": "Tellico Plains",
-        "state": "TN",
-        "postcode": "37385",
-        "telephone": "+1 423-253-2100",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "8000 New Highway 68\nTellico Plains\n37385",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "129281",
         "name": "Amoco",
         "lat": 33.7187381187,
@@ -10190,6 +10170,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -10217,6 +10198,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -10255,6 +10237,35 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3314 E Hamilton Ave\nEau Claire\n54701",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "129339",
+        "name": "Amoco",
+        "lat": 42.3976771204,
+        "lng": -88.1789822267,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "54 E Grand Ave",
+        "city": "Fox Lake",
+        "state": "IL",
+        "postcode": "60020",
+        "telephone": "+1 847-587-0723",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "marianos",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "54 E Grand Ave\nFox Lake\n60020",
         "channel_of_trade": "BJBR"
     },
     {
@@ -13490,6 +13501,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2740 Monroe St\nDearborn\n48124",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "40404930521256126500100000000000",
+        "name": "Amoco",
+        "lat": 41.49363427,
+        "lng": -90.53657872,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "125 19th Ave",
+        "city": "Moline",
+        "state": "IL",
+        "postcode": "61265",
+        "telephone": "+1 309-736-7749",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "125 19th Ave\nMoline\n61265",
         "channel_of_trade": "BJBR"
     },
     {
