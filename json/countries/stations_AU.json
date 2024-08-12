@@ -6974,7 +6974,6 @@
         "postcode": "3250",
         "telephone": "+61 3 5292 2709",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "trailers",
             "national_diesel_offer",
@@ -7433,6 +7432,45 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "114 SHAKESPEARE\nMACKAY\n4740",
+        "channel_of_trade": null
+    },
+    {
+        "id": "1058",
+        "name": "BP ELTHAM NORTH",
+        "lat": -37.6874,
+        "lng": 145.143,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "330 Ryans Road",
+        "city": "Eltham North",
+        "state": "VIC",
+        "postcode": "3095",
+        "telephone": "+61 3 9431 2822",
+        "facilities": [
+            "gift_card",
+            "cash_point",
+            "takeaway_food_offer",
+            "food_offer_instore",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "restaurant",
+            "takeaway_food",
+            "mobile_enabled"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "lpg",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "330 Ryans Road\nEltham North\n3095",
         "channel_of_trade": null
     },
     {
@@ -8679,7 +8717,6 @@
             "truck_parking",
             "ultra_high_flow_diesel",
             "cash_point",
-            "shower",
             "toilet",
             "wifi",
             "barista_coffee",
@@ -8826,6 +8863,7 @@
             "trailers",
             "cash_point",
             "toilet",
+            "barista_coffee",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "loyalty",
@@ -8869,7 +8907,6 @@
             "food_offer_instore",
             "bp_rewards_unlocked",
             "loyalty",
-            "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
             "restaurant",
@@ -8877,10 +8914,10 @@
             "mobile_enabled"
         ],
         "products": [
-            "ad_blue_cannister",
+            "premium_unlead",
             "ultimate_diesel",
-            "unlead",
-            "ad_blue"
+            "ultimate_unleaded",
+            "unlead"
         ],
         "website": null,
         "watchlist_id": null,
@@ -9701,6 +9738,30 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "58 FITZROY STREET\nGRAFTON\n2460",
+        "channel_of_trade": null
+    },
+    {
+        "id": "1189",
+        "name": "BP NORTH KURRAJONG",
+        "lat": -33.529,
+        "lng": 150.6305,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "1280  bells line of road",
+        "city": "Kurrajong Heights",
+        "state": "NSW",
+        "postcode": "2758",
+        "telephone": "+61 434 429 979",
+        "facilities": [
+            "loyalty",
+            "pump_rewards"
+        ],
+        "products": [
+            "ultimate_diesel"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1280  bells line of road\nKurrajong Heights\n2758",
         "channel_of_trade": null
     },
     {
@@ -11263,7 +11324,6 @@
         "postcode": "4720",
         "telephone": "+61 7 4982 1605",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "trailers",
             "national_diesel_offer",
@@ -12801,8 +12861,8 @@
     {
         "id": "1600",
         "name": "BP TOWNSVILLE TRUCKSTOP",
-        "lat": -19.31665,
-        "lng": 146.819338,
+        "lat": -19.316127,
+        "lng": 146.819834,
         "site_brand": "BP",
         "country_code": "AU",
         "address": "CORNER RACECOURSE ROAD & LAKESIDE DRIVE",
@@ -24501,7 +24561,6 @@
         "postcode": "4170",
         "telephone": "+61 7 3899 0101",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "car_wash",
             "trailers",
@@ -25546,36 +25605,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "4358",
-        "name": "BP MOSS MARINE - Temporary closed",
-        "lat": -21.1197,
-        "lng": 149.1954,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "CNR HAMILTON ST & HARBOUR RD",
-        "city": "MACKAY",
-        "state": "QLD",
-        "postcode": "4740",
-        "telephone": "+61 7 4957 4340",
-        "facilities": [
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "loyalty",
-            "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "mobile_enabled"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "CNR HAMILTON ST & HARBOUR RD\nMACKAY\n4740",
-        "channel_of_trade": null
-    },
-    {
         "id": "4361",
         "name": "BP NORTH MACLEAN",
         "lat": -27.7757,
@@ -26186,29 +26215,26 @@
         "telephone": "+61 3 5995 2544",
         "facilities": [
             "gift_card",
+            "trailers",
             "cash_point",
             "toilet",
-            "food_offer_instore",
+            "barista_coffee",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
-            "restaurant",
             "mobile_enabled"
         ],
         "products": [
-            "ad_blue_cannister",
             "auto_gas",
             "bppulse",
             "lpg",
             "premium_unlead",
-            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
+            "unlead"
         ],
         "website": null,
         "watchlist_id": null,
@@ -43103,8 +43129,10 @@
             "rigid_access",
             "cash_point",
             "toilet",
+            "barista_coffee",
             "wild_bean_cafe",
             "takeaway_food_offer",
+            "food_offer_instore",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "preorder_enabled",
@@ -45040,6 +45068,7 @@
         ],
         "products": [
             "ad_blue_pump",
+            "bppulse",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -46043,14 +46072,12 @@
             "mobile_enabled"
         ],
         "products": [
-            "ad_blue_cannister",
             "auto_gas",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
+            "unlead"
         ],
         "website": null,
         "watchlist_id": null,
@@ -50097,7 +50124,6 @@
             "gift_card",
             "bdouble_access",
             "cash_point",
-            "shower",
             "toilet",
             "barista_coffee",
             "takeaway_food_offer",
@@ -51015,6 +51041,7 @@
         "postcode": "2161",
         "telephone": "",
         "facilities": [
+            "open_24_hours",
             "cash_point",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",

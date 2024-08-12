@@ -488,7 +488,6 @@
             "workshop",
             "toilet",
             "shop",
-            "loyalty",
             "mobile_acceptance",
             "mobile_enabled"
         ],
@@ -6379,6 +6378,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -8607,8 +8607,6 @@
         "postcode": "61254",
         "telephone": "+1 309-944-5811",
         "facilities": [
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "grocer_reward",
@@ -8618,7 +8616,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "106 S Chicago St\nGeneseo\n61254",
@@ -8637,8 +8637,6 @@
         "postcode": "61434",
         "telephone": "+1 309-932-8935",
         "facilities": [
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "grocer_reward",
@@ -8648,7 +8646,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "12 SW 2nd St\nGalva\n61434",
@@ -9681,6 +9681,35 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "129002",
+        "name": "Amoco",
+        "lat": 41.2478118913,
+        "lng": -95.9339986883,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "1202 S 13th St",
+        "city": "Omaha",
+        "state": "NE",
+        "postcode": "68108",
+        "telephone": "+1 402-345-0256",
+        "facilities": [
+            "open_24_hours",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [
+            "regular_diesel"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1202 S 13th St\nOmaha\n68108",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "129018",
         "name": "Amoco",
         "lat": 41.2058722925,
@@ -9933,6 +9962,34 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "129105",
+        "name": "Amoco",
+        "lat": 34.4033622277,
+        "lng": -84.003463057,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "38 Henry Grady Hwy",
+        "city": "Dawsonville",
+        "state": "GA",
+        "postcode": "30534",
+        "telephone": "+1 706-216-7782",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "38 Henry Grady Hwy\nDawsonville\n30534",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "129109",
         "name": "Amoco",
         "lat": 45.493414,
@@ -10045,6 +10102,34 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "129163",
+        "name": "Amoco",
+        "lat": 42.3502485942,
+        "lng": -83.2745053115,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "8125 N Telegraph Rd",
+        "city": "Dearborn Heights",
+        "state": "MI",
+        "postcode": "48127",
+        "telephone": "+1 313-278-8380",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "8125 N Telegraph Rd\nDearborn Heights\n48127",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "129209",
         "name": "Amoco",
         "lat": 39.3370611399,
@@ -10100,6 +10185,64 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "129248",
+        "name": "Amoco",
+        "lat": 43.453098054,
+        "lng": -88.8056621152,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "N7160 Raceway Rd",
+        "city": "Beaver Dam",
+        "state": "WI",
+        "postcode": "53916",
+        "telephone": "+1 920-219-9086",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "fresh_perks",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "N7160 Raceway Rd\nBeaver Dam\n53916",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "129271",
+        "name": "Amoco",
+        "lat": 42.2272385788,
+        "lng": -83.2293373228,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "19141 Goddard Rd",
+        "city": "Southgate",
+        "state": "MI",
+        "postcode": "48195",
+        "telephone": "+1 734-374-5644",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "19141 Goddard Rd\nSouthgate\n48195",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "129274",
         "name": "Amoco",
         "lat": 43.0424403971,
@@ -10151,6 +10294,34 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1420 Custer Ave SE\nAtlanta\n30316",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "129283",
+        "name": "Amoco",
+        "lat": 42.4911459471,
+        "lng": -83.0857021454,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "1849 E 14 Mile Rd",
+        "city": "Troy",
+        "state": "MI",
+        "postcode": "48071",
+        "telephone": "+1 248-548-8085",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1849 E 14 Mile Rd\nTroy\n48071",
         "channel_of_trade": "BJBR"
     },
     {
@@ -10240,6 +10411,35 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "129303",
+        "name": "Amoco",
+        "lat": 43.1842265056,
+        "lng": -88.0046904971,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "9091 N 76th St",
+        "city": "Milwaukee",
+        "state": "WI",
+        "postcode": "53223",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "fresh_perks",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "9091 N 76th St\nMilwaukee\n53223",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "129339",
         "name": "Amoco",
         "lat": 42.3976771204,
@@ -10258,6 +10458,7 @@
             "shop",
             "grocer_reward",
             "marianos",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"

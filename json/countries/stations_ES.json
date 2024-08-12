@@ -2610,7 +2610,13 @@
         "postcode": "41700",
         "telephone": "+34 954 72 06 73",
         "facilities": [
-            "open_24_hours",
+            "tobacco",
+            "car_wash",
+            "jet_wash",
+            "high_speed_pump",
+            "truck_suitable_site",
+            "disabled_facilities",
+            "toilet",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -2755,21 +2761,26 @@
     },
     {
         "id": "1296645434",
-        "name": "E.S. BP LAS CIGUENAS",
+        "name": "bp LAS CIGUENAS",
         "lat": 40.014778,
         "lng": -6.10475,
         "site_brand": "BP",
         "country_code": "ES",
-        "address": "C/ ANDERS CELSIUS N\u00ba 2",
+        "address": "AV. MARTIN PALOMINO, 2",
         "city": "PLASENCIA",
         "state": null,
         "postcode": "10600",
         "telephone": "+34 927 28 84 20",
         "facilities": [
+            "tobacco",
+            "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "disabled_facilities",
             "toilet",
+            "bakery_bistro",
+            "bistro",
+            "petit_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -2785,7 +2796,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "C/ ANDERS CELSIUS N\u00ba 2\nPLASENCIA\n10600",
+        "formatted_address": "AV. MARTIN PALOMINO, 2\nPLASENCIA\n10600",
         "channel_of_trade": null
     },
     {
@@ -3297,7 +3308,7 @@
     },
     {
         "id": "1343275002",
-        "name": "PEGO",
+        "name": "bp PEGO",
         "lat": 38.8495,
         "lng": -0.1128,
         "site_brand": "BP",
@@ -3308,7 +3319,16 @@
         "postcode": "03780",
         "telephone": "+34 966 40 07 84",
         "facilities": [
+            "alcohol",
+            "tobacco",
+            "jet_wash",
+            "high_speed_pump",
+            "truck_suitable_site",
+            "disabled_facilities",
+            "toilet",
+            "bakery_bistro",
             "accepts_routex_cards",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -9381,7 +9401,7 @@
     },
     {
         "id": "16496",
-        "name": "E.S. BP PINEDO",
+        "name": "bp PINEDO",
         "lat": 39.4206,
         "lng": -0.3401,
         "site_brand": "BP",
@@ -9392,9 +9412,13 @@
         "postcode": "46012",
         "telephone": "+34 963 24 82 34",
         "facilities": [
+            "alcohol",
+            "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "bakery_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -11664,12 +11688,14 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -14038,6 +14064,7 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_cannister",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
@@ -14301,10 +14328,8 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -14967,48 +14992,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CR AUTOVIA A-4 KM. 288\nJAEN\n23710",
-        "channel_of_trade": null
-    },
-    {
-        "id": "171060973",
-        "name": "bp ONDARA",
-        "lat": 38.822304,
-        "lng": 0.021778,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "Avenida de Alicante 82",
-        "city": "Ondara",
-        "state": null,
-        "postcode": "03760",
-        "telephone": "+34 865 80 14 90",
-        "facilities": [
-            "open_24_hours",
-            "alcohol",
-            "car_wash",
-            "jet_wash",
-            "high_speed_pump",
-            "truck_suitable_site",
-            "disabled_facilities",
-            "toilet",
-            "supermarket",
-            "bakery_bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_pump",
-            "diesel_on",
-            "electricity",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Avenida de Alicante 82\nOndara\n03760",
         "channel_of_trade": null
     },
     {
@@ -16005,7 +15988,7 @@
     },
     {
         "id": "1809651937",
-        "name": "SOTO I",
+        "name": "bp SOTO I",
         "lat": 40.7175,
         "lng": -3.792,
         "site_brand": "BP",
@@ -17399,13 +17382,15 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "electricity",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -18729,6 +18714,7 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_cannister",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
@@ -18903,10 +18889,10 @@
         "site_brand": "BP",
         "country_code": "ES",
         "address": "CR DE LOS OGIJARES KM 2,100",
-        "city": "GRANADA",
+        "city": "OGIJARES",
         "state": null,
         "postcode": "18151",
-        "telephone": "+34 696 47 98 94",
+        "telephone": "+34 958 50 90 08",
         "facilities": [
             "car_wash",
             "disabled_facilities",
@@ -18914,7 +18900,9 @@
             "bakery_bistro",
             "bistro",
             "petit_bistro",
-            "accepts_routex_cards"
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
@@ -18928,7 +18916,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "CR DE LOS OGIJARES KM 2,100\nGRANADA\n18151",
+        "formatted_address": "CR DE LOS OGIJARES KM 2,100\nOGIJARES\n18151",
         "channel_of_trade": null
     },
     {
@@ -19320,6 +19308,7 @@
         "facilities": [
             "alcohol",
             "tobacco",
+            "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "disabled_facilities",
@@ -19644,8 +19633,6 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
             "unleaded_95"
         ],
         "website": null,
@@ -20134,6 +20121,7 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
+            "truck_wash",
             "toilet",
             "bakery_bistro",
             "accepts_routex_cards",
@@ -21020,7 +21008,7 @@
     },
     {
         "id": "32435782",
-        "name": "LA MONTERA",
+        "name": "bp LA MONTERA",
         "lat": 36.1777,
         "lng": -5.4887,
         "site_brand": "BP",
@@ -21031,6 +21019,13 @@
         "postcode": "11370",
         "telephone": "+34 619 87 46 99",
         "facilities": [
+            "jet_wash",
+            "high_speed_pump",
+            "truck_suitable_site",
+            "disabled_facilities",
+            "toilet",
+            "bakery_bistro",
+            "restaurant",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -22139,16 +22134,19 @@
         "city": "SA POBLA",
         "state": null,
         "postcode": "07420",
-        "telephone": "+34 647 72 65 00",
+        "telephone": "+34 971 54 04 08",
         "facilities": [
             "alcohol",
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
             "bakery_bistro",
             "accepts_routex_cards",
-            "special_car_wash"
+            "special_car_wash",
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
@@ -22396,7 +22394,7 @@
         "city": "MIRANDA DE EBRO",
         "state": null,
         "postcode": "09200",
-        "telephone": "+34 958 32 72 00",
+        "telephone": "+34 947 56 94 89",
         "facilities": [
             "open_24_hours",
             "tobacco",
@@ -28089,9 +28087,6 @@
         ],
         "products": [
             "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
             "unleaded_95"
         ],
         "website": null,
@@ -28336,7 +28331,7 @@
     },
     {
         "id": "97572114",
-        "name": "SOTO II",
+        "name": "bp SOTO II",
         "lat": 40.7179,
         "lng": -3.7929,
         "site_brand": "BP",
