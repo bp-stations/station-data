@@ -9418,7 +9418,9 @@
         "state": "TAS",
         "postcode": "7249",
         "telephone": "+61 3 6344 5084",
-        "facilities": [],
+        "facilities": [
+            "outdoor_payment_terminal"
+        ],
         "products": [],
         "website": null,
         "watchlist_id": null,
@@ -9652,6 +9654,31 @@
         "channel_of_trade": null
     },
     {
+        "id": "1168",
+        "name": "BP ANDERSON STREET",
+        "lat": -16.915,
+        "lng": 145.7486,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "66 Anderson Street",
+        "city": "Manunda",
+        "state": "QLD",
+        "postcode": "4870",
+        "telephone": "",
+        "facilities": [
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "66 Anderson Street\nManunda\n4870",
+        "channel_of_trade": null
+    },
+    {
         "id": "1178",
         "name": "BP WOODPARK ROAD",
         "lat": -33.8388,
@@ -9728,7 +9755,7 @@
         "city": "Bewong",
         "state": "NSW",
         "postcode": "2540",
-        "telephone": "+61 476 509 190",
+        "telephone": "+61 2 4443 3231",
         "facilities": [
             "loyalty",
             "bpmeplus",
@@ -25332,6 +25359,42 @@
         "channel_of_trade": null
     },
     {
+        "id": "4262",
+        "name": "BP KEDRON",
+        "lat": -27.402159,
+        "lng": 153.031888,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "411 GYMPIE ROAD",
+        "city": "KEDRON",
+        "state": "QLD",
+        "postcode": "4031",
+        "telephone": "+61 402 227 505",
+        "facilities": [
+            "toilet",
+            "wild_bean_cafe",
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "mobile_enabled"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "e10",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "411 GYMPIE ROAD\nKEDRON\n4031",
+        "channel_of_trade": null
+    },
+    {
         "id": "4263",
         "name": "BP PLAZA (QLD)",
         "lat": -27.5081,
@@ -27269,6 +27332,7 @@
         "postcode": "4179",
         "telephone": "+61 7 3396 2426",
         "facilities": [
+            "open_24_hours",
             "gift_card",
             "bdouble_access",
             "rigid_access",
@@ -60770,8 +60834,8 @@
     {
         "id": "9629",
         "name": "BP OTR MT GAMBIER (RAMSAY AVE)",
-        "lat": -35.074962,
-        "lng": 138.590533,
+        "lat": -37.835099,
+        "lng": 140.801617,
         "site_brand": "BP",
         "country_code": "AU",
         "address": "1 RAMSAY AVE",
