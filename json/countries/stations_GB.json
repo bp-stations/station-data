@@ -3851,7 +3851,7 @@
     },
     {
         "id": "1345352646",
-        "name": "ABERFORD ROAD",
+        "name": "ABERFORD ROAD FS962",
         "lat": 53.750227,
         "lng": -1.45001,
         "site_brand": "BP",
@@ -3863,10 +3863,13 @@
         "telephone": "+44 113 322 2559",
         "facilities": [
             "open_24_hours",
+            "alcohol",
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
             "cash_point",
+            "wifi",
+            "bakery_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday",
@@ -15067,7 +15070,7 @@
     },
     {
         "id": "265302494",
-        "name": "NESSCLIFFE",
+        "name": "NESSCLIFFE FS452",
         "lat": 52.77183,
         "lng": -2.923429,
         "site_brand": "BP",
@@ -15079,10 +15082,13 @@
         "telephone": "+44 1743 652076",
         "facilities": [
             "open_24_hours",
+            "alcohol",
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
             "cash_point",
+            "toilet",
+            "wifi",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday",
@@ -15844,8 +15850,6 @@
         "postcode": "SO15 3DJ",
         "telephone": "+44 1234 567891",
         "facilities": [
-            "jet_wash",
-            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -15854,13 +15858,11 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -24658,11 +24660,10 @@
         "city": "BASILDON",
         "state": null,
         "postcode": "SS15 6DH",
-        "telephone": "+44 1268 542848",
+        "telephone": "0800402402",
         "facilities": [
             "open_24_hours",
             "alcohol",
-            "car_wash",
             "jet_wash",
             "cash_point",
             "bakery_bistro",
@@ -27172,6 +27173,7 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "electricity",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
@@ -36122,39 +36124,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "4621",
-        "name": "ST CROSS FILLING STATION",
-        "lat": 51.05377,
-        "lng": -1.32079,
-        "site_brand": "BP",
-        "country_code": "GB",
-        "address": "St Cross Road",
-        "city": "WINCHESTER",
-        "state": null,
-        "postcode": "SO23 9PS",
-        "telephone": "+44 1962 843392",
-        "facilities": [
-            "bakery_bistro",
-            "bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "St Cross Road\nWINCHESTER\nSO23 9PS",
-        "channel_of_trade": null
-    },
-    {
         "id": "4622",
         "name": "ST DUNSTANS SELF SERVE",
         "lat": 51.36492,
@@ -40922,8 +40891,11 @@
         "telephone": "01000000000",
         "facilities": [
             "open_24_hours",
-            "bunker_site",
+            "alcohol",
             "cash_point",
+            "disabled_facilities",
+            "toilet",
+            "bakery_bistro",
             "bistro",
             "wild_bean_cafe",
             "accepts_routex_cards",
@@ -44108,7 +44080,11 @@
         "postcode": "BN26 6UE",
         "telephone": "+44 1273 033962",
         "facilities": [
+            "alcohol",
             "jet_wash",
+            "disabled_facilities",
+            "toilet",
+            "bakery_bistro",
             "bistro",
             "wild_bean_cafe",
             "accepts_routex_cards",

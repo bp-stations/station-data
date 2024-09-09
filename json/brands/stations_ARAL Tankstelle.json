@@ -2844,6 +2844,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -2944,6 +2945,47 @@
         "website": "http://tankstelle.aral.de/tankstelle/12085300",
         "watchlist_id": "12085300",
         "formatted_address": "Oppenheimer Str. 7\nGro\u00df-Gerau\n64521",
+        "channel_of_trade": "COSI"
+    },
+    {
+        "id": "12087500",
+        "name": "Gabriele G\u00f6rtler-Schreiner",
+        "lat": 50.048535,
+        "lng": 8.241274,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Biebricher Allee 186",
+        "city": "Wiesbaden",
+        "state": null,
+        "postcode": "65203",
+        "telephone": "+49 611 694289",
+        "facilities": [
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "recup",
+            "rewe_to_go",
+            "shop",
+            "bistro",
+            "too_good_to_go",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/12087500",
+        "watchlist_id": "12087500",
+        "formatted_address": "Biebricher Allee 186\nWiesbaden\n65203",
         "channel_of_trade": "COSI"
     },
     {
@@ -12106,6 +12148,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "cash_point",
             "rewe_to_go",
@@ -12126,7 +12169,8 @@
             "ultimate_diesel",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/13137400",
         "watchlist_id": "13137400",
@@ -13539,7 +13583,7 @@
         "city": "Brake",
         "state": null,
         "postcode": "26919",
-        "telephone": "",
+        "telephone": "+49 4401 7066493",
         "facilities": [
             "open_24_hours",
             "car_wash",
@@ -16235,6 +16279,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "cash_point",
             "rewe_to_go",
@@ -16256,7 +16301,8 @@
             "ultimate_diesel",
             "lpg",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/14104700",
         "watchlist_id": "14104700",
@@ -17096,7 +17142,6 @@
         "postcode": "46236",
         "telephone": "+49 2041 6505",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -17317,7 +17362,7 @@
     },
     {
         "id": "14128400",
-        "name": "Nadine Michels",
+        "name": "Savas Karakugum",
         "lat": 51.443892,
         "lng": 6.661056,
         "site_brand": "ARAL Tankstelle",
@@ -17335,10 +17380,8 @@
             "electric_charging",
             "recup",
             "cash_point",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -25047,6 +25090,37 @@
         "website": "http://tankstelle.aral.de/tankstelle/15128900",
         "watchlist_id": "15128900",
         "formatted_address": "Siemensstra\u00dfe 9\nWeil der Stadt\n71263",
+        "channel_of_trade": "DODO"
+    },
+    {
+        "id": "15129100",
+        "name": "Bernd Weber GmbH&Co. KG",
+        "lat": 48.399732,
+        "lng": 8.007818,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Berghauptener Stra\u00dfe 21b",
+        "city": "Gengenbach",
+        "state": null,
+        "postcode": "77723",
+        "telephone": "+49 7803 7759",
+        "facilities": [
+            "shop",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "super_e5",
+            "super_98",
+            "e10"
+        ],
+        "website": "http://tankstelle.aral.de/tankstelle/15129100",
+        "watchlist_id": "15129100",
+        "formatted_address": "Berghauptener Stra\u00dfe 21b\nGengenbach\n77723",
         "channel_of_trade": "DODO"
     },
     {
@@ -38722,6 +38796,7 @@
             "shop",
             "bistro",
             "too_good_to_go",
+            "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
             "special_car_wash",
@@ -41223,7 +41298,6 @@
         "postcode": "86415",
         "telephone": "+49 8233 781227",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -50063,7 +50137,6 @@
         "postcode": "53639",
         "telephone": "+49 2223 7009181",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "car_wash_plant",
             "jet_wash",
@@ -50409,6 +50482,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "cash_point",
             "rewe_to_go",
@@ -50428,7 +50502,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "http://tankstelle.aral.de/tankstelle/21000800",
         "watchlist_id": "21000800",
@@ -60122,7 +60197,6 @@
         "postcode": "98528",
         "telephone": "+49 3681 461595",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -62405,7 +62479,6 @@
         "postcode": "01640",
         "telephone": "+49 3523 73629",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -72207,7 +72280,7 @@
     },
     {
         "id": "28249300",
-        "name": "Tobias Stemmer",
+        "name": "Nils Hempel",
         "lat": 51.481626,
         "lng": 7.438967,
         "site_brand": "ARAL Tankstelle",
@@ -72223,10 +72296,8 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -78651,6 +78722,7 @@
         "postcode": "91301",
         "telephone": "+49 9191 727212",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
