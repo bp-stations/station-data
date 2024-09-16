@@ -5582,7 +5582,7 @@
     },
     {
         "id": "0944",
-        "name": "Temporarily Closed",
+        "name": "BP OAKES (NSW)",
         "lat": -33.7542,
         "lng": 151.0406,
         "site_brand": "BP",
@@ -5596,6 +5596,7 @@
             "gift_card",
             "trailers",
             "toilet",
+            "barista_coffee",
             "takeaway_food_offer",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
@@ -5608,12 +5609,11 @@
             "mobile_enabled"
         ],
         "products": [
-            "ad_blue_cannister",
             "e10",
             "lpg",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "ad_blue"
+            "unlead"
         ],
         "website": null,
         "watchlist_id": null,
@@ -7207,6 +7207,8 @@
             "cash_point",
             "toilet",
             "food_offer_instore",
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
             "restaurant"
@@ -7987,6 +7989,48 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2 Greenvale Street\nYabulu\n4818",
+        "channel_of_trade": null
+    },
+    {
+        "id": "1083",
+        "name": "BP BATEMANS BAY",
+        "lat": -35.7194,
+        "lng": 150.1763,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "85-87 Princes Highway",
+        "city": "Batemans Bay",
+        "state": "NSW",
+        "postcode": "2536",
+        "telephone": "+61 433 873 456",
+        "facilities": [
+            "gift_card",
+            "rigid_access",
+            "high_flow_diesel",
+            "toilet",
+            "barista_coffee",
+            "takeaway_food_offer",
+            "food_offer_instore",
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "restaurant",
+            "takeaway_food",
+            "high_speed_pump"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "ad_blue_pump",
+            "e10",
+            "lpg",
+            "premium_unlead",
+            "ultimate_unleaded",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "85-87 Princes Highway\nBatemans Bay\n2536",
         "channel_of_trade": null
     },
     {
@@ -9786,6 +9830,7 @@
         "postcode": "2540",
         "telephone": "+61 2 4443 3231",
         "facilities": [
+            "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards"
@@ -14932,6 +14977,7 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "bppulse",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -15969,7 +16015,7 @@
     },
     {
         "id": "2208",
-        "name": "BP Mayfield - OPENING SOON",
+        "name": "BP Mayfield",
         "lat": -32.9028,
         "lng": 151.7443,
         "site_brand": "BP",
@@ -16002,13 +16048,11 @@
             "mobile_enabled"
         ],
         "products": [
-            "ad_blue_cannister",
             "e10",
             "lpg",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
+            "unlead"
         ],
         "website": null,
         "watchlist_id": null,
@@ -16260,6 +16304,7 @@
         "postcode": "2145",
         "telephone": "+61 2 9635 6386",
         "facilities": [
+            "open_24_hours",
             "gift_card",
             "trailers",
             "bdouble_access",
@@ -18909,51 +18954,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CNR HASSALL & JAMES RUSE DRIVE\nROSEHILL\n2142",
-        "channel_of_trade": null
-    },
-    {
-        "id": "2686",
-        "name": "BP ON ALBERT",
-        "lat": -23.3737,
-        "lng": 150.5042,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "37 KENT STREET",
-        "city": "ROCKHAMPTON",
-        "state": "QLD",
-        "postcode": "4700",
-        "telephone": "+61 7 4927 9343",
-        "facilities": [
-            "gift_card",
-            "national_diesel_offer",
-            "cash_point",
-            "toilet",
-            "western_union",
-            "takeaway_food_offer",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "bp_rewards_unlocked_convenience",
-            "loyalty",
-            "pump_rewards",
-            "loyalty_home_delivery",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "restaurant",
-            "takeaway_food",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "lpg",
-            "premium_unlead",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "37 KENT STREET\nROCKHAMPTON\n4700",
         "channel_of_trade": null
     },
     {
@@ -32819,14 +32819,12 @@
             "takeaway_food"
         ],
         "products": [
-            "ad_blue_cannister",
             "auto_gas",
             "e10",
             "lpg",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
+            "unlead"
         ],
         "website": null,
         "watchlist_id": null,
@@ -52680,38 +52678,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "7827",
-        "name": "BP OPT STRAHAN",
-        "lat": -42.1539,
-        "lng": 145.328,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "STRAHAN WHARF",
-        "city": "STRAHAN",
-        "state": "TAS",
-        "postcode": "7468",
-        "telephone": "+61 1300 456 937",
-        "facilities": [
-            "open_24_hours",
-            "national_diesel_offer",
-            "bdouble_access",
-            "rigid_access",
-            "truck_suitable_site",
-            "high_flow_diesel",
-            "outdoor_payment_terminal",
-            "pump_rewards",
-            "truck_only",
-            "high_speed_pump"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "STRAHAN WHARF\nSTRAHAN\n7468",
-        "channel_of_trade": null
-    },
-    {
         "id": "7831",
         "name": "OPT PERTH YACHT CLUB",
         "lat": -31.9996,
@@ -60281,6 +60247,7 @@
         "postcode": "2219",
         "telephone": "+61 2 9529 3910",
         "facilities": [
+            "open_24_hours",
             "gift_card",
             "car_wash",
             "bdouble_access",
