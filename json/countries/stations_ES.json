@@ -4847,8 +4847,9 @@
         "telephone": "+34 948 15 67 24",
         "facilities": [
             "alcohol",
-            "tobacco",
             "car_wash",
+            "high_speed_pump",
+            "truck_suitable_site",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -11186,7 +11187,7 @@
         "city": "BENICARLO",
         "state": null,
         "postcode": "12580",
-        "telephone": "+34 607 59 08 59",
+        "telephone": "+34 964 47 07 37",
         "facilities": [
             "alcohol",
             "tobacco",
@@ -14844,6 +14845,7 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "electricity",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -16150,7 +16152,6 @@
             "disabled_facilities",
             "toilet",
             "supermarket",
-            "bakery_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -18146,6 +18147,38 @@
         "channel_of_trade": null
     },
     {
+        "id": "2095238406",
+        "name": "ABADES BAILEN",
+        "lat": 38.1437,
+        "lng": -3.7275,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "CR AUTOVIA A-4 KM. 288",
+        "city": "JAEN",
+        "state": null,
+        "postcode": "23710",
+        "telephone": "+34 620 46 21 79",
+        "facilities": [
+            "open_24_hours",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_pump",
+            "diesel_on",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "CR AUTOVIA A-4 KM. 288\nJAEN\n23710",
+        "channel_of_trade": null
+    },
+    {
         "id": "2101546687",
         "name": "bp VERA",
         "lat": 37.234716,
@@ -18303,8 +18336,6 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
             "unleaded_95",
             "ad_blue"
         ],
@@ -22451,7 +22482,7 @@
         "city": "MOLINA DE SEGURA",
         "state": null,
         "postcode": "30500",
-        "telephone": "+34 868 69 50 53",
+        "telephone": "+34 685 84 01 49",
         "facilities": [
             "alcohol",
             "tobacco",
@@ -23967,7 +23998,7 @@
         "city": "ZAHARA DE LOS ATUNES - CADIZ",
         "state": null,
         "postcode": "11393",
-        "telephone": "+34 856 03 43 39",
+        "telephone": "+34 646 98 36 54",
         "facilities": [
             "tobacco",
             "jet_wash",
@@ -27356,23 +27387,26 @@
     },
     {
         "id": "856600711",
-        "name": "LOS LLANOS",
+        "name": "bp LOS LLANOS",
         "lat": 28.6571,
         "lng": -17.913,
         "site_brand": "BP",
         "country_code": "ES",
         "address": "Avda. Carlos Francisco Lorenzo Nava",
-        "city": "LOS LLANOS DE ARIDANE",
+        "city": "LOS LLANOS",
         "state": null,
-        "postcode": "35502",
+        "postcode": "38760",
         "telephone": "+34 922 46 14 21",
         "facilities": [
+            "truck_suitable_site",
+            "bakery_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -27380,7 +27414,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "Avda. Carlos Francisco Lorenzo Nava\nLOS LLANOS DE ARIDANE\n35502",
+        "formatted_address": "Avda. Carlos Francisco Lorenzo Nava\nLOS LLANOS\n38760",
         "channel_of_trade": null
     },
     {
@@ -27748,9 +27782,8 @@
             "truck_suitable_site",
             "toilet",
             "bakery_bistro",
-            "bistro",
-            "petit_bistro",
             "accepts_routex_cards",
+            "shop_open_24_hours",
             "open_saturday",
             "open_sunday"
         ],
