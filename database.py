@@ -65,7 +65,7 @@ def export_stations():
                 "INSERT INTO stations (id,name,lat,lng,address,city,state,postcode,country_code,telephone,site_brand,"
                 "watchlist_id,website,fuel,facilities) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?);",
                 (
-                    station["id"],
+                    station["watchlist_id"],
                     station["name"],
                     station["lat"],
                     station["lng"],
