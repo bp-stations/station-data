@@ -1938,6 +1938,33 @@
         "channel_of_trade": null
     },
     {
+        "id": "NL-1477242530",
+        "name": "47719 Sita Alphen a/d Rijn",
+        "lat": 52.1169211,
+        "lng": 4.6876482,
+        "site_brand": "BP",
+        "country_code": "NL",
+        "address": "Steekterweg 67",
+        "city": "ALPHEN AAN DEN RIJN",
+        "state": null,
+        "postcode": "2407 BE",
+        "telephone": "08002727270",
+        "facilities": [
+            "open_24_hours",
+            "accepts_routex_cards",
+            "automatic_site",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "diesel_on"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Steekterweg 67\nALPHEN AAN DEN RIJN\n2407 BE",
+        "channel_of_trade": null
+    },
+    {
         "id": "NL-152104282",
         "name": "BP De Keern",
         "lat": 52.645025,
@@ -2081,7 +2108,7 @@
         "lng": 5.8919,
         "site_brand": "BP",
         "country_code": "NL",
-        "address": "Rijksweg 779",
+        "address": "Rijksweg A1 779",
         "city": "UGCHELEN",
         "state": null,
         "postcode": "7339 ET",
@@ -2116,7 +2143,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "Rijksweg 779\nUGCHELEN\n7339 ET",
+        "formatted_address": "Rijksweg A1 779\nUGCHELEN\n7339 ET",
         "channel_of_trade": null
     },
     {
@@ -2262,6 +2289,7 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
+            "truck_suitable_site",
             "motorway_site",
             "accepts_routex_cards",
             "open_saturday",
@@ -2272,6 +2300,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -2296,6 +2325,7 @@
         "postcode": "6286 AG",
         "telephone": "+31 85 086 1299",
         "facilities": [
+            "car_wash",
             "truck_suitable_site",
             "accepts_routex_cards",
             "mobile_enabled"
@@ -3380,6 +3410,40 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Zeiving 19\nVuren\n4214 KT",
+        "channel_of_trade": null
+    },
+    {
+        "id": "NL-1923998224",
+        "name": "BP Hoogeveen",
+        "lat": 52.7212,
+        "lng": 6.4857,
+        "site_brand": "BP",
+        "country_code": "NL",
+        "address": "Het Haagje 145",
+        "city": "HOOGEVEEN",
+        "state": null,
+        "postcode": "7902 LE",
+        "telephone": "+31 88 313 0225",
+        "facilities": [
+            "truck_suitable_site",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "auto_gas",
+            "diesel_on",
+            "lpg",
+            "truck_diesel",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Het Haagje 145\nHOOGEVEEN\n7902 LE",
         "channel_of_trade": null
     },
     {
@@ -5171,6 +5235,7 @@
         "postcode": "1611 GA",
         "telephone": "+31 228 513 655",
         "facilities": [
+            "car_wash",
             "toilet",
             "albert_heijn",
             "accepts_routex_cards",
@@ -6450,6 +6515,50 @@
         "channel_of_trade": null
     },
     {
+        "id": "NL-5025",
+        "name": "BP De Horne",
+        "lat": 52.9585209,
+        "lng": 5.8462017,
+        "site_brand": "BP",
+        "country_code": "NL",
+        "address": "Rijksweg A7",
+        "city": "HASKERHORNE",
+        "state": null,
+        "postcode": "8506 AA",
+        "telephone": "+31 513 677 457",
+        "facilities": [
+            "open_24_hours",
+            "high_speed_pump",
+            "truck_parking",
+            "truck_suitable_site",
+            "toilet",
+            "motorway_site",
+            "albert_heijn",
+            "accepts_routex_cards",
+            "shop_open_24_hours",
+            "open_saturday",
+            "open_sunday",
+            "mobile_enabled"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "ad_blue_pump",
+            "auto_gas",
+            "diesel_on",
+            "lpg",
+            "truck_diesel",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Rijksweg A7\nHASKERHORNE\n8506 AA",
+        "channel_of_trade": null
+    },
+    {
         "id": "NL-5033",
         "name": "BP Middenwaard",
         "lat": 52.66435,
@@ -6566,7 +6675,6 @@
         "postcode": "7603 BS",
         "telephone": "+31 546 473 322",
         "facilities": [
-            "car_wash",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -7043,6 +7151,7 @@
         "postcode": "6228 LK",
         "telephone": "+31 88 313 0039",
         "facilities": [
+            "car_wash",
             "truck_suitable_site",
             "accepts_routex_cards",
             "open_saturday",
@@ -7943,6 +8052,7 @@
         "postcode": "5464 VA",
         "telephone": "+31 413 364 848",
         "facilities": [
+            "car_wash",
             "truck_parking",
             "truck_suitable_site",
             "toilet",
@@ -8823,6 +8933,7 @@
         "postcode": "6931 EZ",
         "telephone": "+31 88 313 0268",
         "facilities": [
+            "car_wash",
             "truck_suitable_site",
             "toilet",
             "accepts_routex_cards",
@@ -8916,6 +9027,7 @@
         "telephone": "08002727270",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "truck_suitable_site",
             "toilet",
             "accepts_routex_cards",
@@ -10116,7 +10228,6 @@
         "telephone": "+31 72 511 8884",
         "facilities": [
             "open_24_hours",
-            "car_wash",
             "motorway_site",
             "wild_bean_cafe",
             "accepts_routex_cards",
