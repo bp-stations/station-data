@@ -154,7 +154,7 @@ jobs:
         target-directory: 'data'
 
   cleanup:
-    needs: [deploy, copy]
+    needs: [deploy, deploy-cf, copy]
     permissions:
       actions: write
     timeout-minutes: 5
