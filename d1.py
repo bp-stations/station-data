@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from cloudflare import Cloudflare
+from cloudflare import Cloudflare, APIConnectionError, RateLimitError, APIStatusError
 from pathlib import Path
 from json import load
 import os
@@ -60,7 +60,17 @@ def export_stations():
         querys.append("".join(tmp_query))
         tmp_query = []
     for query in querys:
-        client.d1.database.query(account_id=os.environ.get("CF_ACCOUNT_ID"), database_id=os.environ.get("CF_DATABASE_ID"), sql=query)
+        try:
+            client.d1.database.query(account_id=os.environ.get("CF_ACCOUNT_ID"), database_id=os.environ.get("CF_DATABASE_ID"), sql=query)
+        except APIConnectionError as e:
+            print("The server could not be reached")
+            print(e.__cause__)  # an underlying Exception, likely raised within httpx.
+        except RateLimitError as e:
+            print("A 429 status code was received; we should back off a bit.")
+        except APIStatusError as e:
+            print("Another non-200-range status code was received")
+            print(e.status_code)
+            print(e.response)
 
 
 if __name__ == "__main__":
