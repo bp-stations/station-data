@@ -5,7 +5,7 @@ from json import load
 import os
 
 client = Cloudflare(
-    api_token=os.getenv("CF_API_TOKEN")
+    api_token=os.environ.get("CF_API_TOKEN")
 )
 
 def load_json(file):
@@ -56,7 +56,7 @@ def export_stations():
         querys.append("".join(tmp_query))
         tmp_query = []
     for query in querys:
-        client.d1.database.query(account_id=os.getenv("CF_ACCOUNT_ID"), database_id=os.getenv("CF_DATABASE_ID"), sql=query)
+        client.d1.database.query(account_id=os.environ.get("CF_ACCOUNT_ID"), database_id=os.environ.get("CF_DATABASE_ID"), sql=query)
 
 
 if __name__ == "__main__":
