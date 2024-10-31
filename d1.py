@@ -4,6 +4,10 @@ from pathlib import Path
 from json import load
 import os
 
+if not os.environ.get("CF_API_TOKEN") or not os.environ.get("CF_ACCOUNT_ID") or not os.environ.get("CF_DATABASE_ID"):
+    print("missing enviroment variables")
+    exit(1)
+
 client = Cloudflare(
     api_token=os.environ.get("CF_API_TOKEN")
 )
