@@ -80,8 +80,8 @@ jobs:
           path: out/ov2/
 
   deploy-cf:
-    needs: [ generate-small-files ]
-    timeout-minutes: 20
+    needs: [ fetch ]
+    timeout-minutes: 5
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -89,10 +89,6 @@ jobs:
         with:
           name: tmp-data
           path: out/json
-      - uses: actions/download-artifact@v4
-        with:
-          name: tmp-data-small-files
-          path: out/json/other
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -100,11 +96,11 @@ jobs:
       - name: install requirements
         run: pip install -r requirements.txt
       - name: run d1.py
-        run: python d1.py
         env:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
           CF_DATABASE_ID: ${{ secrets.CF_DATABASE_ID }}
+        run: python d1.py
 
   deploy:
     needs: [generate-small-files, generate-ov2]
