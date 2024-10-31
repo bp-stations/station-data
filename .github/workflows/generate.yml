@@ -97,6 +97,8 @@ jobs:
         with:
           python-version: '3.12'
           cache: 'pip'
+      - name: install requirements
+        run: pip install -r requirements.txt
       - name: run d1.py
         run: python d1.py
         env:
