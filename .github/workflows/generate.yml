@@ -99,9 +99,9 @@ jobs:
       - name: run d1.py
         run: python d1.py
         env:
-          - CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
-          - CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-          - CF_DATABASE_ID: ${{ secrets.CF_DATABASE_ID }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_DATABASE_ID: ${{ secrets.CF_DATABASE_ID }}
 
   deploy:
     needs: [generate-small-files, generate-ov2]
