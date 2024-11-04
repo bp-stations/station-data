@@ -5956,8 +5956,7 @@
             "open_24_hours",
             "open_saturday",
             "open_sunday",
-            "ryd",
-            "automatische_diesel_station"
+            "ryd"
         ],
         "products": [
             "ad_blue",
@@ -5967,7 +5966,7 @@
         "website": "https://tankstelle.aral.de/tankstelle/12150900",
         "watchlist_id": "12150900",
         "formatted_address": "Ferdinand-Porsche-Str. 9\nFrankfurt\n60386",
-        "channel_of_trade": "UNCO"
+        "channel_of_trade": null
     },
     {
         "id": "DE-12151100",
@@ -39798,7 +39797,6 @@
         "postcode": "95502",
         "telephone": "+49 9273 57337",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -64960,6 +64958,7 @@
             "super_wash",
             "recup",
             "cash_point",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -79427,47 +79426,6 @@
         "channel_of_trade": "COSI"
     },
     {
-        "id": "DE-28530700",
-        "name": "Nicole Schr\u00f6ter",
-        "lat": 48.361405,
-        "lng": 10.98779,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Aichacher Stra\u00dfe 26",
-        "city": "Friedberg",
-        "state": null,
-        "postcode": "86316",
-        "telephone": "+49 821 601885",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "recup",
-            "shop",
-            "bistro",
-            "too_good_to_go",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "vda",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/28530700",
-        "watchlist_id": "28530700",
-        "formatted_address": "Aichacher Stra\u00dfe 26\nFriedberg\n86316",
-        "channel_of_trade": "COSI"
-    },
-    {
         "id": "DE-28535100",
         "name": "Hans Sedlmeier",
         "lat": 47.957967,
@@ -83038,6 +82996,7 @@
             "bistro",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
+            "loyalty",
             "open_saturday",
             "open_sunday",
             "ryd"
@@ -85911,6 +85870,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -86347,6 +86307,45 @@
         "watchlist_id": "28805100",
         "formatted_address": "Kreuzwiese 1\nRockenhausen\n67806",
         "channel_of_trade": "DODO"
+    },
+    {
+        "id": "DE-28805300",
+        "name": "Stefan Kr\u00f6ner",
+        "lat": 49.22948,
+        "lng": 7.007818,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Mainzer Stra\u00dfe 97",
+        "city": "Saarbr\u00fccken",
+        "state": null,
+        "postcode": "66121",
+        "telephone": "+49 681 61887",
+        "facilities": [
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "recup",
+            "shop",
+            "bistro",
+            "too_good_to_go",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "super_e5",
+            "super_98",
+            "e10"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/28805300",
+        "watchlist_id": "28805300",
+        "formatted_address": "Mainzer Stra\u00dfe 97\nSaarbr\u00fccken\n66121",
+        "channel_of_trade": "COSI"
     },
     {
         "id": "DE-28805500",
