@@ -5941,34 +5941,6 @@
         "channel_of_trade": "UNCO"
     },
     {
-        "id": "DE-12150900",
-        "name": "Aral Aktiengesellschaft",
-        "lat": 50.121941,
-        "lng": 8.757044,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Ferdinand-Porsche-Str. 9",
-        "city": "Frankfurt",
-        "state": null,
-        "postcode": "60386",
-        "telephone": "",
-        "facilities": [
-            "open_24_hours",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "ad_blue",
-            "super_e5",
-            "truck_diesel"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/12150900",
-        "watchlist_id": "12150900",
-        "formatted_address": "Ferdinand-Porsche-Str. 9\nFrankfurt\n60386",
-        "channel_of_trade": null
-    },
-    {
         "id": "DE-12151100",
         "name": "Aral Aktiengesellschaft",
         "lat": 49.867487,
@@ -12620,33 +12592,6 @@
         "channel_of_trade": "COSI"
     },
     {
-        "id": "DE-13141800",
-        "name": "Aral Aktiengesellschaft",
-        "lat": 53.577212,
-        "lng": 9.495691,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Ferdinand-Porsche-Stra\u00dfe",
-        "city": "Stade",
-        "state": null,
-        "postcode": "21684",
-        "telephone": "",
-        "facilities": [
-            "open_24_hours",
-            "open_saturday",
-            "open_sunday",
-            "ryd",
-            "automatische_diesel_station"
-        ],
-        "products": [
-            "truck_diesel"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/13141800",
-        "watchlist_id": "13141800",
-        "formatted_address": "Ferdinand-Porsche-Stra\u00dfe\nStade\n21684",
-        "channel_of_trade": "UNCO"
-    },
-    {
         "id": "DE-13141900",
         "name": "Aral Aktiengesellschaft",
         "lat": 53.023048,
@@ -12884,6 +12829,7 @@
             "ryd"
         ],
         "products": [
+            "ad_blue",
             "super_e5",
             "super_98",
             "e10",
@@ -13591,6 +13537,7 @@
             "open_24_hours",
             "electric_charging",
             "recup",
+            "shop",
             "bistro",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -15354,7 +15301,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -20584,6 +20530,7 @@
             "open_24_hours",
             "recup",
             "rewe_to_go",
+            "shop",
             "bistro",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -25341,6 +25288,7 @@
             "electric_charging",
             "recup",
             "rewe_to_go",
+            "shop",
             "bistro",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -29217,6 +29165,7 @@
         "telephone": "+49 6621 7940447",
         "facilities": [
             "open_24_hours",
+            "electric_charging",
             "truck_parking",
             "recup",
             "shop",
@@ -29236,7 +29185,8 @@
             "super_e5",
             "super_98",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/16102000",
         "watchlist_id": "16102000",
@@ -29526,6 +29476,7 @@
         "facilities": [
             "recup",
             "rewe_to_go",
+            "shop",
             "bistro",
             "too_good_to_go",
             "loyalty",
@@ -30583,10 +30534,8 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -30604,7 +30553,7 @@
         "website": "https://tankstelle.aral.de/tankstelle/17037500",
         "watchlist_id": "17037500",
         "formatted_address": "Karl-Kellner-Ring 2\nWetzlar\n35576",
-        "channel_of_trade": "COSI"
+        "channel_of_trade": "DODO"
     },
     {
         "id": "DE-17038600",
@@ -31765,6 +31714,7 @@
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
+            "loyalty",
             "special_car_wash",
             "vda",
             "open_saturday",
@@ -33698,6 +33648,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -36972,6 +36923,7 @@
             "car_wash",
             "recup",
             "rewe_to_go",
+            "shop",
             "bistro",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -39258,7 +39210,7 @@
     },
     {
         "id": "DE-19115500",
-        "name": "Klaus Waschk",
+        "name": "Markus Zeder",
         "lat": 48.108538,
         "lng": 11.722106,
         "site_brand": "ARAL Tankstelle",
@@ -39277,7 +39229,6 @@
             "cash_point",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -39884,6 +39835,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "cash_point",
             "rewe_to_go",
@@ -39906,7 +39858,8 @@
             "ad_blue",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/19123100",
         "watchlist_id": "19123100",
@@ -50060,6 +50013,7 @@
             "car_wash",
             "recup",
             "rewe_to_go",
+            "shop",
             "bistro",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -53787,6 +53741,7 @@
         "facilities": [
             "recup",
             "rewe_to_go",
+            "shop",
             "bistro",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -53896,6 +53851,7 @@
             "open_24_hours",
             "recup",
             "rewe_to_go",
+            "shop",
             "bistro",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -57789,6 +57745,7 @@
             "car_wash",
             "recup",
             "rewe_to_go",
+            "shop",
             "bistro",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -59227,7 +59184,7 @@
     },
     {
         "id": "DE-27004700",
-        "name": "Edgar Sommer",
+        "name": "Joyce Rennert",
         "lat": 51.9109,
         "lng": 13.7965,
         "site_brand": "ARAL Tankstelle",
@@ -60085,7 +60042,6 @@
         "postcode": "99867",
         "telephone": "+49 3621 709631",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -60515,7 +60471,6 @@
         "postcode": "36433",
         "telephone": "+49 3695 628240",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -61229,6 +61184,7 @@
         "facilities": [
             "recup",
             "rewe_to_go",
+            "shop",
             "bistro",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -62254,7 +62210,6 @@
         "postcode": "04916",
         "telephone": "+49 3535 21440",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -64679,6 +64634,7 @@
             "ultimate",
             "ultimate_diesel",
             "lpg",
+            "ad_blue",
             "super_e5",
             "e10",
             "truck_diesel"
@@ -68849,6 +68805,32 @@
         "channel_of_trade": "MWJO"
     },
     {
+        "id": "DE-27080800",
+        "name": "Sprint Tankstellen GmbH",
+        "lat": 51.53689,
+        "lng": 13.91143,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Senftenberger Str. 29",
+        "city": "Schipkau",
+        "state": null,
+        "postcode": "01998",
+        "telephone": "+49 35754 640781",
+        "facilities": [
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [],
+        "website": "https://tankstelle.aral.de/tankstelle/27080800",
+        "watchlist_id": "27080800",
+        "formatted_address": "Senftenberger Str. 29\nSchipkau\n01998",
+        "channel_of_trade": "JOBR"
+    },
+    {
         "id": "DE-27100000",
         "name": "Holger Klugmann",
         "lat": 52.514151,
@@ -69246,7 +69228,6 @@
         "postcode": "04109",
         "telephone": "+49 341 9808809",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "car_wash_plant",
             "jet_wash",
@@ -78440,6 +78421,7 @@
             "ryd"
         ],
         "products": [
+            "ad_blue",
             "super_e5",
             "super_98",
             "e10"
@@ -83391,6 +83373,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -83410,7 +83393,8 @@
             "ultimate_diesel",
             "lpg",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/28643500",
         "watchlist_id": "28643500",
@@ -86321,6 +86305,7 @@
         "postcode": "66121",
         "telephone": "+49 681 61887",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -86987,70 +86972,6 @@
         "watchlist_id": "28814500",
         "formatted_address": "Soegeler Stra\u00dfe 7\nLathen\n49762",
         "channel_of_trade": "DODO"
-    },
-    {
-        "id": "DE-28815100",
-        "name": "Artur Sammet",
-        "lat": 49.39913,
-        "lng": 8.624707,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Schwetzinger Stra\u00dfe 4",
-        "city": "Eppelheim",
-        "state": null,
-        "postcode": "69214",
-        "telephone": "+49 6221 763291",
-        "facilities": [
-            "car_wash",
-            "shop",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "super_e5",
-            "super_98",
-            "e10"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/28815100",
-        "watchlist_id": "28815100",
-        "formatted_address": "Schwetzinger Stra\u00dfe 4\nEppelheim\n69214",
-        "channel_of_trade": "DODO"
-    },
-    {
-        "id": "DE-28815400",
-        "name": "Ludwig Dalacker&Sohn GmbH&Co. KG",
-        "lat": 48.744829,
-        "lng": 8.971171,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Blumenstra\u00dfe 39",
-        "city": "Magstadt",
-        "state": null,
-        "postcode": "71106",
-        "telephone": "+49 7159 949619",
-        "facilities": [
-            "car_wash",
-            "shop",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "super_e5",
-            "super_98",
-            "e10"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/28815400",
-        "watchlist_id": "28815400",
-        "formatted_address": "Blumenstra\u00dfe 39\nMagstadt\n71106",
-        "channel_of_trade": "JOBR"
     },
     {
         "id": "DE-28819200",
