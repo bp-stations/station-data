@@ -7827,6 +7827,7 @@
             "ultimate",
             "ultimate_diesel",
             "lpg",
+            "ad_blue",
             "super_e5",
             "e10",
             "truck_diesel",
@@ -8818,6 +8819,7 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
+            "ad_blue",
             "super_e5",
             "e10",
             "truck_diesel",
@@ -12233,7 +12235,7 @@
     },
     {
         "id": "DE-13138100",
-        "name": "Sven Moritz",
+        "name": "Vanessa Lefoldt",
         "lat": 54.039641,
         "lng": 9.480057,
         "site_brand": "ARAL Tankstelle",
@@ -12249,10 +12251,8 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -13833,7 +13833,6 @@
             "ryd"
         ],
         "products": [
-            "ultimate",
             "ultimate_diesel",
             "super_e5",
             "e10",
@@ -30888,7 +30887,7 @@
     },
     {
         "id": "DE-17046000",
-        "name": "Cristina Merdan",
+        "name": "August Riemeier GmbH&Co. KG",
         "lat": 51.309211,
         "lng": 9.462022,
         "site_brand": "ARAL Tankstelle",
@@ -30900,9 +30899,7 @@
         "telephone": "+49 561 24343",
         "facilities": [
             "car_wash",
-            "recup",
             "shop",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -34182,7 +34179,7 @@
     },
     {
         "id": "DE-18060400",
-        "name": "Jaqueline Schmidt",
+        "name": "Susanne Castor",
         "lat": 49.816959,
         "lng": 7.960743,
         "site_brand": "ARAL Tankstelle",
@@ -34197,10 +34194,8 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -41258,8 +41253,7 @@
             "automatische_diesel_station"
         ],
         "products": [
-            "ad_blue",
-            "truck_diesel"
+            "ad_blue"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/19131000",
         "watchlist_id": "19131000",
@@ -51661,6 +51655,7 @@
         "facilities": [
             "open_24_hours",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -52462,6 +52457,7 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
+            "ad_blue",
             "super_e5",
             "e10",
             "electric_charging"
@@ -53819,6 +53815,8 @@
             "open_24_hours",
             "car_wash",
             "truck_parking",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
             "loyalty",
             "open_saturday",
             "open_sunday",
@@ -59825,7 +59823,7 @@
     },
     {
         "id": "DE-27007600",
-        "name": "Enrico Brauner",
+        "name": "Ulrike Fiedler",
         "lat": 54.099553,
         "lng": 12.176054,
         "site_brand": "ARAL Tankstelle",
@@ -59836,17 +59834,14 @@
         "postcode": "18146",
         "telephone": "+49 381 690210",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
             "electric_charging",
             "recup",
             "cash_point",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -63137,6 +63132,7 @@
             "super_wash",
             "recup",
             "cash_point",
+            "rewe_to_go",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -63286,6 +63282,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -63304,7 +63301,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/27036900",
         "watchlist_id": "27036900",
@@ -69239,6 +69237,7 @@
         "postcode": "04109",
         "telephone": "+49 341 9808809",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "car_wash_plant",
             "jet_wash",
@@ -73647,7 +73646,7 @@
         "lng": 6.521433,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "Am Markt 2",
+        "address": "Am Markt 1a",
         "city": "Bitburg",
         "state": null,
         "postcode": "54634",
@@ -73669,7 +73668,7 @@
         ],
         "website": "https://tankstelle.aral.de/tankstelle/28291300",
         "watchlist_id": "28291300",
-        "formatted_address": "Am Markt 2\nBitburg\n54634",
+        "formatted_address": "Am Markt 1a\nBitburg\n54634",
         "channel_of_trade": "DODO"
     },
     {
@@ -83329,6 +83328,46 @@
         "channel_of_trade": "DODO"
     },
     {
+        "id": "DE-28643000",
+        "name": "Dieter Gusenbauer",
+        "lat": 48.645636,
+        "lng": 9.009776,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Boeblinger Stra\u00dfe 69",
+        "city": "Holzgerlingen",
+        "state": null,
+        "postcode": "71088",
+        "telephone": "+49 7031 605288",
+        "facilities": [
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "recup",
+            "shop",
+            "bistro",
+            "too_good_to_go",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/28643000",
+        "watchlist_id": "28643000",
+        "formatted_address": "Boeblinger Stra\u00dfe 69\nHolzgerlingen\n71088",
+        "channel_of_trade": "COSI"
+    },
+    {
         "id": "DE-28643400",
         "name": "Christian Zirzlmeier",
         "lat": 49.011024,
@@ -86322,6 +86361,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -88566,6 +88606,57 @@
         "website": "https://tankstelle.aral.de/tankstelle/3EF241",
         "watchlist_id": null,
         "formatted_address": "Bauhofstr. 2\nFronreute\n88273",
+        "channel_of_trade": "EVDE"
+    },
+    {
+        "id": "DE-3EF248",
+        "name": "REWE",
+        "lat": 49.57892,
+        "lng": 10.88568,
+        "site_brand": "Aral pulse Ladestation",
+        "country_code": "DE",
+        "address": "Ohmstr. 12",
+        "city": "Herzogenaurach",
+        "state": null,
+        "postcode": "91074",
+        "telephone": "",
+        "facilities": [
+            "electric_charging",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/3EF248",
+        "watchlist_id": null,
+        "formatted_address": "Ohmstr. 12\nHerzogenaurach\n91074",
+        "channel_of_trade": "EVDE"
+    },
+    {
+        "id": "DE-3EF261",
+        "name": "REWE",
+        "lat": 52.8732434,
+        "lng": 9.70064898,
+        "site_brand": "Aral pulse Ladestation",
+        "country_code": "DE",
+        "address": "Soltauer Str. 35A",
+        "city": "Bad Fallingbostel",
+        "state": null,
+        "postcode": "29683",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "electric_charging",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/3EF261",
+        "watchlist_id": null,
+        "formatted_address": "Soltauer Str. 35A\nBad Fallingbostel\n29683",
         "channel_of_trade": "EVDE"
     },
     {
