@@ -2271,6 +2271,36 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-127117",
+        "name": "Amoco",
+        "lat": 34.17456106,
+        "lng": -82.37174872,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "105 E Greenwood St",
+        "city": "Abbeville",
+        "state": "SC",
+        "postcode": "29620",
+        "telephone": "+1 864-302-9051",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "harris_teeter",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "105 E Greenwood St\nAbbeville\n29620",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-127318",
         "name": "Amoco",
         "lat": 42.39599996,
@@ -2724,7 +2754,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "6445 STATE ROAD 54\nNEW PORT RICHEY\n34653",
@@ -5369,7 +5401,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "7194 Highway 140 NW\nAdairsville\n30103",
@@ -5940,33 +5974,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-128326",
-        "name": "Amoco",
-        "lat": 34.21832111,
-        "lng": -80.24864546,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "341 S Main St",
-        "city": "Bishopville",
-        "state": "SC",
-        "postcode": "29010",
-        "telephone": "1111111111",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "341 S Main St\nBishopville\n29010",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-128333",
         "name": "Amoco",
         "lat": 32.48534908,
@@ -6335,6 +6342,36 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3854 Lexington Ave N\nShoreview\n55126",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-128409",
+        "name": "Amoco",
+        "lat": 41.91255474,
+        "lng": -88.32734919,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "1023 W Main St",
+        "city": "St Charles",
+        "state": "IL",
+        "postcode": "60174",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "marianos",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1023 W Main St\nSt Charles\n60174",
         "channel_of_trade": "BJBR"
     },
     {
@@ -8083,7 +8120,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3725 Trickum Rd\nMarietta\n30066",
@@ -8106,6 +8145,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -8273,6 +8313,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -9834,15 +9875,43 @@
     {
         "id": "US-128921",
         "name": "Amoco",
-        "lat": 42.42297995,
-        "lng": -83.27282509,
+        "lat": 42.4229772743,
+        "lng": -83.2728231743,
         "site_brand": "AM",
         "country_code": "US",
         "address": "23600 Grand River Ave",
         "city": "Detroit",
         "state": "MI",
         "postcode": "48219",
-        "telephone": "8664627284",
+        "telephone": "+1 313-443-9388",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "23600 Grand River Ave\nDetroit\n48219",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-128927",
+        "name": "Amoco",
+        "lat": 33.5423836,
+        "lng": -84.39711038,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "180 GA-138",
+        "city": "Riverdale",
+        "state": "GA",
+        "postcode": "30238",
+        "telephone": "+1 770-965-6414",
         "facilities": [
             "car_wash",
             "workshop",
@@ -9855,7 +9924,7 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "23600 Grand River Ave\nDetroit\n48219",
+        "formatted_address": "180 GA-138\nRiverdale\n30238",
         "channel_of_trade": "BJBR"
     },
     {
@@ -12005,33 +12074,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-129384",
-        "name": "Amoco",
-        "lat": 42.5500444764,
-        "lng": -83.0687704876,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "4050 15 Mile Rd",
-        "city": "Sterling Heights",
-        "state": "MI",
-        "postcode": "48310",
-        "telephone": "1111111111",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "4050 15 Mile Rd\nSterling Heights\n48310",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-129414",
         "name": "Amoco",
         "lat": 42.2837716891,
@@ -12097,7 +12139,7 @@
         "city": "Davenport",
         "state": "IA",
         "postcode": "52806",
-        "telephone": "1231231233",
+        "telephone": "+1 563-391-9880",
         "facilities": [
             "car_wash",
             "workshop",
@@ -12143,6 +12185,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-129472",
+        "name": "Amoco",
+        "lat": 42.4475438411,
+        "lng": -83.0446596695,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "20581 Mound Rd",
+        "city": "Detroit",
+        "state": "MI",
+        "postcode": "48234",
+        "telephone": "+1 313-368-8292",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "20581 Mound Rd\nDetroit\n48234",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-129475",
         "name": "Amoco",
         "lat": 42.417261557,
@@ -12182,10 +12251,8 @@
         "city": "Romeo",
         "state": "MI",
         "postcode": "48065",
-        "telephone": "+1 586-255-0159",
+        "telephone": "+1 586-785-3954",
         "facilities": [
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "loyalty",
@@ -12193,10 +12260,39 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "200 N Main St\nRomeo\n48065",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129477",
+        "name": "Amoco",
+        "lat": 45.1892660685,
+        "lng": -95.3125051753,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "608 Atlantic Ave",
+        "city": "Kerkhoven",
+        "state": "MN",
+        "postcode": "56252",
+        "telephone": "+1 320-264-1246",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "608 Atlantic Ave\nKerkhoven\n56252",
         "channel_of_trade": "BJBR"
     },
     {
@@ -12300,6 +12396,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -15678,36 +15775,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2740 Monroe St\nDearborn\n48124",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-40404930521256126500100000000000",
-        "name": "Amoco",
-        "lat": 41.49363427,
-        "lng": -90.53657872,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "125 19th Ave",
-        "city": "Moline",
-        "state": "IL",
-        "postcode": "61265",
-        "telephone": "+1 309-736-7749",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "grocer_reward",
-            "marianos",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "125 19th Ave\nMoline\n61265",
         "channel_of_trade": "BJBR"
     },
     {
