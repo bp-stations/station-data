@@ -45923,6 +45923,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -45941,7 +45942,8 @@
             "ultimate_diesel",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/20092500",
         "watchlist_id": "20092500",
@@ -59601,7 +59603,6 @@
         "postcode": "01936",
         "telephone": "+49 35795 36372",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "recup",
             "cash_point",
@@ -59961,6 +59962,7 @@
         "postcode": "99867",
         "telephone": "+49 3621 709631",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -62210,7 +62212,7 @@
         "city": "G\u00fcstrow",
         "state": null,
         "postcode": "18273",
-        "telephone": "+49 3843 22122",
+        "telephone": "+49 3843 4669960",
         "facilities": [
             "open_24_hours",
             "car_wash",
@@ -88273,6 +88275,32 @@
         "channel_of_trade": "EVDE"
     },
     {
+        "id": "DE-3EF114",
+        "name": "REWE",
+        "lat": 49.49715,
+        "lng": 9.7616756,
+        "site_brand": "Aral pulse Ladestation",
+        "country_code": "DE",
+        "address": "Max-Eyth-Str. 10",
+        "city": "Bad Mergentheim",
+        "state": null,
+        "postcode": "97980",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "electric_charging",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/3EF114",
+        "watchlist_id": null,
+        "formatted_address": "Max-Eyth-Str. 10\nBad Mergentheim\n97980",
+        "channel_of_trade": "EVDE"
+    },
+    {
         "id": "DE-3EF154",
         "name": "REWE",
         "lat": 49.6192,
@@ -88374,6 +88402,32 @@
         "website": "https://tankstelle.aral.de/tankstelle/3EF180",
         "watchlist_id": null,
         "formatted_address": "Kirchbergstra\u00dfe 4\nGladenbach\n35075",
+        "channel_of_trade": "EVDE"
+    },
+    {
+        "id": "DE-3EF195",
+        "name": "REWE",
+        "lat": 50.3935234,
+        "lng": 7.38490798,
+        "site_brand": "Aral pulse Ladestation",
+        "country_code": "DE",
+        "address": "Rathausstra\u00dfe 1-3",
+        "city": "Plaidt",
+        "state": null,
+        "postcode": "56637",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "electric_charging",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/3EF195",
+        "watchlist_id": null,
+        "formatted_address": "Rathausstra\u00dfe 1-3\nPlaidt\n56637",
         "channel_of_trade": "EVDE"
     },
     {
@@ -88544,6 +88598,7 @@
         "postcode": "91074",
         "telephone": "",
         "facilities": [
+            "open_24_hours",
             "electric_charging",
             "open_saturday",
             "open_sunday"

@@ -7060,8 +7060,9 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
-            "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -7867,7 +7868,9 @@
             "e10",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -9740,7 +9743,12 @@
             "loyalty",
             "pump_rewards"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2399 Princes Highway\nBewong\n2540",
@@ -12032,28 +12040,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "216 Main South Road\nNormanville\n5204",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-1283",
-        "name": "BP OPT SEAFORD",
-        "lat": -35.1802,
-        "lng": 138.4843,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "55 Seaford Road",
-        "city": "Seaford Meadows",
-        "state": "SA",
-        "postcode": "5169",
-        "telephone": "+61 8 9418 3206",
-        "facilities": [
-            "loyalty",
-            "pump_rewards"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "55 Seaford Road\nSeaford Meadows\n5169",
         "channel_of_trade": null
     },
     {
@@ -53191,7 +53177,7 @@
         "address": "1351 ROCKINGHAM ROAD",
         "city": "NAVAL BASE",
         "state": "WA",
-        "postcode": "3001",
+        "postcode": "6165",
         "telephone": "+61 8 9410 0770",
         "facilities": [
             "open_24_hours",
@@ -53227,7 +53213,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "1351 ROCKINGHAM ROAD\nNAVAL BASE\n3001",
+        "formatted_address": "1351 ROCKINGHAM ROAD\nNAVAL BASE\n6165",
         "channel_of_trade": null
     },
     {
@@ -63575,6 +63561,7 @@
             "high_flow_diesel",
             "toilet",
             "barista_coffee",
+            "wild_bean_cafe",
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_unlocked",
