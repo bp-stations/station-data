@@ -12252,6 +12252,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -12900,6 +12901,7 @@
         "telephone": "+49 40 73431926",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "electric_charging",
             "truck_parking",
             "truck_wash",
@@ -16717,6 +16719,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "cash_point",
             "rewe_to_go",
@@ -16736,7 +16739,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/14114600",
         "watchlist_id": "14114600",
@@ -25173,6 +25177,7 @@
         "telephone": "+49 7066 915353",
         "facilities": [
             "open_24_hours",
+            "electric_charging",
             "truck_parking",
             "cash_point",
             "pay_at_pump_supported",
@@ -25190,7 +25195,8 @@
             "ad_blue",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/15131700",
         "watchlist_id": "15131700",
@@ -30997,7 +31003,7 @@
     },
     {
         "id": "DE-17047500",
-        "name": "Karl-Friedrich L\u00fcdtke",
+        "name": "Elke Elfriede L\u00fcdtke",
         "lat": 51.04911,
         "lng": 9.27302,
         "site_brand": "ARAL Tankstelle",
@@ -35517,10 +35523,10 @@
         "postcode": "66119",
         "telephone": "+49 681 56485",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -35539,7 +35545,7 @@
         "website": "https://tankstelle.aral.de/tankstelle/18109600",
         "watchlist_id": "18109600",
         "formatted_address": "Feldmannstra\u00dfe 69-73\nSaarbr\u00fccken\n66119",
-        "channel_of_trade": "COFO"
+        "channel_of_trade": "DODO"
     },
     {
         "id": "DE-18111200",
@@ -41128,6 +41134,7 @@
         "postcode": "94113",
         "telephone": "+49 8509 937774",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -44092,8 +44099,8 @@
     {
         "id": "DE-20004200",
         "name": "Karduck&Sohn GmbH",
-        "lat": 50.816628,
-        "lng": 6.371937,
+        "lat": 50.816615,
+        "lng": 6.3718002,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
         "address": "Hauptstra\u00dfe 275",
@@ -56118,6 +56125,38 @@
         "channel_of_trade": "DODO"
     },
     {
+        "id": "DE-22099800",
+        "name": "Autobahn Tank&Rast Belieferungs",
+        "lat": 50.324902,
+        "lng": 11.785417,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Stegenwaldhauser Stra\u00dfe 1",
+        "city": "Selbitz",
+        "state": null,
+        "postcode": "95152",
+        "telephone": "+49 9280 953550",
+        "facilities": [
+            "open_24_hours",
+            "truck_parking",
+            "loyalty",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10",
+            "truck_diesel"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/22099800",
+        "watchlist_id": "22099800",
+        "formatted_address": "Stegenwaldhauser Stra\u00dfe 1\nSelbitz\n95152",
+        "channel_of_trade": "JOBR"
+    },
+    {
         "id": "DE-22100000",
         "name": "Autohaus Reuter GmbH",
         "lat": 50.054511,
@@ -61917,6 +61956,7 @@
         "postcode": "99425",
         "telephone": "+49 3643 905891",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
