@@ -6610,33 +6610,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-1016",
-        "name": "KADINA DEPOT OPT",
-        "lat": -33.968891,
-        "lng": 137.717377,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "27 AGERY ROAD",
-        "city": "KADINA",
-        "state": "SA",
-        "postcode": "5554",
-        "telephone": "+61 407 790 864",
-        "facilities": [
-            "open_24_hours"
-        ],
-        "products": [
-            "ad_blue_pump",
-            "regular_diesel",
-            "ultimate_diesel",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "27 AGERY ROAD\nKADINA\n5554",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-1020",
         "name": "BP POMONA",
         "lat": -26.364114,
@@ -7857,7 +7830,7 @@
         "city": "Clyde North",
         "state": "VIC",
         "postcode": "3978",
-        "telephone": "000000000",
+        "telephone": "+61 3 9827 4880",
         "facilities": [
             "gift_card",
             "cash_point",
@@ -7872,7 +7845,10 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "regular_diesel",
             "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -8596,33 +8572,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "10-14 Lexington Road\nUnderwood\n4119",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-1118",
-        "name": "OPT STRAHAN",
-        "lat": -42.1924,
-        "lng": 145.2724,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "1 Strahan Airport",
-        "city": "Strahan",
-        "state": "TAS",
-        "postcode": "7468",
-        "telephone": "",
-        "facilities": [
-            "open_24_hours",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "pump_rewards"
-        ],
-        "products": [
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1 Strahan Airport\nStrahan\n7468",
         "channel_of_trade": null
     },
     {
@@ -9815,12 +9764,45 @@
         "postcode": "5267",
         "telephone": "+61 8 8755 3181",
         "facilities": [
+            "open_24_hours",
+            "gift_card",
+            "trailers",
+            "bdouble_access",
+            "rigid_access",
+            "truck_driver_lounge",
+            "truck_parking",
+            "truck_suitable_site",
+            "high_flow_diesel",
+            "ultra_high_flow_diesel",
+            "cash_point",
+            "shower",
+            "toilet",
+            "wifi",
+            "barista_coffee",
+            "takeaway_food_offer",
+            "food_offer_instore",
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "loyalty",
+            "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
+            "truck_only",
+            "restaurant",
+            "takeaway_food",
+            "high_speed_pump",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "ad_blue_cannister",
+            "ad_blue_pump",
+            "lpg",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "12810 Dukes Highway\nKeith\n5267",
@@ -9989,11 +9971,22 @@
         "postcode": "7468",
         "telephone": "+61 3 6471 7218",
         "facilities": [
+            "national_diesel_offer",
+            "bdouble_access",
+            "rigid_access",
+            "truck_suitable_site",
             "outdoor_payment_terminal",
             "loyalty",
-            "pump_rewards"
+            "pump_rewards",
+            "truck_only"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "7 Reid Street\nStrahan\n7468",
@@ -10076,7 +10069,6 @@
         "postcode": "5034",
         "telephone": "+61 8 8373 6281",
         "facilities": [
-            "gift_card",
             "cash_point",
             "toilet",
             "wifi",
@@ -10152,7 +10144,6 @@
         "postcode": "5173",
         "telephone": "+61 8 8557 5842",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "cash_point",
             "toilet",
@@ -10193,7 +10184,6 @@
         "postcode": "5117",
         "telephone": "084860116",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "high_flow_diesel",
             "cash_point",
@@ -10235,7 +10225,6 @@
         "postcode": "5038",
         "telephone": "083713274",
         "facilities": [
-            "gift_card",
             "cash_point",
             "toilet",
             "wifi",
@@ -10275,7 +10264,6 @@
         "postcode": "5094",
         "telephone": "+61 8 8359 7067",
         "facilities": [
-            "gift_card",
             "high_flow_diesel",
             "cash_point",
             "toilet",
@@ -10317,7 +10305,6 @@
         "postcode": "5038",
         "telephone": "+61 8 8297 7363",
         "facilities": [
-            "gift_card",
             "high_flow_diesel",
             "cash_point",
             "toilet",
@@ -10358,7 +10345,6 @@
         "postcode": "5008",
         "telephone": "+61 8 8340 4966",
         "facilities": [
-            "gift_card",
             "cash_point",
             "toilet",
             "wifi",
@@ -10398,7 +10384,6 @@
         "postcode": "5113",
         "telephone": "+61 8 8284 8268",
         "facilities": [
-            "gift_card",
             "car_wash",
             "high_flow_diesel",
             "cash_point",
@@ -10439,7 +10424,6 @@
         "telephone": "+61 8 8287 2901",
         "facilities": [
             "open_24_hours",
-            "gift_card",
             "car_wash",
             "rigid_access",
             "cash_point",
@@ -10479,7 +10463,6 @@
         "postcode": "5112",
         "telephone": "+61 8 8252 2697",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "high_flow_diesel",
             "cash_point",
@@ -10522,7 +10505,6 @@
         "postcode": "5118",
         "telephone": "+61 8 8523 4703",
         "facilities": [
-            "gift_card",
             "car_wash",
             "rigid_access",
             "high_flow_diesel",
@@ -10566,7 +10548,6 @@
         "postcode": "5107",
         "telephone": "+61 8 8283 2340",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "high_flow_diesel",
             "cash_point",
@@ -10609,7 +10590,6 @@
         "postcode": "5211",
         "telephone": "+61 8 8552 7504",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "cash_point",
             "toilet",
@@ -10695,7 +10675,6 @@
         "postcode": "5007",
         "telephone": "+61 8 8340 9880",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "high_flow_diesel",
             "cash_point",
@@ -10738,7 +10717,6 @@
         "postcode": "5087",
         "telephone": "+61 8 8369 8731",
         "facilities": [
-            "gift_card",
             "cash_point",
             "toilet",
             "wifi",
@@ -10779,7 +10757,6 @@
         "telephone": "+61 8 8359 6272",
         "facilities": [
             "open_24_hours",
-            "gift_card",
             "high_flow_diesel",
             "cash_point",
             "toilet",
@@ -10872,7 +10849,6 @@
         "postcode": "5251",
         "telephone": "+61 8 8391 2841",
         "facilities": [
-            "gift_card",
             "car_wash",
             "rigid_access",
             "high_flow_diesel",
@@ -10916,7 +10892,6 @@
         "postcode": "5037",
         "telephone": "+61 8 8351 2588",
         "facilities": [
-            "gift_card",
             "car_wash",
             "cash_point",
             "toilet",
@@ -10958,7 +10933,6 @@
         "postcode": "5251",
         "telephone": "+61 8 8398 2853",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "high_flow_diesel",
             "cash_point",
@@ -11001,7 +10975,6 @@
         "postcode": "5074",
         "telephone": "+61 8 8365 0951",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "high_flow_diesel",
             "cash_point",
@@ -11044,7 +11017,6 @@
         "postcode": "5048",
         "telephone": "+61 8 8377 2258",
         "facilities": [
-            "gift_card",
             "cash_point",
             "shower",
             "toilet",
@@ -11147,7 +11119,6 @@
         "postcode": "5087",
         "telephone": "+61 8 8261 6916",
         "facilities": [
-            "gift_card",
             "high_flow_diesel",
             "cash_point",
             "toilet",
@@ -11188,7 +11159,6 @@
         "postcode": "5041",
         "telephone": "+61 8 8359 7080",
         "facilities": [
-            "gift_card",
             "cash_point",
             "toilet",
             "wifi",
@@ -11228,7 +11198,6 @@
         "postcode": "5075",
         "telephone": "+61 8 8365 0552",
         "facilities": [
-            "gift_card",
             "cash_point",
             "toilet",
             "wifi",
@@ -11268,7 +11237,6 @@
         "postcode": "5015",
         "telephone": "+61 8 8447 7672",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "high_flow_diesel",
             "cash_point",
@@ -11310,7 +11278,6 @@
         "postcode": "5019",
         "telephone": "+61 8 8341 5206",
         "facilities": [
-            "gift_card",
             "trailers",
             "high_flow_diesel",
             "cash_point",
@@ -11352,7 +11319,6 @@
         "postcode": "5211",
         "telephone": "+61 8 8552 2270",
         "facilities": [
-            "gift_card",
             "toilet",
             "wifi",
             "barista_coffee",
@@ -11454,7 +11420,6 @@
         "postcode": "5120",
         "telephone": "+61 8 8380 9580",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "high_flow_diesel",
             "cash_point",
@@ -11496,7 +11461,6 @@
         "postcode": "5007",
         "telephone": "+61 8 8340 1770",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "high_flow_diesel",
             "cash_point",
@@ -11539,7 +11503,6 @@
         "postcode": "5121",
         "telephone": "+61 8 8284 9219",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "high_flow_diesel",
             "cash_point",
@@ -11581,7 +11544,6 @@
         "postcode": "5012",
         "telephone": "+61 8 8345 5186",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "cash_point",
             "toilet",
@@ -11620,7 +11582,6 @@
         "postcode": "5032",
         "telephone": "+61 8 8443 5871",
         "facilities": [
-            "gift_card",
             "high_flow_diesel",
             "cash_point",
             "toilet",
@@ -11659,7 +11620,6 @@
         "postcode": "5108",
         "telephone": "+61 8 8351 9411",
         "facilities": [
-            "gift_card",
             "high_flow_diesel",
             "cash_point",
             "toilet",
@@ -11697,7 +11657,6 @@
         "postcode": "5154",
         "telephone": "084640679",
         "facilities": [
-            "gift_card",
             "trailers",
             "high_flow_diesel",
             "cash_point",
@@ -11734,7 +11693,6 @@
         "postcode": "5250",
         "telephone": "083910356",
         "facilities": [
-            "gift_card",
             "trailers",
             "high_flow_diesel",
             "cash_point",
@@ -11771,7 +11729,6 @@
         "postcode": "5125",
         "telephone": "+61 8 8289 0288",
         "facilities": [
-            "gift_card",
             "cash_point",
             "toilet",
             "wifi",
@@ -11810,7 +11767,6 @@
         "postcode": "5253",
         "telephone": "+61 8 8531 3586",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "high_flow_diesel",
             "cash_point",
@@ -11853,7 +11809,6 @@
         "postcode": "5069",
         "telephone": "+61 8 8363 5158",
         "facilities": [
-            "gift_card",
             "rigid_access",
             "high_flow_diesel",
             "cash_point",
@@ -12051,7 +12006,7 @@
         "city": "Willunga",
         "state": "SA",
         "postcode": "5172",
-        "telephone": "+61 8 9418 3206",
+        "telephone": "+61 8 8556 2050",
         "facilities": [
             "food_offer_instore",
             "bp_rewards_redemption",
@@ -12132,23 +12087,20 @@
         "city": "Cavan",
         "state": "SA",
         "postcode": "5094",
-        "telephone": "+61 8 9418 3206",
+        "telephone": "+61 8 8349 5868",
         "facilities": [
             "open_24_hours",
             "bdouble_access",
             "rigid_access",
             "road_train_access",
-            "truck_driver_lounge",
             "truck_parking",
             "high_flow_diesel",
             "toilet",
-            "food_offer_instore",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "outdoor_payment_terminal",
             "loyalty",
             "pump_rewards",
-            "restaurant",
             "high_speed_pump"
         ],
         "products": [
@@ -12176,7 +12128,7 @@
         "city": "Normanville",
         "state": "SA",
         "postcode": "5204",
-        "telephone": "+61 8 9418 3206",
+        "telephone": "+61 8 8327 5970",
         "facilities": [
             "food_offer_instore",
             "bp_rewards_redemption",
@@ -12186,7 +12138,6 @@
             "restaurant"
         ],
         "products": [
-            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -12352,6 +12303,27 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-1288",
+        "name": "BP OPT ANGASTON",
+        "lat": -34.4882,
+        "lng": 139.0123,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "230 Angaston Road",
+        "city": "Nuriootpa",
+        "state": "SA",
+        "postcode": "5355",
+        "telephone": "+61 8 9418 3206",
+        "facilities": [],
+        "products": [
+            "regular_diesel"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "230 Angaston Road\nNuriootpa\n5355",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-1289",
         "name": "BP East End",
         "lat": -33.142277,
@@ -12415,6 +12387,50 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "36 Cadell Street\nGoolwa\n5214",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1295",
+        "name": "BP CAVAN DEPOT",
+        "lat": -34.8254,
+        "lng": 138.6017,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "540 Cross Keys Road",
+        "city": "Cavan",
+        "state": "SA",
+        "postcode": "5094",
+        "telephone": "+61 8 9418 3206",
+        "facilities": [],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "540 Cross Keys Road\nCavan\n5094",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1297",
+        "name": "BP MENINGIE",
+        "lat": -35.6894,
+        "lng": 139.3371,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "75 Princes Highway",
+        "city": "Meningie",
+        "state": "SA",
+        "postcode": "5264",
+        "telephone": "+61 8 9418 3206",
+        "facilities": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "75 Princes Highway\nMeningie\n5264",
         "channel_of_trade": null
     },
     {
@@ -12489,6 +12505,25 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "540 Cross Keys Road\nCavan\n5094",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1308",
+        "name": "BP SEAFORD DEPOT",
+        "lat": -35.1802,
+        "lng": 138.4843,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "55 Seaford Road",
+        "city": "Seaford Meadows",
+        "state": "SA",
+        "postcode": "5169",
+        "telephone": "+61 438 899 614",
+        "facilities": [],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "55 Seaford Road\nSeaford Meadows\n5169",
         "channel_of_trade": null
     },
     {
@@ -24395,6 +24430,7 @@
             "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -28795,6 +28831,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -30097,43 +30134,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-5335",
-        "name": "BP OPT PORT AUGUSTA",
-        "lat": -32.4705,
-        "lng": 137.739,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "STUART HIGHWAY",
-        "city": "PORT AUGUSTA",
-        "state": "SA",
-        "postcode": "5700",
-        "telephone": "+61 8 8642 6022",
-        "facilities": [
-            "open_24_hours",
-            "national_diesel_offer",
-            "bdouble_access",
-            "rigid_access",
-            "truck_suitable_site",
-            "high_flow_diesel",
-            "outdoor_payment_terminal",
-            "truck_only",
-            "high_speed_pump"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "auto_gas",
-            "premium_unlead",
-            "regular_diesel",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "STUART HIGHWAY\nPORT AUGUSTA\n5700",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-5343",
         "name": "BP OTR VICTOR HARBOR",
         "lat": -35.5367,
@@ -30293,37 +30293,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "356 TAPLEY HILL ROAD\nSEATON\n5023",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-5348",
-        "name": "BP OPT KEITH",
-        "lat": -36.1051,
-        "lng": 140.362,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "32 DUKES HIGHWAY",
-        "city": "KEITH",
-        "state": "SA",
-        "postcode": "5267",
-        "telephone": "+61 8 8333 9777",
-        "facilities": [
-            "open_24_hours",
-            "bdouble_access",
-            "rigid_access",
-            "truck_suitable_site",
-            "high_flow_diesel",
-            "toilet",
-            "outdoor_payment_terminal",
-            "truck_only",
-            "high_speed_pump"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "32 DUKES HIGHWAY\nKEITH\n5267",
         "channel_of_trade": null
     },
     {
@@ -33598,9 +33567,10 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "bppulse",
-            "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -40654,6 +40624,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -42887,7 +42858,6 @@
         "postcode": "7468",
         "telephone": "+61 3 6471 7218",
         "facilities": [
-            "hand_wash",
             "toilet",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
@@ -42896,7 +42866,6 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "auto_gas",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -43230,7 +43199,7 @@
         "city": "TRIABUNNA",
         "state": "TAS",
         "postcode": "7190",
-        "telephone": "+61 3 6257 3305",
+        "telephone": "+61 7 3268 2777",
         "facilities": [
             "open_24_hours",
             "bdouble_access",
@@ -44138,37 +44107,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "38 WESTERN ROAD\nCOHUNA\n3568",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-7198",
-        "name": "BP OPT RENMARK",
-        "lat": -34.1796,
-        "lng": 140.7395,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "364 RENMARK AVENUE",
-        "city": "RENMARK",
-        "state": "SA",
-        "postcode": "5341",
-        "telephone": "+61 407 827 660",
-        "facilities": [
-            "open_24_hours",
-            "bdouble_access",
-            "rigid_access",
-            "truck_suitable_site",
-            "high_flow_diesel",
-            "outdoor_payment_terminal",
-            "truck_only",
-            "high_speed_pump"
-        ],
-        "products": [
-            "auto_gas",
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "364 RENMARK AVENUE\nRENMARK\n5341",
         "channel_of_trade": null
     },
     {
@@ -51660,6 +51598,44 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-7706",
+        "name": "BP URALLA",
+        "lat": -30.645752,
+        "lng": 151.493542,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "111 BRIDGE STREET",
+        "city": "URALLA",
+        "state": "NSW",
+        "postcode": "2358",
+        "telephone": "+61 2 6778 4630",
+        "facilities": [
+            "bdouble_access",
+            "truck_suitable_site",
+            "cash_point",
+            "toilet",
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "truck_only",
+            "mobile_enabled"
+        ],
+        "products": [
+            "e10",
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "111 BRIDGE STREET\nURALLA\n2358",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-7707",
         "name": "BP MULWALA",
         "lat": -35.9871,
@@ -52545,37 +52521,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-7742",
-        "name": "BP OPT LARGS BAY",
-        "lat": -34.8255,
-        "lng": 138.4998,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "204 VICTORIA RD",
-        "city": "LARGS BAY",
-        "state": "SA",
-        "postcode": "5016",
-        "telephone": "+61 8 8347 6666",
-        "facilities": [
-            "open_24_hours",
-            "bdouble_access",
-            "truck_suitable_site",
-            "outdoor_payment_terminal",
-            "truck_only"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "204 VICTORIA RD\nLARGS BAY\n5016",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-7743",
         "name": "BP HOXTON PARK AIRFIELD",
         "lat": -33.918102,
@@ -52762,12 +52707,14 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -53659,7 +53606,6 @@
         "postcode": "6210",
         "telephone": "+61 8 9535 6385",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "high_flow_diesel",
             "cash_point",
@@ -54459,7 +54405,7 @@
     },
     {
         "id": "AU-7827",
-        "name": "BP OPT STRAHAN - Permanently closed",
+        "name": "BP OPT STRAHAN",
         "lat": -42.1539,
         "lng": 145.328,
         "site_brand": "BP",
@@ -63457,12 +63403,9 @@
         "city": "LAVERTON",
         "state": "WA",
         "postcode": "6440",
-        "telephone": "+61 430 075 117",
+        "telephone": "",
         "facilities": [
-            "open_24_hours",
-            "bp_rewards_redemption",
-            "loyalty",
-            "pump_rewards"
+            "open_24_hours"
         ],
         "products": [
             "premium_unlead",
