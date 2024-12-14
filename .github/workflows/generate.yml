@@ -131,29 +131,8 @@ jobs:
         github_token: ${{ secrets.SECRET }}
         publish_dir: out/
 
-  copy:
-    needs: [generate-small-files]
-    timeout-minutes: 20
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/download-artifact@v4
-      with:
-        name: tmp-data-small-files
-        path: out/json/other
-    - name: Push generated files to https://github.com/aral-preise/aral-prices
-      uses: cpina/github-action-push-to-another-repository@main
-      env:
-          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
-      with:
-        source-directory: 'out/json/other'
-        destination-repository-name: 'aral-prices'
-        destination-github-username: 'nickwasused'
-        user-email: github.lix1s@simplelogin.co
-        target-branch: main
-        target-directory: 'data'
-
   cleanup:
-    needs: [deploy, deploy-cf, copy]
+    needs: [deploy, deploy-cf]
     permissions:
       actions: write
     timeout-minutes: 5
