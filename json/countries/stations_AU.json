@@ -7830,7 +7830,7 @@
         "city": "Clyde North",
         "state": "VIC",
         "postcode": "3978",
-        "telephone": "+61 3 9827 4880",
+        "telephone": "+61 3 7076 1033",
         "facilities": [
             "gift_card",
             "cash_point",
@@ -9581,6 +9581,9 @@
             "mobile_enabled"
         ],
         "products": [
+            "e10",
+            "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
@@ -10838,7 +10841,7 @@
     },
     {
         "id": "AU-1226",
-        "name": "X CONVENIENCE MOUNT BARKER - TEMPORARILY CLOSED",
+        "name": "X CONVENIENCE MOUNT BARKER",
         "lat": -35.0811,
         "lng": 138.8679,
         "site_brand": "BP",
@@ -11756,7 +11759,7 @@
     },
     {
         "id": "AU-1263",
-        "name": "X CONVENIENCE MURRAY BRIDGE - TEMPORARILY CLOSED",
+        "name": "X CONVENIENCE MURRAY BRIDGE",
         "lat": -35.1237,
         "lng": 139.2642,
         "site_brand": "BP",
@@ -12221,16 +12224,27 @@
         "lng": 138.4587,
         "site_brand": "BP",
         "country_code": "AU",
-        "address": "Aldinga Beach Road",
-        "city": "Aldinga Beach",
+        "address": "ALDINGA BEACH RD & PRIDHAM BLVDE",
+        "city": "ALDINGA BEACH",
         "state": "SA",
         "postcode": "5173",
-        "telephone": "+61 8 9418 3206",
-        "facilities": [],
-        "products": [],
+        "telephone": "+61 473 485 852",
+        "facilities": [
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards"
+        ],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "Aldinga Beach Road\nAldinga Beach\n5173",
+        "formatted_address": "ALDINGA BEACH RD & PRIDHAM BLVDE\nALDINGA BEACH\n5173",
         "channel_of_trade": null
     },
     {
@@ -12376,10 +12390,11 @@
         "city": "Goolwa",
         "state": "SA",
         "postcode": "5214",
-        "telephone": "+61 8 9418 3206",
+        "telephone": "+61 8 8555 2889",
         "facilities": [],
         "products": [
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
@@ -12400,7 +12415,7 @@
         "city": "Cavan",
         "state": "SA",
         "postcode": "5094",
-        "telephone": "+61 8 9418 3206",
+        "telephone": "+61 8 8349 5868",
         "facilities": [],
         "products": [],
         "website": null,
@@ -12500,7 +12515,12 @@
             "pump_rewards"
         ],
         "products": [
-            "regular_diesel"
+            "ad_blue_pump",
+            "e10",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -13116,6 +13136,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "bppulse",
             "e10",
             "lpg",
             "premium_unlead",
@@ -15099,9 +15120,11 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "bppulse",
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -21208,6 +21231,7 @@
             "mobile_enabled"
         ],
         "products": [
+            "bppulse",
             "e10",
             "lpg",
             "premium_unlead",
@@ -29998,9 +30022,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
-            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -33954,7 +33976,6 @@
         "products": [
             "ad_blue_cannister",
             "e10",
-            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -34634,37 +34655,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "728-736 GEELONG ROAD\nCANADIAN\n3350",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-5857",
-        "name": "BP GOOLWA",
-        "lat": -35.5054,
-        "lng": 138.7812,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "25 HUTCHINSON STREET",
-        "city": "GOOLWA",
-        "state": "SA",
-        "postcode": "5214",
-        "telephone": "+61 8 8555 2211",
-        "facilities": [
-            "gift_card",
-            "bp_rewards_redemption",
-            "loyalty",
-            "pump_rewards"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "auto_gas",
-            "regular_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "25 HUTCHINSON STREET\nGOOLWA\n5214",
         "channel_of_trade": null
     },
     {
@@ -49270,6 +49260,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
+            "bppulse",
             "e10",
             "premium_unlead",
             "regular_diesel",
@@ -60101,6 +60092,7 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "bppulse",
             "lpg",
             "premium_unlead",
             "regular_diesel",

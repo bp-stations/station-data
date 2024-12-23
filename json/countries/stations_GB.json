@@ -976,11 +976,13 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -2034,7 +2036,7 @@
     {
         "id": "GB-1167211547",
         "name": "SPAR BISHOPS CASTLE SERVICE STATION",
-        "lat": 52.400746,
+        "lat": 52.491173,
         "lng": -2.998389,
         "site_brand": "BP",
         "country_code": "GB",
@@ -12919,6 +12921,35 @@
         "channel_of_trade": null
     },
     {
+        "id": "GB-1931364425",
+        "name": "BP PARKGATE SERVICE STATION BURTO",
+        "lat": 52.774,
+        "lng": -1.55744,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "813 BURTON ROAD MIDWAY SWADLINCOTE",
+        "city": "BURTON ON TRENT",
+        "state": null,
+        "postcode": "DE11 0DN",
+        "telephone": "+44 1794 607041",
+        "facilities": [
+            "car_wash",
+            "bistro",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "813 BURTON ROAD MIDWAY SWADLINCOTE\nBURTON ON TRENT\nDE11 0DN",
+        "channel_of_trade": null
+    },
+    {
         "id": "GB-1932606626",
         "name": "LONDON BRIDGE SF CONNECT",
         "lat": 53.92804,
@@ -13513,6 +13544,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
         ],
@@ -15654,7 +15688,7 @@
     },
     {
         "id": "GB-260303453",
-        "name": "BP KARAN NUNNS BRIDGE",
+        "name": "KARAN NUNNS BRIDGE",
         "lat": 52.40476,
         "lng": 0.74528,
         "site_brand": "BP",
@@ -15665,9 +15699,15 @@
         "postcode": "IP24 3ED",
         "telephone": "+44 1482 452496",
         "facilities": [
+            "jet_wash",
+            "cash_point",
             "accepts_routex_cards"
         ],
-        "products": [],
+        "products": [
+            "ad_blue_cannister",
+            "lpg",
+            "red_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "BURY ROAD\nTHETFORD\nIP24 3ED",
@@ -40974,7 +41014,7 @@
     },
     {
         "id": "GB-493086467",
-        "name": "BP KARAN EASTWOOD SERVICE STATION",
+        "name": "KARAN EASTWOOD SERVICE STATION",
         "lat": 52.60162,
         "lng": -1.36653,
         "site_brand": "BP",
@@ -40990,7 +41030,9 @@
             "open_saturday",
             "open_sunday"
         ],
-        "products": [],
+        "products": [
+            "ad_blue_cannister"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "ASHBY ROAD\nLEICESTER\nLE9 8JE",
@@ -42692,7 +42734,7 @@
         "id": "GB-590087929",
         "name": "SPAR FAIRFIELD",
         "lat": 53.382891,
-        "lng": -0.00777,
+        "lng": -0.012498,
         "site_brand": "BP",
         "country_code": "GB",
         "address": "BOLLINGBROKE ROAD, F. IND. E.",
