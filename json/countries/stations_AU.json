@@ -164,6 +164,7 @@
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -345,6 +346,7 @@
             "auto_gas",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -1092,6 +1094,7 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -1122,9 +1125,7 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
-            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -1170,6 +1171,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -1913,7 +1915,9 @@
             "auto_gas",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -2011,6 +2015,7 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
+            "e10",
             "lpg",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -2104,11 +2109,12 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -2152,6 +2158,7 @@
         "products": [
             "ad_blue_cannister",
             "bppulse",
+            "e10",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -2183,7 +2190,6 @@
             "high_flow_diesel",
             "cash_point",
             "toilet",
-            "wild_bean_cafe",
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
@@ -2237,6 +2243,7 @@
             "auto_gas",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -2280,7 +2287,6 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
-            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -2343,7 +2349,6 @@
             "auto_gas",
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -2443,6 +2448,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -2473,7 +2479,6 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
-            "premium_unlead",
             "regular_diesel",
             "unlead",
             "ad_blue"
@@ -2626,7 +2631,6 @@
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -2666,8 +2670,8 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -2683,19 +2687,22 @@
         "lng": 148.1671,
         "site_brand": "BP",
         "country_code": "AU",
-        "address": "BRUCE HIGHWAY",
+        "address": "19350 BRUCE HIGHWAY",
         "city": "MERINDA",
         "state": "QLD",
         "postcode": "4805",
-        "telephone": "+61 7 4785 0815",
+        "telephone": "+61 7 4785 2191",
         "facilities": [
             "food_offer_instore",
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
             "restaurant"
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
             "unlead",
@@ -2703,7 +2710,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "BRUCE HIGHWAY\nMERINDA\n4805",
+        "formatted_address": "19350 BRUCE HIGHWAY\nMERINDA\n4805",
         "channel_of_trade": null
     },
     {
@@ -2719,7 +2726,11 @@
         "postcode": "2300",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CNR HANNEL & ELIZABETH STREETS\nCARRINGTON\n2300",
@@ -2857,7 +2868,7 @@
             "auto_gas",
             "lpg",
             "premium_unlead",
-            "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -3113,7 +3124,6 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
-            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -3189,10 +3199,10 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -3349,9 +3359,10 @@
             "ad_blue_pump",
             "e10",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -3713,7 +3724,6 @@
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -3758,6 +3768,7 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -3789,6 +3800,7 @@
         "products": [
             "premium_unlead",
             "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead"
         ],
         "website": null,
@@ -3975,7 +3987,6 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
-            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -4089,7 +4100,9 @@
             "ad_blue_cannister",
             "e10",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -4187,6 +4200,7 @@
             "lpg",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -4328,6 +4342,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
+            "e10",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -4460,8 +4475,8 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -4584,8 +4599,8 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -4764,6 +4779,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -4810,7 +4826,6 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -4861,7 +4876,6 @@
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -4900,6 +4914,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "e10",
             "premium_unlead",
@@ -4926,7 +4941,11 @@
         "postcode": "4724",
         "telephone": "+61 7 4985 1131",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "59 SHAKESPEARE STREET\nALPHA\n4724",
@@ -5006,6 +5025,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "e10",
             "premium_unlead",
@@ -5053,6 +5073,7 @@
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -5087,6 +5108,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "e10",
             "lpg",
@@ -5180,6 +5202,7 @@
             "ad_blue_cannister",
             "e10",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -5715,11 +5738,10 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "lpg",
-            "premium_unlead",
             "regular_diesel",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -5809,6 +5831,7 @@
             "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -5931,8 +5954,10 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -6008,7 +6033,6 @@
         "products": [
             "ad_blue_cannister",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -6055,8 +6079,10 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -6104,8 +6130,10 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
+            "e10",
             "lpg",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -6181,6 +6209,7 @@
             "e10",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "ad_blue"
@@ -6203,7 +6232,14 @@
         "postcode": "2409",
         "telephone": "+61 408 943 419",
         "facilities": [],
-        "products": [],
+        "products": [
+            "ad_blue_pump",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "NEWELL HWY\nBOGGABILLA\n2409",
@@ -6277,6 +6313,7 @@
             "ad_blue_pump",
             "e10",
             "lpg",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -6654,7 +6691,12 @@
         "facilities": [
             "open_24_hours"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1172-1174 MAIN SOUTH ROAD\nCLOVELLY PARK\n5042",
@@ -6766,8 +6808,9 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -6941,7 +6984,6 @@
             "auto_gas",
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -7022,6 +7064,7 @@
             "ad_blue_cannister",
             "e10",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -7045,7 +7088,14 @@
         "postcode": "5277",
         "telephone": "+61 8 8739 7080",
         "facilities": [],
-        "products": [],
+        "products": [
+            "e10",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "LOT 305 RIDDOCH HIGHWAY\nNANGWARRY\n5277",
@@ -7151,6 +7201,7 @@
         "products": [
             "ad_blue_cannister",
             "e10",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -7190,6 +7241,8 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "unlead",
@@ -7217,6 +7270,7 @@
         ],
         "products": [
             "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead"
         ],
         "website": null,
@@ -7270,6 +7324,7 @@
         "products": [
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
         ],
@@ -7291,7 +7346,11 @@
         "postcode": "4740",
         "telephone": "+61 7 4951 1261",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "114 SHAKESPEARE\nMACKAY\n4740",
@@ -7357,7 +7416,11 @@
             "mobile_enabled"
         ],
         "products": [
-            "premium_unlead"
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
         ],
         "website": null,
         "watchlist_id": null,
@@ -7464,9 +7527,13 @@
             "pump_rewards"
         ],
         "products": [
+            "ad_blue_pump",
+            "e10",
             "premium_unlead",
             "regular_diesel",
-            "unlead"
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -7502,7 +7569,6 @@
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -7585,7 +7651,11 @@
         "postcode": "3707",
         "telephone": "+61 2 6076 1151",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "12-16 Towong Road\nCorryong\n3707",
@@ -7713,6 +7783,7 @@
             "mobile_enabled"
         ],
         "products": [
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -7812,6 +7883,11 @@
         ],
         "products": [
             "ad_blue_pump",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -7880,6 +7956,10 @@
         ],
         "products": [
             "ad_blue_pump",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -7944,7 +8024,11 @@
         "postcode": "5690",
         "telephone": "+61 8 8625 2038",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "57 MCKENZIE ST\nCEDUNA\n5690",
@@ -8128,7 +8212,13 @@
         "postcode": "5116",
         "telephone": "",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Cnr Angle Vale Rd &\nEvanston Gardens\n5116",
@@ -8245,7 +8335,12 @@
             "takeaway_food",
             "high_speed_pump"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Lot 1041 216 Paterson Street\nTennant Creek\n0860",
@@ -8311,9 +8406,12 @@
             "pump_rewards"
         ],
         "products": [
+            "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
-            "unlead"
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -8354,6 +8452,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "premium_unlead",
             "regular_diesel",
@@ -8393,6 +8492,7 @@
             "ad_blue_cannister",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -8568,7 +8668,12 @@
             "high_speed_pump",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "e10",
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "10-14 Lexington Road\nUnderwood\n4119",
@@ -8604,7 +8709,12 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
+            "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -8650,7 +8760,13 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "lpg",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -8698,11 +8814,13 @@
         "products": [
             "ad_blue_cannister",
             "bppulse",
+            "e10",
             "lpg",
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -8941,7 +9059,6 @@
         "products": [
             "ad_blue_cannister",
             "premium_unlead",
-            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -8982,7 +9099,6 @@
         "products": [
             "ad_blue_cannister",
             "premium_unlead",
-            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -9023,6 +9139,11 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -9061,6 +9182,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "premium_unlead",
             "regular_diesel",
@@ -9133,6 +9255,11 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -9223,7 +9350,9 @@
         "postcode": "3274",
         "telephone": "+61 3 5562 8155",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "15 BROWN STREET\nCARAMUT\n3274",
@@ -9259,6 +9388,7 @@
         ],
         "products": [
             "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead"
         ],
         "website": null,
@@ -9328,7 +9458,14 @@
         "facilities": [
             "outdoor_payment_terminal"
         ],
-        "products": [],
+        "products": [
+            "ad_blue_pump",
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "295 Hobart Road\nYoungtown\n7249",
@@ -9368,7 +9505,10 @@
         ],
         "products": [
             "lpg",
-            "ultimate_diesel"
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
         ],
         "website": null,
         "watchlist_id": null,
@@ -9404,7 +9544,14 @@
             "high_speed_pump",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "ad_blue_pump",
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "64 Nelson Street\nNhill\n3418",
@@ -9554,7 +9701,12 @@
             "takeaway_food",
             "high_speed_pump"
         ],
-        "products": [],
+        "products": [
+            "ad_blue_pump",
+            "regular_diesel",
+            "unlead",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1 Great Northern Highway\nWubin\n6612",
@@ -9623,9 +9775,12 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
             "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -9652,6 +9807,10 @@
         ],
         "products": [
             "ad_blue_pump",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -9691,6 +9850,12 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -9742,6 +9907,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "lpg",
             "regular_diesel",
             "ultimate_diesel",
@@ -9954,7 +10120,10 @@
             "pump_rewards"
         ],
         "products": [
-            "ultimate_diesel"
+            "e10",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
         ],
         "website": null,
         "watchlist_id": null,
@@ -10017,7 +10186,10 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -10050,6 +10222,7 @@
         ],
         "products": [
             "ad_blue_pump",
+            "regular_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -10126,6 +10299,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -10657,7 +10831,9 @@
         "products": [
             "e10",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded"
         ],
         "website": null,
@@ -10832,6 +11008,7 @@
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -11102,6 +11279,7 @@
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -11404,7 +11582,12 @@
             "bp_rewards_unlocked",
             "bp_rewards_unlocked_convenience"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3286 PACIFIC HIGHWAY\nMACLEAN\n2463",
@@ -11859,7 +12042,6 @@
         "products": [
             "ad_blue_cannister",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -11938,6 +12120,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "lpg",
             "premium_unlead",
@@ -11987,9 +12170,9 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -12009,7 +12192,7 @@
         "city": "Willunga",
         "state": "SA",
         "postcode": "5172",
-        "telephone": "+61 8 8556 2050",
+        "telephone": "+61 427 434 293",
         "facilities": [
             "food_offer_instore",
             "bp_rewards_redemption",
@@ -12041,9 +12224,11 @@
         "city": "Strathalbyn",
         "state": "SA",
         "postcode": "5255",
-        "telephone": "+61 8 9418 3206",
+        "telephone": "+61 8 8349 5868",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "36 Milnes Road\nStrathalbyn\n5255",
@@ -12060,7 +12245,7 @@
         "city": "Murray Bridge East",
         "state": "SA",
         "postcode": "5253",
-        "telephone": "+61 8 9418 3206",
+        "telephone": "+61 8 8532 2060",
         "facilities": [
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
@@ -12131,7 +12316,7 @@
         "city": "Normanville",
         "state": "SA",
         "postcode": "5204",
-        "telephone": "+61 8 8327 5970",
+        "telephone": "+61 8 8327 5971",
         "facilities": [
             "food_offer_instore",
             "bp_rewards_redemption",
@@ -12141,6 +12326,7 @@
             "restaurant"
         ],
         "products": [
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -12169,7 +12355,9 @@
             "loyalty",
             "pump_rewards"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "32 Main Street\nPeterborough\n5422",
@@ -12186,7 +12374,7 @@
         "city": "Hindmarsh Valley",
         "state": "SA",
         "postcode": "5211",
-        "telephone": "+61 8 9418 3206",
+        "telephone": "+61 8 8349 5868",
         "facilities": [
             "open_24_hours"
         ],
@@ -12209,9 +12397,11 @@
         "city": "Willunga Hill",
         "state": "SA",
         "postcode": "5172",
-        "telephone": "+61 8 9418 3206",
+        "telephone": "+61 8 8349 5868",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1992 Brookman Road\nWillunga Hill\n5172",
@@ -12236,6 +12426,7 @@
             "pump_rewards"
         ],
         "products": [
+            "auto_gas",
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
@@ -12327,7 +12518,7 @@
         "city": "Nuriootpa",
         "state": "SA",
         "postcode": "5355",
-        "telephone": "+61 8 9418 3206",
+        "telephone": "+61 8 8349 5868",
         "facilities": [],
         "products": [
             "regular_diesel"
@@ -12434,7 +12625,7 @@
         "city": "Meningie",
         "state": "SA",
         "postcode": "5264",
-        "telephone": "+61 8 9418 3206",
+        "telephone": "+61 8 8575 1113",
         "facilities": [],
         "products": [
             "premium_unlead",
@@ -12485,6 +12676,7 @@
             "auto_gas",
             "e10",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -12507,7 +12699,7 @@
         "city": "Cavan",
         "state": "SA",
         "postcode": "5094",
-        "telephone": "+61 8 9418 3206",
+        "telephone": "+61 8 8349 5868",
         "facilities": [
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
@@ -12538,12 +12730,35 @@
         "city": "Seaford Meadows",
         "state": "SA",
         "postcode": "5169",
-        "telephone": "+61 438 899 614",
+        "telephone": "+61 8 8386 1055",
         "facilities": [],
         "products": [],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "55 Seaford Road\nSeaford Meadows\n5169",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1309",
+        "name": "BP OPT CYGNET",
+        "lat": -43.16,
+        "lng": 147.076,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "42 Mary Street",
+        "city": "Cygnet",
+        "state": "TAS",
+        "postcode": "7112",
+        "telephone": "+61 3 6295 1588",
+        "facilities": [],
+        "products": [
+            "premium_unlead",
+            "ultimate_diesel",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "42 Mary Street\nCygnet\n7112",
         "channel_of_trade": null
     },
     {
@@ -12576,6 +12791,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -12677,7 +12893,6 @@
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -12725,7 +12940,6 @@
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -12763,8 +12977,10 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
+            "e10",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "unlead",
             "ad_blue"
         ],
@@ -12808,6 +13024,7 @@
             "e10",
             "lpg",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -12945,10 +13162,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
-            "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -13088,8 +13302,11 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -13231,6 +13448,7 @@
             "ad_blue_cannister",
             "e10",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -13365,6 +13583,7 @@
         "products": [
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
@@ -13421,6 +13640,7 @@
             "lpg",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -13462,6 +13682,7 @@
         ],
         "products": [
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
@@ -13620,7 +13841,6 @@
             "gift_card",
             "truck_suitable_site",
             "high_flow_diesel",
-            "wild_bean_cafe",
             "takeaway_food_offer",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
@@ -13728,6 +13948,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "lpg",
             "regular_diesel",
             "ultimate_diesel",
@@ -13778,7 +13999,6 @@
             "ad_blue_cannister",
             "lpg",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -13824,6 +14044,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
         ],
@@ -14256,8 +14477,9 @@
             "ad_blue_pump",
             "e10",
             "lpg",
-            "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
             "ad_blue"
         ],
         "website": null,
@@ -14356,9 +14578,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -14525,6 +14747,8 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
+            "e10",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -14712,7 +14936,6 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
-            "premium_unlead",
             "regular_diesel",
             "unlead",
             "ad_blue"
@@ -14743,7 +14966,6 @@
             "auto_gas",
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -14911,8 +15133,8 @@
             "ad_blue_cannister",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -15335,6 +15557,7 @@
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -15447,9 +15670,12 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -15539,6 +15765,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -15764,8 +15991,7 @@
         "products": [
             "auto_gas",
             "regular_diesel",
-            "ultimate_unleaded",
-            "unlead"
+            "ultimate_unleaded"
         ],
         "website": null,
         "watchlist_id": null,
@@ -15843,6 +16069,7 @@
             "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -16029,8 +16256,8 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -16195,6 +16422,7 @@
             "auto_gas",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -16239,6 +16467,8 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
+            "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -16275,8 +16505,8 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -16348,7 +16578,10 @@
         "postcode": "2830",
         "telephone": "+61 2 6884 9733",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "105 ERSKINE STREET\nDUBBO\n2830",
@@ -16372,7 +16605,6 @@
         "products": [
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead"
         ],
         "website": null,
@@ -16454,9 +16686,9 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -16498,9 +16730,9 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -16536,7 +16768,6 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
-            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -16584,6 +16815,7 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -16736,6 +16968,7 @@
             "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -16774,9 +17007,10 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -16810,7 +17044,6 @@
             "high_speed_pump"
         ],
         "products": [
-            "premium_unlead",
             "regular_diesel"
         ],
         "website": null,
@@ -16928,8 +17161,6 @@
             "ad_blue_pump",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -17131,8 +17362,8 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -17173,7 +17404,9 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "lpg",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -17213,8 +17446,8 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -17466,7 +17699,6 @@
             "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -17487,7 +17719,11 @@
         "postcode": "2794",
         "telephone": "+61 2 6342 2399",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "12 CAMPBELL STREET\nCOWRA\n2794",
@@ -17506,7 +17742,11 @@
         "postcode": "2830",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "105 ERSKINE STREET\nDUBBO\n2830",
@@ -17525,7 +17765,11 @@
         "postcode": "2671",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "RAILWAY ROAD\nWEST WYALONG\n2671",
@@ -17544,7 +17788,11 @@
         "postcode": "2360",
         "telephone": "",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "EDWARDS STREET\nINVERELL\n2360",
@@ -17605,7 +17853,7 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -17716,7 +17964,11 @@
         "postcode": "2460",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "ORANA STREET\nGRAFTON\n2460",
@@ -17735,7 +17987,11 @@
         "postcode": "2800",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "199 MARGARET STREET\nORANGE\n2800",
@@ -17785,6 +18041,7 @@
         "products": [
             "ad_blue_pump",
             "bppulse",
+            "e10",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -17814,7 +18071,6 @@
             "ad_blue_cannister",
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -17928,7 +18184,6 @@
             "cash_point",
             "toilet",
             "barista_coffee",
-            "wild_bean_cafe",
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
@@ -17945,6 +18200,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -18136,6 +18392,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -18265,11 +18522,14 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_pump",
             "e10",
             "lpg",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -19263,6 +19523,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "ad_blue"
         ],
@@ -19348,6 +19609,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -19665,8 +19927,7 @@
             "high_speed_pump"
         ],
         "products": [
-            "regular_diesel",
-            "unlead"
+            "regular_diesel"
         ],
         "website": null,
         "watchlist_id": null,
@@ -19695,6 +19956,7 @@
             "truck_only"
         ],
         "products": [
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead"
@@ -19728,9 +19990,11 @@
             "high_speed_pump"
         ],
         "products": [
+            "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -19813,7 +20077,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
-            "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -19837,7 +20101,11 @@
         "postcode": "2630",
         "telephone": "+61 2 6452 3111",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "4 SHARP STREET\nCOOMA\n2630",
@@ -20037,6 +20305,7 @@
             "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -20254,7 +20523,6 @@
         ],
         "products": [
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead"
         ],
         "website": null,
@@ -20369,9 +20637,10 @@
             "truck_only"
         ],
         "products": [
-            "premium_unlead",
+            "ad_blue_pump",
             "regular_diesel",
-            "unlead"
+            "ultimate_unleaded",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -20508,6 +20777,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "e10",
             "lpg",
@@ -20661,6 +20931,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -20688,6 +20959,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
@@ -20793,6 +21065,7 @@
             "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -20826,10 +21099,13 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
+            "e10",
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -20901,6 +21177,7 @@
             "auto_gas",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -20931,6 +21208,8 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -21281,6 +21560,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
             "premium_unlead",
@@ -21376,7 +21656,6 @@
             "auto_gas",
             "e10",
             "lpg",
-            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -21400,7 +21679,11 @@
         "postcode": "6714",
         "telephone": "+61 439 913 914",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Lot 1032 MARDIE ROAD\nKARRATHA\n6714",
@@ -21441,6 +21724,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -21485,7 +21769,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
-            "premium_unlead",
+            "e10",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -21540,7 +21824,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -21590,7 +21876,6 @@
             "auto_gas",
             "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -21635,7 +21920,6 @@
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -21673,7 +21957,6 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -21753,9 +22036,8 @@
             "auto_gas",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -21902,7 +22184,10 @@
         "postcode": "3400",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "MILL STREET\nHORSHAM\n3400",
@@ -21963,7 +22248,11 @@
         "postcode": "3555",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "159 ALLINGHAM STREET\nGOLDEN SQUARE\n3555",
@@ -21993,7 +22282,6 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
-            "premium_unlead",
             "regular_diesel",
             "unlead",
             "ad_blue"
@@ -22138,6 +22426,12 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -22205,7 +22499,7 @@
             "ad_blue_cannister",
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
+            "ultimate_diesel",
             "unlead",
             "ad_blue"
         ],
@@ -22230,9 +22524,7 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
-            "premium_unlead",
             "regular_diesel",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -22939,6 +23231,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "lpg",
             "premium_unlead",
@@ -23253,6 +23546,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -23376,7 +23670,6 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -23529,6 +23822,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -23582,6 +23876,7 @@
             "auto_gas",
             "e10",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -24050,9 +24345,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
-            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -24149,10 +24442,7 @@
             "ad_blue_pump",
             "auto_gas",
             "lpg",
-            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -24184,6 +24474,7 @@
         "products": [
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead"
         ],
         "website": null,
@@ -24765,7 +25056,6 @@
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -24792,7 +25082,6 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
-            "premium_unlead",
             "regular_diesel",
             "unlead",
             "ad_blue"
@@ -25007,6 +25296,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "lpg",
             "premium_unlead",
@@ -25610,7 +25900,11 @@
         "postcode": "4870",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "KENNY STREET\nCAIRNS\n4870",
@@ -25670,6 +25964,7 @@
         "products": [
             "ad_blue_cannister",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -25695,7 +25990,11 @@
         "facilities": [
             "open_24_hours"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "NEWELL HIGHWAY\nMOREE\n2400",
@@ -25765,7 +26064,11 @@
         "postcode": "4680",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3 MCLINTOCK STREET\nGLADSTONE\n4680",
@@ -25961,7 +26264,10 @@
         "postcode": "4850",
         "telephone": "+61 7 4776 2458",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CNR BRUCE HWY & CHALLANDS ST\nINGHAM\n4850",
@@ -25980,7 +26286,11 @@
         "postcode": "4807",
         "telephone": "+61 7 4783 2466",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CNR LYNCH & WILLIAM STREETS\nAYR\n4807",
@@ -26053,7 +26363,11 @@
         "postcode": "4715",
         "telephone": "79921370",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "BURNETT HIGHWAY\nBILOELA\n4715",
@@ -26127,7 +26441,11 @@
         "postcode": "4720",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "6 SHORT STREET\nEMERALD\n4720",
@@ -26213,7 +26531,11 @@
         "postcode": "4455",
         "telephone": "+61 7 4622 1171",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "165 RAGLAN STREET\nROMA\n4455",
@@ -26232,7 +26554,10 @@
         "postcode": "4670",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel",
+            "ultimate_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "33 PRINCES STREET\nBUNDABERG\n4670",
@@ -26306,7 +26631,11 @@
         "postcode": "4880",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "BIBOOHRA ROAD\nMAREEBA\n4880",
@@ -26327,7 +26656,10 @@
         "facilities": [
             "open_24_hours"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "47 MCNULTY STREET\nMILES\n4415",
@@ -26379,6 +26711,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "ad_blue"
         ],
@@ -26413,9 +26746,7 @@
             "high_speed_pump"
         ],
         "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
+            "regular_diesel"
         ],
         "website": null,
         "watchlist_id": null,
@@ -26549,8 +26880,10 @@
         "products": [
             "ad_blue_pump",
             "auto_gas",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -26635,8 +26968,10 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
+            "e10",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -26793,6 +27128,7 @@
             "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -27190,6 +27526,7 @@
             "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -27490,6 +27827,7 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "e10",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -27544,6 +27882,7 @@
             "ad_blue_cannister",
             "e10",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -27816,6 +28155,7 @@
             "ad_blue_pump",
             "e10",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -27856,7 +28196,6 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
-            "premium_unlead",
             "regular_diesel",
             "ad_blue"
         ],
@@ -27884,6 +28223,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
+            "premium_unlead",
             "regular_diesel",
             "unlead",
             "ad_blue"
@@ -28025,9 +28365,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -28091,7 +28431,13 @@
         "postcode": "0854",
         "telephone": "+61 8 8975 8790",
         "facilities": [],
-        "products": [],
+        "products": [
+            "e10",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "ROBINSON ROAD\nBORROLOOLA\n0854",
@@ -28121,6 +28467,7 @@
             "e10",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded"
         ],
         "website": null,
@@ -28234,7 +28581,6 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -28690,8 +29036,8 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -28728,9 +29074,11 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -28795,10 +29143,8 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "e10",
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -28959,7 +29305,13 @@
         "postcode": "3500",
         "telephone": "+61 3 5023 2699",
         "facilities": [],
-        "products": [],
+        "products": [
+            "ad_blue_pump",
+            "premium_unlead",
+            "regular_diesel",
+            "unlead",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "210 EIGHTH STREET\nMILDURA\n3500",
@@ -29014,9 +29366,7 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
-            "premium_unlead",
             "regular_diesel",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -29126,6 +29476,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "premium_unlead",
             "regular_diesel",
@@ -29151,7 +29502,11 @@
         "postcode": "4810",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "45 TOLL STREET BOHLE\nTOWNSVILLE\n4810",
@@ -29224,7 +29579,7 @@
             "ad_blue_cannister",
             "e10",
             "lpg",
-            "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -29416,7 +29771,6 @@
             "auto_gas",
             "lpg",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -29468,6 +29822,7 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -29658,7 +30013,6 @@
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -29782,6 +30136,7 @@
             "auto_gas",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -30146,6 +30501,7 @@
             "ad_blue_pump",
             "auto_gas",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -30186,7 +30542,6 @@
             "auto_gas",
             "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -30330,7 +30685,11 @@
         "postcode": "5016",
         "telephone": "+61 8 8242 3766",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "MILDRED TERRACE\nLARGS NORTH\n5016",
@@ -30759,7 +31118,9 @@
             "high_speed_pump"
         ],
         "products": [
-            "regular_diesel"
+            "ad_blue_pump",
+            "regular_diesel",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -30993,6 +31354,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -31901,7 +32263,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
+            "premium_unlead",
             "regular_diesel",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -31978,9 +32342,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
-            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -32005,7 +32367,12 @@
             "open_24_hours",
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "23-29 MAIN NORTH ROAD\nSMITHFIELD\n5114",
@@ -32024,7 +32391,9 @@
         "postcode": "4606",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3 GREENVIEW ROAD\nWONDAI\n4606",
@@ -32369,7 +32738,12 @@
         "postcode": "4350",
         "telephone": "+61 7 4630 1777",
         "facilities": [],
-        "products": [],
+        "products": [
+            "e10",
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "246-252 ANZAC AVENUE\nTOOWOOMBA\n4350",
@@ -32890,8 +33264,10 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -34267,6 +34643,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -34561,6 +34938,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -34600,6 +34978,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -34692,6 +35071,7 @@
             "auto_gas",
             "e10",
             "lpg",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
@@ -34782,6 +35162,7 @@
             "ad_blue_cannister",
             "e10",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -34928,7 +35309,6 @@
             "auto_gas",
             "lpg",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -35062,7 +35442,6 @@
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -35190,6 +35569,8 @@
             "ad_blue_cannister",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -35233,6 +35614,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -36161,7 +36543,9 @@
         "postcode": "6530",
         "telephone": "+61 8 9921 2412",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Lot 1662 SHENTON STREET\nGERALDTON\n6530",
@@ -36288,9 +36672,10 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -36368,6 +36753,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
             "premium_unlead",
@@ -36514,8 +36900,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -36813,8 +37199,8 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -36851,7 +37237,6 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
-            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -36923,7 +37308,11 @@
         "postcode": "6375",
         "telephone": "+61 8 9063 2452",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1 WALTON STREET\nCORRIGIN\n6375",
@@ -36983,7 +37372,11 @@
         "postcode": "6510",
         "telephone": "+61 3 9810 8219",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "153 GARDINER STREET\nMOORA\n6510",
@@ -37002,7 +37395,9 @@
         "postcode": "6312",
         "telephone": "+61 8 9881 1962",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "4 FEDERAL STREET\nNARROGIN\n6312",
@@ -37059,7 +37454,11 @@
         "postcode": "6603",
         "telephone": "+61 8 9671 1057",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "13 WONGAN ROAD\nWONGAN HILLS\n6603",
@@ -37214,7 +37613,10 @@
         "postcode": "6725",
         "telephone": "+61 8 9192 1100",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel",
+            "ultimate_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "297 PORT DRIVE\nBROOME\n6725",
@@ -37659,6 +38061,7 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -38043,6 +38446,7 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -38424,7 +38828,6 @@
             "ad_blue_pump",
             "regular_diesel",
             "ultimate_unleaded",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -38484,6 +38887,7 @@
         "facilities": [],
         "products": [
             "ad_blue_cannister",
+            "premium_unlead",
             "regular_diesel",
             "unlead",
             "ad_blue"
@@ -38648,7 +39052,8 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
-            "ultimate_diesel",
+            "premium_unlead",
+            "regular_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -38694,6 +39099,7 @@
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -38714,7 +39120,9 @@
         "postcode": "6105",
         "telephone": "+61 8 9353 2566",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "543 ABERNATHY ROAD\nKEWDALE\n6105",
@@ -38749,7 +39157,6 @@
             "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -38862,9 +39269,9 @@
             "high_speed_pump"
         ],
         "products": [
+            "ad_blue_pump",
             "regular_diesel",
-            "ultimate_unleaded",
-            "unlead"
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -38893,7 +39300,6 @@
         "products": [
             "ad_blue_cannister",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -39050,7 +39456,6 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
-            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -39089,8 +39494,9 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -39125,8 +39531,8 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -39164,6 +39570,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -39307,7 +39714,6 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
-            "e10",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -39345,6 +39751,7 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -39548,7 +39955,6 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -39627,7 +40033,6 @@
         "products": [
             "ad_blue_cannister",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -39798,6 +40203,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -39828,7 +40234,6 @@
         "products": [
             "ad_blue_cannister",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -39953,7 +40358,10 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -39974,7 +40382,11 @@
         "postcode": "6722",
         "telephone": "",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "WILSON STREET\nSOUTH HEDLAND\n6722",
@@ -39993,7 +40405,13 @@
         "postcode": "6353",
         "telephone": "+61 8 9865 1221",
         "facilities": [],
-        "products": [],
+        "products": [
+            "ad_blue_pump",
+            "premium_unlead",
+            "regular_diesel",
+            "unlead",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "DEWAR STREET\nLAKE GRACE\n6353",
@@ -40012,7 +40430,11 @@
         "postcode": "6229",
         "telephone": "+61 8 9725 6500",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "WETHERLY STREET\nPICTON\n6229",
@@ -40031,7 +40453,10 @@
         "postcode": "6430",
         "telephone": "+61 8 9881 1962",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "WEST KALGOORLIE ROAD\nKALGOORLIE\n6430",
@@ -40050,7 +40475,11 @@
         "postcode": "6517",
         "telephone": "+61 8 9951 1064",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "YARRA STREET\nCARNAMAH\n6517",
@@ -40069,7 +40498,11 @@
         "postcode": "6475",
         "telephone": "+61 8 9684 1286",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1 RAILWAY STREET\nKOORDA\n6475",
@@ -40101,7 +40534,10 @@
             "high_speed_pump"
         ],
         "products": [
-            "regular_diesel"
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
         ],
         "website": null,
         "watchlist_id": null,
@@ -40167,6 +40603,7 @@
         ],
         "products": [
             "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -40204,7 +40641,6 @@
         "products": [
             "ad_blue_cannister",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -40295,7 +40731,6 @@
         "products": [
             "ad_blue_cannister",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -40334,9 +40769,9 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -40441,8 +40876,8 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -40475,7 +40910,6 @@
         ],
         "products": [
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead"
         ],
         "website": null,
@@ -40522,7 +40956,6 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -40556,7 +40989,9 @@
             "high_speed_pump"
         ],
         "products": [
-            "regular_diesel"
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
         ],
         "website": null,
         "watchlist_id": null,
@@ -40796,9 +41231,12 @@
             "high_speed_pump"
         ],
         "products": [
+            "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -40896,6 +41334,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "bppulse",
+            "e10",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -40936,9 +41375,9 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -40971,7 +41410,6 @@
             "ad_blue_cannister",
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -40995,7 +41433,11 @@
         "facilities": [
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "8-10 SHAMROCK STREET\nBLACKALL\n4472",
@@ -41361,6 +41803,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -41525,6 +41968,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "e10",
             "lpg",
@@ -41681,6 +42125,8 @@
             "ad_blue_cannister",
             "e10",
             "lpg",
+            "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -41732,9 +42178,9 @@
             "auto_gas",
             "e10",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -41782,6 +42228,7 @@
             "ad_blue_pump",
             "e10",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -41829,8 +42276,8 @@
             "ad_blue_cannister",
             "e10",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -41885,6 +42332,7 @@
             "ad_blue_pump",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -41931,8 +42379,8 @@
             "ad_blue_pump",
             "e10",
             "lpg",
-            "ultimate_diesel",
-            "ultimate_unleaded",
+            "premium_unlead",
+            "regular_diesel",
             "unlead",
             "ad_blue"
         ],
@@ -41972,7 +42420,9 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -42021,6 +42471,7 @@
             "auto_gas",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -42065,6 +42516,7 @@
             "ad_blue_pump",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -42255,7 +42707,6 @@
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -42349,6 +42800,7 @@
             "auto_gas",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -42397,8 +42849,8 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -42826,6 +43278,7 @@
             "mobile_enabled"
         ],
         "products": [
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
@@ -42856,6 +43309,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -42978,6 +43432,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "e10",
             "lpg",
@@ -43119,6 +43574,7 @@
             "ad_blue_cannister",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -43168,6 +43624,7 @@
             "ad_blue_cannister",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -43229,6 +43686,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
@@ -43494,7 +43952,6 @@
             "ad_blue_cannister",
             "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -43573,10 +44030,10 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "e10",
             "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -43605,7 +44062,9 @@
             "high_speed_pump"
         ],
         "products": [
-            "regular_diesel"
+            "e10",
+            "regular_diesel",
+            "ultimate_unleaded"
         ],
         "website": null,
         "watchlist_id": null,
@@ -43727,8 +44186,8 @@
             "auto_gas",
             "e10",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -43763,6 +44222,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -43810,9 +44270,9 @@
             "ad_blue_cannister",
             "e10",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -43890,10 +44350,12 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_pump",
             "e10",
             "lpg",
             "regular_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -43929,10 +44391,12 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_pump",
             "e10",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -44047,7 +44511,6 @@
             "mobile_enabled"
         ],
         "products": [
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
         ],
@@ -44115,7 +44578,11 @@
             "bp_rewards_unlocked",
             "bp_rewards_unlocked_convenience"
         ],
-        "products": [],
+        "products": [
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "11 HACKETT TERRACE\nCHARTERS TOWERS\n4820",
@@ -44690,7 +45157,12 @@
             "open_24_hours",
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "140 MAIN SOUTH ROAD\nMorphett Vale\n5162",
@@ -45022,10 +45494,8 @@
             "auto_gas",
             "lpg",
             "premium_unlead",
-            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -45052,9 +45522,7 @@
             "auto_gas",
             "lpg",
             "premium_unlead",
-            "regular_diesel",
             "ultimate_unleaded",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -45117,6 +45585,7 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
+            "e10",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -45318,7 +45787,6 @@
         "products": [
             "e10",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead"
         ],
         "website": null,
@@ -45526,6 +45994,7 @@
             "ad_blue_cannister",
             "lpg",
             "premium_unlead",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -45608,9 +46077,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -45652,7 +46121,6 @@
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -46106,36 +46574,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-7316",
-        "name": "BP THANGOOL",
-        "lat": -24.4863,
-        "lng": 150.5732,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "BURNETT HIGHWAY",
-        "city": "THANGOOL",
-        "state": "QLD",
-        "postcode": "4716",
-        "telephone": "+61 7 4995 8311",
-        "facilities": [
-            "toilet",
-            "food_offer_instore",
-            "restaurant"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "auto_gas",
-            "premium_unlead",
-            "regular_diesel",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "BURNETT HIGHWAY\nTHANGOOL\n4716",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-7319",
         "name": "BP BOAMBEE",
         "lat": -30.3351,
@@ -46249,9 +46687,7 @@
         ],
         "products": [
             "ad_blue_pump",
-            "regular_diesel",
             "ultimate_unleaded",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -46429,9 +46865,7 @@
         "facilities": [],
         "products": [
             "ad_blue_cannister",
-            "regular_diesel",
             "ultimate_unleaded",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -46513,6 +46947,7 @@
             "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -46771,6 +47206,7 @@
         ],
         "products": [
             "ad_blue_pump",
+            "regular_diesel",
             "ad_blue"
         ],
         "website": null,
@@ -47587,6 +48023,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
@@ -47738,6 +48175,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -48072,6 +48510,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -48420,8 +48859,10 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -48833,6 +49274,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -48868,6 +49310,7 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -48990,6 +49433,7 @@
         ],
         "products": [
             "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -49027,6 +49471,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -49060,6 +49505,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -49094,6 +49540,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -49119,6 +49566,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -49144,7 +49592,11 @@
         "facilities": [
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "15-17 ALBERT STREET\nWARRNAMBOOL\n3280",
@@ -49163,7 +49615,11 @@
         "postcode": "3579",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "WILLS STREET\nKERANG\n3579",
@@ -49594,10 +50050,12 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -49921,7 +50379,10 @@
         "postcode": "2640",
         "telephone": "+61 2 6051 0300",
         "facilities": [],
-        "products": [],
+        "products": [
+            "ad_blue_pump",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1/263 MCAULEY STREET\nALBURY\n2640",
@@ -49940,7 +50401,10 @@
         "postcode": "4350",
         "telephone": "+61 7 4630 1777",
         "facilities": [],
-        "products": [],
+        "products": [
+            "ad_blue_pump",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "252 ANZAC AVENUE\nTOOWOOMBA\n4350",
@@ -50341,6 +50805,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "e10",
             "lpg",
@@ -50662,6 +51127,8 @@
             "ad_blue_pump",
             "regular_diesel",
             "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -50767,6 +51234,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -50985,8 +51453,10 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "e10",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -51108,6 +51578,7 @@
             "high_speed_pump"
         ],
         "products": [
+            "premium_unlead",
             "regular_diesel",
             "unlead"
         ],
@@ -51338,6 +51809,9 @@
         ],
         "products": [
             "ad_blue_pump",
+            "premium_unlead",
+            "regular_diesel",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -51523,8 +51997,10 @@
             "truck_only"
         ],
         "products": [
+            "ad_blue_pump",
             "regular_diesel",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -51658,6 +52134,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "lpg",
             "regular_diesel",
@@ -51909,6 +52386,7 @@
         "products": [
             "ad_blue_cannister",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -51995,10 +52473,12 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_pump",
             "e10",
             "regular_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -52030,8 +52510,7 @@
             "high_speed_pump"
         ],
         "products": [
-            "regular_diesel",
-            "unlead"
+            "regular_diesel"
         ],
         "website": null,
         "watchlist_id": null,
@@ -52074,10 +52553,12 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -52971,7 +53452,9 @@
         "postcode": "0822",
         "telephone": "+61 8 9418 3206",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "21 MURAMATS ROAD\nEAST ARM\n0822",
@@ -53289,6 +53772,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
             "premium_unlead",
@@ -53486,6 +53970,7 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "unlead",
             "ad_blue"
@@ -54420,7 +54905,8 @@
             "high_speed_pump"
         ],
         "products": [
-            "regular_diesel"
+            "regular_diesel",
+            "unlead"
         ],
         "website": null,
         "watchlist_id": null,
@@ -55365,7 +55851,14 @@
         "postcode": "5068",
         "telephone": "+61 8 8333 9755",
         "facilities": [],
-        "products": [],
+        "products": [
+            "e10",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "MILDRED TERRACE\nLARGS NORTH\n5068",
@@ -55502,9 +55995,7 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
-            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -55543,10 +56034,10 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -55571,7 +56062,12 @@
             "open_24_hours",
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "140B PERCY ST\nPORTLAND\n3305",
@@ -55760,9 +56256,11 @@
             "outdoor_payment_terminal"
         ],
         "products": [
+            "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -55782,7 +56280,14 @@
         "postcode": "0870",
         "telephone": "+61 8 9418 3206",
         "facilities": [],
-        "products": [],
+        "products": [
+            "ad_blue_pump",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "651 WHITTAKER STREET\nALICE SPRINGS\n0870",
@@ -55813,6 +56318,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "unlead",
             "ad_blue"
@@ -55843,7 +56349,6 @@
             "ad_blue_cannister",
             "auto_gas",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -56083,7 +56588,6 @@
         "postcode": "4357",
         "telephone": "+61 7 4695 4187",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "bdouble_access",
             "rigid_access",
@@ -56193,10 +56697,7 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
-            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
-            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -56217,7 +56718,12 @@
         "postcode": "4740",
         "telephone": "+61 7 4671 3780",
         "facilities": [],
-        "products": [],
+        "products": [
+            "e10",
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "GRAEME HEGGIE STREET\nMACKAY\n4740",
@@ -56414,9 +56920,9 @@
             "ad_blue_cannister",
             "e10",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -56501,6 +57007,7 @@
             "auto_gas",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -56762,6 +57269,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
             "premium_unlead",
@@ -56823,8 +57331,8 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -56863,6 +57371,7 @@
             "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -56946,6 +57455,7 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -56979,6 +57489,7 @@
             "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -57165,8 +57676,8 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -57209,6 +57720,7 @@
             "ad_blue_pump",
             "e10",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -57368,6 +57880,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
             "premium_unlead",
@@ -57440,8 +57953,8 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "lpg",
-            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -57938,8 +58451,10 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -58064,7 +58579,12 @@
             "open_24_hours",
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "207-209 REGENCY ROAD\nCROYDON PARK\n5008",
@@ -58086,7 +58606,6 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
-            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -58151,7 +58670,12 @@
             "open_24_hours",
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "52 DARLOT STREET\nHORSHAM\n3400",
@@ -58173,7 +58697,12 @@
             "open_24_hours",
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CNR DIMBOOLA ROAD AND WAWUNNA ROAD\nHORSHAM\n3400",
@@ -58192,7 +58721,10 @@
         "postcode": "6392",
         "telephone": "+61 8 9881 1962",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "28-29 GROWDEN PLACE\nDARKAN\n6392",
@@ -58370,6 +58902,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "premium_unlead",
             "regular_diesel",
@@ -58776,6 +59309,7 @@
             "ad_blue_cannister",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -58920,7 +59454,15 @@
             "open_24_hours",
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "ad_blue_pump",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "34 ARARAT ROAD\nSTAWELL\n3380",
@@ -59034,7 +59576,6 @@
             "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -59289,7 +59830,12 @@
             "open_24_hours",
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "237 MARTINS ROAD\nPARAFIELD GARDENS\n5107",
@@ -59410,6 +59956,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "lpg",
             "regular_diesel",
@@ -59548,7 +60095,6 @@
             "auto_gas",
             "lpg",
             "regular_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -60240,6 +60786,7 @@
             "auto_gas",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -60474,9 +61021,9 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -60641,6 +61188,10 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -60898,6 +61449,7 @@
             "ad_blue_cannister",
             "premium_unlead",
             "regular_diesel",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -61357,6 +61909,7 @@
             "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -61977,7 +62530,10 @@
         "postcode": "6244",
         "telephone": "+61 8 9765 1123",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "30 CNR ABEL & JAYES STREETS\nBOYUP BROOK\n6244",
@@ -62180,6 +62736,7 @@
             "ad_blue_cannister",
             "e10",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "ad_blue"
@@ -62247,6 +62804,7 @@
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -62334,6 +62892,7 @@
             "ad_blue_cannister",
             "e10",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "ad_blue"
@@ -62579,6 +63138,11 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -62754,7 +63318,7 @@
         "products": [
             "ad_blue_cannister",
             "premium_unlead",
-            "ultimate_diesel",
+            "regular_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -63129,6 +63693,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "premium_unlead",
             "regular_diesel",
@@ -63380,7 +63945,12 @@
         "facilities": [
             "wild_bean_cafe"
         ],
-        "products": [],
+        "products": [
+            "e10",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CORNER DOHLES ROCKS ROAD\nGRIFFIN\n4503",
@@ -63696,7 +64266,6 @@
             "high_flow_diesel",
             "toilet",
             "barista_coffee",
-            "wild_bean_cafe",
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_unlocked",
@@ -63712,6 +64281,7 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "e10",
             "lpg",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -64041,6 +64611,11 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
+            "e10",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -64214,6 +64789,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -64336,7 +64912,6 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -64360,7 +64935,11 @@
         "postcode": "3844",
         "telephone": "+61 3 5174 1138",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "ultimate_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "23 SHAKESPEARE STREET\nTRARALGON\n3844",
@@ -64404,7 +64983,12 @@
             "bpme_technically_enabled",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "466 MT BARKER ROAD\nBRIDGEWATER\n5155",
@@ -64698,7 +65282,9 @@
         "postcode": "7250",
         "telephone": "+61 3 6331 8455",
         "facilities": [],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "GLEADOW STREET\nLAUNCESTON\n7250",
@@ -64717,7 +65303,11 @@
         "postcode": "7320",
         "telephone": "+61 3 6431 6922",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "4 RIVER STREET\nWIVENHOE\n7320",
@@ -64736,7 +65326,11 @@
         "postcode": "6317",
         "telephone": "+61 8 9865 1221",
         "facilities": [],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CNR DORE & DROVE STREETS\nKATANNING\n6317",
