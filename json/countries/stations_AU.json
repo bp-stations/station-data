@@ -7754,7 +7754,7 @@
     },
     {
         "id": "AU-1075",
-        "name": "bp ALTONA NORTH - Opening Soon",
+        "name": "bp ALTONA NORTH",
         "lat": -37.8391,
         "lng": 144.825,
         "site_brand": "BP",
@@ -7775,12 +7775,9 @@
             "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
+            "high_speed_pump"
         ],
         "products": [
             "premium_unlead",
@@ -9229,42 +9226,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "44 Cooper Street\nMacksville\n2447",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-1141",
-        "name": "BP WILTON",
-        "lat": -34.2404,
-        "lng": 150.6992,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "1109 Argyle Street",
-        "city": "Wilton",
-        "state": "NSW",
-        "postcode": "2571",
-        "telephone": "+61 2 4630 9455",
-        "facilities": [
-            "gift_card",
-            "takeaway_food_offer",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "loyalty",
-            "pump_rewards",
-            "restaurant",
-            "takeaway_food"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "e10",
-            "premium_unlead",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1109 Argyle Street\nWilton\n2571",
         "channel_of_trade": null
     },
     {
@@ -12225,7 +12186,10 @@
         "state": "SA",
         "postcode": "5255",
         "telephone": "+61 8 8349 5868",
-        "facilities": [],
+        "facilities": [
+            "loyalty",
+            "pump_rewards"
+        ],
         "products": [
             "regular_diesel"
         ],
@@ -12582,7 +12546,12 @@
         "state": "SA",
         "postcode": "5214",
         "telephone": "+61 8 8555 2889",
-        "facilities": [],
+        "facilities": [
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards"
+        ],
         "products": [
             "premium_unlead",
             "regular_diesel",
@@ -45142,33 +45111,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-7227",
-        "name": "OTR MORPHETT VALE OUTBOUND",
-        "lat": -35.1238,
-        "lng": 138.5237,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "140 MAIN SOUTH ROAD",
-        "city": "Morphett Vale",
-        "state": "SA",
-        "postcode": "5162",
-        "telephone": "+61 8 8200 5819",
-        "facilities": [
-            "open_24_hours",
-            "gift_card"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "ultimate_unleaded",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "140 MAIN SOUTH ROAD\nMorphett Vale\n5162",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-7228",
         "name": "BP OTR CHRISTIES BEACH DYSON RD",
         "lat": -35.1298,
@@ -63296,36 +63238,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "14A VICTOR HARBOUR ROAD\nMOUNT COMPASS\n5210",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-9749",
-        "name": "BP OTR MILDURA",
-        "lat": -34.2061,
-        "lng": 142.136454,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "463 DEAKIN AVE",
-        "city": "MILDURA",
-        "state": "VIC",
-        "postcode": "3500",
-        "telephone": "+61 1300 130 027",
-        "facilities": [
-            "open_24_hours",
-            "gift_card",
-            "cash_point"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "premium_unlead",
-            "regular_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "463 DEAKIN AVE\nMILDURA\n3500",
         "channel_of_trade": null
     },
     {
