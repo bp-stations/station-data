@@ -6756,7 +6756,7 @@
         "city": "WILLOUGHBY",
         "state": "NSW",
         "postcode": "2068",
-        "telephone": "+61 2 9417 6713",
+        "telephone": "+61 2 9093 4777",
         "facilities": [
             "gift_card",
             "cash_point",
@@ -7266,6 +7266,7 @@
         "postcode": "3892",
         "telephone": "+61 451 514 209",
         "facilities": [
+            "bp_rewards_unlocked",
             "pump_rewards"
         ],
         "products": [
@@ -7918,6 +7919,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -8996,6 +8998,7 @@
         "postcode": "3029",
         "telephone": "+61 3 8353 2106",
         "facilities": [
+            "open_24_hours",
             "gift_card",
             "cash_point",
             "toilet",
@@ -10310,6 +10313,47 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-1205",
+        "name": "X CONVENIENCE ALKIMOS",
+        "lat": -31.6216,
+        "lng": 115.6888,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "768 Montana Crescent",
+        "city": "Alkimos",
+        "state": "WA",
+        "postcode": "6038",
+        "telephone": "+61 8 9562 4320",
+        "facilities": [
+            "gift_card",
+            "rigid_access",
+            "cash_point",
+            "toilet",
+            "wifi",
+            "barista_coffee",
+            "takeaway_food_offer",
+            "food_offer_instore",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "restaurant",
+            "takeaway_food"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "lpg",
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "768 Montana Crescent\nAlkimos\n6038",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-1206",
         "name": "X CONVENIENCE ANGLE VALE",
         "lat": -34.6381,
@@ -10343,6 +10387,7 @@
             "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -12290,11 +12335,13 @@
             "restaurant"
         ],
         "products": [
+            "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -17789,7 +17836,9 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "unlead",
             "ad_blue"
         ],
@@ -35321,6 +35370,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -45108,6 +45158,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "112 COMMERCIAL ROAD\nSeaford\n5169",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-7227",
+        "name": "OTR MORPHETT VALE OUTBOUND",
+        "lat": -35.1238,
+        "lng": 138.5237,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "140 MAIN SOUTH ROAD",
+        "city": "Morphett Vale",
+        "state": "SA",
+        "postcode": "5162",
+        "telephone": "+61 8 8200 5819",
+        "facilities": [
+            "open_24_hours",
+            "gift_card"
+        ],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "140 MAIN SOUTH ROAD\nMorphett Vale\n5162",
         "channel_of_trade": null
     },
     {
@@ -57788,6 +57865,7 @@
             "ad_blue_cannister",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -63238,6 +63316,37 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "14A VICTOR HARBOUR ROAD\nMOUNT COMPASS\n5210",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-9749",
+        "name": "BP OTR MILDURA",
+        "lat": -34.2061,
+        "lng": 142.136454,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "463 DEAKIN AVE",
+        "city": "MILDURA",
+        "state": "VIC",
+        "postcode": "3500",
+        "telephone": "+61 1300 130 027",
+        "facilities": [
+            "open_24_hours",
+            "gift_card",
+            "cash_point"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "463 DEAKIN AVE\nMILDURA\n3500",
         "channel_of_trade": null
     },
     {
