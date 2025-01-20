@@ -6313,6 +6313,7 @@
         "telephone": "+44 1296 621400",
         "facilities": [
             "alcohol",
+            "car_wash",
             "cash_point",
             "bistro",
             "accepts_routex_cards",
@@ -10252,6 +10253,7 @@
         "telephone": "+44 1274 616998",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "jet_wash",
             "cash_point",
             "bistro",
@@ -13038,11 +13040,13 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -14563,6 +14567,34 @@
         "channel_of_trade": null
     },
     {
+        "id": "GB-2133654",
+        "name": "BP GLENCAIRN SERVICE STATION",
+        "lat": 55.599707,
+        "lng": -4.496462,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "LOW GLENCAIRN STREET",
+        "city": "KILMARNOCK",
+        "state": null,
+        "postcode": "KA1 4DQ",
+        "telephone": "+44 1563 572570",
+        "facilities": [
+            "open_24_hours",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "LOW GLENCAIRN STREET\nKILMARNOCK\nKA1 4DQ",
+        "channel_of_trade": null
+    },
+    {
         "id": "GB-2134719925",
         "name": "HUTTON MOUNT SF CONNECT",
         "lat": 51.631193,
@@ -15802,12 +15834,21 @@
         "facilities": [
             "jet_wash",
             "cash_point",
-            "accepts_routex_cards"
+            "bistro",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
+            "diesel_on",
             "lpg",
-            "red_diesel"
+            "red_diesel",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -16620,6 +16661,7 @@
         "telephone": "+44 141 952 7552",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "jet_wash",
             "bunker_site",
             "disabled_facilities",
@@ -17059,6 +17101,7 @@
         "telephone": "+44 1353 864545",
         "facilities": [
             "alcohol",
+            "car_wash",
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
@@ -22595,7 +22638,6 @@
         "telephone": "+44 1444 230606",
         "facilities": [
             "alcohol",
-            "car_wash",
             "jet_wash",
             "bunker_site",
             "high_speed_pump",
@@ -23668,6 +23710,7 @@
         "telephone": "+44 1228 560434",
         "facilities": [
             "alcohol",
+            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_parking",
@@ -23709,6 +23752,7 @@
         "telephone": "+44 1328 878332",
         "facilities": [
             "alcohol",
+            "car_wash",
             "jet_wash",
             "bunker_site",
             "high_speed_pump",
@@ -23854,6 +23898,39 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "102-104 Leigh Road\nWIMBORNE\nBH21 2AE",
+        "channel_of_trade": null
+    },
+    {
+        "id": "GB-3844",
+        "name": "CROMWELL ROAD SOUTH SF CONNECT",
+        "lat": 51.491007,
+        "lng": -0.239092,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "Great West Road",
+        "city": "HAMMERSMITH",
+        "state": null,
+        "postcode": "W6 9TQ",
+        "telephone": "+44 1994 238176",
+        "facilities": [
+            "alcohol",
+            "toilet",
+            "bakery_bistro",
+            "bistro",
+            "ms_simply_food",
+            "wild_bean_cafe",
+            "preorder_enabled",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday",
+            "mobile_enabled"
+        ],
+        "products": [
+            "electricity"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Great West Road\nHAMMERSMITH\nW6 9TQ",
         "channel_of_trade": null
     },
     {
@@ -24451,7 +24528,6 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
-            "car_wash",
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
@@ -25502,6 +25578,7 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
+            "car_wash",
             "jet_wash",
             "cash_point",
             "bakery_bistro",
@@ -29441,6 +29518,7 @@
         "postcode": "TD6 0EW",
         "telephone": "+44 1835 822241",
         "facilities": [
+            "car_wash",
             "jet_wash",
             "bunker_site",
             "high_speed_pump",
@@ -30739,6 +30817,7 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
+            "car_wash",
             "jet_wash",
             "truck_suitable_site",
             "cash_point",
@@ -32915,6 +32994,7 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
+            "car_wash",
             "jet_wash",
             "truck_suitable_site",
             "cash_point",
@@ -33861,6 +33941,7 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
+            "car_wash",
             "bunker_site",
             "high_speed_pump",
             "truck_parking",
@@ -36574,6 +36655,7 @@
         "postcode": "CA7 9PZ",
         "telephone": "+44 16973 45234",
         "facilities": [
+            "car_wash",
             "jet_wash",
             "cash_point",
             "bistro",
@@ -37942,7 +38024,6 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
-            "car_wash",
             "bunker_site",
             "truck_suitable_site",
             "cash_point",
@@ -38561,6 +38642,7 @@
         "telephone": "+44 1768 862175",
         "facilities": [
             "alcohol",
+            "car_wash",
             "jet_wash",
             "cash_point",
             "bakery_bistro",
@@ -39056,6 +39138,7 @@
         "telephone": "+44 1970 828330",
         "facilities": [
             "alcohol",
+            "car_wash",
             "jet_wash",
             "toilet",
             "bistro",
@@ -42028,8 +42111,6 @@
             "ad_blue_cannister",
             "diesel_on",
             "red_diesel",
-            "ultimate",
-            "ultimate_diesel",
             "unleaded_95"
         ],
         "website": null,
@@ -42977,43 +43058,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "GB-594273109",
-        "name": "CROSBY MOOR SERVICE STATION",
-        "lat": 54.930716,
-        "lng": -2.844954,
-        "site_brand": "BP",
-        "country_code": "GB",
-        "address": "CROSBY MOOR",
-        "city": "CARLISLE",
-        "state": null,
-        "postcode": "CA6 4QX",
-        "telephone": "+44 1228 582664",
-        "facilities": [
-            "alcohol",
-            "disabled_facilities",
-            "toilet",
-            "bakery_bistro",
-            "bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "CROSBY MOOR\nCARLISLE\nCA6 4QX",
-        "channel_of_trade": null
-    },
-    {
         "id": "GB-600125927",
         "name": "BEVERLEY WEST - PS4027",
         "lat": 53.843659,
@@ -43512,6 +43556,7 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
+            "car_wash",
             "jet_wash",
             "cash_point",
             "disabled_facilities",
@@ -44039,14 +44084,12 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -45667,28 +45710,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "A631/A15 Caenby Corner\nMARKET RASEN\nLN8 2AS",
-        "channel_of_trade": null
-    },
-    {
-        "id": "GB-837825899",
-        "name": "RAINWORTH",
-        "lat": 53.11944,
-        "lng": -1.10268,
-        "site_brand": "BP",
-        "country_code": "GB",
-        "address": "KIRKLINGTON ROAD",
-        "city": "RAINWORTHNOTTINGHAMSHIRE",
-        "state": null,
-        "postcode": "NG21 0JX",
-        "telephone": "+44 1623 794255",
-        "facilities": [
-            "tobacco",
-            "shop"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "KIRKLINGTON ROAD\nRAINWORTHNOTTINGHAMSHIRE\nNG21 0JX",
         "channel_of_trade": null
     },
     {
