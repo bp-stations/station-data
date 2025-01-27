@@ -140,7 +140,6 @@
         "telephone": "+61 3 5825 3273",
         "facilities": [
             "gift_card",
-            "national_diesel_offer",
             "bdouble_access",
             "rigid_access",
             "truck_suitable_site",
@@ -2190,6 +2189,7 @@
             "high_flow_diesel",
             "cash_point",
             "toilet",
+            "wild_bean_cafe",
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
@@ -6879,7 +6879,6 @@
         "facilities": [
             "gift_card",
             "trailers",
-            "national_diesel_offer",
             "bdouble_access",
             "truck_parking",
             "truck_suitable_site",
@@ -9622,6 +9621,7 @@
         "telephone": "",
         "facilities": [
             "open_24_hours",
+            "national_diesel_offer",
             "bdouble_access",
             "rigid_access",
             "road_train_access",
@@ -9889,6 +9889,7 @@
             "open_24_hours",
             "gift_card",
             "trailers",
+            "national_diesel_offer",
             "bdouble_access",
             "rigid_access",
             "road_train_access",
@@ -9946,6 +9947,7 @@
             "open_24_hours",
             "gift_card",
             "trailers",
+            "national_diesel_offer",
             "bdouble_access",
             "rigid_access",
             "truck_driver_lounge",
@@ -10002,6 +10004,7 @@
         "facilities": [
             "open_24_hours",
             "gift_card",
+            "national_diesel_offer",
             "rigid_access",
             "truck_parking",
             "high_flow_diesel",
@@ -10153,7 +10156,6 @@
         "postcode": "7468",
         "telephone": "+61 3 6471 7218",
         "facilities": [
-            "national_diesel_offer",
             "bdouble_access",
             "rigid_access",
             "truck_suitable_site",
@@ -10817,6 +10819,7 @@
         "postcode": "5094",
         "telephone": "+61 8 8262 3539",
         "facilities": [
+            "national_diesel_offer",
             "rigid_access",
             "high_flow_diesel",
             "ultra_high_flow_diesel",
@@ -10834,11 +10837,13 @@
             "high_speed_pump"
         ],
         "products": [
+            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -11433,6 +11438,7 @@
         "postcode": "5355",
         "telephone": "+61 8 8262 3539",
         "facilities": [
+            "national_diesel_offer",
             "bdouble_access",
             "rigid_access",
             "road_train_access",
@@ -11454,11 +11460,13 @@
             "high_speed_pump"
         ],
         "products": [
+            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -11638,6 +11646,7 @@
         "telephone": "+61 8 8327 6005",
         "facilities": [
             "car_wash",
+            "national_diesel_offer",
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_unlocked",
@@ -11647,10 +11656,12 @@
             "takeaway_food"
         ],
         "products": [
+            "ad_blue_pump",
             "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -12922,6 +12933,7 @@
         "postcode": "5094",
         "telephone": "+61 8 8349 5868",
         "facilities": [
+            "national_diesel_offer",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "loyalty",
@@ -14062,6 +14074,7 @@
             "gift_card",
             "truck_suitable_site",
             "high_flow_diesel",
+            "wild_bean_cafe",
             "takeaway_food_offer",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
@@ -18407,6 +18420,7 @@
             "cash_point",
             "toilet",
             "barista_coffee",
+            "wild_bean_cafe",
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
@@ -37981,58 +37995,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-6178",
-        "name": "BP KWINANA HUB",
-        "lat": -32.244496,
-        "lng": 115.812657,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "CNR GILMORE AVE AND CHISAM ST",
-        "city": "PARMELIA",
-        "state": "WA",
-        "postcode": "6167",
-        "telephone": "+61 8 9419 1558",
-        "facilities": [
-            "open_24_hours",
-            "gift_card",
-            "trailers",
-            "high_flow_diesel",
-            "cash_point",
-            "toilet",
-            "western_union",
-            "barista_coffee",
-            "wild_bean_cafe",
-            "takeaway_food_offer",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "bp_rewards_unlocked_convenience",
-            "preorder_enabled",
-            "loyalty",
-            "pump_rewards",
-            "loyalty_home_delivery",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "ahg",
-            "restaurant",
-            "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "lpg",
-            "premium_unlead",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "CNR GILMORE AVE AND CHISAM ST\nPARMELIA\n6167",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-6180",
         "name": "BP Maida Vale",
         "lat": -31.9536,
@@ -41209,50 +41171,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-6722",
-        "name": "AA CARLTON",
-        "lat": -31.8971,
-        "lng": 115.8411,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "150 ROYAL STREET",
-        "city": "TUART HILL",
-        "state": "WA",
-        "postcode": "6060",
-        "telephone": "+61 8 9344 1833",
-        "facilities": [
-            "loyalty",
-            "pump_rewards"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "150 ROYAL STREET\nTUART HILL\n6060",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-6723",
-        "name": "AA NORLANE",
-        "lat": -31.8552,
-        "lng": 115.8782,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "3 CARSON STREET",
-        "city": "MALAGA",
-        "state": "WA",
-        "postcode": "6090",
-        "telephone": "+61 8 9248 2671",
-        "facilities": [
-            "loyalty",
-            "pump_rewards"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "3 CARSON STREET\nMALAGA\n6090",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-6738",
         "name": "BP Shinju Broome",
         "lat": -17.9636,
@@ -41335,25 +41253,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "603-615 SALISBURY HIGHWAY\nMAWSON LAKES\n5095",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-6745",
-        "name": "BETTER CHOICE STRATTON LPG",
-        "lat": -31.8697,
-        "lng": 116.0342,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "7 O'CONNOR ROAD",
-        "city": "STRATTON",
-        "state": "WA",
-        "postcode": "6056",
-        "telephone": "+61 8 9250 8808",
-        "facilities": [],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "7 O'CONNOR ROAD\nSTRATTON\n6056",
         "channel_of_trade": null
     },
     {
@@ -41783,7 +41682,6 @@
         "telephone": "+61 8 9921 0100",
         "facilities": [
             "open_24_hours",
-            "national_diesel_offer",
             "bdouble_access",
             "rigid_access",
             "road_train_access",
@@ -51765,7 +51663,6 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
-            "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -55830,6 +55727,7 @@
         "telephone": "+61 447 868 586",
         "facilities": [
             "open_24_hours",
+            "national_diesel_offer",
             "outdoor_payment_terminal",
             "pump_rewards"
         ],
@@ -56049,25 +55947,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "134 ANZAC HIGHWAY\nGLANDORE\n5037",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-7978",
-        "name": "BETTER CHOICE MARGARET RIVER",
-        "lat": -33.9597,
-        "lng": 115.0767,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "211 BUSSELL HIGHWAY",
-        "city": "MARGARET RIVER",
-        "state": "WA",
-        "postcode": "6285",
-        "telephone": "",
-        "facilities": [],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "211 BUSSELL HIGHWAY\nMARGARET RIVER\n6285",
         "channel_of_trade": null
     },
     {
@@ -64425,6 +64304,7 @@
             "high_flow_diesel",
             "toilet",
             "barista_coffee",
+            "wild_bean_cafe",
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_unlocked",

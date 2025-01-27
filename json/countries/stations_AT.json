@@ -1,5 +1,26 @@
 [
     {
+        "id": "AT-100607468",
+        "name": "ST-GLEISDORF, WILFERSDORF 104",
+        "lat": 47.10694,
+        "lng": 15.66365,
+        "site_brand": "BP",
+        "country_code": "AT",
+        "address": "Wilfersdorf 104",
+        "city": "Gleisdorf-Wilfersdorf",
+        "state": null,
+        "postcode": "8200",
+        "telephone": "+43 664 6384247",
+        "facilities": [
+            "accepts_routex_cards"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Wilfersdorf 104\nGleisdorf-Wilfersdorf\n8200",
+        "channel_of_trade": null
+    },
+    {
         "id": "AT-1059253911",
         "name": "Neuhofen an der Krems, Linzer Str. 41",
         "lat": 48.143874,
@@ -437,6 +458,7 @@
         "postcode": "4822",
         "telephone": "+43 6135 8313",
         "facilities": [
+            "car_wash",
             "toilet",
             "restaurant",
             "accepts_routex_cards",
@@ -911,6 +933,7 @@
         "postcode": "5084",
         "telephone": "+43 6247 8071",
         "facilities": [
+            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
@@ -1294,7 +1317,6 @@
         "facilities": [
             "open_24_hours",
             "tobacco",
-            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -1457,8 +1479,6 @@
             "ad_blue_cannister",
             "diesel_on",
             "red_diesel",
-            "ultimate",
-            "ultimate_diesel",
             "unleaded_95"
         ],
         "website": null,
@@ -1981,7 +2001,6 @@
         "telephone": "+43 3333 24899",
         "facilities": [
             "tobacco",
-            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "truck_wash",
@@ -2061,6 +2080,7 @@
         "postcode": "6353",
         "telephone": "+43 5358 43949",
         "facilities": [
+            "car_wash",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
@@ -2201,6 +2221,7 @@
         "telephone": "+43 2236 710698",
         "facilities": [
             "tobacco",
+            "car_wash",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
@@ -2562,6 +2583,7 @@
         "telephone": "+43 4247 2747",
         "facilities": [
             "tobacco",
+            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
@@ -4161,6 +4183,33 @@
         "channel_of_trade": null
     },
     {
+        "id": "AT-485588722",
+        "name": "N-KIRCHBERG/WAG,KREMSERSTR 2-4",
+        "lat": 48.4307556,
+        "lng": 15.9026631,
+        "site_brand": "BP",
+        "country_code": "AT",
+        "address": "Kremser Stra\u00dfe 2-4",
+        "city": "Kirchberg am Wagram",
+        "state": null,
+        "postcode": "3470",
+        "telephone": "+43 2279 2287",
+        "facilities": [
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Kremser Stra\u00dfe 2-4\nKirchberg am Wagram\n3470",
+        "channel_of_trade": null
+    },
+    {
         "id": "AT-486",
         "name": "Kemmelbach, Autobahn A1, Rasthausstr. 10",
         "lat": 48.1551024,
@@ -5237,7 +5286,6 @@
         "telephone": "+43 3682 22650",
         "facilities": [
             "tobacco",
-            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -5313,6 +5361,7 @@
         "facilities": [
             "open_24_hours",
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -5530,43 +5579,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AT-661791168",
-        "name": "FEISTRITZ/DRAU,TAUERNAUTOB",
-        "lat": 46.683606,
-        "lng": 13.671874,
-        "site_brand": "BP",
-        "country_code": "AT",
-        "address": "Tauernautobahn A-10",
-        "city": "Feistritz an der Drau",
-        "state": null,
-        "postcode": "9710",
-        "telephone": "+43 4245 4402",
-        "facilities": [
-            "open_24_hours",
-            "wifi",
-            "motorway_site",
-            "shop",
-            "wild_bean_cafe",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Tauernautobahn A-10\nFeistritz an der Drau\n9710",
-        "channel_of_trade": null
-    },
-    {
         "id": "AT-668",
         "name": "Trieben, Industriepark 2 an der A9/E57",
         "lat": 47.4938,
@@ -5759,13 +5771,11 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
             "diesel_on",
             "red_diesel",
             "ultimate",
             "ultimate_diesel",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
