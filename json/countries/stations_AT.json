@@ -10,11 +10,17 @@
         "city": "Gleisdorf-Wilfersdorf",
         "state": null,
         "postcode": "8200",
-        "telephone": "+43 664 6384247",
+        "telephone": "+43 3112 29991",
         "facilities": [
             "accepts_routex_cards"
         ],
-        "products": [],
+        "products": [
+            "diesel_on",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Wilfersdorf 104\nGleisdorf-Wilfersdorf\n8200",
@@ -1531,7 +1537,6 @@
         "postcode": "8793",
         "telephone": "+43 3847 2933",
         "facilities": [
-            "car_wash",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
@@ -2001,6 +2006,7 @@
         "telephone": "+43 3333 24899",
         "facilities": [
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "truck_wash",
@@ -2080,7 +2086,6 @@
         "postcode": "6353",
         "telephone": "+43 5358 43949",
         "facilities": [
-            "car_wash",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
@@ -2583,7 +2588,6 @@
         "telephone": "+43 4247 2747",
         "facilities": [
             "tobacco",
-            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
@@ -4200,6 +4204,7 @@
             "open_sunday"
         ],
         "products": [
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded"
@@ -5286,6 +5291,7 @@
         "telephone": "+43 3682 22650",
         "facilities": [
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -5361,7 +5367,6 @@
         "facilities": [
             "open_24_hours",
             "tobacco",
-            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -7823,7 +7828,6 @@
         "postcode": "5602",
         "telephone": "+43 6413 8289",
         "facilities": [
-            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
@@ -7888,40 +7892,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Bundesstra\u00dfe 2\nSt. Johann im Pongau\n5600",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AT-840757079",
-        "name": "T-INNSBRUCK, HALLERSTR. 100",
-        "lat": 47.277588,
-        "lng": 11.424257,
-        "site_brand": "BP",
-        "country_code": "AT",
-        "address": "Hallerstra\u00dfe 100",
-        "city": "Innsbruck",
-        "state": null,
-        "postcode": "6020",
-        "telephone": "+43 512 209094",
-        "facilities": [
-            "car_wash",
-            "shop",
-            "wild_bean_cafe",
-            "accepts_routex_cards",
-            "accepts_toll_payments",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Hallerstra\u00dfe 100\nInnsbruck\n6020",
         "channel_of_trade": null
     },
     {
@@ -8422,6 +8392,7 @@
         "telephone": "+43 3135 57199",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
