@@ -2161,6 +2161,31 @@
         "channel_of_trade": null
     },
     {
+        "id": "ES-1174588774",
+        "name": "CARTAGENA",
+        "lat": 37.6287,
+        "lng": -1.0029,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "Avd. Juan Carlos I 85",
+        "city": "Cartagena",
+        "state": null,
+        "postcode": "30310",
+        "telephone": "+34 629 69 09 97",
+        "facilities": [
+            "accepts_routex_cards"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Avd. Juan Carlos I 85\n30310\nCartagena",
+        "channel_of_trade": null
+    },
+    {
         "id": "ES-1190648712",
         "name": "bp GEOVER MASIDE",
         "lat": 42.428297,
@@ -3577,8 +3602,6 @@
             "disabled_facilities",
             "toilet",
             "motorway_site",
-            "bistro",
-            "petit_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -6890,7 +6913,7 @@
         "city": "CASTELLON DE LA PLANA",
         "state": null,
         "postcode": "12005",
-        "telephone": "+34 607 59 08 59",
+        "telephone": "+34 964 22 85 38",
         "facilities": [
             "disabled_facilities",
             "toilet",
@@ -9333,17 +9356,21 @@
             "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
+            "bistro",
+            "petit_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -17456,7 +17483,7 @@
         "lng": -1.1609,
         "site_brand": "BP",
         "country_code": "ES",
-        "address": "CR N-301, MAD-CARTAG. KM 389,688",
+        "address": "CR N-301 MAD-CARTAGENA KM. 389,7",
         "city": "ESPINARDO",
         "state": null,
         "postcode": "30100",
@@ -17485,7 +17512,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "CR N-301, MAD-CARTAG. KM 389,688\n30100\nESPINARDO",
+        "formatted_address": "CR N-301 MAD-CARTAGENA KM. 389,7\n30100\nESPINARDO",
         "channel_of_trade": null
     },
     {
@@ -22099,6 +22126,7 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
             "ultimate",
@@ -22301,7 +22329,7 @@
         "city": "VILA-REAL",
         "state": null,
         "postcode": "12540",
-        "telephone": "+34 607 59 08 59",
+        "telephone": "+34 964 52 07 63",
         "facilities": [
             "alcohol",
             "tobacco",
