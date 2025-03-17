@@ -1241,7 +1241,7 @@
         "city": "PAIPORTA",
         "state": null,
         "postcode": "46200",
-        "telephone": "+34 963 18 69 11",
+        "telephone": "+34 961 20 49 31",
         "facilities": [
             "alcohol",
             "tobacco",
@@ -3032,6 +3032,29 @@
         "channel_of_trade": null
     },
     {
+        "id": "ES-1305545999",
+        "name": "PUERTO MELILLA",
+        "lat": 35.292322,
+        "lng": -2.933614,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "Avenida General Mac\u00eda 4",
+        "city": "Melilla",
+        "state": null,
+        "postcode": "52001",
+        "telephone": "+34 690 12 21 42",
+        "facilities": [
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Avenida General Mac\u00eda 4\n52001\nMelilla",
+        "channel_of_trade": null
+    },
+    {
         "id": "ES-1307255935",
         "name": "bp A3 PERALES DE TAJUNA",
         "lat": 40.2313,
@@ -4195,39 +4218,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "ES-1456590799",
-        "name": "bp SANT JULIA CENTRE",
-        "lat": 42.4685654,
-        "lng": 1.4924636,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "AVINGUDA ROCAFORT 19",
-        "city": "SANT JULI\u00c0 DE L\u00d2RIA",
-        "state": null,
-        "postcode": "AD600",
-        "telephone": "376874908",
-        "facilities": [
-            "alcohol",
-            "tobacco",
-            "disabled_facilities",
-            "toilet",
-            "supermarket",
-            "bakery_bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "AVINGUDA ROCAFORT 19\nAD600\nSANT JULI\u00c0 DE L\u00d2RIA",
-        "channel_of_trade": null
-    },
-    {
         "id": "ES-1497182792",
         "name": "bp KM 13 ARINAGA",
         "lat": 27.87501,
@@ -4525,6 +4515,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CARRETERA N-525 KM. 84,5.\n49396\nCOBREROS",
+        "channel_of_trade": null
+    },
+    {
+        "id": "ES-1573928344",
+        "name": "VEHICLES-VILLA REAL",
+        "lat": 39.9296,
+        "lng": -0.0972,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "CTRA. VELL DE BORRIANA, KM, 80",
+        "city": "VILLA-REAL",
+        "state": null,
+        "postcode": "12540",
+        "telephone": "+34 647 56 12 10",
+        "facilities": [
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "CTRA. VELL DE BORRIANA, KM, 80\n12540\nVILLA-REAL",
         "channel_of_trade": null
     },
     {
@@ -16747,9 +16764,13 @@
             "accepts_routex_cards"
         ],
         "products": [
+            "ad_blue_pump",
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -21280,7 +21301,7 @@
         "city": "PULIANAS",
         "state": null,
         "postcode": "18197",
-        "telephone": "+34 625 57 54 25",
+        "telephone": "+34 958 15 30 09",
         "facilities": [
             "open_24_hours",
             "alcohol",
@@ -22217,6 +22238,36 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CR. MU-513, KM. 2\n30550\nABARAN (MURCIA)",
+        "channel_of_trade": null
+    },
+    {
+        "id": "ES-485286910",
+        "name": "E.S. BP CIUDAD ARCOBRIGA",
+        "lat": 41.30725,
+        "lng": -2.1228055,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "CR NACIONAL II KM 186",
+        "city": "MONREAL DE ARIZA",
+        "state": null,
+        "postcode": "50291",
+        "telephone": "+34 695 92 47 38",
+        "facilities": [
+            "open_24_hours",
+            "motorway_site",
+            "bistro",
+            "petit_bistro",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "CR NACIONAL II KM 186\n50291\nMONREAL DE ARIZA",
         "channel_of_trade": null
     },
     {
@@ -26995,8 +27046,8 @@
     {
         "id": "ES-861017255",
         "name": "bp POLIGONO",
-        "lat": 35.2971,
-        "lng": -2.9465,
+        "lat": 35.296627,
+        "lng": -2.946045,
         "site_brand": "BP",
         "country_code": "ES",
         "address": "CL GARCIA CABRELLES 39",
@@ -27603,8 +27654,8 @@
     {
         "id": "ES-944753737",
         "name": "bp GENERAL ASTILLEROS",
-        "lat": 35.2753,
-        "lng": -2.9371,
+        "lat": 35.276323,
+        "lng": -2.937376,
         "site_brand": "BP",
         "country_code": "ES",
         "address": "CL GRAL. ASTILLEROS esq AVDA EUROPA",
