@@ -4198,7 +4198,7 @@
     },
     {
         "id": "DE-12138100",
-        "name": "J\u00fcrgen Hammelmann",
+        "name": "Selami Sirin",
         "lat": 49.964873,
         "lng": 8.017713,
         "site_brand": "ARAL Tankstelle",
@@ -4216,7 +4216,6 @@
             "recup",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -8930,7 +8929,6 @@
         "postcode": "23775",
         "telephone": "+49 4367 206",
         "facilities": [
-            "recup",
             "shop",
             "loyalty",
             "open_saturday",
@@ -10045,7 +10043,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -10942,7 +10939,8 @@
         ],
         "products": [
             "super_e5",
-            "truck_diesel"
+            "truck_diesel",
+            "hvo"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/13132900",
         "watchlist_id": "13132900",
@@ -12095,6 +12093,7 @@
             "super_e5",
             "e10",
             "truck_diesel",
+            "hvo",
             "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/13137800",
@@ -12557,7 +12556,6 @@
         "telephone": "+49 4367 207",
         "facilities": [
             "open_24_hours",
-            "recup",
             "shop",
             "loyalty",
             "open_saturday",
@@ -13192,6 +13190,7 @@
         "telephone": "+49 4181 5110",
         "facilities": [
             "open_24_hours",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -13208,7 +13207,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/13146500",
         "watchlist_id": "13146500",
@@ -15117,7 +15117,6 @@
         "postcode": "57072",
         "telephone": "+49 271 331480",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "shop",
             "bistro",
@@ -15354,7 +15353,6 @@
         "telephone": "+49 2306 41069",
         "facilities": [
             "car_wash",
-            "recup",
             "shop",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -16991,7 +16989,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -19856,6 +19853,7 @@
             "super_e5",
             "e10",
             "truck_diesel",
+            "hvo",
             "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/14173400",
@@ -20879,8 +20877,8 @@
     {
         "id": "DE-15005300",
         "name": "Beatrix Lohse",
-        "lat": 49.199268,
-        "lng": 9.2335713,
+        "lat": 49.198842,
+        "lng": 9.231751,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
         "address": "Neuenst\u00e4dter Stra\u00dfe 93",
@@ -20938,6 +20936,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -20956,7 +20955,8 @@
             "ultimate_diesel",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/15005900",
         "watchlist_id": "15005900",
@@ -21784,7 +21784,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -22327,7 +22326,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -23432,8 +23430,8 @@
     {
         "id": "DE-15118500",
         "name": "Beatrix Lohse",
-        "lat": 49.198825,
-        "lng": 9.232065,
+        "lat": 49.199519,
+        "lng": 9.233668,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
         "address": "Neuenst\u00e4dter Stra\u00dfe 96",
@@ -28739,7 +28737,6 @@
         "postcode": "37235",
         "telephone": "+49 5602 914088",
         "facilities": [
-            "open_24_hours",
             "electric_charging",
             "truck_parking",
             "recup",
@@ -30312,41 +30309,6 @@
         "watchlist_id": "17032000",
         "formatted_address": "Schlitzer Stra\u00dfe 105\n36039\nFulda",
         "channel_of_trade": "DOFO"
-    },
-    {
-        "id": "DE-17033200",
-        "name": "Bellersheim Tankstellen GmbH&Co. KG",
-        "lat": 50.741588,
-        "lng": 8.207649,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "L\u00f6hrstra\u00dfe 6",
-        "city": "Haiger",
-        "state": null,
-        "postcode": "35708",
-        "telephone": "+49 2773 5895",
-        "facilities": [
-            "car_wash",
-            "shop",
-            "bistro",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "lpg",
-            "ad_blue",
-            "super_e5",
-            "super_98",
-            "e10",
-            "truck_diesel"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/17033200",
-        "watchlist_id": "17033200",
-        "formatted_address": "L\u00f6hrstra\u00dfe 6\n35708\nHaiger",
-        "channel_of_trade": "JOUB"
     },
     {
         "id": "DE-17033600",
@@ -32156,6 +32118,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -32174,7 +32137,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/18000100",
         "watchlist_id": "18000100",
@@ -34621,7 +34585,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -50792,7 +50755,6 @@
         "telephone": "+49 5461 9951818",
         "facilities": [
             "car_wash",
-            "recup",
             "shop",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -51662,7 +51624,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -52039,7 +52000,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -52123,7 +52083,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -53143,7 +53102,6 @@
         "telephone": "+49 2389 4791",
         "facilities": [
             "car_wash",
-            "recup",
             "shop",
             "too_good_to_go",
             "pay_at_pump_supported",
@@ -54081,7 +54039,6 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
-            "recup",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -55842,7 +55799,6 @@
             "open_24_hours",
             "car_wash",
             "electric_charging",
-            "recup",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -56197,7 +56153,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "cash_point",
             "shop",
             "too_good_to_go",
@@ -57781,7 +57736,6 @@
         "postcode": "79111",
         "telephone": "+49 761 21720504",
         "facilities": [
-            "recup",
             "cash_point",
             "rewe_to_go",
             "too_good_to_go",
@@ -61737,7 +61691,6 @@
         "postcode": "09126",
         "telephone": "+49 371 33471632",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -71465,7 +71418,6 @@
         "telephone": "+49 5321 81468",
         "facilities": [
             "car_wash",
-            "recup",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -71642,7 +71594,7 @@
     },
     {
         "id": "DE-28228900",
-        "name": "Marcel G\u00fcldner",
+        "name": "Orcun Diril",
         "lat": 51.489325,
         "lng": 6.784194,
         "site_brand": "ARAL Tankstelle",
@@ -71658,10 +71610,8 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -75910,7 +75860,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -82273,7 +82222,7 @@
     },
     {
         "id": "DE-28628900",
-        "name": "Jan R\u00f6nfeldt GmbH",
+        "name": "Tankstelle Jan R\u00f6nfeldt GmbH",
         "lat": 54.12896,
         "lng": 10.58002,
         "site_brand": "ARAL Tankstelle",
