@@ -9376,7 +9376,11 @@
         "postcode": "7249",
         "telephone": "+61 3 6344 5084",
         "facilities": [
-            "outdoor_payment_terminal"
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "pump_rewards"
         ],
         "products": [
             "ad_blue_pump",
@@ -10322,6 +10326,7 @@
         "postcode": "5117",
         "telephone": "084860116",
         "facilities": [
+            "open_24_hours",
             "gift_card",
             "rigid_access",
             "high_flow_diesel",
@@ -12243,7 +12248,7 @@
         "lng": 138.7223,
         "site_brand": "BP",
         "country_code": "AU",
-        "address": "1338 Golden Grove Road",
+        "address": "1380 Golden Grove Road",
         "city": "Golden Grove",
         "state": "SA",
         "postcode": "5125",
@@ -12272,7 +12277,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "1338 Golden Grove Road\n5125\nGolden Grove",
+        "formatted_address": "1380 Golden Grove Road\n5125\nGolden Grove",
         "channel_of_trade": null
     },
     {
@@ -13485,6 +13490,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CNR PACIFIC HWY & FITZROY ST\n2477\nWARDELL",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1360",
+        "name": "OPT MOONIE CROSSING",
+        "lat": -27.7177,
+        "lng": 150.3703,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "1 CORNER OF LEICHHARDT",
+        "city": "MOONIE",
+        "state": "QLD",
+        "postcode": "4406",
+        "telephone": "+61 424 980 049",
+        "facilities": [
+            "truck_suitable_site",
+            "outdoor_payment_terminal",
+            "truck_only"
+        ],
+        "products": [
+            "ad_blue_pump",
+            "regular_diesel",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1 CORNER OF LEICHHARDT\n4406\nMOONIE",
         "channel_of_trade": null
     },
     {
@@ -30393,6 +30425,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -32613,6 +32646,7 @@
         "products": [
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
         ],
@@ -34793,64 +34827,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-5783",
-        "name": "BP NORTHPOINT TRUCKSTOP",
-        "lat": -37.64751,
-        "lng": 144.9935,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "1 SCANLON DRIVE",
-        "city": "EPPING",
-        "state": "VIC",
-        "postcode": "3076",
-        "telephone": "+61 3 9401 1881",
-        "facilities": [
-            "open_24_hours",
-            "gift_card",
-            "hand_wash",
-            "trailers",
-            "national_diesel_offer",
-            "bdouble_access",
-            "rigid_access",
-            "truck_driver_lounge",
-            "truck_parking",
-            "truck_suitable_site",
-            "high_flow_diesel",
-            "weigh_bridge",
-            "cash_point",
-            "shower",
-            "toilet",
-            "barista_coffee",
-            "takeaway_food_offer",
-            "fast_food",
-            "food_offer_instore",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "loyalty",
-            "pump_rewards",
-            "truck_only",
-            "washing_machine",
-            "restaurant",
-            "takeaway_food",
-            "high_speed_pump"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "lpg",
-            "premium_unlead",
-            "regular_diesel",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1 SCANLON DRIVE\n3076\nEPPING",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-5793",
         "name": "BP SKYE",
         "lat": -38.1085,
@@ -35459,6 +35435,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "lpg",
             "regular_diesel",
@@ -44747,6 +44724,7 @@
         "products": [
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
         ],
@@ -44771,7 +44749,13 @@
             "open_24_hours",
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "325 NORTH EAST RD (CNR FOSTERS RD)\n5086\nHillcrest",
@@ -44793,7 +44777,13 @@
             "open_24_hours",
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "411 GLEN OSMOND ROAD\n5064\nGlen Osmond",
@@ -44851,7 +44841,13 @@
             "open_24_hours",
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "282 GREENHILL RD (CNR CONYNGHAM ST)\n5065\nGlenside",
@@ -44932,7 +44928,13 @@
             "open_24_hours",
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1 FULLARTON ROAD (CNR NORTH TCE)\n5067\nKent Town",
@@ -45361,7 +45363,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "premium_unlead",
-            "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -55169,6 +55171,11 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -55813,6 +55820,7 @@
             "auto_gas",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -56082,6 +56090,7 @@
         "products": [
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
         ],
@@ -58568,6 +58577,7 @@
         "products": [
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
         ],
@@ -58659,6 +58669,7 @@
         "products": [
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
         ],
@@ -58686,6 +58697,7 @@
         "products": [
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
         ],
@@ -59678,6 +59690,7 @@
             "ad_blue_cannister",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -60776,6 +60789,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -63123,7 +63137,6 @@
         "products": [
             "ad_blue_cannister",
             "premium_unlead",
-            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",

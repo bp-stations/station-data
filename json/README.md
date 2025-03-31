@@ -11,27 +11,28 @@ Total station count: 17474
 | NZ | 267
 | AU | 1609
 | ZA | 495
-| ES | 713
+| ES | 714
 | PL | 577
 | GR | 720
-| AT | 263
+| AT | 262
 | DE | 2353
 | FR | 238
-| CH | 331
-| GB | 1200
-| NL | 311
+| CH | 327
+| GB | 1199
+| NL | 309
 | LU | 75
 | PT | 474
-| ID | 65
-| US | 7503
+| ID | 66
+| US | 7509
 | MX | 280
 ## By Brand
 
 | Brand | Count
 | - | - 
-| BP | 14171
+| BP | 14169
 | ARAL Tankstelle | 2277
 | Aral pulse Ladestation | 76
 | RR | 1
 | AR | 67
-| AM | 882
+| AM | 883
+| TH | 1
