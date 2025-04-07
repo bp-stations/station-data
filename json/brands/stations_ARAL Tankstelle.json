@@ -2680,7 +2680,7 @@
         "lng": 7.12788,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "Hunsr\u00fcckh\u00f6henstra\u00dfe",
+        "address": "Hunsr\u00fcckh\u00f6henstra\u00dfe 4",
         "city": "Morbach",
         "state": null,
         "postcode": "54497",
@@ -2704,7 +2704,7 @@
         ],
         "website": "https://tankstelle.aral.de/tankstelle/12077400",
         "watchlist_id": "12077400",
-        "formatted_address": "Hunsr\u00fcckh\u00f6henstra\u00dfe\n54497\nMorbach",
+        "formatted_address": "Hunsr\u00fcckh\u00f6henstra\u00dfe 4\n54497\nMorbach",
         "channel_of_trade": "DODO"
     },
     {
@@ -7071,7 +7071,7 @@
     },
     {
         "id": "DE-12164900",
-        "name": "Autohof Volz GmbH",
+        "name": "DMR Autoh\u00f6fe GmbH",
         "lat": 49.925073,
         "lng": 7.93675,
         "site_brand": "ARAL Tankstelle",
@@ -15653,6 +15653,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "shop",
             "pay_at_pump_supported",
@@ -15669,7 +15670,8 @@
             "ultimate_diesel",
             "lpg",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/14094600",
         "watchlist_id": "14094600",
@@ -15992,7 +15994,7 @@
     },
     {
         "id": "DE-14104100",
-        "name": "Knauf GbR",
+        "name": "Knauf oHG",
         "lat": 51.280864,
         "lng": 6.467419,
         "site_brand": "ARAL Tankstelle",
@@ -26268,7 +26270,7 @@
     },
     {
         "id": "DE-16033000",
-        "name": "TAS&AutoSPA Dienstleistungen GmbH",
+        "name": "M\u00f6nneke Energiehandel GmbH",
         "lat": 52.436544,
         "lng": 9.677426,
         "site_brand": "ARAL Tankstelle",
@@ -26301,7 +26303,7 @@
         "website": "https://tankstelle.aral.de/tankstelle/16033000",
         "watchlist_id": "16033000",
         "formatted_address": "Hannoversche Stra\u00dfe 52\n30855\nLangenhagen",
-        "channel_of_trade": "DODO"
+        "channel_of_trade": "JOBR"
     },
     {
         "id": "DE-16035300",
@@ -28742,6 +28744,7 @@
         "postcode": "37235",
         "telephone": "+49 5602 914088",
         "facilities": [
+            "open_24_hours",
             "electric_charging",
             "truck_parking",
             "recup",
@@ -39439,7 +39442,7 @@
     },
     {
         "id": "DE-19121800",
-        "name": "Wolfgang Gro\u00dfmann",
+        "name": "Christian Zirzlmeier",
         "lat": 48.988226,
         "lng": 12.189362,
         "site_brand": "ARAL Tankstelle",
@@ -39457,10 +39460,8 @@
             "electric_charging",
             "recup",
             "cash_point",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -43322,7 +43323,6 @@
             "lpg",
             "ad_blue",
             "super_e5",
-            "super_98",
             "e10",
             "truck_diesel"
         ],
@@ -44126,6 +44126,8 @@
         "facilities": [
             "car_wash",
             "shop",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
             "loyalty",
             "super_boxes",
             "open_saturday",
@@ -61649,7 +61651,7 @@
     },
     {
         "id": "DE-27022700",
-        "name": "Klaus-Dieter Kopietz",
+        "name": "Anke Spintzyk",
         "lat": 51.151018,
         "lng": 12.286598,
         "site_brand": "ARAL Tankstelle",
@@ -61666,7 +61668,6 @@
             "recup",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -71619,6 +71620,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",

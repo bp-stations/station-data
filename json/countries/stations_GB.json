@@ -1875,7 +1875,7 @@
     },
     {
         "id": "GB-1156449604",
-        "name": "THIRSK SERVICES",
+        "name": "THIRSK SERVICES - FS1092",
         "lat": 54.228543,
         "lng": -1.328401,
         "site_brand": "BP",
@@ -6482,7 +6482,6 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -9532,7 +9531,7 @@
     },
     {
         "id": "GB-1630532168",
-        "name": "TWEEDBANK S/STN",
+        "name": "TWEEDBANK S/STN - FS1095",
         "lat": 55.6028209,
         "lng": -2.7584873,
         "site_brand": "BP",
@@ -11598,7 +11597,7 @@
     },
     {
         "id": "GB-1815278336",
-        "name": "SEWELL ON THE GO WYTONBAR",
+        "name": "BP WYTONBAR",
         "lat": 53.77995,
         "lng": -0.23105,
         "site_brand": "BP",
@@ -18297,7 +18296,7 @@
     },
     {
         "id": "GB-295490907",
-        "name": "WEST SUFFOLK - PS4025",
+        "name": "WEST SUFFOLK - FS1091",
         "lat": 52.236596,
         "lng": 0.796229,
         "site_brand": "BP",
@@ -19751,6 +19750,7 @@
         "telephone": "+44 23 9273 4366",
         "facilities": [
             "alcohol",
+            "jet_wash",
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
@@ -26994,7 +26994,7 @@
     },
     {
         "id": "GB-40457750",
-        "name": "STANTON ST. QUINTON SSTN PS118",
+        "name": "STANTON ST. QUINTON SSTN FS1083",
         "lat": 51.524417,
         "lng": -2.123418,
         "site_brand": "BP",
@@ -30422,7 +30422,7 @@
     },
     {
         "id": "GB-4249",
-        "name": "MARTLESHAM HEATH SERVICES",
+        "name": "MARTLESHAM HEATH SERVICES FS1069",
         "lat": 52.06551,
         "lng": 1.2759,
         "site_brand": "BP",
@@ -34136,7 +34136,7 @@
     },
     {
         "id": "GB-4487",
-        "name": "ROUNDSWELL S/STN PS4037",
+        "name": "ROUNDSWELL S/STN FS1097",
         "lat": 51.06293,
         "lng": -4.08364,
         "site_brand": "BP",
@@ -37041,39 +37041,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "GB-4621",
-        "name": "ST CROSS FILLING STATION",
-        "lat": 51.05377,
-        "lng": -1.32079,
-        "site_brand": "BP",
-        "country_code": "GB",
-        "address": "ST CROSS ROAD",
-        "city": "WINCHESTER",
-        "state": null,
-        "postcode": "SO23 9PS",
-        "telephone": "+44 1962 843392",
-        "facilities": [
-            "bakery_bistro",
-            "bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "ST CROSS ROAD\nSO23 9PS\nWINCHESTER",
-        "channel_of_trade": null
-    },
-    {
         "id": "GB-4622",
         "name": "ST DUNSTANS SELF SERVE",
         "lat": 51.36492,
@@ -37957,7 +37924,7 @@
     },
     {
         "id": "GB-4691",
-        "name": "THANET PS4020",
+        "name": "THANET FS1087",
         "lat": 51.32569,
         "lng": 0.98618,
         "site_brand": "BP",
@@ -38541,7 +38508,7 @@
     },
     {
         "id": "GB-472600492",
-        "name": "STORRINGTON SERVICE STATION",
+        "name": "JBROS STORRINGTON SERVICE STATION",
         "lat": 50.919201,
         "lng": -0.452099,
         "site_brand": "BP",
@@ -41006,17 +40973,29 @@
         "telephone": "+44 1405 763092",
         "facilities": [
             "open_24_hours",
+            "alcohol",
             "car_wash",
+            "jet_wash",
             "bunker_site",
+            "truck_suitable_site",
+            "cash_point",
+            "disabled_facilities",
+            "toilet",
+            "wifi",
             "motorway_site",
             "accepts_routex_cards",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "mobile_enabled"
         ],
         "products": [
+            "ad_blue_cannister",
+            "ad_blue_pump",
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -41205,13 +41184,11 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -44952,7 +44929,7 @@
     },
     {
         "id": "GB-80",
-        "name": "ST IVES SF CONNECT",
+        "name": "HIGHLANDS OF ST IVES",
         "lat": 52.33187,
         "lng": -0.06326,
         "site_brand": "BP",
@@ -45853,6 +45830,42 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Innerleithen Road\nEH45 8AZ\nPEEBLES",
+        "channel_of_trade": null
+    },
+    {
+        "id": "GB-851488074",
+        "name": "BP MOTO SAWTRY MWSA N SAWTRY",
+        "lat": 52.426804,
+        "lng": -0.270622,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "JUNCTION 15 A1",
+        "city": "SAWTRY",
+        "state": null,
+        "postcode": "PE28 5XW",
+        "telephone": "+44 1487 800714",
+        "facilities": [
+            "open_24_hours",
+            "bunker_site",
+            "motorway_site",
+            "bistro",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "ad_blue_pump",
+            "diesel_on",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "JUNCTION 15 A1\nPE28 5XW\nSAWTRY",
         "channel_of_trade": null
     },
     {
