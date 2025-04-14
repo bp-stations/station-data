@@ -1000,7 +1000,6 @@
         "postcode": "3162",
         "telephone": "+61 3 9596 5187",
         "facilities": [
-            "open_24_hours",
             "rigid_access",
             "cash_point",
             "takeaway_food_offer",
@@ -10766,6 +10765,7 @@
             "mobile_enabled"
         ],
         "products": [
+            "bppulse",
             "e10",
             "lpg",
             "premium_unlead",
@@ -12476,7 +12476,7 @@
     },
     {
         "id": "AU-1278",
-        "name": "BP CAVAN",
+        "name": "BP CAVAN TRUCKSTOP",
         "lat": -34.8254,
         "lng": 138.6017,
         "site_brand": "BP",
@@ -12500,6 +12500,7 @@
             "outdoor_payment_terminal",
             "loyalty",
             "pump_rewards",
+            "truck_only",
             "high_speed_pump"
         ],
         "products": [
@@ -12936,7 +12937,7 @@
     },
     {
         "id": "AU-1304",
-        "name": "BP OPT CAVAN",
+        "name": "BP OPT CAVAN TRUCKSTOP",
         "lat": -34.8254,
         "lng": 138.6017,
         "site_brand": "BP",
@@ -12951,7 +12952,8 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "loyalty",
-            "pump_rewards"
+            "pump_rewards",
+            "truck_only"
         ],
         "products": [
             "ad_blue_pump",
@@ -19723,6 +19725,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "bppulse",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -22254,6 +22257,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -32981,6 +32985,7 @@
             "auto_gas",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -42759,17 +42764,13 @@
         "facilities": [
             "gift_card",
             "cash_point",
-            "toilet",
             "barista_coffee",
-            "takeaway_food_offer",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
-            "restaurant",
-            "takeaway_food",
             "mobile_enabled"
         ],
         "products": [
@@ -42877,7 +42878,13 @@
             "open_24_hours",
             "gift_card"
         ],
-        "products": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "139 ANGAS ST (CNR PULTENEY ST)\n5000\nADELAIDE",
