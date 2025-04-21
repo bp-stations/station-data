@@ -7755,6 +7755,34 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-128568",
+        "name": "Amoco",
+        "lat": 33.45745514,
+        "lng": -82.49881187,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "533 Jackson St",
+        "city": "Thomson",
+        "state": "GA",
+        "postcode": "30824",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "533 Jackson St\n30824\nThomson",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-128571",
         "name": "Amoco",
         "lat": 41.64300463,
@@ -7783,8 +7811,8 @@
     {
         "id": "US-128588",
         "name": "Amoco",
-        "lat": 28.393092,
-        "lng": -82.195496,
+        "lat": 28.3931178489,
+        "lng": -82.1954981644,
         "site_brand": "AM",
         "country_code": "US",
         "address": "16135 US Highway 301",
@@ -7793,13 +7821,15 @@
         "postcode": "33523",
         "telephone": "+1 813-455-6980",
         "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [
-            "regular_diesel"
-        ],
+        "products": [],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "16135 US Highway 301\n33523\nDade City",
@@ -8087,6 +8117,34 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "400 Jackson St\n52320\nOlin",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-128637",
+        "name": "Amoco",
+        "lat": 42.34093704,
+        "lng": -83.12790493,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "5605 Livernois Ave",
+        "city": "Detroit",
+        "state": "MI",
+        "postcode": "48210",
+        "telephone": "+1 313-462-4097",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "5605 Livernois Ave\n48210\nDetroit",
         "channel_of_trade": "BJBR"
     },
     {
@@ -10103,6 +10161,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -10512,33 +10571,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2536 Charles Hardy Pkwy\n30157\nDallas",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-128972",
-        "name": "Amoco",
-        "lat": 33.90989999,
-        "lng": -81.20609836,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "109 Wilma Ann Dr",
-        "city": "Lexington",
-        "state": "SC",
-        "postcode": "29073",
-        "telephone": "1111111111",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "109 Wilma Ann Dr\n29073\nLexington",
         "channel_of_trade": "BJBR"
     },
     {
@@ -11506,8 +11538,8 @@
     {
         "id": "US-129070",
         "name": "Amoco",
-        "lat": 42.443836,
-        "lng": -83.220624,
+        "lat": 42.4415398033,
+        "lng": -83.321466772,
         "site_brand": "AM",
         "country_code": "US",
         "address": "18111 W 8 Mile Rd",
@@ -11516,12 +11548,17 @@
         "postcode": "48219",
         "telephone": "+1 313-533-7003",
         "facilities": [
+            "open_24_hours",
+            "toilet",
+            "shop",
             "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "18111 W 8 Mile Rd\n48219\nDetroit",
@@ -11935,7 +11972,7 @@
         "city": "Kansas City",
         "state": "KS",
         "postcode": "66106",
-        "telephone": "+1 440-250-5813",
+        "telephone": "+1 913-359-6767",
         "facilities": [
             "car_wash",
             "workshop",
@@ -12124,18 +12161,16 @@
     {
         "id": "US-129192",
         "name": "Amoco",
-        "lat": 31.1004775663,
-        "lng": -83.7770648734,
+        "lat": 31.2089447746,
+        "lng": -83.7784254315,
         "site_brand": "AM",
         "country_code": "US",
         "address": "1045 GA-33",
         "city": "Moultrie",
         "state": "GA",
         "postcode": "31768",
-        "telephone": "1111111111",
+        "telephone": "+1 201-952-6244",
         "facilities": [
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "loyalty",
@@ -12143,7 +12178,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1045 GA-33\n31768\nMoultrie",
@@ -12680,33 +12717,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "727 E Saint Germain St\n56304\nSt Cloud",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-129310",
-        "name": "Amoco",
-        "lat": 43.4822785943,
-        "lng": -83.9203738443,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "370 N Adams St",
-        "city": "Saginaw",
-        "state": "MI",
-        "postcode": "48604",
-        "telephone": "+1 810-941-4822",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "370 N Adams St\n48604\nSaginaw",
         "channel_of_trade": "BJBR"
     },
     {
@@ -13289,6 +13299,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -13929,10 +13940,9 @@
         "city": "Whitestown",
         "state": "IN",
         "postcode": "46075",
-        "telephone": "+1 317-495-8882",
+        "telephone": "+1 317-768-1055",
         "facilities": [
-            "car_wash",
-            "workshop",
+            "open_24_hours",
             "toilet",
             "shop",
             "loyalty",
@@ -13940,7 +13950,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3873 S 450 E\n46075\nWhitestown",
@@ -14100,6 +14112,7 @@
         "postcode": "48076",
         "telephone": "+1 248-809-3566",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -14453,6 +14466,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "6401 W 8 Mile Rd\n48221\nDetroit",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129892",
+        "name": "Amoco",
+        "lat": 39.77431999,
+        "lng": -86.1964360296,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "2013 W Michigan St",
+        "city": "Indianapolis",
+        "state": "IN",
+        "postcode": "46222",
+        "telephone": "+1 317-602-3380",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2013 W Michigan St\n46222\nIndianapolis",
         "channel_of_trade": "BJBR"
     },
     {
@@ -20196,7 +20236,6 @@
         "postcode": "53140",
         "telephone": "+1 262-425-1685",
         "facilities": [
-            "car_wash",
             "workshop",
             "toilet",
             "shop",
@@ -23230,7 +23269,6 @@
         "postcode": "54984",
         "telephone": "+1 920-622-3561",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
