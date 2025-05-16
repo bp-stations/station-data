@@ -21,7 +21,7 @@ jobs:
       - name: install requirements
         run: pip install -r requirements.txt
       - name: generate all station data
-        run: python main.py
+        run: python fetch_stations.py
       - uses: actions/upload-artifact@v4
         with:
           name: tmp-data
@@ -44,17 +44,21 @@ jobs:
       - name: install requirements
         run: pip install -r requirements.txt
       - name: generate aral.db
-        run: python database.py
+        run: python generate_sqlite3.py
       - name: generate fuel.json
-        run: python generator.py -ff
+        run: python generate_json_sitemap.py -ff
       - name: generate facilities.json
-        run: python generator.py -f
+        run: python generate_json_sitemap.py -f
       - name: generate sitemap.xml
         run: python generator.py -s
       - uses: actions/upload-artifact@v4
         with:
           name: tmp-data-small-files
           path: out/json/other
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tmp-data-sqlite3
+          path: out/sqlite3
 
   generate-ov2:
     needs: [ fetch ]
@@ -73,34 +77,15 @@ jobs:
       - name: install requirements
         run: pip install -r requirements.txt
       - name: generate ov2 files
-        run: python ov2.py auto
+        run: python generate_ov2.py auto
       - uses: actions/upload-artifact@v4
         with:
           name: tmp-data-ov2
           path: out/ov2/
-
-  deploy-cf:
-    needs: [ fetch ]
-    timeout-minutes: 5
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/upload-artifact@v4
         with:
-          name: tmp-data
-          path: out/json
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-          cache: 'pip'
-      - name: install requirements
-        run: pip install -r requirements.txt
-      - name: run d1.py
-        env:
-          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
-          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
-          CF_DATABASE_ID: ${{ secrets.CF_DATABASE_ID }}
-        run: python d1.py
+          name: tmp-data-sitemap
+          path: out/sitemap/
 
   deploy:
     needs: [generate-small-files, generate-ov2]
@@ -119,6 +104,14 @@ jobs:
       with:
         name: tmp-data-ov2
         path: out/ov2/
+    - uses: actions/download-artifact@v4
+      with:
+        name: tmp-data-sqlite3
+        path: out/sqlite3/
+    - uses: actions/download-artifact@v4
+      with:
+        name: tmp-data-sitemap
+        path: out/sitemap/
     - name: create github Release
       uses: fnkr/github-action-ghr@v1
       env:
@@ -132,7 +125,7 @@ jobs:
         publish_dir: out/
 
   cleanup:
-    needs: [deploy, deploy-cf]
+    needs: [deploy]
     permissions:
       actions: write
     timeout-minutes: 5
@@ -144,3 +137,5 @@ jobs:
             tmp-data
             tmp-data-small-files
             tmp-data-ov2
+            tmp-data-sqlite3
+            tmp-data-sitemap

@@ -29,7 +29,7 @@ station_path = (
     .parent.absolute()
     .joinpath("./out/json/brands/stations_ARAL Tankstelle_min.json")
 )
-output_path = Path(__file__).parent.absolute().joinpath("./out/json/other/sitemap.xml")
+output_path = Path(__file__).parent.absolute().joinpath("./out/sitemap/sitemap.xml")
 output_path_facilities = (
     Path(__file__).parent.absolute().joinpath("./out/json/other/facilities.json")
 )
