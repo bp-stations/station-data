@@ -50,7 +50,7 @@ jobs:
       - name: generate facilities.json
         run: python generate_json_sitemap.py -f
       - name: generate sitemap.xml
-        run: python generator.py -s
+        run: python generate_json_sitemap.py -s
       - uses: actions/upload-artifact@v4
         with:
           name: tmp-data-small-files
