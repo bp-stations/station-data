@@ -16,7 +16,7 @@ empty_site = """
     <changefreq>weekly</changefreq>
 </url>"""
 
-base_url = "https://mein-auto-tanken.de/station/{}"
+base_url = "https://mein-auto-tanken.de/station.php?id={}"
 
 
 def load_json(file):
