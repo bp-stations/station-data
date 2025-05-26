@@ -59,6 +59,10 @@ jobs:
         with:
           name: tmp-data-sqlite3
           path: out/sqlite3
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tmp-data-sitemap
+          path: out/sitemap/
 
   generate-ov2:
     needs: [ fetch ]
@@ -82,10 +86,6 @@ jobs:
         with:
           name: tmp-data-ov2
           path: out/ov2/
-      - uses: actions/upload-artifact@v4
-        with:
-          name: tmp-data-sitemap
-          path: out/sitemap/
 
   deploy:
     needs: [generate-small-files, generate-ov2]
@@ -117,7 +117,6 @@ jobs:
       env:
         GHR_PATH: out/
         GITHUB_TOKEN: ${{ secrets.SECRET }}
-
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3
       with:
