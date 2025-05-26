@@ -738,11 +738,9 @@
         "postcode": "3550",
         "telephone": "+61 3 5441 2977",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "national_diesel_offer",
             "high_flow_diesel",
-            "cash_point",
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
@@ -1639,7 +1637,9 @@
             "high_speed_pump"
         ],
         "products": [
-            "regular_diesel"
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
         ],
         "website": null,
         "watchlist_id": null,
@@ -11911,7 +11911,7 @@
         "city": "Hackham",
         "state": "SA",
         "postcode": "5163",
-        "telephone": "084640679",
+        "telephone": "+61 8 8464 0679",
         "facilities": [
             "open_24_hours",
             "gift_card",
@@ -13320,9 +13320,11 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -22873,6 +22875,7 @@
         ],
         "products": [
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead"
@@ -23945,9 +23948,9 @@
         "postcode": "3975",
         "telephone": "+61 3 9702 8599",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "trailers",
+            "truck_suitable_site",
             "high_flow_diesel",
             "cash_point",
             "toilet",
@@ -23967,11 +23970,13 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_cannister",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -36706,7 +36711,7 @@
     },
     {
         "id": "AU-6279",
-        "name": "BP GERAGHTY'S ENGINEERING-Temporary Closed",
+        "name": "BP GERAGHTY'S ENGINEERING",
         "lat": -30.9146,
         "lng": 118.2048,
         "site_brand": "BP",
