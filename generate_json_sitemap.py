@@ -12,8 +12,7 @@ empty_sitemap_end = "</urlset>"
 empty_site = """
 <url>
     <loc>{}</loc>
-    <lastmod>{}</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>hourly</changefreq>
 </url>"""
 
 base_url = "https://mein-auto-tanken.de/station.php?id={}"
@@ -40,11 +39,10 @@ output_path_fuel = (
 
 def generate_sitemap():
     station_data = load_json(station_path)
-    now = datetime.now().strftime("%Y-%m-%dT00:00:00+00:00")
     with open(output_path, "w+") as f:
         f.write(empty_sitemap_start)
         for station in station_data:
-            f.write(empty_site.format(base_url.format(station["id"]), now))
+            f.write(empty_site.format(base_url.format(station["id"])))
         f.write(empty_sitemap_end)
 
 
