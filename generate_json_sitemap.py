@@ -42,7 +42,7 @@ def generate_sitemap():
     with open(output_path, "w+") as f:
         f.write(empty_sitemap_start)
         for station in station_data:
-            f.write(empty_site.format(base_url.format(station["id"])))
+            f.write(empty_site.format(base_url.format(station["watchlist_id"])))
         f.write(empty_sitemap_end)
 
 
