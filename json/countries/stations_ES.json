@@ -918,6 +918,56 @@
         "channel_of_trade": null
     },
     {
+        "id": "ES-1042072231",
+        "name": "BP FUENTES DE ONORO II",
+        "lat": 40.59483,
+        "lng": -6.81089,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "N-620 KM 351,5 MI",
+        "city": "Fuentes de O\u00f1oro",
+        "state": null,
+        "postcode": "37480",
+        "telephone": "+34 636 09 42 18",
+        "facilities": [
+            "accepts_routex_cards"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "N-620 KM 351,5 MI\n37480\nFuentes de O\u00f1oro",
+        "channel_of_trade": null
+    },
+    {
+        "id": "ES-1043057851",
+        "name": "FUENTES DE ONORO I",
+        "lat": 40.59268,
+        "lng": -6.79735,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "N-620 KM 351,5 MD",
+        "city": "Fuentes de O\u00f1oro",
+        "state": null,
+        "postcode": "37480",
+        "telephone": "+34 636 09 42 18",
+        "facilities": [
+            "accepts_routex_cards"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "N-620 KM 351,5 MD\n37480\nFuentes de O\u00f1oro",
+        "channel_of_trade": null
+    },
+    {
         "id": "ES-1043413861",
         "name": "bp PUENTE LABANDA",
         "lat": 36.416169,
@@ -2386,7 +2436,7 @@
         "city": "ASPE",
         "state": null,
         "postcode": "03680",
-        "telephone": "+34 965 48 37 25",
+        "telephone": "+34 607 14 44 89",
         "facilities": [
             "open_24_hours",
             "car_wash",
@@ -3716,9 +3766,11 @@
         "city": "Ontinyent",
         "state": null,
         "postcode": "46870",
-        "telephone": "+34 978 78 02 33",
+        "telephone": "+34 961 16 39 26",
         "facilities": [
-            "accepts_routex_cards"
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
             "ultimate",
@@ -8570,7 +8622,7 @@
         "city": "NOVELDA",
         "state": null,
         "postcode": "03660",
-        "telephone": "+34 965 60 00 01",
+        "telephone": "+34 607 14 44 89",
         "facilities": [
             "tobacco",
             "car_wash",
@@ -12057,7 +12109,7 @@
         "city": "NOVELDA",
         "state": null,
         "postcode": "03660",
-        "telephone": "+34 965 60 78 78",
+        "telephone": "+34 607 14 44 89",
         "facilities": [
             "tobacco",
             "jet_wash",
@@ -15398,7 +15450,7 @@
         "city": "BOCAIRENT",
         "state": null,
         "postcode": "46880",
-        "telephone": "+34 962 35 09 83",
+        "telephone": "+34 607 14 44 89",
         "facilities": [
             "tobacco",
             "truck_suitable_site",
@@ -15406,9 +15458,7 @@
             "bakery_bistro",
             "bistro",
             "petit_bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
+            "accepts_routex_cards"
         ],
         "products": [
             "ad_blue_cannister",
@@ -15601,7 +15651,6 @@
         "postcode": "28044",
         "telephone": "+34 915 11 01 57",
         "facilities": [
-            "open_24_hours",
             "alcohol",
             "tobacco",
             "disabled_facilities",
@@ -17521,7 +17570,7 @@
         "city": "MONFORTE- ALICANTE",
         "state": null,
         "postcode": "03670",
-        "telephone": "+34 965 07 56 06",
+        "telephone": "+34 607 14 44 89",
         "facilities": [
             "car_wash",
             "jet_wash",
@@ -17531,9 +17580,7 @@
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
+            "accepts_routex_cards"
         ],
         "products": [
             "ad_blue_cannister",
@@ -17603,6 +17650,7 @@
         "postcode": "04620",
         "telephone": "+34 601 63 07 52",
         "facilities": [
+            "open_24_hours",
             "alcohol",
             "tobacco",
             "car_wash",
@@ -23182,10 +23230,10 @@
         "site_brand": "BP",
         "country_code": "ES",
         "address": "Cam\u00ed la Mar",
-        "city": "Pu\u00e7ol",
+        "city": "Pucol",
         "state": null,
         "postcode": "46530",
-        "telephone": "+34 607 59 08 59",
+        "telephone": "+34 963 46 19 89",
         "facilities": [
             "accepts_routex_cards",
             "open_saturday",
@@ -23198,7 +23246,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "Cam\u00ed la Mar\n46530\nPu\u00e7ol",
+        "formatted_address": "Cam\u00ed la Mar\n46530\nPucol",
         "channel_of_trade": null
     },
     {
@@ -23602,6 +23650,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "hvo",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -26178,11 +26227,13 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -27131,7 +27182,6 @@
         "postcode": "28300",
         "telephone": "+34 918 98 67 37",
         "facilities": [
-            "open_24_hours",
             "alcohol",
             "tobacco",
             "truck_suitable_site",
