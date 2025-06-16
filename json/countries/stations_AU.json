@@ -1971,9 +1971,8 @@
             "gift_card",
             "cash_point",
             "toilet",
-            "western_union",
+            "barista_coffee",
             "wild_bean_cafe",
-            "takeaway_food_offer",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_unlocked_convenience",
@@ -1982,8 +1981,6 @@
             "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
-            "restaurant",
-            "takeaway_food",
             "mobile_enabled"
         ],
         "products": [
@@ -8785,7 +8782,7 @@
         "city": "Bowen",
         "state": "QLD",
         "postcode": "4805",
-        "telephone": "+61 7 4786 1438",
+        "telephone": "+61 469 711 553",
         "facilities": [
             "cash_point",
             "takeaway_food_offer",
@@ -8803,7 +8800,9 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -13605,6 +13604,35 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1316 GYMPIE ROAD\n4034\nASPLEY",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1408",
+        "name": "BP NELSON VIC",
+        "lat": -38.0475,
+        "lng": 141.0082,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "6537/6541 Portland-Nelson Rd",
+        "city": "Nelson",
+        "state": "VIC",
+        "postcode": "3292",
+        "telephone": "+61 8 8738 4142",
+        "facilities": [
+            "barista_coffee",
+            "takeaway_food_offer",
+            "loyalty",
+            "restaurant",
+            "takeaway_food"
+        ],
+        "products": [
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "6537/6541 Portland-Nelson Rd\n3292\nNelson",
         "channel_of_trade": null
     },
     {
@@ -18812,7 +18840,6 @@
         "facilities": [
             "open_24_hours",
             "gift_card",
-            "trailers",
             "bdouble_access",
             "truck_suitable_site",
             "high_flow_diesel",
@@ -19583,6 +19610,7 @@
             "gift_card",
             "cash_point",
             "toilet",
+            "barista_coffee",
             "wild_bean_cafe",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
@@ -20063,7 +20091,7 @@
     },
     {
         "id": "AU-2284",
-        "name": "BP OPT WONONGA",
+        "name": "BP OPT WODONGA",
         "lat": -36.1174,
         "lng": 146.8935,
         "site_brand": "BP",
@@ -22445,62 +22473,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "25 FULHAM STREET\n4313\nTOOGOOLAWAH",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-3189",
-        "name": "BP SOUTH SHEPPARTON",
-        "lat": -36.4071,
-        "lng": 145.3942,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "8044 GOULBURN VALLEY HIGHWAY",
-        "city": "KIALLA",
-        "state": "VIC",
-        "postcode": "3631",
-        "telephone": "+61 3 5823 2070",
-        "facilities": [
-            "gift_card",
-            "trailers",
-            "national_diesel_offer",
-            "bdouble_access",
-            "rigid_access",
-            "road_train_access",
-            "truck_parking",
-            "truck_suitable_site",
-            "high_flow_diesel",
-            "toilet",
-            "barista_coffee",
-            "wild_bean_cafe",
-            "takeaway_food_offer",
-            "food_offer_instore",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "bp_rewards_unlocked_convenience",
-            "preorder_enabled",
-            "loyalty",
-            "pump_rewards",
-            "loyalty_home_delivery",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "truck_only",
-            "restaurant",
-            "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_pump",
-            "lpg",
-            "premium_unlead",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "8044 GOULBURN VALLEY HIGHWAY\n3631\nKIALLA",
         "channel_of_trade": null
     },
     {
@@ -34419,6 +34391,7 @@
             "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
             "high_speed_pump"
         ],
         "products": [
@@ -48951,7 +48924,9 @@
         "telephone": "+61 8 9418 3206",
         "facilities": [],
         "products": [
-            "regular_diesel"
+            "ad_blue_pump",
+            "regular_diesel",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,

@@ -122,8 +122,8 @@
     {
         "id": "GR-6853",
         "name": "GALANAKI - SARIDAKI",
-        "lat": 35.3070137631,
-        "lng": 25.1370040125,
+        "lat": 35.30701376,
+        "lng": 25.13700401,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "ULOF PALME 150",
@@ -321,8 +321,8 @@
     {
         "id": "GR-8708",
         "name": "MAYROYDIS DIMITRIOS",
-        "lat": 37.1341806099,
-        "lng": 26.8530503299,
+        "lat": 37.13418061,
+        "lng": 26.85305033,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "LAKKI-LEROS",
@@ -654,8 +654,8 @@
     {
         "id": "GR-G012",
         "name": "GEORGIADIS I.-GEORGIADIS CH. O",
-        "lat": 40.776363218,
-        "lng": 22.4207325891,
+        "lat": 40.77636322,
+        "lng": 22.42073259,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "1 km N.R.GIANNITSA-SALONICA",
@@ -1568,21 +1568,21 @@
         "country_code": "GR",
         "address": "54. ZIMVRAKAKIDON Str.",
         "city": "CHANIA. CRETA Isl.",
-        "state": "",
+        "state": null,
         "postcode": "73100",
         "telephone": "+30 2821 086058",
         "facilities": [
-            "open_saturday",
-            "open_sunday",
             "car_wash",
             "wifi",
-            "shop"
+            "shop",
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
-            "ultimate_unleaded",
+            "ultimate",
             "ultimate_102",
-            "unleaded_95",
-            "ultimate"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -1940,21 +1940,21 @@
         "country_code": "GR",
         "address": "Leof. Vasileos Konstantinou 28",
         "city": "Koropi",
-        "state": "",
+        "state": null,
         "postcode": "19400",
         "telephone": "+30 21 3040 2138",
         "facilities": [
-            "open_saturday",
-            "open_sunday",
             "car_wash",
             "wifi",
-            "shop"
+            "shop",
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
-            "ultimate_unleaded",
+            "ultimate",
             "ultimate_diesel",
-            "unleaded_95",
-            "ultimate"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -2256,13 +2256,12 @@
         "city": "CHAIDARI",
         "state": null,
         "postcode": "12462",
-        "telephone": "+30 698 040 0146",
+        "telephone": "+30 21 0532 5890",
         "facilities": [
             "open_24_hours",
             "car_wash",
             "wifi",
             "shop",
-            "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
         ],
@@ -3364,8 +3363,8 @@
     {
         "id": "GR-G194",
         "name": "YIOI KON/NOY GIANNAKAKI OE",
-        "lat": 35.3199508098,
-        "lng": 25.0974337318,
+        "lat": 35.31995081,
+        "lng": 25.09743373,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "1O XLM EO IRAKLEIOY - PAGNI",
@@ -3707,19 +3706,19 @@
         "country_code": "GR",
         "address": "11th km KOZANI-PTOLEMAIDA",
         "city": "KOZANI",
-        "state": "",
+        "state": null,
         "postcode": "50100",
         "telephone": "+30 2461 096238",
         "facilities": [
-            "open_saturday",
             "car_wash",
-            "shop"
+            "shop",
+            "open_saturday"
         ],
         "products": [
-            "ultimate_diesel",
+            "ultimate",
             "ultimate_102",
-            "unleaded_95",
-            "ultimate"
+            "ultimate_diesel",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -4317,21 +4316,21 @@
         "country_code": "GR",
         "address": "289. IOANNINON Ave.",
         "city": "PREVEZA",
-        "state": "",
+        "state": null,
         "postcode": "48100",
         "telephone": "+30 2682 026751",
         "facilities": [
-            "open_saturday",
             "car_wash",
-            "shop"
+            "shop",
+            "open_saturday"
         ],
         "products": [
-            "ultimate_unleaded",
-            "ultimate_diesel",
-            "ultimate_102",
-            "unleaded_95",
+            "lpg",
             "ultimate",
-            "lpg"
+            "ultimate_102",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -4585,8 +4584,8 @@
     {
         "id": "GR-G275",
         "name": "KAPETANAKIS EM.KON/NOS MIKE",
-        "lat": 35.4868386521,
-        "lng": 24.0616405723,
+        "lat": 35.48683865,
+        "lng": 24.06164057,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "12. PAPANASTASIOU STR.",
@@ -6762,8 +6761,8 @@
     {
         "id": "GR-G447",
         "name": "HASIRIDIS - KIANTIKIDIS",
-        "lat": 40.2881675915,
-        "lng": 23.1427712744,
+        "lat": 40.28816759,
+        "lng": 23.14277127,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "SOZOPOLI",
@@ -8052,8 +8051,8 @@
     {
         "id": "GR-G806",
         "name": "KORNARAKIS PARASCHOS",
-        "lat": 35.143963796,
-        "lng": 25.2651702247,
+        "lat": 35.1439638,
+        "lng": 25.26517022,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "EL.VENIZELOY.MIAOULI&MINOOS",
@@ -8739,8 +8738,8 @@
     {
         "id": "GR-G840",
         "name": "YGRAERIA KYKLADON ABEE",
-        "lat": 37.4486659074,
-        "lng": 25.3454575238,
+        "lat": 37.44866591,
+        "lng": 25.34545752,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "BOTHONAS MYKONOY",
@@ -9148,8 +9147,8 @@
     {
         "id": "GR-G861",
         "name": "KIBPREXIDIS CH.&SIA E.E.",
-        "lat": 40.2763493236,
-        "lng": 22.5390656114,
+        "lat": 40.27634932,
+        "lng": 22.53906561,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "6. MAKEDONIAS STR.",
@@ -10100,15 +10099,19 @@
         "site_brand": "BP",
         "country_code": "GR",
         "address": "EO Mitilinis Kallonis",
-        "city": " Lesvos",
-        "state": "",
+        "city": "Lesvos",
+        "state": null,
         "postcode": "811 07",
         "telephone": "",
-        "facilities": [],
+        "facilities": [
+            "open_24_hours",
+            "open_saturday",
+            "open_sunday"
+        ],
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "EO Mitilinis Kallonis\n811 07\n Lesvos",
+        "formatted_address": "EO Mitilinis Kallonis\n811 07\nLesvos",
         "channel_of_trade": null
     },
     {
@@ -10286,8 +10289,8 @@
     {
         "id": "GR-G910",
         "name": "TOKAS ATHANASIOS",
-        "lat": 40.1846955941,
-        "lng": 22.4820887624,
+        "lat": 40.18469559,
+        "lng": 22.48208876,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "DION",
@@ -10815,8 +10818,8 @@
     {
         "id": "GR-Q031",
         "name": "BIZANIS PANAGIOTIS",
-        "lat": 37.9541718449,
-        "lng": 23.6479588055,
+        "lat": 37.95417184,
+        "lng": 23.64795881,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "51. RETSINA Str.",
@@ -10851,21 +10854,21 @@
         "country_code": "GR",
         "address": "AL.PAPAGOU Str.&7. AGIAS LAVRAS S",
         "city": "ATHENS",
-        "state": "",
+        "state": null,
         "postcode": "15773",
         "telephone": "+30 21 0771 4465",
         "facilities": [
             "open_24_hours",
-            "open_saturday",
-            "open_sunday",
             "car_wash",
             "wifi",
-            "shop"
+            "shop",
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
+            "ultimate",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ultimate"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -10875,8 +10878,8 @@
     {
         "id": "GR-Q034",
         "name": "DRAKAKIS EMMANOUEL",
-        "lat": 37.9493946322,
-        "lng": 23.7441126033,
+        "lat": 37.94939463,
+        "lng": 23.7441126,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "164. ILIOUPOLEOS STR.",
@@ -10970,22 +10973,22 @@
         "country_code": "GR",
         "address": "Leof. Mesogeion 374",
         "city": "Ag. Paraskevi",
-        "state": "",
+        "state": null,
         "postcode": "153 41",
         "telephone": "+30 21 0831 8310",
         "facilities": [
             "open_24_hours",
-            "open_saturday",
-            "open_sunday",
             "wifi",
-            "shop"
+            "shop",
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
-            "ultimate_unleaded",
-            "ultimate_diesel",
+            "ultimate",
             "ultimate_102",
-            "unleaded_95",
-            "ultimate"
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -11001,18 +11004,18 @@
         "country_code": "GR",
         "address": "72. ACHARNON Str.",
         "city": "KIFISIA",
-        "state": "",
+        "state": null,
         "postcode": "14561",
         "telephone": "+30 21 4410 1195",
         "facilities": [
-            "open_saturday",
             "car_wash",
-            "shop"
+            "shop",
+            "open_saturday"
         ],
         "products": [
+            "ultimate",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ultimate"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -11022,8 +11025,8 @@
     {
         "id": "GR-Q040",
         "name": "AUTOMARIN AE",
-        "lat": 37.9891712644,
-        "lng": 23.7483931117,
+        "lat": 37.98917126,
+        "lng": 23.74839311,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "LEOF. ALEXANDRAS 97",
@@ -11240,7 +11243,7 @@
         "lng": 23.74506723,
         "site_brand": "BP",
         "country_code": "GR",
-        "address": "20. VAS.GEORGIOU B' Str.",
+        "address": "20. VAS.GEORGIOU B Str.",
         "city": "ATHENS",
         "state": null,
         "postcode": "11635",
@@ -11259,7 +11262,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "20. VAS.GEORGIOU B' Str.\n11635\nATHENS",
+        "formatted_address": "20. VAS.GEORGIOU B Str.\n11635\nATHENS",
         "channel_of_trade": null
     },
     {
@@ -11619,7 +11622,7 @@
         "city": "CHAIDARI",
         "state": null,
         "postcode": "12462",
-        "telephone": "+30 698 040 0146",
+        "telephone": "+30 21 0532 5199",
         "facilities": [
             "car_wash",
             "shop",
@@ -12131,26 +12134,26 @@
     {
         "id": "GR-Q093",
         "name": "CALIPSO K.E.A. S.A. 103",
-        "lat": 38.0059845432,
-        "lng": 23.6759233182,
+        "lat": 38.00598454,
+        "lng": 23.67592332,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "370. ATHINON Ave.",
         "city": "PERISTERI",
-        "state": "",
+        "state": null,
         "postcode": "12136",
         "telephone": "+30 21 0559 1341",
         "facilities": [
-            "open_saturday",
-            "open_sunday",
             "wifi",
-            "shop"
+            "shop",
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
-            "ultimate_unleaded",
+            "ultimate",
             "ultimate_diesel",
-            "unleaded_95",
-            "ultimate"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -12249,8 +12252,8 @@
     {
         "id": "GR-Q107",
         "name": "THLIVITIS KONSTANTINOS",
-        "lat": 37.9573516969,
-        "lng": 23.8574865842,
+        "lat": 37.9573517,
+        "lng": 23.85748658,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "96. LAVRIOU Ave.",
@@ -12822,24 +12825,24 @@
     {
         "id": "GR-Q149",
         "name": "KATSAOYNI PANAGIOTA",
-        "lat": 40.8867289322,
-        "lng": 26.1572548857,
+        "lat": 40.88672893,
+        "lng": 26.15725489,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "FERRES",
         "city": "FERES",
-        "state": "",
+        "state": null,
         "postcode": "68500",
         "telephone": "+30 2555 022724",
         "facilities": [
-            "open_saturday",
             "car_wash",
             "wifi",
-            "shop"
+            "shop",
+            "open_saturday"
         ],
         "products": [
-            "unleaded_95",
-            "ultimate"
+            "ultimate",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -13355,8 +13358,8 @@
     {
         "id": "GR-Q188",
         "name": "CALIPSO K.E.A. S.A. 192",
-        "lat": 35.331480165,
-        "lng": 25.1118797922,
+        "lat": 35.33148017,
+        "lng": 25.11187979,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "176. 62 MARTIRON Ave.",
@@ -14573,8 +14576,8 @@
     {
         "id": "GR-Q281",
         "name": "PAPADIMITRIOU ANTONIA&SIA E.",
-        "lat": 37.9271806237,
-        "lng": 22.9967897068,
+        "lat": 37.92718062,
+        "lng": 22.99678971,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "ISTHMOS",
@@ -15094,8 +15097,8 @@
     {
         "id": "GR-Q331",
         "name": "VASTIS JAMES",
-        "lat": 37.0558304231,
-        "lng": 22.0681383688,
+        "lat": 37.05583042,
+        "lng": 22.06813837,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "85. ATHINON Ave.",
@@ -15245,8 +15248,8 @@
     {
         "id": "GR-Q347",
         "name": "IOANNIDIS ALEXANDROS",
-        "lat": 40.7994179979,
-        "lng": 22.0488229261,
+        "lat": 40.799418,
+        "lng": 22.04882293,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "17. EGNATIA Str.",
@@ -15814,8 +15817,8 @@
     {
         "id": "GR-Q396",
         "name": "MPOUNAKI KIRIAKOULA",
-        "lat": 40.2445797735,
-        "lng": 23.2859639561,
+        "lat": 40.24457977,
+        "lng": 23.28596396,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "13. THESSALONIKIS Str.",
@@ -17713,8 +17716,8 @@
     {
         "id": "GR-Q580",
         "name": "STAVROPOULOS P.THEOFANIS",
-        "lat": 38.1511389017,
-        "lng": 22.3500252985,
+        "lat": 38.1511389,
+        "lng": 22.3500253,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "AKRATA",
@@ -17858,8 +17861,8 @@
     {
         "id": "GR-Q590",
         "name": "PITSABAS THEODOROS",
-        "lat": 40.5242606501,
-        "lng": 22.4031180297,
+        "lat": 40.52426065,
+        "lng": 22.40311803,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "MELIKI",
@@ -18238,8 +18241,8 @@
     {
         "id": "GR-Q622",
         "name": "CALIPSO K.E.A. S.A. 089",
-        "lat": 37.9637843874,
-        "lng": 23.7270533743,
+        "lat": 37.96378439,
+        "lng": 23.72705337,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "51. KALLIROIS Ave.",
@@ -18570,8 +18573,8 @@
     {
         "id": "GR-Q651",
         "name": "TSAPARIDIS ABRAAM",
-        "lat": 35.0094358212,
-        "lng": 25.1552098384,
+        "lat": 35.00943582,
+        "lng": 25.15520984,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "PYRGOS",
@@ -19520,8 +19523,8 @@
     {
         "id": "GR-Q771",
         "name": "K. GIANNAKAKI Sons O.E.",
-        "lat": 35.3288763638,
-        "lng": 25.0960771324,
+        "lat": 35.32887636,
+        "lng": 25.09607713,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "5th km N.R.IRAKLIO-MOIRES",
@@ -19993,8 +19996,8 @@
     {
         "id": "GR-Q822",
         "name": "NTORTSIS GEORGIOS KAI YIOI OE",
-        "lat": 40.4595619669,
-        "lng": 21.2643523759,
+        "lat": 40.45956197,
+        "lng": 21.26435238,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "ARGOS ORESTIKO",
@@ -20199,7 +20202,6 @@
         "facilities": [
             "car_wash",
             "shop",
-            "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
         ],
@@ -20300,8 +20302,8 @@
     {
         "id": "GR-Q864",
         "name": "TOKAS ATHANASIOS",
-        "lat": 40.1846955941,
-        "lng": 22.4820887624,
+        "lat": 40.18469559,
+        "lng": 22.48208876,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "KARITSA",

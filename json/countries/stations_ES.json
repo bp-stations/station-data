@@ -919,7 +919,7 @@
     },
     {
         "id": "ES-1042072231",
-        "name": "BP FUENTES DE ONORO II",
+        "name": "FUENTES DE ONORO II",
         "lat": 40.59483,
         "lng": -6.81089,
         "site_brand": "BP",
@@ -2436,7 +2436,7 @@
         "city": "ASPE",
         "state": null,
         "postcode": "03680",
-        "telephone": "+34 607 14 44 89",
+        "telephone": "+34 962 35 09 83",
         "facilities": [
             "open_24_hours",
             "car_wash",
@@ -3773,9 +3773,11 @@
             "open_sunday"
         ],
         "products": [
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -8622,7 +8624,7 @@
         "city": "NOVELDA",
         "state": null,
         "postcode": "03660",
-        "telephone": "+34 607 14 44 89",
+        "telephone": "+34 962 35 09 83",
         "facilities": [
             "tobacco",
             "car_wash",
@@ -9459,6 +9461,8 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "bistro",
+            "petit_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -12109,7 +12113,7 @@
         "city": "NOVELDA",
         "state": null,
         "postcode": "03660",
-        "telephone": "+34 607 14 44 89",
+        "telephone": "+34 965 60 39 77",
         "facilities": [
             "tobacco",
             "jet_wash",
@@ -12629,6 +12633,8 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "bistro",
+            "petit_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -15372,7 +15378,6 @@
         "postcode": "28610",
         "telephone": "+34 918 98 69 27",
         "facilities": [
-            "open_24_hours",
             "alcohol",
             "tobacco",
             "jet_wash",
@@ -15450,7 +15455,7 @@
         "city": "BOCAIRENT",
         "state": null,
         "postcode": "46880",
-        "telephone": "+34 607 14 44 89",
+        "telephone": "+34 962 35 09 83",
         "facilities": [
             "tobacco",
             "truck_suitable_site",
@@ -16648,7 +16653,11 @@
         "postcode": "30592",
         "telephone": "+34 968 58 03 63",
         "facilities": [
-            "accepts_routex_cards"
+            "bistro",
+            "petit_bistro",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
             "ad_blue_pump",
@@ -17260,11 +17269,13 @@
         "city": "STA FE ( GRANADA)",
         "state": null,
         "postcode": "18320",
-        "telephone": "+34 858 99 84 33",
+        "telephone": "+34 958 99 03 32",
         "facilities": [
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
+            "bistro",
+            "petit_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -17372,7 +17383,6 @@
         "postcode": "45760",
         "telephone": "+34 679 98 95 49",
         "facilities": [
-            "open_24_hours",
             "alcohol",
             "tobacco",
             "high_speed_pump",
@@ -17570,7 +17580,7 @@
         "city": "MONFORTE- ALICANTE",
         "state": null,
         "postcode": "03670",
-        "telephone": "+34 607 14 44 89",
+        "telephone": "+34 962 35 09 83",
         "facilities": [
             "car_wash",
             "jet_wash",
@@ -18493,13 +18503,15 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "electricity",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -22121,41 +22133,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "ES-485286910",
-        "name": "E.S. BP CIUDAD ARCOBRIGA",
-        "lat": 41.30725,
-        "lng": -2.1228055,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "CR NACIONAL II KM 186",
-        "city": "MONREAL DE ARIZA",
-        "state": null,
-        "postcode": "50291",
-        "telephone": "+34 695 92 47 38",
-        "facilities": [
-            "open_24_hours",
-            "truck_suitable_site",
-            "motorway_site",
-            "bistro",
-            "petit_bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "CR NACIONAL II KM 186\n50291\nMONREAL DE ARIZA",
-        "channel_of_trade": null
-    },
-    {
         "id": "ES-486315411",
         "name": "bp HNOS. ORTA GONZALEZ",
         "lat": 37.2262,
@@ -23242,7 +23219,8 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -24157,11 +24135,13 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
