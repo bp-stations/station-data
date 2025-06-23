@@ -6485,7 +6485,6 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -40938,13 +40937,11 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -42042,7 +42039,7 @@
     },
     {
         "id": "GB-550556355",
-        "name": "BP SHEPTON MALLET FILLING STATION",
+        "name": "SHEPTON MALLET FILLING STATION",
         "lat": 51.173703,
         "lng": -2.535337,
         "site_brand": "BP",
@@ -42054,16 +42051,26 @@
         "telephone": "+44 1234 567890",
         "facilities": [
             "open_24_hours",
+            "jet_wash",
             "bunker_site",
+            "truck_suitable_site",
+            "cash_point",
+            "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "mobile_enabled"
         ],
         "products": [
+            "ad_blue_cannister",
+            "diesel_on",
+            "lpg",
+            "red_diesel",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -42763,6 +42770,27 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "BOLLINGBROKE ROAD, F. IND. E.\nLN11 0WA\nLOUTH",
+        "channel_of_trade": null
+    },
+    {
+        "id": "GB-590728243",
+        "name": "BP J BROS WHITE ROSE",
+        "lat": 53.53119,
+        "lng": -1.41175,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "245 BARNSLEY ROAD",
+        "city": "WOMBWELL, BARNSLEY",
+        "state": null,
+        "postcode": "S73 8DT",
+        "telephone": "+44 1226 756130",
+        "facilities": [
+            "accepts_routex_cards"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "245 BARNSLEY ROAD\nS73 8DT\nWOMBWELL, BARNSLEY",
         "channel_of_trade": null
     },
     {
@@ -44034,6 +44062,28 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "SCALING DAM, EASINGTON\nTS13 4TP\nSALTBURN - BY - THE - SEA",
+        "channel_of_trade": null
+    },
+    {
+        "id": "GB-728698496",
+        "name": "BP J BROS ELSTOW SERVICE STATION",
+        "lat": 52.12414,
+        "lng": -0.46556,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "3 ELSTOW ROAD",
+        "city": "BEDFORD",
+        "state": null,
+        "postcode": "MK42 9NU",
+        "telephone": "+44 1234 342584",
+        "facilities": [
+            "car_wash",
+            "accepts_routex_cards"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "3 ELSTOW ROAD\nMK42 9NU\nBEDFORD",
         "channel_of_trade": null
     },
     {
