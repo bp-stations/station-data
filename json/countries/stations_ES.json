@@ -3124,7 +3124,9 @@
             "open_saturday",
             "open_sunday"
         ],
-        "products": [],
+        "products": [
+            "unleaded_95"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Avenida General Mac\u00eda 4\n52001\nMelilla",
@@ -4612,6 +4614,8 @@
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
+            "bistro",
+            "petit_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -7808,7 +7812,9 @@
         "postcode": "41007",
         "telephone": "+34 674 12 22 46",
         "facilities": [
-            "accepts_routex_cards"
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
@@ -12331,11 +12337,13 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -12838,7 +12846,7 @@
         "lng": 2.72324,
         "site_brand": "BP",
         "country_code": "ES",
-        "address": "CR GERRERS N\u00ba 52, PARC 194 POLIGONO",
+        "address": "CR GERRERS N\u00ba 52, PARC 194 POLIG",
         "city": "MARRATXI",
         "state": null,
         "postcode": "07141",
@@ -12874,7 +12882,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "CR GERRERS N\u00ba 52, PARC 194 POLIGONO\n07141\nMARRATXI",
+        "formatted_address": "CR GERRERS N\u00ba 52, PARC 194 POLIG\n07141\nMARRATXI",
         "channel_of_trade": null
     },
     {
@@ -17535,41 +17543,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "POL\u00cdGONO INDUSTRIAL ROMICA\n02005\nALBACETE",
-        "channel_of_trade": null
-    },
-    {
-        "id": "ES-2090696577",
-        "name": "bp SANXENXO II",
-        "lat": 42.4113672,
-        "lng": -8.81365,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "C. Lugar Vinqui\u00f1o, 23",
-        "city": "SANXENXO",
-        "state": null,
-        "postcode": "36960",
-        "telephone": "+34 986 72 02 83",
-        "facilities": [
-            "alcohol",
-            "truck_suitable_site",
-            "disabled_facilities",
-            "toilet",
-            "bakery_bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "electricity",
-            "ultimate",
-            "ultimate_diesel",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "C. Lugar Vinqui\u00f1o, 23\n36960\nSANXENXO",
         "channel_of_trade": null
     },
     {
@@ -23214,10 +23187,10 @@
         "site_brand": "BP",
         "country_code": "ES",
         "address": "Cam\u00ed la Mar",
-        "city": "Pucol",
+        "city": "Puzol",
         "state": null,
         "postcode": "46530",
-        "telephone": "+34 963 46 19 89",
+        "telephone": "+34 961 46 57 11",
         "facilities": [
             "accepts_routex_cards",
             "open_saturday",
@@ -23232,7 +23205,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "Cam\u00ed la Mar\n46530\nPucol",
+        "formatted_address": "Cam\u00ed la Mar\n46530\nPuzol",
         "channel_of_trade": null
     },
     {
