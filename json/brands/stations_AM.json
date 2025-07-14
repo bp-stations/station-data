@@ -2452,6 +2452,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -2460,6 +2461,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3052 State Route 3\n44842\nLoudonville",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-126928",
+        "name": "Amoco",
+        "lat": 42.0804363422,
+        "lng": -86.4861430922,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "2080 WASHINGTON AVE",
+        "city": "SAINT JOSEPH",
+        "state": "MI",
+        "postcode": "49085",
+        "telephone": "+1 269-983-3492",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2080 WASHINGTON AVE\n49085\nSAINT JOSEPH",
         "channel_of_trade": "BJBR"
     },
     {
@@ -2564,6 +2592,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -3753,6 +3782,7 @@
         "postcode": "30310",
         "telephone": "+1 404-343-2352",
         "facilities": [
+            "open_24_hours",
             "shop",
             "loyalty",
             "citi_rewards",
@@ -4009,8 +4039,6 @@
         "telephone": "+1 770-837-0569",
         "facilities": [
             "open_24_hours",
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "loyalty",
@@ -4039,8 +4067,6 @@
         "postcode": "30046",
         "telephone": "+1 678-349-2773",
         "facilities": [
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "loyalty",
@@ -4048,7 +4074,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "187 Scenic Hwy\n30046\nLawrenceville",
@@ -4239,6 +4267,7 @@
         "postcode": "30344",
         "telephone": "+1 404-941-7042",
         "facilities": [
+            "open_24_hours",
             "shop",
             "loyalty",
             "citi_rewards",
@@ -4267,8 +4296,6 @@
         "telephone": "+1 706-808-0049",
         "facilities": [
             "open_24_hours",
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "loyalty",
@@ -4276,7 +4303,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "10380 COMMERCE ST\n30747\nSUMMERVILLE",
@@ -4943,7 +4972,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1640 Atlanta Hwy NW\n30011\nAuburn",
@@ -4963,15 +4994,15 @@
         "telephone": "+1 678-705-1780",
         "facilities": [
             "open_24_hours",
-            "car_wash",
-            "workshop",
             "shop",
             "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1683 Lakewood Ave SE\n30315\nAtlanta",
@@ -5209,8 +5240,8 @@
     {
         "id": "US-128104",
         "name": "Amoco",
-        "lat": 38.07609264,
-        "lng": -91.40956178,
+        "lat": 38.0759580584,
+        "lng": -91.4095228675,
         "site_brand": "AM",
         "country_code": "US",
         "address": "5922 MO-19",
@@ -10686,9 +10717,6 @@
         "postcode": "31513",
         "telephone": "+1 912-367-9137",
         "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
             "shop",
             "grocer_reward",
             "harris_teeter",
@@ -10697,7 +10725,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "376 W Parker St\n31513\nBaxley",
@@ -10801,6 +10831,7 @@
         "postcode": "30127",
         "telephone": "+1 678-903-5644",
         "facilities": [
+            "open_24_hours",
             "toilet",
             "shop",
             "loyalty",
@@ -10829,8 +10860,6 @@
         "postcode": "30635",
         "telephone": "+1 706-283-9272",
         "facilities": [
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "grocer_reward",
@@ -10840,7 +10869,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "310 Elbert St\n30635\nElberton",
@@ -11226,6 +11257,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -11871,9 +11903,6 @@
         "postcode": "45414",
         "telephone": "+1 937-576-0051",
         "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
             "shop",
             "loyalty",
             "citi_rewards",
@@ -11976,6 +12005,34 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-129085",
+        "name": "Amoco",
+        "lat": 41.6682835894,
+        "lng": -83.578623011,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "3365 Monroe St",
+        "city": "Toledo",
+        "state": "OH",
+        "postcode": "43606",
+        "telephone": "+1 313-790-9293",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "3365 Monroe St\n43606\nToledo",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-129086",
         "name": "Amoco",
         "lat": 33.0311738797,
@@ -11988,8 +12045,6 @@
         "postcode": "30240",
         "telephone": "+1 706-392-2285",
         "facilities": [
-            "car_wash",
-            "toilet",
             "shop",
             "loyalty",
             "citi_rewards",
@@ -12401,8 +12456,8 @@
     {
         "id": "US-129163",
         "name": "Amoco",
-        "lat": 42.350166,
-        "lng": -83.274463,
+        "lat": 42.3501067194,
+        "lng": -83.2745178088,
         "site_brand": "AM",
         "country_code": "US",
         "address": "8125 N Telegraph Rd",
@@ -12415,7 +12470,6 @@
             "workshop",
             "toilet",
             "shop",
-            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -13013,6 +13067,34 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-129297",
+        "name": "Amoco",
+        "lat": 42.3983792476,
+        "lng": -83.3154512035,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "27417 5 Mile Rd",
+        "city": "Livonia",
+        "state": "MI",
+        "postcode": "48154",
+        "telephone": "+1 734-513-4022",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "27417 5 Mile Rd\n48154\nLivonia",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-129301",
         "name": "Amoco",
         "lat": 44.7860512738,
@@ -13393,8 +13475,6 @@
         "postcode": "30052",
         "telephone": "+1 770-554-7965",
         "facilities": [
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "loyalty",
@@ -13423,16 +13503,15 @@
         "postcode": "30014",
         "telephone": "+1 470-205-3761",
         "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
             "shop",
             "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "9123 US 278\n30014\nCOVINGTON",
@@ -14132,6 +14211,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -14336,33 +14416,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "895 Louisville Rd\n40601\nFrankfort",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-129545",
-        "name": "Amoco",
-        "lat": 31.6068236656,
-        "lng": -84.207583147,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "2400 Dawson Rd",
-        "city": "Albany",
-        "state": "GA",
-        "postcode": "31707",
-        "telephone": "+1 229-432-1280",
-        "facilities": [
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "2400 Dawson Rd\n31707\nAlbany",
         "channel_of_trade": "BJBR"
     },
     {
@@ -14704,36 +14757,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-129652",
-        "name": "Amoco",
-        "lat": 36.781274673,
-        "lng": -76.1919963423,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "1869 Kempsville Rd",
-        "city": "Virginia Beach",
-        "state": "VA",
-        "postcode": "23464",
-        "telephone": "+1 757-479-3291",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "grocer_reward",
-            "harris_teeter",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1869 Kempsville Rd\n23464\nVirginia Beach",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-129653",
         "name": "Amoco",
         "lat": 36.8138937688,
@@ -14986,9 +15009,6 @@
         "postcode": "31520",
         "telephone": "+1 912-466-0123",
         "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
             "shop",
             "grocer_reward",
             "harris_teeter",
@@ -14997,7 +15017,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "4192 Norwich Street Extension\n31520\nBrunswick",
@@ -15061,6 +15083,35 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "653 Akron Dr\n27105\nWinston Salem",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129679",
+        "name": "Amoco",
+        "lat": 30.2531142363,
+        "lng": -81.616466782,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "6680 Powers Ave",
+        "city": "Jacksonville",
+        "state": "FL",
+        "postcode": "32217",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "harris_teeter",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "6680 Powers Ave\n32217\nJacksonville",
         "channel_of_trade": "BJBR"
     },
     {
@@ -15528,6 +15579,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -15999,8 +16051,6 @@
         "postcode": "48040",
         "telephone": "+1 810-364-4313",
         "facilities": [
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "loyalty",
@@ -16008,10 +16058,39 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1550 Busha Hwy\n48040\nMarysville",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129994",
+        "name": "Amoco",
+        "lat": 41.7342752003,
+        "lng": -91.6071688498,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "1 Hawkeye Dr",
+        "city": "North Liberty",
+        "state": "IA",
+        "postcode": "52317",
+        "telephone": "+1 319-626-7990",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1 Hawkeye Dr\n52317\nNorth Liberty",
         "channel_of_trade": "BJBR"
     },
     {
@@ -16893,33 +16972,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-19419243710114485100100000000000",
-        "name": "Amoco",
-        "lat": 41.086288,
-        "lng": -82.401248,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "11 Akron St",
-        "city": "New London",
-        "state": "OH",
-        "postcode": "44851",
-        "telephone": "+1 419-929-8219",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "11 Akron St\n44851\nNew London",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-19872686827594624100100000000000",
         "name": "Amoco",
         "lat": 39.760486,
@@ -17148,34 +17200,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1904 W Evans St\n29501\nFlorence",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-21649337150524484200100000000000",
-        "name": "Amoco",
-        "lat": 40.618167,
-        "lng": -82.252518,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "3052 State Route 3",
-        "city": "Loudonville",
-        "state": "OH",
-        "postcode": "44842",
-        "telephone": "+1 419-994-3066",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "3052 State Route 3\n44842\nLoudonville",
         "channel_of_trade": "BJBR"
     },
     {
