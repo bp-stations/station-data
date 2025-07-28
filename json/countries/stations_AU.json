@@ -876,9 +876,7 @@
             "takeaway_food_offer",
             "fast_food",
             "food_offer_instore",
-            "bp_rewards_redemption",
             "bp_rewards_unlocked",
-            "bp_rewards_unlocked_convenience",
             "preorder_enabled",
             "loyalty",
             "pump_rewards",
@@ -1193,6 +1191,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -3979,7 +3978,6 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "auto_gas",
             "e10",
             "lpg",
             "ultimate_diesel",
@@ -8794,6 +8792,7 @@
             "ad_blue_cannister",
             "premium_unlead",
             "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -9657,6 +9656,7 @@
             "national_diesel_offer",
             "rigid_access",
             "truck_parking",
+            "truck_suitable_site",
             "high_flow_diesel",
             "ultra_high_flow_diesel",
             "cash_point",
@@ -10486,6 +10486,7 @@
             "gift_card",
             "national_diesel_offer",
             "rigid_access",
+            "truck_suitable_site",
             "high_flow_diesel",
             "ultra_high_flow_diesel",
             "cash_point",
@@ -11121,6 +11122,7 @@
             "rigid_access",
             "road_train_access",
             "truck_driver_lounge",
+            "truck_suitable_site",
             "high_flow_diesel",
             "ultra_high_flow_diesel",
             "cash_point",
@@ -12429,6 +12431,7 @@
         "telephone": "",
         "facilities": [
             "open_24_hours",
+            "truck_suitable_site",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "loyalty",
@@ -12451,7 +12454,7 @@
         "lng": 138.6519,
         "site_brand": "BP",
         "country_code": "AU",
-        "address": "2 Commerce Crescent",
+        "address": "2 Trade Ct",
         "city": "Hindmarsh Valley",
         "state": "SA",
         "postcode": "5211",
@@ -12464,7 +12467,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "2 Commerce Crescent\n5211\nHindmarsh Valley",
+        "formatted_address": "2 Trade Ct\n5211\nHindmarsh Valley",
         "channel_of_trade": null
     },
     {
@@ -13143,13 +13146,10 @@
             "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
+            "high_speed_pump"
         ],
         "products": [
             "ad_blue_cannister",
@@ -37867,6 +37867,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "regular_diesel",
             "ad_blue"
         ],
@@ -40038,13 +40039,10 @@
             "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
+            "high_speed_pump"
         ],
         "products": [
             "ad_blue_cannister",
@@ -40087,13 +40085,10 @@
             "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
+            "high_speed_pump"
         ],
         "products": [
             "ad_blue_cannister",
@@ -40226,13 +40221,10 @@
             "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
+            "high_speed_pump"
         ],
         "products": [
             "ad_blue_cannister",
@@ -40277,13 +40269,10 @@
             "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
+            "high_speed_pump"
         ],
         "products": [
             "ad_blue_cannister",
@@ -41434,6 +41423,7 @@
         "products": [
             "e10",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded"
         ],
@@ -41800,7 +41790,7 @@
     },
     {
         "id": "AU-7197",
-        "name": "BP OPT COHUNA",
+        "name": "BP OPT COHUNA-Temporary Closed",
         "lat": -35.8052,
         "lng": 144.2095,
         "site_brand": "BP",
@@ -44411,6 +44401,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -48114,13 +48105,10 @@
             "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
+            "high_speed_pump"
         ],
         "products": [
             "ad_blue_cannister",
@@ -50217,25 +50205,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "LOT 2204 BULL RUN ROAD (OFF STOCKMANS ROAD)\n6743\nKUNUNURRA",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-7818",
-        "name": "BP CADNEY ROADHOUSE",
-        "lat": -27.9053,
-        "lng": 134.0567,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "69 STUART HIGHWAY (CADNEY PARK)",
-        "city": "WINTINNA",
-        "state": "SA",
-        "postcode": "5723",
-        "telephone": "+61 8 8670 7994",
-        "facilities": [],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "69 STUART HIGHWAY (CADNEY PARK)\n5723\nWINTINNA",
         "channel_of_trade": null
     },
     {
@@ -52541,7 +52510,9 @@
         "facilities": [
             "hand_wash",
             "rigid_access",
-            "toilet"
+            "toilet",
+            "bp_rewards_unlocked",
+            "pump_rewards"
         ],
         "products": [
             "ad_blue_cannister",
@@ -53153,6 +53124,7 @@
             "e10",
             "lpg",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -55225,42 +55197,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "73-79 PRINCE ST\n3847\nROSEDALE",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-9078",
-        "name": "BP CADNEY PARK",
-        "lat": -27.90525,
-        "lng": 134.056787,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "STUART HIGHWAY",
-        "city": "CADNEY PARK",
-        "state": "SA",
-        "postcode": "5723",
-        "telephone": "+61 8 8670 7822",
-        "facilities": [
-            "open_24_hours",
-            "bdouble_access",
-            "rigid_access",
-            "road_train_access",
-            "truck_driver_lounge",
-            "truck_parking",
-            "high_flow_diesel",
-            "toilet",
-            "high_speed_pump"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "premium_unlead",
-            "regular_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "STUART HIGHWAY\n5723\nCADNEY PARK",
         "channel_of_trade": null
     },
     {

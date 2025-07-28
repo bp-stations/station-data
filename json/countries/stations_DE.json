@@ -523,7 +523,6 @@
         "postcode": "13599",
         "telephone": "+49 30 3343935",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -11201,6 +11200,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "cash_point",
             "rewe_to_go",
@@ -11219,7 +11219,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/13133600",
         "watchlist_id": "13133600",
@@ -25917,6 +25918,52 @@
         "channel_of_trade": "DODO"
     },
     {
+        "id": "DE-16011200",
+        "name": "Rainer Reehten",
+        "lat": 52.345738,
+        "lng": 9.716903,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "G\u00f6ttinger Chaussee  80",
+        "city": "Hannover",
+        "state": null,
+        "postcode": "30459",
+        "telephone": "+49 511 421873",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "electric_charging",
+            "recup",
+            "cash_point",
+            "rewe_to_go",
+            "shop",
+            "bistro",
+            "too_good_to_go",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "lpg",
+            "super_e5",
+            "e10",
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/16011200",
+        "watchlist_id": "16011200",
+        "formatted_address": "G\u00f6ttinger Chaussee  80\n30459\nHannover",
+        "channel_of_trade": "COSI"
+    },
+    {
         "id": "DE-16011800",
         "name": "Stephanie Kaminski",
         "lat": 52.10434,
@@ -26220,6 +26267,7 @@
         "postcode": "31020",
         "telephone": "+49 5153 5262",
         "facilities": [
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -28271,7 +28319,6 @@
         "postcode": "30659",
         "telephone": "+49 511 6139075",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -33628,6 +33675,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "shop",
             "bistro",
@@ -33644,7 +33692,8 @@
         "products": [
             "super_e5",
             "super_98",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/18050200",
         "watchlist_id": "18050200",
@@ -41020,6 +41069,7 @@
         "postcode": "94113",
         "telephone": "+49 8509 937774",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -64444,6 +64494,7 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
+            "electric_charging",
             "cash_point",
             "shop",
             "bistro",
@@ -64459,7 +64510,8 @@
             "ultimate_diesel",
             "ad_blue",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/27051300",
         "watchlist_id": "27051300",
@@ -89145,6 +89197,32 @@
         "website": "https://tankstelle.aral.de/tankstelle/3EF323",
         "watchlist_id": null,
         "formatted_address": "Frankfurter Str 4\n36404\nVacha",
+        "channel_of_trade": "EVDE"
+    },
+    {
+        "id": "DE-3EF331",
+        "name": "REWE",
+        "lat": 50.945201,
+        "lng": 6.8996,
+        "site_brand": "Aral pulse Ladestation",
+        "country_code": "DE",
+        "address": "Widdersd.Stra\u00dfe 219",
+        "city": "K\u00f6ln",
+        "state": null,
+        "postcode": "50825",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "electric_charging",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/3EF331",
+        "watchlist_id": null,
+        "formatted_address": "Widdersd.Stra\u00dfe 219\n50825\nK\u00f6ln",
         "channel_of_trade": "EVDE"
     },
     {
