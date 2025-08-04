@@ -50,6 +50,7 @@
         "telephone": "+34 928 41 76 04",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "toilet",
             "accepts_routex_cards",
             "open_saturday",
@@ -1703,9 +1704,13 @@
             "accepts_routex_cards"
         ],
         "products": [
+            "ad_blue_pump",
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -1976,6 +1981,7 @@
             "open_sunday"
         ],
         "products": [
+            "diesel_on",
             "unleaded_95"
         ],
         "website": null,
@@ -2345,7 +2351,7 @@
         "city": "Cartagena",
         "state": null,
         "postcode": "30310",
-        "telephone": "+34 629 69 09 97",
+        "telephone": "+34 968 51 94 08",
         "facilities": [
             "car_wash",
             "accepts_routex_cards",
@@ -2903,9 +2909,11 @@
             "accepts_routex_cards"
         ],
         "products": [
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -3860,7 +3868,6 @@
         "postcode": "46870",
         "telephone": "+34 961 16 39 26",
         "facilities": [
-            "car_wash",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -4491,6 +4498,36 @@
         "channel_of_trade": null
     },
     {
+        "id": "ES-1513218315",
+        "name": "EL SAUZAL",
+        "lat": 28.4728568,
+        "lng": -16.423452,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "CR GRAL DEL NORTE 73",
+        "city": "EL SAUZAL",
+        "state": null,
+        "postcode": "38360",
+        "telephone": "+34 648 94 31 25",
+        "facilities": [
+            "car_wash",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "diesel_on",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "CR GRAL DEL NORTE 73\n38360\nEL SAUZAL",
+        "channel_of_trade": null
+    },
+    {
         "id": "ES-1523565120",
         "name": "bp LA PRINCESA 2",
         "lat": 40.3255,
@@ -4736,7 +4773,6 @@
         "postcode": "46400",
         "telephone": "+34 961 73 30 04",
         "facilities": [
-            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
@@ -5115,15 +5151,17 @@
         "city": "BILBAO",
         "state": null,
         "postcode": "48510",
-        "telephone": "+34 670 41 73 49",
+        "telephone": "+34 944 86 38 42",
         "facilities": [
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
+            "diesel_on",
             "ultimate",
-            "ultimate_diesel"
+            "ultimate_diesel",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -5587,6 +5625,7 @@
         "facilities": [
             "open_24_hours",
             "tobacco",
+            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
@@ -12721,42 +12760,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "ES-16719",
-        "name": "E.S. BP PASCUAL Y ROCA",
-        "lat": 40.4584,
-        "lng": 0.17987,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "CR CASTELLON-S.MATEO KM 64",
-        "city": "SANT MATEU",
-        "state": null,
-        "postcode": "12170",
-        "telephone": "+34 964 41 61 09",
-        "facilities": [
-            "open_24_hours",
-            "high_speed_pump",
-            "truck_parking",
-            "truck_suitable_site",
-            "toilet",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "CR CASTELLON-S.MATEO KM 64\n12170\nSANT MATEU",
-        "channel_of_trade": null
-    },
-    {
         "id": "ES-16730",
         "name": "E.S. BP EL PONT",
         "lat": 39.8183,
@@ -12808,6 +12811,7 @@
         "facilities": [
             "alcohol",
             "tobacco",
+            "car_wash",
             "jet_wash",
             "truck_suitable_site",
             "truck_wash",
@@ -14511,49 +14515,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CR AUTOVIA SUR-LAS PALMAS 8\n35212\nLA GARITA -TELDE",
-        "channel_of_trade": null
-    },
-    {
-        "id": "ES-16864",
-        "name": "bp EL SAUZAL",
-        "lat": 28.4729,
-        "lng": -16.423,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "CR GRAL DEL NORTE 73",
-        "city": "EL SAUZAL",
-        "state": null,
-        "postcode": "38360",
-        "telephone": "+34 922 56 38 10",
-        "facilities": [
-            "tobacco",
-            "car_wash",
-            "jet_wash",
-            "high_speed_pump",
-            "truck_parking",
-            "truck_suitable_site",
-            "disabled_facilities",
-            "toilet",
-            "bakery_bistro",
-            "bistro",
-            "petit_bistro",
-            "accepts_routex_cards",
-            "special_car_wash",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "electricity",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "CR GRAL DEL NORTE 73\n38360\nEL SAUZAL",
         "channel_of_trade": null
     },
     {
@@ -18207,6 +18168,7 @@
         "facilities": [
             "open_24_hours",
             "tobacco",
+            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_parking",
@@ -18442,7 +18404,6 @@
         "facilities": [
             "alcohol",
             "tobacco",
-            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
@@ -19389,6 +19350,34 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CR PISTA DE SILLA DIREC.- ALICANTE\n46470\nMASSANASSA",
+        "channel_of_trade": null
+    },
+    {
+        "id": "ES-278875884",
+        "name": "CALETA DE FUSTE",
+        "lat": 28.386376,
+        "lng": -13.866221,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "FV-2",
+        "city": "Puerto del Rosario",
+        "state": null,
+        "postcode": "35600",
+        "telephone": "+34 828 02 92 24",
+        "facilities": [
+            "open_24_hours",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "FV-2\n35600\nPuerto del Rosario",
         "channel_of_trade": null
     },
     {
@@ -20541,7 +20530,6 @@
         "postcode": "03580",
         "telephone": "+34 646 96 46 67",
         "facilities": [
-            "car_wash",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -21241,7 +21229,7 @@
         "city": "PUERTO DE LA CRUZ",
         "state": null,
         "postcode": "38400",
-        "telephone": "+34 646 49 15 05",
+        "telephone": "+34 922 38 41 33",
         "facilities": [
             "alcohol",
             "tobacco",
@@ -22258,6 +22246,7 @@
         "telephone": "+34 868 45 52 57",
         "facilities": [
             "tobacco",
+            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_parking",
@@ -22655,6 +22644,7 @@
         "facilities": [
             "open_24_hours",
             "tobacco",
+            "car_wash",
             "jet_wash",
             "disabled_facilities",
             "toilet",
@@ -22889,7 +22879,6 @@
         "facilities": [
             "alcohol",
             "tobacco",
-            "car_wash",
             "jet_wash",
             "truck_parking",
             "truck_suitable_site",
@@ -23258,7 +23247,6 @@
             "open_24_hours",
             "alcohol",
             "tobacco",
-            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
@@ -23663,7 +23651,6 @@
         "facilities": [
             "alcohol",
             "tobacco",
-            "car_wash",
             "jet_wash",
             "disabled_facilities",
             "toilet",
@@ -23701,7 +23688,6 @@
         "facilities": [
             "alcohol",
             "tobacco",
-            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
@@ -24143,7 +24129,6 @@
         "postcode": "38700",
         "telephone": "+34 922 41 10 32",
         "facilities": [
-            "car_wash",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -24253,6 +24238,7 @@
             "open_24_hours",
             "alcohol",
             "tobacco",
+            "car_wash",
             "jet_wash",
             "toilet",
             "bakery_bistro",
@@ -27583,7 +27569,6 @@
         "telephone": "+34 607 14 44 89",
         "facilities": [
             "open_24_hours",
-            "car_wash",
             "motorway_site",
             "accepts_routex_cards",
             "open_saturday",

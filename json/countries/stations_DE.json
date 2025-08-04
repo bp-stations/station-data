@@ -523,6 +523,7 @@
         "postcode": "13599",
         "telephone": "+49 30 3343935",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -3487,6 +3488,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -3505,7 +3507,8 @@
             "ultimate_diesel",
             "natural_gas",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/12105500",
         "watchlist_id": "12105500",
@@ -4858,7 +4861,6 @@
         "postcode": "67657",
         "telephone": "+49 631 43688",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "car_wash_plant",
             "jet_wash",
@@ -6646,6 +6648,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "cash_point",
             "rewe_to_go",
@@ -6665,7 +6668,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/12159900",
         "watchlist_id": "12159900",
@@ -6805,7 +6809,6 @@
         "postcode": "61118",
         "telephone": "+49 6101 307498",
         "facilities": [
-            "open_24_hours",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -29537,6 +29540,8 @@
         "postcode": "27232",
         "telephone": "+49 4271 9560750",
         "facilities": [
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
             "loyalty",
             "open_saturday",
             "open_sunday",
@@ -32849,6 +32854,48 @@
         "channel_of_trade": "COSI"
     },
     {
+        "id": "DE-18024700",
+        "name": "Kevin Weber",
+        "lat": 49.438393,
+        "lng": 8.523771,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Relaisstra\u00dfe 1-3",
+        "city": "Mannheim",
+        "state": null,
+        "postcode": "68219",
+        "telephone": "+49 621 891606",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "recup",
+            "shop",
+            "bistro",
+            "too_good_to_go",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "lpg",
+            "super_e5",
+            "e10"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/18024700",
+        "watchlist_id": "18024700",
+        "formatted_address": "Relaisstra\u00dfe 1-3\n68219\nMannheim",
+        "channel_of_trade": "COSI"
+    },
+    {
         "id": "DE-18024800",
         "name": "TaRa AG",
         "lat": 49.414005,
@@ -35703,7 +35750,6 @@
         "postcode": "66892",
         "telephone": "+49 6372 993290",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -41069,7 +41115,6 @@
         "postcode": "94113",
         "telephone": "+49 8509 937774",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -49912,7 +49957,7 @@
     },
     {
         "id": "DE-20185500",
-        "name": "Thomas Schwarz",
+        "name": "Samet Celik",
         "lat": 50.70256,
         "lng": 7.177107,
         "site_brand": "ARAL Tankstelle",
@@ -49929,10 +49974,8 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -57248,7 +57291,7 @@
     },
     {
         "id": "DE-23042300",
-        "name": "Eva Janik",
+        "name": "Steffen Wolf",
         "lat": 47.987008,
         "lng": 7.895689,
         "site_brand": "ARAL Tankstelle",
@@ -57257,7 +57300,7 @@
         "city": "Freiburg",
         "state": null,
         "postcode": "79117",
-        "telephone": "+49 761 69077",
+        "telephone": "+49 761 15615834",
         "facilities": [
             "car_wash",
             "shop",
@@ -77059,47 +77102,6 @@
         "channel_of_trade": "COSI"
     },
     {
-        "id": "DE-28399200",
-        "name": "Rudolf Gustav Schmitt",
-        "lat": 49.460739,
-        "lng": 8.478127,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Steubenstra\u00dfe 48",
-        "city": "Mannheim",
-        "state": null,
-        "postcode": "68163",
-        "telephone": "+49 621 8322965",
-        "facilities": [
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "recup",
-            "rewe_to_go",
-            "shop",
-            "bistro",
-            "too_good_to_go",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "vda",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/28399200",
-        "watchlist_id": "28399200",
-        "formatted_address": "Steubenstra\u00dfe 48\n68163\nMannheim",
-        "channel_of_trade": "COSI"
-    },
-    {
         "id": "DE-28401800",
         "name": "Scherer Autom. HoldingGmbH&Co. KG",
         "lat": 50.068868,
@@ -81517,6 +81519,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -81537,7 +81540,8 @@
             "natural_gas",
             "lpg",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/28623000",
         "watchlist_id": "28623000",
@@ -84273,6 +84277,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -84291,7 +84296,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/28734000",
         "watchlist_id": "28734000",
@@ -89248,6 +89254,32 @@
         "website": "https://tankstelle.aral.de/tankstelle/3EF362",
         "watchlist_id": null,
         "formatted_address": "Neuenhauser Str. 124\n48527\nNordhorn",
+        "channel_of_trade": "EVDE"
+    },
+    {
+        "id": "DE-3EF412",
+        "name": "Ladepark",
+        "lat": 48.1334532,
+        "lng": 11.5281977,
+        "site_brand": "Aral pulse Ladestation",
+        "country_code": "DE",
+        "address": "Hansastr. 19",
+        "city": "M\u00fcnchen",
+        "state": null,
+        "postcode": "80686",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "electric_charging",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/3EF412",
+        "watchlist_id": null,
+        "formatted_address": "Hansastr. 19\n80686\nM\u00fcnchen",
         "channel_of_trade": "EVDE"
     }
 ]
