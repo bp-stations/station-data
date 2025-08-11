@@ -3707,7 +3707,6 @@
         "telephone": "+44 1244 881069",
         "facilities": [
             "open_24_hours",
-            "car_wash",
             "bunker_site",
             "truck_suitable_site",
             "cash_point",
@@ -5654,6 +5653,31 @@
         "channel_of_trade": null
     },
     {
+        "id": "GB-1389523290",
+        "name": "BP ARLE FS547",
+        "lat": 51.91212,
+        "lng": -2.100541,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "Princess Elizabeth Way",
+        "city": "Cheltenham",
+        "state": null,
+        "postcode": "GL51 7PA",
+        "telephone": "+44 1242 503933",
+        "facilities": [
+            "open_24_hours",
+            "bunker_site",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Princess Elizabeth Way\nGL51 7PA\nCheltenham",
+        "channel_of_trade": null
+    },
+    {
         "id": "GB-1389536150",
         "name": "RONTEC DERWENT",
         "lat": 54.960867,
@@ -6021,7 +6045,6 @@
         "telephone": "+44 1296 621400",
         "facilities": [
             "alcohol",
-            "car_wash",
             "cash_point",
             "bistro",
             "accepts_routex_cards",
@@ -6177,7 +6200,9 @@
         "facilities": [
             "open_24_hours",
             "bunker_site",
+            "truck_suitable_site",
             "motorway_site",
+            "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -6185,6 +6210,7 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_cannister",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
@@ -9460,7 +9486,6 @@
         "telephone": "+44 23 9255 2595",
         "facilities": [
             "alcohol",
-            "car_wash",
             "jet_wash",
             "cash_point",
             "disabled_facilities",
@@ -9631,16 +9656,21 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
+            "cash_point",
+            "disabled_facilities",
+            "toilet",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
-            "ad_blue"
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
         ],
         "website": null,
         "watchlist_id": null,
@@ -9971,7 +10001,6 @@
         "telephone": "+44 1274 616998",
         "facilities": [
             "open_24_hours",
-            "car_wash",
             "jet_wash",
             "cash_point",
             "bistro",
@@ -11431,7 +11460,6 @@
         "telephone": "+44 1227 764091",
         "facilities": [
             "open_24_hours",
-            "car_wash",
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
@@ -15117,7 +15145,7 @@
     },
     {
         "id": "GB-248774299",
-        "name": "WOOLMER FS1098 BORDON",
+        "name": "FS1098 Woolmer",
         "lat": 51.1069091,
         "lng": -0.8664269,
         "site_brand": "BP",
@@ -15130,6 +15158,7 @@
         "facilities": [
             "open_24_hours",
             "bunker_site",
+            "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -17883,8 +17912,8 @@
     {
         "id": "GB-314871948",
         "name": "IRLAM GATEWAY SERVICE STATION",
-        "lat": 53.45375,
-        "lng": -2.40657,
+        "lat": 53.456666,
+        "lng": -2.401296,
         "site_brand": "BP",
         "country_code": "GB",
         "address": "LIVERPOOL ROAD",
@@ -19244,6 +19273,31 @@
         "channel_of_trade": null
     },
     {
+        "id": "GB-361073746",
+        "name": "BP CROSS LANE FS957",
+        "lat": 53.761308,
+        "lng": -1.683648,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "Westgate Hill Street",
+        "city": "Bradford",
+        "state": null,
+        "postcode": "BD4 0SB",
+        "telephone": "+44 1274 087533",
+        "facilities": [
+            "open_24_hours",
+            "bunker_site",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Westgate Hill Street\nBD4 0SB\nBradford",
+        "channel_of_trade": null
+    },
+    {
         "id": "GB-3611",
         "name": "ASHFORD SF CONNECT",
         "lat": 51.42327,
@@ -20049,7 +20103,6 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
-            "car_wash",
             "truck_suitable_site",
             "cash_point",
             "bakery_bistro",
@@ -22113,7 +22166,6 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
-            "car_wash",
             "bunker_site",
             "truck_suitable_site",
             "cash_point",
@@ -24097,14 +24149,12 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -24444,7 +24494,6 @@
         "telephone": "+44 1900 814374",
         "facilities": [
             "alcohol",
-            "car_wash",
             "jet_wash",
             "cash_point",
             "bistro",
@@ -32157,7 +32206,6 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
-            "car_wash",
             "jet_wash",
             "truck_suitable_site",
             "cash_point",
@@ -35732,7 +35780,6 @@
         "postcode": "CA7 9PZ",
         "telephone": "+44 16973 45234",
         "facilities": [
-            "car_wash",
             "jet_wash",
             "cash_point",
             "bistro",
@@ -36901,7 +36948,6 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
-            "car_wash",
             "jet_wash",
             "bunker_site",
             "cash_point",
@@ -39365,7 +39411,6 @@
         "telephone": "+44 1782 313764",
         "facilities": [
             "open_24_hours",
-            "car_wash",
             "jet_wash",
             "truck_suitable_site",
             "cash_point",
@@ -40727,7 +40772,6 @@
         "telephone": "+44 161 419 9487",
         "facilities": [
             "open_24_hours",
-            "car_wash",
             "jet_wash",
             "cash_point",
             "bistro",
@@ -41730,6 +41774,7 @@
         "postcode": "PE8 6HA",
         "telephone": "+44 1780 784020",
         "facilities": [
+            "open_24_hours",
             "alcohol",
             "bunker_site",
             "truck_suitable_site",
@@ -41737,6 +41782,7 @@
             "toilet",
             "bakery_bistro",
             "bistro",
+            "wild_bean_cafe",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday",
@@ -42288,7 +42334,6 @@
         "telephone": "+44 1501 643156",
         "facilities": [
             "open_24_hours",
-            "car_wash",
             "bunker_site",
             "truck_suitable_site",
             "disabled_facilities",
@@ -46400,7 +46445,6 @@
         "telephone": "+44 1840 213217",
         "facilities": [
             "alcohol",
-            "car_wash",
             "jet_wash",
             "cash_point",
             "toilet",
