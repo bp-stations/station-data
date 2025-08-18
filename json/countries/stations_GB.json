@@ -2269,7 +2269,6 @@
         "postcode": "CH46 5NA",
         "telephone": "+44 151 488 5443",
         "facilities": [
-            "open_24_hours",
             "alcohol",
             "car_wash",
             "truck_suitable_site",
@@ -5654,7 +5653,7 @@
     },
     {
         "id": "GB-1389523290",
-        "name": "BP ARLE FS547",
+        "name": "ARLE FS547 N CHELTENHAM",
         "lat": 51.91212,
         "lng": -2.100541,
         "site_brand": "BP",
@@ -5667,11 +5666,17 @@
         "facilities": [
             "open_24_hours",
             "bunker_site",
+            "bistro",
             "accepts_routex_cards",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Princess Elizabeth Way\nGL51 7PA\nCheltenham",
@@ -9668,9 +9673,11 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -14273,6 +14280,28 @@
         "channel_of_trade": null
     },
     {
+        "id": "GB-2140482331",
+        "name": "BP KIDDERMINSTER FS687",
+        "lat": 52.371383,
+        "lng": -2.2461,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "Worcester Road",
+        "city": "Kidderminster",
+        "state": null,
+        "postcode": "DY10 1JS",
+        "telephone": "+44 1562 547756",
+        "facilities": [
+            "bunker_site",
+            "accepts_routex_cards"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Worcester Road\nDY10 1JS\nKidderminster",
+        "channel_of_trade": null
+    },
+    {
         "id": "GB-2144628",
         "name": "ST LAWRENCE SERVICE STATION",
         "lat": 51.336928,
@@ -17913,7 +17942,7 @@
         "id": "GB-314871948",
         "name": "IRLAM GATEWAY SERVICE STATION",
         "lat": 53.456666,
-        "lng": -2.401296,
+        "lng": -2.4012962,
         "site_brand": "BP",
         "country_code": "GB",
         "address": "LIVERPOOL ROAD",
@@ -19274,7 +19303,7 @@
     },
     {
         "id": "GB-361073746",
-        "name": "BP CROSS LANE FS957",
+        "name": "CROSS LANE FS957 N BRADFORD",
         "lat": 53.761308,
         "lng": -1.683648,
         "site_brand": "BP",
@@ -19287,11 +19316,17 @@
         "facilities": [
             "open_24_hours",
             "bunker_site",
+            "bistro",
             "accepts_routex_cards",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Westgate Hill Street\nBD4 0SB\nBradford",
