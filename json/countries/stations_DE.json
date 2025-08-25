@@ -10947,7 +10947,7 @@
         "city": "Bremen",
         "state": null,
         "postcode": "28197",
-        "telephone": "+49 421 529580",
+        "telephone": "",
         "facilities": [
             "cash_point",
             "shop",
@@ -11134,7 +11134,7 @@
         "city": "D\u00f6rpen",
         "state": null,
         "postcode": "26892",
-        "telephone": "+49 4963 91280",
+        "telephone": "",
         "facilities": [
             "open_saturday",
             "open_sunday",
@@ -25261,7 +25261,6 @@
         "postcode": "71149",
         "telephone": "+49 7457 5959090",
         "facilities": [
-            "open_24_hours",
             "recup",
             "rewe_to_go",
             "shop",
@@ -30528,40 +30527,6 @@
         "watchlist_id": "17038600",
         "formatted_address": "Marburger Stra\u00dfe 28\n35315\nHomberg",
         "channel_of_trade": "JOBR"
-    },
-    {
-        "id": "DE-17038900",
-        "name": "Berns OHG",
-        "lat": 50.700498,
-        "lng": 8.337595,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Marburger Str. 15",
-        "city": "Herborn",
-        "state": null,
-        "postcode": "35745",
-        "telephone": "+49 2772 61240",
-        "facilities": [
-            "car_wash",
-            "shop",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "lpg",
-            "super_e5",
-            "e10"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/17038900",
-        "watchlist_id": "17038900",
-        "formatted_address": "Marburger Str. 15\n35745\nHerborn",
-        "channel_of_trade": "DODO"
     },
     {
         "id": "DE-17039700",
@@ -41120,7 +41085,6 @@
         "postcode": "94113",
         "telephone": "+49 8509 937774",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -41478,7 +41442,7 @@
         "city": "Bamberg",
         "state": null,
         "postcode": "96052",
-        "telephone": "+49 2205 78157",
+        "telephone": "",
         "facilities": [
             "open_24_hours",
             "open_saturday",
@@ -65982,7 +65946,6 @@
         "postcode": "14913",
         "telephone": "+49 3372 4429633",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -68952,6 +68915,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "cash_point",
             "rewe_to_go",
@@ -68973,7 +68937,8 @@
             "ad_blue",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/27101500",
         "watchlist_id": "27101500",
@@ -74840,6 +74805,7 @@
         "postcode": "51373",
         "telephone": "+49 214 830450",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -81912,7 +81878,7 @@
     },
     {
         "id": "DE-28625900",
-        "name": "Alexander Stauber",
+        "name": "Jonathan Asfaw",
         "lat": 49.506178,
         "lng": 8.463967,
         "site_brand": "ARAL Tankstelle",
@@ -81928,10 +81894,8 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",

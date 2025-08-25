@@ -5673,9 +5673,11 @@
             "mobile_enabled"
         ],
         "products": [
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -6331,6 +6333,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -8428,49 +8431,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Fleetwood Road North\nFY5 4BL\nTHORNTON-CLEVELEYS",
-        "channel_of_trade": null
-    },
-    {
-        "id": "GB-1575685366",
-        "name": "ARDLEIGH SOUTH SERVICES",
-        "lat": 51.901779,
-        "lng": 0.976252,
-        "site_brand": "BP",
-        "country_code": "GB",
-        "address": "A120",
-        "city": "COLCHESTER",
-        "state": null,
-        "postcode": "CO7 7SL",
-        "telephone": "+44 1206 231174",
-        "facilities": [
-            "open_24_hours",
-            "alcohol",
-            "bunker_site",
-            "truck_suitable_site",
-            "cash_point",
-            "toilet",
-            "bakery_bistro",
-            "bistro",
-            "wild_bean_cafe",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "truck_diesel",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "A120\nCO7 7SL\nCOLCHESTER",
         "channel_of_trade": null
     },
     {
@@ -14281,7 +14241,7 @@
     },
     {
         "id": "GB-2140482331",
-        "name": "BP KIDDERMINSTER FS687",
+        "name": "KIDDERMINSTER FS687",
         "lat": 52.371383,
         "lng": -2.2461,
         "site_brand": "BP",
@@ -14293,9 +14253,17 @@
         "telephone": "+44 1562 547756",
         "facilities": [
             "bunker_site",
-            "accepts_routex_cards"
+            "bistro",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday",
+            "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Worcester Road\nDY10 1JS\nKidderminster",
@@ -17207,12 +17175,14 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -19323,9 +19293,12 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_cannister",
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -22010,49 +21983,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "210 Castlebank Street\nG11 6AR\nGLASGOW",
-        "channel_of_trade": null
-    },
-    {
-        "id": "GB-3771",
-        "name": "CHANDLERS GARAGE",
-        "lat": 50.95615,
-        "lng": -0.13888,
-        "site_brand": "BP",
-        "country_code": "GB",
-        "address": "200 London Road",
-        "city": "BURGESS HILL",
-        "state": null,
-        "postcode": "RH15 9RD",
-        "telephone": "+44 1444 230606",
-        "facilities": [
-            "alcohol",
-            "jet_wash",
-            "bunker_site",
-            "high_speed_pump",
-            "truck_parking",
-            "truck_suitable_site",
-            "cash_point",
-            "wifi",
-            "bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "truck_diesel",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "200 London Road\nRH15 9RD\nBURGESS HILL",
         "channel_of_trade": null
     },
     {
@@ -38225,12 +38155,14 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -41056,7 +40988,7 @@
         "city": "GLASGOW",
         "state": null,
         "postcode": "G22 6NX",
-        "telephone": "+44 141 336 6065",
+        "telephone": "+44 141 336 6613",
         "facilities": [
             "open_24_hours",
             "alcohol",
@@ -41315,6 +41247,40 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "9 HAMILTON ROAD\nG32 9QD\nGLASGOW",
+        "channel_of_trade": null
+    },
+    {
+        "id": "GB-536980446",
+        "name": "WHISTLER DRIVE SERVICE STATION",
+        "lat": 53.707992,
+        "lng": -1.366949,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "WHISTLER DRIVE",
+        "city": "CASTLEFORD",
+        "state": null,
+        "postcode": "WF10 5YH",
+        "telephone": "+44 1924 458870",
+        "facilities": [
+            "open_24_hours",
+            "bunker_site",
+            "motorway_site",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday",
+            "mobile_enabled"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "diesel_on",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "WHISTLER DRIVE\nWF10 5YH\nCASTLEFORD",
         "channel_of_trade": null
     },
     {
@@ -43165,7 +43131,7 @@
         "city": "DUNDRY",
         "state": null,
         "postcode": "BS41 8JP",
-        "telephone": "+44 1275 392212",
+        "telephone": "+44 117 379 0012",
         "facilities": [
             "open_24_hours",
             "alcohol",
