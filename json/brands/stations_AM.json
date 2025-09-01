@@ -506,6 +506,7 @@
             "shop",
             "grocer_reward",
             "harris_teeter",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -3369,6 +3370,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -13286,6 +13288,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -15785,6 +15788,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -15983,6 +15987,7 @@
             "shop",
             "grocer_reward",
             "harris_teeter",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -16374,6 +16379,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -16452,8 +16458,7 @@
         "postcode": "55046",
         "telephone": "1231231234",
         "facilities": [
-            "car_wash",
-            "workshop",
+            "open_24_hours",
             "toilet",
             "shop",
             "loyalty",
@@ -16461,7 +16466,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "212 Central St E\n55046\nLonsdale",
@@ -16577,6 +16584,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "43601 Grand River Ave\n48375\nNovi",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130117",
+        "name": "Amoco",
+        "lat": 41.3940014884,
+        "lng": -81.2910618035,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "9812 EAST WASHINGTON STREET",
+        "city": "CHAGRIN FALLS",
+        "state": "OH",
+        "postcode": "44023",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "9812 EAST WASHINGTON STREET\n44023\nCHAGRIN FALLS",
         "channel_of_trade": "BJBR"
     },
     {

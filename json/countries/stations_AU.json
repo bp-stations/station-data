@@ -16,6 +16,7 @@
             "food_offer_instore",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
+            "loyalty",
             "pump_rewards",
             "restaurant"
         ],
@@ -2721,7 +2722,6 @@
         "postcode": "3144",
         "telephone": "+61 3 9822 4202",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
@@ -6093,7 +6093,6 @@
         "postcode": "3807",
         "telephone": "+61 3 9956 1020",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "cash_point",
             "toilet",
@@ -6808,6 +6807,32 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "114 SHAKESPEARE\n4740\nMACKAY",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1039",
+        "name": "BP TRAFALGAR",
+        "lat": -38.2074,
+        "lng": 146.1558,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "104 PRINCES HIGHWAY",
+        "city": "TRAFALGAR EAST",
+        "state": "VIC",
+        "postcode": "3336",
+        "telephone": "",
+        "facilities": [],
+        "products": [
+            "e10",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "104 PRINCES HIGHWAY\n3336\nTRAFALGAR EAST",
         "channel_of_trade": null
     },
     {
@@ -11801,6 +11826,44 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-1255",
+        "name": "X CONVENIENCE BURTON",
+        "lat": -34.7351,
+        "lng": 138.5978,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "483 Waterloo Corner Road",
+        "city": "Burton",
+        "state": "SA",
+        "postcode": "5110",
+        "telephone": "+61 8 8351 9411",
+        "facilities": [
+            "gift_card",
+            "high_flow_diesel",
+            "cash_point",
+            "toilet",
+            "barista_coffee",
+            "takeaway_food_offer",
+            "food_offer_instore",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "restaurant",
+            "takeaway_food",
+            "high_speed_pump"
+        ],
+        "products": [
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "483 Waterloo Corner Road\n5110\nBurton",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-1258",
         "name": "X CONVENIENCE HOLLYWOOD PLAZA",
         "lat": -34.7665,
@@ -13072,8 +13135,8 @@
     {
         "id": "AU-1345",
         "name": "AMPM ANGLE VALE",
-        "lat": -34.6535,
-        "lng": 138.6367,
+        "lat": -34.6599,
+        "lng": 138.65165,
         "site_brand": "BP",
         "country_code": "AU",
         "address": "Lot 2 Curtis Road",
@@ -17072,11 +17135,11 @@
         "lng": 115.6502,
         "site_brand": "BP",
         "country_code": "AU",
-        "address": "85 FOREST AVENUE",
+        "address": "85 FORREST AVENUE",
         "city": "BUNBURY",
         "state": "WA",
         "postcode": "6230",
-        "telephone": "+61 8 9721 3742",
+        "telephone": "+61 8 9791 2689",
         "facilities": [
             "gift_card",
             "rigid_access",
@@ -17106,7 +17169,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "85 FOREST AVENUE\n6230\nBUNBURY",
+        "formatted_address": "85 FORREST AVENUE\n6230\nBUNBURY",
         "channel_of_trade": null
     },
     {
@@ -19085,6 +19148,7 @@
             "e10",
             "lpg",
             "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "ad_blue"
@@ -23035,7 +23099,6 @@
         "postcode": "3149",
         "telephone": "+61 3 9544 8563",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "bdouble_access",
             "rigid_access",
@@ -34292,7 +34355,6 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
             "e10",
             "lpg",
             "premium_unlead",
@@ -35297,7 +35359,7 @@
         "city": "GREENWOOD",
         "state": "WA",
         "postcode": "6024",
-        "telephone": "+61 8 9447 5876",
+        "telephone": "+61 8 6296 5788",
         "facilities": [
             "open_24_hours",
             "gift_card",
@@ -35830,7 +35892,7 @@
         "city": "MULLALOO",
         "state": "WA",
         "postcode": "6027",
-        "telephone": "+61 8 9240 4105",
+        "telephone": "+61 8 6296 5788",
         "facilities": [
             "open_24_hours",
             "gift_card",
@@ -35840,6 +35902,7 @@
             "cash_point",
             "toilet",
             "takeaway_food_offer",
+            "food_offer_instore",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "loyalty",
@@ -35853,6 +35916,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -37632,19 +37696,23 @@
         "city": "BELDON",
         "state": "WA",
         "postcode": "6027",
-        "telephone": "+61 8 9307 7887",
+        "telephone": "+61 8 6296 5788",
         "facilities": [
             "open_24_hours",
             "gift_card",
             "trailers",
             "cash_point",
             "toilet",
+            "barista_coffee",
+            "wild_bean_cafe",
+            "food_offer_instore",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
+            "restaurant",
             "mobile_enabled"
         ],
         "products": [
@@ -40732,32 +40800,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-7080",
-        "name": "BP OPT DALEY'S GARAGE",
-        "lat": -17.2238,
-        "lng": 145.4789,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "56 KENNEDY HIGHWAY",
-        "city": "TOLGA",
-        "state": "QLD",
-        "postcode": "4882",
-        "telephone": "+61 7 4095 4297",
-        "facilities": [
-            "loyalty",
-            "pump_rewards"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "56 KENNEDY HIGHWAY\n4882\nTOLGA",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-7081",
         "name": "BP MOOROOKA",
         "lat": -27.535042,
@@ -41987,6 +42029,7 @@
         "facilities": [
             "open_24_hours",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards"
         ],
@@ -42177,55 +42220,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1 TWEED COAST ROAD\n2489\nHASTINGS POINT",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-7282",
-        "name": "BP BLOOMSBURY",
-        "lat": -20.7053,
-        "lng": 148.5959,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "8514 BRUCE HIGHWAY",
-        "city": "BLOOMSBURY",
-        "state": "QLD",
-        "postcode": "4799",
-        "telephone": "+61 7 4947 5739",
-        "facilities": [
-            "gift_card",
-            "bdouble_access",
-            "rigid_access",
-            "truck_parking",
-            "truck_suitable_site",
-            "high_flow_diesel",
-            "cash_point",
-            "shower",
-            "toilet",
-            "food_offer_instore",
-            "bp_rewards_redemption",
-            "loyalty",
-            "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "truck_only",
-            "washing_machine",
-            "restaurant",
-            "high_speed_pump",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "lpg",
-            "premium_unlead",
-            "regular_diesel",
-            "ultimate_diesel",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "8514 BRUCE HIGHWAY\n4799\nBLOOMSBURY",
         "channel_of_trade": null
     },
     {
@@ -43742,7 +43736,7 @@
         "city": "COCKBURN CENTRAL",
         "state": "WA",
         "postcode": "6164",
-        "telephone": "+61 8 9414 7499",
+        "telephone": "+61 8 9240 4110",
         "facilities": [
             "open_24_hours",
             "gift_card",
@@ -43765,6 +43759,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "lpg",
             "premium_unlead",
@@ -45656,12 +45651,16 @@
         "facilities": [
             "open_24_hours",
             "gift_card",
+            "car_wash",
+            "hand_wash",
             "bdouble_access",
             "rigid_access",
             "truck_suitable_site",
             "high_flow_diesel",
             "cash_point",
             "toilet",
+            "barista_coffee",
+            "wild_bean_cafe",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "loyalty",
@@ -48252,20 +48251,24 @@
         "city": "MINDARIE",
         "state": "WA",
         "postcode": "6030",
-        "telephone": "+61 8 9304 4867",
+        "telephone": "+61 8 6296 5788",
         "facilities": [
             "gift_card",
             "car_wash",
+            "wild_bean_cafe",
+            "food_offer_instore",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
+            "restaurant",
             "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "auto_gas",
             "lpg",
             "premium_unlead",
@@ -48788,58 +48791,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "21 MURAMATS ROAD\n0822\nEAST ARM",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-7759",
-        "name": "BP MURRURUNDI",
-        "lat": -31.7658,
-        "lng": 150.8427,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "3-5 MAYNE STREET",
-        "city": "MURRURUNDI",
-        "state": "NSW",
-        "postcode": "2338",
-        "telephone": "+61 2 6546 6444",
-        "facilities": [
-            "gift_card",
-            "bdouble_access",
-            "rigid_access",
-            "truck_parking",
-            "truck_suitable_site",
-            "ultra_high_flow_diesel",
-            "cash_point",
-            "shower",
-            "toilet",
-            "barista_coffee",
-            "takeaway_food_offer",
-            "food_offer_instore",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "loyalty",
-            "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "truck_only",
-            "restaurant",
-            "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "e10",
-            "lpg",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "3-5 MAYNE STREET\n2338\nMURRURUNDI",
         "channel_of_trade": null
     },
     {
@@ -57523,6 +57474,37 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1 BARRIER HIGHWAY\n5421\nTEROWIE",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-9776",
+        "name": "BP COHUNA",
+        "lat": -35.805,
+        "lng": 144.2096,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "38 WESTERN ROAD",
+        "city": "COHUNA",
+        "state": "VIC",
+        "postcode": "3568",
+        "telephone": "+61 415 688 887",
+        "facilities": [
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards"
+        ],
+        "products": [
+            "ad_blue_pump",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "38 WESTERN ROAD\n3568\nCOHUNA",
         "channel_of_trade": null
     },
     {
