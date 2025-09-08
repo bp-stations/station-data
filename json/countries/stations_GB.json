@@ -11530,7 +11530,7 @@
     },
     {
         "id": "GB-1830856223",
-        "name": "BP MONTROSE S/STN",
+        "name": "MONTROSE S/STN N MONTROSE",
         "lat": 56.70745,
         "lng": -2.47404,
         "site_brand": "BP",
@@ -11544,7 +11544,8 @@
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "mobile_enabled"
         ],
         "products": [
             "ultimate",
@@ -30328,7 +30329,7 @@
     },
     {
         "id": "GB-42940130",
-        "name": "BP ARBROATH S/STN",
+        "name": "ARBROATH S/STN N ARBROATH",
         "lat": 56.56664,
         "lng": -2.607012,
         "site_brand": "BP",
@@ -30343,7 +30344,8 @@
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "mobile_enabled"
         ],
         "products": [
             "ultimate",
@@ -33791,6 +33793,37 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "270 Melton Road\nLE4 7PB\nLEICESTER",
+        "channel_of_trade": null
+    },
+    {
+        "id": "GB-450796886",
+        "name": "BP WESTON SUPER MARE - FS 1081 N",
+        "lat": 51.344157,
+        "lng": -2.932974,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "Airport Roundabout",
+        "city": "Weston Super Mare",
+        "state": null,
+        "postcode": "BS24 8FN",
+        "telephone": "+44 1934 311251",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "bunker_site",
+            "bistro",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Airport Roundabout\nBS24 8FN\nWeston Super Mare",
         "channel_of_trade": null
     },
     {
@@ -41295,11 +41328,13 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -41625,6 +41660,36 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Leicester Road\nCV23 0EZ\nRUGBY",
+        "channel_of_trade": null
+    },
+    {
+        "id": "GB-553432056",
+        "name": "BP LEEMING LANE - FS360N MANSFIEL",
+        "lat": 53.1608304,
+        "lng": -1.1867146,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "Leeming Lane South",
+        "city": "Mansfield Woodhouse",
+        "state": null,
+        "postcode": "NG19 9AX",
+        "telephone": "+44 1623 259016",
+        "facilities": [
+            "open_24_hours",
+            "bunker_site",
+            "bistro",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Leeming Lane South\nNG19 9AX\nMansfield Woodhouse",
         "channel_of_trade": null
     },
     {
@@ -42488,9 +42553,11 @@
             "mobile_enabled"
         ],
         "products": [
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
