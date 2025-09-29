@@ -12316,43 +12316,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-1260",
-        "name": "HACKHAM",
-        "lat": -35.1498,
-        "lng": 138.5251,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "138 Main South Road",
-        "city": "Hackham",
-        "state": "SA",
-        "postcode": "5163",
-        "telephone": "+61 8 8464 0679",
-        "facilities": [
-            "trailers",
-            "high_flow_diesel",
-            "cash_point",
-            "toilet",
-            "takeaway_food_offer",
-            "bp_rewards_unlocked",
-            "bp_rewards_cents_per_litre",
-            "loyalty",
-            "pump_rewards",
-            "restaurant",
-            "takeaway_food",
-            "high_speed_pump"
-        ],
-        "products": [
-            "premium_unlead",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "138 Main South Road\n5163\nHackham",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-1261",
         "name": "LITTLEHAMPTON",
         "lat": -35.0496,
@@ -13066,6 +13029,7 @@
             "bp_rewards_unlocked_convenience",
             "bp_rewards_cents_per_litre",
             "bp_rewards_member_pricing",
+            "preorder_enabled",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -14376,7 +14340,7 @@
     {
         "id": "AU-1412",
         "name": "BP PARKES GATEWAY",
-        "lat": -33.14789,
+        "lat": -33.128583,
         "lng": 148.15343,
         "site_brand": "BP",
         "country_code": "AU",
@@ -14701,6 +14665,40 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2793 Eleventh Street\n3498\nIrymple",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1425",
+        "name": "BP TOWRADGI",
+        "lat": -34.3843,
+        "lng": 150.9035,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "119 Towradgi Road",
+        "city": "Towradgi",
+        "state": "NSW",
+        "postcode": "2518",
+        "telephone": "+61 2 4283 5100",
+        "facilities": [
+            "open_24_hours",
+            "barista_coffee",
+            "wild_bean_cafe",
+            "takeaway_food_offer",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "bpmeplus",
+            "restaurant",
+            "takeaway_food"
+        ],
+        "products": [
+            "e10",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "119 Towradgi Road\n2518\nTowradgi",
         "channel_of_trade": null
     },
     {
@@ -17306,6 +17304,7 @@
             "ultra_high_flow_diesel",
             "cash_point",
             "toilet",
+            "wild_bean_cafe",
             "fast_food",
             "food_offer_instore",
             "bp_rewards_redemption",
@@ -17313,6 +17312,7 @@
             "bp_rewards_unlocked_convenience",
             "bp_rewards_cents_per_litre",
             "bp_rewards_member_pricing",
+            "preorder_enabled",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -20771,11 +20771,9 @@
             "trailers",
             "cash_point",
             "toilet",
-            "wifi",
             "barista_coffee",
             "takeaway_food_offer",
             "bp_rewards_redemption",
-            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "bp_rewards_member_pricing",
             "loyalty",
@@ -21651,11 +21649,8 @@
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
             "truck_only",
-            "high_speed_pump",
-            "mobile_enabled"
+            "high_speed_pump"
         ],
         "products": [
             "ad_blue_cannister",
@@ -24928,6 +24923,7 @@
         "products": [
             "ad_blue_cannister",
             "auto_gas",
+            "e10",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -31042,6 +31038,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -31273,7 +31270,9 @@
             "food_offer_instore",
             "bp_rewards_redemption",
             "bp_rewards_cents_per_litre",
+            "loyalty",
             "pump_rewards",
+            "bpmeplus",
             "restaurant"
         ],
         "products": [
@@ -31404,6 +31403,8 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -32096,6 +32097,7 @@
             "auto_gas",
             "lpg",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -33126,6 +33128,7 @@
             "ad_blue_cannister",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -33283,6 +33286,7 @@
             "auto_gas",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -33623,6 +33627,7 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "unlead",
@@ -34069,7 +34074,9 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -35216,6 +35223,49 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-5988",
+        "name": "BP BENDIGO",
+        "lat": -36.7581,
+        "lng": 144.2987,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "93-97 McIvor Highway",
+        "city": "Bendigo",
+        "state": "VIC",
+        "postcode": "3550",
+        "telephone": "+61 424 956 464",
+        "facilities": [
+            "rigid_access",
+            "high_flow_diesel",
+            "barista_coffee",
+            "wild_bean_cafe",
+            "takeaway_food_offer",
+            "food_offer_instore",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "restaurant",
+            "takeaway_food",
+            "high_speed_pump",
+            "mobile_enabled"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "93-97 McIvor Highway\n3550\nBendigo",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-5992",
         "name": "BP THOMSONS LAKE",
         "lat": -32.129167,
@@ -35495,6 +35545,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
             "premium_unlead",
@@ -37310,7 +37361,7 @@
         "city": "BELLEVUE",
         "state": "WA",
         "postcode": "6056",
-        "telephone": "+61 430 404 383",
+        "telephone": "+61 8 9250 1427",
         "facilities": [
             "gift_card",
             "trailers",
@@ -40591,6 +40642,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -42980,7 +43032,7 @@
     },
     {
         "id": "AU-7197",
-        "name": "BP OPT COHUNA",
+        "name": "BP OPT COHUNA-SITE TEMPORARILY CLOSED",
         "lat": -35.8052,
         "lng": 144.2095,
         "site_brand": "BP",
@@ -43586,6 +43638,9 @@
             "toilet",
             "takeaway_food_offer",
             "food_offer_instore",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
             "washing_machine",
             "restaurant",
             "takeaway_food",
@@ -49745,7 +49800,6 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
             "auto_gas",
             "lpg",
             "premium_unlead",
@@ -54964,9 +55018,11 @@
             "high_speed_pump"
         ],
         "products": [
+            "ad_blue_pump",
             "premium_unlead",
             "regular_diesel",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -56295,6 +56351,7 @@
             "ad_blue_cannister",
             "e10",
             "lpg",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -57063,13 +57120,11 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "loyalty",
             "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
+            "high_speed_pump"
         ],
         "products": [
             "ad_blue_cannister",
@@ -57738,64 +57793,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "56-60 BATHURST ROAD\n2800\nORANGE",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-9552",
-        "name": "BP PARKES TRUCKSTOP",
-        "lat": -33.143,
-        "lng": 148.1707,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "FORBES STREET",
-        "city": "PARKES",
-        "state": "NSW",
-        "postcode": "2870",
-        "telephone": "+61 2 6862 1188",
-        "facilities": [
-            "open_24_hours",
-            "gift_card",
-            "trailers",
-            "national_diesel_offer",
-            "bdouble_access",
-            "rigid_access",
-            "truck_parking",
-            "truck_suitable_site",
-            "high_flow_diesel",
-            "cash_point",
-            "shower",
-            "toilet",
-            "barista_coffee",
-            "takeaway_food_offer",
-            "food_offer_instore",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "bp_rewards_member_pricing",
-            "loyalty",
-            "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "truck_only",
-            "washing_machine",
-            "restaurant",
-            "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "auto_gas",
-            "e10",
-            "lpg",
-            "premium_unlead",
-            "regular_diesel",
-            "ultimate_unleaded",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "FORBES STREET\n2870\nPARKES",
         "channel_of_trade": null
     },
     {
