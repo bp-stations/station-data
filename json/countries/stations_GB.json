@@ -13377,7 +13377,7 @@
     },
     {
         "id": "GB-2081237633",
-        "name": "BP ST CROSS FILLING STATION",
+        "name": "ST CROSS FILLING STATION",
         "lat": 51.05377,
         "lng": -1.32079,
         "site_brand": "BP",
@@ -13388,6 +13388,7 @@
         "postcode": "SO23 9PS",
         "telephone": "+44 1962 843392",
         "facilities": [
+            "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -13395,9 +13396,12 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_cannister",
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -15238,7 +15242,9 @@
         "telephone": "+44 1420 473011",
         "facilities": [
             "open_24_hours",
+            "alcohol",
             "bunker_site",
+            "toilet",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -15299,7 +15305,7 @@
     },
     {
         "id": "GB-251774544",
-        "name": "BP MUSSELBURGH FS365",
+        "name": "Musselburgh FS365",
         "lat": 55.94426,
         "lng": -3.067187,
         "site_brand": "BP",
@@ -15312,15 +15318,21 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "mobile_enabled"
         ],
         "products": [
+            "ad_blue_cannister",
+            "ad_blue_pump",
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -46132,6 +46144,7 @@
             "open_24_hours",
             "car_wash",
             "cash_point",
+            "toilet",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -46140,6 +46153,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",

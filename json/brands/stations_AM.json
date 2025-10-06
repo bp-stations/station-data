@@ -15813,15 +15813,15 @@
         "postcode": "38019",
         "telephone": "+1 901-313-9899",
         "facilities": [
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "880 Highway 51 N\n38019\nCovington",
@@ -21388,6 +21388,33 @@
         "channel_of_trade": "BODO"
     },
     {
+        "id": "US-50743654463853013500100000000000",
+        "name": "Amoco",
+        "lat": 33.712792,
+        "lng": -84.663719,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "3385 Fairburn Rd",
+        "city": "Douglasville",
+        "state": "GA",
+        "postcode": "30135",
+        "telephone": "+1 678-503-2033",
+        "facilities": [
+            "open_24_hours",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "3385 Fairburn Rd\n30135\nDouglasville",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-50898853102003303700100000000000",
         "name": "Amoco",
         "lat": 25.168943,
@@ -21510,7 +21537,7 @@
         "city": "Plymouth",
         "state": "MN",
         "postcode": "55446",
-        "telephone": "+1 763-559-1782",
+        "telephone": "+1 952-322-9174",
         "facilities": [
             "car_wash",
             "workshop",
@@ -24486,8 +24513,8 @@
     {
         "id": "US-71508714750592434300100000000000",
         "name": "Amoco",
-        "lat": 36.74456,
-        "lng": -80.77403,
+        "lat": 36.744616,
+        "lng": -80.773916,
         "site_brand": "AM",
         "country_code": "US",
         "address": "59 Farmers Market Dr",
@@ -25591,9 +25618,7 @@
             "open_24_hours",
             "toilet",
             "shop",
-            "loyalty",
-            "mobile_acceptance",
-            "mobile_enabled"
+            "loyalty"
         ],
         "products": [
             "regular_diesel"

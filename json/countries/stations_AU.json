@@ -3637,8 +3637,7 @@
             "hand_wash",
             "toilet",
             "bp_rewards_redemption",
-            "bp_rewards_cents_per_litre",
-            "pump_rewards"
+            "bp_rewards_cents_per_litre"
         ],
         "products": [
             "ad_blue_cannister",
@@ -5645,9 +5644,7 @@
             "car_wash",
             "toilet",
             "bp_rewards_redemption",
-            "bp_rewards_cents_per_litre",
-            "loyalty",
-            "pump_rewards"
+            "bp_rewards_cents_per_litre"
         ],
         "products": [
             "ad_blue_cannister",
@@ -7646,9 +7643,7 @@
         "postcode": "3562",
         "telephone": "+61 3 5487 7260",
         "facilities": [
-            "bp_rewards_cents_per_litre",
-            "loyalty",
-            "pump_rewards"
+            "bp_rewards_cents_per_litre"
         ],
         "products": [
             "regular_diesel",
@@ -9237,9 +9232,7 @@
         "postcode": "7155",
         "telephone": "+61 3 6267 4413",
         "facilities": [
-            "bp_rewards_cents_per_litre",
-            "loyalty",
-            "pump_rewards"
+            "bp_rewards_cents_per_litre"
         ],
         "products": [
             "lpg",
@@ -10597,7 +10590,7 @@
     },
     {
         "id": "AU-1212",
-        "name": "X CONVENIENCE ELIZABETH DOWNS",
+        "name": "BP X CONVENIENCE ELIZABETH DOWNS",
         "lat": -34.6984,
         "lng": 138.6921,
         "site_brand": "BP",
@@ -10684,7 +10677,7 @@
     },
     {
         "id": "AU-1214",
-        "name": "X CONVENIENCE ERSKINE",
+        "name": "BP X CONVENIENCE ERSKINE",
         "lat": -32.5649,
         "lng": 115.6826,
         "site_brand": "BP",
@@ -11878,7 +11871,7 @@
     },
     {
         "id": "AU-1248",
-        "name": "X CONVENIENCE VIRGINIA 1",
+        "name": "BP X CONVENIENCE VIRGINIA 1",
         "lat": -34.670941,
         "lng": 138.5617,
         "site_brand": "BP",
@@ -11949,7 +11942,7 @@
     },
     {
         "id": "AU-1250",
-        "name": "X CONVENIENCE VIRGINIA 2",
+        "name": "BP X CONVENIENCE VIRGINIA 2",
         "lat": -34.669,
         "lng": 138.5611,
         "site_brand": "BP",
@@ -11992,7 +11985,7 @@
     },
     {
         "id": "AU-1251",
-        "name": "X CONVENIENCE WELLAND",
+        "name": "BP X CONVENIENCE WELLAND",
         "lat": -34.9039,
         "lng": 138.559,
         "site_brand": "BP",
@@ -12077,7 +12070,7 @@
     },
     {
         "id": "AU-1253",
-        "name": "X CONVENIENCE WOODVILLE NORTH",
+        "name": "BP X CONVENIENCE WOODVILLE NORTH",
         "lat": -34.8732,
         "lng": 138.5457,
         "site_brand": "BP",
@@ -12117,7 +12110,7 @@
     },
     {
         "id": "AU-1254",
-        "name": "X CONVENIENCE BROOKLYN PARK",
+        "name": "BP X CONVENIENCE BROOKLYN PARK",
         "lat": -34.9251,
         "lng": 138.5477,
         "site_brand": "BP",
@@ -12158,7 +12151,7 @@
     },
     {
         "id": "AU-1255",
-        "name": "X CONVENIENCE BURTON",
+        "name": "BP X CONVENIENCE BURTON",
         "lat": -34.7351,
         "lng": 138.5978,
         "site_brand": "BP",
@@ -12198,7 +12191,7 @@
     },
     {
         "id": "AU-1256",
-        "name": "X CONVENIENCE CHRISTIES BEACH",
+        "name": "BP X CONVENIENCE CHRISTIES BEACH",
         "lat": -35.1361,
         "lng": 138.4855,
         "site_brand": "BP",
@@ -12207,7 +12200,7 @@
         "city": "Christies Beach",
         "state": "SA",
         "postcode": "5165",
-        "telephone": "",
+        "telephone": "+61 8 8351 9411",
         "facilities": [
             "open_24_hours",
             "gift_card",
@@ -12239,7 +12232,7 @@
     },
     {
         "id": "AU-1258",
-        "name": "X CONVENIENCE HOLLYWOOD PLAZA",
+        "name": "BP X CONVENIENCE HOLLYWOOD PLAZA",
         "lat": -34.767587,
         "lng": 138.622088,
         "site_brand": "BP",
@@ -12355,7 +12348,7 @@
     },
     {
         "id": "AU-1262",
-        "name": "X CONVENIENCE GOLDEN GROVE",
+        "name": "BP X CONVENIENCE GOLDEN GROVE",
         "lat": -34.7794,
         "lng": 138.7223,
         "site_brand": "BP",
@@ -12395,7 +12388,7 @@
     },
     {
         "id": "AU-1263",
-        "name": "X CONVENIENCE MURRAY BRIDGE",
+        "name": "BP X CONVENIENCE MURRAY BRIDGE",
         "lat": -35.1237,
         "lng": 139.2642,
         "site_brand": "BP",
@@ -12439,7 +12432,7 @@
     },
     {
         "id": "AU-1264",
-        "name": "X CONVENIENCE ST PETERS",
+        "name": "BP X CONVENIENCE ST PETERS",
         "lat": -34.9013,
         "lng": 138.6187,
         "site_brand": "BP",
@@ -12483,7 +12476,7 @@
     },
     {
         "id": "AU-1265",
-        "name": "X CONVENIENCE VALLEY VIEW",
+        "name": "BP X CONVENIENCE VALLEY VIEW",
         "lat": -34.8407,
         "lng": 138.6739,
         "site_brand": "BP",
@@ -14239,6 +14232,7 @@
             "barista_coffee",
             "takeaway_food_offer",
             "loyalty",
+            "pump_rewards",
             "restaurant",
             "takeaway_food"
         ],
@@ -14685,10 +14679,14 @@
             "wild_bean_cafe",
             "takeaway_food_offer",
             "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
             "loyalty",
+            "pump_rewards",
             "bpmeplus",
+            "bpme_technically_enabled",
             "restaurant",
-            "takeaway_food"
+            "takeaway_food",
+            "mobile_enabled"
         ],
         "products": [
             "e10",
@@ -17456,8 +17454,6 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
-            "loyalty",
-            "pump_rewards",
             "truck_only",
             "restaurant",
             "high_speed_pump"
@@ -21898,7 +21894,6 @@
             "toilet",
             "takeaway_food_offer",
             "bp_rewards_redemption",
-            "pump_rewards",
             "truck_only",
             "restaurant",
             "takeaway_food"
@@ -29138,60 +29133,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-4361",
-        "name": "BP NORTH MACLEAN",
-        "lat": -27.7757,
-        "lng": 153.0143,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "CNR MT LINDESAY HWY & WEARING RD",
-        "city": "NORTH MACLEAN",
-        "state": "QLD",
-        "postcode": "4280",
-        "telephone": "+61 7 5546 9341",
-        "facilities": [
-            "open_24_hours",
-            "gift_card",
-            "trailers",
-            "bdouble_access",
-            "rigid_access",
-            "road_train_access",
-            "truck_suitable_site",
-            "high_flow_diesel",
-            "cash_point",
-            "toilet",
-            "barista_coffee",
-            "takeaway_food_offer",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "bp_rewards_cents_per_litre",
-            "loyalty",
-            "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "truck_only",
-            "restaurant",
-            "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "auto_gas",
-            "lpg",
-            "regular_diesel",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "CNR MT LINDESAY HWY & WEARING RD\n4280\nNORTH MACLEAN",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-4366",
         "name": "BP REDLAND BAY",
         "lat": -27.606,
@@ -29795,8 +29736,6 @@
             "toilet",
             "bp_rewards_redemption",
             "bp_rewards_cents_per_litre",
-            "loyalty",
-            "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
             "mobile_enabled"
@@ -31270,8 +31209,6 @@
             "food_offer_instore",
             "bp_rewards_redemption",
             "bp_rewards_cents_per_litre",
-            "loyalty",
-            "pump_rewards",
             "bpmeplus",
             "restaurant"
         ],
@@ -32563,6 +32500,7 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -33495,8 +33433,7 @@
             "cash_point",
             "toilet",
             "bp_rewards_redemption",
-            "bp_rewards_cents_per_litre",
-            "pump_rewards"
+            "bp_rewards_cents_per_litre"
         ],
         "products": [
             "ad_blue_cannister",
@@ -35688,8 +35625,7 @@
         "facilities": [
             "rigid_access",
             "toilet",
-            "bp_rewards_redemption",
-            "pump_rewards"
+            "bp_rewards_redemption"
         ],
         "products": [
             "ad_blue_cannister",
@@ -37780,6 +37716,7 @@
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
             "truck_only",
             "restaurant",
             "takeaway_food",
@@ -43391,7 +43328,9 @@
             "ad_blue_cannister",
             "auto_gas",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -47743,9 +47682,7 @@
         "telephone": "+61 8 9889 1190",
         "facilities": [
             "bp_rewards_redemption",
-            "bp_rewards_cents_per_litre",
-            "loyalty",
-            "pump_rewards"
+            "bp_rewards_cents_per_litre"
         ],
         "products": [
             "ad_blue_cannister",
@@ -52100,8 +52037,6 @@
             "food_offer_instore",
             "bp_rewards_redemption",
             "bp_rewards_cents_per_litre",
-            "loyalty",
-            "pump_rewards",
             "truck_only",
             "restaurant",
             "takeaway_food",
@@ -55590,8 +55525,6 @@
             "takeaway_food_offer",
             "bp_rewards_redemption",
             "bp_rewards_cents_per_litre",
-            "loyalty",
-            "pump_rewards",
             "truck_only",
             "restaurant",
             "takeaway_food"
