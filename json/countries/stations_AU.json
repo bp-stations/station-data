@@ -12160,7 +12160,7 @@
         "city": "Burton",
         "state": "SA",
         "postcode": "5110",
-        "telephone": "+61 8 8351 9411",
+        "telephone": "08711184395",
         "facilities": [
             "open_24_hours",
             "gift_card",
@@ -20770,6 +20770,7 @@
             "barista_coffee",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "bp_rewards_member_pricing",
             "loyalty",
@@ -33433,7 +33434,10 @@
             "cash_point",
             "toilet",
             "bp_rewards_redemption",
-            "bp_rewards_cents_per_litre"
+            "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
+            "loyalty",
+            "pump_rewards"
         ],
         "products": [
             "ad_blue_cannister",
@@ -33785,6 +33789,25 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "295 QUARRY ROAD\n2112\nDENISTONE EAST",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-5751",
+        "name": "BP LOWES GOOLGOWI",
+        "lat": -33.9802,
+        "lng": 145.7113,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "18-20 Zara Street",
+        "city": "Goolgowi",
+        "state": "NSW",
+        "postcode": "2652",
+        "telephone": "+61 2 6965 1162",
+        "facilities": [],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "18-20 Zara Street\n2652\nGoolgowi",
         "channel_of_trade": null
     },
     {
@@ -56775,7 +56798,6 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "auto_gas",
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
