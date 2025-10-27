@@ -4265,6 +4265,8 @@
             "shop",
             "bistro",
             "too_good_to_go",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
             "loyalty",
             "open_saturday",
             "open_sunday",
@@ -4691,6 +4693,7 @@
         "postcode": "74821",
         "telephone": "+49 6261 91199",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -18355,6 +18358,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -25085,6 +25089,7 @@
         "postcode": "71149",
         "telephone": "+49 7457 5959090",
         "facilities": [
+            "open_24_hours",
             "recup",
             "rewe_to_go",
             "shop",
@@ -28236,42 +28241,6 @@
         "watchlist_id": "16096800",
         "formatted_address": "Br\u00e4ukerweg 132\n58708\nMenden",
         "channel_of_trade": "UNCO"
-    },
-    {
-        "id": "DE-16097200",
-        "name": "Jantzon&Hocke KG",
-        "lat": 52.68576,
-        "lng": 8.78304,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Friedrich-Tietjen-Str. 15",
-        "city": "Sulingen",
-        "state": null,
-        "postcode": "27232",
-        "telephone": "+49 4271 93190",
-        "facilities": [
-            "open_24_hours",
-            "truck_wash",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "lpg",
-            "ad_blue",
-            "super_e5",
-            "e10",
-            "truck_diesel"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/16097200",
-        "watchlist_id": "16097200",
-        "formatted_address": "Friedrich-Tietjen-Str. 15\n27232\nSulingen",
-        "channel_of_trade": "JOBR"
     },
     {
         "id": "DE-16097400",
@@ -31466,13 +31435,10 @@
         "telephone": "+49 5542 5012000",
         "facilities": [
             "car_wash",
-            "jet_wash",
-            "super_wash",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
-            "special_car_wash",
             "vda",
             "open_saturday",
             "open_sunday",
@@ -46759,7 +46725,6 @@
         "postcode": "50668",
         "telephone": "+49 221 9726040",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -49526,11 +49491,14 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
+            "jet_wash",
+            "super_wash",
             "recup",
             "bistro",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
+            "special_car_wash",
             "open_saturday",
             "open_sunday",
             "ryd"
@@ -49805,7 +49773,6 @@
             "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
-            "loyalty",
             "open_saturday",
             "open_sunday",
             "ryd"
@@ -63170,8 +63137,8 @@
     {
         "id": "DE-27038800",
         "name": "Kerstin Martin",
-        "lat": 51.147488,
-        "lng": 14.941448,
+        "lat": 51.147523,
+        "lng": 14.941748,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
         "address": "Reichenbacher Stra\u00dfe 89",
@@ -63638,7 +63605,6 @@
         "postcode": "04177",
         "telephone": "+49 341 4801898",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -63992,6 +63958,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "cash_point",
             "rewe_to_go",
@@ -64012,7 +63979,8 @@
             "ultimate_diesel",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/27048400",
         "watchlist_id": "27048400",
