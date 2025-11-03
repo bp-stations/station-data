@@ -401,6 +401,7 @@
         "postcode": "5550",
         "telephone": "+43 6543 6121",
         "facilities": [
+            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
@@ -2217,7 +2218,6 @@
         "telephone": "+43 2236 710698",
         "facilities": [
             "tobacco",
-            "car_wash",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
@@ -2471,8 +2471,6 @@
         "postcode": "6344",
         "telephone": "+43 5374 562031",
         "facilities": [
-            "tobacco",
-            "toilet",
             "bakery_bistro",
             "accepts_routex_cards",
             "accepts_toll_payments",
@@ -2507,6 +2505,7 @@
         "telephone": "+43 5375 6394",
         "facilities": [
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -2650,7 +2649,6 @@
         "telephone": "+43 4247 2747",
         "facilities": [
             "tobacco",
-            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
@@ -3989,6 +3987,7 @@
         "telephone": "+43 3134 2313",
         "facilities": [
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -4865,11 +4864,13 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -5110,6 +5111,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "open_saturday",
             "open_sunday"
         ],
         "products": [
@@ -6362,45 +6364,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AT-727",
-        "name": "Wien 16, Gablenzgasse 72",
-        "lat": 48.2059,
-        "lng": 16.3218,
-        "site_brand": "BP",
-        "country_code": "AT",
-        "address": "Gablenzgasse 72",
-        "city": "Wien",
-        "state": null,
-        "postcode": "1160",
-        "telephone": "+43 1 4921006",
-        "facilities": [
-            "tobacco",
-            "high_speed_pump",
-            "truck_suitable_site",
-            "toilet",
-            "merkur",
-            "shop",
-            "bakery_bistro",
-            "wild_bean_cafe",
-            "accepts_routex_cards",
-            "reminder_service",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Gablenzgasse 72\n1160\nWien",
-        "channel_of_trade": null
-    },
-    {
         "id": "AT-728",
         "name": "Wien 12, Gaudenzdorfer Guertel 77",
         "lat": 48.187575,
@@ -7570,7 +7533,6 @@
         "postcode": "5602",
         "telephone": "+43 6413 8289",
         "facilities": [
-            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
@@ -8133,6 +8095,7 @@
         "telephone": "+43 3135 57199",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
@@ -8198,48 +8161,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Montafoner Strasse 29\n6700\nBludenz",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AT-9833",
-        "name": "Pressbaum, Hauptstr. 54",
-        "lat": 48.1803,
-        "lng": 16.078,
-        "site_brand": "BP",
-        "country_code": "AT",
-        "address": "Hauptstra\u00dfe 54",
-        "city": "Pressbaum",
-        "state": null,
-        "postcode": "3021",
-        "telephone": "+43 2233 52543",
-        "facilities": [
-            "tobacco",
-            "car_wash",
-            "high_speed_pump",
-            "truck_suitable_site",
-            "toilet",
-            "merkur",
-            "shop",
-            "bakery_bistro",
-            "restaurant",
-            "wild_bean_cafe",
-            "accepts_routex_cards",
-            "accepts_toll_payments",
-            "reminder_service",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Hauptstra\u00dfe 54\n3021\nPressbaum",
         "channel_of_trade": null
     },
     {
