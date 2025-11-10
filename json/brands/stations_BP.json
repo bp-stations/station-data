@@ -401,7 +401,6 @@
         "postcode": "5550",
         "telephone": "+43 6543 6121",
         "facilities": [
-            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
@@ -1488,6 +1487,8 @@
             "diesel_on",
             "lpg",
             "red_diesel",
+            "ultimate",
+            "ultimate_diesel",
             "unleaded_95"
         ],
         "website": null,
@@ -1871,6 +1872,7 @@
             "car_wash",
             "shop",
             "accepts_routex_cards",
+            "accepts_toll_payments",
             "open_saturday",
             "open_sunday"
         ],
@@ -1935,6 +1937,7 @@
         "telephone": "+43 7287 752848",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "toilet",
             "accepts_routex_cards",
             "reminder_service",
@@ -2348,44 +2351,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AT-232628006",
-        "name": "GRIES/BRENNER,WESTUFER",
-        "lat": 47.0378548,
-        "lng": 11.4732324,
-        "site_brand": "BP",
-        "country_code": "AT",
-        "address": "Westufer",
-        "city": "Gries am Brenner",
-        "state": null,
-        "postcode": "6156",
-        "telephone": "+43 5274 87288",
-        "facilities": [
-            "open_24_hours",
-            "wifi",
-            "motorway_site",
-            "shop",
-            "wild_bean_cafe",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "hvo",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Westufer\n6156\nGries am Brenner",
-        "channel_of_trade": null
-    },
-    {
         "id": "AT-234664623",
         "name": "Zell am See, Brucker Bundesstr. 57",
         "lat": 47.2968228,
@@ -2505,7 +2470,6 @@
         "telephone": "+43 5375 6394",
         "facilities": [
             "tobacco",
-            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -3171,6 +3135,7 @@
         "telephone": "+43 7288 8363",
         "facilities": [
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -4491,45 +4456,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Neue Innbr\u00fcckenstra\u00dfe 2\n5280\nBraunau am Inn",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AT-538",
-        "name": "Graz, Muenzgrabenstr. 121",
-        "lat": 47.0568059,
-        "lng": 15.4536062,
-        "site_brand": "BP",
-        "country_code": "AT",
-        "address": "M\u00fcnzgrabenstra\u00dfe 121",
-        "city": "Graz",
-        "state": null,
-        "postcode": "8010",
-        "telephone": "+43 316 465444",
-        "facilities": [
-            "tobacco",
-            "high_speed_pump",
-            "truck_suitable_site",
-            "toilet",
-            "shop",
-            "bakery_bistro",
-            "wild_bean_cafe",
-            "accepts_routex_cards",
-            "accepts_toll_payments",
-            "reminder_service",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "M\u00fcnzgrabenstra\u00dfe 121\n8010\nGraz",
         "channel_of_trade": null
     },
     {
@@ -8095,7 +8021,6 @@
         "telephone": "+43 3135 57199",
         "facilities": [
             "open_24_hours",
-            "car_wash",
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
@@ -8691,7 +8616,6 @@
         "telephone": "+43 5224 9090062",
         "facilities": [
             "tobacco",
-            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -15404,9 +15328,11 @@
         "postcode": "2571",
         "telephone": "+61 2 4677 1535",
         "facilities": [
+            "open_24_hours",
             "gift_card",
             "car_wash",
             "hand_wash",
+            "high_flow_diesel",
             "cash_point",
             "toilet",
             "food_offer_instore",
@@ -15418,6 +15344,7 @@
             "bpmeplus",
             "bpme_technically_enabled",
             "restaurant",
+            "high_speed_pump",
             "mobile_enabled"
         ],
         "products": [
@@ -15451,7 +15378,10 @@
             "car_wash",
             "toilet",
             "bp_rewards_redemption",
-            "bp_rewards_cents_per_litre"
+            "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
+            "loyalty",
+            "pump_rewards"
         ],
         "products": [
             "ad_blue_cannister",
@@ -17450,7 +17380,10 @@
         "postcode": "3562",
         "telephone": "+61 3 5487 7260",
         "facilities": [
-            "bp_rewards_cents_per_litre"
+            "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
+            "loyalty",
+            "pump_rewards"
         ],
         "products": [
             "regular_diesel",
@@ -22371,11 +22304,15 @@
             "toilet",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "restaurant",
-            "takeaway_food"
+            "takeaway_food",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -27748,7 +27685,6 @@
             "road_train_access",
             "truck_suitable_site",
             "high_flow_diesel",
-            "cash_point",
             "food_offer_instore",
             "truck_only",
             "restaurant",
@@ -33887,55 +33823,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-3234",
-        "name": "BP HIGHBLUFF",
-        "lat": -37.9457,
-        "lng": 145.0221,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "359 BLUFF ROAD",
-        "city": "HAMPTON",
-        "state": "VIC",
-        "postcode": "3188",
-        "telephone": "+61 3 9598 7909",
-        "facilities": [
-            "gift_card",
-            "car_wash",
-            "trailers",
-            "rigid_access",
-            "cash_point",
-            "toilet",
-            "barista_coffee",
-            "takeaway_food_offer",
-            "food_offer_instore",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "bp_rewards_cents_per_litre",
-            "bp_rewards_member_pricing",
-            "loyalty",
-            "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "restaurant",
-            "takeaway_food",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "auto_gas",
-            "lpg",
-            "premium_unlead",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "359 BLUFF ROAD\n3188\nHAMPTON",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-3238",
         "name": "BETTER CHOICE KWINANA LPG ONLY",
         "lat": -32.2065,
@@ -39139,6 +39026,11 @@
         "facilities": [
             "gift_card",
             "trailers",
+            "truck_parking",
+            "high_flow_diesel",
+            "cash_point",
+            "shower",
+            "toilet",
             "barista_coffee",
             "food_offer_instore",
             "bp_rewards_unlocked",
@@ -39147,16 +39039,20 @@
             "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
+            "truck_only",
             "restaurant",
+            "high_speed_pump",
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_cannister",
             "e10",
             "lpg",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -71029,6 +70925,32 @@
         "channel_of_trade": null
     },
     {
+        "id": "CH-1041448903",
+        "name": "BP Tankstelle Zeiningen",
+        "lat": 47.5465306,
+        "lng": 7.8689022,
+        "site_brand": "BP",
+        "country_code": "CH",
+        "address": "Haldengasse 37",
+        "city": "Zeiningen",
+        "state": null,
+        "postcode": "4314",
+        "telephone": "+41 61 851 16 87",
+        "facilities": [
+            "open_24_hours",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "diesel_on"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Haldengasse 37\n4314\nZeiningen",
+        "channel_of_trade": null
+    },
+    {
         "id": "CH-1043844253",
         "name": "BP Service Vallorbe",
         "lat": 46.730873,
@@ -72177,6 +72099,35 @@
         "channel_of_trade": null
     },
     {
+        "id": "CH-1377664632",
+        "name": "BP Tankstelle Reinach",
+        "lat": 47.4983336,
+        "lng": 7.5969141,
+        "site_brand": "BP",
+        "country_code": "CH",
+        "address": "Baselstrasse 44",
+        "city": "Reinach",
+        "state": null,
+        "postcode": "4153",
+        "telephone": "+41 76 341 27 86",
+        "facilities": [
+            "open_24_hours",
+            "shop",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "diesel_on",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Baselstrasse 44\n4153\nReinach",
+        "channel_of_trade": null
+    },
+    {
         "id": "CH-1377750477",
         "name": "BP Tankstelle Butschwil",
         "lat": 47.363106,
@@ -72694,41 +72645,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "CH-1547497554",
-        "name": "BP Service Flamatt",
-        "lat": 46.88976,
-        "lng": 7.31182,
-        "site_brand": "BP",
-        "country_code": "CH",
-        "address": "Bernstrasse 6",
-        "city": "Flamatt",
-        "state": null,
-        "postcode": "3175",
-        "telephone": "+41 848 848 490",
-        "facilities": [
-            "toilet",
-            "shop",
-            "accepts_routex_cards",
-            "accepts_toll_payments",
-            "automatic_site",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Bernstrasse 6\n3175\nFlamatt",
-        "channel_of_trade": null
-    },
-    {
         "id": "CH-1557148531",
         "name": "BP Station Yverdon",
         "lat": 46.79356,
@@ -72751,40 +72667,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Le Bey\n1400\nYverdon",
-        "channel_of_trade": null
-    },
-    {
-        "id": "CH-1558604711",
-        "name": "BP Service Chiasso",
-        "lat": 45.835437,
-        "lng": 9.035372,
-        "site_brand": "BP",
-        "country_code": "CH",
-        "address": "Via Maestri Comacini 5",
-        "city": "Chiasso",
-        "state": null,
-        "postcode": "6830",
-        "telephone": "+41 91 682 84 59",
-        "facilities": [
-            "open_24_hours",
-            "toilet",
-            "shop",
-            "accepts_routex_cards",
-            "accepts_toll_payments",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Via Maestri Comacini 5\n6830\nChiasso",
         "channel_of_trade": null
     },
     {
@@ -73563,30 +73445,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Zentralstrasse 54\n5610\nWohlen",
-        "channel_of_trade": null
-    },
-    {
-        "id": "CH-1739391367",
-        "name": "BP Station Oron-la-Ville",
-        "lat": 46.57149,
-        "lng": 6.82638,
-        "site_brand": "BP",
-        "country_code": "CH",
-        "address": "Route de Lausanne 3",
-        "city": "Oron-la-Ville",
-        "state": null,
-        "postcode": "1610",
-        "telephone": "+41 848 848 490",
-        "facilities": [
-            "accepts_routex_cards",
-            "automatic_site",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Route de Lausanne 3\n1610\nOron-la-Ville",
         "channel_of_trade": null
     },
     {
@@ -75962,35 +75820,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "CH-317772922",
-        "name": "BP Tankstelle Breitenbach",
-        "lat": 47.407865,
-        "lng": 7.5425324,
-        "site_brand": "BP",
-        "country_code": "CH",
-        "address": "Laufenstrasse 6",
-        "city": "Breitenbach",
-        "state": null,
-        "postcode": "4226",
-        "telephone": "+41 61 789 12 33",
-        "facilities": [
-            "open_24_hours",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Laufenstrasse 6\n4226\nBreitenbach",
-        "channel_of_trade": null
-    },
-    {
         "id": "CH-322436156",
         "name": "BP Tankstelle Munchwilen",
         "lat": 47.47747,
@@ -76943,6 +76772,45 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Avenue de France 57\n1870\nMonthey",
+        "channel_of_trade": null
+    },
+    {
+        "id": "CH-504181158",
+        "name": "BP Service Affoltern",
+        "lat": 47.2878,
+        "lng": 8.45202,
+        "site_brand": "BP",
+        "country_code": "CH",
+        "address": "Z\u00fcrichstrasse 187",
+        "city": "Affoltern",
+        "state": null,
+        "postcode": "8910",
+        "telephone": "+41 43 333 98 01",
+        "facilities": [
+            "car_wash",
+            "truck_parking",
+            "truck_suitable_site",
+            "toilet",
+            "shop",
+            "wild_bean_cafe",
+            "accepts_routex_cards",
+            "accepts_toll_payments",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "ad_blue_pump",
+            "diesel_on",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Z\u00fcrichstrasse 187\n8910\nAffoltern",
         "channel_of_trade": null
     },
     {
@@ -78117,41 +77985,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "CH-65223096",
-        "name": "BP Service Pf\u00e4ffikon",
-        "lat": 47.369,
-        "lng": 8.77913,
-        "site_brand": "BP",
-        "country_code": "CH",
-        "address": "Kempttalstrasse 54",
-        "city": "Pf\u00e4ffikon",
-        "state": null,
-        "postcode": "8330",
-        "telephone": "+41 43 497 75 06",
-        "facilities": [
-            "car_wash",
-            "toilet",
-            "shop",
-            "wild_bean_cafe",
-            "accepts_routex_cards",
-            "accepts_toll_payments",
-            "automatic_site",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": "65223096",
-        "formatted_address": "Kempttalstrasse 54\n8330\nPf\u00e4ffikon",
-        "channel_of_trade": null
-    },
-    {
         "id": "CH-652862361",
         "name": "BP Tankstelle Glis",
         "lat": 46.309179,
@@ -78207,6 +78040,43 @@
         "website": null,
         "watchlist_id": "65872488",
         "formatted_address": "Route de Crissier 6\n1030\nBussigny",
+        "channel_of_trade": null
+    },
+    {
+        "id": "CH-663546569",
+        "name": "BP Service Reichenburg",
+        "lat": 47.169773,
+        "lng": 8.975433,
+        "site_brand": "BP",
+        "country_code": "CH",
+        "address": "Gl\u00e4nternstrasse",
+        "city": "Reichenburg",
+        "state": null,
+        "postcode": "8864",
+        "telephone": "+41 848 848 490",
+        "facilities": [
+            "truck_suitable_site",
+            "toilet",
+            "shop",
+            "accepts_routex_cards",
+            "accepts_toll_payments",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "ad_blue_pump",
+            "auto_gas",
+            "diesel_on",
+            "natural_gas",
+            "ultimate",
+            "ultimate_unleaded",
+            "unleaded_95",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Gl\u00e4nternstrasse\n8864\nReichenburg",
         "channel_of_trade": null
     },
     {
@@ -78570,6 +78440,36 @@
         "channel_of_trade": null
     },
     {
+        "id": "CH-741204373",
+        "name": "BP Unbemannte Station Burgdorf",
+        "lat": 47.062049,
+        "lng": 7.619679,
+        "site_brand": "BP",
+        "country_code": "CH",
+        "address": "Kirchbergstrasse 33",
+        "city": "Burgdorf",
+        "state": null,
+        "postcode": "3400",
+        "telephone": "+41 848 848 490",
+        "facilities": [
+            "open_24_hours",
+            "accepts_routex_cards",
+            "automatic_site",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "diesel_on",
+            "ultimate",
+            "ultimate_unleaded",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Kirchbergstrasse 33\n3400\nBurgdorf",
+        "channel_of_trade": null
+    },
+    {
         "id": "CH-743192618",
         "name": "BP Tankstelle Sisseln",
         "lat": 47.5531913,
@@ -78700,6 +78600,39 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Hauptstrasse 94\n2560\nNidau",
+        "channel_of_trade": null
+    },
+    {
+        "id": "CH-753350536",
+        "name": "BP Unbemannte Station Cadenazzo",
+        "lat": 46.152121,
+        "lng": 8.938583,
+        "site_brand": "BP",
+        "country_code": "CH",
+        "address": "Via Cantonale",
+        "city": "Cadenazzo",
+        "state": null,
+        "postcode": "6593",
+        "telephone": "+41 91 695 88 00",
+        "facilities": [
+            "open_24_hours",
+            "truck_suitable_site",
+            "accepts_routex_cards",
+            "accepts_toll_payments",
+            "automatic_site",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "diesel_on",
+            "ultimate",
+            "ultimate_unleaded",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Via Cantonale\n6593\nCadenazzo",
         "channel_of_trade": null
     },
     {
@@ -79369,6 +79302,33 @@
         "channel_of_trade": null
     },
     {
+        "id": "CH-836883353",
+        "name": "BP Tankstelle Ettingen",
+        "lat": 47.4832455,
+        "lng": 7.5460509,
+        "site_brand": "BP",
+        "country_code": "CH",
+        "address": "Hauptstrasse 6",
+        "city": "Ettingen",
+        "state": null,
+        "postcode": "4107",
+        "telephone": "+41 61 721 29 76",
+        "facilities": [
+            "open_24_hours",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "diesel_on",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Hauptstrasse 6\n4107\nEttingen",
+        "channel_of_trade": null
+    },
+    {
         "id": "CH-841393057",
         "name": "BP Tankstelle Flawil",
         "lat": 47.41718,
@@ -79694,34 +79654,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "CH-941669812",
-        "name": "BP Service Rolle",
-        "lat": 46.45241,
-        "lng": 6.3338,
-        "site_brand": "BP",
-        "country_code": "CH",
-        "address": "Route de Geneve 25",
-        "city": "Rolle",
-        "state": null,
-        "postcode": "1180",
-        "telephone": "+41 848 848 490",
-        "facilities": [
-            "car_wash",
-            "accepts_routex_cards",
-            "automatic_site",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Route de Geneve 25\n1180\nRolle",
-        "channel_of_trade": null
-    },
-    {
         "id": "CH-973066133",
         "name": "BP Tankstelle Bendern",
         "lat": 47.20697,
@@ -79796,7 +79728,6 @@
         "telephone": "+34 928 41 76 04",
         "facilities": [
             "open_24_hours",
-            "car_wash",
             "toilet",
             "accepts_routex_cards",
             "open_saturday",
@@ -80859,6 +80790,7 @@
         "postcode": "35417",
         "telephone": "+34 928 62 73 43",
         "facilities": [
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -81708,23 +81640,27 @@
         "lng": -0.42691,
         "site_brand": "BP",
         "country_code": "ES",
-        "address": "CV-6002",
+        "address": "CV-6002 KM 12",
         "city": "Barcheta",
         "state": null,
         "postcode": "46667",
         "telephone": "+34 962 21 42 64",
         "facilities": [
+            "car_wash",
+            "bistro",
+            "petit_bistro",
             "accepts_routex_cards",
             "open_saturday"
         ],
         "products": [
             "diesel_on",
             "ultimate",
-            "ultimate_diesel"
+            "ultimate_diesel",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "CV-6002\n46667\nBarcheta",
+        "formatted_address": "CV-6002 KM 12\n46667\nBarcheta",
         "channel_of_trade": null
     },
     {
@@ -83676,7 +83612,6 @@
         "postcode": "46870",
         "telephone": "+34 961 16 39 26",
         "facilities": [
-            "car_wash",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -84539,7 +84474,6 @@
         "postcode": "46400",
         "telephone": "+34 961 73 30 04",
         "facilities": [
-            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
@@ -85392,7 +85326,6 @@
         "facilities": [
             "open_24_hours",
             "tobacco",
-            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
@@ -86290,8 +86223,6 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
-            "bistro",
-            "petit_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -95093,6 +95024,35 @@
         "channel_of_trade": null
     },
     {
+        "id": "ES-1795101278",
+        "name": "ES LOS OLIVOS",
+        "lat": 38.243896,
+        "lng": -1.409737,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "Cronista Carlos Varc\u00e1rcel Mavor",
+        "city": "Cieza",
+        "state": null,
+        "postcode": "30530",
+        "telephone": "+34 699 83 70 63",
+        "facilities": [
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "diesel_on",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Cronista Carlos Varc\u00e1rcel Mavor\n30530\nCieza",
+        "channel_of_trade": null
+    },
+    {
         "id": "ES-1799031682",
         "name": "bp VULCANO",
         "lat": 42.176,
@@ -96969,11 +96929,13 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -99056,12 +99018,13 @@
         "site_brand": "BP",
         "country_code": "ES",
         "address": "FV-2",
-        "city": "Puerto del Rosario",
+        "city": "La Antigua",
         "state": null,
         "postcode": "35610",
         "telephone": "+34 828 02 92 24",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -99076,7 +99039,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "FV-2\n35610\nPuerto del Rosario",
+        "formatted_address": "FV-2\n35610\nLa Antigua",
         "channel_of_trade": null
     },
     {
@@ -100298,7 +100261,6 @@
         "postcode": "11370",
         "telephone": "+34 956 44 83 30",
         "facilities": [
-            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
@@ -101948,7 +101910,6 @@
         "telephone": "+34 868 45 52 57",
         "facilities": [
             "tobacco",
-            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_parking",
@@ -102346,6 +102307,7 @@
         "facilities": [
             "open_24_hours",
             "tobacco",
+            "car_wash",
             "jet_wash",
             "disabled_facilities",
             "toilet",
@@ -103311,7 +103273,7 @@
         "city": "ZAHARA DE LOS ATUNES - CADIZ",
         "state": null,
         "postcode": "11393",
-        "telephone": "+34 646 98 36 54",
+        "telephone": "+34 856 03 43 39",
         "facilities": [
             "tobacco",
             "jet_wash",
@@ -103320,8 +103282,11 @@
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
+            "bistro",
+            "petit_bistro",
             "accepts_routex_cards",
-            "open_saturday"
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
@@ -103353,7 +103318,6 @@
         "facilities": [
             "alcohol",
             "tobacco",
-            "car_wash",
             "jet_wash",
             "disabled_facilities",
             "toilet",
@@ -103943,7 +103907,6 @@
         "facilities": [
             "alcohol",
             "tobacco",
-            "car_wash",
             "jet_wash",
             "disabled_facilities",
             "toilet",
@@ -104462,7 +104425,6 @@
         "facilities": [
             "open_24_hours",
             "tobacco",
-            "car_wash",
             "jet_wash",
             "truck_parking",
             "truck_suitable_site",
@@ -107237,6 +107199,7 @@
         "telephone": "+34 607 14 44 89",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "motorway_site",
             "accepts_routex_cards",
             "open_saturday",
@@ -115349,6 +115312,42 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "OAKFIELD ROAD\nHP20 1JJ\nAYLESBURY",
+        "channel_of_trade": null
+    },
+    {
+        "id": "GB-1074741949",
+        "name": "CROFT HILL GARAGE",
+        "lat": 52.559599,
+        "lng": -1.22633,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "COVENTRY ROAD",
+        "city": "LEICESTER",
+        "state": null,
+        "postcode": "LE9 3GP",
+        "telephone": "+44 1455 285064",
+        "facilities": [
+            "open_24_hours",
+            "alcohol",
+            "cash_point",
+            "bakery_bistro",
+            "bistro",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday",
+            "mobile_enabled"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "diesel_on",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "COVENTRY ROAD\nLE9 3GP\nLEICESTER",
         "channel_of_trade": null
     },
     {
@@ -124288,6 +124287,7 @@
         "telephone": "+44 1274 616998",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "jet_wash",
             "cash_point",
             "bistro",
@@ -125751,6 +125751,7 @@
         "telephone": "+44 1227 764091",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
@@ -128481,14 +128482,15 @@
         "lng": -4.496462,
         "site_brand": "BP",
         "country_code": "GB",
-        "address": "LOW GLENCAIRN STREET",
-        "city": "KILMARNOCK",
+        "address": "Low Glencairn Street",
+        "city": "Riccarton",
         "state": null,
         "postcode": "KA1 4DQ",
         "telephone": "+44 1563 572570",
         "facilities": [
             "open_24_hours",
             "alcohol",
+            "bunker_site",
             "cash_point",
             "bakery_bistro",
             "bistro",
@@ -128509,7 +128511,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "LOW GLENCAIRN STREET\nKA1 4DQ\nKILMARNOCK",
+        "formatted_address": "Low Glencairn Street\nKA1 4DQ\nRiccarton",
         "channel_of_trade": null
     },
     {
@@ -132212,7 +132214,6 @@
             "jet_wash",
             "cash_point",
             "disabled_facilities",
-            "toilet",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -134654,7 +134655,6 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
-            "car_wash",
             "truck_suitable_site",
             "cash_point",
             "bakery_bistro",
@@ -136684,7 +136684,6 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
-            "car_wash",
             "bunker_site",
             "truck_suitable_site",
             "cash_point",
@@ -137579,6 +137578,7 @@
         "telephone": "+44 1228 560434",
         "facilities": [
             "alcohol",
+            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_parking",
@@ -137620,7 +137620,6 @@
         "telephone": "+44 1328 878332",
         "facilities": [
             "alcohol",
-            "car_wash",
             "jet_wash",
             "bunker_site",
             "high_speed_pump",
@@ -139031,6 +139030,7 @@
         "telephone": "+44 1900 814374",
         "facilities": [
             "alcohol",
+            "car_wash",
             "jet_wash",
             "cash_point",
             "bistro",
@@ -144561,7 +144561,6 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
-            "car_wash",
             "jet_wash",
             "truck_suitable_site",
             "cash_point",
@@ -146155,7 +146154,6 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
-            "car_wash",
             "cash_point",
             "bakery_bistro",
             "bistro",
@@ -146821,6 +146819,7 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
+            "car_wash",
             "jet_wash",
             "truck_suitable_site",
             "cash_point",
@@ -153966,6 +153965,7 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
+            "car_wash",
             "jet_wash",
             "cash_point",
             "toilet",
@@ -157293,7 +157293,7 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
-            "red_diesel",
+            "electricity",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -157321,7 +157321,8 @@
             "wild_bean_cafe",
             "accepts_routex_cards",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "mobile_enabled"
         ],
         "products": [
             "ultimate",
@@ -168498,39 +168499,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "GR-G440",
-        "name": "PORROU Bros",
-        "lat": 38.31493333,
-        "lng": 23.64319722,
-        "site_brand": "BP",
-        "country_code": "GR",
-        "address": "OINOFITA",
-        "city": "OINOFITA",
-        "state": null,
-        "postcode": "32011",
-        "telephone": "+30 2262 031198",
-        "facilities": [
-            "car_wash",
-            "wifi",
-            "shop",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "lpg",
-            "ultimate",
-            "ultimate_102",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "OINOFITA\n32011\nOINOFITA",
-        "channel_of_trade": null
-    },
-    {
         "id": "GR-G442",
         "name": "POULIOS CH.&SIA O.E.",
         "lat": 38.3346936,
@@ -168810,31 +168778,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "GR-G621",
-        "name": "KATSANA ELISSABET",
-        "lat": 39.484299,
-        "lng": 21.765574,
-        "site_brand": "BP",
-        "country_code": "GR",
-        "address": "MEGALA KALYBIA  TRIKALON",
-        "city": "TRIKALA",
-        "state": null,
-        "postcode": "42030",
-        "telephone": "+30 2431 043214",
-        "facilities": [
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "MEGALA KALYBIA  TRIKALON\n42030\nTRIKALA",
-        "channel_of_trade": null
-    },
-    {
         "id": "GR-G741",
         "name": "MASOURAS GEORGIOS",
         "lat": 39.489279,
@@ -168858,33 +168801,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "AGNANTERO\n43061\nAGNANTERO",
-        "channel_of_trade": null
-    },
-    {
-        "id": "GR-G744",
-        "name": "AKRIVOS ILIAS",
-        "lat": 39.598045,
-        "lng": 21.748058,
-        "site_brand": "BP",
-        "country_code": "GR",
-        "address": "N.R.TRIKALA-SOTIRAS-RIXAS",
-        "city": "TRIKALA",
-        "state": null,
-        "postcode": "42100",
-        "telephone": "+30 2431 085785",
-        "facilities": [
-            "car_wash",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "N.R.TRIKALA-SOTIRAS-RIXAS\n42100\nTRIKALA",
         "channel_of_trade": null
     },
     {
@@ -173804,35 +173720,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "16. ELLINOROSSON Str.\n11525\nATHENS",
-        "channel_of_trade": null
-    },
-    {
-        "id": "GR-Q093",
-        "name": "CALIPSO K.E.A. S.A. 103",
-        "lat": 38.00598454,
-        "lng": 23.67592332,
-        "site_brand": "BP",
-        "country_code": "GR",
-        "address": "370. ATHINON Ave.",
-        "city": "PERISTERI",
-        "state": null,
-        "postcode": "12136",
-        "telephone": "+30 21 0559 1341",
-        "facilities": [
-            "wifi",
-            "shop",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "370. ATHINON Ave.\n12136\nPERISTERI",
         "channel_of_trade": null
     },
     {
@@ -179566,31 +179453,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "GR-Q598",
-        "name": "PALASKAS NIKOLAOS",
-        "lat": 39.46469722,
-        "lng": 21.87351667,
-        "site_brand": "BP",
-        "country_code": "GR",
-        "address": "KALOGRIANA",
-        "city": "KARDITSA(PROASTIO)",
-        "state": null,
-        "postcode": "43070",
-        "telephone": "+30 2441 084420",
-        "facilities": [
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "KALOGRIANA\n43070\nKARDITSA(PROASTIO)",
-        "channel_of_trade": null
-    },
-    {
         "id": "GR-Q599",
         "name": "CALIPSO K.E.A. A.E. 220",
         "lat": 37.96355305,
@@ -183345,8 +183207,8 @@
     {
         "id": "ID-BT009",
         "name": "SPBU bp MH Thamrin",
-        "lat": -6.205072,
-        "lng": 106.62804,
+        "lat": -6.210723,
+        "lng": 106.62912,
         "site_brand": "BP",
         "country_code": "ID",
         "address": "Jl. MH Thamrin, Kel. Cikokol, Kec. Tangerang, Kota Tangerang 15117",
@@ -186900,32 +186762,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Carr.Toluca-Villa Cuauhtemoc S/N, San Mateo Otzacatipan, C.P. 50220, Toluca, Estado de M\u00e9xico\n50220\nToluca",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM1001",
-        "name": "BP",
-        "lat": 19.266955,
-        "lng": -98.479985,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Camino a San Salvador el Verde 146, San Rafael Tlanalapa, San Martin Texmelucan, Puebla, C.P. 74001",
-        "city": "San Martin Texmelucan",
-        "state": "Puebla",
-        "postcode": "74001",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Camino a San Salvador el Verde 146, San Rafael Tlanalapa, San Martin Texmelucan, Puebla, C.P. 74001\n74001\nSan Martin Texmelucan",
         "channel_of_trade": null
     },
     {
@@ -191650,33 +191486,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "MX-BPM914",
-        "name": "BP",
-        "lat": 19.298636,
-        "lng": -98.450922,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "CAMINO A TAMAZOLAPA No. 1",
-        "city": "San Martin Texmelucan",
-        "state": "Puebla",
-        "postcode": "74120",
-        "telephone": "+52 248 112 4670",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "CAMINO A TAMAZOLAPA No. 1\n74120\nSan Martin Texmelucan",
-        "channel_of_trade": null
-    },
-    {
         "id": "MX-BPM915",
         "name": "BP",
         "lat": 25.572525,
@@ -193123,33 +192932,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "MX-BPMA23",
-        "name": "BP",
-        "lat": 19.373532,
-        "lng": -98.465017,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Camino a San Mart\u00edn No. 12",
-        "city": "San Antonio Atotonilco",
-        "state": "Tlaxcala",
-        "postcode": "90215",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "castrol_oil",
-            "cash",
-            "loyalty"
-        ],
-        "products": [
-            "premium_unlead",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Camino a San Mart\u00edn No. 12\n90215\nSan Antonio Atotonilco",
-        "channel_of_trade": null
-    },
-    {
         "id": "MX-BPMA26",
         "name": "bp",
         "lat": 21.165543,
@@ -193722,7 +193504,6 @@
         "postcode": "7051 EB",
         "telephone": "+31 315 230 535",
         "facilities": [
-            "car_wash",
             "truck_suitable_site",
             "accepts_routex_cards",
             "open_saturday",
@@ -196914,7 +196695,6 @@
         "postcode": "1095 KG",
         "telephone": "+31 20 694 8811",
         "facilities": [
-            "car_wash",
             "truck_suitable_site",
             "accepts_routex_cards",
             "open_saturday",
@@ -196981,6 +196761,7 @@
         "postcode": "9351 TB",
         "telephone": "+31 594 517 274",
         "facilities": [
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -198519,7 +198300,6 @@
         "postcode": "1611 GA",
         "telephone": "+31 228 513 655",
         "facilities": [
-            "car_wash",
             "toilet",
             "albert_heijn",
             "accepts_routex_cards",
@@ -199924,7 +199704,7 @@
         "city": "HENGELO (Gld.)",
         "state": null,
         "postcode": "7255 AX",
-        "telephone": "057546330",
+        "telephone": "+31 575 463 300",
         "facilities": [
             "high_speed_pump",
             "truck_suitable_site",
@@ -201212,7 +200992,6 @@
         "postcode": "5464 VA",
         "telephone": "+31 413 364 848",
         "facilities": [
-            "car_wash",
             "truck_parking",
             "truck_suitable_site",
             "toilet",
@@ -201857,6 +201636,37 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Rijksstraatweg 106\n7391 MV\nTwello",
+        "channel_of_trade": null
+    },
+    {
+        "id": "NL-571742048",
+        "name": "BP express Silvolde",
+        "lat": 51.9105,
+        "lng": 6.3954,
+        "site_brand": "BP",
+        "country_code": "NL",
+        "address": "Berkenlaan 168",
+        "city": "SILVOLDE",
+        "state": null,
+        "postcode": "7064 HV",
+        "telephone": "+31 315 323 083",
+        "facilities": [
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "auto_gas",
+            "diesel_on",
+            "lpg",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Berkenlaan 168\n7064 HV\nSILVOLDE",
         "channel_of_trade": null
     },
     {
@@ -203503,33 +203313,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Europaweg 21\n5916 RP\nVENLO",
-        "channel_of_trade": null
-    },
-    {
-        "id": "NL-855746871",
-        "name": "BP express Teteringen",
-        "lat": 51.6043316,
-        "lng": 4.8164963,
-        "site_brand": "BP",
-        "country_code": "NL",
-        "address": "Oosterhoutseweg 8a",
-        "city": "TETERINGEN",
-        "state": null,
-        "postcode": "4847 TC",
-        "telephone": "08002727270",
-        "facilities": [
-            "open_24_hours",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "diesel_on",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Oosterhoutseweg 8a\n4847 TC\nTETERINGEN",
         "channel_of_trade": null
     },
     {
@@ -224650,52 +224433,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "PL-201745491",
-        "name": "GORNA",
-        "lat": 51.717984,
-        "lng": 19.435329,
-        "site_brand": "BP",
-        "country_code": "PL",
-        "address": "SWIETOJANSKA 4",
-        "city": "LODZ",
-        "state": null,
-        "postcode": "93-493",
-        "telephone": "+48 727 010 341",
-        "facilities": [
-            "open_24_hours",
-            "alcohol",
-            "lotto",
-            "tobacco",
-            "car_wash",
-            "jet_wash",
-            "high_speed_pump",
-            "truck_suitable_site",
-            "toilet",
-            "shop",
-            "wild_bean_cafe",
-            "accepts_routex_cards",
-            "shop_open_24_hours",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "auto_gas",
-            "diesel_on",
-            "lpg",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "SWIETOJANSKA 4\n93-493\nLODZ",
-        "channel_of_trade": null
-    },
-    {
         "id": "PL-202604734",
         "name": "GOSTYNIN",
         "lat": 52.43616,
@@ -235578,7 +235315,6 @@
             "open_24_hours",
             "alcohol",
             "tobacco",
-            "jet_wash",
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
@@ -238146,13 +237882,11 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -238272,11 +238006,13 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -238530,12 +238266,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -238743,14 +238481,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -238905,14 +238641,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -239159,12 +238893,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -239556,6 +239292,7 @@
         "telephone": "+351 21 837 1241",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday",
@@ -239627,12 +239364,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -239782,12 +239521,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -240133,11 +239874,13 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -240228,11 +239971,13 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -240296,13 +240041,15 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "auto_gas",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -240412,13 +240159,15 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -240453,14 +240202,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -240565,7 +240312,6 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "auto_gas",
             "diesel_on",
             "lpg",
@@ -240574,8 +240320,7 @@
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -240601,12 +240346,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -240834,14 +240581,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -240867,12 +240612,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -240976,15 +240723,13 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -241360,14 +241105,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -241529,12 +241272,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -241632,12 +241377,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -241665,14 +241412,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -241773,12 +241518,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -241871,12 +241618,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -241976,7 +241725,6 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "red_diesel",
@@ -241984,8 +241732,7 @@
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -242049,13 +241796,15 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -242410,15 +242159,13 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -242450,6 +242197,7 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "red_diesel",
@@ -242457,7 +242205,8 @@
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -242525,13 +242274,15 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -242601,13 +242352,15 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -242637,15 +242390,13 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -242678,14 +242429,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -242717,15 +242466,13 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -242752,13 +242499,15 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -243004,13 +242753,15 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -243311,12 +243062,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -243344,13 +243097,15 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -243456,12 +243211,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -243493,12 +243250,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -243572,7 +243331,6 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "red_diesel",
@@ -243580,8 +243338,7 @@
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -243846,14 +243603,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -243954,7 +243709,7 @@
         "city": "Infias",
         "state": null,
         "postcode": "4815-071",
-        "telephone": "+351 253 567 050",
+        "telephone": "+351 914 906 637",
         "facilities": [
             "open_24_hours",
             "car_wash",
@@ -244098,7 +243853,6 @@
         "postcode": "4750-000",
         "telephone": "+351 253 818 686",
         "facilities": [
-            "car_wash",
             "truck_suitable_site",
             "toilet",
             "accepts_routex_cards",
@@ -244147,14 +243901,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -244183,13 +243935,15 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -244516,6 +244270,7 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "red_diesel",
@@ -244523,7 +244278,8 @@
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -244660,7 +244416,6 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "red_diesel",
@@ -244668,8 +244423,7 @@
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -244736,14 +244490,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -244819,12 +244571,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -245046,7 +244800,6 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "red_diesel",
@@ -245054,8 +244807,7 @@
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -245108,19 +244860,20 @@
         "postcode": "4700-034",
         "telephone": "+351 925 989 257",
         "facilities": [
-            "car_wash",
             "toilet",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -245184,13 +244937,11 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -245259,13 +245010,15 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "auto_gas",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -245334,7 +245087,6 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "red_diesel",
@@ -245342,8 +245094,7 @@
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -245873,7 +245624,6 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "auto_gas",
             "diesel_on",
             "lpg",
@@ -245882,8 +245632,7 @@
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -245994,12 +245743,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -246072,12 +245823,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -246332,14 +246085,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -246659,14 +246410,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -246778,12 +246527,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -247006,15 +246757,13 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -247191,7 +246940,6 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "red_diesel",
@@ -247199,8 +246947,7 @@
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -247268,12 +247015,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -247605,11 +247354,13 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -248221,13 +247972,15 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "auto_gas",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -248286,14 +248039,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -248838,6 +248589,7 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "red_diesel",
@@ -248845,7 +248597,8 @@
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -248876,12 +248629,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -248906,12 +248661,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -248970,12 +248727,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -249118,15 +248877,13 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "auto_gas",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -249304,7 +249061,7 @@
         "city": "Esmoriz",
         "state": null,
         "postcode": "3885-517",
-        "telephone": "+351 256 752 104",
+        "telephone": "+351 256 247 063",
         "facilities": [
             "car_wash",
             "high_speed_pump",
@@ -249427,12 +249184,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -249499,12 +249258,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -249886,15 +249647,13 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "auto_gas",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -250338,13 +250097,15 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -251041,14 +250802,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -251073,11 +250832,13 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -251451,11 +251212,13 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -251670,11 +251433,13 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -251854,13 +251619,11 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -252013,13 +251776,11 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -252074,14 +251835,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -252200,14 +251959,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -252643,13 +252400,15 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "auto_gas",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -252770,12 +252529,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -253044,13 +252805,11 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -253500,14 +253259,12 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": "67076147",
@@ -253597,12 +253354,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "truck_diesel",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -253661,12 +253420,14 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "lpg",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -253885,13 +253646,11 @@
             "open_sunday"
         ],
         "products": [
-            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -253946,11 +253705,13 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -254544,11 +254305,13 @@
             "open_sunday"
         ],
         "products": [
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -254568,7 +254331,6 @@
         "postcode": "2835-315",
         "telephone": "+351 21 131 8990",
         "facilities": [
-            "car_wash",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"

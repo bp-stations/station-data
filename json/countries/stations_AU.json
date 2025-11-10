@@ -5601,9 +5601,11 @@
         "postcode": "2571",
         "telephone": "+61 2 4677 1535",
         "facilities": [
+            "open_24_hours",
             "gift_card",
             "car_wash",
             "hand_wash",
+            "high_flow_diesel",
             "cash_point",
             "toilet",
             "food_offer_instore",
@@ -5615,6 +5617,7 @@
             "bpmeplus",
             "bpme_technically_enabled",
             "restaurant",
+            "high_speed_pump",
             "mobile_enabled"
         ],
         "products": [
@@ -5648,7 +5651,10 @@
             "car_wash",
             "toilet",
             "bp_rewards_redemption",
-            "bp_rewards_cents_per_litre"
+            "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
+            "loyalty",
+            "pump_rewards"
         ],
         "products": [
             "ad_blue_cannister",
@@ -7647,7 +7653,10 @@
         "postcode": "3562",
         "telephone": "+61 3 5487 7260",
         "facilities": [
-            "bp_rewards_cents_per_litre"
+            "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
+            "loyalty",
+            "pump_rewards"
         ],
         "products": [
             "regular_diesel",
@@ -12568,11 +12577,15 @@
             "toilet",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "restaurant",
-            "takeaway_food"
+            "takeaway_food",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -17945,7 +17958,6 @@
             "road_train_access",
             "truck_suitable_site",
             "high_flow_diesel",
-            "cash_point",
             "food_offer_instore",
             "truck_only",
             "restaurant",
@@ -24084,55 +24096,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-3234",
-        "name": "BP HIGHBLUFF",
-        "lat": -37.9457,
-        "lng": 145.0221,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "359 BLUFF ROAD",
-        "city": "HAMPTON",
-        "state": "VIC",
-        "postcode": "3188",
-        "telephone": "+61 3 9598 7909",
-        "facilities": [
-            "gift_card",
-            "car_wash",
-            "trailers",
-            "rigid_access",
-            "cash_point",
-            "toilet",
-            "barista_coffee",
-            "takeaway_food_offer",
-            "food_offer_instore",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "bp_rewards_cents_per_litre",
-            "bp_rewards_member_pricing",
-            "loyalty",
-            "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "restaurant",
-            "takeaway_food",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "auto_gas",
-            "lpg",
-            "premium_unlead",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "359 BLUFF ROAD\n3188\nHAMPTON",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-3238",
         "name": "BETTER CHOICE KWINANA LPG ONLY",
         "lat": -32.2065,
@@ -29336,6 +29299,11 @@
         "facilities": [
             "gift_card",
             "trailers",
+            "truck_parking",
+            "high_flow_diesel",
+            "cash_point",
+            "shower",
+            "toilet",
             "barista_coffee",
             "food_offer_instore",
             "bp_rewards_unlocked",
@@ -29344,16 +29312,20 @@
             "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
+            "truck_only",
             "restaurant",
+            "high_speed_pump",
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_cannister",
             "e10",
             "lpg",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,

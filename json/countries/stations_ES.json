@@ -50,7 +50,6 @@
         "telephone": "+34 928 41 76 04",
         "facilities": [
             "open_24_hours",
-            "car_wash",
             "toilet",
             "accepts_routex_cards",
             "open_saturday",
@@ -1113,6 +1112,7 @@
         "postcode": "35417",
         "telephone": "+34 928 62 73 43",
         "facilities": [
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -1962,23 +1962,27 @@
         "lng": -0.42691,
         "site_brand": "BP",
         "country_code": "ES",
-        "address": "CV-6002",
+        "address": "CV-6002 KM 12",
         "city": "Barcheta",
         "state": null,
         "postcode": "46667",
         "telephone": "+34 962 21 42 64",
         "facilities": [
+            "car_wash",
+            "bistro",
+            "petit_bistro",
             "accepts_routex_cards",
             "open_saturday"
         ],
         "products": [
             "diesel_on",
             "ultimate",
-            "ultimate_diesel"
+            "ultimate_diesel",
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "CV-6002\n46667\nBarcheta",
+        "formatted_address": "CV-6002 KM 12\n46667\nBarcheta",
         "channel_of_trade": null
     },
     {
@@ -3930,7 +3934,6 @@
         "postcode": "46870",
         "telephone": "+34 961 16 39 26",
         "facilities": [
-            "car_wash",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -4793,7 +4796,6 @@
         "postcode": "46400",
         "telephone": "+34 961 73 30 04",
         "facilities": [
-            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
@@ -5646,7 +5648,6 @@
         "facilities": [
             "open_24_hours",
             "tobacco",
-            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
@@ -6544,8 +6545,6 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
-            "bistro",
-            "petit_bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -15347,6 +15346,35 @@
         "channel_of_trade": null
     },
     {
+        "id": "ES-1795101278",
+        "name": "ES LOS OLIVOS",
+        "lat": 38.243896,
+        "lng": -1.409737,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "Cronista Carlos Varc\u00e1rcel Mavor",
+        "city": "Cieza",
+        "state": null,
+        "postcode": "30530",
+        "telephone": "+34 699 83 70 63",
+        "facilities": [
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "diesel_on",
+            "ultimate",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Cronista Carlos Varc\u00e1rcel Mavor\n30530\nCieza",
+        "channel_of_trade": null
+    },
+    {
         "id": "ES-1799031682",
         "name": "bp VULCANO",
         "lat": 42.176,
@@ -17223,11 +17251,13 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -19310,12 +19340,13 @@
         "site_brand": "BP",
         "country_code": "ES",
         "address": "FV-2",
-        "city": "Puerto del Rosario",
+        "city": "La Antigua",
         "state": null,
         "postcode": "35610",
         "telephone": "+34 828 02 92 24",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -19330,7 +19361,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "FV-2\n35610\nPuerto del Rosario",
+        "formatted_address": "FV-2\n35610\nLa Antigua",
         "channel_of_trade": null
     },
     {
@@ -20552,7 +20583,6 @@
         "postcode": "11370",
         "telephone": "+34 956 44 83 30",
         "facilities": [
-            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
@@ -22202,7 +22232,6 @@
         "telephone": "+34 868 45 52 57",
         "facilities": [
             "tobacco",
-            "car_wash",
             "jet_wash",
             "high_speed_pump",
             "truck_parking",
@@ -22600,6 +22629,7 @@
         "facilities": [
             "open_24_hours",
             "tobacco",
+            "car_wash",
             "jet_wash",
             "disabled_facilities",
             "toilet",
@@ -23565,7 +23595,7 @@
         "city": "ZAHARA DE LOS ATUNES - CADIZ",
         "state": null,
         "postcode": "11393",
-        "telephone": "+34 646 98 36 54",
+        "telephone": "+34 856 03 43 39",
         "facilities": [
             "tobacco",
             "jet_wash",
@@ -23574,8 +23604,11 @@
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
+            "bistro",
+            "petit_bistro",
             "accepts_routex_cards",
-            "open_saturday"
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
@@ -23607,7 +23640,6 @@
         "facilities": [
             "alcohol",
             "tobacco",
-            "car_wash",
             "jet_wash",
             "disabled_facilities",
             "toilet",
@@ -24197,7 +24229,6 @@
         "facilities": [
             "alcohol",
             "tobacco",
-            "car_wash",
             "jet_wash",
             "disabled_facilities",
             "toilet",
@@ -24716,7 +24747,6 @@
         "facilities": [
             "open_24_hours",
             "tobacco",
-            "car_wash",
             "jet_wash",
             "truck_parking",
             "truck_suitable_site",
@@ -27491,6 +27521,7 @@
         "telephone": "+34 607 14 44 89",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "motorway_site",
             "accepts_routex_cards",
             "open_saturday",
