@@ -3754,6 +3754,38 @@
         "channel_of_trade": "DODO"
     },
     {
+        "id": "DE-12123400",
+        "name": "SLS Tankstellen GmbH",
+        "lat": 50.377937,
+        "lng": 6.949287,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Trierer Stra\u00dfe 1",
+        "city": "Adenau",
+        "state": null,
+        "postcode": "53518",
+        "telephone": "+49 2691 433",
+        "facilities": [
+            "car_wash",
+            "shop",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/12123400",
+        "watchlist_id": "12123400",
+        "formatted_address": "Trierer Stra\u00dfe 1\n53518\nAdenau",
+        "channel_of_trade": "DODO"
+    },
+    {
         "id": "DE-12126200",
         "name": "Dirk Loth",
         "lat": 50.460181,
@@ -11096,6 +11128,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -19260,6 +19293,7 @@
             "super_e5",
             "e10",
             "truck_diesel",
+            "hvo",
             "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/14169300",
@@ -22149,47 +22183,6 @@
         "watchlist_id": "15060600",
         "formatted_address": "Wieslauftalstra\u00dfe 72\n73614\nSchorndorf",
         "channel_of_trade": "JOBR"
-    },
-    {
-        "id": "DE-15061600",
-        "name": "Ibrahim Ilhan",
-        "lat": 48.320287,
-        "lng": 10.049629,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Kemptener Stra\u00dfe 61",
-        "city": "Senden",
-        "state": null,
-        "postcode": "89250",
-        "telephone": "+49 7307 5217",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "recup",
-            "shop",
-            "bistro",
-            "too_good_to_go",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "vda",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/15061600",
-        "watchlist_id": "15061600",
-        "formatted_address": "Kemptener Stra\u00dfe 61\n89250\nSenden",
-        "channel_of_trade": "COSI"
     },
     {
         "id": "DE-15061800",
@@ -25450,6 +25443,37 @@
         "watchlist_id": "15133800",
         "formatted_address": "A48\n56729\nKehrig",
         "channel_of_trade": "MWPL"
+    },
+    {
+        "id": "DE-15134000",
+        "name": "Nico Kuny",
+        "lat": 48.567667,
+        "lng": 9.313696,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Im Trieb 1",
+        "city": "Grafenberg",
+        "state": null,
+        "postcode": "72661",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "bistro",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "ad_blue",
+            "super_e5",
+            "e10"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/15134000",
+        "watchlist_id": "15134000",
+        "formatted_address": "Im Trieb 1\n72661\nGrafenberg",
+        "channel_of_trade": "COSI"
     },
     {
         "id": "DE-16000300",
@@ -32086,7 +32110,7 @@
     },
     {
         "id": "DE-17091900",
-        "name": "Monika Maurer BAT Uttrichshausen Ost",
+        "name": "BAT Uttrichshausen Ost",
         "lat": 50.410318,
         "lng": 9.732433,
         "site_brand": "ARAL Tankstelle",
@@ -35147,7 +35171,6 @@
         "postcode": "72202",
         "telephone": "+49 7452 3562",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -38395,7 +38418,8 @@
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "hvo"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/19073100",
         "watchlist_id": "19073100",
@@ -41794,6 +41818,7 @@
             "open_saturday",
             "open_sunday",
             "car_electric_charging",
+            "truck_electric_charging",
             "ryd"
         ],
         "products": [
@@ -41804,7 +41829,8 @@
             "super_e5",
             "e10",
             "truck_diesel",
-            "electric_charging"
+            "electric_charging",
+            "truck_electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/19135700",
         "watchlist_id": "19135700",
@@ -52191,6 +52217,44 @@
         "channel_of_trade": "COSI"
     },
     {
+        "id": "DE-21079800",
+        "name": "August Riemeier Mineral\u00f6le und Transporte GmbH&Co. KG",
+        "lat": 52.070366,
+        "lng": 8.413767,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Bielefelder Stra\u00dfe 36",
+        "city": "Werther",
+        "state": null,
+        "postcode": "33824",
+        "telephone": "+49 5203 3331",
+        "facilities": [
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "shop",
+            "bistro",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/21079800",
+        "watchlist_id": "21079800",
+        "formatted_address": "Bielefelder Stra\u00dfe 36\n33824\nWerther",
+        "channel_of_trade": "DODO"
+    },
+    {
         "id": "DE-21084500",
         "name": "Suzan Dessauer",
         "lat": 52.027828,
@@ -52641,13 +52705,12 @@
         "postcode": "32049",
         "telephone": "+49 5221 24623",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -52665,7 +52728,7 @@
         "website": "https://tankstelle.aral.de/tankstelle/21115500",
         "watchlist_id": "21115500",
         "formatted_address": "Mindener Stra\u00dfe 115\n32049\nHerford",
-        "channel_of_trade": "COSI"
+        "channel_of_trade": "DODO"
     },
     {
         "id": "DE-21116900",
@@ -61289,6 +61352,7 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
+            "ad_blue",
             "super_e5",
             "e10",
             "electric_charging"
@@ -63685,7 +63749,7 @@
     },
     {
         "id": "DE-27041200",
-        "name": "Ingolf Baatz",
+        "name": "Sprint Tank GmbH",
         "lat": 50.997968,
         "lng": 14.61652,
         "site_brand": "ARAL Tankstelle",
@@ -68628,6 +68692,7 @@
         "postcode": "99817",
         "telephone": "+49 3691 8819798",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "recup",
             "rewe_to_go",
@@ -69548,6 +69613,7 @@
         "postcode": "04860",
         "telephone": "+49 3421 711855",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",

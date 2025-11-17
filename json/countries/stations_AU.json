@@ -12762,7 +12762,6 @@
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "bp_rewards_member_pricing",
-            "outdoor_payment_terminal",
             "loyalty",
             "pump_rewards",
             "truck_only",
@@ -13408,6 +13407,42 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-1329",
+        "name": "24 SEVEN TWO WELLS OPT",
+        "lat": -34.58299,
+        "lng": 138.49429,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "2 Industrial Crt",
+        "city": "Two Wells",
+        "state": "SA",
+        "postcode": "5501",
+        "telephone": "+61 8 8867 1104",
+        "facilities": [
+            "open_24_hours",
+            "bdouble_access",
+            "rigid_access",
+            "road_train_access",
+            "truck_parking",
+            "high_flow_diesel",
+            "ultra_high_flow_diesel",
+            "toilet",
+            "western_union",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "high_speed_pump"
+        ],
+        "products": [
+            "regular_diesel",
+            "ultimate_diesel"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2 Industrial Crt\n5501\nTwo Wells",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-1331",
         "name": "BP IRYMPLE",
         "lat": -34.2117,
@@ -13944,6 +13979,7 @@
             "food_offer_instore",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
             "preorder_enabled",
             "loyalty",
             "pump_rewards",
@@ -23164,7 +23200,7 @@
         "lng": 146.4362,
         "site_brand": "BP",
         "country_code": "AU",
-        "address": "LOT 1 VESTAN DRIVE",
+        "address": "52 VESTAN DRIVE",
         "city": "MORWELL",
         "state": "VIC",
         "postcode": "3840",
@@ -23191,7 +23227,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "LOT 1 VESTAN DRIVE\n3840\nMORWELL",
+        "formatted_address": "52 VESTAN DRIVE\n3840\nMORWELL",
         "channel_of_trade": null
     },
     {
@@ -23822,7 +23858,6 @@
             "high_speed_pump"
         ],
         "products": [
-            "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
             "lpg",
@@ -24617,7 +24652,7 @@
         "lng": 147.614622,
         "site_brand": "BP",
         "country_code": "AU",
-        "address": "MAIN STREET, PRINCES HIGHWAY",
+        "address": "436 MAIN STREET",
         "city": "BAIRNSDALE",
         "state": "VIC",
         "postcode": "3875",
@@ -24651,7 +24686,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "MAIN STREET, PRINCES HIGHWAY\n3875\nBAIRNSDALE",
+        "formatted_address": "436 MAIN STREET\n3875\nBAIRNSDALE",
         "channel_of_trade": null
     },
     {
@@ -38278,7 +38313,6 @@
             "road_train_access",
             "truck_suitable_site",
             "high_flow_diesel",
-            "cash_point",
             "shower",
             "food_offer_instore",
             "truck_only",
@@ -38287,8 +38321,6 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
-            "premium_unlead",
             "regular_diesel",
             "unlead",
             "ad_blue"
@@ -51272,10 +51304,13 @@
             "gift_card",
             "trailers",
             "cash_point",
+            "barista_coffee",
+            "wild_bean_cafe",
             "takeaway_food_offer",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "preorder_enabled",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -51288,9 +51323,9 @@
             "ad_blue_cannister",
             "e10",
             "lpg",
-            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -56492,6 +56527,7 @@
             "food_offer_instore",
             "bp_rewards_redemption",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "pump_rewards",
             "truck_only",
             "restaurant",
