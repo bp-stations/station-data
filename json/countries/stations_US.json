@@ -15821,6 +15821,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -36540,9 +36541,9 @@
         "postcode": "11040",
         "telephone": "+1 516-747-8368",
         "facilities": [
-            "open_24_hours",
             "workshop",
             "toilet",
+            "shop",
             "loyalty",
             "citi_rewards",
             "mobile_acceptance",
@@ -40960,6 +40961,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -41841,6 +41843,35 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1598 W 68th St\n33014\nHialeah",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-127670",
+        "name": "BP",
+        "lat": 41.17233726,
+        "lng": -87.66340352,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "807 N Dixie Hwy",
+        "city": "Momence",
+        "state": "IL",
+        "postcode": "60954",
+        "telephone": "1111111111",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "807 N Dixie Hwy\n60954\nMomence",
         "channel_of_trade": "BJBR"
     },
     {
@@ -46615,6 +46646,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -48165,6 +48197,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -62265,33 +62298,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-12882975013170180100100000961334",
-        "name": "BP",
-        "lat": 42.47959,
-        "lng": -71.11972,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "317 Montvale Ave",
-        "city": "Woburn",
-        "state": "MA",
-        "postcode": "01801",
-        "telephone": "+1 781-932-1111",
-        "facilities": [
-            "workshop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "317 Montvale Ave\n01801\nWoburn",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-128830",
         "name": "Amoco",
         "lat": 39.833841,
@@ -67857,33 +67863,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-129093",
-        "name": "BP",
-        "lat": 33.6891841967,
-        "lng": -84.0215809753,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "1120 SIGMAN ROAD NORTHWEST",
-        "city": "CONYERS",
-        "state": "GA",
-        "postcode": "30012",
-        "telephone": "1111111111",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1120 SIGMAN ROAD NORTHWEST\n30012\nCONYERS",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-129096",
         "name": "Amoco",
         "lat": 34.0486271889,
@@ -68451,37 +68430,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "4304 Jeffers Rd\n54703\nEau Claire",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-129120",
-        "name": "BP",
-        "lat": 44.8633208475,
-        "lng": -91.4295204991,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "1433 Commercial Blvd",
-        "city": "Chippewa Falls",
-        "state": "WI",
-        "postcode": "54729",
-        "telephone": "+1 715-861-5700",
-        "facilities": [
-            "open_24_hours",
-            "toilet",
-            "shop",
-            "grocer_reward",
-            "fresh_perks",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1433 Commercial Blvd\n54729\nChippewa Falls",
         "channel_of_trade": "BJBR"
     },
     {
@@ -69751,7 +69699,7 @@
         "city": "Argos",
         "state": "IN",
         "postcode": "46501",
-        "telephone": "+1 574-310-9779",
+        "telephone": "+1 574-281-8092",
         "facilities": [
             "open_24_hours",
             "toilet",
@@ -69761,7 +69709,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "200 W Walnut St\n46501\nArgos",
@@ -70052,6 +70002,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-129217",
+        "name": "Amoco",
+        "lat": 40.7740592686,
+        "lng": -86.0804647309,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "353 W Old Key Dr",
+        "city": "Peru",
+        "state": "IN",
+        "postcode": "46970",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "353 W Old Key Dr\n46970\nPeru",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-129218",
         "name": "BP",
         "lat": 33.430712357,
@@ -70193,6 +70170,35 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "141 Highway 15-401 Byp E\n29512\nBennettsville",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129230",
+        "name": "Amoco",
+        "lat": 34.6974932473,
+        "lng": -79.9241230584,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "820 Chesterfield Hwy",
+        "city": "Cheraw",
+        "state": "SC",
+        "postcode": "29520",
+        "telephone": "+1 843-537-9096",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "harris_teeter",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "820 Chesterfield Hwy\n29520\nCheraw",
         "channel_of_trade": "BJBR"
     },
     {
@@ -70487,6 +70493,34 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2565 Plainfield Rd\n60435\nJoliet",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129241",
+        "name": "Amoco",
+        "lat": 36.0589428087,
+        "lng": -88.1161310508,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "129 Highway 641 N",
+        "city": "Camden",
+        "state": "TN",
+        "postcode": "38320",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "129 Highway 641 N\n38320\nCamden",
         "channel_of_trade": "BJBR"
     },
     {
@@ -72713,6 +72747,36 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-129374",
+        "name": "BP",
+        "lat": 41.5812845508,
+        "lng": -88.0610034803,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "1626 S State St",
+        "city": "Lockport",
+        "state": "IL",
+        "postcode": "60441",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "marianos",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1626 S State St\n60441\nLockport",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-129375",
         "name": "BP",
         "lat": 41.50582,
@@ -74909,34 +74973,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-129487",
-        "name": "Amoco",
-        "lat": 39.495634538,
-        "lng": -80.1410842345,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "536 Pennsylvania Ave",
-        "city": "Fairmont",
-        "state": "WV",
-        "postcode": "26554",
-        "telephone": "+1 304-534-8310",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "536 Pennsylvania Ave\n26554\nFairmont",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-129488",
         "name": "Amoco",
         "lat": 40.8099957332,
@@ -76185,6 +76221,35 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1901 S 35th St\n53215\nMilwaukee",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129574",
+        "name": "BP",
+        "lat": 39.0798525404,
+        "lng": -76.5487570648,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "502 Ritchie Hwy",
+        "city": "Severna Park",
+        "state": "MD",
+        "postcode": "21146",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "harris_teeter",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "502 Ritchie Hwy\n21146\nSeverna Park",
         "channel_of_trade": "BJBR"
     },
     {
@@ -78244,6 +78309,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -78763,6 +78829,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-129768",
+        "name": "BP",
+        "lat": 36.9070088051,
+        "lng": -88.8805720201,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "8090 US Highway 62",
+        "city": "Cunningham",
+        "state": "KY",
+        "postcode": "42035",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "8090 US Highway 62\n42035\nCunningham",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-129769",
         "name": "Amoco",
         "lat": 42.4745245052,
@@ -78816,6 +78909,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "US Highway 23 N\n49707\nAlpena",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129776",
+        "name": "BP",
+        "lat": 46.8205177304,
+        "lng": -94.5010722145,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "402 Wren Trail NW",
+        "city": "Backus",
+        "state": "MN",
+        "postcode": "56435",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "402 Wren Trail NW\n56435\nBackus",
         "channel_of_trade": "BJBR"
     },
     {
@@ -79541,6 +79661,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-129838",
+        "name": "BP",
+        "lat": 35.1603494311,
+        "lng": -84.7022206776,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "5015 US-411 N",
+        "city": "Benton",
+        "state": "TN",
+        "postcode": "37307",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "5015 US-411 N\n37307\nBenton",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-129844",
         "name": "BP",
         "lat": 43.5573542972,
@@ -79595,6 +79742,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3006 Route 37 E\n08753\nToms River",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129847",
+        "name": "Amoco",
+        "lat": 31.6322151764,
+        "lng": -84.2418896885,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "1340 US-82 E",
+        "city": "Leesburg",
+        "state": "GA",
+        "postcode": "31763",
+        "telephone": "+1 229-496-1099",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1340 US-82 E\n31763\nLeesburg",
         "channel_of_trade": "BJBR"
     },
     {
@@ -79860,7 +80034,7 @@
         "city": "Abingdon",
         "state": "MD",
         "postcode": "21009",
-        "telephone": "+1 443-851-1913",
+        "telephone": "+1 667-686-7215",
         "facilities": [
             "car_wash",
             "workshop",
@@ -80235,6 +80409,7 @@
             "shop",
             "grocer_reward",
             "harris_teeter",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -81404,6 +81579,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-129976",
+        "name": "BP",
+        "lat": 33.8164595352,
+        "lng": -89.8339470404,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "383 Paper Mill Rd",
+        "city": "Grenada",
+        "state": "MS",
+        "postcode": "38901",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "383 Paper Mill Rd\n38901\nGrenada",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-129978",
         "name": "Amoco",
         "lat": 42.5237217105,
@@ -81432,6 +81634,35 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-129980",
+        "name": "BP",
+        "lat": 35.7426021145,
+        "lng": -80.2290138903,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "2352 NC Highway 47",
+        "city": "Lexington",
+        "state": "NC",
+        "postcode": "27292",
+        "telephone": "+1 336-357-5115",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "harris_teeter",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2352 NC Highway 47\n27292\nLexington",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-129981",
         "name": "BP",
         "lat": 35.8782210344,
@@ -81450,6 +81681,7 @@
             "shop",
             "grocer_reward",
             "harris_teeter",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -81479,6 +81711,7 @@
             "shop",
             "grocer_reward",
             "harris_teeter",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -81515,6 +81748,35 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1735 Lexington Rd\n30605\nAthens",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129985",
+        "name": "BP",
+        "lat": 36.4099519263,
+        "lng": -80.4989426342,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "3230 Cook School Rd",
+        "city": "Pilot Mountain",
+        "state": "NC",
+        "postcode": "27041",
+        "telephone": "+1 336-368-0464",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "harris_teeter",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "3230 Cook School Rd\n27041\nPilot Mountain",
         "channel_of_trade": "BJBR"
     },
     {
@@ -81992,6 +82254,7 @@
             "shop",
             "grocer_reward",
             "marianos",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -82367,6 +82630,60 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130060",
+        "name": "Amoco",
+        "lat": 42.4142829956,
+        "lng": -83.2831800865,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "24555 W MCNICHOLS RD",
+        "city": "DETROIT",
+        "state": "MI",
+        "postcode": "48219",
+        "telephone": "+1 313-472-5363",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "24555 W MCNICHOLS RD\n48219\nDETROIT",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130064",
+        "name": "BP",
+        "lat": 35.1928318677,
+        "lng": -84.8849650022,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "2550 WESTSIDE DRIVE NORTHWEST",
+        "city": "CLEVELAND",
+        "state": "TN",
+        "postcode": "37312",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2550 WESTSIDE DRIVE NORTHWEST\n37312\nCLEVELAND",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130067",
         "name": "BP",
         "lat": 42.3519034636,
@@ -82727,6 +83044,60 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "9812 EAST WASHINGTON STREET\n44023\nCHAGRIN FALLS",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130121",
+        "name": "BP",
+        "lat": 34.9772677099,
+        "lng": -85.4146086751,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "707 GA 299",
+        "city": "WILDWOOD",
+        "state": "GA",
+        "postcode": "30757",
+        "telephone": "9999999999",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "707 GA 299\n30757\nWILDWOOD",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130123",
+        "name": "BP",
+        "lat": 39.3121583085,
+        "lng": -76.6020751791,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "1200 E NORTH AVE",
+        "city": "BALTIMORE",
+        "state": "MD",
+        "postcode": "21202",
+        "telephone": "+1 410-467-4300",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1200 E NORTH AVE\n21202\nBALTIMORE",
         "channel_of_trade": "BJBR"
     },
     {
@@ -83240,6 +83611,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "mobile_acceptance",
             "mobile_enabled"
         ],
@@ -116135,7 +116507,6 @@
         "postcode": "53006",
         "telephone": "+1 920-583-3700",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -125476,8 +125847,8 @@
     {
         "id": "US-40025131299002433300100000000000",
         "name": "BP",
-        "lat": 36.65039,
-        "lng": -80.91406,
+        "lat": 36.6488,
+        "lng": -80.91928,
         "site_brand": "BP",
         "country_code": "US",
         "address": "900 S Main St",
@@ -126788,7 +127159,6 @@
         "postcode": "40502",
         "telephone": "+1 859-269-1702",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -151211,6 +151581,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -155289,35 +155660,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-59198745202004780200100000000000",
-        "name": "BP",
-        "lat": 39.30659791,
-        "lng": -87.38768808,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "13200 S US Highway 41",
-        "city": "Terre Haute",
-        "state": "IN",
-        "postcode": "47802",
-        "telephone": "+1 812-298-8711",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "13200 S US Highway 41\n47802\nTerre Haute",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-59205974123043811800100000000000",
         "name": "BP",
         "lat": 35.05101174,
@@ -158215,7 +158557,6 @@
         "postcode": "52776",
         "telephone": "+1 319-627-4121",
         "facilities": [
-            "open_24_hours",
             "toilet",
             "shop",
             "loyalty",
@@ -167060,9 +167401,7 @@
             "toilet",
             "shop",
             "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
+            "citi_rewards"
         ],
         "products": [
             "regular_diesel"
@@ -169317,34 +169656,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3640 W College Ave\n54914\nAppleton",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-68541236535055450100100000000000",
-        "name": "BP",
-        "lat": 45.6547,
-        "lng": -89.39982,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "1505 N Stevens St",
-        "city": "Rhinelander",
-        "state": "WI",
-        "postcode": "54501",
-        "telephone": "+1 715-362-4000",
-        "facilities": [
-            "toilet",
-            "grocer_reward",
-            "fresh_perks",
-            "loyalty",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1505 N Stevens St\n54501\nRhinelander",
         "channel_of_trade": "BJBR"
     },
     {
@@ -185530,7 +185841,7 @@
         "lng": -71.207385,
         "site_brand": "BP",
         "country_code": "US",
-        "address": "163-164 PELHAM",
+        "address": "163 PELHAM",
         "city": "METHUEN",
         "state": "MA",
         "postcode": "01844",
@@ -185548,7 +185859,7 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "163-164 PELHAM\n01844\nMETHUEN",
+        "formatted_address": "163 PELHAM\n01844\nMETHUEN",
         "channel_of_trade": "BJBR"
     },
     {
@@ -187461,6 +187772,34 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3834 Cheek Rd\n27704\nDurham",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-80992467182223260900100000000000",
+        "name": "Amoco",
+        "lat": 29.673477,
+        "lng": -82.297372,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "2222 NE Waldo Rd",
+        "city": "Gainesville",
+        "state": "FL",
+        "postcode": "32609",
+        "telephone": "+1 352-225-3692",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2222 NE Waldo Rd\n32609\nGainesville",
         "channel_of_trade": "BJBR"
     },
     {
@@ -198816,8 +199155,8 @@
     {
         "id": "US-88089434335003709000100000000000",
         "name": "BP",
-        "lat": 36.1859756,
-        "lng": -86.32700845,
+        "lat": 36.1807214276,
+        "lng": -86.3269117516,
         "site_brand": "BP",
         "country_code": "US",
         "address": "1500 Franklin Rd",
@@ -198830,6 +199169,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -199454,35 +199794,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "4221 Haines Rd\n55811\nHermantown",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-88444177121016053200100000000000",
-        "name": "BP",
-        "lat": 41.8079,
-        "lng": -88.075645,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "1101 Warrenville Rd",
-        "city": "Lisle",
-        "state": "IL",
-        "postcode": "60532",
-        "telephone": "+1 630-852-7510",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "grocer_reward",
-            "marianos",
-            "loyalty",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1101 Warrenville Rd\n60532\nLisle",
         "channel_of_trade": "BJBR"
     },
     {
@@ -202058,7 +202369,7 @@
         "city": "Woodridge",
         "state": "IL",
         "postcode": "60517",
-        "telephone": "+1 630-434-8985",
+        "telephone": "+1 331-233-6348",
         "facilities": [
             "open_24_hours",
             "toilet",
@@ -205397,7 +205708,6 @@
         "postcode": "53048",
         "telephone": "+1 920-269-7621",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -212449,7 +212759,6 @@
         "facilities": [
             "toilet",
             "shop",
-            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
