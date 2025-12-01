@@ -11937,6 +11937,7 @@
         "telephone": "+61 3 5495 1466",
         "facilities": [
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -13536,6 +13537,7 @@
             "hand_wash",
             "toilet",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -14457,6 +14459,7 @@
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -14677,6 +14680,7 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards",
             "truck_only",
@@ -15102,6 +15106,7 @@
         "facilities": [
             "toilet",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -15291,7 +15296,6 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
-            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -15638,6 +15642,7 @@
             "rigid_access",
             "toilet",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -17163,6 +17168,7 @@
         "postcode": "2631",
         "telephone": "+61 423 013 323",
         "facilities": [
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -17236,6 +17242,7 @@
             "high_flow_diesel",
             "barista_coffee",
             "takeaway_food_offer",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -17362,6 +17369,7 @@
         "postcode": "2643",
         "telephone": "+61 2 6026 5241",
         "facilities": [
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -19751,7 +19759,6 @@
         "postcode": "2758",
         "telephone": "00434429979",
         "facilities": [
-            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -22287,6 +22294,31 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-1270",
+        "name": "X CONVENIENCE TEMP STORE",
+        "lat": -34.92391,
+        "lng": 138.57366,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "55 Henley Beach Road",
+        "city": "Mile End",
+        "state": "SA",
+        "postcode": "5031",
+        "telephone": "+61 8 8351 9411",
+        "facilities": [
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards"
+        ],
+        "products": [
+            "regular_diesel"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "55 Henley Beach Road\n5031\nMile End",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-1273",
         "name": "BP NARRABRI",
         "lat": -30.334883,
@@ -22966,6 +22998,7 @@
             "cash_point",
             "toilet",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -23622,6 +23655,7 @@
             "rigid_access",
             "toilet",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -23705,6 +23739,7 @@
         "telephone": "+61 2 6646 2533",
         "facilities": [
             "gift_card",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards"
         ],
@@ -24687,6 +24722,29 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-1435",
+        "name": "BP KINGSTON S.E",
+        "lat": -38.0005,
+        "lng": 145.2299,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "12 Princes Highway",
+        "city": "Rosetown",
+        "state": "VIC",
+        "postcode": "5275",
+        "telephone": "+61 424 622 093",
+        "facilities": [],
+        "products": [
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "12 Princes Highway\n5275\nRosetown",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-1442",
         "name": "BP GEEBUNG",
         "lat": -27.379303,
@@ -24827,6 +24885,95 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "66 TOWNSVILLE ROAD\n4850\nINGHAM",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1455",
+        "name": "BP DULACCA",
+        "lat": -27.1735,
+        "lng": 151.2407,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "61 CNR SHORT STREET AND WARREGO HWY",
+        "city": "DULACCA",
+        "state": "QLD",
+        "postcode": "4425",
+        "telephone": "+61 7 4741 1046",
+        "facilities": [
+            "bdouble_access",
+            "rigid_access",
+            "road_train_access",
+            "truck_parking",
+            "truck_suitable_site",
+            "high_flow_diesel",
+            "toilet",
+            "barista_coffee",
+            "takeaway_food_offer",
+            "food_offer_instore",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "truck_only",
+            "restaurant",
+            "takeaway_food",
+            "high_speed_pump"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "lpg",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "61 CNR SHORT STREET AND WARREGO HWY\n4425\nDULACCA",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1456",
+        "name": "BP LIGHTS ON THE HILL (HUGHENDEN)",
+        "lat": -20.8396,
+        "lng": 144.1732,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "61 Richmond Hill Drive",
+        "city": "Hughenden",
+        "state": "QLD",
+        "postcode": "4821",
+        "telephone": "+61 7 4741 1046",
+        "facilities": [
+            "bdouble_access",
+            "rigid_access",
+            "road_train_access",
+            "truck_parking",
+            "truck_suitable_site",
+            "high_flow_diesel",
+            "toilet",
+            "barista_coffee",
+            "takeaway_food_offer",
+            "food_offer_instore",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "truck_only",
+            "restaurant",
+            "takeaway_food",
+            "high_speed_pump"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "lpg",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "61 Richmond Hill Drive\n4821\nHughenden",
         "channel_of_trade": null
     },
     {
@@ -25941,6 +26088,7 @@
         "facilities": [
             "gift_card",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards"
         ],
@@ -25999,6 +26147,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
             "premium_unlead",
@@ -26094,6 +26243,7 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -26197,12 +26347,14 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_pump",
             "e10",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -26293,6 +26445,7 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -26432,6 +26585,7 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards",
             "restaurant"
@@ -26468,6 +26622,7 @@
             "rigid_access",
             "truck_suitable_site",
             "toilet",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -26594,6 +26749,7 @@
         "facilities": [
             "gift_card",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -26903,6 +27059,7 @@
         "postcode": "4574",
         "telephone": "+61 7 5446 0214",
         "facilities": [
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards"
         ],
@@ -28337,6 +28494,7 @@
             "toilet",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -28380,6 +28538,7 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -30338,6 +30497,7 @@
             "toilet",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -30473,6 +30633,7 @@
             "trailers",
             "cash_point",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards"
         ],
@@ -30703,6 +30864,7 @@
             "toilet",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -31268,6 +31430,7 @@
         "facilities": [
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -32098,6 +32261,7 @@
             "high_flow_diesel",
             "toilet",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -34225,6 +34389,7 @@
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -36659,6 +36824,7 @@
             "cash_point",
             "toilet",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -38700,6 +38866,7 @@
             "barista_coffee",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -39630,6 +39797,7 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -39668,6 +39836,7 @@
             "barista_coffee",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -39708,6 +39877,7 @@
             "high_flow_diesel",
             "toilet",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards",
             "high_speed_pump"
@@ -40671,6 +40841,7 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -40987,6 +41158,7 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -41278,6 +41450,7 @@
         "telephone": "+61 7 4161 1188",
         "facilities": [
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards",
             "bpmeplus",
@@ -42764,6 +42937,7 @@
             "cash_point",
             "toilet",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -43106,6 +43280,7 @@
         "facilities": [
             "toilet",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -43406,6 +43581,7 @@
             "toilet",
             "western_union",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -44093,6 +44269,7 @@
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -44628,6 +44805,7 @@
         "telephone": "+61 2 6954 4010",
         "facilities": [
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards"
         ],
@@ -44741,6 +44919,7 @@
         "facilities": [
             "gift_card",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -45093,6 +45272,7 @@
             "toilet",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -48008,6 +48188,8 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
             "unlead",
             "ad_blue"
@@ -48186,6 +48368,7 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -50255,6 +50438,7 @@
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -50461,6 +50645,7 @@
             "wifi",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -52389,6 +52574,7 @@
             "toilet",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -52892,6 +53078,7 @@
         "telephone": "+61 2 6785 1563",
         "facilities": [
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards"
         ],
@@ -53895,6 +54082,7 @@
         "facilities": [
             "gift_card",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -54157,6 +54345,7 @@
             "high_flow_diesel",
             "ultra_high_flow_diesel",
             "toilet",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards",
             "truck_only",
@@ -55094,6 +55283,7 @@
         "facilities": [
             "toilet",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -55184,6 +55374,7 @@
             "trailers",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards",
             "restaurant"
@@ -56002,6 +56193,7 @@
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -57651,6 +57843,7 @@
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards",
             "restaurant",
@@ -58090,6 +58283,7 @@
         "facilities": [
             "gift_card",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -58808,6 +59002,7 @@
             "toilet",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -59548,6 +59743,7 @@
             "open_24_hours",
             "ultra_high_flow_diesel",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -60202,6 +60398,7 @@
             "trailers",
             "toilet",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -61413,6 +61610,7 @@
             "toilet",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -61452,6 +61650,7 @@
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards",
             "restaurant",
@@ -62354,6 +62553,7 @@
             "high_flow_diesel",
             "toilet",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards",
             "truck_only",
@@ -62522,6 +62722,7 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards",
             "restaurant"
@@ -62660,6 +62861,7 @@
         "telephone": "+61 7 5486 3222",
         "facilities": [
             "food_offer_instore",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -63163,6 +63365,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
             "premium_unlead",
@@ -64071,6 +64274,7 @@
             "toilet",
             "takeaway_food_offer",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -64590,6 +64794,7 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -65278,6 +65483,7 @@
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -66106,6 +66312,7 @@
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards",
             "truck_only",
@@ -66552,6 +66759,7 @@
         "telephone": "+61 8 8975 0722",
         "facilities": [
             "open_24_hours",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre"
         ],
         "products": [
@@ -68468,6 +68676,7 @@
             "high_flow_diesel",
             "ultra_high_flow_diesel",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -68898,6 +69107,7 @@
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
@@ -69367,6 +69577,7 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
+            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "pump_rewards",
             "restaurant",
@@ -69712,7 +69923,6 @@
         "facilities": [
             "gift_card",
             "bp_rewards_redemption",
-            "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
@@ -296304,8 +296514,8 @@
     {
         "id": "US-127988",
         "name": "BP",
-        "lat": 40.737067,
-        "lng": -73.934108,
+        "lat": 40.7371901522,
+        "lng": -73.9341341266,
         "site_brand": "BP",
         "country_code": "US",
         "address": "34-10 Borden Ave",
@@ -309734,37 +309944,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-129122",
-        "name": "BP",
-        "lat": 44.807119,
-        "lng": -91.470522,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "2109 Highland Ave",
-        "city": "Eau Claire",
-        "state": "WI",
-        "postcode": "54701",
-        "telephone": "+1 715-836-8692",
-        "facilities": [
-            "car_wash",
-            "toilet",
-            "shop",
-            "grocer_reward",
-            "fresh_perks",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "2109 Highland Ave\n54701\nEau Claire",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-129123",
         "name": "BP",
         "lat": 44.761435,
@@ -315259,6 +315438,7 @@
             "shop",
             "grocer_reward",
             "harris_teeter",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -316876,6 +317056,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -317350,6 +317531,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -317358,6 +317540,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "5015 US-411 N\n37307\nBenton",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129843",
+        "name": "BP",
+        "lat": 35.9239859445,
+        "lng": -85.4567241487,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "315 E Bockman Way",
+        "city": "Sparta",
+        "state": "TN",
+        "postcode": "38583",
+        "telephone": "+1 931-836-2137",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "315 E Bockman Way\n38583\nSparta",
         "channel_of_trade": "BJBR"
     },
     {
@@ -317962,6 +318171,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-129917",
+        "name": "BP",
+        "lat": 41.9108697507,
+        "lng": -92.0841504192,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "508 Locust St NE",
+        "city": "Blairstown",
+        "state": "IA",
+        "postcode": "52209",
+        "telephone": "+1 319-821-0242",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "508 Locust St NE\n52209\nBlairstown",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-129919",
         "name": "BP",
         "lat": 39.16347,
@@ -318558,6 +318794,32 @@
         "channel_of_trade": "DODO"
     },
     {
+        "id": "US-129987",
+        "name": "BP",
+        "lat": 40.866457,
+        "lng": -73.974246,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "2295 State Route 4",
+        "city": "Fort Lee",
+        "state": "NJ",
+        "postcode": "07024",
+        "telephone": "+1 954-778-8444",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2295 State Route 4\n07024\nFort Lee",
+        "channel_of_trade": "COCM"
+    },
+    {
         "id": "US-129997",
         "name": "BP",
         "lat": 42.0177785206,
@@ -319030,6 +319292,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -319254,6 +319517,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -343511,6 +343775,7 @@
         "postcode": "32254",
         "telephone": "+1 904-240-0279",
         "facilities": [
+            "open_24_hours",
             "toilet",
             "grocer_reward",
             "harris_teeter",
@@ -361196,8 +361461,8 @@
     {
         "id": "US-41529647474152757100100000000000",
         "name": "BP",
-        "lat": 35.917294,
-        "lng": -78.46725,
+        "lat": 35.91693,
+        "lng": -78.46712,
         "site_brand": "BP",
         "country_code": "US",
         "address": "415 S Main St",
@@ -361207,6 +361472,7 @@
         "telephone": "+1 919-554-4270",
         "facilities": [
             "open_24_hours",
+            "toilet",
             "grocer_reward",
             "harris_teeter",
             "loyalty",
@@ -379142,7 +379408,6 @@
         "postcode": "25705",
         "telephone": "+1 304-697-1632",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -385870,6 +386135,35 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1310 Highway 33 S\n55720\nCloquet",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-59198745202004780200100000000000",
+        "name": "BP",
+        "lat": 39.30659791,
+        "lng": -87.38768808,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "13200 S US Highway 41",
+        "city": "Terre Haute",
+        "state": "IN",
+        "postcode": "47802",
+        "telephone": "+1 812-298-8711",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "13200 S US Highway 41\n47802\nTerre Haute",
         "channel_of_trade": "BJBR"
     },
     {
@@ -396664,7 +396958,9 @@
             "toilet",
             "shop",
             "loyalty",
-            "citi_rewards"
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
         ],
         "products": [
             "regular_diesel"
@@ -416988,6 +417284,7 @@
         "postcode": "23112",
         "telephone": "+1 804-687-3475",
         "facilities": [
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"

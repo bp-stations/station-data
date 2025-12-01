@@ -3770,6 +3770,7 @@
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
+            "loyalty",
             "open_saturday",
             "open_sunday",
             "ryd"
@@ -8842,6 +8843,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "cash_point",
             "rewe_to_go",
@@ -8855,13 +8857,15 @@
             "vda",
             "open_saturday",
             "open_sunday",
+            "car_electric_charging",
             "ryd"
         ],
         "products": [
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/13067400",
         "watchlist_id": "13067400",
@@ -9960,7 +9964,7 @@
     },
     {
         "id": "DE-13113400",
-        "name": "Herbert Pankratz",
+        "name": "Jennifer Schukat",
         "lat": 54.760746,
         "lng": 9.176394,
         "site_brand": "ARAL Tankstelle",
@@ -11915,6 +11919,7 @@
             "open_saturday",
             "open_sunday",
             "car_electric_charging",
+            "truck_electric_charging",
             "ryd"
         ],
         "products": [
@@ -11924,7 +11929,8 @@
             "super_e5",
             "e10",
             "truck_diesel",
-            "electric_charging"
+            "electric_charging",
+            "truck_electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/13136400",
         "watchlist_id": "13136400",
@@ -16248,7 +16254,7 @@
     },
     {
         "id": "DE-14106000",
-        "name": "Hans-J\u00f6rg Pins",
+        "name": "Patric Angelou",
         "lat": 51.382843,
         "lng": 6.504978,
         "site_brand": "ARAL Tankstelle",
@@ -19947,6 +19953,7 @@
         "postcode": "49549",
         "telephone": "+49 5485 831620",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -22748,7 +22755,6 @@
         "postcode": "71083",
         "telephone": "+49 7032 24366",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -25486,7 +25492,7 @@
         "city": "Grafenberg",
         "state": null,
         "postcode": "72661",
-        "telephone": "",
+        "telephone": "+49 7123 3048365",
         "facilities": [
             "open_24_hours",
             "bistro",
@@ -27020,6 +27026,7 @@
         "postcode": "38350",
         "telephone": "+49 5351 34766",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "shop",
             "pay_at_pump_supported",
@@ -27939,7 +27946,7 @@
     },
     {
         "id": "DE-16090800",
-        "name": "Marvin Sattler",
+        "name": "August Riemeier GmbH&Co. KG",
         "lat": 51.712669,
         "lng": 8.73633,
         "site_brand": "ARAL Tankstelle",
@@ -27954,10 +27961,8 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -27976,7 +27981,7 @@
         "website": "https://tankstelle.aral.de/tankstelle/16090800",
         "watchlist_id": "16090800",
         "formatted_address": "Bahnhofstra\u00dfe 58\n33102\nPaderborn",
-        "channel_of_trade": "COSI"
+        "channel_of_trade": "JOBR"
     },
     {
         "id": "DE-16093100",
@@ -51383,7 +51388,6 @@
             "ultimate_diesel",
             "lpg",
             "super_e5",
-            "super_98",
             "e10"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/21048500",
@@ -53179,19 +53183,22 @@
         "postcode": "48727",
         "telephone": "+49 2543 232393",
         "facilities": [
+            "electric_charging",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
             "open_saturday",
             "open_sunday",
+            "car_electric_charging",
             "ryd"
         ],
         "products": [
             "lpg",
             "super_e5",
             "super_98",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/21140600",
         "watchlist_id": "21140600",
@@ -60600,7 +60607,7 @@
     },
     {
         "id": "DE-27012900",
-        "name": "Ronny-Peter Bodenstein",
+        "name": "Sprint Tank GmbH",
         "lat": 50.813589,
         "lng": 10.20417,
         "site_brand": "ARAL Tankstelle",
@@ -60611,14 +60618,13 @@
         "postcode": "36433",
         "telephone": "+49 3695 628240",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "cash_point",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -60638,7 +60644,7 @@
         "website": "https://tankstelle.aral.de/tankstelle/27012900",
         "watchlist_id": "27012900",
         "formatted_address": "Salzunger Stra\u00dfe 27\n36433\nLeimbach",
-        "channel_of_trade": "COSI"
+        "channel_of_trade": "JOBR"
     },
     {
         "id": "DE-27013300",
@@ -61072,6 +61078,7 @@
         "postcode": "09120",
         "telephone": "+49 172 4102820",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -65902,7 +65909,7 @@
     },
     {
         "id": "DE-27060700",
-        "name": "Manfred Tieseler",
+        "name": "Yvonne Tieseler",
         "lat": 53.643448,
         "lng": 11.424785,
         "site_brand": "ARAL Tankstelle",
@@ -65914,11 +65921,8 @@
         "telephone": "+49 385 5815854",
         "facilities": [
             "car_wash",
-            "recup",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -70055,7 +70059,7 @@
     },
     {
         "id": "DE-28118500",
-        "name": "Lars Detlefsen",
+        "name": "Manuela Mordhorst",
         "lat": 54.157166,
         "lng": 10.440925,
         "site_brand": "ARAL Tankstelle",
@@ -70071,7 +70075,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
