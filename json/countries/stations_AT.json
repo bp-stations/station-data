@@ -1,38 +1,5 @@
 [
     {
-        "id": "AT-100607468",
-        "name": "ST-GLEISDORF, WILFERSDORF 104",
-        "lat": 47.10694,
-        "lng": 15.66365,
-        "site_brand": "BP",
-        "country_code": "AT",
-        "address": "Wilfersdorf 104",
-        "city": "Gleisdorf-Wilfersdorf",
-        "state": null,
-        "postcode": "8200",
-        "telephone": "+43 3112 29991",
-        "facilities": [
-            "car_wash",
-            "shop",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Wilfersdorf 104\n8200\nGleisdorf-Wilfersdorf",
-        "channel_of_trade": null
-    },
-    {
         "id": "AT-1059253911",
         "name": "Neuhofen an der Krems, Linzer Str. 41",
         "lat": 48.143874,
@@ -45,17 +12,19 @@
         "postcode": "4501",
         "telephone": "+43 7227 5055",
         "facilities": [
+            "car_wash",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -66,7 +35,7 @@
     },
     {
         "id": "AT-1064238759",
-        "name": "O-AIGEN-SCHLAEGL, SCHL.HPT. 14",
+        "name": "AIGEN-SCHL\u00c4GL,SCHL\u00c4GLERHAUPTSTR.14",
         "lat": 48.635821,
         "lng": 13.964236,
         "site_brand": "BP",
@@ -77,18 +46,17 @@
         "postcode": "4160",
         "telephone": "+43 7281 629710",
         "facilities": [
+            "car_wash",
+            "shop",
             "accepts_routex_cards",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95",
+            "red_diesel",
             "ad_blue"
         ],
         "website": null,
@@ -116,14 +84,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -145,19 +114,21 @@
         "postcode": "4202",
         "telephone": "+43 7215 2428",
         "facilities": [
+            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -179,19 +150,20 @@
         "postcode": "5761",
         "telephone": "+43 6584 7759",
         "facilities": [
+            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
+            "red_diesel",
             "unleaded_95"
         ],
         "website": null,
@@ -213,11 +185,13 @@
         "telephone": "+43 732 653135",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -225,8 +199,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -254,6 +228,7 @@
             "wild_bean_cafe",
             "accepts_routex_cards",
             "accepts_toll_payments",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -261,9 +236,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "hvo",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -286,10 +260,12 @@
         "postcode": "5550",
         "telephone": "+43 6452 4384",
         "facilities": [
+            "car_wash",
             "toilet",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -297,8 +273,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -322,6 +298,7 @@
         "telephone": "+43 3112 5900310",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
@@ -330,6 +307,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -337,8 +315,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -372,8 +350,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -395,19 +373,21 @@
         "postcode": "5550",
         "telephone": "+43 6543 6121",
         "facilities": [
+            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -418,7 +398,7 @@
     },
     {
         "id": "AT-1312950519",
-        "name": "ST-EIBISWALD, AIBL 72",
+        "name": "EIBISWALD, AIBL 72",
         "lat": 46.681945,
         "lng": 15.230276,
         "site_brand": "BP",
@@ -433,6 +413,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -440,8 +421,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -464,19 +445,21 @@
         "postcode": "4822",
         "telephone": "+43 6135 8313",
         "facilities": [
+            "car_wash",
             "toilet",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -498,12 +481,14 @@
         "postcode": "1210",
         "telephone": "+43 1 2580094",
         "facilities": [
+            "car_wash",
             "toilet",
             "shop",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -511,8 +496,8 @@
             "ad_blue_cannister",
             "diesel_on",
             "natural_gas",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -534,10 +519,12 @@
         "postcode": "4911",
         "telephone": "+43 7752 88823",
         "facilities": [
+            "car_wash",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -545,8 +532,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -575,14 +562,15 @@
             "wild_bean_cafe",
             "accepts_routex_cards",
             "accepts_toll_payments",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -606,8 +594,10 @@
         "facilities": [
             "car_wash",
             "shop",
+            "bistro",
             "accepts_routex_cards",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -615,8 +605,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -628,7 +618,7 @@
     },
     {
         "id": "AT-1406101388",
-        "name": "S-SALZBURG, STERNECKSTR. 16",
+        "name": "SALZBURG, STERNECKSTRA\u00dfE 16",
         "lat": 47.8081108,
         "lng": 13.0530881,
         "site_brand": "BP",
@@ -648,8 +638,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -686,8 +676,8 @@
             "ad_blue_cannister",
             "diesel_on",
             "natural_gas",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -709,11 +699,13 @@
         "postcode": "4870",
         "telephone": "+43 7682 3728",
         "facilities": [
+            "car_wash",
             "toilet",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -721,8 +713,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -746,12 +738,14 @@
         "telephone": "+43 2252 259140",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "toilet",
             "shop",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -760,8 +754,8 @@
             "ad_blue_pump",
             "diesel_on",
             "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -795,8 +789,9 @@
         "products": [
             "ad_blue_pump",
             "diesel_on",
+            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -819,10 +814,12 @@
         "postcode": "8341",
         "telephone": "+43 3152 67735",
         "facilities": [
+            "car_wash",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -830,8 +827,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -855,12 +852,14 @@
         "telephone": "+43 7723 44424",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "toilet",
             "shop",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -868,8 +867,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -893,12 +892,13 @@
         "telephone": "+43 3339 70365",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "high_speed_pump",
-            "truck_suitable_site",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -906,8 +906,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -930,19 +930,21 @@
         "postcode": "5084",
         "telephone": "+43 6247 8071",
         "facilities": [
+            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -964,11 +966,13 @@
         "postcode": "4150",
         "telephone": "+43 7289 8939",
         "facilities": [
+            "car_wash",
             "toilet",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -976,8 +980,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "natural_gas",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1006,6 +1011,7 @@
             "shop",
             "accepts_routex_cards",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -1013,8 +1019,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1037,18 +1044,20 @@
         "postcode": "8230",
         "telephone": "+43 3332 62571",
         "facilities": [
+            "car_wash",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -1070,11 +1079,13 @@
         "postcode": "4113",
         "telephone": "+43 7232 2230",
         "facilities": [
+            "car_wash",
             "toilet",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -1082,8 +1093,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1108,7 +1119,6 @@
         "facilities": [
             "open_24_hours",
             "high_speed_pump",
-            "truck_suitable_site",
             "toilet",
             "shop",
             "restaurant",
@@ -1124,8 +1134,8 @@
             "diesel_on",
             "lpg",
             "natural_gas",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1148,8 +1158,10 @@
         "postcode": "8055",
         "telephone": "+43 316 293324",
         "facilities": [
+            "car_wash",
             "accepts_routex_cards",
             "accepts_toll_payments",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -1157,8 +1169,8 @@
             "ad_blue_cannister",
             "diesel_on",
             "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -1196,8 +1208,8 @@
             "ad_blue_pump",
             "diesel_on",
             "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1235,8 +1247,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1261,6 +1273,8 @@
         "facilities": [
             "alcohol",
             "tobacco",
+            "car_wash",
+            "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "disabled_facilities",
@@ -1269,6 +1283,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -1276,9 +1291,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1303,13 +1317,14 @@
         "facilities": [
             "open_24_hours",
             "tobacco",
+            "car_wash",
             "high_speed_pump",
-            "truck_suitable_site",
             "toilet",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -1318,8 +1333,8 @@
             "ad_blue_pump",
             "diesel_on",
             "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1359,8 +1374,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1383,16 +1398,18 @@
         "postcode": "8020",
         "telephone": "+43 316 583551",
         "facilities": [
+            "car_wash",
             "accepts_routex_cards",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -1423,14 +1440,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -1462,7 +1480,6 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
-            "lpg",
             "red_diesel",
             "unleaded_95"
         ],
@@ -1493,8 +1510,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -1516,18 +1533,20 @@
         "postcode": "8793",
         "telephone": "+43 3847 2933",
         "facilities": [
+            "car_wash",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -1547,10 +1566,12 @@
         "city": "Anif",
         "state": null,
         "postcode": "5081",
-        "telephone": "+43 660 1349879",
+        "telephone": "+43 50 8300 1300",
         "facilities": [
             "alcohol",
             "tobacco",
+            "car_wash",
+            "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -1558,6 +1579,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -1565,8 +1587,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1589,12 +1612,14 @@
         "postcode": "3430",
         "telephone": "+43 2272 62523",
         "facilities": [
+            "car_wash",
             "toilet",
             "shop",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -1602,8 +1627,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1626,19 +1651,21 @@
         "postcode": "8700",
         "telephone": "+43 3842 46179",
         "facilities": [
+            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -1660,7 +1687,6 @@
         "postcode": "4020",
         "telephone": "+43 732 654562",
         "facilities": [
-            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
@@ -1670,8 +1696,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -1693,11 +1719,13 @@
         "postcode": "9800",
         "telephone": "+43 4762 37470",
         "facilities": [
+            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -1706,8 +1734,8 @@
             "ad_blue_pump",
             "diesel_on",
             "natural_gas",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1731,10 +1759,12 @@
         "telephone": "+43 7229 73209",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "toilet",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -1742,8 +1772,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "natural_gas",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1779,8 +1810,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1803,19 +1835,21 @@
         "postcode": "8431",
         "telephone": "+43 3452 71416",
         "facilities": [
+            "car_wash",
             "toilet",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -1825,40 +1859,8 @@
         "channel_of_trade": null
     },
     {
-        "id": "AT-1878392268",
-        "name": "GOLS, UNTERE HAUPTSTRA\u00dfE 126",
-        "lat": 47.8931953,
-        "lng": 16.9185242,
-        "site_brand": "BP",
-        "country_code": "AT",
-        "address": "Untere Hauptstra\u00dfe 126",
-        "city": "Gols",
-        "state": null,
-        "postcode": "7122",
-        "telephone": "+43 2173 2437",
-        "facilities": [
-            "car_wash",
-            "shop",
-            "accepts_routex_cards",
-            "accepts_toll_payments",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Untere Hauptstra\u00dfe 126\n7122\nGols",
-        "channel_of_trade": null
-    },
-    {
         "id": "AT-1881041682",
-        "name": "T-HEITERWANG, FERNPASSSTRASSE",
+        "name": "HEITERWANG, GEWERBEGEBIET 1",
         "lat": 47.4366856,
         "lng": 10.7662369,
         "site_brand": "BP",
@@ -1867,9 +1869,10 @@
         "city": "Heiterwang",
         "state": null,
         "postcode": "6611",
-        "telephone": "+43 676 4135228",
+        "telephone": "",
         "facilities": [
             "open_24_hours",
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "open_saturday",
@@ -1880,8 +1883,8 @@
             "ad_blue_pump",
             "diesel_on",
             "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1915,8 +1918,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -1946,14 +1949,16 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -1976,12 +1981,14 @@
         "telephone": "+43 7236 20895",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "toilet",
             "shop",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -1990,8 +1997,8 @@
             "ad_blue_pump",
             "diesel_on",
             "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -2003,7 +2010,7 @@
     },
     {
         "id": "AT-1943201263",
-        "name": "GOING",
+        "name": "GOING, INNSBRUCKER STR. 5",
         "lat": 47.5158713,
         "lng": 12.3186388,
         "site_brand": "BP",
@@ -2014,6 +2021,7 @@
         "postcode": "6353",
         "telephone": "+43 5358 43949",
         "facilities": [
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
@@ -2023,8 +2031,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2035,7 +2043,7 @@
     },
     {
         "id": "AT-2034212027",
-        "name": "T-INNSBRUCK, HALLERSTR. 100",
+        "name": "IBK,HALLERSTR.",
         "lat": 47.277588,
         "lng": 11.424257,
         "site_brand": "BP",
@@ -2051,14 +2059,15 @@
             "wild_bean_cafe",
             "accepts_routex_cards",
             "accepts_toll_payments",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2087,14 +2096,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2127,8 +2137,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -2151,19 +2162,22 @@
         "postcode": "4240",
         "telephone": "+43 7942 75096",
         "facilities": [
+            "car_wash",
             "toilet",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "natural_gas",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2195,8 +2209,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2218,20 +2232,22 @@
         "postcode": "8740",
         "telephone": "+43 3577 24800",
         "facilities": [
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2267,8 +2283,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -2291,10 +2307,12 @@
         "postcode": "8112",
         "telephone": "+43 3124 52168",
         "facilities": [
+            "car_wash",
             "toilet",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -2302,8 +2320,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -2326,19 +2344,21 @@
         "postcode": "5700",
         "telephone": "+43 6542 53858",
         "facilities": [
+            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2374,8 +2394,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -2408,8 +2428,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2444,8 +2464,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2469,6 +2489,7 @@
         "facilities": [
             "alcohol",
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -2476,6 +2497,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -2483,8 +2505,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -2516,8 +2538,8 @@
         "products": [
             "diesel_on",
             "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2539,18 +2561,21 @@
         "postcode": "4310",
         "telephone": "+43 7238 3320",
         "facilities": [
+            "car_wash",
             "toilet",
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2586,7 +2611,6 @@
             "diesel_on",
             "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2621,7 +2645,6 @@
             "supermarket",
             "shop",
             "bakery_bistro",
-            "ms_simply_food",
             "restaurant",
             "wild_bean_cafe",
             "accepts_routex_cards",
@@ -2634,10 +2657,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "electricity",
-            "hvo",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -2667,14 +2688,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2703,14 +2725,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2754,8 +2777,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -2779,13 +2802,16 @@
         "telephone": "+43 50 8300 3000",
         "facilities": [
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "bakery_bistro",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -2793,8 +2819,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -2827,8 +2853,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2873,8 +2899,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -2906,6 +2932,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -2914,7 +2941,6 @@
             "diesel_on",
             "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -2959,8 +2985,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -2993,6 +3019,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -3001,47 +3028,12 @@
             "diesel_on",
             "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Wechselstra\u00dfe 15\n2870\nAspang",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AT-3674",
-        "name": "Jochberg, Nr. 440, Dorf 48",
-        "lat": 47.3758,
-        "lng": 12.419,
-        "site_brand": "BP",
-        "country_code": "AT",
-        "address": "Dorf 48",
-        "city": "Jochberg",
-        "state": null,
-        "postcode": "6373",
-        "telephone": "+43 5355 5297",
-        "facilities": [
-            "tobacco",
-            "high_speed_pump",
-            "truck_suitable_site",
-            "toilet",
-            "accepts_routex_cards",
-            "reminder_service",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Dorf 48\n6373\nJochberg",
         "channel_of_trade": null
     },
     {
@@ -3069,8 +3061,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -3106,8 +3098,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -3139,7 +3132,9 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
-            "open_saturday"
+            "special_car_wash",
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
@@ -3147,7 +3142,6 @@
             "diesel_on",
             "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -3180,6 +3174,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -3188,7 +3183,6 @@
             "diesel_on",
             "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -3219,14 +3213,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -3254,13 +3249,14 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
-            "open_saturday"
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -3290,6 +3286,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -3297,8 +3294,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -3330,8 +3327,9 @@
         "products": [
             "ad_blue_pump",
             "diesel_on",
+            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -3359,9 +3357,11 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -3370,7 +3370,6 @@
             "diesel_on",
             "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -3381,7 +3380,7 @@
     },
     {
         "id": "AT-405006304",
-        "name": "O-LOCHEN AM SEE, KERSCHHAM 104",
+        "name": "LOCHEN AM SEE, KERSCHHAM 104",
         "lat": 48.027455,
         "lng": 13.14086,
         "site_brand": "BP",
@@ -3392,18 +3391,20 @@
         "postcode": "5221",
         "telephone": "+43 7747 20338",
         "facilities": [
+            "car_wash",
             "shop",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -3434,11 +3435,52 @@
         ],
         "products": [
             "diesel_on",
+            "red_diesel",
             "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Wiener Neust\u00e4dter Stra\u00dfe 120\n2821\nFrohsdorf",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AT-416",
+        "name": "Gaweinstal, Wienerstr. 35",
+        "lat": 48.472861,
+        "lng": 16.588735,
+        "site_brand": "BP",
+        "country_code": "AT",
+        "address": "Wienerstra\u00dfe 35",
+        "city": "Gaweinstal",
+        "state": null,
+        "postcode": "2191",
+        "telephone": "+43 2574 2183",
+        "facilities": [
+            "tobacco",
+            "car_wash",
+            "high_speed_pump",
+            "truck_suitable_site",
+            "toilet",
+            "shop",
+            "wild_bean_cafe",
+            "accepts_routex_cards",
+            "accepts_toll_payments",
+            "reminder_service",
+            "special_car_wash",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "diesel_on",
+            "red_diesel",
+            "ultimate",
+            "ultimate_unleaded",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Wienerstra\u00dfe 35\n2191\nGaweinstal",
         "channel_of_trade": null
     },
     {
@@ -3469,9 +3511,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "hvo",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -3504,14 +3545,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -3544,14 +3586,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -3573,11 +3616,13 @@
         "postcode": "8502",
         "telephone": "+43 3136 83140",
         "facilities": [
+            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -3585,8 +3630,8 @@
             "ad_blue_cannister",
             "diesel_on",
             "natural_gas",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -3624,8 +3669,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -3665,8 +3710,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -3709,8 +3754,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -3756,9 +3801,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "hvo",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -3803,8 +3847,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -3832,17 +3876,19 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -3874,6 +3920,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -3882,7 +3929,6 @@
             "diesel_on",
             "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -3912,14 +3958,14 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
-            "open_saturday"
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
             "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -3946,9 +3992,11 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -3957,13 +4005,59 @@
             "diesel_on",
             "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Schulstra\u00dfe 7\n9562\nHimmelberg",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AT-474",
+        "name": "Innsbruck/Ampass",
+        "lat": 47.263278,
+        "lng": 11.453458,
+        "site_brand": "BP",
+        "country_code": "AT",
+        "address": "A12",
+        "city": "Ampass",
+        "state": null,
+        "postcode": "6070",
+        "telephone": "+43 512 346411",
+        "facilities": [
+            "open_24_hours",
+            "tobacco",
+            "high_speed_pump",
+            "truck_parking",
+            "truck_suitable_site",
+            "disabled_facilities",
+            "toilet",
+            "wifi",
+            "motorway_site",
+            "shop",
+            "bakery_bistro",
+            "restaurant",
+            "wild_bean_cafe",
+            "accepts_routex_cards",
+            "accepts_toll_payments",
+            "reminder_service",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "ad_blue_pump",
+            "diesel_on",
+            "red_diesel",
+            "ultimate",
+            "ultimate_unleaded",
+            "unleaded_95",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "A12\n6070\nAmpass",
         "channel_of_trade": null
     },
     {
@@ -3991,14 +4085,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -4009,7 +4104,7 @@
     },
     {
         "id": "AT-48282150",
-        "name": "T-SOELL, WALD 1",
+        "name": "S\u00d6LL,WALD 1",
         "lat": 47.4994,
         "lng": 12.1883,
         "site_brand": "BP",
@@ -4020,6 +4115,7 @@
         "postcode": "6306",
         "telephone": "+43 50 8300",
         "facilities": [
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
@@ -4030,8 +4126,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -4043,7 +4139,7 @@
     },
     {
         "id": "AT-485588722",
-        "name": "N-KIRCHBERG/WAG,KREMSERSTR 2-4",
+        "name": "KIRCHBERG/WAGRAM,KREMSERSTR2-4",
         "lat": 48.4307556,
         "lng": 15.9026631,
         "site_brand": "BP",
@@ -4054,16 +4150,14 @@
         "postcode": "3470",
         "telephone": "+43 2279 2287",
         "facilities": [
+            "car_wash",
             "accepts_routex_cards",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95"
+            "red_diesel"
         ],
         "website": null,
         "watchlist_id": null,
@@ -4088,17 +4182,19 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -4120,12 +4216,14 @@
         "postcode": "5110",
         "telephone": "+43 6272 73182",
         "facilities": [
+            "car_wash",
             "toilet",
             "shop",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -4134,8 +4232,8 @@
             "ad_blue_pump",
             "diesel_on",
             "natural_gas",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -4163,18 +4261,20 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "bakery_bistro",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -4197,11 +4297,13 @@
         "telephone": "+43 2574 29364",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "shop",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -4210,8 +4312,8 @@
             "ad_blue_pump",
             "diesel_on",
             "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -4223,7 +4325,7 @@
     },
     {
         "id": "AT-523108728",
-        "name": "N-GRESTEN, WAIDHOFNER STR. 1",
+        "name": "GRESTEN, WAIDHOFNER STR. 1",
         "lat": 47.986709,
         "lng": 15.023556,
         "site_brand": "BP",
@@ -4235,18 +4337,16 @@
         "telephone": "+43 7487 4044",
         "facilities": [
             "open_24_hours",
+            "car_wash",
+            "shop",
             "accepts_routex_cards",
-            "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
-            "diesel_on",
-            "ultimate",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unleaded_95"
+            "red_diesel"
         ],
         "website": null,
         "watchlist_id": null,
@@ -4280,8 +4380,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -4326,8 +4426,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -4350,9 +4450,11 @@
         "postcode": "4040",
         "telephone": "+43 732 250346",
         "facilities": [
+            "car_wash",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -4360,8 +4462,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -4395,8 +4497,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -4431,14 +4533,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -4469,6 +4572,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -4476,8 +4580,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -4510,8 +4614,9 @@
         "products": [
             "ad_blue_pump",
             "diesel_on",
+            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -4536,6 +4641,7 @@
         "facilities": [
             "alcohol",
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -4543,6 +4649,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -4550,8 +4657,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -4588,8 +4696,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -4621,14 +4729,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -4663,8 +4772,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -4702,7 +4812,6 @@
             "diesel_on",
             "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -4731,16 +4840,19 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -4767,14 +4879,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -4796,18 +4909,20 @@
         "postcode": "8940",
         "telephone": "+43 3612 237240",
         "facilities": [
+            "car_wash",
             "toilet",
             "restaurant",
             "accepts_routex_cards",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -4841,8 +4956,9 @@
         "products": [
             "ad_blue_pump",
             "diesel_on",
+            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -4873,6 +4989,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -4880,8 +4997,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -4916,6 +5033,7 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
             "ultimate_unleaded",
             "unleaded_95"
@@ -4950,8 +5068,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -4987,9 +5105,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
-            "hvo",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5024,6 +5141,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -5031,8 +5149,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -5064,14 +5182,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5109,8 +5228,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -5142,6 +5261,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -5150,7 +5270,6 @@
             "diesel_on",
             "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5177,18 +5296,20 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "bakery_bistro",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5220,14 +5341,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5256,14 +5378,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5290,9 +5413,11 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -5300,8 +5425,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -5345,10 +5470,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "electricity",
-            "hvo",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -5380,6 +5503,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -5388,7 +5512,6 @@
             "diesel_on",
             "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5417,18 +5540,19 @@
             "toilet",
             "shop",
             "bakery_bistro",
-            "bistro",
+            "wild_bean_cafe",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5462,6 +5586,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -5469,8 +5594,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -5505,14 +5630,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5557,9 +5683,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "hvo",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -5600,8 +5725,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5625,6 +5750,7 @@
         "facilities": [
             "open_24_hours",
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -5635,14 +5761,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5664,11 +5791,13 @@
         "postcode": "4320",
         "telephone": "+43 7262 53235",
         "facilities": [
+            "car_wash",
             "toilet",
             "restaurant",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -5676,8 +5805,8 @@
             "ad_blue_cannister",
             "diesel_on",
             "natural_gas",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5711,14 +5840,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5746,13 +5876,15 @@
             "toilet",
             "accepts_routex_cards",
             "accepts_toll_payments",
-            "reminder_service"
+            "reminder_service",
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5788,8 +5920,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5817,13 +5949,14 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
-            "open_saturday"
+            "open_saturday",
+            "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5849,6 +5982,7 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "accepts_routex_cards",
             "reminder_service",
             "open_saturday",
@@ -5857,8 +5991,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5892,14 +6026,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5932,14 +6067,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -5963,6 +6099,7 @@
         "facilities": [
             "alcohol",
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -5971,6 +6108,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -5978,8 +6116,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -6003,11 +6141,14 @@
         "telephone": "+43 50 8300 3350",
         "facilities": [
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "accepts_routex_cards",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -6015,8 +6156,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -6052,14 +6193,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6089,6 +6231,7 @@
             "wild_bean_cafe",
             "accepts_routex_cards",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -6096,8 +6239,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -6131,14 +6274,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6171,15 +6315,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
-            "truck_diesel",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6219,8 +6363,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -6259,8 +6403,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6300,8 +6444,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6335,14 +6479,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6376,14 +6521,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6412,6 +6558,7 @@
         ],
         "products": [
             "diesel_on",
+            "red_diesel",
             "unleaded_95"
         ],
         "website": null,
@@ -6445,14 +6592,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6477,6 +6625,7 @@
             "open_24_hours",
             "tobacco",
             "car_wash",
+            "jet_wash",
             "truck_suitable_site",
             "toilet",
             "merkur",
@@ -6486,14 +6635,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6528,14 +6678,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6570,14 +6721,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6611,14 +6763,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6650,8 +6803,8 @@
         "products": [
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -6675,6 +6828,7 @@
         "telephone": "+43 1 3681379",
         "facilities": [
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -6685,14 +6839,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6726,14 +6881,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6771,8 +6927,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6806,14 +6962,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6848,14 +7005,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6894,8 +7052,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -6922,6 +7080,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -6929,8 +7088,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -6966,14 +7125,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -7008,6 +7168,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -7015,8 +7176,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -7051,14 +7212,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -7093,6 +7255,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -7100,8 +7263,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -7135,14 +7298,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -7175,14 +7339,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -7216,14 +7381,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -7251,7 +7417,7 @@
             "toilet",
             "shop",
             "bakery_bistro",
-            "bistro",
+            "wild_bean_cafe",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
@@ -7261,8 +7427,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -7286,6 +7452,7 @@
         "facilities": [
             "tobacco",
             "car_wash",
+            "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -7295,6 +7462,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -7302,8 +7470,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -7342,8 +7510,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -7375,14 +7543,15 @@
             "shop",
             "accepts_routex_cards",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -7393,7 +7562,7 @@
     },
     {
         "id": "AT-813823608",
-        "name": "K-TROEPOLACH, NR. 83",
+        "name": "TROEPOLACH",
         "lat": 46.615,
         "lng": 13.2806,
         "site_brand": "BP",
@@ -7405,6 +7574,7 @@
         "telephone": "+43 4285 234",
         "facilities": [
             "open_24_hours",
+            "shop",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -7413,8 +7583,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -7437,11 +7607,13 @@
         "postcode": "5602",
         "telephone": "+43 6413 8289",
         "facilities": [
+            "car_wash",
             "toilet",
             "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -7449,8 +7621,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -7475,6 +7647,8 @@
         "facilities": [
             "alcohol",
             "tobacco",
+            "car_wash",
+            "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "disabled_facilities",
@@ -7483,6 +7657,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -7491,8 +7666,8 @@
             "ad_blue_pump",
             "diesel_on",
             "natural_gas",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -7504,7 +7679,7 @@
     },
     {
         "id": "AT-869596596",
-        "name": "W-ERDBERGERLAENDE 30",
+        "name": "Wien 03, Erbergerlaende 30",
         "lat": 48.2012,
         "lng": 16.4037,
         "site_brand": "BP",
@@ -7516,11 +7691,15 @@
         "telephone": "+43 664 4507534",
         "facilities": [
             "open_24_hours",
+            "tobacco",
             "car_wash",
+            "toilet",
             "shop",
+            "bakery_bistro",
             "wild_bean_cafe",
             "accepts_routex_cards",
             "accepts_toll_payments",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -7528,8 +7707,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -7561,8 +7740,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -7596,14 +7775,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -7638,14 +7818,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -7675,6 +7856,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -7682,8 +7864,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -7718,14 +7900,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -7759,6 +7942,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -7766,8 +7950,8 @@
             "ad_blue_cannister",
             "diesel_on",
             "natural_gas",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -7794,7 +7978,9 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "bakery_bistro",
+            "wild_bean_cafe",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
@@ -7804,8 +7990,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -7849,8 +8035,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -7884,14 +8070,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -7926,6 +8113,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -7934,8 +8122,8 @@
             "ad_blue_pump",
             "diesel_on",
             "natural_gas",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -7966,8 +8154,8 @@
             "motorway_site",
             "shop",
             "bakery_bistro",
-            "bistro",
             "restaurant",
+            "wild_bean_cafe",
             "accepts_routex_cards",
             "reminder_service",
             "open_saturday",
@@ -7976,7 +8164,7 @@
         "products": [
             "ad_blue_pump",
             "diesel_on",
-            "hvo",
+            "red_diesel",
             "ad_blue"
         ],
         "website": null,
@@ -7998,6 +8186,7 @@
         "telephone": "+43 3135 57199",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
@@ -8005,6 +8194,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -8012,8 +8202,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -8038,6 +8228,7 @@
         "facilities": [
             "alcohol",
             "tobacco",
+            "car_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
@@ -8046,6 +8237,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -8053,8 +8245,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -8087,14 +8279,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8126,14 +8319,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8160,17 +8354,19 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8204,14 +8400,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8245,14 +8442,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8287,17 +8485,16 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
-            "shop_open_24_hours",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
-            "auto_gas",
             "diesel_on",
             "natural_gas",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8334,8 +8531,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8361,6 +8558,7 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
@@ -8370,8 +8568,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8397,6 +8595,7 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
@@ -8406,8 +8605,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8441,15 +8640,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
-            "hvo",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8483,14 +8682,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8517,9 +8717,11 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -8527,8 +8729,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -8562,14 +8764,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8595,6 +8798,7 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
@@ -8606,8 +8810,8 @@
             "ad_blue_pump",
             "diesel_on",
             "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -8635,18 +8839,20 @@
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "bakery_bistro",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8678,14 +8884,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8719,14 +8926,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8768,8 +8976,8 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8802,14 +9010,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8842,14 +9051,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -8873,12 +9083,16 @@
         "facilities": [
             "alcohol",
             "tobacco",
+            "car_wash",
+            "jet_wash",
             "high_speed_pump",
             "truck_suitable_site",
             "toilet",
+            "shop",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -8886,8 +9100,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -8932,9 +9146,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "hvo",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -8979,9 +9192,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "hvo",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -9016,14 +9228,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -9047,12 +9260,14 @@
         "facilities": [
             "alcohol",
             "tobacco",
+            "car_wash",
             "toilet",
             "shop",
-            "bistro",
+            "wild_bean_cafe",
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -9060,8 +9275,9 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -9095,14 +9311,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -9135,14 +9352,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -9178,14 +9396,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -9220,6 +9439,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -9227,9 +9447,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
-            "lpg",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -9266,14 +9485,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -9308,6 +9528,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -9315,8 +9536,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -9354,14 +9575,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -9396,6 +9618,7 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -9403,8 +9626,8 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95",
             "ad_blue"
@@ -9437,14 +9660,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -9478,14 +9702,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -9521,14 +9746,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -9561,14 +9787,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -9602,20 +9829,67 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Neue Landstra\u00dfe 68\n4655\nVorchdorf",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AT-9905",
+        "name": "Eugendorf-Strass, Gewerbestr. 1",
+        "lat": 47.8616356,
+        "lng": 13.1284904,
+        "site_brand": "BP",
+        "country_code": "AT",
+        "address": "Gewerbestra\u00dfe 1",
+        "city": "Eugendorf-Strass",
+        "state": null,
+        "postcode": "5301",
+        "telephone": "+43 6225 2405",
+        "facilities": [
+            "open_24_hours",
+            "tobacco",
+            "car_wash",
+            "high_speed_pump",
+            "truck_suitable_site",
+            "toilet",
+            "merkur",
+            "shop",
+            "bakery_bistro",
+            "wild_bean_cafe",
+            "accepts_routex_cards",
+            "accepts_toll_payments",
+            "reminder_service",
+            "special_car_wash",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "ad_blue_pump",
+            "diesel_on",
+            "natural_gas",
+            "red_diesel",
+            "ultimate",
+            "ultimate_unleaded",
+            "unleaded_95",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Gewerbestra\u00dfe 1\n5301\nEugendorf-Strass",
         "channel_of_trade": null
     },
     {
@@ -9644,14 +9918,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],
@@ -9684,14 +9959,15 @@
             "accepts_routex_cards",
             "accepts_toll_payments",
             "reminder_service",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
             "diesel_on",
+            "red_diesel",
             "ultimate",
-            "ultimate_diesel",
             "ultimate_unleaded",
             "unleaded_95"
         ],

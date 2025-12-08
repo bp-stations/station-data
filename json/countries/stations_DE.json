@@ -4913,7 +4913,6 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
-            "lpg",
             "super_e5",
             "e10"
         ],
@@ -7565,7 +7564,7 @@
         "lng": 8.82522,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "Bahnhofstra\u00dfe 80",
+        "address": "Bahnhofstra\u00dfe 84",
         "city": "Gro\u00df-Bieberau",
         "state": null,
         "postcode": "64401",
@@ -7592,7 +7591,7 @@
         ],
         "website": "https://tankstelle.aral.de/tankstelle/12169500",
         "watchlist_id": "12169500",
-        "formatted_address": "Bahnhofstra\u00dfe 80\n64401\nGro\u00df-Bieberau",
+        "formatted_address": "Bahnhofstra\u00dfe 84\n64401\nGro\u00df-Bieberau",
         "channel_of_trade": "JOBR"
     },
     {
@@ -16984,19 +16983,22 @@
         "telephone": "+49 2365 66398",
         "facilities": [
             "car_wash",
+            "electric_charging",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
             "open_saturday",
             "open_sunday",
+            "car_electric_charging",
             "ryd"
         ],
         "products": [
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/14119900",
         "watchlist_id": "14119900",
@@ -22826,7 +22828,7 @@
         "lng": 9.121924,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "L\u00f6chgauer Stra\u00dfe 77-79",
+        "address": "L\u00f6chgauer Stra\u00dfe 77",
         "city": "Bietigheim-Bissingen",
         "state": null,
         "postcode": "74321",
@@ -22850,7 +22852,7 @@
         ],
         "website": "https://tankstelle.aral.de/tankstelle/15087700",
         "watchlist_id": "15087700",
-        "formatted_address": "L\u00f6chgauer Stra\u00dfe 77-79\n74321\nBietigheim-Bissingen",
+        "formatted_address": "L\u00f6chgauer Stra\u00dfe 77\n74321\nBietigheim-Bissingen",
         "channel_of_trade": "JOBR"
     },
     {
@@ -25496,6 +25498,9 @@
         "facilities": [
             "open_24_hours",
             "bistro",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
             "open_saturday",
             "open_sunday",
             "ryd"
@@ -27907,42 +27912,6 @@
         "watchlist_id": "16086700",
         "formatted_address": "Dahlenburger Landstra\u00dfe 34\n21337\nL\u00fcneburg",
         "channel_of_trade": "COSI"
-    },
-    {
-        "id": "DE-16090300",
-        "name": "Janina Fricke",
-        "lat": 52.281498,
-        "lng": 10.536907,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "B\u00fcltenweg 40",
-        "city": "Braunschweig",
-        "state": null,
-        "postcode": "38106",
-        "telephone": "+49 531 347887",
-        "facilities": [
-            "car_wash",
-            "car_wash_plant",
-            "recup",
-            "shop",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "lpg",
-            "super_e5",
-            "e10"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/16090300",
-        "watchlist_id": "16090300",
-        "formatted_address": "B\u00fcltenweg 40\n38106\nBraunschweig",
-        "channel_of_trade": "DODO"
     },
     {
         "id": "DE-16090800",
@@ -31263,7 +31232,7 @@
         "lng": 10.612492,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "Bahnhofstrasse 1",
+        "address": "Bahnhofstrasse 1a",
         "city": "Braunlage",
         "state": null,
         "postcode": "38700",
@@ -31294,7 +31263,7 @@
         ],
         "website": "https://tankstelle.aral.de/tankstelle/17057000",
         "watchlist_id": "17057000",
-        "formatted_address": "Bahnhofstrasse 1\n38700\nBraunlage",
+        "formatted_address": "Bahnhofstrasse 1a\n38700\nBraunlage",
         "channel_of_trade": "COSI"
     },
     {
@@ -31480,8 +31449,8 @@
     {
         "id": "DE-17072100",
         "name": "Martin Wenderoth",
-        "lat": 51.347365,
-        "lng": 9.523922,
+        "lat": 51.347715,
+        "lng": 9.524215,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
         "address": "Veckerhagener Stra\u00dfe19",
@@ -32268,7 +32237,6 @@
         "postcode": "66954",
         "telephone": "+49 6331 65954",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -39697,7 +39665,6 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
-            "lpg",
             "super_e5",
             "e10",
             "truck_diesel"
@@ -39924,47 +39891,6 @@
         "website": "https://tankstelle.aral.de/tankstelle/19123200",
         "watchlist_id": "19123200",
         "formatted_address": "Elbestra\u00dfe 23\n82538\nGeretsried",
-        "channel_of_trade": "COSI"
-    },
-    {
-        "id": "DE-19123400",
-        "name": "Tobias Resch",
-        "lat": 48.091406,
-        "lng": 11.468299,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Forstenrieder Stra\u00dfe 26",
-        "city": "Neuried",
-        "state": null,
-        "postcode": "82061",
-        "telephone": "+49 89 75070710",
-        "facilities": [
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "recup",
-            "rewe_to_go",
-            "shop",
-            "bistro",
-            "too_good_to_go",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "vda",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/19123400",
-        "watchlist_id": "19123400",
-        "formatted_address": "Forstenrieder Stra\u00dfe 26\n82061\nNeuried",
         "channel_of_trade": "COSI"
     },
     {
@@ -46191,8 +46117,8 @@
     {
         "id": "DE-20105300",
         "name": "Andreas Spahn",
-        "lat": 51.036558,
-        "lng": 6.677627,
+        "lat": 51.036744,
+        "lng": 6.677963,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
         "address": "Venloer Stra\u00dfe 143",
@@ -50153,7 +50079,7 @@
     },
     {
         "id": "DE-20186200",
-        "name": "Susanne Castor",
+        "name": "Oel-Huff Tankstellen GmbH",
         "lat": 49.907236,
         "lng": 8.19893,
         "site_brand": "ARAL Tankstelle",
@@ -50164,11 +50090,8 @@
         "postcode": "55268",
         "telephone": "+49 6136 9538615",
         "facilities": [
-            "recup",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -50185,7 +50108,7 @@
         "website": "https://tankstelle.aral.de/tankstelle/20186200",
         "watchlist_id": "20186200",
         "formatted_address": "Pariser Stra\u00dfe 140\n55268\nNieder-Olm",
-        "channel_of_trade": "COSI"
+        "channel_of_trade": "JOBR"
     },
     {
         "id": "DE-20187000",
@@ -56875,7 +56798,7 @@
     },
     {
         "id": "DE-23003100",
-        "name": "Andreas Bade",
+        "name": "Hassan Roumani",
         "lat": 47.828035,
         "lng": 7.945025,
         "site_brand": "ARAL Tankstelle",
@@ -57997,7 +57920,6 @@
         "postcode": "93051",
         "telephone": "+49 941 96564",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -60166,7 +60088,6 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
-            "lpg",
             "super_e5",
             "e10"
         ],
@@ -61078,7 +60999,6 @@
         "postcode": "09120",
         "telephone": "+49 172 4102820",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -61795,7 +61715,6 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
-            "lpg",
             "super_e5",
             "e10"
         ],
@@ -64172,7 +64091,6 @@
             "ryd"
         ],
         "products": [
-            "lpg",
             "super_e5",
             "super_98",
             "e10"
@@ -65921,6 +65839,7 @@
         "telephone": "+49 385 5815854",
         "facilities": [
             "car_wash",
+            "recup",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -66066,7 +65985,6 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
-            "lpg",
             "super_e5",
             "e10",
             "electric_charging"
@@ -69063,7 +68981,6 @@
             "ryd"
         ],
         "products": [
-            "lpg",
             "super_e5",
             "e10",
             "electric_charging"
@@ -71268,10 +71185,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
-            "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -71290,7 +71204,7 @@
         "website": "https://tankstelle.aral.de/tankstelle/28181700",
         "watchlist_id": "28181700",
         "formatted_address": "Salzufler Stra\u00dfe 111\n32052\nHerford",
-        "channel_of_trade": "COSI"
+        "channel_of_trade": "DODO"
     },
     {
         "id": "DE-28183200",
@@ -71445,7 +71359,6 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
-            "lpg",
             "super_e5",
             "e10",
             "truck_diesel"
@@ -81364,7 +81277,6 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
-            "lpg",
             "super_e5",
             "e10"
         ],
@@ -82096,7 +82008,7 @@
     },
     {
         "id": "DE-28625600",
-        "name": "Sascha Radtke",
+        "name": "Lars Detlefsen",
         "lat": 53.884475,
         "lng": 10.653804,
         "site_brand": "ARAL Tankstelle",
@@ -82112,10 +82024,8 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -84358,7 +84268,6 @@
             "ultimate",
             "ultimate_diesel",
             "natural_gas",
-            "lpg",
             "ad_blue",
             "super_e5",
             "e10",
