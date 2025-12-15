@@ -9844,7 +9844,7 @@
     },
     {
         "id": "DE-13109400",
-        "name": "Thomas Block",
+        "name": "Melanie Beutel",
         "lat": 53.614967,
         "lng": 10.691139,
         "site_brand": "ARAL Tankstelle",
@@ -9859,10 +9859,8 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "recup",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -9880,7 +9878,7 @@
         "website": "https://tankstelle.aral.de/tankstelle/13109400",
         "watchlist_id": "13109400",
         "formatted_address": "Wasserkr\u00fcger Weg 131\n23879\nM\u00f6lln",
-        "channel_of_trade": "COSI"
+        "channel_of_trade": "DODO"
     },
     {
         "id": "DE-13109500",
@@ -22224,6 +22222,47 @@
         "channel_of_trade": "JOBR"
     },
     {
+        "id": "DE-15061600",
+        "name": "Ibrahim Ilhan",
+        "lat": 48.320287,
+        "lng": 10.049629,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Kemptener Stra\u00dfe 61",
+        "city": "Senden",
+        "state": null,
+        "postcode": "89250",
+        "telephone": "+49 7307 5217",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "recup",
+            "shop",
+            "bistro",
+            "too_good_to_go",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/15061600",
+        "watchlist_id": "15061600",
+        "formatted_address": "Kemptener Stra\u00dfe 61\n89250\nSenden",
+        "channel_of_trade": "COSI"
+    },
+    {
         "id": "DE-15061800",
         "name": "Tobias Dostal",
         "lat": 48.805327,
@@ -22376,44 +22415,6 @@
         "website": "https://tankstelle.aral.de/tankstelle/15064400",
         "watchlist_id": "15064400",
         "formatted_address": "Bahnhofstra\u00dfe 51\n71706\nMarkgr\u00f6ningen",
-        "channel_of_trade": "COSI"
-    },
-    {
-        "id": "DE-15064800",
-        "name": "Anja Danisch",
-        "lat": 48.887779,
-        "lng": 9.128691,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Ludwigsburger Stra\u00dfe 20",
-        "city": "M\u00f6glingen",
-        "state": null,
-        "postcode": "71696",
-        "telephone": "+49 7141 484326",
-        "facilities": [
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "shop",
-            "too_good_to_go",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "vda",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/15064800",
-        "watchlist_id": "15064800",
-        "formatted_address": "Ludwigsburger Stra\u00dfe 20\n71696\nM\u00f6glingen",
         "channel_of_trade": "COSI"
     },
     {
@@ -24999,6 +25000,8 @@
         "postcode": "76307",
         "telephone": "+49 7248 9267093",
         "facilities": [
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
             "loyalty",
             "open_saturday",
             "open_sunday",
@@ -25496,13 +25499,15 @@
         "postcode": "72661",
         "telephone": "+49 7123 3048365",
         "facilities": [
-            "open_24_hours",
+            "electric_charging",
+            "recup",
             "bistro",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
             "open_saturday",
             "open_sunday",
+            "car_electric_charging",
             "ryd"
         ],
         "products": [
@@ -25510,7 +25515,8 @@
             "ultimate_diesel",
             "ad_blue",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/15134000",
         "watchlist_id": "15134000",
@@ -25548,6 +25554,7 @@
             "open_saturday",
             "open_sunday",
             "car_electric_charging",
+            "truck_electric_charging",
             "ryd"
         ],
         "products": [
@@ -25557,7 +25564,8 @@
             "super_e5",
             "e10",
             "truck_diesel",
-            "electric_charging"
+            "electric_charging",
+            "truck_electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/16000300",
         "watchlist_id": "16000300",
@@ -30056,7 +30064,7 @@
     },
     {
         "id": "DE-17025700",
-        "name": "Annika Herbold",
+        "name": "DG Products GmbH",
         "lat": 51.309105,
         "lng": 9.570691,
         "site_brand": "ARAL Tankstelle",
@@ -50239,7 +50247,7 @@
         "website": "https://tankstelle.aral.de/tankstelle/20188500",
         "watchlist_id": "20188500",
         "formatted_address": "Hauptstra\u00dfe 49\n53506\nAhrbr\u00fcck",
-        "channel_of_trade": "DOFO"
+        "channel_of_trade": "DODO"
     },
     {
         "id": "DE-20188600",
@@ -57920,6 +57928,7 @@
         "postcode": "93051",
         "telephone": "+49 941 96564",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -59971,7 +59980,7 @@
         "website": "https://tankstelle.aral.de/tankstelle/27007800",
         "watchlist_id": "27007800",
         "formatted_address": "Alte Klockenh\u00e4ger Landstra\u00dfe 1\n18311\nRibnitz-Damgarten",
-        "channel_of_trade": "DOFO"
+        "channel_of_trade": "DODO"
     },
     {
         "id": "DE-27008900",
@@ -60109,7 +60118,6 @@
         "postcode": "99867",
         "telephone": "+49 3621 709631",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -60539,7 +60547,6 @@
         "postcode": "36433",
         "telephone": "+49 3695 628240",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -61498,7 +61505,6 @@
         "postcode": "15859",
         "telephone": "+49 33678 67991",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -68648,6 +68654,7 @@
         "postcode": "99817",
         "telephone": "+49 3691 8819798",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "recup",
             "rewe_to_go",
@@ -69992,6 +69999,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -79965,45 +79973,6 @@
         "website": "https://tankstelle.aral.de/tankstelle/28575400",
         "watchlist_id": "28575400",
         "formatted_address": "Wiener Stra\u00dfe 129\n70469\nStuttgart",
-        "channel_of_trade": "COSI"
-    },
-    {
-        "id": "DE-28575900",
-        "name": "Halide Bakir",
-        "lat": 48.724877,
-        "lng": 9.10656,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Robert-Koch-Stra\u00dfe 64",
-        "city": "Stuttgart",
-        "state": null,
-        "postcode": "70563",
-        "telephone": "+49 711 9019518",
-        "facilities": [
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "recup",
-            "shop",
-            "bistro",
-            "too_good_to_go",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "vda",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "super_e5",
-            "super_98",
-            "e10"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/28575900",
-        "watchlist_id": "28575900",
-        "formatted_address": "Robert-Koch-Stra\u00dfe 64\n70563\nStuttgart",
         "channel_of_trade": "COSI"
     },
     {
