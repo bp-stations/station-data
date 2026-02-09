@@ -4194,6 +4194,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -9682,6 +9683,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -13825,6 +13827,32 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-1367",
+        "name": "BP SERPENTINE ROADHOUSE",
+        "lat": -32.3644,
+        "lng": 115.9914,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "2 Cnr Falls Road & Sh Western Highway",
+        "city": "Serpentine",
+        "state": "WA",
+        "postcode": "6125",
+        "telephone": "",
+        "facilities": [
+            "loyalty"
+        ],
+        "products": [
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2 Cnr Falls Road & Sh Western Highway\n6125\nSerpentine",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-1368",
         "name": "BP WEST WYALONG",
         "lat": -33.9235,
@@ -15329,7 +15357,6 @@
             "loyalty_home_delivery",
             "bpmeplus",
             "bpme_technically_enabled",
-            "truck_only",
             "restaurant",
             "takeaway_food",
             "high_speed_pump",
@@ -15576,7 +15603,6 @@
             "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
-            "truck_only",
             "restaurant",
             "takeaway_food",
             "mobile_enabled"
@@ -16130,6 +16156,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "171-173 HUME HIGHWAY\n3062\nSOMERTON",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1511",
+        "name": "BP HATTAH OUTBACK ROADHOUSE",
+        "lat": -34.7616,
+        "lng": 142.2796,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "3478 Calder Highway",
+        "city": "Hattah",
+        "state": "VIC",
+        "postcode": "3501",
+        "telephone": "+61 3 5029 1314",
+        "facilities": [
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards"
+        ],
+        "products": [
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "3478 Calder Highway\n3501\nHattah",
         "channel_of_trade": null
     },
     {
@@ -25097,6 +25150,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -26109,7 +26163,7 @@
         "city": "GROVEDALE",
         "state": "VIC",
         "postcode": "3216",
-        "telephone": "+61 3 5241 1515",
+        "telephone": "",
         "facilities": [
             "gift_card",
             "national_diesel_offer",
@@ -28787,7 +28841,6 @@
             "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
-            "truck_only",
             "restaurant",
             "takeaway_food",
             "high_speed_pump",
@@ -28795,7 +28848,6 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
             "auto_gas",
             "e10",
             "lpg",
@@ -35432,7 +35484,7 @@
     },
     {
         "id": "AU-5988",
-        "name": "BP BENDIGO-Temporarily closed",
+        "name": "BP BENDIGO",
         "lat": -36.7581,
         "lng": 144.2987,
         "site_brand": "BP",
@@ -46099,6 +46151,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -54545,6 +54598,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -58296,6 +58350,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -58752,42 +58807,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "39 HIGH STREET\n3384\nNAVARRE",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-9748",
-        "name": "BP MT COMPASS",
-        "lat": -35.349718,
-        "lng": 138.621695,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "14A VICTOR HARBOUR ROAD",
-        "city": "MOUNT COMPASS",
-        "state": "SA",
-        "postcode": "5210",
-        "telephone": "+61 8 8556 8362",
-        "facilities": [
-            "toilet",
-            "barista_coffee",
-            "takeaway_food_offer",
-            "food_offer_instore",
-            "bp_rewards_redemption",
-            "bp_rewards_cents_per_litre",
-            "pump_rewards",
-            "restaurant",
-            "takeaway_food"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "premium_unlead",
-            "regular_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "14A VICTOR HARBOUR ROAD\n5210\nMOUNT COMPASS",
         "channel_of_trade": null
     },
     {
