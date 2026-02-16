@@ -13837,9 +13837,11 @@
         "city": "Serpentine",
         "state": "WA",
         "postcode": "6125",
-        "telephone": "",
+        "telephone": "+61 412 093 651",
         "facilities": [
-            "loyalty"
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus"
         ],
         "products": [
             "premium_unlead",
@@ -14976,7 +14978,7 @@
         "country_code": "AU",
         "address": "12 Princes Highway",
         "city": "Rosetown",
-        "state": "VIC",
+        "state": "SA",
         "postcode": "5275",
         "telephone": "+61 424 622 093",
         "facilities": [],
@@ -17099,6 +17101,7 @@
         "products": [
             "ad_blue_cannister",
             "lpg",
+            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -29444,6 +29447,60 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-4361",
+        "name": "BP NORTH MACLEAN",
+        "lat": -27.7757,
+        "lng": 153.0143,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "CNR MT LINDESAY HWY & WEARING RD",
+        "city": "NORTH MACLEAN",
+        "state": "QLD",
+        "postcode": "4280",
+        "telephone": "+61 7 5546 9341",
+        "facilities": [
+            "open_24_hours",
+            "gift_card",
+            "trailers",
+            "bdouble_access",
+            "rigid_access",
+            "road_train_access",
+            "truck_suitable_site",
+            "high_flow_diesel",
+            "cash_point",
+            "toilet",
+            "barista_coffee",
+            "takeaway_food_offer",
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "truck_only",
+            "restaurant",
+            "takeaway_food",
+            "high_speed_pump",
+            "mobile_enabled"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "ad_blue_pump",
+            "auto_gas",
+            "lpg",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "CNR MT LINDESAY HWY & WEARING RD\n4280\nNORTH MACLEAN",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-4366",
         "name": "BP REDLAND BAY",
         "lat": -27.606,
@@ -30304,6 +30361,7 @@
         "products": [
             "ad_blue_cannister",
             "regular_diesel",
+            "ultimate_diesel",
             "unlead",
             "ad_blue"
         ],
@@ -32711,7 +32769,7 @@
         "city": "CHARLTON",
         "state": "VIC",
         "postcode": "3525",
-        "telephone": "+61 3 5491 1772",
+        "telephone": "+61 3 8399 7473",
         "facilities": [
             "national_diesel_offer",
             "bdouble_access",
@@ -33700,6 +33758,7 @@
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -42362,11 +42421,13 @@
         "postcode": "4470",
         "telephone": "+61 7 4654 2143",
         "facilities": [
+            "bdouble_access",
             "rigid_access",
+            "truck_parking",
+            "truck_suitable_site",
             "high_flow_diesel",
             "ultra_high_flow_diesel",
             "toilet",
-            "wifi",
             "barista_coffee",
             "takeaway_food_offer",
             "food_offer_instore",
@@ -42375,6 +42436,7 @@
             "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
+            "truck_only",
             "restaurant",
             "takeaway_food",
             "high_speed_pump",
@@ -42382,7 +42444,6 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "auto_gas",
             "lpg",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -45063,6 +45124,7 @@
             "bp_rewards_unlocked_convenience",
             "bp_rewards_cents_per_litre",
             "bp_rewards_member_pricing",
+            "preorder_enabled",
             "loyalty",
             "pump_rewards",
             "loyalty_home_delivery",
@@ -45527,6 +45589,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "unlead",
             "ad_blue"
         ],
@@ -54313,6 +54376,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_diesel",
             "unlead",
             "ad_blue"
         ],
@@ -57207,10 +57271,10 @@
         "lng": 145.152855,
         "site_brand": "BP",
         "country_code": "AU",
-        "address": "154 PO Box 4009 Jordanville LPO",
-        "city": "Mt Waverley",
+        "address": "154 154 Springvale Rd",
+        "city": "Springvale",
         "state": "VIC",
-        "postcode": "3149",
+        "postcode": "3171",
         "telephone": "+61 3 9540 9988",
         "facilities": [
             "open_24_hours",
@@ -57240,7 +57304,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "154 PO Box 4009 Jordanville LPO\n3149\nMt Waverley",
+        "formatted_address": "154 154 Springvale Rd\n3171\nSpringvale",
         "channel_of_trade": null
     },
     {
@@ -59752,6 +59816,7 @@
             "pump_rewards",
             "bpmeplus",
             "bpme_technically_enabled",
+            "truck_only",
             "restaurant",
             "takeaway_food",
             "high_speed_pump",
