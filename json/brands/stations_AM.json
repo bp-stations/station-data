@@ -2669,16 +2669,16 @@
         "postcode": "48146",
         "telephone": "+1 313-383-1255",
         "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
+            "open_24_hours",
             "shop",
             "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "804 Southfield Rd\n48146\nLincoln Park",
@@ -7977,6 +7977,7 @@
         "facilities": [
             "car_wash",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -13181,8 +13182,8 @@
     {
         "id": "US-129276",
         "name": "Amoco",
-        "lat": 35.3990168014,
-        "lng": -84.3518653199,
+        "lat": 35.3989693,
+        "lng": -84.352042,
         "site_brand": "AM",
         "country_code": "US",
         "address": "8000 New Highway 68",
@@ -13591,6 +13592,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -14110,15 +14112,15 @@
     {
         "id": "US-129441",
         "name": "Amoco",
-        "lat": 33.9988268481,
-        "lng": -84.5990305386,
+        "lat": 33.9988266793,
+        "lng": -84.5990239455,
         "site_brand": "AM",
         "country_code": "US",
-        "address": "1880 Old 41 Hwy NW",
-        "city": "Kennesaw",
+        "address": "1880 OLD 41 HIGHWAY NORTHWEST",
+        "city": "KENNESAW",
         "state": "GA",
         "postcode": "30152",
-        "telephone": "+1 678-653-9880",
+        "telephone": "+1 704-456-7399",
         "facilities": [
             "car_wash",
             "workshop",
@@ -14132,7 +14134,7 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "1880 Old 41 Hwy NW\n30152\nKennesaw",
+        "formatted_address": "1880 OLD 41 HIGHWAY NORTHWEST\n30152\nKENNESAW",
         "channel_of_trade": "BJBR"
     },
     {
@@ -14178,6 +14180,7 @@
         "facilities": [
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -14855,6 +14858,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -15959,6 +15963,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2925 Manatee Ave W\n34205\nBradenton",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129774",
+        "name": "Amoco",
+        "lat": 31.4752106907,
+        "lng": -83.4858534595,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "1949 Old Ocilla Rd",
+        "city": "Tifton",
+        "state": "GA",
+        "postcode": "31794",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1949 Old Ocilla Rd\n31794\nTifton",
         "channel_of_trade": "BJBR"
     },
     {
@@ -17143,7 +17174,7 @@
         "city": "Albertville",
         "state": "MN",
         "postcode": "55301",
-        "telephone": "1111111111",
+        "telephone": "+1 763-497-5144",
         "facilities": [
             "car_wash",
             "workshop",
@@ -17684,6 +17715,7 @@
             "car_wash",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -17882,6 +17914,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -18327,6 +18360,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -18391,6 +18425,87 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1775 BELLEFONTAINE STREET\n45895\nWAPAKONETA",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130451",
+        "name": "Amoco",
+        "lat": 39.9526264041,
+        "lng": -83.1338123309,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "4990 W BROAD ST",
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postcode": "43228",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "4990 W BROAD ST\n43228\nCOLUMBUS",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130458",
+        "name": "Amoco",
+        "lat": 39.9004567249,
+        "lng": -82.8815483466,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "4600 WINCHESTER PIKE",
+        "city": "COLUMBUS",
+        "state": "OH",
+        "postcode": "43232",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "4600 WINCHESTER PIKE\n43232\nCOLUMBUS",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130465",
+        "name": "Amoco",
+        "lat": 38.0503916492,
+        "lng": -84.7123566408,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "524 LEXINGTON RD",
+        "city": "VERSAILLES",
+        "state": "KY",
+        "postcode": "40383",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "524 LEXINGTON RD\n40383\nVERSAILLES",
         "channel_of_trade": "BJBR"
     },
     {
@@ -18475,6 +18590,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130469",
+        "name": "Amoco",
+        "lat": 38.077357184,
+        "lng": -84.506750246,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "1040 GEORGETOWN RD",
+        "city": "LEXINGTON",
+        "state": "KY",
+        "postcode": "40511",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1040 GEORGETOWN RD\n40511\nLEXINGTON",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130470",
         "name": "Amoco",
         "lat": 38.0419101915,
@@ -18518,6 +18660,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -18526,6 +18669,62 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1120 WINCHESTER PIKE\n40505\nLEXINGTON",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130549",
+        "name": "Amoco",
+        "lat": 29.8750555177,
+        "lng": -82.5407351204,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "18603 NORTHWEST COUNTY ROAD 236",
+        "city": "HIGH SPRINGS",
+        "state": "FL",
+        "postcode": "32643",
+        "telephone": "+1 352-748-2235",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "18603 NORTHWEST COUNTY ROAD 236\n32643\nHIGH SPRINGS",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130554",
+        "name": "Amoco",
+        "lat": 28.8727176824,
+        "lng": -82.0908667026,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "753 FLORIDA 44",
+        "city": "WILDWOOD",
+        "state": "FL",
+        "postcode": "34785",
+        "telephone": "+1 352-748-7022",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "753 FLORIDA 44\n34785\nWILDWOOD",
         "channel_of_trade": "BJBR"
     },
     {
@@ -22164,7 +22363,7 @@
         "city": "Markham",
         "state": "IL",
         "postcode": "60428",
-        "telephone": "1111111111",
+        "telephone": "+1 708-566-9160",
         "facilities": [
             "open_24_hours",
             "car_wash",
@@ -23897,37 +24096,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-58100719210206160400100000000000",
-        "name": "Amoco",
-        "lat": 40.68129,
-        "lng": -89.641032,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "3020 W Lincoln Ave",
-        "city": "Peoria",
-        "state": "IL",
-        "postcode": "61604",
-        "telephone": "+1 309-839-1313",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "3020 W Lincoln Ave\n61604\nPeoria",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-58379804549155710400100000000000",
         "name": "Amoco",
         "lat": 43.60131,
@@ -25250,36 +25418,6 @@
         "channel_of_trade": "BODO"
     },
     {
-        "id": "US-67882206762006192000100000000000",
-        "name": "Amoco",
-        "lat": 39.48434,
-        "lng": -88.18412,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "200 W Lincoln Ave",
-        "city": "Charleston",
-        "state": "IL",
-        "postcode": "61920",
-        "telephone": "+1 217-348-7657",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "200 W Lincoln Ave\n61920\nCharleston",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-68157800414022789600100000000000",
         "name": "Amoco",
         "lat": 35.757325,
@@ -26545,6 +26683,7 @@
         "telephone": "+1 901-685-5112",
         "facilities": [
             "open_24_hours",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -26848,6 +26987,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1010 Main St\n54984\nWild Rose",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-78856116092353070100100000000000",
+        "name": "Amoco",
+        "lat": 34.5065274,
+        "lng": -84.95424993,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "235 W Line St",
+        "city": "Calhoun",
+        "state": "GA",
+        "postcode": "30701",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "235 W Line St\n30701\nCalhoun",
         "channel_of_trade": "BJBR"
     },
     {
