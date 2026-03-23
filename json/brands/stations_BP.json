@@ -507,6 +507,41 @@
         "channel_of_trade": null
     },
     {
+        "id": "AT-17890927",
+        "name": "Trofaiach, Hauptstr. 12",
+        "lat": 47.4204189,
+        "lng": 15.0147581,
+        "site_brand": "BP",
+        "country_code": "AT",
+        "address": "Hauptstra\u00dfe 12",
+        "city": "Trofaiach",
+        "state": null,
+        "postcode": "8793",
+        "telephone": "+43 3847 2933",
+        "facilities": [
+            "car_wash",
+            "shop",
+            "accepts_routex_cards",
+            "accepts_toll_payments",
+            "reminder_service",
+            "special_car_wash",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "diesel_on",
+            "red_diesel",
+            "ultimate",
+            "ultimate_unleaded",
+            "unleaded_95"
+        ],
+        "website": null,
+        "watchlist_id": "17890927",
+        "formatted_address": "Hauptstra\u00dfe 12\n8793\nTrofaiach",
+        "channel_of_trade": null
+    },
+    {
         "id": "AT-1815100694",
         "name": "Anif, Alpenstrasse 111",
         "lat": 47.7362928,
@@ -2560,6 +2595,33 @@
         "channel_of_trade": null
     },
     {
+        "id": "AT-485588722",
+        "name": "KIRCHBERG/WAGRAM,KREMSERSTR2-4",
+        "lat": 48.4307556,
+        "lng": 15.9026631,
+        "site_brand": "BP",
+        "country_code": "AT",
+        "address": "Kremser Stra\u00dfe 2-4",
+        "city": "Kirchberg am Wagram",
+        "state": null,
+        "postcode": "3470",
+        "telephone": "+43 2279 2287",
+        "facilities": [
+            "car_wash",
+            "accepts_routex_cards",
+            "special_car_wash",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "red_diesel"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Kremser Stra\u00dfe 2-4\n3470\nKirchberg am Wagram",
+        "channel_of_trade": null
+    },
+    {
         "id": "AT-486",
         "name": "Kemmelbach, Autobahn A1, Rasthausstr. 10",
         "lat": 48.1551024,
@@ -2682,6 +2744,36 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Schubertstra\u00dfe 25\n6330\nKufstein",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AT-523108728",
+        "name": "GRESTEN, WAIDHOFNER STR. 1",
+        "lat": 47.986709,
+        "lng": 15.023556,
+        "site_brand": "BP",
+        "country_code": "AT",
+        "address": "Waidhofner Stra\u00dfe 1",
+        "city": "Gresten",
+        "state": null,
+        "postcode": "3264",
+        "telephone": "+43 7487 4044",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "shop",
+            "accepts_routex_cards",
+            "reminder_service",
+            "special_car_wash",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "red_diesel"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Waidhofner Stra\u00dfe 1\n3264\nGresten",
         "channel_of_trade": null
     },
     {
@@ -6866,7 +6958,7 @@
         "city": "M\u00f6llbr\u00fccke",
         "state": null,
         "postcode": "9813",
-        "telephone": "+43 4769 2458",
+        "telephone": "+43 50 146 280",
         "facilities": [
             "tobacco",
             "car_wash",
@@ -14973,7 +15065,9 @@
         "state": "SA",
         "postcode": "5277",
         "telephone": "+61 8 8739 7080",
-        "facilities": [],
+        "facilities": [
+            "open_24_hours"
+        ],
         "products": [
             "e10",
             "premium_unlead",
@@ -23441,6 +23535,7 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_pump",
             "bppulse",
             "e10",
             "lpg",
@@ -23448,7 +23543,8 @@
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -24984,6 +25080,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
             "premium_unlead",
@@ -35349,7 +35446,7 @@
         "city": "BATCHELOR",
         "state": "NT",
         "postcode": "0845",
-        "telephone": "+61 8 8976 0123",
+        "telephone": "",
         "facilities": [
             "rigid_access",
             "high_flow_diesel",
@@ -50040,6 +50137,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
             "ultimate_diesel",
@@ -55607,14 +55705,14 @@
         "postcode": "5277",
         "telephone": "+61 8 8739 7080",
         "facilities": [
-            "open_24_hours",
             "toilet",
             "barista_coffee",
-            "loyalty"
+            "food_offer_instore",
+            "loyalty",
+            "restaurant"
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
             "auto_gas",
             "lpg",
             "premium_unlead",
@@ -57032,9 +57130,11 @@
             "high_speed_pump"
         ],
         "products": [
+            "ad_blue_pump",
             "regular_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -63107,7 +63207,10 @@
             "rigid_access",
             "truck_suitable_site",
             "high_flow_diesel",
+            "bp_rewards_unlocked",
             "outdoor_payment_terminal",
+            "loyalty",
+            "pump_rewards",
             "truck_only",
             "high_speed_pump"
         ],
@@ -81634,8 +81737,8 @@
     {
         "id": "ES-1305545999",
         "name": "PUERTO MELILLA",
-        "lat": 35.292322,
-        "lng": -2.933614,
+        "lat": 35.29236,
+        "lng": -2.933579,
         "site_brand": "BP",
         "country_code": "ES",
         "address": "Avenida General Mac\u00eda 4",
@@ -94417,6 +94520,29 @@
         "channel_of_trade": null
     },
     {
+        "id": "ES-1881935206",
+        "name": "VEGA DE VALDETRONCO",
+        "lat": 41.597726,
+        "lng": -5.121927,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "N-VIa, Pk 196, 9,",
+        "city": "Vega de Valdetronco, Valladolid",
+        "state": null,
+        "postcode": "47133",
+        "telephone": "+34 627 32 05 80",
+        "facilities": [
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "N-VIa, Pk 196, 9,\n47133\nVega de Valdetronco, Valladolid",
+        "channel_of_trade": null
+    },
+    {
         "id": "ES-188379277",
         "name": "bp SAN PABLO CALASPARRA",
         "lat": 38.23479,
@@ -99742,11 +99868,11 @@
     {
         "id": "ES-445898888",
         "name": "A5 BADAJOZ",
-        "lat": 38.8782,
-        "lng": -6.94574,
+        "lat": 38.887944,
+        "lng": -6.921382,
         "site_brand": "BP",
         "country_code": "ES",
-        "address": "Carretera Madrid km 395",
+        "address": "Cr. N-V Madrid, Km 395,7",
         "city": "Badajoz",
         "state": null,
         "postcode": "06009",
@@ -99759,7 +99885,7 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "Carretera Madrid km 395\n06009\nBadajoz",
+        "formatted_address": "Cr. N-V Madrid, Km 395,7\n06009\nBadajoz",
         "channel_of_trade": null
     },
     {
@@ -103232,7 +103358,6 @@
         "postcode": "28440",
         "telephone": "+34 918 54 70 89",
         "facilities": [
-            "open_24_hours",
             "alcohol",
             "tobacco",
             "car_wash",
@@ -105639,8 +105764,8 @@
     {
         "id": "ES-944753737",
         "name": "bp GENERAL ASTILLEROS",
-        "lat": 35.292322,
-        "lng": -2.933614,
+        "lat": 35.275527,
+        "lng": -2.9372854,
         "site_brand": "BP",
         "country_code": "ES",
         "address": "CL GRAL. ASTILLEROS esq AVDA EUROPA",
@@ -120545,6 +120670,7 @@
             "open_24_hours",
             "alcohol",
             "jet_wash",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -138986,6 +139112,7 @@
             "open_24_hours",
             "jet_wash",
             "truck_suitable_site",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -152949,7 +153076,6 @@
             "open_24_hours",
             "jet_wash",
             "bunker_site",
-            "cash_point",
             "toilet",
             "motorway_site",
             "bistro",
@@ -155835,6 +155961,7 @@
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -182763,43 +182890,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "MX-BPM043",
-        "name": "BP",
-        "lat": 20.628809,
-        "lng": -103.349163,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Gobernador Curiel",
-        "city": "Guadalajara",
-        "state": "Jalisco",
-        "postcode": "44990",
-        "telephone": "+52 33 1653 7602",
-        "facilities": [
-            "open_24_hours",
-            "tires_pump_up",
-            "water",
-            "co2_neutral",
-            "disabled_facilities",
-            "toilet",
-            "bp_fuel_card",
-            "cash",
-            "loyalty",
-            "mastercard",
-            "visa",
-            "shop",
-            "bpme_technically_enabled"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Gobernador Curiel\n44990\nGuadalajara",
-        "channel_of_trade": null
-    },
-    {
         "id": "MX-BPM049",
         "name": "BP",
         "lat": 20.561121,
@@ -182870,44 +182960,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Km 0.450 Carretera Estatal\n76246\nEl Marques",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM059",
-        "name": "bp",
-        "lat": 20.6623,
-        "lng": -103.332948,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Bl Marcelino Garcia Barragan",
-        "city": "Guadalajara",
-        "state": "Jalisco",
-        "postcode": "44420",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "tires_pump_up",
-            "water",
-            "co2_neutral",
-            "disabled_facilities",
-            "toilet",
-            "bp_fuel_card",
-            "cash",
-            "loyalty",
-            "mastercard",
-            "visa",
-            "shop",
-            "bpme_technically_enabled"
-        ],
-        "products": [
-            "diesel_add",
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Bl Marcelino Garcia Barragan\n44420\nGuadalajara",
         "channel_of_trade": null
     },
     {
@@ -183705,60 +183757,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "MX-BPM508",
-        "name": "BP",
-        "lat": 19.071264,
-        "lng": -98.191849,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Blvd Heroes Del 5 De Mayo",
-        "city": "Puebla",
-        "state": "Puebla",
-        "postcode": "72230",
-        "telephone": "+52 222 297 9625",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Blvd Heroes Del 5 De Mayo\n72230\nPuebla",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM509",
-        "name": "BP",
-        "lat": 19.26954,
-        "lng": -98.431542,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carretera Federal M\u00e9xico-Puebla Km 92",
-        "city": "San Martin Texmelucan",
-        "state": "Puebla",
-        "postcode": "74080",
-        "telephone": "+52 248 117 0390",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carretera Federal M\u00e9xico-Puebla Km 92\n74080\nSan Martin Texmelucan",
-        "channel_of_trade": null
-    },
-    {
         "id": "MX-BPM511",
         "name": "BP",
         "lat": 18.400741,
@@ -183838,33 +183836,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Carretera Lago De Guadalupe\n52927\nAtizapan De Zaragoza",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM533",
-        "name": "BP",
-        "lat": 19.658886,
-        "lng": -99.182904,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "James Watt",
-        "city": "Cuautitlan Izcalli",
-        "state": "Estado de Mexico",
-        "postcode": "54730",
-        "telephone": "+52 800 670 2123",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "James Watt\n54730\nCuautitlan Izcalli",
         "channel_of_trade": null
     },
     {
@@ -184217,35 +184188,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "MX-BPM565",
-        "name": "BP",
-        "lat": 20.683373,
-        "lng": -100.435562,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Paseo De La Rep\u00fablica",
-        "city": "Queretaro",
-        "state": "Queretaro",
-        "postcode": "76100",
-        "telephone": "+52 800 670 2123",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Paseo De La Rep\u00fablica\n76100\nQueretaro",
-        "channel_of_trade": null
-    },
-    {
         "id": "MX-BPM566",
         "name": "BP",
         "lat": 31.84456191,
@@ -184358,35 +184300,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Paseo Morelos\n21478\nTecate",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM573",
-        "name": "BP",
-        "lat": 18.889761,
-        "lng": -98.913424,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carretera Libre-M\u00e9xico-Cuautla Km 62.5 Calle Emiliano Zapata",
-        "city": "Atlatlahucan",
-        "state": "Morelos",
-        "postcode": "62757",
-        "telephone": "+52 800 670 2123",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carretera Libre-M\u00e9xico-Cuautla Km 62.5 Calle Emiliano Zapata\n62757\nAtlatlahucan",
         "channel_of_trade": null
     },
     {
@@ -184671,33 +184584,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Carretera Mexico-Laredo Km. 118\n42500\nActopan",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM591",
-        "name": "BP",
-        "lat": 20.477604,
-        "lng": -99.221174,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carretera M\u00e9xico-Laredo Km 159",
-        "city": "Ixmiquilpan",
-        "state": "Hidalgo",
-        "postcode": "42300",
-        "telephone": "+52 800 670 2123",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carretera M\u00e9xico-Laredo Km 159\n42300\nIxmiquilpan",
         "channel_of_trade": null
     },
     {
@@ -185594,34 +185480,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "MX-BPM674",
-        "name": "BP",
-        "lat": 20.69144,
-        "lng": -103.415893,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Av. Patria",
-        "city": "Zapopan",
-        "state": "Jalisco",
-        "postcode": "44110",
-        "telephone": "+52 33 3610 0223",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Av. Patria\n44110\nZapopan",
-        "channel_of_trade": null
-    },
-    {
         "id": "MX-BPM675",
         "name": "BP",
         "lat": 20.579014,
@@ -185729,32 +185587,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "MX-BPM687",
-        "name": "BP",
-        "lat": 20.671662,
-        "lng": -103.305354,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Av. Republica",
-        "city": "Guadalajara",
-        "state": "Jalisco",
-        "postcode": "44730",
-        "telephone": "+52 33 3644 4367",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Av. Republica\n44730\nGuadalajara",
-        "channel_of_trade": null
-    },
-    {
         "id": "MX-BPM688",
         "name": "BP",
         "lat": 19.719761,
@@ -185781,150 +185613,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Carretera Federal Mexico-Pachuca Km. 39.2\n55740\nTecamac",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM689",
-        "name": "BP",
-        "lat": 17.98731,
-        "lng": -92.967751,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Av Adolfo Ruiz Cortinez Esq. Perif\u00e9rico.",
-        "city": "Centro",
-        "state": "Tabasco",
-        "postcode": "86126",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Av Adolfo Ruiz Cortinez Esq. Perif\u00e9rico.\n86126\nCentro",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM691",
-        "name": "BP",
-        "lat": 17.999983,
-        "lng": -92.90193,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Avenida Ruiz Cortines Oriente",
-        "city": "Centro",
-        "state": "Tabasco",
-        "postcode": "86000",
-        "telephone": "+52 993 278 2065",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Avenida Ruiz Cortines Oriente\n86000\nCentro",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM692",
-        "name": "BP",
-        "lat": 17.849507,
-        "lng": -92.926067,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carretera Teapa - Villahermosa Km. 19",
-        "city": "Centro",
-        "state": "Tabasco",
-        "postcode": "86291",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carretera Teapa - Villahermosa Km. 19\n86291\nCentro",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM697",
-        "name": "BP",
-        "lat": 20.568172,
-        "lng": -103.365817,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Av. Adolf B. Horn J.R.",
-        "city": "Tlajomulco De Zu\u00f1iga",
-        "state": "Jalisco",
-        "postcode": "45640",
-        "telephone": "+52 33 3914 4447",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Av. Adolf B. Horn J.R.\n45640\nTlajomulco De Zu\u00f1iga",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM698",
-        "name": "BP",
-        "lat": 20.670083,
-        "lng": -103.354347,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Av. Federalismo",
-        "city": "Guadalajara",
-        "state": "Jalisco",
-        "postcode": "44100",
-        "telephone": "+52 33 3614 9619",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Av. Federalismo\n44100\nGuadalajara",
         "channel_of_trade": null
     },
     {
@@ -186011,64 +185699,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Calzada Adolfo Ruiz Cortinez\n94299\nBoca Del Rio",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM705",
-        "name": "BP",
-        "lat": 20.656663,
-        "lng": -103.318679,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Av. Revoluci\u00f3n",
-        "city": "Guadalajara",
-        "state": "Jalisco",
-        "postcode": "44420",
-        "telephone": "+52 33 3635 5990",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Av. Revoluci\u00f3n\n44420\nGuadalajara",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM706",
-        "name": "BP",
-        "lat": 20.461874,
-        "lng": -103.445551,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carr. San Miguel Cuyutl\u00e1n",
-        "city": "Tlajomulco De Zu\u00f1iga",
-        "state": "Jalisco",
-        "postcode": "45640",
-        "telephone": "+52 33 3798 1137",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "cash",
-            "loyalty",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carr. San Miguel Cuyutl\u00e1n\n45640\nTlajomulco De Zu\u00f1iga",
         "channel_of_trade": null
     },
     {
@@ -186459,94 +186089,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "MX-BPM738",
-        "name": "BP",
-        "lat": 17.965108,
-        "lng": -92.802369,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carretera Federal Macuspana Merida Km 14.50",
-        "city": "Villahermosa",
-        "state": "Tabasco",
-        "postcode": "86280",
-        "telephone": "+52 993 117 9950",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carretera Federal Macuspana Merida Km 14.50\n86280\nVillahermosa",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM739",
-        "name": "BP",
-        "lat": 17.998355,
-        "lng": -93.36367,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Km 123+250 Carrt. Cardenas-Villahermosa",
-        "city": "Villahermosa",
-        "state": "Tabasco",
-        "postcode": "86500",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Km 123+250 Carrt. Cardenas-Villahermosa\n86500\nVillahermosa",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM740",
-        "name": "BP",
-        "lat": 17.977182,
-        "lng": -92.941438,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Velodromo Cd. Deportiva Fracc.Des.Urb.Matias Leon",
-        "city": "Villahermosa",
-        "state": "Tabasco",
-        "postcode": "86190",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "takeaway_food",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Velodromo Cd. Deportiva Fracc.Des.Urb.Matias Leon\n86190\nVillahermosa",
-        "channel_of_trade": null
-    },
-    {
         "id": "MX-BPM741",
         "name": "BP",
         "lat": 19.035027,
@@ -186736,33 +186278,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Avenida San Martin\n90700\nSan Mateo Ayecac",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM767",
-        "name": "BP",
-        "lat": 17.988765,
-        "lng": -92.983157,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carr. Villahermosa- Cardenas Km 1636",
-        "city": "Villahermosa",
-        "state": "Tabasco",
-        "postcode": "86287",
-        "telephone": "+52 933 119 7891",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carr. Villahermosa- Cardenas Km 1636\n86287\nVillahermosa",
         "channel_of_trade": null
     },
     {
@@ -187645,27 +187160,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "MX-BPM825",
-        "name": "bp",
-        "lat": 20.253956,
-        "lng": -98.99411,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Km 5.5, Actopan - Progreso, La 27, ",
-        "city": "Tula",
-        "state": "Hgo.",
-        "postcode": "42650 ",
-        "telephone": "800-6680209  ",
-        "facilities": [
-            "open_24_hours"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Km 5.5, Actopan - Progreso, La 27, \n42650 \nTula",
-        "channel_of_trade": null
-    },
-    {
         "id": "MX-BPM830",
         "name": "BP",
         "lat": 20.031033,
@@ -187740,83 +187234,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Pensador Mexicano, Canad\u00e1 Chica\n42603 \nActopan",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM833",
-        "name": "bp",
-        "lat": 20.280267,
-        "lng": -98.960833,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carrt. Mexico-Laredo Km 121.7",
-        "city": "Actopan",
-        "state": "Hidalgo",
-        "postcode": "42500",
-        "telephone": "+52 800 670 2123",
-        "facilities": [
-            "open_24_hours",
-            "toilet",
-            "disabled_facilities",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "regular_diesel",
-            "premium_unlead",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carrt. Mexico-Laredo Km 121.7\n42500\nActopan",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM842",
-        "name": "bp",
-        "lat": 20.303696,
-        "lng": -99.744846,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "San Juan del R\u00edo-Huichapan km 58.5, ",
-        "city": "Vallo Largo",
-        "state": "Huichapan, Hgo.",
-        "postcode": " 42420 ",
-        "telephone": "800 670 2123",
-        "facilities": [
-            "open_24_hours"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "San Juan del R\u00edo-Huichapan km 58.5, \n 42420 \nVallo Largo",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM844",
-        "name": "BP",
-        "lat": 18.59449,
-        "lng": -99.25874,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carretera Estatal Tequesquitengo - Tehuixtla Km. 1.5",
-        "city": "Tequesquitengo",
-        "state": "Morelos",
-        "postcode": "62915",
-        "telephone": "+52 800 670 2123",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carretera Estatal Tequesquitengo - Tehuixtla Km. 1.5\n62915\nTequesquitengo",
         "channel_of_trade": null
     },
     {
@@ -187907,36 +187324,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "MX-BPM878",
-        "name": "BP",
-        "lat": 19.443466,
-        "lng": -99.183278,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Calz. General Mariano Escobedo",
-        "city": "Miguel Hidalgo",
-        "state": "CDMX",
-        "postcode": "11520",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "takeaway_food",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Calz. General Mariano Escobedo\n11520\nMiguel Hidalgo",
-        "channel_of_trade": null
-    },
-    {
         "id": "MX-BPM879",
         "name": "BP",
         "lat": 22.755736,
@@ -187963,33 +187350,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Blvd. Jose Lopez Portillo\n98618\nGuadalupe",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM883",
-        "name": "BP",
-        "lat": 19.5938965,
-        "lng": -99.282806,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Colmena",
-        "city": "Nicolas Romero",
-        "state": "Estado de M\u00e9xico",
-        "postcode": "54473",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Colmena\n54473\nNicolas Romero",
         "channel_of_trade": null
     },
     {
@@ -188303,33 +187663,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "MX-BPM918",
-        "name": "BP",
-        "lat": 19.982037,
-        "lng": -102.289242,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Avenida Madero Sur",
-        "city": "Zamora",
-        "state": "Michoacan",
-        "postcode": "59600",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Avenida Madero Sur\n59600\nZamora",
-        "channel_of_trade": null
-    },
-    {
         "id": "MX-BPM920",
         "name": "BP",
         "lat": 20.56198,
@@ -188383,62 +187716,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Av. Del Tesoro\n45608\nTlaquepaque",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM922",
-        "name": "BP",
-        "lat": 18.427917,
-        "lng": -97.366615,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Libramiento Tecnol\u00f3gico San Marcos",
-        "city": "Tehuacan",
-        "state": "Puebla",
-        "postcode": "75859",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Libramiento Tecnol\u00f3gico San Marcos\n75859\nTehuacan",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM923",
-        "name": "BP",
-        "lat": 20.014162,
-        "lng": -102.280698,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carretera Morelia-Guadalajara, Tramo Zamora-Brise\u00f1as Km 2.945",
-        "city": "Zamora",
-        "state": "Michoacan",
-        "postcode": "59610",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carretera Morelia-Guadalajara, Tramo Zamora-Brise\u00f1as Km 2.945\n59610\nZamora",
         "channel_of_trade": null
     },
     {
@@ -188552,33 +187829,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Av De La Convencion De 1914\n20210\nAguascalientes",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM931",
-        "name": "BP",
-        "lat": 17.982252,
-        "lng": -92.935007,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Paseo Usumacinta y 27 Febrero",
-        "city": "Villahermosa",
-        "state": "Tabasco",
-        "postcode": "86080",
-        "telephone": "+52 993 157 5390",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Paseo Usumacinta y 27 Febrero\n86080\nVillahermosa",
         "channel_of_trade": null
     },
     {
@@ -188718,33 +187968,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Carret.Federal No.15 Tramo Morelia-Zamora Km. 137\n59600\nZamora",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM948",
-        "name": "BP",
-        "lat": 27.574909,
-        "lng": -109.948362,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Boulevard Antonio Valdez  Pte",
-        "city": "Cajame",
-        "state": "Sonora",
-        "postcode": "85219",
-        "telephone": "+52 644 418 4073",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Boulevard Antonio Valdez  Pte\n85219\nCajame",
         "channel_of_trade": null
     },
     {
@@ -189113,33 +188336,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "MX-BPM977",
-        "name": "BP",
-        "lat": 18.80275,
-        "lng": -99.22333,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carretera Aeropuerto Km 0 200 Local 13 Y 14 Gasolinera El Palomar, Col. Real del Puente Xochitepec, Xochitepec Morelos, CP 62790",
-        "city": "Xochitepec",
-        "state": "Morelos",
-        "postcode": "62790",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carretera Aeropuerto Km 0 200 Local 13 Y 14 Gasolinera El Palomar, Col. Real del Puente Xochitepec, Xochitepec Morelos, CP 62790\n62790\nXochitepec",
-        "channel_of_trade": null
-    },
-    {
         "id": "MX-BPM978",
         "name": "BP",
         "lat": 20.312626,
@@ -189198,118 +188394,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Av L\u00f3pez Mateos\n66480\nSan Nicolas De Los Garza",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM981",
-        "name": "BP",
-        "lat": 21.80046,
-        "lng": -102.284,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Km. 8+000 Carr. Aguascalientes-Lagos Lote 1 Maz. 2, Col. Fracc. Industrial Siglo XXI, Aguascalientes, Aguascalientes C.P. 20240",
-        "city": "Aguascalientes",
-        "state": "Aguascalientes",
-        "postcode": "20240",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Km. 8+000 Carr. Aguascalientes-Lagos Lote 1 Maz. 2, Col. Fracc. Industrial Siglo XXI, Aguascalientes, Aguascalientes C.P. 20240\n20240\nAguascalientes",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM982",
-        "name": "BP",
-        "lat": 21.86207,
-        "lng": -102.2481,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Ave. Siglo XXI, Col. Lomas Del Chapul\u00edn, Aguascalientes, Aguascalientes, C.P. 20263",
-        "city": "Aguascalientes",
-        "state": "Aguascalientes",
-        "postcode": "20263",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Ave. Siglo XXI, Col. Lomas Del Chapul\u00edn, Aguascalientes, Aguascalientes, C.P. 20263\n20263\nAguascalientes",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM983",
-        "name": "BP",
-        "lat": 21.97289,
-        "lng": -102.2892,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carretera Federal 45 norte  Km, 11",
-        "city": "Jesus Maria",
-        "state": "Aguascalientes",
-        "postcode": "20920",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet",
-            "wild_bean_cafe",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carretera Federal 45 norte  Km, 11\n20920\nJesus Maria",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPM985",
-        "name": "BP",
-        "lat": 22.17026,
-        "lng": -102.2463,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carretera la providencia  14+332.04",
-        "city": "Aguascalientes",
-        "state": "Aguascalientes",
-        "postcode": "20670",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "disabled_facilities",
-            "toilet"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carretera la providencia  14+332.04\n20670\nAguascalientes",
         "channel_of_trade": null
     },
     {
@@ -189630,64 +188714,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Carrt. Santa Rosa Km. 3.8,\n64180\nNuevo Le\u00f3n",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPMA18",
-        "name": "BP",
-        "lat": 17.57761,
-        "lng": -92.9597,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carr. Villahermosa - Teapa Km. 51.5, Valle de Zaragoza - Rancher\u00eda Manuel Vuelta 1ra. Secc.",
-        "city": "Tepeaca",
-        "state": "Tabasco ",
-        "postcode": "86810",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "toilet",
-            "cash",
-            "loyalty",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carr. Villahermosa - Teapa Km. 51.5, Valle de Zaragoza - Rancher\u00eda Manuel Vuelta 1ra. Secc.\n86810\nTepeaca",
-        "channel_of_trade": null
-    },
-    {
-        "id": "MX-BPMA19",
-        "name": "bp",
-        "lat": 18.11767,
-        "lng": -92.86508,
-        "site_brand": "BP",
-        "country_code": "MX",
-        "address": "Carretera Villahermosa - Frontera KM 15, Rancher\u00eda Medell\u00edn y Madero Segunda Secci\u00f3n. ",
-        "city": "Centro",
-        "state": "Tabasco",
-        "postcode": "86270",
-        "telephone": "+52 800 668 0209",
-        "facilities": [
-            "open_24_hours",
-            "toilet",
-            "cash",
-            "loyalty",
-            "shop"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Carretera Villahermosa - Frontera KM 15, Rancher\u00eda Medell\u00edn y Madero Segunda Secci\u00f3n. \n86270\nCentro",
         "channel_of_trade": null
     },
     {
@@ -207219,12 +206245,15 @@
         "postcode": null,
         "telephone": "",
         "facilities": [
+            "open_saturday",
+            "open_sunday",
             "high_speed_pump",
             "truck_parking",
             "cash_point",
             "toilet",
             "mobile_enabled",
             "outdoor_payment_terminal",
+            "everyday_rewards",
             "swappa_bottle"
         ],
         "products": [
@@ -210777,7 +209806,7 @@
         "lng": 19.129386,
         "site_brand": "BP",
         "country_code": "PL",
-        "address": "KATOWICKA",
+        "address": "KATOWICKA 12",
         "city": "MYSLOWICE",
         "state": null,
         "postcode": "41-400",
@@ -210805,7 +209834,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "KATOWICKA\n41-400\nMYSLOWICE",
+        "formatted_address": "KATOWICKA 12\n41-400\nMYSLOWICE",
         "channel_of_trade": null
     },
     {
@@ -211769,7 +210798,7 @@
         "lng": 18.602879,
         "site_brand": "BP",
         "country_code": "PL",
-        "address": "WITOSA / MILSKIEGO",
+        "address": "BERNARDA MILSKIEGO 1A",
         "city": "GDANSK",
         "state": null,
         "postcode": "80-809",
@@ -211798,7 +210827,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "WITOSA / MILSKIEGO\n80-809\nGDANSK",
+        "formatted_address": "BERNARDA MILSKIEGO 1A\n80-809\nGDANSK",
         "channel_of_trade": null
     },
     {
@@ -212246,7 +211275,7 @@
         "lng": 19.126889,
         "site_brand": "BP",
         "country_code": "PL",
-        "address": "HENRYKA SIENKIEWICZA",
+        "address": "TEATRALNA/SIENKIEWICZA",
         "city": "SOSNOWIEC",
         "state": null,
         "postcode": "41-200",
@@ -212274,7 +211303,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "HENRYKA SIENKIEWICZA\n41-200\nSOSNOWIEC",
+        "formatted_address": "TEATRALNA/SIENKIEWICZA\n41-200\nSOSNOWIEC",
         "channel_of_trade": null
     },
     {
@@ -216386,7 +215415,7 @@
         "address": "JANA ROSOLA 68",
         "city": "WARSZAWA",
         "state": null,
-        "postcode": "02-777",
+        "postcode": "02-786",
         "telephone": "+48 22 855 47 57",
         "facilities": [
             "open_24_hours",
@@ -216412,7 +215441,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "JANA ROSOLA 68\n02-777\nWARSZAWA",
+        "formatted_address": "JANA ROSOLA 68\n02-786\nWARSZAWA",
         "channel_of_trade": null
     },
     {
@@ -225176,11 +224205,13 @@
         "telephone": "+48 22 863 70 87",
         "facilities": [
             "open_24_hours",
+            "car_wash",
             "disabled_facilities",
             "toilet",
             "shop",
             "wild_bean_cafe",
             "accepts_routex_cards",
+            "special_car_wash",
             "open_saturday",
             "open_sunday"
         ],
@@ -225717,7 +224748,7 @@
         "city": "CZELADZ",
         "state": null,
         "postcode": "41-250",
-        "telephone": "+48 32 763 91 40",
+        "telephone": "+48 781 450 081",
         "facilities": [
             "open_24_hours",
             "car_wash",
@@ -228671,7 +227702,7 @@
         "city": "KRAKOW",
         "state": null,
         "postcode": "30-347",
-        "telephone": "+48 12 266 21 52",
+        "telephone": "+48 723 690 024",
         "facilities": [
             "open_24_hours",
             "lotto",
@@ -228828,7 +227859,7 @@
         "address": "STRZELCOW BYTOMSKICH 36",
         "city": "BYTOM",
         "state": null,
-        "postcode": "41-900",
+        "postcode": "41-902",
         "telephone": "+48 32 282 32 15",
         "facilities": [
             "open_24_hours",
@@ -228853,7 +227884,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "STRZELCOW BYTOMSKICH 36\n41-900\nBYTOM",
+        "formatted_address": "STRZELCOW BYTOMSKICH 36\n41-902\nBYTOM",
         "channel_of_trade": null
     },
     {
@@ -263335,6 +262366,7 @@
         "postcode": "08861",
         "telephone": "1732956616",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -263508,6 +262540,7 @@
         "postcode": "07104",
         "telephone": "+1 646-354-1594",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -264259,6 +263292,7 @@
         "postcode": "08690",
         "telephone": "+1 609-890-8364",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -264992,6 +264026,7 @@
         "postcode": "07981",
         "telephone": "+1 973-428-3359",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -265048,6 +264083,7 @@
         "postcode": "08902",
         "telephone": "+1 732-297-9773",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -267327,6 +266363,7 @@
         "postcode": "10031",
         "telephone": "+1 212-234-3406",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -267435,7 +266472,7 @@
         "city": "Livingston",
         "state": "NJ",
         "postcode": "07039",
-        "telephone": "+1 631-764-1420",
+        "telephone": "+1 973-714-2077",
         "facilities": [
             "car_wash",
             "workshop",
@@ -267489,6 +266526,7 @@
         "postcode": "08844",
         "telephone": "+1 908-829-3571",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -267752,6 +266790,34 @@
         "watchlist_id": null,
         "formatted_address": "484 CLOSTER DOCK RD\n07624\nCLOSTER",
         "channel_of_trade": "BODO"
+    },
+    {
+        "id": "US-11719411840445542900100000000000",
+        "name": "BP",
+        "lat": 45.064754,
+        "lng": -93.325607,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "6044 Brooklyn Blvd",
+        "city": "Brooklyn Center",
+        "state": "MN",
+        "postcode": "55429",
+        "telephone": "+1 763-561-4440",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "6044 Brooklyn Blvd\n55429\nBrooklyn Center",
+        "channel_of_trade": "BJBR"
     },
     {
         "id": "US-117200",
@@ -273196,36 +272262,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-120066",
-        "name": "BP",
-        "lat": 38.65964633,
-        "lng": -90.02749033,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "9504 Collinsville Rd",
-        "city": "Collinsville",
-        "state": "IL",
-        "postcode": "62234",
-        "telephone": "+1 609-325-1027",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "grocer_reward",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "9504 Collinsville Rd\n62234\nCollinsville",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-120067",
         "name": "BP",
         "lat": 38.62359147,
@@ -275537,11 +274573,8 @@
         "city": "Battle Creek",
         "state": "MI",
         "postcode": "49015",
-        "telephone": "+1 269-965-8555",
+        "telephone": "+1 269-719-2169",
         "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
             "shop",
             "loyalty",
             "citi_rewards",
@@ -276921,7 +275954,6 @@
             "workshop",
             "toilet",
             "shop",
-            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -278661,6 +277693,7 @@
             "car_wash",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -281912,6 +280945,34 @@
         "channel_of_trade": "BODO"
     },
     {
+        "id": "US-124194",
+        "name": "BP",
+        "lat": 36.9886321394,
+        "lng": -84.5991400233,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "8101 SOUTH HWY 27",
+        "city": "BURNSIDE",
+        "state": "KY",
+        "postcode": "42519",
+        "telephone": "+1 606-561-3126",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "8101 SOUTH HWY 27\n42519\nBURNSIDE",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-124202",
         "name": "BP",
         "lat": 40.713737103,
@@ -282418,6 +281479,7 @@
         "postcode": "07036",
         "telephone": "+1 908-977-7710",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -283653,6 +282715,7 @@
         "postcode": "07016",
         "telephone": "+1 908-276-1498",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -285492,6 +284555,7 @@
         "postcode": "07018",
         "telephone": "+1 201-370-7794",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -287848,7 +286912,7 @@
         "site_brand": "BP",
         "country_code": "US",
         "address": "1421 BRANDENBURG RD",
-        "city": "LEITCHFILED",
+        "city": "LEITCHFIELD",
         "state": "KY",
         "postcode": "42754",
         "telephone": "+1 270-230-0313",
@@ -287866,7 +286930,7 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "1421 BRANDENBURG RD\n42754\nLEITCHFILED",
+        "formatted_address": "1421 BRANDENBURG RD\n42754\nLEITCHFIELD",
         "channel_of_trade": "BJBR"
     },
     {
@@ -290193,7 +289257,7 @@
         "city": "Hoschton",
         "state": "GA",
         "postcode": "30548",
-        "telephone": "1111111111",
+        "telephone": "+1 678-358-5698",
         "facilities": [
             "car_wash",
             "workshop",
@@ -292366,8 +291430,8 @@
     {
         "id": "US-128114",
         "name": "BP",
-        "lat": 33.8319163681,
-        "lng": -83.8758922321,
+        "lat": 33.8328493976,
+        "lng": -83.8792996108,
         "site_brand": "BP",
         "country_code": "US",
         "address": "Highway 78 & Commerce Dr",
@@ -294738,6 +293802,7 @@
             "shop",
             "grocer_reward",
             "harris_teeter",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -295239,6 +294304,34 @@
         "watchlist_id": null,
         "formatted_address": "3201 N Washington St\n46901\nKokomo",
         "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-128360",
+        "name": "BP",
+        "lat": 40.858574,
+        "lng": -73.8849218,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "601 E Fordham Rd",
+        "city": "Bronx",
+        "state": "NY",
+        "postcode": "10458",
+        "telephone": "+1 347-758-6043",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "601 E Fordham Rd\n10458\nBronx",
+        "channel_of_trade": "BODO"
     },
     {
         "id": "US-128361",
@@ -297185,7 +296278,7 @@
         "city": "Jonesboro",
         "state": "GA",
         "postcode": "30238",
-        "telephone": "1111111111",
+        "telephone": "+1 770-892-5621",
         "facilities": [
             "car_wash",
             "workshop",
@@ -297366,6 +296459,35 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2 Escort Ln\n52240\nIowa City",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-128527",
+        "name": "BP",
+        "lat": 39.17669023,
+        "lng": -89.67014735,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "413 Ohren Dr",
+        "city": "Litchfield",
+        "state": "IL",
+        "postcode": "62056",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "413 Ohren Dr\n62056\nLitchfield",
         "channel_of_trade": "BJBR"
     },
     {
@@ -297587,33 +296709,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "7534 N Watkins Rd\n38053\nMillington",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-128542",
-        "name": "BP",
-        "lat": 34.7868341,
-        "lng": -89.53839479,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "3121 Hernando Rd",
-        "city": "Holly Springs",
-        "state": "MS",
-        "postcode": "38635",
-        "telephone": "+1 662-274-3113",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "3121 Hernando Rd\n38635\nHolly Springs",
         "channel_of_trade": "BJBR"
     },
     {
@@ -299637,7 +298732,7 @@
         "city": "Lilburn",
         "state": "GA",
         "postcode": "30047",
-        "telephone": "1111111111",
+        "telephone": "+1 770-613-3384",
         "facilities": [
             "car_wash",
             "workshop",
@@ -301533,7 +300628,7 @@
         "city": "ST CROIX FALLS",
         "state": "WI",
         "postcode": "54024",
-        "telephone": "1111111111",
+        "telephone": "+1 715-483-9080",
         "facilities": [
             "car_wash",
             "workshop",
@@ -301621,7 +300716,7 @@
         "city": "Green Bay",
         "state": "WI",
         "postcode": "54311",
-        "telephone": "1111111111",
+        "telephone": "+1 920-863-5485",
         "facilities": [
             "car_wash",
             "workshop",
@@ -303721,7 +302816,7 @@
         "city": "Eau Claire",
         "state": "WI",
         "postcode": "54703",
-        "telephone": "1111111111",
+        "telephone": "+1 715-514-1232",
         "facilities": [
             "car_wash",
             "workshop",
@@ -304571,7 +303666,7 @@
         "city": "Linville",
         "state": "NC",
         "postcode": "28646",
-        "telephone": "1111111111",
+        "telephone": "+1 828-733-5724",
         "facilities": [
             "car_wash",
             "workshop",
@@ -304603,6 +303698,7 @@
         "postcode": "07067",
         "telephone": "+1 848-234-9084",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -305167,7 +304263,7 @@
         "city": "Marion",
         "state": "IN",
         "postcode": "46952",
-        "telephone": "1111111111",
+        "telephone": "+1 765-668-7728",
         "facilities": [
             "car_wash",
             "workshop",
@@ -306164,6 +305260,7 @@
         "postcode": "07087",
         "telephone": "+1 201-864-2177",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -307063,7 +306160,7 @@
         "city": "Lockport",
         "state": "IL",
         "postcode": "60441",
-        "telephone": "1111111111",
+        "telephone": "+1 815-836-3490",
         "facilities": [
             "car_wash",
             "workshop",
@@ -307280,34 +306377,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "652 Columbus Ave\n03867\nRochester",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-129391",
-        "name": "BP",
-        "lat": 42.7595397705,
-        "lng": -83.9512094503,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "10601 Oak Grove Rd",
-        "city": "Howell",
-        "state": "MI",
-        "postcode": "48855",
-        "telephone": "+1 517-546-5827",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "10601 Oak Grove Rd\n48855\nHowell",
         "channel_of_trade": "BJBR"
     },
     {
@@ -307981,33 +307050,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-129422",
-        "name": "BP",
-        "lat": 35.4588811888,
-        "lng": -85.0479747858,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "2909 Rhea County Hwy",
-        "city": "Dayton",
-        "state": "TN",
-        "postcode": "37321",
-        "telephone": "9999999999",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "2909 Rhea County Hwy\n37321\nDayton",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-129423",
         "name": "BP",
         "lat": 35.427753447,
@@ -308054,6 +307096,7 @@
             "shop",
             "grocer_reward",
             "harris_teeter",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -309322,6 +308365,7 @@
         "postcode": "08812",
         "telephone": "+1 732-841-9992",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -309983,6 +309027,7 @@
             "toilet",
             "shop",
             "grocer_reward",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -311355,33 +310400,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-129759",
-        "name": "BP",
-        "lat": 39.7644764578,
-        "lng": -86.2604396925,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "10 S Mickley Ave",
-        "city": "Indianapolis",
-        "state": "IN",
-        "postcode": "46241",
-        "telephone": "1111111111",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "10 S Mickley Ave\n46241\nIndianapolis",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-129765",
         "name": "BP",
         "lat": 39.7819703506,
@@ -311777,31 +310795,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-129808",
-        "name": "BP",
-        "lat": 42.3601528286,
-        "lng": -83.0550924507,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "714 E Warren Ave",
-        "city": "Detroit",
-        "state": "MI",
-        "postcode": "48201",
-        "telephone": "31383380",
-        "facilities": [
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "714 E Warren Ave\n48201\nDetroit",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-129811",
         "name": "BP",
         "lat": 40.6798122372,
@@ -312092,7 +311085,7 @@
         "city": "Random Lake",
         "state": "WI",
         "postcode": "53075",
-        "telephone": "1111111111",
+        "telephone": "+1 920-994-2668",
         "facilities": [
             "car_wash",
             "workshop",
@@ -312722,7 +311715,7 @@
         "city": "Lake Bluff",
         "state": "IL",
         "postcode": "60044",
-        "telephone": "1111111111",
+        "telephone": "+1 847-234-1991",
         "facilities": [
             "car_wash",
             "workshop",
@@ -313769,7 +312762,7 @@
         "city": "Genesee Depot",
         "state": "WI",
         "postcode": "53127",
-        "telephone": "1111111111",
+        "telephone": "+1 920-840-5222",
         "facilities": [
             "open_24_hours",
             "car_wash",
@@ -314324,6 +313317,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "900 EAST 63RD STREET\n64110\nKANSAS CITY",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130089",
+        "name": "BP",
+        "lat": 38.7882607123,
+        "lng": -94.2624345258,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "301 MISSOURI 7",
+        "city": "PLEASANT HILL",
+        "state": "MO",
+        "postcode": "64080",
+        "telephone": "+1 816-987-5701",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "301 MISSOURI 7\n64080\nPLEASANT HILL",
         "channel_of_trade": "BJBR"
     },
     {
@@ -315209,6 +314229,7 @@
         "postcode": "07470",
         "telephone": "+1 973-646-8632",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -315318,7 +314339,7 @@
         "city": "ATLANTA",
         "state": "GA",
         "postcode": "30306",
-        "telephone": "1111111111",
+        "telephone": "+1 404-343-0707",
         "facilities": [
             "car_wash",
             "workshop",
@@ -315682,6 +314703,34 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130316",
+        "name": "BP",
+        "lat": 41.4748872,
+        "lng": -87.4031992,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "5601 WEST LINCOLN HIGHWAY",
+        "city": "SCHERERVILLE",
+        "state": "IN",
+        "postcode": "46375",
+        "telephone": "+1 219-319-0415",
+        "facilities": [
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [
+            "regular_diesel"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "5601 WEST LINCOLN HIGHWAY\n46375\nSCHERERVILLE",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-13032304042016064400100000000000",
         "name": "BP",
         "lat": 41.87666,
@@ -315784,6 +314833,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -315834,6 +314884,7 @@
         "postcode": "07503",
         "telephone": "+1 973-345-9722",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -315865,6 +314916,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -315889,6 +314941,7 @@
         "telephone": "1111111111",
         "facilities": [
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -315897,6 +314950,34 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2350 LEWISBURG PIKE\n37064\nFRANKLIN",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130427",
+        "name": "BP",
+        "lat": 44.8431761379,
+        "lng": -93.7891154474,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "140 MINNESOTA 5",
+        "city": "WACONIA",
+        "state": "MN",
+        "postcode": "55387",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "140 MINNESOTA 5\n55387\nWACONIA",
         "channel_of_trade": "BJBR"
     },
     {
@@ -315916,6 +314997,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -316015,6 +315097,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130459",
+        "name": "BP",
+        "lat": 41.6875489045,
+        "lng": -83.6176219309,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "4468 MONROE STREET",
+        "city": "TOLEDO",
+        "state": "OH",
+        "postcode": "43613",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "4468 MONROE STREET\n43613\nTOLEDO",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130474",
         "name": "BP",
         "lat": 41.7558704253,
@@ -316072,6 +315181,35 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130550",
+        "name": "BP",
+        "lat": 41.9654823248,
+        "lng": -87.9898227206,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "337 WEST IRVING PARK ROAD",
+        "city": "WOOD DALE",
+        "state": "IL",
+        "postcode": "60191",
+        "telephone": "+1 630-595-0470",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "337 WEST IRVING PARK ROAD\n60191\nWOOD DALE",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-13058463098702890600100000000000",
         "name": "BP",
         "lat": 35.077341,
@@ -316097,6 +315235,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "870 W US Highway 64\n28906\nMurphy",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130586",
+        "name": "BP",
+        "lat": 39.125011341,
+        "lng": -94.3614221101,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "11715 EAST 24 HIGHWAY CIRCLE",
+        "city": "INDEPENDENCE",
+        "state": "MO",
+        "postcode": "64056",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "11715 EAST 24 HIGHWAY CIRCLE\n64056\nINDEPENDENCE",
         "channel_of_trade": "BJBR"
     },
     {
@@ -318551,6 +317716,8 @@
         "telephone": "+1 516-221-3576",
         "facilities": [
             "open_24_hours",
+            "toilet",
+            "shop",
             "loyalty",
             "citi_rewards",
             "mobile_acceptance",
@@ -319230,7 +318397,6 @@
             "workshop",
             "toilet",
             "shop",
-            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -322654,6 +321820,7 @@
         "postcode": "07304",
         "telephone": "+1 201-435-0300",
         "facilities": [
+            "open_24_hours",
             "shop",
             "loyalty",
             "mobile_acceptance",
@@ -353383,8 +352550,8 @@
     {
         "id": "US-39436346290403276500100000000000",
         "name": "BP",
-        "lat": 28.65547,
-        "lng": -81.208551,
+        "lat": 28.6554837627,
+        "lng": -81.2085534976,
         "site_brand": "BP",
         "country_code": "US",
         "address": "40 W Mitchell Hammock Rd",
@@ -355242,32 +354409,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "5500 Kenilworth Ave\n20737\nRiverdale",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-40687213960543028100100000000000",
-        "name": "BP",
-        "lat": 33.58467,
-        "lng": -84.14949,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "5054 HWY 155",
-        "city": "STOCKBRIDGE",
-        "state": "GA",
-        "postcode": "30281",
-        "telephone": "+1 678-565-0505",
-        "facilities": [
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "5054 HWY 155\n30281\nSTOCKBRIDGE",
         "channel_of_trade": "BJBR"
     },
     {
@@ -362034,35 +361175,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "300 Village Edge Rd\n53503\nArena",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-45327310660303340900100000000000",
-        "name": "BP",
-        "lat": 26.721542,
-        "lng": -80.110063,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "3030 N Military Trail",
-        "city": "West Palm Beach",
-        "state": "FL",
-        "postcode": "33409",
-        "telephone": "+1 561-683-0960",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "3030 N Military Trail\n33409\nWest Palm Beach",
         "channel_of_trade": "BJBR"
     },
     {
@@ -370330,6 +369442,7 @@
         "postcode": "07047",
         "telephone": "+1 201-854-3932",
         "facilities": [
+            "open_24_hours",
             "toilet",
             "shop",
             "loyalty",
@@ -370701,33 +369814,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2401 Freeport Rd\n15068\nNew Kensington",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-51879976865504383200100000000000",
-        "name": "BP",
-        "lat": 40.272732,
-        "lng": -81.600042,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "550 E State St",
-        "city": "Newcomerstown",
-        "state": "OH",
-        "postcode": "43832",
-        "telephone": "+1 740-498-4204",
-        "facilities": [
-            "open_24_hours",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "550 E State St\n43832\nNewcomerstown",
         "channel_of_trade": "BJBR"
     },
     {
@@ -377494,7 +376580,6 @@
         "postcode": "07065",
         "telephone": "+1 732-428-4361",
         "facilities": [
-            "open_24_hours",
             "toilet",
             "loyalty",
             "mobile_acceptance",
@@ -383127,6 +382212,35 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-60658902723066448200100000000000",
+        "name": "BP",
+        "lat": 40.40419,
+        "lng": -95.557043,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "1306 US 136",
+        "city": "ROCK PORT",
+        "state": "MO",
+        "postcode": "64482",
+        "telephone": "+1 660-744-5341",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1306 US 136\n64482\nROCK PORT",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-60711188466156407900100000000000",
         "name": "BP",
         "lat": 39.36211,
@@ -386801,8 +385915,8 @@
     {
         "id": "US-63170910275454522900100000000000",
         "name": "BP",
-        "lat": 39.1673,
-        "lng": -84.470378,
+        "lat": 39.16765838,
+        "lng": 84.47059179,
         "site_brand": "BP",
         "country_code": "US",
         "address": "4545 Reading Rd",
@@ -412314,6 +411428,7 @@
         "postcode": "30094",
         "telephone": "+1 770-922-1177",
         "facilities": [
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -420682,34 +419797,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "338 E Walworth Ave\n53115\nDelavan",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-88444177121016053200100000000000",
-        "name": "BP",
-        "lat": 41.8079,
-        "lng": -88.075645,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "1101 Warrenville Rd",
-        "city": "Lisle",
-        "state": "IL",
-        "postcode": "60532",
-        "telephone": "+1 630-852-7510",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "grocer_reward",
-            "loyalty",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1101 Warrenville Rd\n60532\nLisle",
         "channel_of_trade": "BJBR"
     },
     {

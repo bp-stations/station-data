@@ -6959,7 +6959,9 @@
         "state": "SA",
         "postcode": "5277",
         "telephone": "+61 8 8739 7080",
-        "facilities": [],
+        "facilities": [
+            "open_24_hours"
+        ],
         "products": [
             "e10",
             "premium_unlead",
@@ -15427,6 +15429,7 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_pump",
             "bppulse",
             "e10",
             "lpg",
@@ -15434,7 +15437,8 @@
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -16970,6 +16974,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
             "premium_unlead",
@@ -27335,7 +27340,7 @@
         "city": "BATCHELOR",
         "state": "NT",
         "postcode": "0845",
-        "telephone": "+61 8 8976 0123",
+        "telephone": "",
         "facilities": [
             "rigid_access",
             "high_flow_diesel",
@@ -42026,6 +42031,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
             "ultimate_diesel",
@@ -47593,14 +47599,14 @@
         "postcode": "5277",
         "telephone": "+61 8 8739 7080",
         "facilities": [
-            "open_24_hours",
             "toilet",
             "barista_coffee",
-            "loyalty"
+            "food_offer_instore",
+            "loyalty",
+            "restaurant"
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
             "auto_gas",
             "lpg",
             "premium_unlead",
@@ -49018,9 +49024,11 @@
             "high_speed_pump"
         ],
         "products": [
+            "ad_blue_pump",
             "regular_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -55093,7 +55101,10 @@
             "rigid_access",
             "truck_suitable_site",
             "high_flow_diesel",
+            "bp_rewards_unlocked",
             "outdoor_payment_terminal",
+            "loyalty",
+            "pump_rewards",
             "truck_only",
             "high_speed_pump"
         ],
