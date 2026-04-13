@@ -902,6 +902,44 @@
         "channel_of_trade": null
     },
     {
+        "id": "AT-2112758627",
+        "name": "Eberstalzell, Solarstr. 2",
+        "lat": 48.039795,
+        "lng": 13.991393,
+        "site_brand": "BP",
+        "country_code": "AT",
+        "address": "Solarstra\u00dfe 2",
+        "city": "Eberstalzell",
+        "state": null,
+        "postcode": "4653",
+        "telephone": "+43 7241 21389",
+        "facilities": [
+            "open_24_hours",
+            "truck_suitable_site",
+            "toilet",
+            "restaurant",
+            "accepts_routex_cards",
+            "accepts_toll_payments",
+            "reminder_service",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "ad_blue_pump",
+            "diesel_on",
+            "red_diesel",
+            "ultimate",
+            "ultimate_unleaded",
+            "unleaded_95",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Solarstra\u00dfe 2\n4653\nEberstalzell",
+        "channel_of_trade": null
+    },
+    {
         "id": "AT-235602246",
         "name": "FEISTRITZ/DRAU,TAUERNAUTOB.",
         "lat": 46.683606,
@@ -4906,7 +4944,7 @@
         "city": "Wien",
         "state": null,
         "postcode": "1140",
-        "telephone": "+43 699 11961091",
+        "telephone": "+43 681 84978700",
         "facilities": [
             "open_24_hours",
             "tobacco",
@@ -4992,7 +5030,7 @@
         "city": "Wien",
         "state": null,
         "postcode": "1130",
-        "telephone": "+43 699 11961091",
+        "telephone": "+43 681 84978700",
         "facilities": [
             "open_24_hours",
             "tobacco",
@@ -5955,7 +5993,6 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
-            "red_diesel",
             "ultimate",
             "ultimate_unleaded",
             "unleaded_95"
@@ -14263,6 +14300,7 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "bppulse",
             "e10",
             "lpg",
             "regular_diesel",
@@ -20661,6 +20699,7 @@
             "pump_rewards"
         ],
         "products": [
+            "bppulse",
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
@@ -21633,7 +21672,6 @@
         "postcode": "2305",
         "telephone": "+61 2 4957 1271",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "rigid_access",
             "cash_point",
@@ -24330,6 +24368,7 @@
         "postcode": "0852",
         "telephone": "+61 448 165 616",
         "facilities": [
+            "open_24_hours",
             "bdouble_access",
             "rigid_access",
             "road_train_access",
@@ -37238,6 +37277,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -39611,6 +39651,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -51550,6 +51591,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -52953,6 +52995,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -62585,11 +62628,9 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
             "e10",
             "lpg",
             "premium_unlead",
-            "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -62853,6 +62894,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
+            "bppulse",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -67301,38 +67343,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1 BARRIER HIGHWAY\n5421\nTEROWIE",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-9776",
-        "name": "BP COHUNA",
-        "lat": -35.805,
-        "lng": 144.2096,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "38 WESTERN ROAD",
-        "city": "COHUNA",
-        "state": "VIC",
-        "postcode": "3568",
-        "telephone": "+61 415 688 887",
-        "facilities": [
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "bp_rewards_cents_per_litre",
-            "loyalty",
-            "pump_rewards"
-        ],
-        "products": [
-            "ad_blue_pump",
-            "regular_diesel",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "38 WESTERN ROAD\n3568\nCOHUNA",
         "channel_of_trade": null
     },
     {
@@ -78565,7 +78575,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -78610,7 +78619,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -78654,7 +78662,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -78699,7 +78706,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -78743,7 +78749,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -78784,7 +78789,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -78867,7 +78871,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -78950,7 +78953,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -79034,7 +79036,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -79161,7 +79162,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -79204,7 +79204,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -79244,7 +79243,6 @@
         "telephone": "+49 30 6614212",
         "facilities": [
             "car_wash",
-            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -79282,7 +79280,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -79329,7 +79326,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -79420,7 +79416,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -79461,7 +79456,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -79504,7 +79498,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -79543,7 +79536,6 @@
         "telephone": "+49 6172 450201",
         "facilities": [
             "car_wash",
-            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -79619,7 +79611,6 @@
         "facilities": [
             "open_24_hours",
             "recup",
-            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -79886,7 +79877,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -79929,7 +79919,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -80014,7 +80003,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -80056,7 +80044,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -80205,7 +80192,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -80418,7 +80404,6 @@
             "open_24_hours",
             "electric_charging",
             "recup",
-            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -80459,7 +80444,6 @@
         "facilities": [
             "open_24_hours",
             "recup",
-            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -80775,7 +80759,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -80857,7 +80840,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -80930,7 +80912,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -81053,7 +81034,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -81131,7 +81111,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -81406,7 +81385,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -81489,7 +81467,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -81531,7 +81508,6 @@
         "facilities": [
             "open_24_hours",
             "recup",
-            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -81570,7 +81546,6 @@
         "facilities": [
             "open_24_hours",
             "recup",
-            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -81723,7 +81698,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -81846,7 +81820,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -81927,7 +81900,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -82059,7 +82031,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -82498,7 +82469,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -82622,7 +82592,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -82660,8 +82629,6 @@
         "telephone": "+49 6047 9858950",
         "facilities": [
             "car_wash",
-            "jet_wash",
-            "super_wash",
             "recup",
             "shop",
             "bistro",
@@ -82669,7 +82636,6 @@
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
-            "special_car_wash",
             "open_saturday",
             "open_sunday",
             "ryd"
@@ -82700,10 +82666,13 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
+            "jet_wash",
+            "super_wash",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
+            "special_car_wash",
             "vda",
             "open_saturday",
             "open_sunday",
@@ -82783,7 +82752,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -82823,7 +82791,6 @@
         "facilities": [
             "open_24_hours",
             "recup",
-            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -82968,7 +82935,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -83011,7 +82977,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -83184,7 +83149,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -83226,7 +83190,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -83309,7 +83272,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -83356,7 +83318,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -83403,7 +83364,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -83488,7 +83448,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -83582,7 +83541,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -83703,7 +83661,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -83957,7 +83914,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -84235,7 +84191,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -86305,7 +86260,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -86350,7 +86304,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -86394,7 +86347,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -86569,7 +86521,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -86610,7 +86561,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -86653,7 +86603,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -86813,6 +86762,8 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
+            "jet_wash",
+            "super_wash",
             "recup",
             "rewe_to_go",
             "shop",
@@ -86821,6 +86772,7 @@
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
+            "special_car_wash",
             "open_saturday",
             "open_sunday",
             "ryd"
@@ -86890,7 +86842,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -86936,7 +86887,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -87099,7 +87049,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87142,7 +87091,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87224,7 +87172,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87311,7 +87258,6 @@
             "car_wash",
             "jet_wash",
             "super_wash",
-            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -87352,7 +87298,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87395,7 +87340,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87444,7 +87388,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87726,7 +87669,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87764,6 +87706,8 @@
         "telephone": "+49 40 6700104",
         "facilities": [
             "car_wash",
+            "jet_wash",
+            "super_wash",
             "recup",
             "shop",
             "bistro",
@@ -87771,6 +87715,7 @@
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
+            "special_car_wash",
             "open_saturday",
             "open_sunday",
             "ryd"
@@ -87846,7 +87791,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87890,7 +87834,6 @@
             "jet_wash",
             "super_wash",
             "electric_charging",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -87979,7 +87922,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -88179,7 +88121,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -88252,7 +88193,6 @@
             "jet_wash",
             "super_wash",
             "electric_charging",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -88296,7 +88236,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -88335,8 +88274,6 @@
         "facilities": [
             "open_24_hours",
             "car_wash",
-            "jet_wash",
-            "super_wash",
             "electric_charging",
             "recup",
             "rewe_to_go",
@@ -88346,7 +88283,6 @@
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
-            "special_car_wash",
             "open_saturday",
             "open_sunday",
             "car_electric_charging",
@@ -88384,7 +88320,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -88462,7 +88397,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -88570,6 +88504,8 @@
         "telephone": "+49 4651 8367790",
         "facilities": [
             "car_wash",
+            "jet_wash",
+            "super_wash",
             "recup",
             "shop",
             "bistro",
@@ -88577,6 +88513,7 @@
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
+            "special_car_wash",
             "open_saturday",
             "open_sunday",
             "ryd"
@@ -88685,7 +88622,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -88808,7 +88744,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -89167,7 +89102,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -89459,7 +89393,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -89502,7 +89435,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -89763,7 +89695,6 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -89809,7 +89740,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -89896,7 +89826,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -89985,7 +89914,6 @@
             "truck_parking",
             "truck_wash",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -90033,7 +89961,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -90166,7 +90093,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -90214,7 +90140,6 @@
             "jet_wash",
             "super_wash",
             "truck_wash",
-            "cash_point",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -90256,7 +90181,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -90344,7 +90268,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -90386,7 +90309,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -90426,7 +90348,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -90441,6 +90362,7 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
+            "ad_blue",
             "super_e5",
             "e10"
         ],
@@ -90470,7 +90392,6 @@
             "truck_parking",
             "truck_wash",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "restaurant",
@@ -90609,7 +90530,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -91275,10 +91195,13 @@
         "telephone": "+49 5976 940750",
         "facilities": [
             "car_wash",
+            "jet_wash",
+            "super_wash",
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
+            "special_car_wash",
             "open_saturday",
             "open_sunday",
             "ryd"
@@ -93109,7 +93032,6 @@
             "open_24_hours",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -96332,7 +96254,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -96748,6 +96669,7 @@
             "super_wash",
             "recup",
             "cash_point",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -100467,14 +100389,11 @@
         "telephone": "+49 7156 6437",
         "facilities": [
             "car_wash",
-            "jet_wash",
-            "super_wash",
             "shop",
             "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
-            "special_car_wash",
             "open_saturday",
             "open_sunday",
             "ryd"
@@ -102146,6 +102065,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -103936,6 +103856,7 @@
         "postcode": "71149",
         "telephone": "+49 7457 5959090",
         "facilities": [
+            "open_24_hours",
             "jet_wash",
             "super_wash",
             "recup",
@@ -108118,7 +108039,6 @@
             "jet_wash",
             "super_wash",
             "shop",
-            "bistro",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -114612,7 +114532,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -118213,6 +118132,7 @@
         "postcode": "94227",
         "telephone": "+49 9922 802644",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -119897,7 +119817,6 @@
         "postcode": "94113",
         "telephone": "+49 8509 937774",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -121219,7 +121138,6 @@
         "postcode": "88131",
         "telephone": "+49 8382 78767",
         "facilities": [
-            "open_24_hours",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -134489,7 +134407,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -134532,7 +134449,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -137252,7 +137168,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -142993,7 +142908,6 @@
             "jet_wash",
             "super_wash",
             "shop",
-            "bistro",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "special_car_wash",
@@ -145111,6 +145025,7 @@
             "open_saturday",
             "open_sunday",
             "car_electric_charging",
+            "truck_electric_charging",
             "ryd"
         ],
         "products": [
@@ -145121,7 +145036,8 @@
             "e10",
             "truck_diesel",
             "hvo",
-            "electric_charging"
+            "electric_charging",
+            "truck_electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/27064100",
         "watchlist_id": "27064100",
@@ -147428,7 +147344,6 @@
             "jet_wash",
             "super_wash",
             "shop",
-            "bistro",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -150640,6 +150555,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -159348,6 +159264,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -162591,6 +162508,7 @@
         "postcode": "02763",
         "telephone": "+49 3583 510275",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -164144,7 +164062,6 @@
             "jet_wash",
             "super_wash",
             "shop",
-            "bistro",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -166899,6 +166816,33 @@
         "channel_of_trade": "EVDE"
     },
     {
+        "id": "DE-3EF103",
+        "name": "REWE",
+        "lat": 53.1796653,
+        "lng": 8.75628591,
+        "site_brand": "Aral pulse Ladestation",
+        "country_code": "DE",
+        "address": "Riesstra\u00dfe 41-49",
+        "city": "Ritterhude",
+        "state": null,
+        "postcode": "27721",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "electric_charging",
+            "open_saturday",
+            "open_sunday",
+            "car_electric_charging"
+        ],
+        "products": [
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/3EF103",
+        "watchlist_id": null,
+        "formatted_address": "Riesstra\u00dfe 41-49\n27721\nRitterhude",
+        "channel_of_trade": "EVDE"
+    },
+    {
         "id": "DE-3EF107",
         "name": "REWE",
         "lat": 51.85675,
@@ -166977,6 +166921,33 @@
         "website": "https://tankstelle.aral.de/tankstelle/3EF114",
         "watchlist_id": null,
         "formatted_address": "Max-Eyth-Str. 10\n97980\nBad Mergentheim",
+        "channel_of_trade": "EVDE"
+    },
+    {
+        "id": "DE-3EF115",
+        "name": "REWE",
+        "lat": 50.1496277,
+        "lng": 10.0180467,
+        "site_brand": "Aral pulse Ladestation",
+        "country_code": "DE",
+        "address": "SIEBEN\u00c4CKER 3",
+        "city": "Euerdorf",
+        "state": null,
+        "postcode": "97717",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "electric_charging",
+            "open_saturday",
+            "open_sunday",
+            "car_electric_charging"
+        ],
+        "products": [
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/3EF115",
+        "watchlist_id": null,
+        "formatted_address": "SIEBEN\u00c4CKER 3\n97717\nEuerdorf",
         "channel_of_trade": "EVDE"
     },
     {
@@ -167112,6 +167083,33 @@
         "website": "https://tankstelle.aral.de/tankstelle/3EF149",
         "watchlist_id": null,
         "formatted_address": "Mimberger Str.43\n90559\nBurgthann",
+        "channel_of_trade": "EVDE"
+    },
+    {
+        "id": "DE-3EF152",
+        "name": "REWE",
+        "lat": 50.2477411,
+        "lng": 8.2591919,
+        "site_brand": "Aral pulse Ladestation",
+        "country_code": "DE",
+        "address": "Walsdorfer Stra\u00dfe 3",
+        "city": "W\u00f6rsdorf",
+        "state": null,
+        "postcode": "65510",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "electric_charging",
+            "open_saturday",
+            "open_sunday",
+            "car_electric_charging"
+        ],
+        "products": [
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/3EF152",
+        "watchlist_id": null,
+        "formatted_address": "Walsdorfer Stra\u00dfe 3\n65510\nW\u00f6rsdorf",
         "channel_of_trade": "EVDE"
     },
     {
@@ -167382,6 +167380,33 @@
         "website": "https://tankstelle.aral.de/tankstelle/3EF183",
         "watchlist_id": null,
         "formatted_address": "Bahnhofstr. 60\n74348\nLauffen Am Neckar",
+        "channel_of_trade": "EVDE"
+    },
+    {
+        "id": "DE-3EF187",
+        "name": "REWE",
+        "lat": 50.5931345,
+        "lng": 6.64339106,
+        "site_brand": "Aral pulse Ladestation",
+        "country_code": "DE",
+        "address": "Marienau 3",
+        "city": "Mechernich",
+        "state": null,
+        "postcode": "53894",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "electric_charging",
+            "open_saturday",
+            "open_sunday",
+            "car_electric_charging"
+        ],
+        "products": [
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/3EF187",
+        "watchlist_id": null,
+        "formatted_address": "Marienau 3\n53894\nMechernich",
         "channel_of_trade": "EVDE"
     },
     {
@@ -167762,6 +167787,33 @@
         "channel_of_trade": "EVDE"
     },
     {
+        "id": "DE-3EF260",
+        "name": "REWE",
+        "lat": 52.1217,
+        "lng": 9.72625,
+        "site_brand": "Aral pulse Ladestation",
+        "country_code": "DE",
+        "address": "Schmiedetorstr. 52",
+        "city": "Elze",
+        "state": null,
+        "postcode": "31008",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "electric_charging",
+            "open_saturday",
+            "open_sunday",
+            "car_electric_charging"
+        ],
+        "products": [
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/3EF260",
+        "watchlist_id": null,
+        "formatted_address": "Schmiedetorstr. 52\n31008\nElze",
+        "channel_of_trade": "EVDE"
+    },
+    {
         "id": "DE-3EF261",
         "name": "REWE",
         "lat": 52.8732434,
@@ -168113,6 +168165,33 @@
         "channel_of_trade": "EVDE"
     },
     {
+        "id": "DE-3EF306",
+        "name": "Ladepark",
+        "lat": 53.5435647,
+        "lng": 9.94165708,
+        "site_brand": "Aral pulse Ladestation",
+        "country_code": "DE",
+        "address": "Van-der-Smissen-Str. 1-4",
+        "city": "Hamburg",
+        "state": null,
+        "postcode": "22767",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "electric_charging",
+            "open_saturday",
+            "open_sunday",
+            "car_electric_charging"
+        ],
+        "products": [
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/3EF306",
+        "watchlist_id": null,
+        "formatted_address": "Van-der-Smissen-Str. 1-4\n22767\nHamburg",
+        "channel_of_trade": "EVDE"
+    },
+    {
         "id": "DE-3EF310",
         "name": "REWE",
         "lat": 48.88401,
@@ -168137,6 +168216,33 @@
         "website": "https://tankstelle.aral.de/tankstelle/3EF310",
         "watchlist_id": null,
         "formatted_address": "Baiershofener Str 1\n73463\nWesthausen",
+        "channel_of_trade": "EVDE"
+    },
+    {
+        "id": "DE-3EF314",
+        "name": "REWE",
+        "lat": 52.316284,
+        "lng": 9.598676,
+        "site_brand": "Aral pulse Ladestation",
+        "country_code": "DE",
+        "address": "Nordstra\u00dfe 2",
+        "city": "Gehrden",
+        "state": null,
+        "postcode": "30989",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "electric_charging",
+            "open_saturday",
+            "open_sunday",
+            "car_electric_charging"
+        ],
+        "products": [
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/3EF314",
+        "watchlist_id": null,
+        "formatted_address": "Nordstra\u00dfe 2\n30989\nGehrden",
         "channel_of_trade": "EVDE"
     },
     {
@@ -195116,7 +195222,7 @@
     },
     {
         "id": "ES-869182834",
-        "name": "CARY II",
+        "name": "CARY II.",
         "lat": 39.4094,
         "lng": -0.3807,
         "site_brand": "BP",
@@ -204970,6 +205076,7 @@
             "open_24_hours",
             "alcohol",
             "jet_wash",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bistro",
@@ -207383,6 +207490,7 @@
             "open_24_hours",
             "car_wash",
             "jet_wash",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bistro",
@@ -209968,6 +210076,7 @@
             "open_24_hours",
             "alcohol",
             "car_wash",
+            "cash_point",
             "toilet",
             "bistro",
             "accepts_routex_cards",
@@ -211777,7 +211886,6 @@
         "facilities": [
             "alcohol",
             "jet_wash",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "wifi",
@@ -216258,8 +216366,7 @@
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
-            "open_sunday",
-            "mobile_enabled"
+            "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
@@ -217864,7 +217971,6 @@
             "alcohol",
             "car_wash",
             "jet_wash",
-            "cash_point",
             "toilet",
             "bistro",
             "accepts_routex_cards",
@@ -218129,6 +218235,7 @@
             "open_24_hours",
             "alcohol",
             "jet_wash",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -221624,6 +221731,7 @@
             "alcohol",
             "jet_wash",
             "bunker_site",
+            "cash_point",
             "disabled_facilities",
             "bakery_bistro",
             "bistro",
@@ -228911,6 +229019,7 @@
             "open_24_hours",
             "jet_wash",
             "truck_suitable_site",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -230899,7 +231008,6 @@
             "alcohol",
             "high_speed_pump",
             "truck_suitable_site",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "wifi",
@@ -242434,7 +242542,7 @@
         "lng": -1.454189,
         "site_brand": "BP",
         "country_code": "GB",
-        "address": "York Road",
+        "address": "YORK ROAD",
         "city": "LEEDS",
         "state": null,
         "postcode": "LS14 2AA",
@@ -242465,7 +242573,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "York Road\nLS14 2AA\nLEEDS",
+        "formatted_address": "YORK ROAD\nLS14 2AA\nLEEDS",
         "channel_of_trade": null
     },
     {
@@ -244293,7 +244401,6 @@
         "telephone": "+44 1489 786648",
         "facilities": [
             "alcohol",
-            "cash_point",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -270565,6 +270672,29 @@
         "channel_of_trade": null
     },
     {
+        "id": "ID-JB023",
+        "name": "SPBU bp Kota Wisata",
+        "lat": -6.386123,
+        "lng": 106.949596,
+        "site_brand": "BP",
+        "country_code": "ID",
+        "address": "Jl. Raya Kota Wisata, Ciangsana, Kec. Gn. Putri, Kab. Bogor",
+        "city": "Kab. Bogor",
+        "state": "Jawa Barat",
+        "postcode": "",
+        "telephone": "+62 811-1990-0606",
+        "facilities": [],
+        "products": [
+            "ultimate_diesel",
+            "regular_92",
+            "ultimate"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Jl. Raya Kota Wisata, Ciangsana, Kec. Gn. Putri, Kab. Bogor\nKab. Bogor",
+        "channel_of_trade": null
+    },
+    {
         "id": "ID-JI001",
         "name": "SPBU bp Gubeng Raya",
         "lat": -7.273041,
@@ -271768,6 +271898,7 @@
         "postcode": "4222",
         "telephone": "+352 55 64 84",
         "facilities": [
+            "open_24_hours",
             "alcohol",
             "lotto",
             "car_wash",
@@ -271810,6 +271941,7 @@
         "postcode": "6182",
         "telephone": "+352 78 97 10",
         "facilities": [
+            "open_24_hours",
             "alcohol",
             "lotto",
             "car_wash",
@@ -272071,6 +272203,7 @@
         "postcode": "2632",
         "telephone": "+352 42 27 22",
         "facilities": [
+            "open_24_hours",
             "alcohol",
             "lotto",
             "car_wash",
@@ -309216,7 +309349,8 @@
         "postcode": "63-500",
         "telephone": "",
         "facilities": [
-            "open_24_hours",
+            "shop",
+            "wild_bean_cafe",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -334317,7 +334451,7 @@
         "city": "Mogadouro",
         "state": null,
         "postcode": "5200-216",
-        "telephone": "+351 279 341 379",
+        "telephone": "+351 279 012 628",
         "facilities": [
             "alcohol",
             "car_wash",
@@ -355575,6 +355709,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "mobile_acceptance",
             "mobile_enabled"
         ],
@@ -356571,20 +356706,22 @@
     {
         "id": "US-105263",
         "name": "BP",
-        "lat": 40.8875978925,
-        "lng": -73.0976697055,
-        "site_brand": "BPPLS",
+        "lat": 40.8878372109,
+        "lng": -73.0979641178,
+        "site_brand": "BP",
         "country_code": "US",
         "address": "3117 Nesconset Hwy",
         "city": "Centereach",
         "state": "NY",
         "postcode": "11720",
-        "telephone": "1111111111",
+        "telephone": "+1 631-588-8450",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -356593,7 +356730,7 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3117 Nesconset Hwy\n11720\nCentereach",
-        "channel_of_trade": "EV"
+        "channel_of_trade": "COCM"
     },
     {
         "id": "US-10546991804135391300100000000000",
@@ -356998,29 +357135,32 @@
     {
         "id": "US-106476",
         "name": "BP",
-        "lat": 40.7411076783,
-        "lng": -73.6621806018,
-        "site_brand": "BPPLS",
+        "lat": 40.74109231,
+        "lng": -73.6624241891,
+        "site_brand": "BP",
         "country_code": "US",
         "address": "2298 Jericho Tpke",
-        "city": "New Hyde Park",
+        "city": "Garden City Park",
         "state": "NY",
         "postcode": "11040",
-        "telephone": "1111111111",
+        "telephone": "+1 516-294-2646",
         "facilities": [
-            "car_wash",
+            "open_24_hours",
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "2298 Jericho Tpke\n11040\nNew Hyde Park",
-        "channel_of_trade": "EV"
+        "formatted_address": "2298 Jericho Tpke\n11040\nGarden City Park",
+        "channel_of_trade": "COCM"
     },
     {
         "id": "US-106482",
@@ -362927,6 +363067,33 @@
         "channel_of_trade": "EV"
     },
     {
+        "id": "US-118737",
+        "name": "BP",
+        "lat": 33.5528055696,
+        "lng": -83.4749401454,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "2021 EATONTON RD",
+        "city": "MADISON",
+        "state": "GA",
+        "postcode": "30650",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2021 EATONTON RD\n30650\nMADISON",
+        "channel_of_trade": "EV"
+    },
+    {
         "id": "US-118749",
         "name": "BP",
         "lat": 39.9538511973,
@@ -363164,6 +363331,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -366102,7 +366270,6 @@
             "shop",
             "grocer_reward",
             "harris_teeter",
-            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -378811,6 +378978,33 @@
         "watchlist_id": null,
         "formatted_address": "9942 E 21st St\n46229\nIndianapolis",
         "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-126594",
+        "name": "BP",
+        "lat": 37.1388598422,
+        "lng": -77.3552621913,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "12600 S CRATER RD",
+        "city": "SOUTH PRINCE GEORGE",
+        "state": "VA",
+        "postcode": "23805",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "12600 S CRATER RD\n23805\nSOUTH PRINCE GEORGE",
+        "channel_of_trade": "EV"
     },
     {
         "id": "US-126601",
@@ -392946,6 +393140,34 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-128360",
+        "name": "BP",
+        "lat": 40.858574,
+        "lng": -73.8849218,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "601 E Fordham Rd",
+        "city": "Bronx",
+        "state": "NY",
+        "postcode": "10458",
+        "telephone": "+1 347-758-6043",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "601 E Fordham Rd\n10458\nBronx",
+        "channel_of_trade": "BODO"
+    },
+    {
         "id": "US-128361",
         "name": "BP",
         "lat": 37.51308982,
@@ -397943,33 +398165,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-128635",
-        "name": "BP",
-        "lat": 39.0670716,
-        "lng": -94.53927748,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "2303 Cleveland Ave",
-        "city": "Kansas City",
-        "state": "MO",
-        "postcode": "64127",
-        "telephone": "+1 816-216-7317",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "2303 Cleveland Ave\n64127\nKansas City",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-128636",
         "name": "Amoco",
         "lat": 41.998088,
@@ -398710,15 +398905,15 @@
     {
         "id": "US-128668",
         "name": "BP",
-        "lat": 39.6436560175,
-        "lng": -75.7979795038,
-        "site_brand": "BPPLS",
+        "lat": 39.6437224,
+        "lng": -75.79741881,
+        "site_brand": "BP",
         "country_code": "US",
         "address": "1400 Elkton Rd",
         "city": "Elkton",
         "state": "MD",
         "postcode": "21921",
-        "telephone": "1111111111",
+        "telephone": "+1 410-398-7000",
         "facilities": [
             "car_wash",
             "workshop",
@@ -398726,6 +398921,7 @@
             "shop",
             "grocer_reward",
             "harris_teeter",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -398734,7 +398930,7 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1400 Elkton Rd\n21921\nElkton",
-        "channel_of_trade": "EV"
+        "channel_of_trade": "BJBR"
     },
     {
         "id": "US-128669",
@@ -400129,6 +400325,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-128745",
+        "name": "BP",
+        "lat": 41.38505157,
+        "lng": -82.12807381,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "106 Bell Ave",
+        "city": "Elyria",
+        "state": "OH",
+        "postcode": "44035",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "106 Bell Ave\n44035\nElyria",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-128746",
         "name": "BP",
         "lat": 33.222711,
@@ -401298,34 +401521,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-128804",
-        "name": "Amoco",
-        "lat": 34.6889572589,
-        "lng": -89.9778577493,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "706 E Service Dr",
-        "city": "Coldwater",
-        "state": "MS",
-        "postcode": "38618",
-        "telephone": "1111111111",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "706 E Service Dr\n38618\nColdwater",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-128808",
         "name": "Amoco",
         "lat": 39.30622551,
@@ -401723,16 +401918,16 @@
     },
     {
         "id": "US-128844",
-        "name": "Amoco",
-        "lat": 30.28532604,
-        "lng": -81.98384297,
-        "site_brand": "AM",
+        "name": "BP",
+        "lat": 30.2852588006,
+        "lng": -81.9835007741,
+        "site_brand": "BPPLS",
         "country_code": "US",
-        "address": "1024 US-301 S",
-        "city": "Baldwin",
+        "address": "1024 US 301 SOUTH",
+        "city": "BALDWIN",
         "state": "FL",
         "postcode": "32234",
-        "telephone": "+1 904-266-4281",
+        "telephone": "1111111111",
         "facilities": [
             "car_wash",
             "workshop",
@@ -401747,8 +401942,8 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "1024 US-301 S\n32234\nBaldwin",
-        "channel_of_trade": "BJBR"
+        "formatted_address": "1024 US 301 SOUTH\n32234\nBALDWIN",
+        "channel_of_trade": "EV"
     },
     {
         "id": "US-128845",
@@ -401893,16 +402088,16 @@
     },
     {
         "id": "US-128850",
-        "name": "BP",
-        "lat": 30.7936979173,
-        "lng": -81.6658158662,
-        "site_brand": "BPPLS",
+        "name": "Amoco",
+        "lat": 30.79453394,
+        "lng": -81.66679215,
+        "site_brand": "AM",
         "country_code": "US",
-        "address": "1105 EAST KING AVE",
-        "city": "KINGSLAND",
+        "address": "1105 E King Ave",
+        "city": "Kingsland",
         "state": "GA",
         "postcode": "31548",
-        "telephone": "1111111111",
+        "telephone": "+1 912-882-3111",
         "facilities": [
             "car_wash",
             "workshop",
@@ -401910,6 +402105,7 @@
             "shop",
             "grocer_reward",
             "harris_teeter",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -401917,8 +402113,8 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "1105 EAST KING AVE\n31548\nKINGSLAND",
-        "channel_of_trade": "EV"
+        "formatted_address": "1105 E King Ave\n31548\nKingsland",
+        "channel_of_trade": "BJBR"
     },
     {
         "id": "US-128851",
@@ -402598,6 +402794,33 @@
         "watchlist_id": null,
         "formatted_address": "1100 Broadway\n11735\nFarmingdale",
         "channel_of_trade": "DODO"
+    },
+    {
+        "id": "US-128880",
+        "name": "BP",
+        "lat": 35.23836481,
+        "lng": -85.85020408,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "740 W Main St",
+        "city": "Monteagle",
+        "state": "TN",
+        "postcode": "37356",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "740 W Main St\n37356\nMonteagle",
+        "channel_of_trade": "BJBR"
     },
     {
         "id": "US-128881",
@@ -405290,8 +405513,8 @@
     {
         "id": "US-128999",
         "name": "BP",
-        "lat": 33.27436,
-        "lng": -82.30197,
+        "lat": 33.462111,
+        "lng": -82.505472,
         "site_brand": "BP",
         "country_code": "US",
         "address": "312 W Hill St",
@@ -411387,6 +411610,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -411478,6 +411702,34 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "327 Broadway\n12401\nKingston",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129342",
+        "name": "Amoco",
+        "lat": 39.9394170622,
+        "lng": -82.0153278393,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "716 W Main St",
+        "city": "Zanesville",
+        "state": "OH",
+        "postcode": "43701",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "716 W Main St\n43701\nZanesville",
         "channel_of_trade": "BJBR"
     },
     {
@@ -413131,6 +413383,34 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-129422",
+        "name": "BP",
+        "lat": 35.4588811888,
+        "lng": -85.0479747858,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "2909 Rhea County Hwy",
+        "city": "Dayton",
+        "state": "TN",
+        "postcode": "37321",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2909 Rhea County Hwy\n37321\nDayton",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-129423",
         "name": "BP",
         "lat": 35.427753447,
@@ -413967,6 +414247,7 @@
             "shop",
             "grocer_reward",
             "harris_teeter",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -414876,33 +415157,6 @@
         "channel_of_trade": "EV"
     },
     {
-        "id": "US-129511",
-        "name": "BP",
-        "lat": 28.0664987237,
-        "lng": -82.7395149061,
-        "site_brand": "BPPLS",
-        "country_code": "US",
-        "address": "32490 US HIGHWAY 19 N",
-        "city": "PALM HARBOR",
-        "state": "FL",
-        "postcode": "34684",
-        "telephone": "1111111111",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "32490 US HIGHWAY 19 N\n34684\nPALM HARBOR",
-        "channel_of_trade": "EV"
-    },
-    {
         "id": "US-129513",
         "name": "BP",
         "lat": 27.9955171549,
@@ -415122,6 +415376,61 @@
         "watchlist_id": null,
         "formatted_address": "500 E North Ave\n64012\nBelton",
         "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129522",
+        "name": "BP",
+        "lat": 42.3426420051,
+        "lng": -88.2389196233,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "2108 W IL Route 120",
+        "city": "McHenry",
+        "state": "IL",
+        "postcode": "60051",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2108 W IL Route 120\n60051\nMcHenry",
+        "channel_of_trade": "EV"
+    },
+    {
+        "id": "US-129524",
+        "name": "BP",
+        "lat": 38.2418679179,
+        "lng": -85.5090231461,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "13314 Shelbyville Rd",
+        "city": "Louisville",
+        "state": "KY",
+        "postcode": "40223",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "13314 Shelbyville Rd\n40223\nLouisville",
+        "channel_of_trade": "EV"
     },
     {
         "id": "US-129525",
@@ -416264,6 +416573,34 @@
         "channel_of_trade": "EV"
     },
     {
+        "id": "US-129586",
+        "name": "BP",
+        "lat": 41.7839900988,
+        "lng": -87.8018555147,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "5900 S HARLEM AVE",
+        "city": "SUMMIT",
+        "state": "IL",
+        "postcode": "60501",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "5900 S HARLEM AVE\n60501\nSUMMIT",
+        "channel_of_trade": "EV"
+    },
+    {
         "id": "US-129587",
         "name": "BP",
         "lat": 42.3727921526,
@@ -416715,6 +417052,34 @@
         "channel_of_trade": "EV"
     },
     {
+        "id": "US-129610",
+        "name": "BP",
+        "lat": 42.2148320115,
+        "lng": -88.2873565043,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "911 TEK DRIVE",
+        "city": "CRYSTAL LAKE",
+        "state": "IL",
+        "postcode": "60014",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "911 TEK DRIVE\n60014\nCRYSTAL LAKE",
+        "channel_of_trade": "EV"
+    },
+    {
         "id": "US-129612",
         "name": "BP",
         "lat": 43.05389,
@@ -416856,34 +417221,6 @@
         "channel_of_trade": "EV"
     },
     {
-        "id": "US-129617",
-        "name": "BP",
-        "lat": 42.1042358572,
-        "lng": -88.2571034484,
-        "site_brand": "BPPLS",
-        "country_code": "US",
-        "address": "100 DUNDEE AVE",
-        "city": "EAST DUNDEE",
-        "state": "IL",
-        "postcode": "60118",
-        "telephone": "1111111111",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "grocer_reward",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "100 DUNDEE AVE\n60118\nEAST DUNDEE",
-        "channel_of_trade": "EV"
-    },
-    {
         "id": "US-129618",
         "name": "BP",
         "lat": 41.992739037,
@@ -416909,34 +417246,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2310 York Rd\n60007\nElk Grove Village",
-        "channel_of_trade": "EV"
-    },
-    {
-        "id": "US-129619",
-        "name": "BP",
-        "lat": 41.5215586799,
-        "lng": -88.1496777306,
-        "site_brand": "BPPLS",
-        "country_code": "US",
-        "address": "2798 W Jefferson St",
-        "city": "Joliet",
-        "state": "IL",
-        "postcode": "60435",
-        "telephone": "1111111111",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "grocer_reward",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "2798 W Jefferson St\n60435\nJoliet",
         "channel_of_trade": "EV"
     },
     {
@@ -419056,6 +419365,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-129739",
+        "name": "Amoco",
+        "lat": 30.5410426364,
+        "lng": -84.5956449899,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "2982 Pat Thomas Pkwy",
+        "city": "Quincy",
+        "state": "FL",
+        "postcode": "32351",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2982 Pat Thomas Pkwy\n32351\nQuincy",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-129745",
         "name": "BP",
         "lat": 42.7199630768,
@@ -419099,6 +419435,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -419265,6 +419602,7 @@
         "facilities": [
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -420114,6 +420452,33 @@
         "channel_of_trade": "EV"
     },
     {
+        "id": "US-129835",
+        "name": "BP",
+        "lat": 38.1887631423,
+        "lng": -85.7655271307,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "4500 S 3rd St",
+        "city": "Louisville",
+        "state": "KY",
+        "postcode": "40214",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "4500 S 3rd St\n40214\nLouisville",
+        "channel_of_trade": "EV"
+    },
+    {
         "id": "US-129836",
         "name": "BP",
         "lat": 27.9970836312,
@@ -420955,6 +421320,33 @@
         "channel_of_trade": "EV"
     },
     {
+        "id": "US-129877",
+        "name": "BP",
+        "lat": 27.4966273477,
+        "lng": -82.5013978227,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "4820 E State Road 64",
+        "city": "Bradenton",
+        "state": "FL",
+        "postcode": "34208",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "4820 E State Road 64\n34208\nBradenton",
+        "channel_of_trade": "EV"
+    },
+    {
         "id": "US-129879",
         "name": "BP",
         "lat": 41.5953401055,
@@ -420979,6 +421371,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "6502 Kennedy Ave\n46323\nHammond",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129880",
+        "name": "Amoco",
+        "lat": 42.2119069283,
+        "lng": -83.2883936453,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "12970 Beech Daly Rd",
+        "city": "Taylor",
+        "state": "MI",
+        "postcode": "48180",
+        "telephone": "+1 734-946-5877",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "12970 Beech Daly Rd\n48180\nTaylor",
         "channel_of_trade": "BJBR"
     },
     {
@@ -422269,6 +422688,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -422809,6 +423229,7 @@
             "shop",
             "grocer_reward",
             "harris_teeter",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -423164,7 +423585,7 @@
         "lng": -86.0887071413,
         "site_brand": "BP",
         "country_code": "US",
-        "address": "2010 E 00 NS",
+        "address": "930 CHAMPIONSHIP WAY",
         "city": "Kokomo",
         "state": "IN",
         "postcode": "46901",
@@ -423183,7 +423604,7 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "2010 E 00 NS\n46901\nKokomo",
+        "formatted_address": "930 CHAMPIONSHIP WAY\n46901\nKokomo",
         "channel_of_trade": "BJBR"
     },
     {
@@ -423785,6 +424206,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130072",
+        "name": "BP",
+        "lat": 33.808401495,
+        "lng": -84.636373531,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "2913 VETERANS MEMORIAL HIGHWAY",
+        "city": "AUSTELL",
+        "state": "GA",
+        "postcode": "30168",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2913 VETERANS MEMORIAL HIGHWAY\n30168\nAUSTELL",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130074",
         "name": "BP",
         "lat": 40.591613291,
@@ -424025,6 +424473,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -424176,6 +424625,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130104",
+        "name": "BP",
+        "lat": 44.1494573095,
+        "lng": -92.5278704857,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "1455 CEDAR CENTER AVE SOUTHEAST",
+        "city": "ORONOCO",
+        "state": "MN",
+        "postcode": "55960",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1455 CEDAR CENTER AVE SOUTHEAST\n55960\nORONOCO",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130107",
         "name": "Amoco",
         "lat": 37.0909409308,
@@ -424200,6 +424676,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "649 NORTH 8TH STREET\n42001\nPADUCAH",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130108",
+        "name": "BP",
+        "lat": 44.0596704903,
+        "lng": -92.4582371684,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "3610 E RIVER ROAD NE",
+        "city": "ROCHESTER",
+        "state": "MN",
+        "postcode": "55906",
+        "telephone": "1231231233",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "3610 E RIVER ROAD NE\n55906\nROCHESTER",
         "channel_of_trade": "BJBR"
     },
     {
@@ -424287,6 +424790,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "21003 HARPER AVE   8\n48080\nST CLAIR SHORES",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130112",
+        "name": "BP",
+        "lat": 43.7407254388,
+        "lng": -92.8697037427,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "102 MILL STREET SOUTH",
+        "city": "BROWNSDALE",
+        "state": "MN",
+        "postcode": "55918",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "102 MILL STREET SOUTH\n55918\nBROWNSDALE",
         "channel_of_trade": "BJBR"
     },
     {
@@ -425238,6 +425768,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -425999,33 +426530,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-130232",
-        "name": "BP",
-        "lat": 31.661064359,
-        "lng": -106.2418807238,
-        "site_brand": "BPPLS",
-        "country_code": "US",
-        "address": "1295 HORIZON BLVD",
-        "city": "EL PASO",
-        "state": "TX",
-        "postcode": "79927",
-        "telephone": "1111111111",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1295 HORIZON BLVD\n79927\nEL PASO",
-        "channel_of_trade": "EV"
-    },
-    {
         "id": "US-130237",
         "name": "Amoco",
         "lat": 42.25154746,
@@ -426254,6 +426758,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130255",
+        "name": "BP",
+        "lat": 34.5116912357,
+        "lng": -86.2607419971,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "4231 CATHEDRAL CAVERNS HIGHWAY",
+        "city": "GRANT",
+        "state": "AL",
+        "postcode": "35747",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "4231 CATHEDRAL CAVERNS HIGHWAY\n35747\nGRANT",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130256",
         "name": "BP",
         "lat": 33.7621256862,
@@ -426413,6 +426944,7 @@
             "car_wash",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -426438,6 +426970,7 @@
         "facilities": [
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -426718,7 +427251,7 @@
         "city": "SPARTA",
         "state": "TN",
         "postcode": "38583",
-        "telephone": "1111111111",
+        "telephone": "+1 931-703-9013",
         "facilities": [
             "car_wash",
             "workshop",
@@ -426790,6 +427323,32 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "4601 NORTH PULASKI ROAD\n60630\nCHICAGO",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130315",
+        "name": "BP",
+        "lat": 40.849552,
+        "lng": -74.472573,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "1799 ROUTE 10",
+        "city": "MORRIS PLAINS",
+        "state": "NJ",
+        "postcode": "07950",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1799 ROUTE 10\n07950\nMORRIS PLAINS",
         "channel_of_trade": "BJBR"
     },
     {
@@ -426923,6 +427482,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -427314,11 +427874,11 @@
     {
         "id": "US-130360",
         "name": "Thorntons",
-        "lat": 39.2903831086,
-        "lng": -84.2986841059,
+        "lat": 39.2906196443,
+        "lng": -84.2986748585,
         "site_brand": "Thorntons",
         "country_code": "US",
-        "address": "12156 MONTGOMERY ROAD",
+        "address": "12160 MONTGOMERY ROAD",
         "city": "CINCINNATI",
         "state": "OH",
         "postcode": "45249",
@@ -427335,7 +427895,7 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "12156 MONTGOMERY ROAD\n45249\nCINCINNATI",
+        "formatted_address": "12160 MONTGOMERY ROAD\n45249\nCINCINNATI",
         "channel_of_trade": "BJBR"
     },
     {
@@ -427393,6 +427953,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130376",
+        "name": "BP",
+        "lat": 35.0227638339,
+        "lng": -83.6947160334,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "7381 U S  64",
+        "city": "HAYESVILLE",
+        "state": "NC",
+        "postcode": "28904",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "7381 U S  64\n28904\nHAYESVILLE",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130377",
         "name": "BP",
         "lat": 35.0704779157,
@@ -427437,6 +428024,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -427583,34 +428171,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-130427",
-        "name": "BP",
-        "lat": 44.8431761379,
-        "lng": -93.7891154474,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "140 MINNESOTA 5",
-        "city": "WACONIA",
-        "state": "MN",
-        "postcode": "55387",
-        "telephone": "1111111111",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "140 MINNESOTA 5\n55387\nWACONIA",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-130431",
         "name": "BP",
         "lat": 41.6937379847,
@@ -427636,6 +428196,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2580 MOSS RIDGE ROAD\n52245\nIOWA CITY",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130432",
+        "name": "BP",
+        "lat": 42.5985588477,
+        "lng": -82.8750715442,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "12 MARKET ST",
+        "city": "MOUNT CLEMENS",
+        "state": "MI",
+        "postcode": "48043",
+        "telephone": "+1 586-307-3778",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "12 MARKET ST\n48043\nMOUNT CLEMENS",
         "channel_of_trade": "BJBR"
     },
     {
@@ -427855,6 +428442,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -427938,6 +428526,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -427965,6 +428554,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -427992,6 +428582,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -428019,6 +428610,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -428046,6 +428638,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -428073,6 +428666,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -428100,6 +428694,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -428127,6 +428722,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -428154,6 +428750,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -428181,6 +428778,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -428246,6 +428844,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "7600 SOUTH HALSTED STREET\n60620\nCHICAGO",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130475",
+        "name": "BP",
+        "lat": 34.7447307453,
+        "lng": -87.6358958162,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "2526 AVALON AVENUE",
+        "city": "MUSCLE SHOALS",
+        "state": "AL",
+        "postcode": "35661",
+        "telephone": "+1 256-383-0905",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2526 AVALON AVENUE\n35661\nMUSCLE SHOALS",
         "channel_of_trade": "BJBR"
     },
     {
@@ -428952,6 +429577,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130535",
+        "name": "Thorntons",
+        "lat": 36.032948,
+        "lng": -86.65171,
+        "site_brand": "Thorntons",
+        "country_code": "US",
+        "address": "2136 CENTURY FARMS PKWY",
+        "city": "ANITOCH",
+        "state": "TN",
+        "postcode": "37013",
+        "telephone": "+1 859-254-8407",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2136 CENTURY FARMS PKWY\n37013\nANITOCH",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130536",
         "name": "Thorntons",
         "lat": 27.9614974331,
@@ -429090,6 +429742,34 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130552",
+        "name": "BP",
+        "lat": 41.7939290925,
+        "lng": -87.6941003758,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "2800 WEST 55TH STREET",
+        "city": "CHICAGO",
+        "state": "IL",
+        "postcode": "60632",
+        "telephone": "+1 773-476-3619",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2800 WEST 55TH STREET\n60632\nCHICAGO",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130554",
         "name": "Amoco",
         "lat": 28.8727176824,
@@ -429118,6 +429798,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130556",
+        "name": "Amoco",
+        "lat": 40.819131723,
+        "lng": -97.1011067952,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "930 280TH ST",
+        "city": "SEWARD",
+        "state": "NE",
+        "postcode": "68112",
+        "telephone": "+1 402-643-4531",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "930 280TH ST\n68112\nSEWARD",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130557",
         "name": "BP",
         "lat": 41.5442842219,
@@ -429134,6 +429841,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -429202,6 +429910,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130585",
+        "name": "BP",
+        "lat": 37.5831867084,
+        "lng": -81.3805711756,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "118 MORAN AVENUE",
+        "city": "MULLENS",
+        "state": "WV",
+        "postcode": "25882",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "118 MORAN AVENUE\n25882\nMULLENS",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130586",
         "name": "BP",
         "lat": 39.125011341,
@@ -429218,6 +429953,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -429259,15 +429995,43 @@
     {
         "id": "US-130589",
         "name": "BP",
-        "lat": 39.9891216513,
-        "lng": -82.9873066196,
+        "lat": 36.9879462172,
+        "lng": -85.9382034621,
         "site_brand": "BP",
         "country_code": "US",
-        "address": "1199 CLEVELAND AVENUE",
+        "address": "230 PARKVIEW DRIVE",
         "city": "GLASGOW",
         "state": "KY",
         "postcode": "42141",
         "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "230 PARKVIEW DRIVE\n42141\nGLASGOW",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130605",
+        "name": "Amoco",
+        "lat": 38.3876161249,
+        "lng": -91.4069806541,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "248 US 50",
+        "city": "ROSEBUD",
+        "state": "MO",
+        "postcode": "63091",
+        "telephone": "8161111111",
         "facilities": [
             "car_wash",
             "workshop",
@@ -429280,7 +430044,7 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "1199 CLEVELAND AVENUE\n42141\nGLASGOW",
+        "formatted_address": "248 US 50\n63091\nROSEBUD",
         "channel_of_trade": "BJBR"
     },
     {
@@ -433034,6 +433798,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -445409,9 +446174,8 @@
         "city": "West Bend",
         "state": "WI",
         "postcode": "53095",
-        "telephone": "+1 262-334-2371",
+        "telephone": "+1 262-353-3105",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -445423,9 +446187,7 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [
-            "regular_diesel"
-        ],
+        "products": [],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1229 S Main St\n53095\nWest Bend",
@@ -451616,37 +452378,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-27214676654413810900100000000000",
-        "name": "BP",
-        "lat": 35.054762,
-        "lng": -90.060681,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "3441 S Central Park St",
-        "city": "Memphis",
-        "state": "TN",
-        "postcode": "38111",
-        "telephone": "+1 901-785-3449",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "3441 S Central Park St\n38111\nMemphis",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-27226206640355070200100000000000",
         "name": "BP",
         "lat": 42.47661,
@@ -455214,32 +455945,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "399 Webster St\n02370\nRockland",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-29777190965706534000100000000000",
-        "name": "BP",
-        "lat": 39.105269,
-        "lng": -93.1951,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "1570 S Odell Ave",
-        "city": "Marshall",
-        "state": "MO",
-        "postcode": "65340",
-        "telephone": "+1 660-886-8282",
-        "facilities": [
-            "car_wash",
-            "toilet",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1570 S Odell Ave\n65340\nMarshall",
         "channel_of_trade": "BJBR"
     },
     {
@@ -464420,7 +465125,6 @@
             "workshop",
             "toilet",
             "shop",
-            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -477978,9 +478682,8 @@
         "city": "West Bend",
         "state": "WI",
         "postcode": "53095",
-        "telephone": "+1 262-429-1278",
+        "telephone": "+1 262-353-3165",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -479260,35 +479963,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "300 Village Edge Rd\n53503\nArena",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-45327310660303340900100000000000",
-        "name": "BP",
-        "lat": 26.721542,
-        "lng": -80.110063,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "3030 N Military Trail",
-        "city": "West Palm Beach",
-        "state": "FL",
-        "postcode": "33409",
-        "telephone": "+1 561-683-0960",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "3030 N Military Trail\n33409\nWest Palm Beach",
         "channel_of_trade": "BJBR"
     },
     {
@@ -496336,7 +497010,7 @@
         "city": "Cornelia",
         "state": "GA",
         "postcode": "30531",
-        "telephone": "+1 706-429-3906",
+        "telephone": "+1 706-525-4671",
         "facilities": [
             "car_wash",
             "workshop",
@@ -501479,6 +502153,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-60086154161414308500100000000000",
+        "name": "BP",
+        "lat": 40.106959,
+        "lng": -83.016925,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "7141 N High St",
+        "city": "Worthington",
+        "state": "OH",
+        "postcode": "43085",
+        "telephone": "+1 614-846-0181",
+        "facilities": [
+            "open_24_hours",
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "7141 N High St\n43085\nWorthington",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-60087401129003306300100000000000",
         "name": "Amoco",
         "lat": 26.235074,
@@ -506553,9 +507254,8 @@
         "city": "West Bend",
         "state": "WI",
         "postcode": "53090",
-        "telephone": "+1 262-306-8888",
+        "telephone": "+1 262-353-3058",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -506567,9 +507267,7 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [
-            "regular_diesel"
-        ],
+        "products": [],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1650 N Main St\n53090\nWest Bend",
@@ -506738,37 +507436,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3220 Boulevard\n23834\nColonial Heights",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-63654252009645306600100000000000",
-        "name": "BP",
-        "lat": 43.109186,
-        "lng": -88.460704,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "N49 Wisconsin Ave",
-        "city": "Oconomowoc",
-        "state": "WI",
-        "postcode": "53066",
-        "telephone": "+1 262-567-7700",
-        "facilities": [
-            "open_24_hours",
-            "toilet",
-            "shop",
-            "grocer_reward",
-            "fresh_perks",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "N49 Wisconsin Ave\n53066\nOconomowoc",
         "channel_of_trade": "BJBR"
     },
     {
@@ -512262,9 +512929,8 @@
         "city": "West Bend",
         "state": "WI",
         "postcode": "53095",
-        "telephone": "+1 262-334-9674",
+        "telephone": "+1 414-373-1181",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -512276,9 +512942,7 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [
-            "regular_diesel"
-        ],
+        "products": [],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1512 W Washington St\n53095\nWest Bend",
@@ -521189,33 +521853,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-73482641594220836000100000000000",
-        "name": "BP",
-        "lat": 39.437061,
-        "lng": -75.041681,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "3422 S Delsea Dr",
-        "city": "Vineland",
-        "state": "NJ",
-        "postcode": "08360",
-        "telephone": "+1 856-825-5287",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "3422 S Delsea Dr\n08360\nVineland",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-73520102979984636000100000000000",
         "name": "BP",
         "lat": 41.66587,
@@ -526577,34 +527214,6 @@
         "watchlist_id": null,
         "formatted_address": "2665 HEMPSTEAD TURNPIK\n11756\nLEVITTOWN",
         "channel_of_trade": "BODO"
-    },
-    {
-        "id": "US-77529546234220836000100000000000",
-        "name": "BP",
-        "lat": 39.487727,
-        "lng": -75.052798,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "1422 W Landis Ave",
-        "city": "Vineland",
-        "state": "NJ",
-        "postcode": "08360",
-        "telephone": "+1 856-691-4308",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1422 W Landis Ave\n08360\nVineland",
-        "channel_of_trade": "BJBR"
     },
     {
         "id": "US-77529851421025002300100000000000",
@@ -533976,7 +534585,6 @@
         "postcode": "25701",
         "telephone": "+1 304-523-7373",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -544172,34 +544780,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-88896826903102090400100000000000",
-        "name": "BP",
-        "lat": 39.07409,
-        "lng": -77.00254,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "13310 New Hampshire Ave",
-        "city": "Silver Spring",
-        "state": "MD",
-        "postcode": "20904",
-        "telephone": "+1 301-384-6404",
-        "facilities": [
-            "workshop",
-            "shop",
-            "grocer_reward",
-            "harris_teeter",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "13310 New Hampshire Ave\n20904\nSilver Spring",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-88906564123085710700100000000000",
         "name": "BP",
         "lat": 43.571674,
@@ -552210,7 +552790,6 @@
         "postcode": "25703",
         "telephone": "+1 304-522-3670",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -566880,7 +567459,7 @@
         "city": "West Wendover",
         "state": "NV",
         "postcode": "89883",
-        "telephone": "+1 775-546-1648",
+        "telephone": "+1 775-546-1649",
         "facilities": [
             "open_24_hours"
         ],
