@@ -1649,7 +1649,6 @@
         "postcode": "68130",
         "telephone": "+1 402-758-9504",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "toilet",
             "shop",
@@ -9895,6 +9894,35 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-128844",
+        "name": "Amoco",
+        "lat": 30.28532604,
+        "lng": -81.98384297,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "1024 US-301 S",
+        "city": "Baldwin",
+        "state": "FL",
+        "postcode": "32234",
+        "telephone": "+1 904-266-4281",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "harris_teeter",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1024 US-301 S\n32234\nBaldwin",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-128846",
         "name": "Amoco",
         "lat": 35.87339831,
@@ -12044,39 +12072,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-129072",
-        "name": "Amoco",
-        "lat": 30.065848,
-        "lng": -81.496091,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "1650 COUNTY RD 210 W",
-        "city": "JACKSONVILLE",
-        "state": "FL",
-        "postcode": "32259",
-        "telephone": "+1 904-829-3946",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "grocer_reward",
-            "harris_teeter",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1650 COUNTY RD 210 W\n32259\nJACKSONVILLE",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-129077",
         "name": "Amoco",
         "lat": 37.832074,
@@ -12731,7 +12726,7 @@
         "city": "Russiaville",
         "state": "IN",
         "postcode": "46979",
-        "telephone": "+1 765-753-3004",
+        "telephone": "+1 317-973-5008",
         "facilities": [
             "open_24_hours",
             "car_wash",
@@ -15866,6 +15861,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -16278,6 +16274,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -18990,15 +18987,17 @@
         "postcode": "68112",
         "telephone": "+1 402-643-4531",
         "facilities": [
-            "car_wash",
-            "workshop",
+            "open_24_hours",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "930 280TH ST\n68112\nSEWARD",
@@ -19049,6 +19048,7 @@
             "workshop",
             "toilet",
             "shop",
+            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -26105,7 +26105,7 @@
         "city": "Palm Coast",
         "state": "FL",
         "postcode": "32137",
-        "telephone": "+1 386-986-5026",
+        "telephone": "+1 386-387-1569",
         "facilities": [
             "car_wash",
             "workshop",
@@ -27596,33 +27596,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "720 Washington Rd\n15329\nProsperity",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-81341968606150830200100000961334",
-        "name": "Amoco",
-        "lat": 39.445194,
-        "lng": -75.220516,
-        "site_brand": "AM",
-        "country_code": "US",
-        "address": "615 N Pearl St",
-        "city": "Bridgeton",
-        "state": "NJ",
-        "postcode": "08302",
-        "telephone": "+1 856-455-6434",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "615 N Pearl St\n08302\nBridgeton",
         "channel_of_trade": "BJBR"
     },
     {

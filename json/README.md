@@ -3,22 +3,22 @@ This is the data for BP stations like aral.
 
 # Stats
 
-Total station count: 17379
+Total station count: 17370
 ## By Country
 
 | Country | Count
 | - | - 
 | NZ | 265
-| AU | 1434
-| ES | 710
-| US | 8219
+| AU | 1433
+| ES | 707
+| US | 8213
 | PL | 579
 | GR | 705
 | AT | 204
-| DE | 2356
+| DE | 2355
 | FR | 238
 | CH | 332
-| GB | 1178
+| GB | 1180
 | NL | 304
 | LU | 69
 | PT | 480
@@ -28,13 +28,13 @@ Total station count: 17379
 
 | Brand | Count
 | - | - 
-| BP | 13404
-| ARAL Tankstelle | 2257
+| BP | 13396
+| ARAL Tankstelle | 2256
 | Aral pulse Ladestation | 99
 | RR | 1
 | AR | 61
-| AM | 1033
-| BPPLS | 43
+| AM | 1032
+| BPPLS | 44
 | TA | 189
 | Petro | 77
 | Thorntons | 141

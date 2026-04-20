@@ -1446,6 +1446,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -1887,6 +1888,7 @@
         "facilities": [
             "open_24_hours",
             "recup",
+            "cash_point",
             "motorway_site",
             "shop",
             "bistro",
@@ -3474,6 +3476,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -3681,7 +3684,7 @@
         "website": "https://tankstelle.aral.de/tankstelle/12120200",
         "watchlist_id": "12120200",
         "formatted_address": "Ruwerer Stra\u00dfe 35\n54292\nTrier",
-        "channel_of_trade": "DOFO"
+        "channel_of_trade": "DODO"
     },
     {
         "id": "DE-12120600",
@@ -4633,6 +4636,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -5548,6 +5552,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -7987,7 +7992,7 @@
     },
     {
         "id": "DE-13009700",
-        "name": "Jan Timothy Becker",
+        "name": "Lars Detlefsen",
         "lat": 53.87046,
         "lng": 10.670016,
         "site_brand": "ARAL Tankstelle",
@@ -8004,7 +8009,7 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "rewe_to_go",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -11752,6 +11757,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -24600,40 +24606,6 @@
         "channel_of_trade": "JOBR"
     },
     {
-        "id": "DE-15126000",
-        "name": "VEWAG Verwaltungsgesellschaft mbH",
-        "lat": 48.881901,
-        "lng": 9.079281,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Robert-Bosch-Stra\u00dfe 10",
-        "city": "Schwieberdingen",
-        "state": null,
-        "postcode": "71701",
-        "telephone": "+49 7150 33403",
-        "facilities": [
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "lpg",
-            "ad_blue",
-            "super_e5",
-            "super_98",
-            "e10",
-            "truck_diesel",
-            "hvo"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/15126000",
-        "watchlist_id": "15126000",
-        "formatted_address": "Robert-Bosch-Stra\u00dfe 10\n71701\nSchwieberdingen",
-        "channel_of_trade": "JOBR"
-    },
-    {
         "id": "DE-15126100",
         "name": "VEWAG Verwaltungsgesellschaft mbH",
         "lat": 48.707301,
@@ -25806,7 +25778,7 @@
     },
     {
         "id": "DE-16001800",
-        "name": "G\u00fclten Mutlu",
+        "name": "Tanrikulu Tankstellen eGbR",
         "lat": 52.327977,
         "lng": 9.21737,
         "site_brand": "ARAL Tankstelle",
@@ -27938,6 +27910,7 @@
             "electric_charging",
             "recup",
             "cash_point",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -38399,6 +38372,8 @@
             "ryd"
         ],
         "products": [
+            "ultimate",
+            "ultimate_diesel",
             "super_e5",
             "e10"
         ],
@@ -40502,6 +40477,7 @@
             "ryd"
         ],
         "products": [
+            "ultimate",
             "lpg",
             "super_e5",
             "e10"
@@ -41260,6 +41236,7 @@
         "postcode": "94113",
         "telephone": "+49 8509 937774",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -51626,7 +51603,6 @@
         "postcode": "32547",
         "telephone": "+49 5731 29688",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -53950,6 +53926,7 @@
             "ryd"
         ],
         "products": [
+            "ultimate",
             "super_e5",
             "e10",
             "truck_diesel"
@@ -64353,6 +64330,7 @@
             "shop",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
+            "loyalty",
             "special_car_wash",
             "vda",
             "open_saturday",
@@ -69745,7 +69723,6 @@
         "postcode": "04758",
         "telephone": "+49 3435 926583",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -82318,6 +82295,8 @@
             "ryd"
         ],
         "products": [
+            "ultimate",
+            "ultimate_diesel",
             "natural_gas",
             "ad_blue",
             "super_e5",
