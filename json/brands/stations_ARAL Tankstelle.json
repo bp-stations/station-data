@@ -1446,6 +1446,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -8010,6 +8011,7 @@
             "electric_charging",
             "recup",
             "cash_point",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -10589,7 +10591,6 @@
         "postcode": "32427",
         "telephone": "+49 571 21415",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -20922,7 +20923,7 @@
     },
     {
         "id": "DE-15005300",
-        "name": "Beatrix Lohse",
+        "name": "Matth\u00e4us Krieger",
         "lat": 49.199268,
         "lng": 9.233571,
         "site_brand": "ARAL Tankstelle",
@@ -20940,10 +20941,8 @@
             "electric_charging",
             "recup",
             "cash_point",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -28789,7 +28788,7 @@
     },
     {
         "id": "DE-16100000",
-        "name": "John Levien",
+        "name": "Stefanie Rakowski",
         "lat": 51.198117,
         "lng": 9.74601,
         "site_brand": "ARAL Tankstelle",
@@ -28807,7 +28806,6 @@
             "cash_point",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -41236,7 +41234,6 @@
         "postcode": "94113",
         "telephone": "+49 8509 937774",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -42886,7 +42883,7 @@
         "city": "Augsburg",
         "state": null,
         "postcode": "86161",
-        "telephone": "+49 821 32856518",
+        "telephone": "+49 821 90589741",
         "facilities": [
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -43882,7 +43879,7 @@
     },
     {
         "id": "DE-19149800",
-        "name": "Q1 Energie AG",
+        "name": "Kuttenkeuler Mineral\u00f6lhandels- und Tankstellenbetriebsgesellschaft mbH",
         "lat": 48.123857,
         "lng": 10.112559,
         "site_brand": "ARAL Tankstelle",
@@ -44746,7 +44743,7 @@
     },
     {
         "id": "DE-20036000",
-        "name": "Angelo Contrino",
+        "name": "Jan Berg",
         "lat": 51.000198,
         "lng": 7.131204,
         "site_brand": "ARAL Tankstelle",
@@ -44761,10 +44758,8 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -56148,44 +56143,6 @@
         "channel_of_trade": "COSI"
     },
     {
-        "id": "DE-22098800",
-        "name": "Axel Stenger",
-        "lat": 49.860261,
-        "lng": 9.291362,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Wintersbacher Stra\u00dfe 7",
-        "city": "Dammbach",
-        "state": null,
-        "postcode": "63874",
-        "telephone": "+49 6092 1539",
-        "facilities": [
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "shop",
-            "bistro",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "vda",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/22098800",
-        "watchlist_id": "22098800",
-        "formatted_address": "Wintersbacher Stra\u00dfe 7\n63874\nDammbach",
-        "channel_of_trade": "DODO"
-    },
-    {
         "id": "DE-22099100",
         "name": "Angela Parys",
         "lat": 49.926198,
@@ -63568,7 +63525,7 @@
     },
     {
         "id": "DE-27038800",
-        "name": "Kerstin Martin",
+        "name": "Steffen Behner",
         "lat": 51.147523,
         "lng": 14.941748,
         "site_brand": "ARAL Tankstelle",
@@ -69098,6 +69055,8 @@
             "ryd"
         ],
         "products": [
+            "ultimate",
+            "ultimate_diesel",
             "super_e5",
             "e10",
             "electric_charging"
@@ -73557,7 +73516,7 @@
     },
     {
         "id": "DE-28285100",
-        "name": "Ralf Budde",
+        "name": "Garant Energie GmbH",
         "lat": 51.273348,
         "lng": 6.555031,
         "site_brand": "ARAL Tankstelle",
@@ -86593,6 +86552,42 @@
         "website": "https://tankstelle.aral.de/tankstelle/28810000",
         "watchlist_id": "28810000",
         "formatted_address": "Moselstra\u00dfe 1\n56332\nL\u00f6f",
+        "channel_of_trade": "DODO"
+    },
+    {
+        "id": "DE-28810800",
+        "name": "Kacmaz Zafer",
+        "lat": 49.445287,
+        "lng": 8.58033,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Trautenfeldstra\u00dfe 38",
+        "city": "Edingen-Neckarhausen",
+        "state": null,
+        "postcode": "68535",
+        "telephone": "+49 621 471739",
+        "facilities": [
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "shop",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/28810800",
+        "watchlist_id": "28810800",
+        "formatted_address": "Trautenfeldstra\u00dfe 38\n68535\nEdingen-Neckarhausen",
         "channel_of_trade": "DODO"
     },
     {
