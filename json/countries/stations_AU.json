@@ -6814,6 +6814,7 @@
             "cash_point",
             "bp_rewards_redemption",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "pump_rewards"
         ],
         "products": [
@@ -7277,7 +7278,7 @@
         "city": "GLENFIELD",
         "state": "NSW",
         "postcode": "2167",
-        "telephone": "+61 2 9824 2888",
+        "telephone": "",
         "facilities": [
             "open_24_hours",
             "gift_card",
@@ -7296,7 +7297,6 @@
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_unlocked",
-            "bp_rewards_unlocked_convenience",
             "bp_rewards_cents_per_litre",
             "bp_rewards_member_pricing",
             "preorder_enabled",
@@ -7481,6 +7481,7 @@
             "pump_rewards"
         ],
         "products": [
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead"
@@ -9006,7 +9007,8 @@
         "postcode": "7155",
         "telephone": "+61 3 6267 4413",
         "facilities": [
-            "bp_rewards_cents_per_litre"
+            "bp_rewards_cents_per_litre",
+            "pump_rewards"
         ],
         "products": [
             "lpg",
@@ -9835,6 +9837,7 @@
         "products": [
             "ad_blue_pump",
             "e10",
+            "premium_unlead",
             "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -12460,7 +12463,9 @@
             "pump_rewards"
         ],
         "products": [
-            "regular_diesel"
+            "ad_blue_pump",
+            "regular_diesel",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -25332,6 +25337,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -29065,6 +29071,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -29838,7 +29845,6 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "auto_gas",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -30283,6 +30289,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -32191,44 +32198,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-5464",
-        "name": "BP DUNSBOROUGH",
-        "lat": -33.6158,
-        "lng": 115.1061,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "CNR NATURALISTE TCE & DUNNBAY RD",
-        "city": "DUNSBOROUGH",
-        "state": "WA",
-        "postcode": "6281",
-        "telephone": "+61 8 9755 3161",
-        "facilities": [
-            "gift_card",
-            "rigid_access",
-            "toilet",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "bp_rewards_cents_per_litre",
-            "loyalty",
-            "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "lpg",
-            "regular_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "CNR NATURALISTE TCE & DUNNBAY RD\n6281\nDUNSBOROUGH",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-5476",
         "name": "AMPM ROSEWORTHY",
         "lat": -34.5328,
@@ -32271,6 +32240,7 @@
             "auto_gas",
             "bppulse",
             "lpg",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
