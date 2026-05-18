@@ -3649,6 +3649,44 @@
         "channel_of_trade": "DODO"
     },
     {
+        "id": "DE-12120200",
+        "name": "Harald Simmer",
+        "lat": 49.780284,
+        "lng": 6.70244,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Ruwerer Stra\u00dfe 35",
+        "city": "Trier",
+        "state": null,
+        "postcode": "54292",
+        "telephone": "+49 651 52397",
+        "facilities": [
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "recup",
+            "shop",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/12120200",
+        "watchlist_id": "12120200",
+        "formatted_address": "Ruwerer Stra\u00dfe 35\n54292\nTrier",
+        "channel_of_trade": "DODO"
+    },
+    {
         "id": "DE-12120600",
         "name": "Arno Wiedemann",
         "lat": 49.826963,
@@ -4510,7 +4548,6 @@
         "postcode": "66679",
         "telephone": "+49 6872 91044",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -15158,6 +15195,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "cash_point",
             "rewe_to_go",
@@ -15170,13 +15208,15 @@
             "vda",
             "open_saturday",
             "open_sunday",
+            "car_electric_charging",
             "ryd"
         ],
         "products": [
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/14070400",
         "watchlist_id": "14070400",
@@ -20903,6 +20943,7 @@
             "electric_charging",
             "recup",
             "cash_point",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -22066,7 +22107,6 @@
         "postcode": "73312",
         "telephone": "+49 7331 42173",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -27771,6 +27811,7 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
+            "ad_blue",
             "super_e5",
             "e10"
         ],
@@ -32179,6 +32220,9 @@
         "telephone": "",
         "facilities": [
             "car_wash",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
             "open_saturday",
             "open_sunday"
         ],
@@ -33072,7 +33116,6 @@
         "postcode": "67663",
         "telephone": "+49 631 28680",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -36697,7 +36740,6 @@
         "postcode": "66333",
         "telephone": "+49 6898 29375",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -44749,6 +44791,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -73799,6 +73842,7 @@
         "postcode": "53534",
         "telephone": "+49 2691 930070",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -81718,6 +81762,7 @@
             "lpg",
             "super_e5",
             "e10",
+            "truck_diesel",
             "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/28623400",
