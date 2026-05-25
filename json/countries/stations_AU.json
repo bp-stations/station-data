@@ -9897,8 +9897,10 @@
             "toilet",
             "barista_coffee",
             "takeaway_food_offer",
+            "bpme_technically_enabled",
             "restaurant",
-            "takeaway_food"
+            "takeaway_food",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -14369,6 +14371,39 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-1416",
+        "name": "BP YARCK ROADHOUSE",
+        "lat": -37.101,
+        "lng": 145.6168,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "6595 Maroondah Highway",
+        "city": "Yarck",
+        "state": "VIC",
+        "postcode": "3719",
+        "telephone": "",
+        "facilities": [
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "mobile_enabled"
+        ],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "6595 Maroondah Highway\n3719\nYarck",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-1418",
         "name": "BP SPUDS ROADHOUSE",
         "lat": -31.2546,
@@ -16047,6 +16082,7 @@
         "postcode": "2790",
         "telephone": "+61 2 6353 1366",
         "facilities": [
+            "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
         ],
@@ -16059,33 +16095,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "325 Main Street\n2790\nLithgow",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-1519",
-        "name": "BP OPT HEYFIELD",
-        "lat": -37.978,
-        "lng": 146.7845,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "1 Tyson Road",
-        "city": "Heyfield",
-        "state": "VIC",
-        "postcode": "3858",
-        "telephone": "+61 3 5148 2356",
-        "facilities": [
-            "open_24_hours",
-            "outdoor_payment_terminal"
-        ],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "ultimate_unleaded",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1 Tyson Road\n3858\nHeyfield",
         "channel_of_trade": null
     },
     {
@@ -28420,6 +28429,7 @@
         "postcode": "4215",
         "telephone": "+61 7 5531 3281",
         "facilities": [
+            "open_24_hours",
             "gift_card",
             "trailers",
             "cash_point",
@@ -36205,6 +36215,7 @@
             "ad_blue_cannister",
             "lpg",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -39549,7 +39560,7 @@
         "city": "CARNARVON",
         "state": "WA",
         "postcode": "6701",
-        "telephone": "+61 8 9941 8896",
+        "telephone": "+61 8 9943 8896",
         "facilities": [
             "open_24_hours",
             "gift_card",
@@ -40465,7 +40476,7 @@
         "city": "CARNARVON",
         "state": "WA",
         "postcode": "6701",
-        "telephone": "+61 1300 130 027",
+        "telephone": "+61 8 9943 8896",
         "facilities": [
             "open_24_hours",
             "national_diesel_offer",
@@ -40487,6 +40498,7 @@
             "outdoor_payment_terminal",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
             "truck_only",
             "washing_machine",
             "restaurant",
@@ -43050,7 +43062,6 @@
         "facilities": [
             "gift_card",
             "bdouble_access",
-            "cash_point",
             "toilet",
             "barista_coffee",
             "takeaway_food_offer",
@@ -45520,6 +45531,7 @@
             "lpg",
             "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -46828,9 +46840,13 @@
             "national_diesel_offer",
             "bdouble_access",
             "rigid_access",
+            "road_train_access",
             "truck_suitable_site",
+            "high_flow_diesel",
+            "ultra_high_flow_diesel",
             "outdoor_payment_terminal",
-            "pump_rewards"
+            "pump_rewards",
+            "high_speed_pump"
         ],
         "products": [
             "ad_blue_pump",
@@ -49446,7 +49462,6 @@
         "facilities": [
             "gift_card",
             "bdouble_access",
-            "cash_point",
             "toilet",
             "barista_coffee",
             "takeaway_food_offer",
