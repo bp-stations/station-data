@@ -2240,6 +2240,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards"
         ],
@@ -7759,7 +7760,7 @@
         "city": "Batemans Bay",
         "state": "NSW",
         "postcode": "2536",
-        "telephone": "+61 433 873 456",
+        "telephone": "+61 2 4472 1717",
         "facilities": [
             "gift_card",
             "rigid_access",
@@ -12212,7 +12213,7 @@
     },
     {
         "id": "AU-1264",
-        "name": "BP X CONVENIENCE ST PETERS",
+        "name": "BP ST PETERS (SA)",
         "lat": -34.9013,
         "lng": 138.6187,
         "site_brand": "BP",
@@ -12221,7 +12222,7 @@
         "city": "Saint Peters",
         "state": "SA",
         "postcode": "5069",
-        "telephone": "+61 8 8363 5158",
+        "telephone": "",
         "facilities": [
             "gift_card",
             "rigid_access",
@@ -12236,9 +12237,11 @@
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
+            "bpme_technically_enabled",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -12979,7 +12982,6 @@
         ],
         "products": [
             "ad_blue_pump",
-            "e10",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -13679,7 +13681,6 @@
             "outdoor_payment_terminal"
         ],
         "products": [
-            "e10",
             "regular_diesel",
             "ultimate_unleaded"
         ],
@@ -16135,7 +16136,7 @@
         "city": "Kybong",
         "state": "QLD",
         "postcode": "4570",
-        "telephone": "+61 416 864 235",
+        "telephone": "+61 7 5482 1831",
         "facilities": [
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
@@ -16143,12 +16144,14 @@
             "pump_rewards"
         ],
         "products": [
+            "ad_blue_pump",
             "e10",
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -16362,6 +16365,49 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "891 Main North Road\n5095\nPooraka",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1536",
+        "name": "BP TRARALGON",
+        "lat": -38.20329,
+        "lng": 146.51701,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "182-186 Princes Street",
+        "city": "Traralgon",
+        "state": "VIC",
+        "postcode": "3844",
+        "telephone": "+61 461 333 531",
+        "facilities": [
+            "gift_card",
+            "high_flow_diesel",
+            "cash_point",
+            "toilet",
+            "wifi",
+            "barista_coffee",
+            "wild_bean_cafe",
+            "food_offer_instore",
+            "bp_rewards_unlocked",
+            "bp_rewards_unlocked_convenience",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "restaurant",
+            "high_speed_pump",
+            "mobile_enabled"
+        ],
+        "products": [
+            "bppulse",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "182-186 Princes Street\n3844\nTraralgon",
         "channel_of_trade": null
     },
     {
@@ -17829,11 +17875,13 @@
             "pump_rewards"
         ],
         "products": [
+            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -18278,15 +18326,16 @@
             "road_train_access",
             "truck_suitable_site",
             "high_flow_diesel",
+            "toilet",
+            "takeaway_food_offer",
             "food_offer_instore",
-            "truck_only",
+            "washing_machine",
             "restaurant",
+            "takeaway_food",
             "high_speed_pump"
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
-            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -19192,6 +19241,7 @@
             "bp_rewards_unlocked_convenience",
             "bp_rewards_cents_per_litre",
             "bp_rewards_member_pricing",
+            "preorder_enabled",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -19826,7 +19876,6 @@
         "postcode": "2304",
         "telephone": "+61 2 4086 6686",
         "facilities": [
-            "open_24_hours",
             "trailers",
             "bdouble_access",
             "rigid_access",
@@ -19972,7 +20021,6 @@
         "postcode": "2066",
         "telephone": "+61 2 9427 1091",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "trailers",
             "cash_point",
@@ -20613,9 +20661,8 @@
         "city": "TERMEIL",
         "state": "NSW",
         "postcode": "2539",
-        "telephone": "+61 433 873 456",
+        "telephone": "+61 2 4457 2552",
         "facilities": [
-            "open_24_hours",
             "trailers",
             "bdouble_access",
             "rigid_access",
@@ -23038,6 +23085,59 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-2967",
+        "name": "BP Jamison Town",
+        "lat": -33.7697,
+        "lng": 150.6765,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "126-130 MULGOA ROAD",
+        "city": "PENRITH",
+        "state": "NSW",
+        "postcode": "2750",
+        "telephone": "+61 2 4733 3913",
+        "facilities": [
+            "gift_card",
+            "car_wash",
+            "national_diesel_offer",
+            "rigid_access",
+            "high_flow_diesel",
+            "cash_point",
+            "toilet",
+            "western_union",
+            "takeaway_food_offer",
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "bp_rewards_unlocked_convenience",
+            "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
+            "loyalty",
+            "pump_rewards",
+            "loyalty_home_delivery",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "restaurant",
+            "takeaway_food",
+            "high_speed_pump",
+            "mobile_enabled"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "ad_blue_pump",
+            "e10",
+            "lpg",
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "126-130 MULGOA ROAD\n2750\nPENRITH",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-2980",
         "name": "BP Kurmond",
         "lat": -33.5509,
@@ -25216,9 +25316,11 @@
             "truck_only"
         ],
         "products": [
+            "ad_blue_pump",
             "regular_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -29421,6 +29523,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -29820,7 +29923,6 @@
         "telephone": "",
         "facilities": [],
         "products": [
-            "e10",
             "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
@@ -29930,10 +30032,7 @@
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "truck_only",
-            "mobile_enabled"
+            "truck_only"
         ],
         "products": [
             "ad_blue_cannister",
@@ -30928,29 +31027,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "STUART HIGHWAY\n5710\nGLENDAMBO",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-5350",
-        "name": "DPT LARGS NORTH & WAREHOUSE",
-        "lat": -34.8194,
-        "lng": 138.5031,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "MILDRED TERRACE",
-        "city": "LARGS NORTH",
-        "state": "SA",
-        "postcode": "5016",
-        "telephone": "+61 8 8242 3766",
-        "facilities": [],
-        "products": [
-            "premium_unlead",
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "MILDRED TERRACE\n5016\nLARGS NORTH",
         "channel_of_trade": null
     },
     {
@@ -38436,15 +38512,16 @@
             "truck_suitable_site",
             "high_flow_diesel",
             "shower",
+            "toilet",
+            "takeaway_food_offer",
             "food_offer_instore",
-            "truck_only",
+            "washing_machine",
             "restaurant",
+            "takeaway_food",
             "high_speed_pump"
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
-            "premium_unlead",
             "regular_diesel",
             "unlead",
             "ad_blue"
@@ -39428,7 +39505,6 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "e10",
             "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
@@ -39761,7 +39837,7 @@
         "city": "ROEBUCK PLAINS",
         "state": "WA",
         "postcode": "6725",
-        "telephone": "+61 427 313 185",
+        "telephone": "+61 8 9192 1880",
         "facilities": [
             "open_24_hours",
             "national_diesel_offer",
@@ -39791,6 +39867,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead",
             "ad_blue"
         ],
@@ -43352,6 +43429,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -44495,6 +44573,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -48025,7 +48104,6 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
-            "auto_gas",
             "e10",
             "lpg",
             "regular_diesel",
@@ -48405,7 +48483,7 @@
         "city": "ROEBUCK PLAINS",
         "state": "WA",
         "postcode": "6725",
-        "telephone": "+61 427 313 185",
+        "telephone": "+61 8 9192 1880",
         "facilities": [
             "open_24_hours",
             "national_diesel_offer",
@@ -49861,6 +49939,38 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "360 ANCHORAGE DRIVE (CNR MARMION AVE)\n6030\nMINDARIE",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-7738",
+        "name": "BP SHOWGROUNDS",
+        "lat": -37.7822,
+        "lng": 144.9165,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "155 EPSOM ROAD",
+        "city": "ASCOT VALE",
+        "state": "VIC",
+        "postcode": "3032",
+        "telephone": "+61 3 9372 2906",
+        "facilities": [
+            "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "mobile_enabled"
+        ],
+        "products": [
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "155 EPSOM ROAD\n3032\nASCOT VALE",
         "channel_of_trade": null
     },
     {
@@ -52455,32 +52565,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-7958",
-        "name": "DISTR-RELIABLE",
-        "lat": -34.81926,
-        "lng": 138.502523,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "MILDRED TERRACE",
-        "city": "LARGS NORTH",
-        "state": "SA",
-        "postcode": "5068",
-        "telephone": "+61 8 8333 9755",
-        "facilities": [],
-        "products": [
-            "e10",
-            "premium_unlead",
-            "regular_diesel",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "MILDRED TERRACE\n5068\nLARGS NORTH",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-8001",
         "name": "BP RIVERSIDE (QLD)",
         "lat": -19.3169,
@@ -53970,6 +54054,7 @@
             "toilet",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
             "truck_only",
@@ -58004,28 +58089,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CNR VICTORIA RD & EVANS ST\n2039\nROZELLE",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-9563",
-        "name": "BP OPT BOYUP BROOK",
-        "lat": -33.82919,
-        "lng": 116.384114,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "30 CNR ABEL & JAYES STREETS",
-        "city": "BOYUP BROOK",
-        "state": "WA",
-        "postcode": "6244",
-        "telephone": "+61 8 9765 1123",
-        "facilities": [],
-        "products": [
-            "regular_diesel",
-            "unlead"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "30 CNR ABEL & JAYES STREETS\n6244\nBOYUP BROOK",
         "channel_of_trade": null
     },
     {

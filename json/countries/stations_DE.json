@@ -186,12 +186,12 @@
         "postcode": "14163",
         "telephone": "+49 30 8027017",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "car_wash_plant",
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -2827,11 +2827,11 @@
         "postcode": "64521",
         "telephone": "+49 6152 7854",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -3857,7 +3857,7 @@
     },
     {
         "id": "DE-12131000",
-        "name": "Anna Ksiazek",
+        "name": "Bellersheim Tankstellen GmbH&Co. KG",
         "lat": 50.325299,
         "lng": 7.213625,
         "site_brand": "ARAL Tankstelle",
@@ -3872,10 +3872,7 @@
             "jet_wash",
             "super_wash",
             "electric_charging",
-            "recup",
             "shop",
-            "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -3896,7 +3893,7 @@
         "website": "https://tankstelle.aral.de/tankstelle/12131000",
         "watchlist_id": "12131000",
         "formatted_address": "Kelberger Stra\u00dfe 68\n56727\nMayen",
-        "channel_of_trade": "COSI"
+        "channel_of_trade": "JOBR"
     },
     {
         "id": "DE-12132400",
@@ -4676,6 +4673,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -8074,7 +8072,7 @@
     },
     {
         "id": "DE-13011300",
-        "name": "Joyce Kampmeier",
+        "name": "Joyce Pracovnik",
         "lat": 53.527635,
         "lng": 10.024657,
         "site_brand": "ARAL Tankstelle",
@@ -8496,6 +8494,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -8619,6 +8618,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -9640,6 +9640,7 @@
             "jet_wash",
             "super_wash",
             "electric_charging",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -10132,7 +10133,7 @@
     },
     {
         "id": "DE-13125300",
-        "name": "Sergey Buldakovsky",
+        "name": "Vanessa Lefoldt",
         "lat": 53.654786,
         "lng": 9.823491,
         "site_brand": "ARAL Tankstelle",
@@ -10148,10 +10149,8 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -10191,6 +10190,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -15570,7 +15570,6 @@
         "postcode": "45138",
         "telephone": "+49 201 287957",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -19077,7 +19076,7 @@
     },
     {
         "id": "DE-14167400",
-        "name": "Mandy Wirtz",
+        "name": "Mandy Luhr",
         "lat": 50.918621,
         "lng": 7.049332,
         "site_brand": "ARAL Tankstelle",
@@ -24606,6 +24605,43 @@
         "channel_of_trade": "JOBR"
     },
     {
+        "id": "DE-15126000",
+        "name": "VEWAG Verwaltungsgesellschaft mbH",
+        "lat": 48.881901,
+        "lng": 9.079281,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Robert-Bosch-Stra\u00dfe 10",
+        "city": "Schwieberdingen",
+        "state": null,
+        "postcode": "71701",
+        "telephone": "+49 7150 33403",
+        "facilities": [
+            "jet_wash",
+            "super_wash",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "lpg",
+            "ad_blue",
+            "super_e5",
+            "e10",
+            "truck_diesel",
+            "hvo"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/15126000",
+        "watchlist_id": "15126000",
+        "formatted_address": "Robert-Bosch-Stra\u00dfe 10\n71701\nSchwieberdingen",
+        "channel_of_trade": "JOBR"
+    },
+    {
         "id": "DE-15126100",
         "name": "VEWAG Verwaltungsgesellschaft mbH",
         "lat": 48.707301,
@@ -26412,7 +26448,6 @@
         "postcode": "29225",
         "telephone": "+49 5141 41463",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "shop",
             "pay_at_pump_supported",
@@ -27223,7 +27258,7 @@
         "lng": 10.517295,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "Adersheimer Stra\u00dfe 25",
+        "address": "Adersheimer Stra\u00dfe 23",
         "city": "Wolfenb\u00fcttel",
         "state": null,
         "postcode": "38304",
@@ -27252,7 +27287,7 @@
         ],
         "website": "https://tankstelle.aral.de/tankstelle/16052400",
         "watchlist_id": "16052400",
-        "formatted_address": "Adersheimer Stra\u00dfe 25\n38304\nWolfenb\u00fcttel",
+        "formatted_address": "Adersheimer Stra\u00dfe 23\n38304\nWolfenb\u00fcttel",
         "channel_of_trade": "COSI"
     },
     {
@@ -35067,7 +35102,7 @@
         "lng": 8.855131,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "Hauptstra\u00dfe",
+        "address": "Hauptstra\u00dfe 121",
         "city": "Sulzfeld",
         "state": null,
         "postcode": "75056",
@@ -35088,7 +35123,7 @@
         ],
         "website": "https://tankstelle.aral.de/tankstelle/18080500",
         "watchlist_id": "18080500",
-        "formatted_address": "Hauptstra\u00dfe\n75056\nSulzfeld",
+        "formatted_address": "Hauptstra\u00dfe 121\n75056\nSulzfeld",
         "channel_of_trade": "DODO"
     },
     {
@@ -47463,6 +47498,7 @@
             "electric_charging",
             "recup",
             "cash_point",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -55785,6 +55821,7 @@
         ],
         "products": [
             "ultimate",
+            "ultimate_diesel",
             "super_e5",
             "e10"
         ],
@@ -56431,37 +56468,6 @@
         "watchlist_id": "22103300",
         "formatted_address": "Am halben Weg 2\n91301\nForchheim",
         "channel_of_trade": "COSI"
-    },
-    {
-        "id": "DE-22103600",
-        "name": "Autohaus Hirsch oHG",
-        "lat": 49.776901,
-        "lng": 11.177896,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Forchheimer Stra\u00dfe 44",
-        "city": "Ebermannstadt",
-        "state": null,
-        "postcode": "91320",
-        "telephone": "+49 9194 737016",
-        "facilities": [
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "open_saturday",
-            "open_sunday",
-            "ryd"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/22103600",
-        "watchlist_id": "22103600",
-        "formatted_address": "Forchheimer Stra\u00dfe 44\n91320\nEbermannstadt",
-        "channel_of_trade": "DODO"
     },
     {
         "id": "DE-22103900",
@@ -67436,6 +67442,7 @@
         "postcode": "23992",
         "telephone": "+49 38429 446620",
         "facilities": [
+            "open_24_hours",
             "electric_charging",
             "motorway_site",
             "shop",
@@ -69798,7 +69805,6 @@
         "postcode": "22941",
         "telephone": "+49 4532 501590",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -73836,6 +73842,7 @@
         "postcode": "53534",
         "telephone": "+49 2691 930070",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -77578,6 +77585,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -77590,13 +77598,15 @@
             "vda",
             "open_saturday",
             "open_sunday",
+            "car_electric_charging",
             "ryd"
         ],
         "products": [
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/28409400",
         "watchlist_id": "28409400",

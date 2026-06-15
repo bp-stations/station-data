@@ -179,40 +179,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "GB-1012859782",
-        "name": "AUTOHALT FS779",
-        "lat": 51.579832,
-        "lng": 0.586032,
-        "site_brand": "BP",
-        "country_code": "GB",
-        "address": "Arterial Road",
-        "city": "RAYLEIGH",
-        "state": null,
-        "postcode": "SS6 7TU",
-        "telephone": "+44 1268 208397",
-        "facilities": [
-            "open_24_hours",
-            "bunker_site",
-            "bakery_bistro",
-            "bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Arterial Road\nSS6 7TU\nRAYLEIGH",
-        "channel_of_trade": null
-    },
-    {
         "id": "GB-1013125978",
         "name": "WOODHATCH SERVICE STATION",
         "lat": 51.22366,
@@ -878,7 +844,6 @@
         "facilities": [
             "open_24_hours",
             "bunker_site",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "wifi",
@@ -4407,6 +4372,7 @@
             "alcohol",
             "jet_wash",
             "truck_suitable_site",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -8693,8 +8659,7 @@
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
-            "open_sunday",
-            "mobile_enabled"
+            "open_sunday"
         ],
         "products": [
             "ad_blue_cannister",
@@ -10617,11 +10582,13 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "electricity",
             "ultimate",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -12995,45 +12962,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "GB-2058170013",
-        "name": "RONTEC MAGOR MSA",
-        "lat": 51.58754,
-        "lng": -2.83752,
-        "site_brand": "BP",
-        "country_code": "GB",
-        "address": "M4 Junction 23",
-        "city": "CALDICOT",
-        "state": null,
-        "postcode": "NP26 3YL",
-        "telephone": "+44 1633 882792",
-        "facilities": [
-            "open_24_hours",
-            "alcohol",
-            "bunker_site",
-            "truck_suitable_site",
-            "cash_point",
-            "bakery_bistro",
-            "bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "M4 Junction 23\nNP26 3YL\nCALDICOT",
-        "channel_of_trade": null
-    },
-    {
         "id": "GB-2081237633",
         "name": "ST CROSS FILLING STATION",
         "lat": 51.05377,
@@ -13643,41 +13571,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "ROAD ONE WINSFORD INDUSTRIAL ESTATE\nCW7 3QF\nWINSFORD",
-        "channel_of_trade": null
-    },
-    {
-        "id": "GB-2132724293",
-        "name": "BOTHWELL STREET F/STN FS005",
-        "lat": 56.06553,
-        "lng": -3.45351,
-        "site_brand": "BP",
-        "country_code": "GB",
-        "address": "Bothwell Street",
-        "city": "DUNFERMLINE",
-        "state": null,
-        "postcode": "KY11 3AF",
-        "telephone": "+44 1383 660964",
-        "facilities": [
-            "open_24_hours",
-            "alcohol",
-            "bunker_site",
-            "cash_point",
-            "bakery_bistro",
-            "bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Bothwell Street\nKY11 3AF\nDUNFERMLINE",
         "channel_of_trade": null
     },
     {
@@ -14527,6 +14420,7 @@
         "facilities": [
             "car_wash",
             "jet_wash",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "special_car_wash",
@@ -18437,6 +18331,7 @@
             "bunker_site",
             "truck_parking",
             "truck_suitable_site",
+            "cash_point",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -19469,10 +19364,12 @@
         "telephone": "",
         "facilities": [
             "open_24_hours",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_pump",
@@ -23735,7 +23632,6 @@
             "open_24_hours",
             "alcohol",
             "car_wash",
-            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "special_car_wash",
@@ -27258,6 +27154,7 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -28629,6 +28526,7 @@
             "car_wash",
             "jet_wash",
             "bunker_site",
+            "cash_point",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -30369,6 +30267,7 @@
             "alcohol",
             "jet_wash",
             "truck_suitable_site",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -36589,7 +36488,6 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
-            "cash_point",
             "toilet",
             "bakery_bistro",
             "bistro",
@@ -36601,10 +36499,12 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_unleaded",
-            "unleaded_95"
+            "unleaded_95",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
