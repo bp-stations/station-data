@@ -5935,7 +5935,7 @@
         "lng": 151.047805,
         "site_brand": "BP",
         "country_code": "AU",
-        "address": "CNR SILVERWATER & EGERTON STS",
+        "address": "CNR SILVERWATER & EGERTON STREET",
         "city": "SILVERWATER",
         "state": "NSW",
         "postcode": "2128",
@@ -5976,7 +5976,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "CNR SILVERWATER & EGERTON STS\n2128\nSILVERWATER",
+        "formatted_address": "CNR SILVERWATER & EGERTON STREET\n2128\nSILVERWATER",
         "channel_of_trade": null
     },
     {
@@ -14008,11 +14008,13 @@
             "bpmeplus"
         ],
         "products": [
+            "ad_blue_pump",
             "e10",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
-            "unlead"
+            "unlead",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -14804,6 +14806,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "premium_unlead",
             "ultimate_diesel",
@@ -16646,6 +16649,39 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "28 FLAXTON DRIVE\n4560\nMAPLETON",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1572",
+        "name": "BP LAURIETON",
+        "lat": -31.2532,
+        "lng": 146.9211,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "461 Ocean Drive",
+        "city": "Laurieton",
+        "state": "NSW",
+        "postcode": "2443",
+        "telephone": "+61 2 6559 9567",
+        "facilities": [
+            "toilet",
+            "food_offer_instore",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "restaurant"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "461 Ocean Drive\n2443\nLaurieton",
         "channel_of_trade": null
     },
     {
@@ -20181,8 +20217,6 @@
             "high_flow_diesel",
             "cash_point",
             "toilet",
-            "takeaway_food_offer",
-            "food_offer_instore",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
@@ -20191,8 +20225,6 @@
             "bpmeplus",
             "bpme_technically_enabled",
             "truck_only",
-            "restaurant",
-            "takeaway_food",
             "high_speed_pump",
             "mobile_enabled"
         ],
@@ -20200,12 +20232,12 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
-            "e10",
             "lpg",
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
+            "unlead",
             "ad_blue"
         ],
         "website": null,
@@ -30248,6 +30280,60 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-4612",
+        "name": "BP MAROOCHYDORE",
+        "lat": -26.655537,
+        "lng": 153.073524,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "185 MAROOCHYDORE ROAD",
+        "city": "MAROOCHYDORE",
+        "state": "QLD",
+        "postcode": "4558",
+        "telephone": "+61 7 5443 8433",
+        "facilities": [
+            "open_24_hours",
+            "gift_card",
+            "trailers",
+            "high_flow_diesel",
+            "cash_point",
+            "toilet",
+            "western_union",
+            "barista_coffee",
+            "wild_bean_cafe",
+            "takeaway_food_offer",
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "bp_rewards_unlocked_convenience",
+            "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
+            "preorder_enabled",
+            "loyalty",
+            "pump_rewards",
+            "loyalty_home_delivery",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "restaurant",
+            "takeaway_food",
+            "high_speed_pump",
+            "mobile_enabled"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "bppulse",
+            "lpg",
+            "premium_unlead",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "185 MAROOCHYDORE ROAD\n4558\nMAROOCHYDORE",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-4691",
         "name": "BP DRAYTON",
         "lat": -27.6005,
@@ -39828,7 +39914,7 @@
     },
     {
         "id": "AU-6708",
-        "name": "BP ROEBUCK PLAINS",
+        "name": "BP ROEBUCK ROADHOUSE",
         "lat": -17.8483,
         "lng": 122.5004,
         "site_brand": "BP",
@@ -42978,7 +43064,6 @@
         "telephone": "+61 2 6793 7528",
         "facilities": [
             "gift_card",
-            "cash_point",
             "shower",
             "toilet",
             "barista_coffee",
@@ -43023,7 +43108,6 @@
         "facilities": [
             "gift_card",
             "bdouble_access",
-            "cash_point",
             "toilet",
             "barista_coffee",
             "food_offer_instore",
@@ -46054,6 +46138,7 @@
         "products": [
             "ad_blue_pump",
             "regular_diesel",
+            "ultimate_diesel",
             "ad_blue"
         ],
         "website": null,
@@ -48474,7 +48559,7 @@
     },
     {
         "id": "AU-7668",
-        "name": "OPT Roebuck Plains Roadhouse",
+        "name": "OPT ROEBUCK ROADHOUSE",
         "lat": -17.847643,
         "lng": 122.500337,
         "site_brand": "BP",
@@ -51938,7 +52023,9 @@
             "high_speed_pump"
         ],
         "products": [
-            "regular_diesel"
+            "ad_blue_pump",
+            "regular_diesel",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -52265,7 +52352,7 @@
         "city": "GILGANDRA",
         "state": "NSW",
         "postcode": "2827",
-        "telephone": "+61 417 962 183",
+        "telephone": "+61 2 6894 7199",
         "facilities": [
             "gift_card",
             "bdouble_access",
@@ -52279,15 +52366,11 @@
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
-            "truck_only",
-            "washing_machine",
             "restaurant",
             "high_speed_pump"
         ],
         "products": [
             "ad_blue_cannister",
-            "auto_gas",
-            "e10",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -53024,6 +53107,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "regular_diesel",
+            "ultimate_diesel",
             "ultimate_unleaded",
             "unlead",
             "ad_blue"
@@ -53227,6 +53311,7 @@
         "postcode": "4357",
         "telephone": "+61 7 4695 4187",
         "facilities": [
+            "open_24_hours",
             "gift_card",
             "bdouble_access",
             "rigid_access",
