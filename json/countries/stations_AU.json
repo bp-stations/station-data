@@ -12982,6 +12982,7 @@
         ],
         "products": [
             "ad_blue_pump",
+            "e10",
             "regular_diesel",
             "ultimate_diesel",
             "ultimate_unleaded",
@@ -13681,6 +13682,7 @@
             "outdoor_payment_terminal"
         ],
         "products": [
+            "e10",
             "regular_diesel",
             "ultimate_unleaded"
         ],
@@ -14032,7 +14034,7 @@
         "city": "Baranduda",
         "state": "VIC",
         "postcode": "3691",
-        "telephone": "+61 422 550 128",
+        "telephone": "+61 2 6047 0609",
         "facilities": [
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
@@ -18372,6 +18374,8 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
             "unlead",
@@ -18618,9 +18622,12 @@
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -20232,6 +20239,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "auto_gas",
+            "e10",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -24468,25 +24476,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "420 MAROONDAH HIGHWAY\n3134\nRINGWOOD",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-3238",
-        "name": "BETTER CHOICE KWINANA LPG ONLY",
-        "lat": -32.2065,
-        "lng": 115.7845,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "1434 ROCKINGHAM ROAD",
-        "city": "KWINANA",
-        "state": "WA",
-        "postcode": "6167",
-        "telephone": "+61 8 9437 2233",
-        "facilities": [],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1434 ROCKINGHAM ROAD\n6167\nKWINANA",
         "channel_of_trade": null
     },
     {
@@ -29955,6 +29944,7 @@
         "telephone": "",
         "facilities": [],
         "products": [
+            "e10",
             "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
@@ -30292,7 +30282,6 @@
         "postcode": "4558",
         "telephone": "+61 7 5443 8433",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "trailers",
             "high_flow_diesel",
@@ -32324,6 +32313,44 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-5464",
+        "name": "BP DUNSBOROUGH",
+        "lat": -33.6158,
+        "lng": 115.1061,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "CNR NATURALISTE TCE & DUNNBAY RD",
+        "city": "DUNSBOROUGH",
+        "state": "WA",
+        "postcode": "6281",
+        "telephone": "+61 8 9755 3161",
+        "facilities": [
+            "gift_card",
+            "rigid_access",
+            "toilet",
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "mobile_enabled"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "lpg",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "CNR NATURALISTE TCE & DUNNBAY RD\n6281\nDUNSBOROUGH",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-5476",
         "name": "AMPM ROSEWORTHY",
         "lat": -34.5328,
@@ -34324,9 +34351,12 @@
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -38608,6 +38638,8 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
+            "premium_unlead",
             "regular_diesel",
             "unlead",
             "ad_blue"
@@ -39038,8 +39070,11 @@
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "restaurant",
-            "takeaway_food"
+            "takeaway_food",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -39591,6 +39626,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "e10",
             "premium_unlead",
             "regular_diesel",
             "ultimate_unleaded",
@@ -59781,9 +59817,12 @@
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -60325,7 +60364,7 @@
         "city": "MOUNT BUNDEY",
         "state": "NT",
         "postcode": "0822",
-        "telephone": "+61 447 051 862",
+        "telephone": "",
         "facilities": [
             "bdouble_access",
             "rigid_access",
