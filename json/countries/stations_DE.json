@@ -432,7 +432,6 @@
         "postcode": "13355",
         "telephone": "+49 30 46404481",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -4971,6 +4970,50 @@
         "channel_of_trade": "COSI"
     },
     {
+        "id": "DE-12146300",
+        "name": "Sven Meyer",
+        "lat": 49.207392,
+        "lng": 7.021482,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Neum\u00fchler Weg 40",
+        "city": "Saarbr\u00fccken",
+        "state": null,
+        "postcode": "66130",
+        "telephone": "+49 681 875544",
+        "facilities": [
+            "open_24_hours",
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "recup",
+            "cash_point",
+            "rewe_to_go",
+            "shop",
+            "bistro",
+            "too_good_to_go",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10",
+            "truck_diesel"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/12146300",
+        "watchlist_id": "12146300",
+        "formatted_address": "Neum\u00fchler Weg 40\n66130\nSaarbr\u00fccken",
+        "channel_of_trade": "COSI"
+    },
+    {
         "id": "DE-12146500",
         "name": "J\u00fcrgen Karl Helwig",
         "lat": 50.930953,
@@ -7645,6 +7688,37 @@
         "watchlist_id": "12171400",
         "formatted_address": "A 5\n35305\nGr\u00fcnberg",
         "channel_of_trade": "MWAT"
+    },
+    {
+        "id": "DE-12172000",
+        "name": "Tara Tankstellen GmbH",
+        "lat": 49.981941,
+        "lng": 7.519834,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "An der Bleiche 3",
+        "city": "Simmern",
+        "state": null,
+        "postcode": "55469",
+        "telephone": "+49 6761 5656",
+        "facilities": [
+            "car_wash",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "open_saturday",
+            "open_sunday",
+            "ryd"
+        ],
+        "products": [
+            "super_e5",
+            "super_98",
+            "e10"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/12172000",
+        "watchlist_id": "12172000",
+        "formatted_address": "An der Bleiche 3\n55469\nSimmern",
+        "channel_of_trade": "DODO"
     },
     {
         "id": "DE-13000600",
@@ -28027,6 +28101,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "cash_point",
             "rewe_to_go",
@@ -28039,6 +28114,7 @@
             "special_car_wash",
             "open_saturday",
             "open_sunday",
+            "car_electric_charging",
             "ryd"
         ],
         "products": [
@@ -28046,7 +28122,8 @@
             "ultimate_diesel",
             "natural_gas",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/16093300",
         "watchlist_id": "16093300",
@@ -29442,7 +29519,7 @@
         "city": "Hannover",
         "state": null,
         "postcode": "30165",
-        "telephone": "+49 511 67662626",
+        "telephone": "+49 511 67662628",
         "facilities": [
             "jet_wash",
             "super_wash",
@@ -30441,6 +30518,7 @@
         "postcode": "34346",
         "telephone": "+49 5541 1859",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -35500,6 +35578,7 @@
             "ultimate",
             "ultimate_diesel",
             "lpg",
+            "ad_blue",
             "super_e5",
             "e10",
             "truck_diesel",
@@ -41254,7 +41333,6 @@
         "postcode": "94113",
         "telephone": "+49 8509 937774",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -47449,7 +47527,6 @@
         "postcode": "40629",
         "telephone": "+49 211 2913810",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -57387,6 +57464,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -63003,6 +63081,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -70327,6 +70406,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -82322,6 +82402,7 @@
             "open_saturday",
             "open_sunday",
             "car_electric_charging",
+            "truck_electric_charging",
             "ryd"
         ],
         "products": [
@@ -82331,7 +82412,8 @@
             "super_e5",
             "e10",
             "truck_diesel",
-            "electric_charging"
+            "electric_charging",
+            "truck_electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/28628400",
         "watchlist_id": "28628400",
