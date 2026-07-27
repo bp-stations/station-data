@@ -2693,15 +2693,14 @@
         "lng": -2.44236,
         "site_brand": "BP",
         "country_code": "GB",
-        "address": "The Grove",
+        "address": "THE GROVE",
         "city": "DORCESTER",
         "state": null,
         "postcode": "DT1 1XU",
-        "telephone": "+44 1305 257144",
+        "telephone": "+44 1234 567890",
         "facilities": [
             "alcohol",
             "car_wash",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -2721,7 +2720,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "The Grove\nDT1 1XU\nDORCESTER",
+        "formatted_address": "THE GROVE\nDT1 1XU\nDORCESTER",
         "channel_of_trade": null
     },
     {
@@ -2881,8 +2880,8 @@
     {
         "id": "GB-1275321183",
         "name": "PLATINUM YEOVIL SERVICE STATION",
-        "lat": 50.94404,
-        "lng": -2.692938,
+        "lat": 50.9442423,
+        "lng": -2.6296799,
         "site_brand": "BP",
         "country_code": "GB",
         "address": "RECKLEFORD",
@@ -8120,6 +8119,7 @@
             "open_24_hours",
             "alcohol",
             "car_wash",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -12359,11 +12359,14 @@
         "city": "Bradford",
         "state": null,
         "postcode": "BD1 4SF",
-        "telephone": "+44 7831 315246",
+        "telephone": "+44 1274 053935",
         "facilities": [
             "open_24_hours",
             "car_wash",
             "jet_wash",
+            "bunker_site",
+            "cash_point",
+            "disabled_facilities",
             "toilet",
             "wifi",
             "bistro",
@@ -12374,7 +12377,10 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_cannister",
             "ad_blue_pump",
+            "diesel_on",
+            "unleaded_95",
             "ad_blue"
         ],
         "website": null,
@@ -15241,9 +15247,7 @@
         "postcode": "TF10 7BX",
         "telephone": "+44 1952 825535",
         "facilities": [
-            "open_24_hours",
             "alcohol",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -36422,6 +36426,7 @@
         "telephone": "+44 1273 033951",
         "facilities": [
             "alcohol",
+            "cash_point",
             "bistro",
             "wild_bean_cafe",
             "accepts_routex_cards",

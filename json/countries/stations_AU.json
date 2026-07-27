@@ -1616,7 +1616,7 @@
     },
     {
         "id": "AU-0292",
-        "name": "BP Merrimac",
+        "name": "SiteFriendlyName",
         "lat": -28.0468,
         "lng": 153.367,
         "site_brand": "BP",
@@ -1627,7 +1627,6 @@
         "postcode": "4226",
         "telephone": "+61 7 5522 9066",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "trailers",
             "high_flow_diesel",
@@ -3724,7 +3723,7 @@
     },
     {
         "id": "AU-0699",
-        "name": "BP Narangba",
+        "name": "SiteFriendlyName",
         "lat": -27.185913,
         "lng": 152.934966,
         "site_brand": "BP",
@@ -8479,7 +8478,7 @@
         "city": "Craigieburn",
         "state": "VIC",
         "postcode": "3064",
-        "telephone": "+61 1300 130 027",
+        "telephone": "+61 3 8324 0492",
         "facilities": [
             "gift_card",
             "trailers",
@@ -10858,6 +10857,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "lpg",
             "premium_unlead",
@@ -13362,10 +13362,13 @@
             "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -13730,7 +13733,7 @@
         "city": "Braeside",
         "state": "VIC",
         "postcode": "3195",
-        "telephone": "",
+        "telephone": "+61 3 7503 7697",
         "facilities": [
             "gift_card",
             "trailers",
@@ -14037,6 +14040,7 @@
         "facilities": [
             "barista_coffee",
             "takeaway_food_offer",
+            "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
             "restaurant",
@@ -14120,6 +14124,7 @@
             "takeaway_food_offer",
             "food_offer_instore",
             "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -14354,6 +14359,7 @@
         "facilities": [
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -16247,7 +16253,8 @@
             "high_speed_pump"
         ],
         "products": [
-            "regular_diesel"
+            "regular_diesel",
+            "unlead"
         ],
         "website": null,
         "watchlist_id": null,
@@ -16265,7 +16272,7 @@
         "city": "Melton",
         "state": "VIC",
         "postcode": "3337",
-        "telephone": "+61 430 408 524",
+        "telephone": "+61 3 9743 7958",
         "facilities": [
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
@@ -16773,7 +16780,7 @@
         "postcode": "3699",
         "telephone": "+61 450 367 754",
         "facilities": [
-            "bp_rewards_unlocked_convenience",
+            "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -22066,7 +22073,7 @@
         "city": "CHINDERAH",
         "state": "NSW",
         "postcode": "2487",
-        "telephone": "+61 2 6674 1093",
+        "telephone": "+61 2 6670 5400",
         "facilities": [
             "open_24_hours",
             "gift_card",
@@ -22577,7 +22584,7 @@
         "city": "BYRON BAY",
         "state": "NSW",
         "postcode": "2481",
-        "telephone": "+61 2 6680 7923",
+        "telephone": "+61 2 5665 8100",
         "facilities": [
             "open_24_hours",
             "gift_card",
@@ -22673,7 +22680,7 @@
         "city": "BECKOM",
         "state": "NSW",
         "postcode": "2665",
-        "telephone": "+61 2 6978 2329",
+        "telephone": "+61 493 351 505",
         "facilities": [
             "hand_wash",
             "bdouble_access",
@@ -23809,7 +23816,6 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
-            "auto_gas",
             "lpg",
             "premium_unlead",
             "regular_diesel",
@@ -25729,10 +25735,13 @@
             "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -30211,6 +30220,7 @@
         "postcode": "4558",
         "telephone": "+61 7 5443 8433",
         "facilities": [
+            "open_24_hours",
             "gift_card",
             "trailers",
             "high_flow_diesel",
@@ -30264,8 +30274,6 @@
         "postcode": "4350",
         "telephone": "+61 478 614 410",
         "facilities": [
-            "cash_point",
-            "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
@@ -31470,7 +31478,6 @@
             "toilet",
             "food_offer_instore",
             "bp_rewards_redemption",
-            "bp_rewards_cents_per_litre",
             "bpmeplus",
             "restaurant"
         ],
@@ -41330,10 +41337,13 @@
             "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -41378,10 +41388,13 @@
             "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -41472,10 +41485,13 @@
             "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -41568,10 +41584,13 @@
             "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -41614,10 +41633,13 @@
             "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -42384,6 +42406,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "e10",
             "premium_unlead",
             "ultimate_diesel",
@@ -43802,6 +43825,7 @@
             "toilet",
             "takeaway_food_offer",
             "food_offer_instore",
+            "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -44060,6 +44084,7 @@
         "telephone": "+61 8 8969 2025",
         "facilities": [
             "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
         ],
@@ -45448,10 +45473,13 @@
             "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -47846,8 +47874,7 @@
         "postcode": "6367",
         "telephone": "+61 8 9889 1190",
         "facilities": [
-            "bp_rewards_redemption",
-            "bp_rewards_cents_per_litre"
+            "bp_rewards_redemption"
         ],
         "products": [
             "ad_blue_cannister",
@@ -48943,7 +48970,7 @@
         "city": "BECKOM",
         "state": "NSW",
         "postcode": "2665",
-        "telephone": "+61 2 6978 2329",
+        "telephone": "+61 493 351 505",
         "facilities": [
             "bdouble_access",
             "rigid_access",
@@ -49533,10 +49560,13 @@
             "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -51709,7 +51739,9 @@
             "outdoor_payment_terminal"
         ],
         "products": [
+            "premium_unlead",
             "regular_diesel",
+            "ultimate_unleaded",
             "unlead"
         ],
         "website": null,
@@ -53910,6 +53942,7 @@
             "rigid_access",
             "toilet",
             "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
         ],
@@ -54229,10 +54262,13 @@
             "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -55325,6 +55361,7 @@
         "telephone": "",
         "facilities": [
             "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards"
         ],
@@ -56646,11 +56683,15 @@
             "bp_rewards_redemption",
             "bp_rewards_cents_per_litre",
             "bp_rewards_member_pricing",
+            "loyalty",
             "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump"
+            "high_speed_pump",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -56976,11 +57017,15 @@
         "city": "Bittern",
         "state": "VIC",
         "postcode": "3918",
-        "telephone": "+61 490 239 493",
+        "telephone": "+61 3 5935 0628",
         "facilities": [
-            "bp_rewards_unlocked_convenience",
+            "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
             "loyalty",
-            "pump_rewards"
+            "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "mobile_enabled"
         ],
         "products": [
             "regular_diesel",
@@ -57032,8 +57077,7 @@
         "telephone": "+61 8 8975 0722",
         "facilities": [
             "open_24_hours",
-            "bp_rewards_unlocked",
-            "bp_rewards_cents_per_litre"
+            "bp_rewards_unlocked"
         ],
         "products": [
             "premium_unlead",
