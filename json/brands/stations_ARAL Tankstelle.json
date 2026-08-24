@@ -7800,11 +7800,11 @@
         "postcode": "23570",
         "telephone": "+49 4502 5175",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "shop",
             "bistro",
             "too_good_to_go",
@@ -8244,6 +8244,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -11281,7 +11282,7 @@
     },
     {
         "id": "DE-13135400",
-        "name": "Oliver Behn",
+        "name": "Timon Fellersmann-B\u00e4slack",
         "lat": 53.275159,
         "lng": 10.401078,
         "site_brand": "ARAL Tankstelle",
@@ -11299,10 +11300,8 @@
             "electric_charging",
             "recup",
             "cash_point",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -11505,11 +11504,11 @@
         "postcode": "24159",
         "telephone": "+49 431 3970552",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -12489,7 +12488,6 @@
         "postcode": "23858",
         "telephone": "+49 4533 791203",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -16986,7 +16984,6 @@
         "postcode": "46562",
         "telephone": "+49 281 41301",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -30389,43 +30386,6 @@
         "channel_of_trade": "DODO"
     },
     {
-        "id": "DE-17053300",
-        "name": "Yasmin Duru",
-        "lat": 50.548085,
-        "lng": 8.358471,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Br\u00fcckenstra\u00dfe 2",
-        "city": "Leun",
-        "state": null,
-        "postcode": "35638",
-        "telephone": "+49 6473 4126857",
-        "facilities": [
-            "car_wash",
-            "jet_wash",
-            "super_wash",
-            "recup",
-            "shop",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "special_car_wash",
-            "vda",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/17053300",
-        "watchlist_id": "17053300",
-        "formatted_address": "Br\u00fcckenstra\u00dfe 2\n35638\nLeun",
-        "channel_of_trade": "DODO"
-    },
-    {
         "id": "DE-17053700",
         "name": "Emine Demirbas",
         "lat": 51.223765,
@@ -39295,7 +39255,6 @@
         "postcode": "73054",
         "telephone": "+49 7161 990220",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -40281,7 +40240,6 @@
         "postcode": "94113",
         "telephone": "+49 8509 937774",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -43615,6 +43573,7 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
+            "ad_blue",
             "super_e5",
             "e10",
             "electric_charging"
@@ -52277,7 +52236,6 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
-            "lpg",
             "ad_blue",
             "super_e5",
             "e10",
@@ -52974,7 +52932,6 @@
         "postcode": "91541",
         "telephone": "+49 9861 6052",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -53506,38 +53463,6 @@
         "website": "https://tankstelle.aral.de/tankstelle/22039900",
         "watchlist_id": "22039900",
         "formatted_address": "Klein-N\u00fcrnberg 24\n96106\nEbern",
-        "channel_of_trade": "DODO"
-    },
-    {
-        "id": "DE-22043600",
-        "name": "Stefan Mai",
-        "lat": 50.004266,
-        "lng": 10.242368,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "Schweinfurter Stra\u00dfe  78",
-        "city": "Schwebheim",
-        "state": null,
-        "postcode": "97525",
-        "telephone": "+49 9723 1569",
-        "facilities": [
-            "car_wash",
-            "shop",
-            "pay_at_pump_supported",
-            "outdoor_payment_terminal",
-            "loyalty",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "lpg",
-            "super_e5",
-            "e10"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/22043600",
-        "watchlist_id": "22043600",
-        "formatted_address": "Schweinfurter Stra\u00dfe  78\n97525\nSchwebheim",
         "channel_of_trade": "DODO"
     },
     {
@@ -59671,7 +59596,6 @@
             "open_sunday"
         ],
         "products": [
-            "ultimate",
             "ultimate_diesel",
             "super_e5",
             "e10"
@@ -72202,7 +72126,6 @@
             "open_sunday"
         ],
         "products": [
-            "lpg",
             "super_e5",
             "super_98",
             "e10",
@@ -79135,7 +79058,6 @@
         "postcode": "58762",
         "telephone": "+49 2352 25355",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
