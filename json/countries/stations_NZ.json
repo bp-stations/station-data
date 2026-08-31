@@ -217,6 +217,7 @@
             "open_24_hours",
             "open_saturday",
             "open_sunday",
+            "car_wash",
             "tires_pump_up",
             "cash_point",
             "disabled_facilities",
@@ -1213,6 +1214,7 @@
         "postcode": null,
         "telephone": "+64 3 741 5741",
         "facilities": [
+            "open_24_hours",
             "open_saturday",
             "open_sunday",
             "car_wash",
@@ -1632,6 +1634,8 @@
         "telephone": "+64 9 951 4827",
         "facilities": [
             "open_24_hours",
+            "open_saturday",
+            "open_sunday",
             "tires_pump_up",
             "vacuum_cleaner",
             "cash_point",
@@ -1641,7 +1645,9 @@
             "wifi",
             "wild_bean_cafe",
             "good_mood_food",
+            "ubereats",
             "mobile_enabled",
+            "everyday_rewards",
             "swappa_bottle"
         ],
         "products": [
@@ -4301,6 +4307,7 @@
         "postcode": null,
         "telephone": "+64 9 520 3975",
         "facilities": [
+            "open_24_hours",
             "open_saturday",
             "open_sunday",
             "car_wash",
@@ -4409,6 +4416,46 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "5 Mount Cook Road\nFairlie",
+        "channel_of_trade": null
+    },
+    {
+        "id": "NZ-0DK06",
+        "name": "BP 2go Autoworld",
+        "lat": -45.102176,
+        "lng": 170.954164,
+        "site_brand": "BP",
+        "country_code": "NZ",
+        "address": "74 Wansbeck Street",
+        "city": "Oamaru",
+        "state": "",
+        "postcode": null,
+        "telephone": "+64 3 434 7521",
+        "facilities": [
+            "open_saturday",
+            "open_sunday",
+            "tires_pump_up",
+            "trailers",
+            "workshop",
+            "disabled_facilities",
+            "recycling",
+            "toilet",
+            "motorway_site",
+            "hungry_as",
+            "mobile_enabled",
+            "everyday_rewards",
+            "swappa_bottle"
+        ],
+        "products": [
+            "aa_smart_fuel",
+            "auto_gas",
+            "lpg",
+            "ultimate_98",
+            "ultimate_diesel",
+            "unleaded_91"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "74 Wansbeck Street\nOamaru",
         "channel_of_trade": null
     },
     {
@@ -8384,6 +8431,7 @@
         "postcode": null,
         "telephone": "+64 9 444 8918",
         "facilities": [
+            "open_24_hours",
             "open_saturday",
             "open_sunday",
             "car_wash",

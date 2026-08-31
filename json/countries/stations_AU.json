@@ -9621,19 +9621,16 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
-            "loyalty",
             "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
             "truck_only",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
+            "high_speed_pump"
         ],
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
+            "e10",
             "lpg",
             "regular_diesel",
             "ultimate_diesel",
@@ -9659,7 +9656,6 @@
         "postcode": "5357",
         "telephone": "+61 8 8540 5060",
         "facilities": [
-            "open_24_hours",
             "gift_card",
             "national_diesel_offer",
             "rigid_access",
@@ -9676,14 +9672,10 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
-            "loyalty",
             "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
             "restaurant",
             "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
+            "high_speed_pump"
         ],
         "products": [
             "ad_blue_cannister",
@@ -16369,6 +16361,8 @@
             "food_offer_instore",
             "bp_rewards_unlocked",
             "bp_rewards_unlocked_convenience",
+            "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -30650,6 +30644,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -40593,6 +40588,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "preorder_enabled",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -47654,6 +47650,34 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-7626",
+        "name": "BP NAROOMA NSW",
+        "lat": -31.2532,
+        "lng": 146.9211,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "90 Campbell Street",
+        "city": "Narooma",
+        "state": "NSW",
+        "postcode": "2546",
+        "telephone": "+61 405 911 515",
+        "facilities": [
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus"
+        ],
+        "products": [
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "90 Campbell Street\n2546\nNarooma",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-7629",
         "name": "BP MARSDEN PARK",
         "lat": -33.71975,
@@ -49351,7 +49375,7 @@
         "city": "PORT CAMPBELL",
         "state": "VIC",
         "postcode": "3269",
-        "telephone": "+61 3 5598 6016",
+        "telephone": "+61 423 185 200",
         "facilities": [
             "open_24_hours"
         ],
@@ -60269,7 +60293,10 @@
         "postcode": "3756",
         "telephone": "+61 3 5783 1211",
         "facilities": [
-            "open_24_hours"
+            "open_24_hours",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards"
         ],
         "products": [
             "premium_unlead",

@@ -188,7 +188,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -390,6 +389,7 @@
             "super_wash",
             "recup",
             "cash_point",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -4692,7 +4692,6 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -17392,6 +17391,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "cash_point",
             "rewe_to_go",
@@ -17403,7 +17403,8 @@
             "special_car_wash",
             "vda",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "car_electric_charging"
         ],
         "products": [
             "ultimate",
@@ -17411,7 +17412,8 @@
             "lpg",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/14158800",
         "watchlist_id": "14158800",
@@ -22429,7 +22431,7 @@
     },
     {
         "id": "DE-15098400",
-        "name": "Nail Altun",
+        "name": "Tugce Oguz",
         "lat": 48.485059,
         "lng": 9.2225,
         "site_brand": "ARAL Tankstelle",
@@ -22440,7 +22442,6 @@
         "postcode": "72764",
         "telephone": "+49 7121 270312",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -22448,7 +22449,6 @@
             "cash_point",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -26479,7 +26479,6 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
-            "lpg",
             "super_e5",
             "e10"
         ],
@@ -30383,6 +30382,43 @@
         "website": "https://tankstelle.aral.de/tankstelle/17048200",
         "watchlist_id": "17048200",
         "formatted_address": "Kasseler Stra\u00dfe 53\n34253\nLohfelden",
+        "channel_of_trade": "DODO"
+    },
+    {
+        "id": "DE-17053300",
+        "name": "Yasmin Duru",
+        "lat": 50.548085,
+        "lng": 8.358471,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Br\u00fcckenstra\u00dfe 2",
+        "city": "Leun",
+        "state": null,
+        "postcode": "35638",
+        "telephone": "+49 6473 4126857",
+        "facilities": [
+            "car_wash",
+            "jet_wash",
+            "super_wash",
+            "recup",
+            "shop",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "special_car_wash",
+            "vda",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/17053300",
+        "watchlist_id": "17053300",
+        "formatted_address": "Br\u00fcckenstra\u00dfe 2\n35638\nLeun",
         "channel_of_trade": "DODO"
     },
     {
@@ -54869,7 +54905,6 @@
         "postcode": "91056",
         "telephone": "+49 9131 47599",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -57620,7 +57655,7 @@
         "lng": 13.684718,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "Friedl\u00e4nder Landstr. 21 a",
+        "address": "Friedl\u00e4nder Landstr. 21 b",
         "city": "Anklam",
         "state": null,
         "postcode": "17389",
@@ -57650,7 +57685,7 @@
         ],
         "website": "https://tankstelle.aral.de/tankstelle/27004300",
         "watchlist_id": "27004300",
-        "formatted_address": "Friedl\u00e4nder Landstr. 21 a\n17389\nAnklam",
+        "formatted_address": "Friedl\u00e4nder Landstr. 21 b\n17389\nAnklam",
         "channel_of_trade": "DODO"
     },
     {
@@ -61848,7 +61883,6 @@
             "super_wash",
             "electric_charging",
             "recup",
-            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -64894,7 +64928,7 @@
     },
     {
         "id": "DE-27066300",
-        "name": "Jenny Bst\u00e4ndig",
+        "name": "Christopher Wahle",
         "lat": 52.544051,
         "lng": 13.64699,
         "site_brand": "ARAL Tankstelle",
@@ -64912,7 +64946,6 @@
             "recup",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -68274,7 +68307,7 @@
         "lng": 10.730439,
         "site_brand": "ARAL Tankstelle",
         "country_code": "DE",
-        "address": "Lueneburger Stra\u00dfe 4",
+        "address": "Lueneburger Stra\u00dfe 4a",
         "city": "Bleckede",
         "state": null,
         "postcode": "21354",
@@ -68298,7 +68331,7 @@
         ],
         "website": "https://tankstelle.aral.de/tankstelle/28124900",
         "watchlist_id": "28124900",
-        "formatted_address": "Lueneburger Stra\u00dfe 4\n21354\nBleckede",
+        "formatted_address": "Lueneburger Stra\u00dfe 4a\n21354\nBleckede",
         "channel_of_trade": "DODO"
     },
     {
@@ -74508,6 +74541,7 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
+            "ad_blue",
             "super_e5",
             "e10"
         ],
@@ -87406,6 +87440,33 @@
         "website": "https://tankstelle.aral.de/tankstelle/3EF310",
         "watchlist_id": null,
         "formatted_address": "Baiershofener Str 1\n73463\nWesthausen",
+        "channel_of_trade": "EVDE"
+    },
+    {
+        "id": "DE-3EF311",
+        "name": "REWE",
+        "lat": 48.39668,
+        "lng": 10.9247,
+        "site_brand": "Aral pulse Ladestation",
+        "country_code": "DE",
+        "address": "B\u00fcrgermeister-W-Str 6",
+        "city": "Augsburg",
+        "state": null,
+        "postcode": "86167",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "electric_charging",
+            "open_saturday",
+            "open_sunday",
+            "car_electric_charging"
+        ],
+        "products": [
+            "electric_charging"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/3EF311",
+        "watchlist_id": null,
+        "formatted_address": "B\u00fcrgermeister-W-Str 6\n86167\nAugsburg",
         "channel_of_trade": "EVDE"
     },
     {
