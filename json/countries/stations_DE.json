@@ -746,12 +746,12 @@
         "postcode": "13507",
         "telephone": "+49 30 43400950",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -1843,6 +1843,7 @@
         "telephone": "+49 69 30850810",
         "facilities": [
             "open_24_hours",
+            "electric_charging",
             "recup",
             "cash_point",
             "motorway_site",
@@ -1851,7 +1852,8 @@
             "too_good_to_go",
             "loyalty",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "car_electric_charging"
         ],
         "products": [
             "ultimate",
@@ -1859,7 +1861,8 @@
             "ad_blue",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/12047000",
         "watchlist_id": "12047000",
@@ -7715,7 +7718,6 @@
         "postcode": "22457",
         "telephone": "+49 40 5502787",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -12476,7 +12478,7 @@
     },
     {
         "id": "DE-13143300",
-        "name": "Viola Gruschinske",
+        "name": "Lias Joel Pohlmann",
         "lat": 53.823576,
         "lng": 10.504098,
         "site_brand": "ARAL Tankstelle",
@@ -12494,7 +12496,6 @@
             "recup",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -20474,6 +20475,7 @@
         "products": [
             "ultimate",
             "ultimate_diesel",
+            "ad_blue",
             "super_e5",
             "e10",
             "truck_diesel",
@@ -21089,7 +21091,7 @@
     },
     {
         "id": "DE-15043200",
-        "name": "Nail Altun",
+        "name": "Tevfik Yetis",
         "lat": 48.246159,
         "lng": 9.222872,
         "site_brand": "ARAL Tankstelle",
@@ -21104,10 +21106,8 @@
             "jet_wash",
             "super_wash",
             "recup",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -24700,7 +24700,6 @@
         "postcode": "71149",
         "telephone": "+49 7457 5959090",
         "facilities": [
-            "open_24_hours",
             "jet_wash",
             "super_wash",
             "recup",
@@ -33972,7 +33971,7 @@
     },
     {
         "id": "DE-18073700",
-        "name": "Schestag GmbH",
+        "name": "Autohaus Schestag Gmbh",
         "lat": 48.966665,
         "lng": 8.603625,
         "site_brand": "ARAL Tankstelle",
@@ -37384,7 +37383,6 @@
         "postcode": "84036",
         "telephone": "+49 871 52916",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -38629,7 +38627,6 @@
         "postcode": "94227",
         "telephone": "+49 9922 802644",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -38847,7 +38844,6 @@
         "postcode": "95502",
         "telephone": "+49 9273 57337",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -45020,6 +45016,7 @@
             "ultimate",
             "ultimate_diesel",
             "natural_gas",
+            "ad_blue",
             "super_e5",
             "e10",
             "electric_charging"
@@ -45842,6 +45839,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "electric_charging",
             "recup",
             "shop",
             "bistro",
@@ -45852,13 +45850,15 @@
             "special_car_wash",
             "vda",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "car_electric_charging"
         ],
         "products": [
             "ultimate",
             "ultimate_diesel",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/20146700",
         "watchlist_id": "20146700",
@@ -48773,7 +48773,7 @@
     },
     {
         "id": "DE-20185200",
-        "name": "Thomas Schwarz",
+        "name": "Nicole Podojil-Meister",
         "lat": 50.647984,
         "lng": 7.334606,
         "site_brand": "ARAL Tankstelle",
@@ -48788,10 +48788,8 @@
             "electric_charging",
             "truck_parking",
             "recup",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -49266,7 +49264,6 @@
         "postcode": "28329",
         "telephone": "+49 421 444244",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -52904,7 +52901,6 @@
         "postcode": "91781",
         "telephone": "+49 9141 82835",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "shop",
             "bistro",
@@ -53499,6 +53495,38 @@
         "website": "https://tankstelle.aral.de/tankstelle/22039900",
         "watchlist_id": "22039900",
         "formatted_address": "Klein-N\u00fcrnberg 24\n96106\nEbern",
+        "channel_of_trade": "DODO"
+    },
+    {
+        "id": "DE-22043600",
+        "name": "Stefan Mai",
+        "lat": 50.004266,
+        "lng": 10.242368,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Schweinfurter Stra\u00dfe  78",
+        "city": "Schwebheim",
+        "state": null,
+        "postcode": "97525",
+        "telephone": "+49 9723 1569",
+        "facilities": [
+            "car_wash",
+            "shop",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "lpg",
+            "super_e5",
+            "e10"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/22043600",
+        "watchlist_id": "22043600",
+        "formatted_address": "Schweinfurter Stra\u00dfe  78\n97525\nSchwebheim",
         "channel_of_trade": "DODO"
     },
     {
@@ -57208,7 +57236,6 @@
         "postcode": "16792",
         "telephone": "+49 3307 2291",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -58486,7 +58513,6 @@
         "postcode": "38820",
         "telephone": "+49 3941 441180",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -58826,7 +58852,6 @@
         "postcode": "99734",
         "telephone": "+49 3631 603191",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -58910,7 +58935,6 @@
         "postcode": "17166",
         "telephone": "+49 3996 187931",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -61883,6 +61907,7 @@
             "super_wash",
             "electric_charging",
             "recup",
+            "cash_point",
             "rewe_to_go",
             "shop",
             "bistro",
@@ -68231,7 +68256,6 @@
         "postcode": "22927",
         "telephone": "+49 4102 697052",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -79348,7 +79372,6 @@
         "postcode": "97084",
         "telephone": "+49 931 611213",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -82361,7 +82384,6 @@
         "postcode": "14480",
         "telephone": "+49 331 613452",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
