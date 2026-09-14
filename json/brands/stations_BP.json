@@ -8203,7 +8203,10 @@
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
-            "restaurant"
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "restaurant",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -12954,15 +12957,12 @@
             "mobile_enabled"
         ],
         "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
             "auto_gas",
             "e10",
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
-            "ad_blue"
+            "ultimate_unleaded"
         ],
         "website": null,
         "watchlist_id": null,
@@ -16587,10 +16587,12 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_pump",
             "e10",
             "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -17886,13 +17888,13 @@
         "telephone": "+61 8 8540 5060",
         "facilities": [
             "gift_card",
+            "trailers",
             "national_diesel_offer",
             "rigid_access",
             "truck_parking",
             "truck_suitable_site",
             "high_flow_diesel",
             "ultra_high_flow_diesel",
-            "cash_point",
             "shower",
             "toilet",
             "barista_coffee",
@@ -21387,10 +21389,8 @@
             "truck_parking",
             "high_flow_diesel",
             "ultra_high_flow_diesel",
-            "toilet",
             "western_union",
             "bp_rewards_unlocked",
-            "loyalty",
             "pump_rewards",
             "high_speed_pump"
         ],
@@ -24592,6 +24592,7 @@
             "bp_rewards_unlocked_convenience",
             "bp_rewards_cents_per_litre",
             "bp_rewards_member_pricing",
+            "preorder_enabled",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -25150,7 +25151,9 @@
         "postcode": "7310",
         "telephone": "+61 425 696 656",
         "facilities": [
-            "loyalty"
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards"
         ],
         "products": [
             "premium_unlead",
@@ -53511,7 +53514,7 @@
         "city": "COCKBURN CENTRAL",
         "state": "WA",
         "postcode": "6164",
-        "telephone": "+61 8 9240 4110",
+        "telephone": "+61 8 9414 7499",
         "facilities": [
             "open_24_hours",
             "gift_card",
@@ -68023,6 +68026,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "loyalty",
             "pump_rewards",
             "restaurant",
             "high_speed_pump"
@@ -78768,7 +78772,7 @@
         "city": "PAIPORTA",
         "state": null,
         "postcode": "46200",
-        "telephone": "+34 961 20 49 31",
+        "telephone": "+34 614 89 10 71",
         "facilities": [
             "alcohol",
             "tobacco",
@@ -79335,6 +79339,7 @@
         "telephone": "+34 969 14 70 68",
         "facilities": [
             "motorway_site",
+            "bistro",
             "accepts_routex_cards",
             "open_saturday",
             "open_sunday"
@@ -80090,7 +80095,7 @@
         "lng": -4.07261,
         "site_brand": "BP",
         "country_code": "ES",
-        "address": "Carretera Toledo-Puebla de Montalb\u00e1n, km 2,65",
+        "address": "Cr. CM-4000, KM 2.65",
         "city": "Toledo",
         "state": null,
         "postcode": "45004",
@@ -80108,7 +80113,7 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "Carretera Toledo-Puebla de Montalb\u00e1n, km 2,65\n45004\nToledo",
+        "formatted_address": "Cr. CM-4000, KM 2.65\n45004\nToledo",
         "channel_of_trade": null
     },
     {
@@ -81326,11 +81331,11 @@
     {
         "id": "ES-1373655983",
         "name": "EL CARMEN\u2013 NAVAHERMOSA",
-        "lat": 39.63535,
-        "lng": -4.47033,
+        "lat": 39.639139,
+        "lng": -4.463106,
         "site_brand": "BP",
         "country_code": "ES",
-        "address": "Carretera de Toledo, km 49,6",
+        "address": "Cr. CM-401 km 45",
         "city": "Navahermosa",
         "state": null,
         "postcode": "45150",
@@ -81348,7 +81353,7 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "Carretera de Toledo, km 49,6\n45150\nNavahermosa",
+        "formatted_address": "Cr. CM-401 km 45\n45150\nNavahermosa",
         "channel_of_trade": null
     },
     {
@@ -91814,8 +91819,8 @@
         "address": "Av. F\u00e9lix Garc\u00eda Mu\u00f1oz, s/n",
         "city": "Puerto de Mazarron",
         "state": null,
-        "postcode": "30868",
-        "telephone": "",
+        "postcode": "30860",
+        "telephone": "+34 868 08 02 32",
         "facilities": [
             "tobacco",
             "car_wash",
@@ -91827,7 +91832,6 @@
             "supermarket",
             "shop",
             "bakery_bistro",
-            "bistro",
             "accepts_routex_cards",
             "special_car_wash",
             "open_saturday",
@@ -91844,7 +91848,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "Av. F\u00e9lix Garc\u00eda Mu\u00f1oz, s/n\n30868\nPuerto de Mazarron",
+        "formatted_address": "Av. F\u00e9lix Garc\u00eda Mu\u00f1oz, s/n\n30860\nPuerto de Mazarron",
         "channel_of_trade": null
     },
     {
@@ -93217,7 +93221,7 @@
         "city": "Orihuela Costa",
         "state": null,
         "postcode": "03189",
-        "telephone": "+34 965 97 10 51",
+        "telephone": "+34 747 46 33 07",
         "facilities": [
             "tobacco",
             "jet_wash",
@@ -101534,7 +101538,7 @@
         "site_brand": "BP",
         "country_code": "ES",
         "address": "TF 1, P.K. 36,50 I",
-        "city": "Los Roques de Fasnia",
+        "city": "SANTA CRUZ DE TENERIFE",
         "state": null,
         "postcode": "38570",
         "telephone": "",
@@ -101543,6 +101547,7 @@
             "car_wash",
             "jet_wash",
             "motorway_site",
+            "bistro",
             "accepts_routex_cards",
             "special_car_wash",
             "open_saturday",
@@ -101554,7 +101559,7 @@
         ],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "TF 1, P.K. 36,50 I\n38570\nLos Roques de Fasnia",
+        "formatted_address": "TF 1, P.K. 36,50 I\n38570\nSANTA CRUZ DE TENERIFE",
         "channel_of_trade": null
     },
     {
@@ -103081,8 +103086,8 @@
     {
         "id": "ES-824595292",
         "name": "LA PAZ - PUEBLA DE MONTALBAN",
-        "lat": 39.85448,
-        "lng": -4.36064,
+        "lat": 39.854255,
+        "lng": -4.360786,
         "site_brand": "BP",
         "country_code": "ES",
         "address": "Calle Santa Luc\u00eda, s/n",
@@ -105469,6 +105474,7 @@
             "alcohol",
             "jet_wash",
             "truck_suitable_site",
+            "cash_point",
             "toilet",
             "bistro",
             "accepts_routex_cards",
@@ -105871,6 +105877,36 @@
         "channel_of_trade": null
     },
     {
+        "id": "GB-1086349119",
+        "name": "FINMERE SF CONNECT",
+        "lat": 51.986238,
+        "lng": -1.06963,
+        "site_brand": "BP",
+        "country_code": "GB",
+        "address": "1 Blenheim Street",
+        "city": "Buckingham",
+        "state": null,
+        "postcode": "MK18 4FH",
+        "telephone": "",
+        "facilities": [
+            "open_24_hours",
+            "jet_wash",
+            "bistro",
+            "ms_simply_food",
+            "wild_bean_cafe",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "red_diesel"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1 Blenheim Street\nMK18 4FH\nBuckingham",
+        "channel_of_trade": null
+    },
+    {
         "id": "GB-1087201719",
         "name": "STRAWBERRY S.STN FS146",
         "lat": 53.256884,
@@ -105926,6 +105962,7 @@
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "wifi",
@@ -105969,6 +106006,7 @@
             "alcohol",
             "car_wash",
             "jet_wash",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "special_car_wash",
@@ -106681,7 +106719,6 @@
         "telephone": "+44 1228 534300",
         "facilities": [
             "alcohol",
-            "cash_point",
             "wifi",
             "bistro",
             "accepts_routex_cards",
@@ -106757,6 +106794,7 @@
             "open_24_hours",
             "alcohol",
             "jet_wash",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "wifi",
@@ -106830,6 +106868,7 @@
         "facilities": [
             "alcohol",
             "jet_wash",
+            "cash_point",
             "toilet",
             "wifi",
             "bistro",
@@ -106867,6 +106906,7 @@
             "alcohol",
             "car_wash",
             "jet_wash",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "wifi",
@@ -107045,6 +107085,7 @@
             "alcohol",
             "jet_wash",
             "truck_suitable_site",
+            "cash_point",
             "toilet",
             "wifi",
             "bistro",
@@ -107083,6 +107124,7 @@
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
+            "cash_point",
             "wifi",
             "bistro",
             "accepts_routex_cards",
@@ -107117,6 +107159,7 @@
         "facilities": [
             "alcohol",
             "jet_wash",
+            "cash_point",
             "wifi",
             "bistro",
             "accepts_routex_cards",
@@ -108260,7 +108303,6 @@
         "products": [
             "ad_blue_cannister",
             "diesel_on",
-            "electricity",
             "ultimate",
             "ultimate_unleaded",
             "unleaded_95"
@@ -108286,6 +108328,7 @@
             "open_24_hours",
             "car_wash",
             "jet_wash",
+            "cash_point",
             "toilet",
             "bakery_bistro",
             "bistro",
@@ -108323,6 +108366,7 @@
             "open_24_hours",
             "bunker_site",
             "truck_suitable_site",
+            "cash_point",
             "toilet",
             "bakery_bistro",
             "bistro",
@@ -109060,6 +109104,7 @@
         "facilities": [
             "car_wash",
             "jet_wash",
+            "cash_point",
             "toilet",
             "wifi",
             "bistro",
@@ -109409,6 +109454,7 @@
         "facilities": [
             "jet_wash",
             "bunker_site",
+            "cash_point",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -109846,6 +109892,7 @@
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
+            "cash_point",
             "toilet",
             "bakery_bistro",
             "bistro",
@@ -110151,6 +110198,7 @@
         "telephone": "+44 1623 793245",
         "facilities": [
             "alcohol",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -110298,6 +110346,7 @@
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
+            "cash_point",
             "toilet",
             "bistro",
             "accepts_routex_cards",
@@ -110560,6 +110609,7 @@
             "alcohol",
             "car_wash",
             "jet_wash",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "special_car_wash",
@@ -110593,6 +110643,7 @@
         "telephone": "+44 1296 621400",
         "facilities": [
             "alcohol",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -110626,6 +110677,7 @@
         "facilities": [
             "alcohol",
             "car_wash",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "special_car_wash",
@@ -112683,6 +112735,7 @@
         "facilities": [
             "alcohol",
             "jet_wash",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -112719,6 +112772,7 @@
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bistro",
@@ -112871,6 +112925,7 @@
             "open_24_hours",
             "alcohol",
             "car_wash",
+            "cash_point",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -113412,6 +113467,7 @@
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
+            "cash_point",
             "toilet",
             "wifi",
             "bakery_bistro",
@@ -113574,6 +113630,7 @@
             "open_24_hours",
             "alcohol",
             "car_wash",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "special_car_wash",
@@ -113836,6 +113893,7 @@
             "open_24_hours",
             "jet_wash",
             "truck_suitable_site",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -114894,6 +114952,7 @@
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
+            "cash_point",
             "toilet",
             "bakery_bistro",
             "bistro",
@@ -114932,6 +114991,7 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
+            "cash_point",
             "toilet",
             "wifi",
             "bakery_bistro",
@@ -115736,6 +115796,7 @@
         "facilities": [
             "alcohol",
             "jet_wash",
+            "cash_point",
             "toilet",
             "bistro",
             "accepts_routex_cards",
@@ -116779,6 +116840,7 @@
         "telephone": "+44 1908 631138",
         "facilities": [
             "alcohol",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -119069,6 +119131,7 @@
         "facilities": [
             "alcohol",
             "jet_wash",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -119583,7 +119646,6 @@
             "open_24_hours",
             "car_wash",
             "jet_wash",
-            "cash_point",
             "toilet",
             "wifi",
             "bistro",
@@ -119694,6 +119756,7 @@
             "open_24_hours",
             "alcohol",
             "truck_suitable_site",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -122861,6 +122924,7 @@
             "bunker_site",
             "truck_parking",
             "truck_suitable_site",
+            "cash_point",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -124049,6 +124113,7 @@
             "open_24_hours",
             "car_wash",
             "jet_wash",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "special_car_wash",
@@ -125395,6 +125460,7 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bistro",
@@ -125761,7 +125827,6 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
-            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -126568,6 +126633,7 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
+            "cash_point",
             "toilet",
             "wifi",
             "bakery_bistro",
@@ -126762,6 +126828,7 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bistro",
@@ -126912,7 +126979,6 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
-            "cash_point",
             "toilet",
             "bakery_bistro",
             "bistro",
@@ -128160,6 +128226,7 @@
             "open_24_hours",
             "alcohol",
             "car_wash",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "special_car_wash",
@@ -128278,7 +128345,6 @@
         "facilities": [
             "alcohol",
             "jet_wash",
-            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -128644,6 +128710,7 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -129903,6 +129970,7 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "special_car_wash",
@@ -131125,7 +131193,6 @@
         "telephone": "+44 15394 41689",
         "facilities": [
             "alcohol",
-            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -131197,6 +131264,7 @@
             "open_24_hours",
             "car_wash",
             "jet_wash",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "special_car_wash",
@@ -132768,7 +132836,6 @@
             "jet_wash",
             "truck_parking",
             "truck_suitable_site",
-            "cash_point",
             "toilet",
             "bakery_bistro",
             "bistro",
@@ -133542,7 +133609,6 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
-            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -133747,6 +133813,7 @@
             "open_24_hours",
             "alcohol",
             "truck_suitable_site",
+            "cash_point",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -134357,6 +134424,7 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
+            "cash_point",
             "toilet",
             "bakery_bistro",
             "bistro",
@@ -135379,7 +135447,6 @@
             "alcohol",
             "truck_parking",
             "truck_suitable_site",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "wifi",
@@ -136672,6 +136739,7 @@
             "open_24_hours",
             "alcohol",
             "jet_wash",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -137088,6 +137156,7 @@
             "alcohol",
             "car_wash",
             "jet_wash",
+            "cash_point",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -137245,6 +137314,7 @@
             "open_24_hours",
             "alcohol",
             "car_wash",
+            "cash_point",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -139194,7 +139264,6 @@
         "telephone": "+44 16973 45234",
         "facilities": [
             "jet_wash",
-            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -140973,7 +141042,6 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
-            "cash_point",
             "toilet",
             "bakery_bistro",
             "bistro",
@@ -141046,7 +141114,6 @@
         "facilities": [
             "alcohol",
             "jet_wash",
-            "cash_point",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -143382,9 +143449,9 @@
             "car_wash",
             "jet_wash",
             "bunker_site",
+            "cash_point",
             "toilet",
             "wifi",
-            "motorway_site",
             "bistro",
             "accepts_routex_cards",
             "special_car_wash",
@@ -143450,6 +143517,7 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
+            "cash_point",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -143947,6 +144015,7 @@
         "facilities": [
             "open_24_hours",
             "jet_wash",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -144708,6 +144777,7 @@
         "postcode": "PR8 6PU",
         "telephone": "+44 1704 339724",
         "facilities": [
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bistro",
@@ -144817,6 +144887,7 @@
             "alcohol",
             "jet_wash",
             "truck_suitable_site",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -145108,6 +145179,7 @@
             "open_24_hours",
             "bunker_site",
             "truck_suitable_site",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -145973,6 +146045,7 @@
             "open_24_hours",
             "bunker_site",
             "truck_suitable_site",
+            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -146476,6 +146549,7 @@
         "facilities": [
             "open_24_hours",
             "truck_suitable_site",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -147169,6 +147243,7 @@
             "alcohol",
             "jet_wash",
             "truck_suitable_site",
+            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "open_saturday",
@@ -217146,48 +217221,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "PL-583209886",
-        "name": "PNIOW",
-        "lat": 52.32617,
-        "lng": 15.00163,
-        "site_brand": "BP",
-        "country_code": "PL",
-        "address": "PNIOW 54",
-        "city": "TORZYM",
-        "state": null,
-        "postcode": "66-235",
-        "telephone": "+48 68 341 47 05",
-        "facilities": [
-            "open_24_hours",
-            "high_speed_pump",
-            "truck_parking",
-            "truck_suitable_site",
-            "disabled_facilities",
-            "toilet",
-            "shop",
-            "restaurant",
-            "wild_bean_cafe",
-            "accepts_routex_cards",
-            "accepts_toll_payments",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "lpg",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "PNIOW 54\n66-235\nTORZYM",
-        "channel_of_trade": null
-    },
-    {
         "id": "PL-584910712",
         "name": "BRYZA",
         "lat": 54.160243,
@@ -223532,7 +223565,7 @@
         "city": "\u00cdlhavo",
         "state": null,
         "postcode": "3830-188",
-        "telephone": "+351 919 187 039",
+        "telephone": "+351 234 246 042",
         "facilities": [
             "shop",
             "accepts_routex_cards",
@@ -224694,7 +224727,7 @@
         "city": "Lisboa",
         "state": null,
         "postcode": "1070-100",
-        "telephone": "+351 21 387 9748",
+        "telephone": "+351 21 387 6668",
         "facilities": [
             "open_24_hours",
             "truck_suitable_site",
@@ -249380,32 +249413,6 @@
         "channel_of_trade": "COCM"
     },
     {
-        "id": "US-07882636261506337600100000000000",
-        "name": "BP",
-        "lat": 38.79962,
-        "lng": -90.65336,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "150 Salt Lick Rd",
-        "city": "St Peters",
-        "state": "MO",
-        "postcode": "63376",
-        "telephone": "+1 636-397-1255",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "toilet",
-            "loyalty",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "150 Salt Lick Rd\n63376\nSt Peters",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-07889780408254312300100000000000",
         "name": "BP",
         "lat": 39.9207,
@@ -257370,34 +257377,6 @@
         "channel_of_trade": "BODO"
     },
     {
-        "id": "US-11719411840445542900100000000000",
-        "name": "BP",
-        "lat": 45.064754,
-        "lng": -93.325607,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "6044 Brooklyn Blvd",
-        "city": "Brooklyn Center",
-        "state": "MN",
-        "postcode": "55429",
-        "telephone": "+1 763-561-4440",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "6044 Brooklyn Blvd\n55429\nBrooklyn Center",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-117200",
         "name": "BP",
         "lat": 41.9841536976,
@@ -260654,34 +260633,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-119085",
-        "name": "BP",
-        "lat": 41.0900302482,
-        "lng": -85.1157911329,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "1501 N Anthony Blvd",
-        "city": "Fort Wayne",
-        "state": "IN",
-        "postcode": "46805",
-        "telephone": "+1 260-422-0932",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1501 N Anthony Blvd\n46805\nFort Wayne",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-119086",
         "name": "BP",
         "lat": 41.1183057143,
@@ -263020,12 +262971,12 @@
     {
         "id": "US-120073",
         "name": "BP",
-        "lat": 38.61257362,
-        "lng": -90.0465897,
+        "lat": 38.6126066645,
+        "lng": -90.046221592,
         "site_brand": "BP",
         "country_code": "US",
-        "address": "2 Rauckman Dr",
-        "city": "Caseyville",
+        "address": "2 RAUCKMAN DR",
+        "city": "CASEYVILLE",
         "state": "IL",
         "postcode": "62232",
         "telephone": "+1 618-398-2441",
@@ -263035,7 +262986,6 @@
             "toilet",
             "shop",
             "grocer_reward",
-            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -263043,7 +262993,7 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "2 Rauckman Dr\n62232\nCaseyville",
+        "formatted_address": "2 RAUCKMAN DR\n62232\nCASEYVILLE",
         "channel_of_trade": "BJBR"
     },
     {
@@ -263104,35 +263054,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1614 N Belt W\n62226\nBelleville",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-120076",
-        "name": "BP",
-        "lat": 38.80870925,
-        "lng": -89.95270761,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "301 S Buchanan St",
-        "city": "Edwardsville",
-        "state": "IL",
-        "postcode": "62025",
-        "telephone": "+1 618-307-9712",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "grocer_reward",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "301 S Buchanan St\n62025\nEdwardsville",
         "channel_of_trade": "BJBR"
     },
     {
@@ -263336,6 +263257,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "5639 Telegraph Rd\n63129\nSt Louis",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-120087",
+        "name": "BP",
+        "lat": 38.5940877907,
+        "lng": -90.5863147224,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "28 CLARKSON RD",
+        "city": "ELLISVILLE",
+        "state": "MO",
+        "postcode": "63011",
+        "telephone": "+1 636-391-2140",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "28 CLARKSON RD\n63011\nELLISVILLE",
         "channel_of_trade": "BJBR"
     },
     {
@@ -265743,23 +265691,21 @@
     {
         "id": "US-120924",
         "name": "BP",
-        "lat": 38.935243,
-        "lng": -90.225552,
+        "lat": 38.9352474235,
+        "lng": -90.2255592506,
         "site_brand": "BP",
         "country_code": "US",
-        "address": "1918 W Delmar Ave",
-        "city": "Godfrey",
+        "address": "1918 W DELMAR AVE",
+        "city": "GODFREY",
         "state": "IL",
         "postcode": "62035",
         "telephone": "+1 618-466-3009",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
             "shop",
             "grocer_reward",
-            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -265767,7 +265713,7 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "1918 W Delmar Ave\n62035\nGodfrey",
+        "formatted_address": "1918 W DELMAR AVE\n62035\nGODFREY",
         "channel_of_trade": "BJBR"
     },
     {
@@ -285033,21 +284979,20 @@
     {
         "id": "US-128360",
         "name": "BP",
-        "lat": 40.858574,
-        "lng": -73.8849218,
+        "lat": 40.8586119048,
+        "lng": -73.8849537416,
         "site_brand": "BP",
         "country_code": "US",
-        "address": "601 E Fordham Rd",
-        "city": "Bronx",
+        "address": "601 E FORDHAM ROAD",
+        "city": "BRONX",
         "state": "NY",
         "postcode": "10458",
         "telephone": "+1 347-758-6043",
         "facilities": [
-            "open_24_hours",
             "car_wash",
+            "workshop",
             "toilet",
             "shop",
-            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
@@ -285055,7 +285000,7 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "601 E Fordham Rd\n10458\nBronx",
+        "formatted_address": "601 E FORDHAM ROAD\n10458\nBRONX",
         "channel_of_trade": "BODO"
     },
     {
@@ -301991,34 +301936,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-129815",
-        "name": "BP",
-        "lat": 42.0033669981,
-        "lng": -92.2019718987,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "407 5th St E",
-        "city": "Keystone",
-        "state": "IA",
-        "postcode": "52249",
-        "telephone": "1231231233",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "407 5th St E\n52249\nKeystone",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-129818",
         "name": "BP",
         "lat": 32.3910875459,
@@ -303156,6 +303073,35 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "12633 S Mason Dr\n49327\nGrant",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-129942",
+        "name": "BP",
+        "lat": 34.564159205,
+        "lng": -83.3312344043,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "39 Mize Rd",
+        "city": "Toccoa",
+        "state": "GA",
+        "postcode": "30577",
+        "telephone": "8552859595",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "harris_teeter",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "39 Mize Rd\n30577\nToccoa",
         "channel_of_trade": "BJBR"
     },
     {
@@ -307042,6 +306988,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130335",
+        "name": "BP",
+        "lat": 36.3708412548,
+        "lng": -85.3412764847,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "1470 WEST MAIN STREET",
+        "city": "LIVINGSTON",
+        "state": "TN",
+        "postcode": "38570",
+        "telephone": "9999999999",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1470 WEST MAIN STREET\n38570\nLIVINGSTON",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130376",
         "name": "BP",
         "lat": 35.0227638339,
@@ -307207,6 +307180,33 @@
         "watchlist_id": null,
         "formatted_address": "254 ROUTE 46 E\n07004\nFAIRFIELD",
         "channel_of_trade": "BODO"
+    },
+    {
+        "id": "US-130384",
+        "name": "BP",
+        "lat": 40.8367078298,
+        "lng": -73.8383635251,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "1320 HUTCHINSON RIVER PARKWAY",
+        "city": "BRONX",
+        "state": "NY",
+        "postcode": "10461",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1320 HUTCHINSON RIVER PARKWAY\n10461\nBRONX",
+        "channel_of_trade": "DODO"
     },
     {
         "id": "US-130385",
@@ -308827,6 +308827,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130609",
+        "name": "BP",
+        "lat": 40.8874004737,
+        "lng": -73.7913350579,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "135 SHORE ROAD",
+        "city": "PELHAM MANOR",
+        "state": "NY",
+        "postcode": "10803",
+        "telephone": "+1 914-738-9851",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "135 SHORE ROAD\n10803\nPELHAM MANOR",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130610",
         "name": "BP",
         "lat": 41.2716037222,
@@ -308851,6 +308878,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "980 WASHINGTON STREET\n10566\nPEEKSKILL",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130611",
+        "name": "BP",
+        "lat": 41.1957988259,
+        "lng": -73.883337579,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "336 SOUTH RIVERSIDE AVENUE",
+        "city": "CROTON ON HUDSON",
+        "state": "NY",
+        "postcode": "10520",
+        "telephone": "+1 914-271-5780",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "336 SOUTH RIVERSIDE AVENUE\n10520\nCROTON ON HUDSON",
         "channel_of_trade": "BJBR"
     },
     {
@@ -309075,6 +309129,60 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130697",
+        "name": "BP",
+        "lat": 30.6243666964,
+        "lng": -84.4158054599,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "102 NORTH MAIN STREET",
+        "city": "HAVANA",
+        "state": "FL",
+        "postcode": "32333",
+        "telephone": "+1 850-539-4464",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "102 NORTH MAIN STREET\n32333\nHAVANA",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130698",
+        "name": "BP",
+        "lat": 30.62039867,
+        "lng": -84.4269998022,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "8703 HAVANA HIGHWAY",
+        "city": "HAVANA",
+        "state": "FL",
+        "postcode": "32333",
+        "telephone": "+1 850-539-9327",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "8703 HAVANA HIGHWAY\n32333\nHAVANA",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130705",
         "name": "BP",
         "lat": 44.8432685714,
@@ -309130,6 +309238,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "420 NORTH IOWA STREET\n53533\nDODGEVILLE",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130709",
+        "name": "BP",
+        "lat": 36.03915773,
+        "lng": -83.4454097811,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "516 PATRIOT DR",
+        "city": "DANDRIDGE",
+        "state": "TN",
+        "postcode": "37725",
+        "telephone": "+1 865-397-9386",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "516 PATRIOT DR\n37725\nDANDRIDGE",
         "channel_of_trade": "BJBR"
     },
     {
@@ -310490,6 +310625,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2182 Harbins Rd\n30019\nDacula",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-131155",
+        "name": "BP",
+        "lat": 30.429934986,
+        "lng": -84.280292831,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "1417 SOUTH MONROE STREET",
+        "city": "TALLAHASSEE",
+        "state": "FL",
+        "postcode": "32301",
+        "telephone": "+1 850-222-2002",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1417 SOUTH MONROE STREET\n32301\nTALLAHASSEE",
         "channel_of_trade": "BJBR"
     },
     {
@@ -331609,32 +331771,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-28143803255556020200100000000000",
-        "name": "BP",
-        "lat": 42.01942,
-        "lng": -87.6774,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "555 Howard St",
-        "city": "Evanston",
-        "state": "IL",
-        "postcode": "60202",
-        "telephone": "+1 847-328-4868",
-        "facilities": [
-            "open_24_hours",
-            "grocer_reward",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "555 Howard St\n60202\nEvanston",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-28148032489516006000100000000000",
         "name": "BP",
         "lat": 42.2545,
@@ -333129,34 +333265,6 @@
         "watchlist_id": null,
         "formatted_address": "119-01 Atlantic Ave\n11418\nNew York",
         "channel_of_trade": "COCM"
-    },
-    {
-        "id": "US-29507371634014695200100000000000",
-        "name": "BP",
-        "lat": 40.56003,
-        "lng": -85.67577,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "1401 W 2nd St",
-        "city": "Marion",
-        "state": "IN",
-        "postcode": "46952",
-        "telephone": "+1 765-668-1952",
-        "facilities": [
-            "car_wash",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1401 W 2nd St\n46952\nMarion",
-        "channel_of_trade": "BJBR"
     },
     {
         "id": "US-29519147045733225400100000000000",
@@ -357343,7 +357451,6 @@
         "postcode": "31721",
         "telephone": "+1 229-439-8046",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -375822,37 +375929,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-60327950425473222500100000000000",
-        "name": "BP",
-        "lat": 30.32114,
-        "lng": -81.44945,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "13547 Atlantic Blvd",
-        "city": "Jacksonville",
-        "state": "FL",
-        "postcode": "32225",
-        "telephone": "+1 904-220-7861",
-        "facilities": [
-            "car_wash",
-            "toilet",
-            "shop",
-            "grocer_reward",
-            "harris_teeter",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "13547 Atlantic Blvd\n32225\nJacksonville",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-60335821185904000400100000000000",
         "name": "BP",
         "lat": 37.795835,
@@ -383527,6 +383603,30 @@
         "watchlist_id": null,
         "formatted_address": "462 Somerset St\n07060\nNorth Plainfield",
         "channel_of_trade": "COCM"
+    },
+    {
+        "id": "US-66090361891004821400100000000000",
+        "name": "BP",
+        "lat": 42.35897,
+        "lng": -82.97262,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "100 Meadowbrook St",
+        "city": "Detroit",
+        "state": "MI",
+        "postcode": "48214",
+        "telephone": "+1 810-822-4500",
+        "facilities": [
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "100 Meadowbrook St\n48214\nDetroit",
+        "channel_of_trade": "BJBR"
     },
     {
         "id": "US-66110590410040776200100000000000",
@@ -395270,6 +395370,7 @@
         "postcode": "49668",
         "telephone": "+1 231-885-2123",
         "facilities": [
+            "open_24_hours",
             "toilet",
             "shop",
             "loyalty",
@@ -407756,35 +407857,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-84304857866373741500100000961334",
-        "name": "BP",
-        "lat": 35.10763533,
-        "lng": -85.27232559,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "3637 Hixson Pike",
-        "city": "Chattanooga",
-        "state": "TN",
-        "postcode": "37415",
-        "telephone": "+1 423-870-2180",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "3637 Hixson Pike\n37415\nChattanooga",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-84313037865686610400100000000000",
         "name": "BP",
         "lat": 39.143323,
@@ -410055,7 +410127,7 @@
         "city": "Macon",
         "state": "GA",
         "postcode": "31211",
-        "telephone": "+1 478-746-3413",
+        "telephone": "+1 478-216-5018",
         "facilities": [
             "car_wash",
             "workshop",
@@ -411530,34 +411602,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "5710 Williamsburg Rd\n23150\nSandston",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-87231449515503292600100000000000",
-        "name": "BP",
-        "lat": 28.373708,
-        "lng": -80.806222,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "5550 SR 524",
-        "city": "COCOA",
-        "state": "FL",
-        "postcode": "32926",
-        "telephone": "+1 321-735-4542",
-        "facilities": [
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "5550 SR 524\n32926\nCOCOA",
         "channel_of_trade": "BJBR"
     },
     {
@@ -416214,7 +416258,7 @@
         "city": "Sturgeon Bay",
         "state": "WI",
         "postcode": "54235",
-        "telephone": "+1 920-743-2615",
+        "telephone": "+1 920-818-0477",
         "facilities": [
             "toilet",
             "grocer_reward",
@@ -418585,34 +418629,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "3130 University Pkwy\n27105\nWinston-Salem",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-92387923477704808000100000000000",
-        "name": "BP",
-        "lat": 42.474627,
-        "lng": -82.889271,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "24770 Jefferson Ave",
-        "city": "St Clair Shores",
-        "state": "MI",
-        "postcode": "48080",
-        "telephone": "+1 586-552-4542",
-        "facilities": [
-            "workshop",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [
-            "regular_diesel"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "24770 Jefferson Ave\n48080\nSt Clair Shores",
         "channel_of_trade": "BJBR"
     },
     {

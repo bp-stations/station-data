@@ -19,7 +19,10 @@
             "bp_rewards_cents_per_litre",
             "loyalty",
             "pump_rewards",
-            "restaurant"
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "restaurant",
+            "mobile_enabled"
         ],
         "products": [
             "ad_blue_cannister",
@@ -4770,15 +4773,12 @@
             "mobile_enabled"
         ],
         "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
             "auto_gas",
             "e10",
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded",
-            "ad_blue"
+            "ultimate_unleaded"
         ],
         "website": null,
         "watchlist_id": null,
@@ -8403,10 +8403,12 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_pump",
             "e10",
             "premium_unlead",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -9702,13 +9704,13 @@
         "telephone": "+61 8 8540 5060",
         "facilities": [
             "gift_card",
+            "trailers",
             "national_diesel_offer",
             "rigid_access",
             "truck_parking",
             "truck_suitable_site",
             "high_flow_diesel",
             "ultra_high_flow_diesel",
-            "cash_point",
             "shower",
             "toilet",
             "barista_coffee",
@@ -13203,10 +13205,8 @@
             "truck_parking",
             "high_flow_diesel",
             "ultra_high_flow_diesel",
-            "toilet",
             "western_union",
             "bp_rewards_unlocked",
-            "loyalty",
             "pump_rewards",
             "high_speed_pump"
         ],
@@ -16408,6 +16408,7 @@
             "bp_rewards_unlocked_convenience",
             "bp_rewards_cents_per_litre",
             "bp_rewards_member_pricing",
+            "preorder_enabled",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -16966,7 +16967,9 @@
         "postcode": "7310",
         "telephone": "+61 425 696 656",
         "facilities": [
-            "loyalty"
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards"
         ],
         "products": [
             "premium_unlead",
@@ -45327,7 +45330,7 @@
         "city": "COCKBURN CENTRAL",
         "state": "WA",
         "postcode": "6164",
-        "telephone": "+61 8 9240 4110",
+        "telephone": "+61 8 9414 7499",
         "facilities": [
             "open_24_hours",
             "gift_card",
@@ -59839,6 +59842,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "loyalty",
             "pump_rewards",
             "restaurant",
             "high_speed_pump"
