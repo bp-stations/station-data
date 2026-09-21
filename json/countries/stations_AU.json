@@ -1036,6 +1036,10 @@
         "facilities": [
             "toilet",
             "food_offer_instore",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
             "restaurant"
         ],
         "products": [
@@ -12241,6 +12245,7 @@
             "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
             "bpme_technically_enabled",
             "restaurant",
             "takeaway_food",
@@ -16385,7 +16390,7 @@
     },
     {
         "id": "AU-1536",
-        "name": "BP TRARALGON",
+        "name": "Bp Traralgon",
         "lat": -38.20329,
         "lng": 146.51701,
         "site_brand": "BP",
@@ -17025,6 +17030,38 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "LOT 133 GREGORY HIGHWAY\n4721\nCLERMONT",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1615",
+        "name": "BP BARCALDINE",
+        "lat": -23.5525,
+        "lng": 145.2836,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "2 Box Street",
+        "city": "Barcaldine",
+        "state": "QLD",
+        "postcode": "4725",
+        "telephone": "+61 421 512 502",
+        "facilities": [
+            "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "mobile_enabled"
+        ],
+        "products": [
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2 Box Street\n4725\nBarcaldine",
         "channel_of_trade": null
     },
     {
@@ -30120,6 +30157,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -37250,7 +37288,7 @@
         "city": "MORLEY",
         "state": "WA",
         "postcode": "6062",
-        "telephone": "+61 8 9375 3699",
+        "telephone": "+61 423 363 003",
         "facilities": [
             "gift_card",
             "car_wash",
@@ -44238,58 +44276,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CNR POATH & NORTH ROADS\n3166\nOAKLEIGH",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-7313",
-        "name": "BP MANLY WEST",
-        "lat": -27.4674,
-        "lng": 153.1539,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "CNR RADFORD & WONDALL ROADS",
-        "city": "MANLY WEST",
-        "state": "QLD",
-        "postcode": "4179",
-        "telephone": "+61 7 3348 6040",
-        "facilities": [
-            "gift_card",
-            "trailers",
-            "bdouble_access",
-            "rigid_access",
-            "truck_suitable_site",
-            "high_flow_diesel",
-            "ultra_high_flow_diesel",
-            "cash_point",
-            "toilet",
-            "takeaway_food_offer",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "bp_rewards_cents_per_litre",
-            "loyalty",
-            "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "truck_only",
-            "restaurant",
-            "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "auto_gas",
-            "e10",
-            "lpg",
-            "regular_diesel",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "CNR RADFORD & WONDALL ROADS\n4179\nMANLY WEST",
         "channel_of_trade": null
     },
     {
@@ -59377,7 +59363,7 @@
         "city": "EMU PARK",
         "state": "QLD",
         "postcode": "4703",
-        "telephone": "+61 420 765 554",
+        "telephone": "",
         "facilities": [
             "high_flow_diesel",
             "cash_point",

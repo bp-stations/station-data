@@ -9220,6 +9220,10 @@
         "facilities": [
             "toilet",
             "food_offer_instore",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
             "restaurant"
         ],
         "products": [
@@ -20425,6 +20429,7 @@
             "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
+            "bpmeplus",
             "bpme_technically_enabled",
             "restaurant",
             "takeaway_food",
@@ -24569,7 +24574,7 @@
     },
     {
         "id": "AU-1536",
-        "name": "BP TRARALGON",
+        "name": "Bp Traralgon",
         "lat": -38.20329,
         "lng": 146.51701,
         "site_brand": "BP",
@@ -25209,6 +25214,38 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "LOT 133 GREGORY HIGHWAY\n4721\nCLERMONT",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1615",
+        "name": "BP BARCALDINE",
+        "lat": -23.5525,
+        "lng": 145.2836,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "2 Box Street",
+        "city": "Barcaldine",
+        "state": "QLD",
+        "postcode": "4725",
+        "telephone": "+61 421 512 502",
+        "facilities": [
+            "bp_rewards_unlocked",
+            "bp_rewards_cents_per_litre",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "mobile_enabled"
+        ],
+        "products": [
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2 Box Street\n4725\nBarcaldine",
         "channel_of_trade": null
     },
     {
@@ -38304,6 +38341,7 @@
         ],
         "products": [
             "ad_blue_cannister",
+            "ad_blue_pump",
             "lpg",
             "premium_unlead",
             "ultimate_diesel",
@@ -45434,7 +45472,7 @@
         "city": "MORLEY",
         "state": "WA",
         "postcode": "6062",
-        "telephone": "+61 8 9375 3699",
+        "telephone": "+61 423 363 003",
         "facilities": [
             "gift_card",
             "car_wash",
@@ -52422,58 +52460,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CNR POATH & NORTH ROADS\n3166\nOAKLEIGH",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-7313",
-        "name": "BP MANLY WEST",
-        "lat": -27.4674,
-        "lng": 153.1539,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "CNR RADFORD & WONDALL ROADS",
-        "city": "MANLY WEST",
-        "state": "QLD",
-        "postcode": "4179",
-        "telephone": "+61 7 3348 6040",
-        "facilities": [
-            "gift_card",
-            "trailers",
-            "bdouble_access",
-            "rigid_access",
-            "truck_suitable_site",
-            "high_flow_diesel",
-            "ultra_high_flow_diesel",
-            "cash_point",
-            "toilet",
-            "takeaway_food_offer",
-            "bp_rewards_redemption",
-            "bp_rewards_unlocked",
-            "bp_rewards_cents_per_litre",
-            "loyalty",
-            "pump_rewards",
-            "bpmeplus",
-            "bpme_technically_enabled",
-            "truck_only",
-            "restaurant",
-            "takeaway_food",
-            "high_speed_pump",
-            "mobile_enabled"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "auto_gas",
-            "e10",
-            "lpg",
-            "regular_diesel",
-            "ultimate_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "CNR RADFORD & WONDALL ROADS\n4179\nMANLY WEST",
         "channel_of_trade": null
     },
     {
@@ -67561,7 +67547,7 @@
         "city": "EMU PARK",
         "state": "QLD",
         "postcode": "4703",
-        "telephone": "+61 420 765 554",
+        "telephone": "",
         "facilities": [
             "high_flow_diesel",
             "cash_point",
@@ -77675,7 +77661,7 @@
     },
     {
         "id": "DE-11004100",
-        "name": "Peter Fecher",
+        "name": "Nadja Betke",
         "lat": 52.546403,
         "lng": 13.345187,
         "site_brand": "ARAL Tankstelle",
@@ -77693,10 +77679,8 @@
             "electric_charging",
             "recup",
             "cash_point",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -84623,7 +84607,7 @@
     },
     {
         "id": "DE-12166300",
-        "name": "SSP Deutschland GmbH BAT Gro\u00dfenmoor Ost",
+        "name": "BAT Gro\u00dfenmoor Ost",
         "lat": 50.712969,
         "lng": 9.662551,
         "site_brand": "ARAL Tankstelle",
@@ -85349,7 +85333,6 @@
         "postcode": "24768",
         "telephone": "+49 4331 71246",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -90672,37 +90655,6 @@
         "channel_of_trade": "MWPL"
     },
     {
-        "id": "DE-13147300",
-        "name": "BAT Lappwald",
-        "lat": 52.220212,
-        "lng": 11.058335,
-        "site_brand": "ARAL Tankstelle",
-        "country_code": "DE",
-        "address": "A 2",
-        "city": "Helmstedt",
-        "state": null,
-        "postcode": "38350",
-        "telephone": "+49 5351 2077",
-        "facilities": [
-            "open_24_hours",
-            "motorway_site",
-            "loyalty",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ultimate",
-            "ultimate_diesel",
-            "super_e5",
-            "e10",
-            "truck_diesel"
-        ],
-        "website": "https://tankstelle.aral.de/tankstelle/13147300",
-        "watchlist_id": "13147300",
-        "formatted_address": "A 2\n38350\nHelmstedt",
-        "channel_of_trade": "MWPL"
-    },
-    {
         "id": "DE-13147600",
         "name": "Tanja M\u00e4hlmann",
         "lat": 53.331402,
@@ -92602,6 +92554,7 @@
             "car_wash",
             "recup",
             "shop",
+            "bistro",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -95864,6 +95817,7 @@
         "telephone": "+49 231 42788770",
         "facilities": [
             "open_24_hours",
+            "electric_charging",
             "recup",
             "rewe_to_go",
             "shop",
@@ -95873,14 +95827,16 @@
             "outdoor_payment_terminal",
             "loyalty",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "car_electric_charging"
         ],
         "products": [
             "ultimate",
             "ultimate_diesel",
             "ad_blue",
             "super_e5",
-            "e10"
+            "e10",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/14166100",
         "watchlist_id": "14166100",
@@ -98693,6 +98649,7 @@
             "jet_wash",
             "super_wash",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -106132,7 +106089,6 @@
         "postcode": "34369",
         "telephone": "+49 5671 5070246",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -107332,7 +107288,6 @@
         "postcode": "34346",
         "telephone": "+49 5541 1859",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -108121,7 +108076,6 @@
             "jet_wash",
             "super_wash",
             "shop",
-            "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
             "special_car_wash",
@@ -108945,7 +108899,7 @@
     },
     {
         "id": "DE-17091700",
-        "name": "SSP Deutschland GmbH BAT Gro\u00dfenmoor West",
+        "name": "BAT Gro\u00dfenmoor West",
         "lat": 50.712895,
         "lng": 9.662873,
         "site_brand": "ARAL Tankstelle",
@@ -116432,6 +116386,7 @@
         "postcode": "95502",
         "telephone": "+49 9273 57337",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -121906,6 +121861,38 @@
         "channel_of_trade": "COSI"
     },
     {
+        "id": "DE-20070800",
+        "name": "Kuttenkeuler Mineraloelhandels- und Tankstellenbetriebsgesellschaft mbH",
+        "lat": 51.027338,
+        "lng": 7.042083,
+        "site_brand": "ARAL Tankstelle",
+        "country_code": "DE",
+        "address": "Willy-Brandt-Ring  101",
+        "city": "Leverkusen",
+        "state": null,
+        "postcode": "51375",
+        "telephone": "+49 214 53024",
+        "facilities": [
+            "shop",
+            "bistro",
+            "pay_at_pump_supported",
+            "outdoor_payment_terminal",
+            "loyalty",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ultimate",
+            "ultimate_diesel",
+            "super_e5",
+            "e10"
+        ],
+        "website": "https://tankstelle.aral.de/tankstelle/20070800",
+        "watchlist_id": "20070800",
+        "formatted_address": "Willy-Brandt-Ring  101\n51375\nLeverkusen",
+        "channel_of_trade": "JOBR"
+    },
+    {
         "id": "DE-20074000",
         "name": "Piet Esser",
         "lat": 50.897337,
@@ -126345,6 +126332,7 @@
             "electric_charging",
             "truck_parking",
             "recup",
+            "rewe_to_go",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -127262,6 +127250,7 @@
             "jet_wash",
             "super_wash",
             "shop",
+            "bistro",
             "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
@@ -128374,7 +128363,6 @@
             "super_wash",
             "recup",
             "shop",
-            "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
             "special_car_wash",
@@ -130159,7 +130147,6 @@
         "postcode": "49809",
         "telephone": "+49 591 61047865",
         "facilities": [
-            "open_24_hours",
             "jet_wash",
             "super_wash",
             "recup",
@@ -137357,7 +137344,6 @@
         "postcode": "17213",
         "telephone": "+49 39932 14757",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -140265,7 +140251,7 @@
         "city": "Osterwieck",
         "state": null,
         "postcode": "38835",
-        "telephone": "+49 39421 6140",
+        "telephone": "+49 39421 614446",
         "facilities": [
             "car_wash",
             "shop",
@@ -146170,6 +146156,7 @@
             "car_wash",
             "jet_wash",
             "super_wash",
+            "recup",
             "shop",
             "bistro",
             "pay_at_pump_supported",
@@ -167821,7 +167808,6 @@
         "postcode": "45004",
         "telephone": "+34 925 75 07 58",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "shop",
@@ -167830,7 +167816,10 @@
             "open_saturday",
             "open_sunday"
         ],
-        "products": [],
+        "products": [
+            "ad_blue_pump",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Cr. CM-4000, KM 2.65\n45004\nToledo",
@@ -169061,7 +169050,6 @@
         "postcode": "45150",
         "telephone": "",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "shop",
@@ -169070,7 +169058,10 @@
             "open_saturday",
             "open_sunday"
         ],
-        "products": [],
+        "products": [
+            "ad_blue_pump",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Cr. CM-401 km 45\n45150\nNavahermosa",
@@ -169296,6 +169287,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CTRA. A-1075, P.K.1\n04420\nSanta fe de mondujar",
+        "channel_of_trade": null
+    },
+    {
+        "id": "ES-1397969579",
+        "name": "RIO FARDES",
+        "lat": 37.328889,
+        "lng": -3.215694,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "A-92 KM 292",
+        "city": "PURULLENA  GRANADA",
+        "state": null,
+        "postcode": "18519",
+        "telephone": "",
+        "facilities": [
+            "shop",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_pump",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "A-92 KM 292\n18519\nPURULLENA  GRANADA",
         "channel_of_trade": null
     },
     {
@@ -176879,44 +176897,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "ES-1668440708",
-        "name": "E.S. BP BENIFAIO",
-        "lat": 39.288806,
-        "lng": -0.420694,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "C/ ALMUSAFES, 15",
-        "city": "BENIFAIO (VALENCIA)",
-        "state": null,
-        "postcode": "46450",
-        "telephone": "+34 961 78 18 89",
-        "facilities": [
-            "high_speed_pump",
-            "truck_suitable_site",
-            "toilet",
-            "shop",
-            "bakery_bistro",
-            "bistro",
-            "petit_bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "C/ ALMUSAFES, 15\n46450\nBENIFAIO (VALENCIA)",
-        "channel_of_trade": null
-    },
-    {
         "id": "ES-16686",
         "name": "E.S. BP NOVELDIESEL",
         "lat": 38.3881,
@@ -179293,6 +179273,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CR  DE CORTES S/N PARCELA PP1\n11600\nUBRIQUE",
+        "channel_of_trade": null
+    },
+    {
+        "id": "ES-1734107731",
+        "name": "ES BENIFAIO",
+        "lat": 39.288806,
+        "lng": -0.420694,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "C/ ALMUSAFES, 15",
+        "city": "BENIFAIO (VALENCIA)",
+        "state": null,
+        "postcode": "46450",
+        "telephone": "",
+        "facilities": [
+            "shop",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_pump",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "C/ ALMUSAFES, 15\n46450\nBENIFAIO (VALENCIA)",
         "channel_of_trade": null
     },
     {
@@ -189598,30 +189605,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "ES-752824444",
-        "name": "E.S. BP TARANC\u00d3N",
-        "lat": 40.00496,
-        "lng": -3.01342,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "Avenida Adolfo Su\u00e1rez",
-        "city": "Taranc\u00f3n",
-        "state": null,
-        "postcode": "16400",
-        "telephone": "",
-        "facilities": [
-            "shop",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Avenida Adolfo Su\u00e1rez\n16400\nTaranc\u00f3n",
-        "channel_of_trade": null
-    },
-    {
         "id": "ES-753088321",
         "name": "ANTASGAS",
         "lat": 37.28594,
@@ -190203,46 +190186,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "ES-778305282",
-        "name": "bp RIO FARDES",
-        "lat": 37.328889,
-        "lng": -3.215694,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "A-92 KM 292",
-        "city": "PURULLENA  GRANADA",
-        "state": null,
-        "postcode": "18519",
-        "telephone": "",
-        "facilities": [
-            "tobacco",
-            "high_speed_pump",
-            "truck_suitable_site",
-            "disabled_facilities",
-            "toilet",
-            "shop",
-            "bakery_bistro",
-            "bistro",
-            "petit_bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "A-92 KM 292\n18519\nPURULLENA  GRANADA",
-        "channel_of_trade": null
-    },
-    {
         "id": "ES-779170149",
         "name": "bp CERRO LARGO",
         "lat": 36.6068,
@@ -190816,7 +190759,6 @@
         "postcode": "45516",
         "telephone": "+34 925 75 07 58",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "shop",
@@ -190946,6 +190888,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Bulevar Ciudad de Vicar, 300.\n04738\nVICAR",
+        "channel_of_trade": null
+    },
+    {
+        "id": "ES-837799029",
+        "name": "BURRIANA",
+        "lat": 39.89508,
+        "lng": -0.08034,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "Ctra. C-236, Pk 0, 300",
+        "city": "Burriana",
+        "state": null,
+        "postcode": "12530",
+        "telephone": "+34 964 51 58 65",
+        "facilities": [
+            "car_wash",
+            "jet_wash",
+            "shop",
+            "accepts_routex_cards",
+            "special_car_wash",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Ctra. C-236, Pk 0, 300\n12530\nBurriana",
         "channel_of_trade": null
     },
     {
@@ -193229,7 +193198,6 @@
         "facilities": [
             "open_24_hours",
             "bunker_site",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "wifi",
@@ -193526,7 +193494,6 @@
             "open_24_hours",
             "bunker_site",
             "truck_suitable_site",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "motorway_site",
@@ -193607,10 +193574,14 @@
         "city": "Buckingham",
         "state": null,
         "postcode": "MK18 4FH",
-        "telephone": "",
+        "telephone": "+44 1280 853723",
         "facilities": [
             "open_24_hours",
+            "alcohol",
             "jet_wash",
+            "bunker_site",
+            "toilet",
+            "wifi",
             "bistro",
             "ms_simply_food",
             "wild_bean_cafe",
@@ -195076,10 +195047,10 @@
             "alcohol",
             "car_wash",
             "jet_wash",
-            "cash_point",
             "toilet",
             "bakery_bistro",
             "bistro",
+            "wild_bean_cafe",
             "accepts_routex_cards",
             "special_car_wash",
             "open_saturday",
@@ -195746,7 +195717,6 @@
         "facilities": [
             "alcohol",
             "jet_wash",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "bistro",
@@ -202276,7 +202246,6 @@
             "alcohol",
             "bunker_site",
             "truck_suitable_site",
-            "cash_point",
             "toilet",
             "motorway_site",
             "bakery_bistro",
@@ -207366,6 +207335,7 @@
             "open_24_hours",
             "car_wash",
             "jet_wash",
+            "cash_point",
             "toilet",
             "wifi",
             "bistro",
@@ -213180,7 +213150,6 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "bistro",
@@ -217112,7 +217081,6 @@
             "bunker_site",
             "truck_parking",
             "truck_suitable_site",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -221533,7 +221501,6 @@
             "open_24_hours",
             "alcohol",
             "truck_suitable_site",
-            "cash_point",
             "bakery_bistro",
             "bistro",
             "accepts_routex_cards",
@@ -222222,7 +222189,6 @@
             "open_24_hours",
             "bunker_site",
             "truck_suitable_site",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "motorway_site",
@@ -223285,12 +223251,9 @@
         "facilities": [
             "open_24_hours",
             "alcohol",
-            "car_wash",
-            "jet_wash",
             "bunker_site",
             "truck_parking",
             "truck_suitable_site",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -223298,7 +223261,6 @@
             "ms_simply_food",
             "wild_bean_cafe",
             "accepts_routex_cards",
-            "special_car_wash",
             "open_saturday",
             "open_sunday",
             "mobile_enabled"
@@ -227872,7 +227834,6 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "motorway_site",
@@ -228564,12 +228525,10 @@
         ],
         "products": [
             "ad_blue_cannister",
-            "ad_blue_pump",
             "diesel_on",
             "ultimate",
             "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
+            "unleaded_95"
         ],
         "website": null,
         "watchlist_id": null,
@@ -228762,6 +228721,7 @@
             "high_speed_pump",
             "truck_parking",
             "truck_suitable_site",
+            "cash_point",
             "toilet",
             "bakery_bistro",
             "bistro",
@@ -232047,10 +232007,8 @@
         "postcode": "BH16 6JW",
         "telephone": "+44 1202 028180",
         "facilities": [
-            "open_24_hours",
             "alcohol",
             "bunker_site",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "bakery_bistro",
@@ -232276,7 +232234,6 @@
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
-            "cash_point",
             "bistro",
             "accepts_routex_cards",
             "special_car_wash",
@@ -236022,7 +235979,6 @@
             "jet_wash",
             "bunker_site",
             "truck_suitable_site",
-            "cash_point",
             "toilet",
             "bistro",
             "accepts_routex_cards",
@@ -236987,7 +236943,6 @@
             "open_24_hours",
             "bunker_site",
             "truck_suitable_site",
-            "cash_point",
             "disabled_facilities",
             "toilet",
             "motorway_site",
@@ -237700,7 +237655,6 @@
         "facilities": [
             "alcohol",
             "car_wash",
-            "cash_point",
             "bakery_bistro",
             "bistro",
             "wild_bean_cafe",
@@ -258208,31 +258162,31 @@
     },
     {
         "id": "GR-Q943",
-        "name": "GIAOYRTAS MICHAHL KAI YIOI O.E.",
+        "name": "\u039a\u0391\u039b\u03a5\u03a8\u03a9 \u039a.\u0395.\u0391. \u0391.\u0395.",
         "lat": 35.32832222,
         "lng": 25.16096667,
         "site_brand": "BP",
         "country_code": "GR",
         "address": "KAMINI",
         "city": "ALIKARNASSOS",
-        "state": null,
+        "state": "",
         "postcode": "71601",
         "telephone": "+30 281 038 1975",
         "facilities": [
+            "open_saturday",
+            "open_sunday",
             "car_wash",
             "wifi",
-            "shop",
             "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
+            "shop"
         ],
         "products": [
-            "lpg",
-            "ultimate",
-            "ultimate_102",
-            "ultimate_diesel",
             "ultimate_unleaded",
-            "unleaded_95"
+            "ultimate_diesel",
+            "ultimate_102",
+            "unleaded_95",
+            "ultimate",
+            "lpg"
         ],
         "website": null,
         "watchlist_id": null,
@@ -275392,8 +275346,8 @@
     {
         "id": "NL-4962",
         "name": "BP Dubbeldam",
-        "lat": 51.8016921,
-        "lng": 4.7000831,
+        "lat": 51.80165,
+        "lng": 4.699681,
         "site_brand": "BP",
         "country_code": "NL",
         "address": "Provincialeweg 11",
@@ -299321,6 +299275,40 @@
         "channel_of_trade": null
     },
     {
+        "id": "PL-1911530131",
+        "name": "GLINCZ",
+        "lat": 54.354241,
+        "lng": 18.361177,
+        "site_brand": "BP",
+        "country_code": "PL",
+        "address": "WIERZBOWA 1",
+        "city": "ZUKOWO",
+        "state": null,
+        "postcode": "83-330",
+        "telephone": "",
+        "facilities": [
+            "car_wash",
+            "shop",
+            "wild_bean_cafe",
+            "accepts_routex_cards",
+            "special_car_wash",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_pump",
+            "lpg",
+            "ultimate",
+            "ultimate_unleaded",
+            "unleaded_95",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "WIERZBOWA 1\n83-330\nZUKOWO",
+        "channel_of_trade": null
+    },
+    {
         "id": "PL-1912351880",
         "name": "RUDZKI MOST",
         "lat": 53.57297,
@@ -308152,7 +308140,7 @@
         "city": "PRZEDBORZ",
         "state": null,
         "postcode": "97-570",
-        "telephone": "+48 44 781 21 07",
+        "telephone": "+48 732 541 699",
         "facilities": [
             "open_24_hours",
             "car_wash",
@@ -329516,7 +329504,6 @@
         "postcode": "55404",
         "telephone": "+1 612-870-0227",
         "facilities": [
-            "open_24_hours",
             "toilet",
             "shop",
             "loyalty",
@@ -331854,7 +331841,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1736 NC Highway 67\n28642\nJonesville",
@@ -332478,8 +332467,6 @@
         "telephone": "+1 910-788-2873",
         "facilities": [
             "open_24_hours",
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "grocer_reward",
@@ -345601,6 +345588,7 @@
         "postcode": "11040",
         "telephone": "1111111111",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -351493,6 +351481,33 @@
         "channel_of_trade": "EV"
     },
     {
+        "id": "US-118737",
+        "name": "BP",
+        "lat": 33.5528659224,
+        "lng": -83.4747818951,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "2021 EATONTON RD",
+        "city": "MADISON",
+        "state": "GA",
+        "postcode": "30650",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2021 EATONTON RD\n30650\nMADISON",
+        "channel_of_trade": "EV"
+    },
+    {
         "id": "US-118749",
         "name": "BP",
         "lat": 39.953894375,
@@ -353863,6 +353878,33 @@
         "watchlist_id": null,
         "formatted_address": "122 S Devoe St\n52755\nLone Tree",
         "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-119935",
+        "name": "BP",
+        "lat": 27.6387586403,
+        "lng": -80.5108328196,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "8909 20TH ST",
+        "city": "VERO BEACH",
+        "state": "FL",
+        "postcode": "32966",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "8909 20TH ST\n32966\nVERO BEACH",
+        "channel_of_trade": "EV"
     },
     {
         "id": "US-119936",
@@ -358629,6 +358671,35 @@
         "watchlist_id": null,
         "formatted_address": "1055 E Raymond St\n46203\nIndianapolis",
         "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-121474",
+        "name": "BP",
+        "lat": 31.1381748627,
+        "lng": -81.5805883964,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "185 DUNGENESS DR",
+        "city": "BRUNSWICK",
+        "state": "GA",
+        "postcode": "31523",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "harris_teeter",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "185 DUNGENESS DR\n31523\nBRUNSWICK",
+        "channel_of_trade": "EV"
     },
     {
         "id": "US-121481",
@@ -364711,35 +364782,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "72 Biddle Ave\n48192\nWyandotte",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-125208",
-        "name": "BP",
-        "lat": 38.550505,
-        "lng": -90.494475,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "1 Vance Rd",
-        "city": "Valley Park",
-        "state": "MO",
-        "postcode": "63088",
-        "telephone": "+1 636-825-9405",
-        "facilities": [
-            "open_24_hours",
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1 Vance Rd\n63088\nValley Park",
         "channel_of_trade": "BJBR"
     },
     {
@@ -371518,34 +371560,6 @@
         "channel_of_trade": "BJBR"
     },
     {
-        "id": "US-127756",
-        "name": "BP",
-        "lat": 42.49942616,
-        "lng": -83.33966726,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "29411 W 12 Mile Rd",
-        "city": "Farmington Hills",
-        "state": "MI",
-        "postcode": "48334",
-        "telephone": "+1 248-488-7796",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "loyalty",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "29411 W 12 Mile Rd\n48334\nFarmington Hills",
-        "channel_of_trade": "BJBR"
-    },
-    {
         "id": "US-127757",
         "name": "Amoco",
         "lat": 35.03895565,
@@ -372824,7 +372838,7 @@
         "city": "Stanford",
         "state": "KY",
         "postcode": "40484",
-        "telephone": "+1 859-854-3232",
+        "telephone": "+1 859-374-4242",
         "facilities": [
             "car_wash",
             "workshop",
@@ -374715,8 +374729,6 @@
         "postcode": "24540",
         "telephone": "+1 540-278-0987",
         "facilities": [
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "loyalty",
@@ -374724,7 +374736,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1415 Piney Forest Rd\n24540\nDanville",
@@ -395316,16 +395330,16 @@
     },
     {
         "id": "US-129067",
-        "name": "Amoco",
-        "lat": 37.7253417762,
-        "lng": -77.4483295644,
-        "site_brand": "AM",
+        "name": "BP",
+        "lat": 37.7231447623,
+        "lng": -77.4477471344,
+        "site_brand": "BPPLS",
         "country_code": "US",
-        "address": "10114 Lewistown Rd",
-        "city": "Ashland",
+        "address": "10134 LEWISTOWN ROAD",
+        "city": "ASHLAND",
         "state": "VA",
         "postcode": "23005",
-        "telephone": "+1 804-798-6021",
+        "telephone": "1111111111",
         "facilities": [
             "car_wash",
             "workshop",
@@ -395338,8 +395352,8 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "10114 Lewistown Rd\n23005\nAshland",
-        "channel_of_trade": "BJBR"
+        "formatted_address": "10134 LEWISTOWN ROAD\n23005\nASHLAND",
+        "channel_of_trade": "EV"
     },
     {
         "id": "US-129068",
@@ -395455,36 +395469,32 @@
     },
     {
         "id": "US-129072",
-        "name": "Amoco",
-        "lat": 30.065848,
-        "lng": -81.496091,
-        "site_brand": "AM",
+        "name": "BP",
+        "lat": 30.0659347787,
+        "lng": -81.4967104197,
+        "site_brand": "BPPLS",
         "country_code": "US",
-        "address": "1650 COUNTY RD 210 W",
+        "address": "1650 COUNTY ROAD 210 W",
         "city": "JACKSONVILLE",
         "state": "FL",
         "postcode": "32259",
-        "telephone": "+1 904-829-3946",
+        "telephone": "1111111111",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
             "shop",
             "grocer_reward",
             "harris_teeter",
-            "loyalty",
             "citi_rewards",
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [
-            "regular_diesel"
-        ],
+        "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "1650 COUNTY RD 210 W\n32259\nJACKSONVILLE",
-        "channel_of_trade": "BJBR"
+        "formatted_address": "1650 COUNTY ROAD 210 W\n32259\nJACKSONVILLE",
+        "channel_of_trade": "EV"
     },
     {
         "id": "US-129077",
@@ -397774,8 +397784,8 @@
     {
         "id": "US-129211",
         "name": "BP",
-        "lat": 40.2167533756,
-        "lng": -86.0339546457,
+        "lat": 40.2166580111,
+        "lng": -86.0339767385,
         "site_brand": "BP",
         "country_code": "US",
         "address": "29459 IN-19",
@@ -403629,6 +403639,7 @@
         "postcode": "33316",
         "telephone": "1111111111",
         "facilities": [
+            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -403752,6 +403763,34 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2356 W HILLSBOROUGH AVE\n33603\nTAMPA",
+        "channel_of_trade": "EV"
+    },
+    {
+        "id": "US-129514",
+        "name": "BP",
+        "lat": 42.000016,
+        "lng": -87.8832379,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "2991 MANNHEIM RD",
+        "city": "DES PLAINES",
+        "state": "IL",
+        "postcode": "60018",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2991 MANNHEIM RD\n60018\nDES PLAINES",
         "channel_of_trade": "EV"
     },
     {
@@ -405143,6 +405182,34 @@
         "channel_of_trade": "EV"
     },
     {
+        "id": "US-129586",
+        "name": "BP",
+        "lat": 41.7839743972,
+        "lng": -87.8018260105,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "5900 S HARLEM AVE",
+        "city": "SUMMIT",
+        "state": "IL",
+        "postcode": "60501",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "5900 S HARLEM AVE\n60501\nSUMMIT",
+        "channel_of_trade": "EV"
+    },
+    {
         "id": "US-129587",
         "name": "BP",
         "lat": 42.3727921526,
@@ -405594,6 +405661,34 @@
         "channel_of_trade": "EV"
     },
     {
+        "id": "US-129610",
+        "name": "BP",
+        "lat": 42.2148418342,
+        "lng": -88.287352481,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "911 TEK DRIVE",
+        "city": "CRYSTAL LAKE",
+        "state": "IL",
+        "postcode": "60014",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "911 TEK DRIVE\n60014\nCRYSTAL LAKE",
+        "channel_of_trade": "EV"
+    },
+    {
         "id": "US-129612",
         "name": "BP",
         "lat": 43.05389,
@@ -405732,6 +405827,62 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1330 Lake St\n60172\nRoselle",
+        "channel_of_trade": "EV"
+    },
+    {
+        "id": "US-129617",
+        "name": "BP",
+        "lat": 42.1042530601,
+        "lng": -88.2570994251,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "100 DUNDEE AVE",
+        "city": "EAST DUNDEE",
+        "state": "IL",
+        "postcode": "60118",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "100 DUNDEE AVE\n60118\nEAST DUNDEE",
+        "channel_of_trade": "EV"
+    },
+    {
+        "id": "US-129618",
+        "name": "BP",
+        "lat": 41.9927476678,
+        "lng": -87.940706843,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "2310 York Rd",
+        "city": "Elk Grove Village",
+        "state": "IL",
+        "postcode": "60007",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2310 York Rd\n60007\nElk Grove Village",
         "channel_of_trade": "EV"
     },
     {
@@ -409190,6 +409341,34 @@
         "channel_of_trade": "EV"
     },
     {
+        "id": "US-129831",
+        "name": "BP",
+        "lat": 41.6628285055,
+        "lng": -88.1260461295,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "1025 S Weber Rd",
+        "city": "Bolingbrook",
+        "state": "IL",
+        "postcode": "60490",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1025 S Weber Rd\n60490\nBolingbrook",
+        "channel_of_trade": "EV"
+    },
+    {
         "id": "US-129836",
         "name": "BP",
         "lat": 27.9970836312,
@@ -410008,6 +410187,33 @@
         "channel_of_trade": "EV"
     },
     {
+        "id": "US-129872",
+        "name": "BP",
+        "lat": 27.9372527757,
+        "lng": -82.2802754631,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "425 E Brandon Blvd",
+        "city": "Brandon",
+        "state": "FL",
+        "postcode": "33511",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "425 E Brandon Blvd\n33511\nBrandon",
+        "channel_of_trade": "EV"
+    },
+    {
         "id": "US-129875",
         "name": "BP",
         "lat": 27.893214841,
@@ -410059,33 +410265,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "8100 Monroe Rd\n77061\nHouston",
-        "channel_of_trade": "EV"
-    },
-    {
-        "id": "US-129877",
-        "name": "BP",
-        "lat": 27.496664978,
-        "lng": -82.5014005049,
-        "site_brand": "BPPLS",
-        "country_code": "US",
-        "address": "4820 E State Road 64",
-        "city": "Bradenton",
-        "state": "FL",
-        "postcode": "34208",
-        "telephone": "1111111111",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "4820 E State Road 64\n34208\nBradenton",
         "channel_of_trade": "EV"
     },
     {
@@ -411135,35 +411314,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "12633 S Mason Dr\n49327\nGrant",
-        "channel_of_trade": "BJBR"
-    },
-    {
-        "id": "US-129942",
-        "name": "BP",
-        "lat": 34.564159205,
-        "lng": -83.3312344043,
-        "site_brand": "BP",
-        "country_code": "US",
-        "address": "39 Mize Rd",
-        "city": "Toccoa",
-        "state": "GA",
-        "postcode": "30577",
-        "telephone": "8552859595",
-        "facilities": [
-            "car_wash",
-            "workshop",
-            "toilet",
-            "shop",
-            "grocer_reward",
-            "harris_teeter",
-            "citi_rewards",
-            "mobile_acceptance",
-            "mobile_enabled"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "39 Mize Rd\n30577\nToccoa",
         "channel_of_trade": "BJBR"
     },
     {
@@ -413887,7 +414037,7 @@
         "city": "PADUCAH",
         "state": "KY",
         "postcode": "42003",
-        "telephone": "1111111111",
+        "telephone": "+1 270-415-5454",
         "facilities": [
             "car_wash",
             "workshop",
@@ -414498,6 +414648,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "625 E LINCOLNWAY\n44657\nMINERVA",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130128",
+        "name": "BP",
+        "lat": 30.84092398,
+        "lng": -83.2837923205,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "1001 NORTH PATTERSON STREET",
+        "city": "VALDOSTA",
+        "state": "GA",
+        "postcode": "31601",
+        "telephone": "9999999999",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1001 NORTH PATTERSON STREET\n31601\nVALDOSTA",
         "channel_of_trade": "BJBR"
     },
     {
@@ -416844,6 +417021,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130276",
+        "name": "BP",
+        "lat": 32.0457640675,
+        "lng": -97.0915928899,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "160 STATE HIGHWAY 77",
+        "city": "HILLSBORO",
+        "state": "TX",
+        "postcode": "76645",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "160 STATE HIGHWAY 77\n76645\nHILLSBORO",
+        "channel_of_trade": "EV"
+    },
+    {
         "id": "US-130277",
         "name": "BP",
         "lat": 42.9460092904,
@@ -417350,6 +417554,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "5201 W Jackson Blvd\n60644\nChicago",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130328",
+        "name": "BP",
+        "lat": 25.8449526314,
+        "lng": -80.2665684742,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "790 EAST 25TH STREET",
+        "city": "HIALEAH",
+        "state": "FL",
+        "postcode": "33013",
+        "telephone": "+1 786-633-6104",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "790 EAST 25TH STREET\n33013\nHIALEAH",
         "channel_of_trade": "BJBR"
     },
     {
@@ -418077,7 +418308,6 @@
         "postcode": "10940",
         "telephone": "+1 845-342-4999",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "workshop",
             "toilet",
@@ -418454,6 +418684,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1261 BUSSEY ROAD\n31790\nSYCAMORE",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130416",
+        "name": "BP",
+        "lat": 36.0491867373,
+        "lng": -86.714290591,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "5101 NOLENSVILLE PIKE",
+        "city": "NASHVILLE",
+        "state": "TN",
+        "postcode": "37211",
+        "telephone": "+1 615-513-2826",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "5101 NOLENSVILLE PIKE\n37211\nNASHVILLE",
         "channel_of_trade": "BJBR"
     },
     {
@@ -420019,6 +420276,34 @@
         "watchlist_id": null,
         "formatted_address": "500 EAST WYSOR STREET\n47305\nMUNCIE",
         "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130504",
+        "name": "BP",
+        "lat": 41.6002657146,
+        "lng": -87.5886486159,
+        "site_brand": "BPPLS",
+        "country_code": "US",
+        "address": "1141 E 162ND ST",
+        "city": "SOUTH HOLLAND",
+        "state": "IL",
+        "postcode": "60473",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1141 E 162ND ST\n60473\nSOUTH HOLLAND",
+        "channel_of_trade": "EV"
     },
     {
         "id": "US-130505",
@@ -422590,6 +422875,60 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130695",
+        "name": "BP",
+        "lat": 30.5873887063,
+        "lng": -84.5679351191,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "502 JEFFERSON STREET",
+        "city": "QUINCY",
+        "state": "FL",
+        "postcode": "62301",
+        "telephone": "+1 850-875-4217",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "502 JEFFERSON STREET\n62301\nQUINCY",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130696",
+        "name": "Amoco",
+        "lat": 30.5834987561,
+        "lng": -84.5636162445,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "830 EAST JEFFERSON STREET",
+        "city": "QUINCY",
+        "state": "FL",
+        "postcode": "32351",
+        "telephone": "+1 850-627-2006",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "830 EAST JEFFERSON STREET\n32351\nQUINCY",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130697",
         "name": "BP",
         "lat": 30.6243666964,
@@ -422671,6 +423010,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130701",
+        "name": "BP",
+        "lat": 30.5913997858,
+        "lng": -84.6435499704,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "16854 BLUE STAR HIGHWAY",
+        "city": "QUINCY",
+        "state": "FL",
+        "postcode": "32352",
+        "telephone": "+1 850-879-1979",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "16854 BLUE STAR HIGHWAY\n32352\nQUINCY",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130704",
         "name": "Amoco",
         "lat": 43.0202408551,
@@ -422683,8 +423049,7 @@
         "postcode": "48423",
         "telephone": "+1 810-653-2925",
         "facilities": [
-            "car_wash",
-            "workshop",
+            "open_24_hours",
             "toilet",
             "shop",
             "citi_rewards",
@@ -425004,6 +425369,32 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130844",
+        "name": "BP",
+        "lat": 40.5708780204,
+        "lng": -74.2310882388,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "915 PORT READING AVENUE",
+        "city": "PORT READING",
+        "state": "NJ",
+        "postcode": "07064",
+        "telephone": "+1 631-764-1420",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "915 PORT READING AVENUE\n07064\nPORT READING",
+        "channel_of_trade": "DODO"
+    },
+    {
         "id": "US-130846",
         "name": "BP",
         "lat": 32.9254914938,
@@ -425228,6 +425619,60 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130885",
+        "name": "BP",
+        "lat": 42.1200003,
+        "lng": -73.71773,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "1012 ROUTE 82",
+        "city": "ANCRAM",
+        "state": "NY",
+        "postcode": "12502",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1012 ROUTE 82\n12502\nANCRAM",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130886",
+        "name": "BP",
+        "lat": 41.7472689,
+        "lng": -73.8160319,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "1699 MAIN STREET",
+        "city": "PLEASANT VALLEY",
+        "state": "NY",
+        "postcode": "12569",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1699 MAIN STREET\n12569\nPLEASANT VALLEY",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130887",
         "name": "Amoco",
         "lat": 41.4460505452,
@@ -425252,6 +425697,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "28 CARPENTER AVENUE\n10940\nMIDDLETOWN",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130889",
+        "name": "BP",
+        "lat": 41.5253536754,
+        "lng": -74.2004320621,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "2214 ROUTE 208",
+        "city": "MONTGOMERY",
+        "state": "NY",
+        "postcode": "12549",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2214 ROUTE 208\n12549\nMONTGOMERY",
         "channel_of_trade": "BJBR"
     },
     {
@@ -425280,6 +425752,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "813 MAIN STREET\n12603\nPOUGHKEEPSIE",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130892",
+        "name": "Amoco",
+        "lat": 41.5187088991,
+        "lng": -74.0204736756,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "431 ROBINSON AVENUE",
+        "city": "NEWBURGH",
+        "state": "NY",
+        "postcode": "12550",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "431 ROBINSON AVENUE\n12550\nNEWBURGH",
         "channel_of_trade": "BJBR"
     },
     {
@@ -425393,6 +425892,33 @@
         "watchlist_id": null,
         "formatted_address": "1144 ROUTE 55\n12540\nLAGRANGEVILLE",
         "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130915",
+        "name": "BP",
+        "lat": 40.7525884561,
+        "lng": -73.9391635749,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "40-40 CRESCENT STREET",
+        "city": "LONG ISLAND CITY",
+        "state": "NY",
+        "postcode": "11101",
+        "telephone": "+1 914-826-5277",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "40-40 CRESCENT STREET\n11101\nLONG ISLAND CITY",
+        "channel_of_trade": "DODO"
     },
     {
         "id": "US-130919",
@@ -425669,6 +426195,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "46155 DILLON ROAD\n92236\nCOACHELLA",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-130939",
+        "name": "Amoco",
+        "lat": 41.0151597868,
+        "lng": -76.4928043195,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "6 BUCKHORN RD",
+        "city": "BLOOMSBURG",
+        "state": "PA",
+        "postcode": "17815",
+        "telephone": "+1 570-784-9400",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "6 BUCKHORN RD\n17815\nBLOOMSBURG",
         "channel_of_trade": "BJBR"
     },
     {
@@ -426354,6 +426907,33 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-130992",
+        "name": "BP",
+        "lat": 33.5232531252,
+        "lng": -81.7816405353,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "2260 PINE LOG RD",
+        "city": "WARRENVILLE",
+        "state": "SC",
+        "postcode": "29851",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2260 PINE LOG RD\n29851\nWARRENVILLE",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-130993",
         "name": "BP",
         "lat": 36.2002025005,
@@ -426490,6 +427070,168 @@
         "watchlist_id": null,
         "formatted_address": "3200 VETERANS MEMORIAL HWY\n11716\nBOHEMIA",
         "channel_of_trade": "BODO"
+    },
+    {
+        "id": "US-131005",
+        "name": "BP",
+        "lat": 29.7425033761,
+        "lng": -96.3300387161,
+        "site_brand": "TA COCO",
+        "country_code": "US",
+        "address": "6701 US HWY 90",
+        "city": "SEALY",
+        "state": "TX",
+        "postcode": "77474",
+        "telephone": "+1 979-732-2986",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "6701 US HWY 90\n77474\nSEALY",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-131007",
+        "name": "BP",
+        "lat": 40.6901395493,
+        "lng": -112.2624324177,
+        "site_brand": "TA COCO",
+        "country_code": "US",
+        "address": "8836 CLINTON LANDING RD",
+        "city": "TOOELE",
+        "state": "UT",
+        "postcode": "84074",
+        "telephone": "+1 801-250-8585",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "8836 CLINTON LANDING RD\n84074\nTOOELE",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-131009",
+        "name": "BP",
+        "lat": 37.8611395284,
+        "lng": -112.8294422024,
+        "site_brand": "TA COCO",
+        "country_code": "US",
+        "address": "1130 NORTH 100 W",
+        "city": "PAROWAN",
+        "state": "UT",
+        "postcode": "84761",
+        "telephone": "+1 435-477-3311",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1130 NORTH 100 W\n84761\nPAROWAN",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-131010",
+        "name": "BP",
+        "lat": 29.7495286141,
+        "lng": -98.0580200998,
+        "site_brand": "TA COCO",
+        "country_code": "US",
+        "address": "4817 N INTERSTATE 35",
+        "city": "NEW BRAUNFELS",
+        "state": "TX",
+        "postcode": "78130",
+        "telephone": "+1 830-608-9395",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "4817 N INTERSTATE 35\n78130\nNEW BRAUNFELS",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-131011",
+        "name": "BP",
+        "lat": 47.8051845197,
+        "lng": -103.6457858445,
+        "site_brand": "TA COCO",
+        "country_code": "US",
+        "address": "14256 HIGHWAY 85 N",
+        "city": "ALEXANDER",
+        "state": "ND",
+        "postcode": "58831",
+        "telephone": "+1 701-828-3352",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "14256 HIGHWAY 85 N\n58831\nALEXANDER",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-131012",
+        "name": "BP",
+        "lat": 37.6535698682,
+        "lng": -104.7938163601,
+        "site_brand": "TA COCO",
+        "country_code": "US",
+        "address": "455 US HWY 85",
+        "city": "WALSENBURG",
+        "state": "CO",
+        "postcode": "81089",
+        "telephone": "+1 719-738-5733",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "455 US HWY 85\n81089\nWALSENBURG",
+        "channel_of_trade": "BJBR"
     },
     {
         "id": "US-13102257797241154500100000000000",
@@ -426767,15 +427509,15 @@
     {
         "id": "US-131078",
         "name": "BP",
-        "lat": 32.6539755046,
-        "lng": -96.751303719,
-        "site_brand": "TA COCO",
+        "lat": 32.654125809,
+        "lng": -96.7517362894,
+        "site_brand": "BPPLS",
         "country_code": "US",
-        "address": "7751 BONNIE VIEW RD",
+        "address": "7751 BONNIE VIEW ROAD",
         "city": "DALLAS",
         "state": "TX",
         "postcode": "75241",
-        "telephone": "+1 469-941-3150",
+        "telephone": "1111111111",
         "facilities": [
             "car_wash",
             "workshop",
@@ -426788,8 +427530,8 @@
         "products": [],
         "website": null,
         "watchlist_id": null,
-        "formatted_address": "7751 BONNIE VIEW RD\n75241\nDALLAS",
-        "channel_of_trade": "BJBR"
+        "formatted_address": "7751 BONNIE VIEW ROAD\n75241\nDALLAS",
+        "channel_of_trade": "EV"
     },
     {
         "id": "US-131106",
@@ -426872,6 +427614,35 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "4248 AA HWY\n41056\nMAYSVILLE",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-131125",
+        "name": "Amoco",
+        "lat": 38.6406569926,
+        "lng": -76.8983410155,
+        "site_brand": "AM",
+        "country_code": "US",
+        "address": "11901 BUSINESS PARK DRIVE",
+        "city": "WALDORF",
+        "state": "MD",
+        "postcode": "20601",
+        "telephone": "1111111111",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "grocer_reward",
+            "harris_teeter",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "11901 BUSINESS PARK DRIVE\n20601\nWALDORF",
         "channel_of_trade": "BJBR"
     },
     {
@@ -426981,6 +427752,60 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2182 Harbins Rd\n30019\nDacula",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-131150",
+        "name": "BP",
+        "lat": 30.4402403015,
+        "lng": -84.314053297,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "1881 WEST PENSACOLA STREET",
+        "city": "TALLAHASSEE",
+        "state": "FL",
+        "postcode": "32304",
+        "telephone": "+1 850-574-8988",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1881 WEST PENSACOLA STREET\n32304\nTALLAHASSEE",
+        "channel_of_trade": "BJBR"
+    },
+    {
+        "id": "US-131153",
+        "name": "BP",
+        "lat": 30.3763470108,
+        "lng": -84.2929426038,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "4977 CAPITAL CIRCLE SOUTHWEST",
+        "city": "TALLAHASSEE",
+        "state": "FL",
+        "postcode": "32305",
+        "telephone": "+1 850-877-9333",
+        "facilities": [
+            "car_wash",
+            "workshop",
+            "toilet",
+            "shop",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "4977 CAPITAL CIRCLE SOUTHWEST\n32305\nTALLAHASSEE",
         "channel_of_trade": "BJBR"
     },
     {
@@ -443020,7 +443845,7 @@
         "city": "St Louis",
         "state": "MO",
         "postcode": "63136",
-        "telephone": "+1 314-867-2288",
+        "telephone": "+1 314-918-5938",
         "facilities": [
             "car_wash",
             "shop",
@@ -468958,7 +469783,6 @@
         "postcode": "53121",
         "telephone": "+1 262-723-1897",
         "facilities": [
-            "open_24_hours",
             "toilet",
             "shop",
             "grocer_reward",
@@ -493995,7 +494819,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2410 Lewisville Clemmons Rd\n27012\nClemmons",
@@ -496262,8 +497088,6 @@
         "telephone": "+1 336-667-5586",
         "facilities": [
             "open_24_hours",
-            "car_wash",
-            "workshop",
             "toilet",
             "shop",
             "grocer_reward",
@@ -496273,7 +497097,9 @@
             "mobile_acceptance",
             "mobile_enabled"
         ],
-        "products": [],
+        "products": [
+            "regular_diesel"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "1611 W D St\n28659\nNorth Wilkesboro",
@@ -537057,6 +537883,34 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-87231449515503292600100000000000",
+        "name": "BP",
+        "lat": 28.373708,
+        "lng": -80.806222,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "5550 SR 524",
+        "city": "COCOA",
+        "state": "FL",
+        "postcode": "32926",
+        "telephone": "+1 321-735-4542",
+        "facilities": [
+            "toilet",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [
+            "regular_diesel"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "5550 SR 524\n32926\nCOCOA",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-87274573708011513600100000000000",
         "name": "BP",
         "lat": 40.47373,
@@ -544598,6 +545452,34 @@
         "channel_of_trade": "BJBR"
     },
     {
+        "id": "US-92387923477704808000100000000000",
+        "name": "BP",
+        "lat": 42.474627,
+        "lng": -82.889271,
+        "site_brand": "BP",
+        "country_code": "US",
+        "address": "24770 Jefferson Ave",
+        "city": "St Clair Shores",
+        "state": "MI",
+        "postcode": "48080",
+        "telephone": "+1 586-552-4542",
+        "facilities": [
+            "workshop",
+            "shop",
+            "loyalty",
+            "citi_rewards",
+            "mobile_acceptance",
+            "mobile_enabled"
+        ],
+        "products": [
+            "regular_diesel"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "24770 Jefferson Ave\n48080\nSt Clair Shores",
+        "channel_of_trade": "BJBR"
+    },
+    {
         "id": "US-92391423412152802700100000000000",
         "name": "BP",
         "lat": 35.430255,
@@ -546712,7 +547594,7 @@
         "city": "Oconto Falls",
         "state": "WI",
         "postcode": "54154",
-        "telephone": "+1 920-846-0301",
+        "telephone": "+1 920-848-1120",
         "facilities": [
             "open_24_hours",
             "car_wash",
@@ -556706,7 +557588,7 @@
         "address": "2949 North Toltec Road",
         "city": "Eloy",
         "state": "AZ",
-        "postcode": "85131",
+        "postcode": "85131-9601",
         "telephone": "+1 520-466-7363",
         "facilities": [
             "open_24_hours",
@@ -556719,7 +557601,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0007",
-        "formatted_address": "2949 North Toltec Road\n85131\nEloy",
+        "formatted_address": "2949 North Toltec Road\n85131-9601\nEloy",
         "channel_of_trade": "Unknown"
     },
     {
@@ -556757,7 +557639,7 @@
         "address": "2510 Burr St.",
         "city": "Gary",
         "state": "IN",
-        "postcode": "46406",
+        "postcode": "46406-3130",
         "telephone": "+1 219-845-3721",
         "facilities": [
             "open_24_hours",
@@ -556770,7 +557652,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0010",
-        "formatted_address": "2510 Burr St.\n46406\nGary",
+        "formatted_address": "2510 Burr St.\n46406-3130\nGary",
         "channel_of_trade": "Unknown"
     },
     {
@@ -556833,7 +557715,7 @@
         "address": "202 N. Motel Blvd",
         "city": "Las Cruces",
         "state": "NM",
-        "postcode": "88007",
+        "postcode": "88007-4113",
         "telephone": "+1 575-527-7400",
         "facilities": [
             "open_24_hours"
@@ -556845,7 +557727,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0014",
-        "formatted_address": "202 N. Motel Blvd\n88007\nLas Cruces",
+        "formatted_address": "202 N. Motel Blvd\n88007-4113\nLas Cruces",
         "channel_of_trade": "Unknown"
     },
     {
@@ -556909,7 +557791,7 @@
         "address": "6800 Thompson Road",
         "city": "Baytown",
         "state": "TX",
-        "postcode": "77521",
+        "postcode": "77521-1334",
         "telephone": "+1 281-424-7772",
         "facilities": [
             "open_24_hours"
@@ -556921,7 +557803,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0017",
-        "formatted_address": "6800 Thompson Road\n77521\nBaytown",
+        "formatted_address": "6800 Thompson Road\n77521-1334\nBaytown",
         "channel_of_trade": "Unknown"
     },
     {
@@ -556934,7 +557816,7 @@
         "address": "1400 Elkton Road",
         "city": "Elkton",
         "state": "MD",
-        "postcode": "21921",
+        "postcode": "21921-4154",
         "telephone": "+1 410-398-7000",
         "facilities": [
             "open_24_hours"
@@ -556946,7 +557828,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0019",
-        "formatted_address": "1400 Elkton Road\n21921\nElkton",
+        "formatted_address": "1400 Elkton Road\n21921-4154\nElkton",
         "channel_of_trade": "Unknown"
     },
     {
@@ -556959,7 +557841,7 @@
         "address": "327 Ruby Road",
         "city": "Willington",
         "state": "CT",
-        "postcode": "06279",
+        "postcode": "06279-2415",
         "telephone": "+1 860-684-0499",
         "facilities": [
             "open_24_hours"
@@ -556971,7 +557853,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0022",
-        "formatted_address": "327 Ruby Road\n06279\nWillington",
+        "formatted_address": "327 Ruby Road\n06279-2415\nWillington",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557110,7 +557992,7 @@
         "address": "5551 St Rt 193",
         "city": "Kingsville",
         "state": "OH",
-        "postcode": "44048",
+        "postcode": "44048-7715",
         "telephone": "+1 440-224-2035",
         "facilities": [
             "open_24_hours"
@@ -557122,7 +558004,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0029",
-        "formatted_address": "5551 St Rt 193\n44048\nKingsville",
+        "formatted_address": "5551 St Rt 193\n44048-7715\nKingsville",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557186,7 +558068,7 @@
         "address": "408 Highway 149 North",
         "city": "Earle",
         "state": "AR",
-        "postcode": "72331",
+        "postcode": "72331-9550",
         "telephone": "+1 870-657-2105",
         "facilities": [
             "open_24_hours"
@@ -557198,7 +558080,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0033",
-        "formatted_address": "408 Highway 149 North\n72331\nEarle",
+        "formatted_address": "408 Highway 149 North\n72331-9550\nEarle",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557287,7 +558169,7 @@
         "address": "46155 Dillon Road",
         "city": "Coachella",
         "state": "CA",
-        "postcode": "92236",
+        "postcode": "92236-2029",
         "telephone": "+1 760-342-6200",
         "facilities": [
             "open_24_hours"
@@ -557299,7 +558181,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0041",
-        "formatted_address": "46155 Dillon Road\n92236\nCoachella",
+        "formatted_address": "46155 Dillon Road\n92236-2029\nCoachella",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557312,7 +558194,7 @@
         "address": "4510 Broadway St",
         "city": "Mt. Vernon",
         "state": "IL",
-        "postcode": "62864",
+        "postcode": "62864-6710",
         "telephone": "+1 618-244-4242",
         "facilities": [
             "open_24_hours"
@@ -557324,7 +558206,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0043",
-        "formatted_address": "4510 Broadway St\n62864\nMt. Vernon",
+        "formatted_address": "4510 Broadway St\n62864-6710\nMt. Vernon",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557362,7 +558244,7 @@
         "address": "2021 Eatonton Road",
         "city": "Madison",
         "state": "GA",
-        "postcode": "30650",
+        "postcode": "30650-5004",
         "telephone": "+1 706-342-4176",
         "facilities": [
             "open_24_hours"
@@ -557374,7 +558256,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0045",
-        "formatted_address": "2021 Eatonton Road\n30650\nMadison",
+        "formatted_address": "2021 Eatonton Road\n30650-5004\nMadison",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557387,7 +558269,7 @@
         "address": "224 Highway 65 South",
         "city": "Tallulah",
         "state": "LA",
-        "postcode": "71282",
+        "postcode": "71282-4807",
         "telephone": "+1 318-574-5900",
         "facilities": [
             "open_24_hours"
@@ -557399,7 +558281,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0046",
-        "formatted_address": "224 Highway 65 South\n71282\nTallulah",
+        "formatted_address": "224 Highway 65 South\n71282-4807\nTallulah",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557437,7 +558319,7 @@
         "address": "975 State Route 173",
         "city": "Bloomsbury",
         "state": "NJ",
-        "postcode": "08804",
+        "postcode": "08804-3113",
         "telephone": "+1 908-479-4136",
         "facilities": [
             "open_24_hours"
@@ -557449,7 +558331,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0048",
-        "formatted_address": "975 State Route 173\n08804\nBloomsbury",
+        "formatted_address": "975 State Route 173\n08804-3113\nBloomsbury",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557462,7 +558344,7 @@
         "address": "2105 South Goliad St.",
         "city": "Rockwall",
         "state": "TX",
-        "postcode": "75032",
+        "postcode": "75032-4821",
         "telephone": "+1 972-722-7450",
         "facilities": [
             "open_24_hours"
@@ -557474,7 +558356,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0049",
-        "formatted_address": "2105 South Goliad St.\n75032\nRockwall",
+        "formatted_address": "2105 South Goliad St.\n75032-4821\nRockwall",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557487,7 +558369,7 @@
         "address": "5901 Highway 51",
         "city": "Deforest",
         "state": "WI",
-        "postcode": "53532",
+        "postcode": "53532-2926",
         "telephone": "+1 608-249-9000",
         "facilities": [
             "open_24_hours"
@@ -557499,7 +558381,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0050",
-        "formatted_address": "5901 Highway 51\n53532\nDeforest",
+        "formatted_address": "5901 Highway 51\n53532-2926\nDeforest",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557512,7 +558394,7 @@
         "address": "854 State Hwy 80",
         "city": "Matthews",
         "state": "MO",
-        "postcode": "63867",
+        "postcode": "63867-9154",
         "telephone": "+1 573-471-8644",
         "facilities": [
             "open_24_hours"
@@ -557524,7 +558406,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0051",
-        "formatted_address": "854 State Hwy 80\n63867\nMatthews",
+        "formatted_address": "854 State Hwy 80\n63867-9154\nMatthews",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557537,7 +558419,7 @@
         "address": "100 North Broadway",
         "city": "Oak Grove",
         "state": "MO",
-        "postcode": "64075",
+        "postcode": "64075-9205",
         "telephone": "+1 816-690-4115",
         "facilities": [
             "open_24_hours"
@@ -557549,7 +558431,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0052",
-        "formatted_address": "100 North Broadway\n64075\nOak Grove",
+        "formatted_address": "100 North Broadway\n64075-9205\nOak Grove",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557612,7 +558494,7 @@
         "address": "7000 E. Interstate 40",
         "city": "Amarillo",
         "state": "TX",
-        "postcode": "79118",
+        "postcode": "79118-6929",
         "telephone": "+1 806-342-3080",
         "facilities": [
             "open_24_hours"
@@ -557624,7 +558506,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0055",
-        "formatted_address": "7000 E. Interstate 40\n79118\nAmarillo",
+        "formatted_address": "7000 E. Interstate 40\n79118-6929\nAmarillo",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557637,7 +558519,7 @@
         "address": "21856 Bents Road NE",
         "city": "Aurora",
         "state": "OR",
-        "postcode": "97002",
+        "postcode": "97002-8676",
         "telephone": "+1 503-678-2111",
         "facilities": [
             "open_24_hours"
@@ -557649,7 +558531,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0056",
-        "formatted_address": "21856 Bents Road NE\n97002\nAurora",
+        "formatted_address": "21856 Bents Road NE\n97002-8676\nAurora",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557662,7 +558544,7 @@
         "address": "19483 Knighton Road",
         "city": "Redding",
         "state": "CA",
-        "postcode": "96002",
+        "postcode": "96002-4575",
         "telephone": "+1 530-221-4760",
         "facilities": [
             "open_24_hours"
@@ -557674,7 +558556,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0057",
-        "formatted_address": "19483 Knighton Road\n96002\nRedding",
+        "formatted_address": "19483 Knighton Road\n96002-4575\nRedding",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557687,7 +558569,7 @@
         "address": "501 South Morgan Road",
         "city": "Oklahoma City",
         "state": "OK",
-        "postcode": "73128",
+        "postcode": "73128-7102",
         "telephone": "+1 405-324-5376",
         "facilities": [
             "open_24_hours"
@@ -557699,7 +558581,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0059",
-        "formatted_address": "501 South Morgan Road\n73128\nOklahoma City",
+        "formatted_address": "501 South Morgan Road\n73128-7102\nOklahoma City",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557762,7 +558644,7 @@
         "address": "3210 South Seven Street",
         "city": "Council Bluffs",
         "state": "IA",
-        "postcode": "51501",
+        "postcode": "51501-8068",
         "telephone": "+1 712-366-2217",
         "facilities": [
             "open_24_hours"
@@ -557774,7 +558656,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0066",
-        "formatted_address": "3210 South Seven Street\n51501\nCouncil Bluffs",
+        "formatted_address": "3210 South Seven Street\n51501-8068\nCouncil Bluffs",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557839,7 +558721,7 @@
         "address": "1255 N Dixie Hwy",
         "city": "Monroe",
         "state": "MI",
-        "postcode": "48162",
+        "postcode": "48162-5228",
         "telephone": "+1 734-384-7952",
         "facilities": [
             "open_24_hours"
@@ -557851,7 +558733,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0069",
-        "formatted_address": "1255 N Dixie Hwy\n48162\nMonroe",
+        "formatted_address": "1255 N Dixie Hwy\n48162-5228\nMonroe",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557914,7 +558796,7 @@
         "address": "2501 University Blvd., NE",
         "city": "Albuquerque",
         "state": "NM",
-        "postcode": "87107",
+        "postcode": "87107-1707",
         "telephone": "+1 505-884-1066",
         "facilities": [
             "open_24_hours"
@@ -557926,7 +558808,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0081",
-        "formatted_address": "2501 University Blvd., NE\n87107\nAlbuquerque",
+        "formatted_address": "2501 University Blvd., NE\n87107-1707\nAlbuquerque",
         "channel_of_trade": "Unknown"
     },
     {
@@ -557989,7 +558871,7 @@
         "address": "200 Baker Road",
         "city": "Dexter",
         "state": "MI",
-        "postcode": "48130",
+        "postcode": "48130-1505",
         "telephone": "+1 734-426-3951",
         "facilities": [
             "open_24_hours"
@@ -558001,7 +558883,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0089",
-        "formatted_address": "200 Baker Road\n48130\nDexter",
+        "formatted_address": "200 Baker Road\n48130-1505\nDexter",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558064,7 +558946,7 @@
         "address": "505 Truckers Lane",
         "city": "Bloomington",
         "state": "IL",
-        "postcode": "61701",
+        "postcode": "61701-9501",
         "telephone": "+1 309-827-4676",
         "facilities": [
             "open_24_hours"
@@ -558076,7 +558958,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0092",
-        "formatted_address": "505 Truckers Lane\n61701\nBloomington",
+        "formatted_address": "505 Truckers Lane\n61701-9501\nBloomington",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558089,7 +558971,7 @@
         "address": "7777 Burlington Pike",
         "city": "Florence",
         "state": "KY",
-        "postcode": "41042",
+        "postcode": "41042-1517",
         "telephone": "+1 859-371-7166",
         "facilities": [
             "open_24_hours"
@@ -558101,7 +558983,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0093",
-        "formatted_address": "7777 Burlington Pike\n41042\nFlorence",
+        "formatted_address": "7777 Burlington Pike\n41042-1517\nFlorence",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558114,7 +558996,7 @@
         "address": "946 West Beale Street",
         "city": "Kingman",
         "state": "AZ",
-        "postcode": "86401",
+        "postcode": "86401-5427",
         "telephone": "+1 928-753-7600",
         "facilities": [
             "open_24_hours"
@@ -558126,7 +559008,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0094",
-        "formatted_address": "946 West Beale Street\n86401\nKingman",
+        "formatted_address": "946 West Beale Street\n86401-5427\nKingman",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558139,7 +559021,7 @@
         "address": "4450 Portage St. NW",
         "city": "Canton",
         "state": "OH",
-        "postcode": "44720",
+        "postcode": "44720-7332",
         "telephone": "+1 330-494-7507",
         "facilities": [
             "open_24_hours"
@@ -558151,7 +559033,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0095",
-        "formatted_address": "4450 Portage St. NW\n44720\nCanton",
+        "formatted_address": "4450 Portage St. NW\n44720-7332\nCanton",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558164,7 +559046,7 @@
         "address": "8050 Dean Martin Drive",
         "city": "Las Vegas",
         "state": "NV",
-        "postcode": "89139",
+        "postcode": "89139-6624",
         "telephone": "+1 702-361-1176",
         "facilities": [
             "open_24_hours"
@@ -558176,7 +559058,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0108",
-        "formatted_address": "8050 Dean Martin Drive\n89139\nLas Vegas",
+        "formatted_address": "8050 Dean Martin Drive\n89139-6624\nLas Vegas",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558189,7 +559071,7 @@
         "address": "6100 Sawyer Road",
         "city": "Sawyer",
         "state": "MI",
-        "postcode": "49125",
+        "postcode": "49125-9343",
         "telephone": "+1 269-426-4884",
         "facilities": [
             "open_24_hours"
@@ -558201,7 +559083,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0116",
-        "formatted_address": "6100 Sawyer Road\n49125\nSawyer",
+        "formatted_address": "6100 Sawyer Road\n49125-9343\nSawyer",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558214,7 +559096,7 @@
         "address": "13011 Old Hickory Blvd.",
         "city": "Antioch",
         "state": "TN",
-        "postcode": "37013",
+        "postcode": "37013-2412",
         "telephone": "+1 615-641-6731",
         "facilities": [
             "open_24_hours"
@@ -558226,7 +559108,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0117",
-        "formatted_address": "13011 Old Hickory Blvd.\n37013\nAntioch",
+        "formatted_address": "13011 Old Hickory Blvd.\n37013-2412\nAntioch",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558289,7 +559171,7 @@
         "address": "10134 Lewistown Road",
         "city": "Ashland",
         "state": "VA",
-        "postcode": "23005",
+        "postcode": "23005-7952",
         "telephone": "+1 804-798-6021",
         "facilities": [
             "open_24_hours"
@@ -558301,7 +559183,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0142",
-        "formatted_address": "10134 Lewistown Road\n23005\nAshland",
+        "formatted_address": "10134 Lewistown Road\n23005-7952\nAshland",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558314,7 +559196,7 @@
         "address": "1025 Peppers Ferry Road",
         "city": "Wytheville",
         "state": "VA",
-        "postcode": "24382",
+        "postcode": "24382-4043",
         "telephone": "+1 276-228-8676",
         "facilities": [
             "open_24_hours"
@@ -558326,7 +559208,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0143",
-        "formatted_address": "1025 Peppers Ferry Road\n24382\nWytheville",
+        "formatted_address": "1025 Peppers Ferry Road\n24382-4043\nWytheville",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558389,7 +559271,7 @@
         "address": "5101 Quebec Street",
         "city": "Commerce City",
         "state": "CO",
-        "postcode": "80022",
+        "postcode": "80022-4860",
         "telephone": "+1 303-286-0123",
         "facilities": [
             "open_24_hours"
@@ -558401,7 +559283,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0148",
-        "formatted_address": "5101 Quebec Street\n80022\nCommerce City",
+        "formatted_address": "5101 Quebec Street\n80022-4860\nCommerce City",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558439,7 +559321,7 @@
         "address": "7751 Bonnie View Rd",
         "city": "Dallas",
         "state": "TX",
-        "postcode": "75241",
+        "postcode": "75241-7418",
         "telephone": "+1 469-941-3150",
         "facilities": [
             "open_24_hours"
@@ -558451,7 +559333,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0150",
-        "formatted_address": "7751 Bonnie View Rd\n75241\nDallas",
+        "formatted_address": "7751 Bonnie View Rd\n75241-7418\nDallas",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558464,7 +559346,7 @@
         "address": "7401 Assateague Drive",
         "city": "Jessup",
         "state": "MD",
-        "postcode": "20794",
+        "postcode": "20794-3253",
         "telephone": "+1 410-799-3835",
         "facilities": [
             "open_24_hours",
@@ -558477,7 +559359,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0151",
-        "formatted_address": "7401 Assateague Drive\n20794\nJessup",
+        "formatted_address": "7401 Assateague Drive\n20794-3253\nJessup",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558490,7 +559372,7 @@
         "address": "11603 N. 1900 Rd.",
         "city": "Sayre",
         "state": "OK",
-        "postcode": "73662",
+        "postcode": "73662-6119",
         "telephone": "+1 580-928-5571",
         "facilities": [
             "open_24_hours"
@@ -558502,7 +559384,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0152",
-        "formatted_address": "11603 N. 1900 Rd.\n73662\nSayre",
+        "formatted_address": "11603 N. 1900 Rd.\n73662-6119\nSayre",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558515,7 +559397,7 @@
         "address": "1010 Beltway Parkway",
         "city": "Laredo",
         "state": "TX",
-        "postcode": "78045",
+        "postcode": "78045-3626",
         "telephone": "+1 956-724-2016",
         "facilities": [
             "open_24_hours"
@@ -558527,7 +559409,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0153",
-        "formatted_address": "1010 Beltway Parkway\n78045\nLaredo",
+        "formatted_address": "1010 Beltway Parkway\n78045-3626\nLaredo",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558565,7 +559447,7 @@
         "address": "30732 Hwy 441 South",
         "city": "Commerce",
         "state": "GA",
-        "postcode": "30529",
+        "postcode": "30529-6602",
         "telephone": "+1 706-335-5198",
         "facilities": [
             "open_24_hours"
@@ -558577,7 +559459,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0156",
-        "formatted_address": "30732 Hwy 441 South\n30529\nCommerce",
+        "formatted_address": "30732 Hwy 441 South\n30529-6602\nCommerce",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558590,7 +559472,7 @@
         "address": "11706 Tampa Gateway Blvd.",
         "city": "Seffner",
         "state": "FL",
-        "postcode": "33584",
+        "postcode": "33584-3038",
         "telephone": "+1 813-262-1560",
         "facilities": [
             "open_24_hours"
@@ -558602,7 +559484,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0158",
-        "formatted_address": "11706 Tampa Gateway Blvd.\n33584\nSeffner",
+        "formatted_address": "11706 Tampa Gateway Blvd.\n33584-3038\nSeffner",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558715,7 +559597,7 @@
         "address": "4115 Broadway Ave",
         "city": "Boise",
         "state": "ID",
-        "postcode": "83705",
+        "postcode": "83705-5302",
         "telephone": "+1 208-344-1091",
         "facilities": [
             "open_24_hours"
@@ -558727,7 +559609,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0167",
-        "formatted_address": "4115 Broadway Ave\n83705\nBoise",
+        "formatted_address": "4115 Broadway Ave\n83705-5302\nBoise",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558740,7 +559622,7 @@
         "address": "435 Winton Parkway",
         "city": "Livingston",
         "state": "CA",
-        "postcode": "95334",
+        "postcode": "95334-9809",
         "telephone": "+1 209-799-3500",
         "facilities": [
             "open_24_hours"
@@ -558752,7 +559634,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0170",
-        "formatted_address": "435 Winton Parkway\n95334\nLivingston",
+        "formatted_address": "435 Winton Parkway\n95334-9809\nLivingston",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558941,7 +559823,7 @@
         "address": "2112 Highway 71 South",
         "city": "Marianna",
         "state": "FL",
-        "postcode": "32448",
+        "postcode": "32448-2530",
         "telephone": "+1 850-526-3303",
         "facilities": [
             "open_24_hours"
@@ -558953,7 +559835,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0178",
-        "formatted_address": "2112 Highway 71 South\n32448\nMarianna",
+        "formatted_address": "2112 Highway 71 South\n32448-2530\nMarianna",
         "channel_of_trade": "Unknown"
     },
     {
@@ -558966,7 +559848,7 @@
         "address": "3014 Paxville Highway",
         "city": "Manning",
         "state": "SC",
-        "postcode": "29102",
+        "postcode": "29102-6448",
         "telephone": "+1 803-791-9095",
         "facilities": [
             "open_24_hours"
@@ -558978,7 +559860,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0179",
-        "formatted_address": "3014 Paxville Highway\n29102\nManning",
+        "formatted_address": "3014 Paxville Highway\n29102-6448\nManning",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559016,7 +559898,7 @@
         "address": "6000 E. Frontage Road",
         "city": "Mill City",
         "state": "NV",
-        "postcode": "89418",
+        "postcode": "89418-9512",
         "telephone": "+1 775-538-7311",
         "facilities": [
             "open_24_hours"
@@ -559028,7 +559910,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0181",
-        "formatted_address": "6000 E. Frontage Road\n89418\nMill City",
+        "formatted_address": "6000 E. Frontage Road\n89418-9512\nMill City",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559041,7 +559923,7 @@
         "address": "790 N W Frontage Road",
         "city": "Troutdale",
         "state": "OR",
-        "postcode": "97060",
+        "postcode": "97060-9514",
         "telephone": "+1 503-666-1588",
         "facilities": [
             "open_24_hours"
@@ -559053,7 +559935,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0183",
-        "formatted_address": "790 N W Frontage Road\n97060\nTroutdale",
+        "formatted_address": "790 N W Frontage Road\n97060-9514\nTroutdale",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559091,7 +559973,7 @@
         "address": "4000 I-80 Service Road",
         "city": "Burns",
         "state": "WY",
-        "postcode": "82053",
+        "postcode": "82053-9816",
         "telephone": "+1 307-365-6670",
         "facilities": [
             "open_24_hours"
@@ -559103,7 +559985,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0187",
-        "formatted_address": "4000 I-80 Service Road\n82053\nBurns",
+        "formatted_address": "4000 I-80 Service Road\n82053-9816\nBurns",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559191,7 +560073,7 @@
         "address": "8909 20th Street",
         "city": "Vero Beach",
         "state": "FL",
-        "postcode": "32966",
+        "postcode": "32966-1711",
         "telephone": "+1 772-562-1791",
         "facilities": [
             "open_24_hours"
@@ -559203,7 +560085,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0197",
-        "formatted_address": "8909 20th Street\n32966\nVero Beach",
+        "formatted_address": "8909 20th Street\n32966-1711\nVero Beach",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559216,7 +560098,7 @@
         "address": "819 Edwardsville Rd.",
         "city": "Troy",
         "state": "IL",
-        "postcode": "62294",
+        "postcode": "62294-1343",
         "telephone": "+1 618-667-9931",
         "facilities": [
             "open_24_hours"
@@ -559228,7 +560110,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0199",
-        "formatted_address": "819 Edwardsville Rd.\n62294\nTroy",
+        "formatted_address": "819 Edwardsville Rd.\n62294-1343\nTroy",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559266,7 +560148,7 @@
         "address": "753 Upper Court Street",
         "city": "Binghamton",
         "state": "NY",
-        "postcode": "13904",
+        "postcode": "13904-2707",
         "telephone": "+1 607-775-3500",
         "facilities": [
             "open_24_hours"
@@ -559278,7 +560160,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0207",
-        "formatted_address": "753 Upper Court Street\n13904\nBinghamton",
+        "formatted_address": "753 Upper Court Street\n13904-2707\nBinghamton",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559291,7 +560173,7 @@
         "address": "9616 Commerce Drive",
         "city": "Dansville",
         "state": "NY",
-        "postcode": "14437",
+        "postcode": "14437-9272",
         "telephone": "+1 585-335-6023",
         "facilities": [
             "open_24_hours"
@@ -559303,7 +560185,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0208",
-        "formatted_address": "9616 Commerce Drive\n14437\nDansville",
+        "formatted_address": "9616 Commerce Drive\n14437-9272\nDansville",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559316,7 +560198,7 @@
         "address": "125 Neelytown Road",
         "city": "Montgomery",
         "state": "NY",
-        "postcode": "12549",
+        "postcode": "12549-2823",
         "telephone": "+1 845-457-3163",
         "facilities": [
             "open_24_hours"
@@ -559328,7 +560210,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0210",
-        "formatted_address": "125 Neelytown Road\n12549\nMontgomery",
+        "formatted_address": "125 Neelytown Road\n12549-2823\nMontgomery",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559366,7 +560248,7 @@
         "address": "6 Buckhorn Road",
         "city": "Bloomsburg",
         "state": "PA",
-        "postcode": "17815",
+        "postcode": "17815-8322",
         "telephone": "+1 570-784-9400",
         "facilities": [
             "open_24_hours",
@@ -559379,7 +560261,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0212",
-        "formatted_address": "6 Buckhorn Road\n17815\nBloomsburg",
+        "formatted_address": "6 Buckhorn Road\n17815-8322\nBloomsburg",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559392,7 +560274,7 @@
         "address": "10835 John Wayne Drive",
         "city": "Greencastle",
         "state": "PA",
-        "postcode": "17225",
+        "postcode": "17225-9584",
         "telephone": "+1 717-597-7762",
         "facilities": [
             "open_24_hours",
@@ -559405,7 +560287,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0213",
-        "formatted_address": "10835 John Wayne Drive\n17225\nGreencastle",
+        "formatted_address": "10835 John Wayne Drive\n17225-9584\nGreencastle",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559444,7 +560326,7 @@
         "address": "4050 Depot Road",
         "city": "Erie",
         "state": "PA",
-        "postcode": "16510",
+        "postcode": "16510-5911",
         "telephone": "+1 814-899-1919",
         "facilities": [
             "open_24_hours"
@@ -559456,7 +560338,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0215",
-        "formatted_address": "4050 Depot Road\n16510\nErie",
+        "formatted_address": "4050 Depot Road\n16510-5911\nErie",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559469,7 +560351,7 @@
         "address": "5501 O'Donnell Street",
         "city": "Baltimore",
         "state": "MD",
-        "postcode": "21224",
+        "postcode": "21224-4629",
         "telephone": "+1 410-633-4611",
         "facilities": [
             "open_24_hours"
@@ -559481,7 +560363,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0216",
-        "formatted_address": "5501 O'Donnell Street\n21224\nBaltimore",
+        "formatted_address": "5501 O'Donnell Street\n21224-4629\nBaltimore",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559519,7 +560401,7 @@
         "address": "153 Wiggins Road",
         "city": "Candler",
         "state": "NC",
-        "postcode": "28715",
+        "postcode": "28715-8802",
         "telephone": "+1 828-665-1156",
         "facilities": [
             "open_24_hours"
@@ -559531,7 +560413,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0221",
-        "formatted_address": "153 Wiggins Road\n28715\nCandler",
+        "formatted_address": "153 Wiggins Road\n28715-8802\nCandler",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559544,7 +560426,7 @@
         "address": "1806 Hwy 371 West",
         "city": "Prescott",
         "state": "AR",
-        "postcode": "71857",
+        "postcode": "71857-3900",
         "telephone": "+1 870-887-8900",
         "facilities": [
             "open_24_hours"
@@ -559556,7 +560438,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0224",
-        "formatted_address": "1806 Hwy 371 West\n71857\nPrescott",
+        "formatted_address": "1806 Hwy 371 West\n71857-3900\nPrescott",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559569,7 +560451,7 @@
         "address": "1010 N. 339th Avenue",
         "city": "Tonopah",
         "state": "AZ",
-        "postcode": "85354",
+        "postcode": "85354-7434",
         "telephone": "+1 623-386-6443",
         "facilities": [
             "open_24_hours"
@@ -559581,7 +560463,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0225",
-        "formatted_address": "1010 N. 339th Avenue\n85354\nTonopah",
+        "formatted_address": "1010 N. 339th Avenue\n85354-7434\nTonopah",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559594,7 +560476,7 @@
         "address": "1501 North Fort Grant Road",
         "city": "Willcox",
         "state": "AZ",
-        "postcode": "85643",
+        "postcode": "85643-1007",
         "telephone": "+1 520-384-5311",
         "facilities": [
             "open_24_hours"
@@ -559606,7 +560488,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0226",
-        "formatted_address": "1501 North Fort Grant Road\n85643\nWillcox",
+        "formatted_address": "1501 North Fort Grant Road\n85643-1007\nWillcox",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559619,7 +560501,7 @@
         "address": "2930 Lenwood Road",
         "city": "Barstow",
         "state": "CA",
-        "postcode": "92311",
+        "postcode": "92311-9571",
         "telephone": "+1 760-253-2922",
         "facilities": [
             "open_24_hours"
@@ -559631,7 +560513,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0227",
-        "formatted_address": "2930 Lenwood Road\n92311\nBarstow",
+        "formatted_address": "2930 Lenwood Road\n92311-9571\nBarstow",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559644,7 +560526,7 @@
         "address": "2200 Ninth Street",
         "city": "Limon",
         "state": "CO",
-        "postcode": "80828",
+        "postcode": "80828-2124",
         "telephone": "+1 719-775-2811",
         "facilities": [
             "open_24_hours"
@@ -559656,7 +560538,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0228",
-        "formatted_address": "2200 Ninth Street\n80828\nLimon",
+        "formatted_address": "2200 Ninth Street\n80828-2124\nLimon",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559694,7 +560576,7 @@
         "address": "704 West Interstate 20",
         "city": "Big Spring",
         "state": "TX",
-        "postcode": "79720",
+        "postcode": "79720-0002",
         "telephone": "+1 432-264-4444",
         "facilities": [
             "open_24_hours"
@@ -559706,7 +560588,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0230",
-        "formatted_address": "704 West Interstate 20\n79720\nBig Spring",
+        "formatted_address": "704 West Interstate 20\n79720-0002\nBig Spring",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559719,7 +560601,7 @@
         "address": "802 E. York, Hwy 59",
         "city": "Ganado",
         "state": "TX",
-        "postcode": "77962",
+        "postcode": "77962-8152",
         "telephone": "+1 361-541-5575",
         "facilities": [
             "open_24_hours"
@@ -559731,7 +560613,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0231",
-        "formatted_address": "802 E. York, Hwy 59\n77962\nGanado",
+        "formatted_address": "802 E. York, Hwy 59\n77962-8152\nGanado",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559769,7 +560651,7 @@
         "address": "1700 Wilson Road",
         "city": "Terrell",
         "state": "TX",
-        "postcode": "75161",
+        "postcode": "75161-5334",
         "telephone": "+1 972-563-6939",
         "facilities": [
             "open_24_hours"
@@ -559781,7 +560663,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0233",
-        "formatted_address": "1700 Wilson Road\n75161\nTerrell",
+        "formatted_address": "1700 Wilson Road\n75161-5334\nTerrell",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559794,7 +560676,7 @@
         "address": "1400 Higley Blvd., Exit 214",
         "city": "Rawlins",
         "state": "WY",
-        "postcode": "82301",
+        "postcode": "82301-6463",
         "telephone": "+1 307-324-8722",
         "facilities": [
             "open_24_hours"
@@ -559806,7 +560688,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0234",
-        "formatted_address": "1400 Higley Blvd., Exit 214\n82301\nRawlins",
+        "formatted_address": "1400 Higley Blvd., Exit 214\n82301-6463\nRawlins",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559844,7 +560726,7 @@
         "address": "21 Romines Drive",
         "city": "Morris",
         "state": "IL",
-        "postcode": "60450",
+        "postcode": "60450-9398",
         "telephone": "+1 815-942-5690",
         "facilities": [
             "open_24_hours"
@@ -559856,7 +560738,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0236",
-        "formatted_address": "21 Romines Drive\n60450\nMorris",
+        "formatted_address": "21 Romines Drive\n60450-9398\nMorris",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559869,7 +560751,7 @@
         "address": "8560 Greenwood Rd",
         "city": "Greenwood",
         "state": "LA",
-        "postcode": "71033",
+        "postcode": "71033-3105",
         "telephone": "+1 318-938-5411",
         "facilities": [
             "open_24_hours"
@@ -559881,7 +560763,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0237",
-        "formatted_address": "8560 Greenwood Rd\n71033\nGreenwood",
+        "formatted_address": "8560 Greenwood Rd\n71033-3105\nGreenwood",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559894,7 +560776,7 @@
         "address": "2154 S. Beltline Blvd.",
         "city": "Columbia",
         "state": "SC",
-        "postcode": "29201",
+        "postcode": "29201-5112",
         "telephone": "+1 803-908-4889",
         "facilities": [
             "open_24_hours"
@@ -559906,7 +560788,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0238",
-        "formatted_address": "2154 S. Beltline Blvd.\n29201\nColumbia",
+        "formatted_address": "2154 S. Beltline Blvd.\n29201-5112\nColumbia",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559919,7 +560801,7 @@
         "address": "5552 South Wheeler Ridge Road",
         "city": "Arvin",
         "state": "CA",
-        "postcode": "93203",
+        "postcode": "93203-9745",
         "telephone": "+1 661-858-2804",
         "facilities": [
             "open_24_hours"
@@ -559931,7 +560813,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0239",
-        "formatted_address": "5552 South Wheeler Ridge Road\n93203\nArvin",
+        "formatted_address": "5552 South Wheeler Ridge Road\n93203-9745\nArvin",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559944,7 +560826,7 @@
         "address": "11166 West State Road 10",
         "city": "Demotte",
         "state": "IN",
-        "postcode": "46310",
+        "postcode": "46310-8509",
         "telephone": "+1 219-507-7013",
         "facilities": [
             "open_24_hours"
@@ -559956,7 +560838,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0241",
-        "formatted_address": "11166 West State Road 10\n46310\nDemotte",
+        "formatted_address": "11166 West State Road 10\n46310-8509\nDemotte",
         "channel_of_trade": "Unknown"
     },
     {
@@ -559969,7 +560851,7 @@
         "address": "15874 Eleven Mile Rd.",
         "city": "Battle Creek",
         "state": "MI",
-        "postcode": "49014",
+        "postcode": "49014-7945",
         "telephone": "+1 269-965-7721",
         "facilities": [
             "open_24_hours"
@@ -559981,7 +560863,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0242",
-        "formatted_address": "15874 Eleven Mile Rd.\n49014\nBattle Creek",
+        "formatted_address": "15874 Eleven Mile Rd.\n49014-7945\nBattle Creek",
         "channel_of_trade": "Unknown"
     },
     {
@@ -560119,7 +561001,7 @@
         "address": "1670 US Hwy 601 N",
         "city": "Mocksville",
         "state": "NC",
-        "postcode": "27028",
+        "postcode": "27028-4401",
         "telephone": "+1 336-751-3815",
         "facilities": [
             "open_24_hours"
@@ -560130,7 +561012,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0251",
-        "formatted_address": "1670 US Hwy 601 N\n27028\nMocksville",
+        "formatted_address": "1670 US Hwy 601 N\n27028-4401\nMocksville",
         "channel_of_trade": "Unknown"
     },
     {
@@ -560143,7 +561025,7 @@
         "address": "2775 Highway 75",
         "city": "Lebo",
         "state": "KS",
-        "postcode": "66856",
+        "postcode": "66856-9292",
         "telephone": "+1 620-256-6311",
         "facilities": [
             "open_24_hours"
@@ -560154,7 +561036,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0252",
-        "formatted_address": "2775 Highway 75\n66856\nLebo",
+        "formatted_address": "2775 Highway 75\n66856-9292\nLebo",
         "channel_of_trade": "Unknown"
     },
     {
@@ -560167,7 +561049,7 @@
         "address": "849 Victory Hwy West",
         "city": "West Greenwich",
         "state": "RI",
-        "postcode": "02817",
+        "postcode": "02817-2111",
         "telephone": "+1 401-397-7774",
         "facilities": [
             "open_24_hours"
@@ -560179,7 +561061,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0253",
-        "formatted_address": "849 Victory Hwy West\n02817\nWest Greenwich",
+        "formatted_address": "849 Victory Hwy West\n02817-2111\nWest Greenwich",
         "channel_of_trade": "Unknown"
     },
     {
@@ -560192,7 +561074,7 @@
         "address": "4124 V18 Rd.",
         "city": "Brooklyn",
         "state": "IA",
-        "postcode": "52211",
+        "postcode": "52211-8737",
         "telephone": "+1 641-631-0047",
         "facilities": [
             "open_24_hours"
@@ -560204,7 +561086,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0254",
-        "formatted_address": "4124 V18 Rd.\n52211\nBrooklyn",
+        "formatted_address": "4124 V18 Rd.\n52211-8737\nBrooklyn",
         "channel_of_trade": "Unknown"
     },
     {
@@ -560217,7 +561099,7 @@
         "address": "305 Howard Baker Hwy",
         "city": "Pioneer",
         "state": "TN",
-        "postcode": "37847",
+        "postcode": "37847-3908",
         "telephone": "+1 423-562-3490",
         "facilities": [
             "open_24_hours"
@@ -560229,7 +561111,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0255",
-        "formatted_address": "305 Howard Baker Hwy\n37847\nPioneer",
+        "formatted_address": "305 Howard Baker Hwy\n37847-3908\nPioneer",
         "channel_of_trade": "Unknown"
     },
     {
@@ -560267,7 +561149,7 @@
         "address": "185 S. Port Parkway",
         "city": "Brunswick",
         "state": "GA",
-        "postcode": "31523",
+        "postcode": "31523-7778",
         "telephone": "+1 912-279-3386",
         "facilities": [
             "open_24_hours"
@@ -560279,7 +561161,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0258",
-        "formatted_address": "185 S. Port Parkway\n31523\nBrunswick",
+        "formatted_address": "185 S. Port Parkway\n31523-7778\nBrunswick",
         "channel_of_trade": "Unknown"
     },
     {
@@ -560340,7 +561222,7 @@
         "address": "6420 North I-35",
         "city": "Denton",
         "state": "TX",
-        "postcode": "76207",
+        "postcode": "76207-1419",
         "telephone": "+1 940-383-1458",
         "facilities": [
             "open_24_hours"
@@ -560352,7 +561234,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0266",
-        "formatted_address": "6420 North I-35\n76207\nDenton",
+        "formatted_address": "6420 North I-35\n76207-1419\nDenton",
         "channel_of_trade": "Unknown"
     },
     {
@@ -560913,7 +561795,7 @@
         "address": "2001 Santa Fe Dr",
         "city": "Weatherford",
         "state": "TX",
-        "postcode": "76086",
+        "postcode": "76086-6425",
         "telephone": "+1 817-599-9411",
         "facilities": [
             "open_24_hours",
@@ -560926,7 +561808,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0302",
-        "formatted_address": "2001 Santa Fe Dr\n76086\nWeatherford",
+        "formatted_address": "2001 Santa Fe Dr\n76086-6425\nWeatherford",
         "channel_of_trade": "Unknown"
     },
     {
@@ -560939,7 +561821,7 @@
         "address": "1855 West Curtis",
         "city": "Laramie",
         "state": "WY",
-        "postcode": "82070",
+        "postcode": "82070-8401",
         "telephone": "+1 307-745-6480",
         "facilities": [
             "open_24_hours"
@@ -560951,7 +561833,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0303",
-        "formatted_address": "1855 West Curtis\n82070\nLaramie",
+        "formatted_address": "1855 West Curtis\n82070-8401\nLaramie",
         "channel_of_trade": "Unknown"
     },
     {
@@ -560964,7 +561846,7 @@
         "address": "5405 Walden Rd",
         "city": "Beaumont",
         "state": "TX",
-        "postcode": "77705",
+        "postcode": "77705-4210",
         "telephone": "+1 409-842-9600",
         "facilities": [
             "open_24_hours",
@@ -560977,7 +561859,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0304",
-        "formatted_address": "5405 Walden Rd\n77705\nBeaumont",
+        "formatted_address": "5405 Walden Rd\n77705-4210\nBeaumont",
         "channel_of_trade": "Unknown"
     },
     {
@@ -560990,7 +561872,7 @@
         "address": "1112 Ackerman Road",
         "city": "San Antonio",
         "state": "TX",
-        "postcode": "78219",
+        "postcode": "78219-4521",
         "telephone": "+1 210-661-9416",
         "facilities": [
             "open_24_hours",
@@ -561003,7 +561885,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0305",
-        "formatted_address": "1112 Ackerman Road\n78219\nSan Antonio",
+        "formatted_address": "1112 Ackerman Road\n78219-4521\nSan Antonio",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561067,7 +561949,7 @@
         "address": "6910 W Bert Kouns Industrial Loop",
         "city": "Shreveport",
         "state": "LA",
-        "postcode": "71129",
+        "postcode": "71129-2347",
         "telephone": "+1 318-686-6111",
         "facilities": [
             "open_24_hours",
@@ -561080,7 +561962,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0308",
-        "formatted_address": "6910 W Bert Kouns Industrial Loop\n71129\nShreveport",
+        "formatted_address": "6910 W Bert Kouns Industrial Loop\n71129-2347\nShreveport",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561093,7 +561975,7 @@
         "address": "2151 South Avenue",
         "city": "Corning",
         "state": "CA",
-        "postcode": "96021",
+        "postcode": "96021-9311",
         "telephone": "+1 530-824-4685",
         "facilities": [
             "open_24_hours"
@@ -561105,7 +561987,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0309",
-        "formatted_address": "2151 South Avenue\n96021\nCorning",
+        "formatted_address": "2151 South Avenue\n96021-9311\nCorning",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561118,7 +562000,7 @@
         "address": "2100 S.W. Railroad Ave.",
         "city": "Hammond",
         "state": "LA",
-        "postcode": "70403",
+        "postcode": "70403-1442",
         "telephone": "+1 985-542-4981",
         "facilities": [
             "open_24_hours"
@@ -561130,7 +562012,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0310",
-        "formatted_address": "2100 S.W. Railroad Ave.\n70403\nHammond",
+        "formatted_address": "2100 S.W. Railroad Ave.\n70403-1442\nHammond",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561143,7 +562025,7 @@
         "address": "3900 Petro Road",
         "city": "West Memphis",
         "state": "AR",
-        "postcode": "72301",
+        "postcode": "72301-3753",
         "telephone": "+1 870-702-5540",
         "facilities": [
             "open_24_hours",
@@ -561156,7 +562038,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0311",
-        "formatted_address": "3900 Petro Road\n72301\nWest Memphis",
+        "formatted_address": "3900 Petro Road\n72301-3753\nWest Memphis",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561169,7 +562051,7 @@
         "address": "722 Watt Road",
         "city": "Knoxville",
         "state": "TN",
-        "postcode": "37934",
+        "postcode": "37934-1100",
         "telephone": "+1 865-693-6542",
         "facilities": [
             "open_24_hours"
@@ -561181,7 +562063,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0312",
-        "formatted_address": "722 Watt Road\n37934\nKnoxville",
+        "formatted_address": "722 Watt Road\n37934-1100\nKnoxville",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561244,7 +562126,7 @@
         "address": "970 South Blake Ranch Road",
         "city": "Kingman",
         "state": "AZ",
-        "postcode": "86401",
+        "postcode": "86401-4546",
         "telephone": "+1 928-681-5246",
         "facilities": [
             "open_24_hours"
@@ -561256,7 +562138,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0315",
-        "formatted_address": "970 South Blake Ranch Road\n86401\nKingman",
+        "formatted_address": "970 South Blake Ranch Road\n86401-4546\nKingman",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561269,7 +562151,7 @@
         "address": "20 Martin Luther King Blvd",
         "city": "Oklahoma City",
         "state": "OK",
-        "postcode": "73117",
+        "postcode": "73117-4619",
         "telephone": "+1 405-228-7040",
         "facilities": [
             "open_24_hours"
@@ -561281,7 +562163,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0316",
-        "formatted_address": "20 Martin Luther King Blvd\n73117\nOklahoma City",
+        "formatted_address": "20 Martin Luther King Blvd\n73117-4619\nOklahoma City",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561294,7 +562176,7 @@
         "address": "26416 Baker Rd.",
         "city": "Perrysburg",
         "state": "OH",
-        "postcode": "43551",
+        "postcode": "43551-9172",
         "telephone": "+1 419-443-1800",
         "facilities": [
             "open_24_hours"
@@ -561306,7 +562188,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0317",
-        "formatted_address": "26416 Baker Rd.\n43551\nPerrysburg",
+        "formatted_address": "26416 Baker Rd.\n43551-9172\nPerrysburg",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561319,7 +562201,7 @@
         "address": "3304 Gold Road",
         "city": "Kingdom City",
         "state": "MO",
-        "postcode": "65262",
+        "postcode": "65262-2109",
         "telephone": "+1 573-642-0676",
         "facilities": [
             "open_24_hours"
@@ -561331,7 +562213,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0318",
-        "formatted_address": "3304 Gold Road\n65262\nKingdom City",
+        "formatted_address": "3304 Gold Road\n65262-2109\nKingdom City",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561344,7 +562226,7 @@
         "address": "22526 Highway 216",
         "city": "Mccalla",
         "state": "AL",
-        "postcode": "35111",
+        "postcode": "35111-2706",
         "telephone": "+1 205-477-9178",
         "facilities": [
             "open_24_hours"
@@ -561356,7 +562238,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0319",
-        "formatted_address": "22526 Highway 216\n35111\nMccalla",
+        "formatted_address": "22526 Highway 216\n35111-2706\nMccalla",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561394,7 +562276,7 @@
         "address": "1805 West Fayette Ave",
         "city": "Effingham",
         "state": "IL",
-        "postcode": "62401",
+        "postcode": "62401-1991",
         "telephone": "+1 217-347-0480",
         "facilities": [
             "open_24_hours"
@@ -561406,7 +562288,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0321",
-        "formatted_address": "1805 West Fayette Ave\n62401\nEffingham",
+        "formatted_address": "1805 West Fayette Ave\n62401-1991\nEffingham",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561444,7 +562326,7 @@
         "address": "7401 West Hwy 318",
         "city": "Reddick",
         "state": "FL",
-        "postcode": "32686",
+        "postcode": "32686-2342",
         "telephone": "+1 352-591-1881",
         "facilities": [
             "open_24_hours"
@@ -561456,7 +562338,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0323",
-        "formatted_address": "7401 West Hwy 318\n32686\nReddick",
+        "formatted_address": "7401 West Hwy 318\n32686-2342\nReddick",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561469,7 +562351,7 @@
         "address": "3730 Fern Valley Rd.",
         "city": "Phoenix",
         "state": "OR",
-        "postcode": "97535",
+        "postcode": "97535-9426",
         "telephone": "+1 541-535-3372",
         "facilities": [
             "open_24_hours",
@@ -561482,7 +562364,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0324",
-        "formatted_address": "3730 Fern Valley Rd.\n97535\nPhoenix",
+        "formatted_address": "3730 Fern Valley Rd.\n97535-9426\nPhoenix",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561495,7 +562377,7 @@
         "address": "12906 Deshler Rd.",
         "city": "North Baltimore",
         "state": "OH",
-        "postcode": "45872",
+        "postcode": "45872-9650",
         "telephone": "+1 419-257-3744",
         "facilities": [
             "open_24_hours",
@@ -561508,7 +562390,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0325",
-        "formatted_address": "12906 Deshler Rd.\n45872\nNorth Baltimore",
+        "formatted_address": "12906 Deshler Rd.\n45872-9650\nNorth Baltimore",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561521,7 +562403,7 @@
         "address": "3205 Valentine Road",
         "city": "North Little Rock",
         "state": "AR",
-        "postcode": "72117",
+        "postcode": "72117-9491",
         "telephone": "+1 501-945-3206",
         "facilities": [
             "open_24_hours"
@@ -561533,7 +562415,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0326",
-        "formatted_address": "3205 Valentine Road\n72117\nNorth Little Rock",
+        "formatted_address": "3205 Valentine Road\n72117-9491\nNorth Little Rock",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561546,7 +562428,7 @@
         "address": "5821 Dennis McCarthy Dr.",
         "city": "Lebec",
         "state": "CA",
-        "postcode": "93243",
+        "postcode": "93243-9713",
         "telephone": "+1 661-663-4341",
         "facilities": [
             "open_24_hours",
@@ -561559,7 +562441,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0327",
-        "formatted_address": "5821 Dennis McCarthy Dr.\n93243\nLebec",
+        "formatted_address": "5821 Dennis McCarthy Dr.\n93243-9713\nLebec",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561598,7 +562480,7 @@
         "address": "554 W. Glendale Hodgenville Road",
         "city": "Glendale",
         "state": "KY",
-        "postcode": "42740",
+        "postcode": "42740-9705",
         "telephone": "+1 270-369-6840",
         "facilities": [
             "open_24_hours"
@@ -561610,7 +562492,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0330",
-        "formatted_address": "554 W. Glendale Hodgenville Road\n42740\nGlendale",
+        "formatted_address": "554 W. Glendale Hodgenville Road\n42740-9705\nGlendale",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561648,7 +562530,7 @@
         "address": "160 State Hwy 77",
         "city": "Hillsboro",
         "state": "TX",
-        "postcode": "76645",
+        "postcode": "76645-7461",
         "telephone": "+1 254-283-6556",
         "facilities": [
             "open_24_hours"
@@ -561660,7 +562542,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0333",
-        "formatted_address": "160 State Hwy 77\n76645\nHillsboro",
+        "formatted_address": "160 State Hwy 77\n76645-7461\nHillsboro",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561698,7 +562580,7 @@
         "address": "1950 East Greg St.",
         "city": "Sparks",
         "state": "NV",
-        "postcode": "89431",
+        "postcode": "89431-6558",
         "telephone": "+1 775-355-8888",
         "facilities": [
             "open_24_hours"
@@ -561710,7 +562592,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0338",
-        "formatted_address": "1950 East Greg St.\n89431\nSparks",
+        "formatted_address": "1950 East Greg St.\n89431-6558\nSparks",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561723,7 +562605,7 @@
         "address": "10506 West Aero Road",
         "city": "Spokane",
         "state": "WA",
-        "postcode": "99224",
+        "postcode": "99224-9466",
         "telephone": "+1 509-842-1100",
         "facilities": [
             "open_24_hours"
@@ -561735,7 +562617,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0339",
-        "formatted_address": "10506 West Aero Road\n99224\nSpokane",
+        "formatted_address": "10506 West Aero Road\n99224-9466\nSpokane",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561748,7 +562630,7 @@
         "address": "1105 East King Avenue",
         "city": "Kingsland",
         "state": "GA",
-        "postcode": "31548",
+        "postcode": "31548-6819",
         "telephone": "+1 912-882-3111",
         "facilities": [
             "open_24_hours"
@@ -561760,7 +562642,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0344",
-        "formatted_address": "1105 East King Avenue\n31548\nKingsland",
+        "formatted_address": "1105 East King Avenue\n31548-6819\nKingsland",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561773,7 +562655,7 @@
         "address": "28991 West Gonzaga",
         "city": "Santa Nella",
         "state": "CA",
-        "postcode": "95322",
+        "postcode": "95322-9740",
         "telephone": "+1 209-827-8025",
         "facilities": [
             "open_24_hours"
@@ -561785,7 +562667,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0346",
-        "formatted_address": "28991 West Gonzaga\n95322\nSanta Nella",
+        "formatted_address": "28991 West Gonzaga\n95322-9740\nSanta Nella",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561798,7 +562680,7 @@
         "address": "162 Luyben Hills Road",
         "city": "Kingston Springs",
         "state": "TN",
-        "postcode": "37082",
+        "postcode": "37082-8903",
         "telephone": "+1 615-952-3208",
         "facilities": [
             "open_24_hours"
@@ -561810,7 +562692,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0349",
-        "formatted_address": "162 Luyben Hills Road\n37082\nKingston Springs",
+        "formatted_address": "162 Luyben Hills Road\n37082-8903\nKingston Springs",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561823,7 +562705,7 @@
         "address": "601 Westway Blvd.",
         "city": "Canutillo",
         "state": "TX",
-        "postcode": "79835",
+        "postcode": "79835-8506",
         "telephone": "+1 915-886-5761",
         "facilities": [
             "open_24_hours"
@@ -561835,7 +562717,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0350",
-        "formatted_address": "601 Westway Blvd.\n79835\nCanutillo",
+        "formatted_address": "601 Westway Blvd.\n79835-8506\nCanutillo",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561848,7 +562730,7 @@
         "address": "1724 West Grand Avenue",
         "city": "Gadsden",
         "state": "AL",
-        "postcode": "35904",
+        "postcode": "35904-8234",
         "telephone": "+1 256-413-7135",
         "facilities": [
             "open_24_hours"
@@ -561860,7 +562742,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0352",
-        "formatted_address": "1724 West Grand Avenue\n35904\nGadsden",
+        "formatted_address": "1724 West Grand Avenue\n35904-8234\nGadsden",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561898,7 +562780,7 @@
         "address": "9787 US Route 40 West",
         "city": "New Paris",
         "state": "OH",
-        "postcode": "45347",
+        "postcode": "45347-1521",
         "telephone": "+1 937-637-7800",
         "facilities": [
             "open_24_hours"
@@ -561910,7 +562792,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0357",
-        "formatted_address": "9787 US Route 40 West\n45347\nNew Paris",
+        "formatted_address": "9787 US Route 40 West\n45347-1521\nNew Paris",
         "channel_of_trade": "Unknown"
     },
     {
@@ -561973,7 +562855,7 @@
         "address": "4700 S. Lincoln Ave.",
         "city": "York",
         "state": "NE",
-        "postcode": "68467",
+        "postcode": "68467-9410",
         "telephone": "+1 402-362-1776",
         "facilities": [
             "open_24_hours"
@@ -561985,7 +562867,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0362",
-        "formatted_address": "4700 S. Lincoln Ave.\n68467\nYork",
+        "formatted_address": "4700 S. Lincoln Ave.\n68467-9410\nYork",
         "channel_of_trade": "Unknown"
     },
     {
@@ -562023,7 +562905,7 @@
         "address": "3001 Grant Street",
         "city": "Gary",
         "state": "IN",
-        "postcode": "46408",
+        "postcode": "46408-1001",
         "telephone": "+1 219-884-1133",
         "facilities": [
             "open_24_hours"
@@ -562035,7 +562917,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0369",
-        "formatted_address": "3001 Grant Street\n46408\nGary",
+        "formatted_address": "3001 Grant Street\n46408-1001\nGary",
         "channel_of_trade": "Unknown"
     },
     {
@@ -562098,7 +562980,7 @@
         "address": "1035 W. State Road 42",
         "city": "Brazil",
         "state": "IN",
-        "postcode": "47834",
+        "postcode": "47834-7509",
         "telephone": "+1 812-446-2296",
         "facilities": [
             "open_24_hours"
@@ -562110,7 +562992,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0376",
-        "formatted_address": "1035 W. State Road 42\n47834\nBrazil",
+        "formatted_address": "1035 W. State Road 42\n47834-7509\nBrazil",
         "channel_of_trade": "Unknown"
     },
     {
@@ -562123,7 +563005,7 @@
         "address": "10200 Old Federal Rd.",
         "city": "Carnesville",
         "state": "GA",
-        "postcode": "30521",
+        "postcode": "30521-2962",
         "telephone": "+1 706-335-1984",
         "facilities": [
             "open_24_hours",
@@ -562136,7 +563018,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0377",
-        "formatted_address": "10200 Old Federal Rd.\n30521\nCarnesville",
+        "formatted_address": "10200 Old Federal Rd.\n30521-2962\nCarnesville",
         "channel_of_trade": "Unknown"
     },
     {
@@ -562149,7 +563031,7 @@
         "address": "98 Grove St.",
         "city": "Dupont",
         "state": "PA",
-        "postcode": "18641",
+        "postcode": "18641-2228",
         "telephone": "+1 570-654-5111",
         "facilities": [
             "open_24_hours"
@@ -562161,7 +563043,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0378",
-        "formatted_address": "98 Grove St.\n18641\nDupont",
+        "formatted_address": "98 Grove St.\n18641-2228\nDupont",
         "channel_of_trade": "Unknown"
     },
     {
@@ -562174,7 +563056,7 @@
         "address": "1409 South County Rd. 850 East",
         "city": "Greensburg",
         "state": "IN",
-        "postcode": "47240",
+        "postcode": "47240-8897",
         "telephone": "+1 812-663-2333",
         "facilities": [
             "open_24_hours"
@@ -562186,7 +563068,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0379",
-        "formatted_address": "1409 South County Rd. 850 East\n47240\nGreensburg",
+        "formatted_address": "1409 South County Rd. 850 East\n47240-8897\nGreensburg",
         "channel_of_trade": "Unknown"
     },
     {
@@ -562199,7 +563081,7 @@
         "address": "4230 West Highway 24",
         "city": "Remington",
         "state": "IN",
-        "postcode": "47977",
+        "postcode": "47977-8720",
         "telephone": "+1 219-261-2172",
         "facilities": [
             "open_24_hours"
@@ -562211,7 +563093,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0382",
-        "formatted_address": "4230 West Highway 24\n47977\nRemington",
+        "formatted_address": "4230 West Highway 24\n47977-8720\nRemington",
         "channel_of_trade": "Unknown"
     },
     {
@@ -562224,7 +563106,7 @@
         "address": "14150 STE C Hwy 418 SW",
         "city": "Deming",
         "state": "NM",
-        "postcode": "88030",
+        "postcode": "88030-1854",
         "telephone": "+1 575-546-7070",
         "facilities": [
             "open_24_hours"
@@ -562236,7 +563118,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0385",
-        "formatted_address": "14150 STE C Hwy 418 SW\n88030\nDeming",
+        "formatted_address": "14150 STE C Hwy 418 SW\n88030-1854\nDeming",
         "channel_of_trade": "Unknown"
     },
     {
@@ -562349,7 +563231,7 @@
         "address": "3001 TV Rd.",
         "city": "Florence",
         "state": "SC",
-        "postcode": "29501",
+        "postcode": "29501-0711",
         "telephone": "+1 843-669-5736",
         "facilities": [
             "open_24_hours"
@@ -562361,7 +563243,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0393",
-        "formatted_address": "3001 TV Rd.\n29501\nFlorence",
+        "formatted_address": "3001 TV Rd.\n29501-0711\nFlorence",
         "channel_of_trade": "Unknown"
     },
     {
@@ -562449,7 +563331,7 @@
         "address": "24225 W. Lorenzo Road",
         "city": "Wilmington",
         "state": "IL",
-        "postcode": "60481",
+        "postcode": "60481-8309",
         "telephone": "+1 779-232-7975",
         "facilities": [
             "open_24_hours"
@@ -562461,7 +563343,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0402",
-        "formatted_address": "24225 W. Lorenzo Road\n60481\nWilmington",
+        "formatted_address": "24225 W. Lorenzo Road\n60481-8309\nWilmington",
         "channel_of_trade": "Unknown"
     },
     {
@@ -562499,7 +563381,7 @@
         "address": "2930 Highway 301 South",
         "city": "Register",
         "state": "GA",
-        "postcode": "30452",
+        "postcode": "30452-5053",
         "telephone": "+1 912-480-0102",
         "facilities": [
             "open_24_hours"
@@ -562511,7 +563393,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0418",
-        "formatted_address": "2930 Highway 301 South\n30452\nRegister",
+        "formatted_address": "2930 Highway 301 South\n30452-5053\nRegister",
         "channel_of_trade": "Unknown"
     },
     {
@@ -562549,7 +563431,7 @@
         "address": "100 South Hopkins Rd",
         "city": "Sweetwater",
         "state": "TX",
-        "postcode": "79556",
+        "postcode": "79556-7940",
         "telephone": "+1 325-235-8488",
         "facilities": [
             "open_24_hours"
@@ -562561,7 +563443,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0426",
-        "formatted_address": "100 South Hopkins Rd\n79556\nSweetwater",
+        "formatted_address": "100 South Hopkins Rd\n79556-7940\nSweetwater",
         "channel_of_trade": "Unknown"
     },
     {
@@ -562574,7 +563456,7 @@
         "address": "2440 Raphine Road",
         "city": "Raphine",
         "state": "VA",
-        "postcode": "24472",
+        "postcode": "24472-2541",
         "telephone": "+1 540-377-2111",
         "facilities": [
             "open_24_hours",
@@ -562587,7 +563469,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0427",
-        "formatted_address": "2440 Raphine Road\n24472\nRaphine",
+        "formatted_address": "2440 Raphine Road\n24472-2541\nRaphine",
         "channel_of_trade": "Unknown"
     },
     {
@@ -562600,7 +563482,7 @@
         "address": "2516 N. Lee Highway",
         "city": "Lexington",
         "state": "VA",
-        "postcode": "24450",
+        "postcode": "24450-3335",
         "telephone": "+1 540-463-3478",
         "facilities": [
             "open_24_hours"
@@ -562612,7 +563494,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0428",
-        "formatted_address": "2516 N. Lee Highway\n24450\nLexington",
+        "formatted_address": "2516 N. Lee Highway\n24450-3335\nLexington",
         "channel_of_trade": "Unknown"
     },
     {
@@ -562999,7 +563881,7 @@
         "address": "301 SW First Street",
         "city": "Oak Grove",
         "state": "MO",
-        "postcode": "64075",
+        "postcode": "64075-9102",
         "telephone": "+1 816-690-4455",
         "facilities": [
             "open_24_hours"
@@ -563011,7 +563893,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0460",
-        "formatted_address": "301 SW First Street\n64075\nOak Grove",
+        "formatted_address": "301 SW First Street\n64075-9102\nOak Grove",
         "channel_of_trade": "Unknown"
     },
     {
@@ -563049,7 +563931,7 @@
         "address": "272 Herring Rd",
         "city": "Fair Play",
         "state": "SC",
-        "postcode": "29643",
+        "postcode": "29643-2713",
         "telephone": "+1 864-280-7320",
         "facilities": [
             "open_24_hours"
@@ -563061,7 +563943,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0465",
-        "formatted_address": "272 Herring Rd\n29643\nFair Play",
+        "formatted_address": "272 Herring Rd\n29643-2713\nFair Play",
         "channel_of_trade": "Unknown"
     },
     {
@@ -563074,7 +563956,7 @@
         "address": "605 S Main St",
         "city": "Smiths Grove",
         "state": "KY",
-        "postcode": "42171",
+        "postcode": "42171-8140",
         "telephone": "+1 270-563-4713",
         "facilities": [
             "open_24_hours"
@@ -563086,7 +563968,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0468",
-        "formatted_address": "605 S Main St\n42171\nSmiths Grove",
+        "formatted_address": "605 S Main St\n42171-8140\nSmiths Grove",
         "channel_of_trade": "Unknown"
     },
     {
@@ -563099,7 +563981,7 @@
         "address": "18 Old French Rd.",
         "city": "Springer",
         "state": "NM",
-        "postcode": "87747",
+        "postcode": "87747-3525",
         "telephone": "+1 575-483-5004",
         "facilities": [
             "open_24_hours"
@@ -563110,7 +563992,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0469",
-        "formatted_address": "18 Old French Rd.\n87747\nSpringer",
+        "formatted_address": "18 Old French Rd.\n87747-3525\nSpringer",
         "channel_of_trade": "Unknown"
     },
     {
@@ -563171,7 +564053,7 @@
         "address": "16563 Lincoln Hwy",
         "city": "Breezewood",
         "state": "PA",
-        "postcode": "15533",
+        "postcode": "15533-7901",
         "telephone": "+1 814-707-9284",
         "facilities": [
             "open_24_hours"
@@ -563183,7 +564065,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0476",
-        "formatted_address": "16563 Lincoln Hwy\n15533\nBreezewood",
+        "formatted_address": "16563 Lincoln Hwy\n15533-7901\nBreezewood",
         "channel_of_trade": "Unknown"
     },
     {
@@ -563196,7 +564078,7 @@
         "address": "175 Truck Stop Rd",
         "city": "Cowpens",
         "state": "SC",
-        "postcode": "29330",
+        "postcode": "29330-9514",
         "telephone": "+1 864-755-4335",
         "facilities": [
             "open_24_hours"
@@ -563208,7 +564090,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0477",
-        "formatted_address": "175 Truck Stop Rd\n29330\nCowpens",
+        "formatted_address": "175 Truck Stop Rd\n29330-9514\nCowpens",
         "channel_of_trade": "Unknown"
     },
     {
@@ -563296,7 +564178,7 @@
         "address": "32910 E. Pearl St.",
         "city": "Coburg",
         "state": "OR",
-        "postcode": "97408",
+        "postcode": "97408-9266",
         "telephone": "+1 541-868-2880",
         "facilities": [
             "open_24_hours"
@@ -563308,7 +564190,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0482",
-        "formatted_address": "32910 E. Pearl St.\n97408\nCoburg",
+        "formatted_address": "32910 E. Pearl St.\n97408-9266\nCoburg",
         "channel_of_trade": "Unknown"
     },
     {
@@ -563321,7 +564203,7 @@
         "address": "426 Alabama Highway 69 S",
         "city": "Hanceville",
         "state": "AL",
-        "postcode": "35077",
+        "postcode": "35077-5002",
         "telephone": "+1 256-287-1299",
         "facilities": [
             "open_24_hours"
@@ -563333,7 +564215,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0485",
-        "formatted_address": "426 Alabama Highway 69 S\n35077\nHanceville",
+        "formatted_address": "426 Alabama Highway 69 S\n35077-5002\nHanceville",
         "channel_of_trade": "Unknown"
     },
     {
@@ -563397,7 +564279,7 @@
         "address": "717 S. Sylvania Avenue",
         "city": "Sturtevant",
         "state": "WI",
-        "postcode": "53177",
+        "postcode": "53177-1226",
         "telephone": "+1 262-884-7500",
         "facilities": [
             "open_24_hours",
@@ -563410,7 +564292,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0491",
-        "formatted_address": "717 S. Sylvania Avenue\n53177\nSturtevant",
+        "formatted_address": "717 S. Sylvania Avenue\n53177-1226\nSturtevant",
         "channel_of_trade": "Unknown"
     },
     {
@@ -564024,7 +564906,7 @@
         "address": "2125 N. 9th St.",
         "city": "Salina",
         "state": "KS",
-        "postcode": "67401",
+        "postcode": "67401-8619",
         "telephone": "+1 785-825-7723",
         "facilities": [
             "open_24_hours"
@@ -564036,7 +564918,7 @@
         ],
         "website": null,
         "watchlist_id": "TAUS0536",
-        "formatted_address": "2125 N. 9th St.\n67401\nSalina",
+        "formatted_address": "2125 N. 9th St.\n67401-8619\nSalina",
         "channel_of_trade": "Unknown"
     },
     {

@@ -2533,7 +2533,6 @@
         "postcode": "45004",
         "telephone": "+34 925 75 07 58",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "shop",
@@ -2542,7 +2541,10 @@
             "open_saturday",
             "open_sunday"
         ],
-        "products": [],
+        "products": [
+            "ad_blue_pump",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Cr. CM-4000, KM 2.65\n45004\nToledo",
@@ -3773,7 +3775,6 @@
         "postcode": "45150",
         "telephone": "",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "shop",
@@ -3782,7 +3783,10 @@
             "open_saturday",
             "open_sunday"
         ],
-        "products": [],
+        "products": [
+            "ad_blue_pump",
+            "ad_blue"
+        ],
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Cr. CM-401 km 45\n45150\nNavahermosa",
@@ -4008,6 +4012,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CTRA. A-1075, P.K.1\n04420\nSanta fe de mondujar",
+        "channel_of_trade": null
+    },
+    {
+        "id": "ES-1397969579",
+        "name": "RIO FARDES",
+        "lat": 37.328889,
+        "lng": -3.215694,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "A-92 KM 292",
+        "city": "PURULLENA  GRANADA",
+        "state": null,
+        "postcode": "18519",
+        "telephone": "",
+        "facilities": [
+            "shop",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_pump",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "A-92 KM 292\n18519\nPURULLENA  GRANADA",
         "channel_of_trade": null
     },
     {
@@ -11591,44 +11622,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "ES-1668440708",
-        "name": "E.S. BP BENIFAIO",
-        "lat": 39.288806,
-        "lng": -0.420694,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "C/ ALMUSAFES, 15",
-        "city": "BENIFAIO (VALENCIA)",
-        "state": null,
-        "postcode": "46450",
-        "telephone": "+34 961 78 18 89",
-        "facilities": [
-            "high_speed_pump",
-            "truck_suitable_site",
-            "toilet",
-            "shop",
-            "bakery_bistro",
-            "bistro",
-            "petit_bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "C/ ALMUSAFES, 15\n46450\nBENIFAIO (VALENCIA)",
-        "channel_of_trade": null
-    },
-    {
         "id": "ES-16686",
         "name": "E.S. BP NOVELDIESEL",
         "lat": 38.3881,
@@ -14005,6 +13998,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CR  DE CORTES S/N PARCELA PP1\n11600\nUBRIQUE",
+        "channel_of_trade": null
+    },
+    {
+        "id": "ES-1734107731",
+        "name": "ES BENIFAIO",
+        "lat": 39.288806,
+        "lng": -0.420694,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "C/ ALMUSAFES, 15",
+        "city": "BENIFAIO (VALENCIA)",
+        "state": null,
+        "postcode": "46450",
+        "telephone": "",
+        "facilities": [
+            "shop",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_pump",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "C/ ALMUSAFES, 15\n46450\nBENIFAIO (VALENCIA)",
         "channel_of_trade": null
     },
     {
@@ -24310,30 +24330,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "ES-752824444",
-        "name": "E.S. BP TARANC\u00d3N",
-        "lat": 40.00496,
-        "lng": -3.01342,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "Avenida Adolfo Su\u00e1rez",
-        "city": "Taranc\u00f3n",
-        "state": null,
-        "postcode": "16400",
-        "telephone": "",
-        "facilities": [
-            "shop",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Avenida Adolfo Su\u00e1rez\n16400\nTaranc\u00f3n",
-        "channel_of_trade": null
-    },
-    {
         "id": "ES-753088321",
         "name": "ANTASGAS",
         "lat": 37.28594,
@@ -24915,46 +24911,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "ES-778305282",
-        "name": "bp RIO FARDES",
-        "lat": 37.328889,
-        "lng": -3.215694,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "A-92 KM 292",
-        "city": "PURULLENA  GRANADA",
-        "state": null,
-        "postcode": "18519",
-        "telephone": "",
-        "facilities": [
-            "tobacco",
-            "high_speed_pump",
-            "truck_suitable_site",
-            "disabled_facilities",
-            "toilet",
-            "shop",
-            "bakery_bistro",
-            "bistro",
-            "petit_bistro",
-            "accepts_routex_cards",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "A-92 KM 292\n18519\nPURULLENA  GRANADA",
-        "channel_of_trade": null
-    },
-    {
         "id": "ES-779170149",
         "name": "bp CERRO LARGO",
         "lat": 36.6068,
@@ -25528,7 +25484,6 @@
         "postcode": "45516",
         "telephone": "+34 925 75 07 58",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "shop",
@@ -25658,6 +25613,33 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "Bulevar Ciudad de Vicar, 300.\n04738\nVICAR",
+        "channel_of_trade": null
+    },
+    {
+        "id": "ES-837799029",
+        "name": "BURRIANA",
+        "lat": 39.89508,
+        "lng": -0.08034,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "Ctra. C-236, Pk 0, 300",
+        "city": "Burriana",
+        "state": null,
+        "postcode": "12530",
+        "telephone": "+34 964 51 58 65",
+        "facilities": [
+            "car_wash",
+            "jet_wash",
+            "shop",
+            "accepts_routex_cards",
+            "special_car_wash",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Ctra. C-236, Pk 0, 300\n12530\nBurriana",
         "channel_of_trade": null
     },
     {
