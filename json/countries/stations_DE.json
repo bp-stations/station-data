@@ -2922,6 +2922,7 @@
         "telephone": "+49 6172 690835",
         "facilities": [
             "open_24_hours",
+            "electric_charging",
             "recup",
             "cash_point",
             "motorway_site",
@@ -2930,14 +2931,16 @@
             "too_good_to_go",
             "loyalty",
             "open_saturday",
-            "open_sunday"
+            "open_sunday",
+            "car_electric_charging"
         ],
         "products": [
             "ultimate",
             "ultimate_diesel",
             "super_e5",
             "e10",
-            "truck_diesel"
+            "truck_diesel",
+            "electric_charging"
         ],
         "website": "https://tankstelle.aral.de/tankstelle/12090700",
         "watchlist_id": "12090700",
@@ -7675,7 +7678,6 @@
         "postcode": "22880",
         "telephone": "+49 4103 2519",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -8037,7 +8039,6 @@
         "postcode": "24943",
         "telephone": "+49 461 6740568",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -15053,7 +15054,6 @@
         "postcode": "44789",
         "telephone": "+49 234 335915",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -19751,7 +19751,7 @@
     },
     {
         "id": "DE-14191200",
-        "name": "Raiffeisen Steverland eG",
+        "name": "RAILAND Raiffeisen AG",
         "lat": 51.912118,
         "lng": 7.399278,
         "site_brand": "ARAL Tankstelle",
@@ -19987,7 +19987,7 @@
     },
     {
         "id": "DE-14195000",
-        "name": "Raiffeisen Steverland eG",
+        "name": "RAILAND Raiffeisen AG",
         "lat": 51.846738,
         "lng": 7.484689,
         "site_brand": "ARAL Tankstelle",
@@ -20180,7 +20180,6 @@
         "postcode": "73033",
         "telephone": "+49 7161 75454",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -29020,7 +29019,7 @@
     },
     {
         "id": "DE-16172000",
-        "name": "Sascha Mehlitz",
+        "name": "Nicole Hilgenberg",
         "lat": 54.760199,
         "lng": 8.878096,
         "site_brand": "ARAL Tankstelle",
@@ -29036,10 +29035,8 @@
             "super_wash",
             "recup",
             "cash_point",
-            "rewe_to_go",
             "shop",
             "bistro",
-            "too_good_to_go",
             "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
@@ -30501,6 +30498,7 @@
             "jet_wash",
             "super_wash",
             "shop",
+            "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
             "special_car_wash",
@@ -38511,7 +38509,6 @@
         "postcode": "95448",
         "telephone": "+49 921 13046",
         "facilities": [
-            "open_24_hours",
             "car_wash",
             "jet_wash",
             "super_wash",
@@ -50788,6 +50785,7 @@
             "super_wash",
             "recup",
             "shop",
+            "pay_at_pump_supported",
             "outdoor_payment_terminal",
             "loyalty",
             "special_car_wash",
@@ -65641,7 +65639,7 @@
     },
     {
         "id": "DE-27071800",
-        "name": "SSP Deutschland GmbH Finanzbuchhaltung",
+        "name": "MST Oil GmbH",
         "lat": 53.910784,
         "lng": 11.758571,
         "site_brand": "ARAL Tankstelle",
@@ -65678,7 +65676,7 @@
     },
     {
         "id": "DE-27071900",
-        "name": "SSP Deutschland GmbH Finanzbuchhaltung",
+        "name": "MST Oil GmbH",
         "lat": 53.908977,
         "lng": 11.756738,
         "site_brand": "ARAL Tankstelle",

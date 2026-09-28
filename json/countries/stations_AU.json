@@ -4777,12 +4777,14 @@
             "mobile_enabled"
         ],
         "products": [
+            "ad_blue_pump",
             "auto_gas",
             "e10",
             "premium_unlead",
             "regular_diesel",
             "ultimate_diesel",
-            "ultimate_unleaded"
+            "ultimate_unleaded",
+            "ad_blue"
         ],
         "website": null,
         "watchlist_id": null,
@@ -9653,6 +9655,7 @@
         "facilities": [
             "open_24_hours",
             "gift_card",
+            "hand_wash",
             "trailers",
             "national_diesel_offer",
             "bdouble_access",
@@ -9662,7 +9665,6 @@
             "truck_suitable_site",
             "high_flow_diesel",
             "ultra_high_flow_diesel",
-            "cash_point",
             "shower",
             "toilet",
             "wifi",
@@ -9674,6 +9676,7 @@
             "bp_rewards_cents_per_litre",
             "pump_rewards",
             "truck_only",
+            "washing_machine",
             "restaurant",
             "takeaway_food",
             "high_speed_pump"
@@ -9681,7 +9684,6 @@
         "products": [
             "ad_blue_cannister",
             "ad_blue_pump",
-            "e10",
             "lpg",
             "regular_diesel",
             "ultimate_diesel",
@@ -16307,6 +16309,60 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-1533",
+        "name": "AMPM PORT AUGUSTA",
+        "lat": -32.506,
+        "lng": 137.7853,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "2 Augusta Highway",
+        "city": "Port Augusta",
+        "state": "SA",
+        "postcode": "5700",
+        "telephone": "+61 8 8419 4607",
+        "facilities": [
+            "open_24_hours",
+            "bdouble_access",
+            "rigid_access",
+            "road_train_access",
+            "truck_parking",
+            "high_flow_diesel",
+            "ultra_high_flow_diesel",
+            "cash_point",
+            "shower",
+            "toilet",
+            "wifi",
+            "barista_coffee",
+            "takeaway_food_offer",
+            "food_offer_instore",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus",
+            "bpme_technically_enabled",
+            "truck_only",
+            "restaurant",
+            "takeaway_food",
+            "high_speed_pump",
+            "mobile_enabled"
+        ],
+        "products": [
+            "ad_blue_cannister",
+            "ad_blue_pump",
+            "lpg",
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2 Augusta Highway\n5700\nPort Augusta",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-1534",
         "name": "BP MELTON EAST",
         "lat": -37.6937,
@@ -17043,7 +17099,7 @@
         "city": "Barcaldine",
         "state": "QLD",
         "postcode": "4725",
-        "telephone": "+61 421 512 502",
+        "telephone": "+61 459 712 633",
         "facilities": [
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
@@ -17745,40 +17801,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CNR BIRKDALE AND MAIN ROADS\n4160\nWELLINGTON POINT",
-        "channel_of_trade": null
-    },
-    {
-        "id": "AU-1749",
-        "name": "BP TEMORA",
-        "lat": -34.4479,
-        "lng": 147.553,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "9 IRONBARK STREET",
-        "city": "TEMORA",
-        "state": "NSW",
-        "postcode": "2666",
-        "telephone": "+61 2 6977 2999",
-        "facilities": [
-            "bdouble_access",
-            "rigid_access",
-            "truck_suitable_site",
-            "high_flow_diesel",
-            "truck_only",
-            "high_speed_pump"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "premium_unlead",
-            "regular_diesel",
-            "ultimate_unleaded",
-            "unlead",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "9 IRONBARK STREET\n2666\nTEMORA",
         "channel_of_trade": null
     },
     {
@@ -42772,42 +42794,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "AU-7175",
-        "name": "BP OPT TEMORA",
-        "lat": -34.4477,
-        "lng": 147.5526,
-        "site_brand": "BP",
-        "country_code": "AU",
-        "address": "1 IRONBARK STREET",
-        "city": "TEMORA",
-        "state": "NSW",
-        "postcode": "2666",
-        "telephone": "+61 2 6977 2999",
-        "facilities": [
-            "open_24_hours",
-            "bdouble_access",
-            "rigid_access",
-            "truck_suitable_site",
-            "high_flow_diesel",
-            "outdoor_payment_terminal",
-            "truck_only",
-            "high_speed_pump"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "e10",
-            "premium_unlead",
-            "regular_diesel",
-            "ultimate_unleaded",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "1 IRONBARK STREET\n2666\nTEMORA",
-        "channel_of_trade": null
-    },
-    {
         "id": "AU-7176",
         "name": "BP OPT BARMEDMAN",
         "lat": -34.159918,
@@ -47300,6 +47286,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "preorder_enabled",
             "loyalty",
             "pump_rewards",
