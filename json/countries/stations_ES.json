@@ -3738,6 +3738,7 @@
             "ad_blue_cannister",
             "ad_blue_pump",
             "diesel_on",
+            "electricity",
             "ultimate",
             "ultimate_unleaded",
             "unleaded_95",
@@ -8017,46 +8018,6 @@
         "channel_of_trade": null
     },
     {
-        "id": "ES-16445",
-        "name": "E.S. BP MONFORTE I",
-        "lat": 38.3877,
-        "lng": -0.7368,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "Autov\u00eda A-31 km 216",
-        "city": "MONFORTE DEL CID",
-        "state": null,
-        "postcode": "03670",
-        "telephone": "+34 965 62 00 69",
-        "facilities": [
-            "open_24_hours",
-            "tobacco",
-            "car_wash",
-            "high_speed_pump",
-            "truck_parking",
-            "truck_suitable_site",
-            "toilet",
-            "bistro",
-            "accepts_routex_cards",
-            "special_car_wash",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "Autov\u00eda A-31 km 216\n03670\nMONFORTE DEL CID",
-        "channel_of_trade": null
-    },
-    {
         "id": "ES-16447",
         "name": "bp MONTGAT",
         "lat": 41.4629,
@@ -10976,42 +10937,6 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "AVDA PONCE DE LE\u00d3N, 12\n11630\nARCOS DE LA FRONTERA",
-        "channel_of_trade": null
-    },
-    {
-        "id": "ES-16634",
-        "name": "bp ARNAU",
-        "lat": 39.4881,
-        "lng": -0.4047,
-        "site_brand": "BP",
-        "country_code": "ES",
-        "address": "AV MAESTRO RODRIGO 76",
-        "city": "VALENCIA",
-        "state": null,
-        "postcode": "46015",
-        "telephone": "+34 963 49 45 57",
-        "facilities": [
-            "tobacco",
-            "car_wash",
-            "toilet",
-            "shop",
-            "accepts_routex_cards",
-            "special_car_wash",
-            "open_saturday",
-            "open_sunday"
-        ],
-        "products": [
-            "ad_blue_cannister",
-            "ad_blue_pump",
-            "diesel_on",
-            "ultimate",
-            "ultimate_unleaded",
-            "unleaded_95",
-            "ad_blue"
-        ],
-        "website": null,
-        "watchlist_id": null,
-        "formatted_address": "AV MAESTRO RODRIGO 76\n46015\nVALENCIA",
         "channel_of_trade": null
     },
     {
@@ -15092,6 +15017,32 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CTRA. N-120 KM 3.8\n24010\nTROBAJO DEL CAMINO",
+        "channel_of_trade": null
+    },
+    {
+        "id": "ES-1845411422",
+        "name": "MONFORTE I",
+        "lat": 38.3877,
+        "lng": -0.7368,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "Autov\u00eda A-31 km 216",
+        "city": "MONFORTE DEL CID",
+        "state": null,
+        "postcode": "03670",
+        "telephone": "+34 965 62 00 69",
+        "facilities": [
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_pump",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "Autov\u00eda A-31 km 216\n03670\nMONFORTE DEL CID",
         "channel_of_trade": null
     },
     {
@@ -21330,6 +21281,33 @@
         "channel_of_trade": null
     },
     {
+        "id": "ES-488039217",
+        "name": "ES. ARNAU",
+        "lat": 39.4881,
+        "lng": -0.4047,
+        "site_brand": "BP",
+        "country_code": "ES",
+        "address": "AV MAESTRO RODRIGO 76",
+        "city": "VALENCIA",
+        "state": null,
+        "postcode": "46015",
+        "telephone": "+34 963 49 45 57",
+        "facilities": [
+            "shop",
+            "accepts_routex_cards",
+            "open_saturday",
+            "open_sunday"
+        ],
+        "products": [
+            "ad_blue_pump",
+            "ad_blue"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "AV MAESTRO RODRIGO 76\n46015\nVALENCIA",
+        "channel_of_trade": null
+    },
+    {
         "id": "ES-493911271",
         "name": "E.S. BP VILLARREAL",
         "lat": 39.94263,
@@ -26584,6 +26562,7 @@
         "postcode": "05250",
         "telephone": "",
         "facilities": [
+            "open_24_hours",
             "tobacco",
             "high_speed_pump",
             "truck_suitable_site",
