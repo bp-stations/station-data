@@ -1,6 +1,5 @@
 #!/bin/python3
-from requests.adapters import HTTPAdapter
-from urllib3.util import Retry
+from requests.adapters import HTTPAdapter, Retry
 from requests import Session
 import json
 import os
