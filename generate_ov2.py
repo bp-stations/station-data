@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
-import os
+import argparse
 import io
 import json
-import struct
 import logging
-import argparse
-import simplekml
+import os
+import struct
+import sys
 from io import BytesIO
 from pathlib import Path
+import simplekml
 
+
+logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
 logging.getLogger().setLevel(logging.INFO)
 data = []
@@ -34,7 +37,7 @@ def from_ov2_simple(buff):
     lon /= 100000
     lat /= 100000
     label = label.decode("raw_unicode_escape")
-    logging.info(f"decoded simple record: {status} {size} {lat} {lon} {label}")
+    logger.info(f"decoded simple record: {status} {size} {lat} {lon} {label}")
     return status, size, lon, lat, label
 
 
@@ -46,7 +49,7 @@ def from_ov2_skipper(buff):
     tmp_south /= 100000
     tmp_east /= 100000
     tmp_north /= 100000
-    logging.info(
+    logger.info(
         f"decoded skipper record: {_type} {size} {tmp_west} {tmp_south} {tmp_east} {tmp_north}"
     )
     return _type, size, tmp_west, tmp_south, tmp_east, tmp_north
@@ -143,7 +146,7 @@ def check_data(x1, y1, x2, y2, local_json, new_split=2):
             b += 1
 
     if a > 20:
-        logging.debug(f"too many points for {x1} {y1} {x2} {y2} inside. splitting")
+        logger.debug(f"too many points for {x1} {y1} {x2} {y2} inside. splitting")
         if new_split == 1:
             # split east / west
             new_split = 2
@@ -164,7 +167,7 @@ def check_data(x1, y1, x2, y2, local_json, new_split=2):
 
     else:
         if a > 0:
-            logging.debug(f"good data for {x1} {y1} {x2} {y2} with {a} stations")
+            logger.debug(f"good data for {x1} {y1} {x2} {y2} with {a} stations")
             data.append(local_data)
 
 
@@ -179,19 +182,19 @@ def generate_ov2(tmp_args):
 
     # generate a box around all map points
     west, south, east, north = bounding_box(map_points)
-    logging.info(
+    logger.info(
         f"bounding box of all items west: {west}, south: {south}, east: {east}, north: {north}"
     )
 
     # start box generation
     check_data(west, south, east, north, json_data, 0)
 
-    logging.info(f"i have {len(data)} zones")
-    logging.info(f"originally got {len(json_data)} stations")
+    logger.info(f"i have {len(data)} zones")
+    logger.info(f"originally got {len(json_data)} stations")
     x = 0
     for map_point_list in data:
         x += len(map_point_list)
-    logging.info(f"now got {x} stations")
+    logger.info(f"now got {x} stations")
 
     with BytesIO() as all_data:
         for map_point_list in data:
@@ -220,7 +223,7 @@ def generate_ov2(tmp_args):
         # now lets wrap a skipper record around all points in the file
         # e.g. if you have a map that only has points in europe,
         # and you are currently in africa then skip the whole file
-        logging.info(
+        logger.info(
             f"bounding box of all items west: {west}, south: {south}, east: {east}, north: {north}"
         )
         skipper_all = skipper_record(
@@ -253,7 +256,7 @@ def decode(tmp_args):
     tmp_file_byte_size = get_file_size(tmp_data)
     while True:
         if current_cursor == tmp_file_byte_size:
-            logging.info("reached end of file")
+            logger.info("reached end of file")
             break
         tmp_record = decode_record(tmp_data, current_cursor)
 
@@ -268,7 +271,7 @@ def decode(tmp_args):
             from_ov2_simple(tmp_data.read(local_size))
             current_cursor += local_size
         else:
-            logging.warning(f"got unknown type at {current_cursor} {tmp_record}")
+            logger.warning(f"got unknown type at {current_cursor} {tmp_record}")
 
 
 def convert(tmp_args):
@@ -280,7 +283,7 @@ def convert(tmp_args):
     tmp_folder = tmp_kml.newfolder(name="0")
     while True:
         if current_cursor == tmp_file_byte_size:
-            logging.info("reached end of file")
+            logger.info("reached end of file")
             break
         tmp_record = decode_record(tmp_data, current_cursor)
 
@@ -310,25 +313,25 @@ def convert(tmp_args):
             tmp_data.seek(current_cursor, 0)
             _type, local_size = struct.unpack("<Bi", tmp_data.read(5))
             tmp_data.seek(current_cursor, 0)
-            status, size, tmp_lng, tmp_lat, tmp_name = from_ov2_simple(
+            _status, size, tmp_lng, tmp_lat, tmp_name = from_ov2_simple(
                 tmp_data.read(local_size)
             )
             tmp_folder.newpoint(name=tmp_name, coords=[(tmp_lng, tmp_lat)])
             current_items += 1
             current_cursor += local_size
         else:
-            logging.warning(f"got unknown type at {current_cursor} {tmp_record}")
+            logger.warning(f"got unknown type at {current_cursor} {tmp_record}")
 
         if current_items >= 1999:
             tmp_kml.save("output.kml", format=False)
-            exit()
+            sys.exit()
 
 
 def auto(tmp_args):
     input_path = Path(__file__).parent.absolute().joinpath("./out/json/")
     output_path = Path(__file__).parent.absolute().joinpath("./out/ov2/")
     folders = ["all", "brands", "countries"]
-    logging.info("automatically converting all files in out/json to ov2")
+    logger.info("automatically converting all files in out/json to ov2")
     for folder_name in folders:
         tmp_path_input = input_path.joinpath(folder_name)
         tmp_path_output = output_path.joinpath(folder_name)
@@ -342,7 +345,7 @@ def auto(tmp_args):
                 continue
             if "_min.json" in tmp_file:
                 continue
-            logging.info(
+            logger.info(
                 f"converting {tmp_path_input.joinpath(tmp_file)} to "
                 f"{tmp_path_output.joinpath(tmp_file.replace(".json", ".ov2"))}"
             )

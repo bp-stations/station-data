@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-from datetime import datetime
-from pathlib import Path
-from json import load, dumps
 import argparse
+from pathlib import Path
+from json import dumps, load
+
 
 empty_sitemap_start = """<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">"""
@@ -19,8 +19,8 @@ base_url = "https://mein-auto-tanken.de/station.php?id={}"
 
 
 def load_json(file):
-    f = open(file, encoding="utf8")
-    return load(f)
+    with open(file, encoding="utf8") as f:
+        return load(f)
 
 
 station_path = (

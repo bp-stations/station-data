@@ -1,12 +1,18 @@
 #!/bin/python3
-from requests.adapters import HTTPAdapter, Retry
-from requests import Session
 import json
+import logging
 import os
+
+from requests import Session
+from requests.adapters import HTTPAdapter, Retry
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
+logging.getLogger().setLevel(logging.INFO)
 
 in_ci = os.getenv("CI") == "true"
 
-print(f"ci status {in_ci}")
+logger.info(f"ci status {in_ci}")
 
 bounds_request = (
     "https://tankstellenfinder.aral.de/api/v1/locations/within_bounds?sw[]={}&sw[]={}&ne[]={}&ne[]={"
@@ -54,7 +60,7 @@ def get_stations(sw1, sw2, ne1, ne2):
             )
             for tmp in tmp_sub_data:
                 if "size" in tmp:
-                    print(
+                    logger.info(
                         f"getting new stations on bounds {tmp["bounds"]["sw"][0]}, {tmp["bounds"]["sw"][1]}, "
                         f"{tmp["bounds"]["ne"][0]}, {tmp["bounds"]["ne"][1]}"
                     )
@@ -66,7 +72,7 @@ def get_stations(sw1, sw2, ne1, ne2):
                     )
                 else:
                     if not in_ci:
-                        print("saving station")
+                        logger.info("saving station")
                     stations.append(tmp)
         else:
             stations.append(entry)
@@ -81,7 +87,7 @@ if __name__ == "__main__":
 
 # Stats\n\r
 Total station count: {len(stations)}\n""")
-        print(f"got {len(stations)} stations")
+        logger.info(f"got {len(stations)} stations")
 
         unique_objects = []
         seen_ids = set()
@@ -96,7 +102,7 @@ Total station count: {len(stations)}\n""")
         unique_objects = sorted(unique_objects, key=lambda x: x['id'])
 
         """Worldwide stations"""
-        print(f"got {len(unique_objects)} worldwide stations")
+        logger.info(f"got {len(unique_objects)} worldwide stations")
         with open("./out/json/all/stations_min.json", "w+") as f:
             f.write(json.dumps(unique_objects))
 
@@ -114,7 +120,7 @@ Total station count: {len(stations)}\n""")
                 countries.append(country)
                 unique_countries.add(country)
 
-        print(f"got the following countries: {countries}")
+        logger.info(f"got the following countries: {countries}")
         readme.writelines("""## By Country\n
 | Country | Count
 | - | - \n""")
@@ -127,7 +133,7 @@ Total station count: {len(stations)}\n""")
                     tmp_stations.append(data)
             tmp_sorted = sorted(tmp_stations, key=lambda x: x['id'])
 
-            print(f"got {len(tmp_stations)} stations for country {country}")
+            logger.info(f"got {len(tmp_stations)} stations for country {country}")
             readme.write(f"| {country} | {len(tmp_stations)}\n")
 
             with open(f"./out/json/countries/stations_{country}.json", "w+") as f:
@@ -147,7 +153,7 @@ Total station count: {len(stations)}\n""")
                 brands.append(brand)
                 unique_brands.add(brand)
 
-        print(f"got the following brands: {brands}")
+        logger.info(f"got the following brands: {brands}")
         readme.writelines("""## By Brand\n
 | Brand | Count
 | - | - \n""")
@@ -160,7 +166,7 @@ Total station count: {len(stations)}\n""")
                     tmp_stations.append(data)
             tmp_sorted = sorted(tmp_stations, key=lambda x: x['id'])
 
-            print(f"got {len(tmp_stations)} stations for Brand {brand}")
+            logger.info(f"got {len(tmp_stations)} stations for Brand {brand}")
             readme.write(f"| {brand} | {len(tmp_stations)}\n")
 
             with open(f"./out/json/brands/stations_{brand}.json", "w+") as f:

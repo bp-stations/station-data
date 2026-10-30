@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-from pathlib import Path
-from json import load
 import sqlite3
+from json import load
+from pathlib import Path
 
 
 def load_json(file):
-    f = open(file, encoding="utf8")
-    return load(f)
+    with open(file, encoding="utf8") as f:
+        return load(f)
 
 
 station_path = (
