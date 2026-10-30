@@ -14,16 +14,16 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
-          python-version: '3.12'
+          python-version: '3.13'
           cache: 'pip'
       - name: install requirements
         run: pip install -r requirements.txt
       - name: generate all station data
         run: python fetch_stations.py
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: tmp-data
           path: out/json
@@ -33,14 +33,14 @@ jobs:
     timeout-minutes: 5
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v7
         with:
           name: tmp-data
           path: out/json
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
-          python-version: '3.12'
+          python-version: '3.13'
           cache: 'pip'
       - name: install requirements
         run: pip install -r requirements.txt
@@ -56,11 +56,11 @@ jobs:
         with:
           name: tmp-data-small-files
           path: out/json/other
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: tmp-data-sqlite3
           path: out/sqlite3
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: tmp-data-sitemap
           path: out/sitemap/
@@ -70,20 +70,20 @@ jobs:
     timeout-minutes: 15
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/download-artifact@v4
+      - uses: actions/checkout@v7
+      - uses: actions/download-artifact@v7
         with:
           name: tmp-data
           path: out/json
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
-          python-version: '3.12'
+          python-version: '3.13'
           cache: 'pip'
       - name: install requirements
         run: pip install -r requirements.txt
       - name: generate ov2 files
         run: python generate_ov2.py auto
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: tmp-data-ov2
           path: out/ov2/
@@ -93,23 +93,23 @@ jobs:
     timeout-minutes: 20
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/download-artifact@v4
+    - uses: actions/download-artifact@v7
       with:
         name: tmp-data
         path: out/json
-    - uses: actions/download-artifact@v4
+    - uses: actions/download-artifact@v7
       with:
         name: tmp-data-small-files
         path: out/json/other
-    - uses: actions/download-artifact@v4
+    - uses: actions/download-artifact@v7
       with:
         name: tmp-data-ov2
         path: out/ov2/
-    - uses: actions/download-artifact@v4
+    - uses: actions/download-artifact@v7
       with:
         name: tmp-data-sqlite3
         path: out/sqlite3/
-    - uses: actions/download-artifact@v4
+    - uses: actions/download-artifact@v7
       with:
         name: tmp-data-sitemap
         path: out/sitemap/
@@ -131,7 +131,7 @@ jobs:
     timeout-minutes: 5
     runs-on: ubuntu-latest
     steps:
-      - uses: geekyeggo/delete-artifact@v4
+      - uses: geekyeggo/delete-artifact@v7
         with:
           name: |
             tmp-data

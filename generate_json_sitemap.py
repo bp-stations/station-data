@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 import argparse
-from pathlib import Path
 from json import dumps, load
-
+from pathlib import Path
 
 empty_sitemap_start = """<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">"""
@@ -41,8 +40,7 @@ def generate_sitemap():
     station_data = load_json(station_path)
     with open(output_path, "w+") as f:
         f.write(empty_sitemap_start)
-        for station in station_data:
-            f.write(empty_site.format(base_url.format(station["watchlist_id"])))
+        f.writelines(empty_site.format(base_url.format(station["watchlist_id"])) for station in station_data)
         f.write(empty_sitemap_end)
 
 

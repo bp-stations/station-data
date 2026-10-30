@@ -8,8 +8,8 @@ import struct
 import sys
 from io import BytesIO
 from pathlib import Path
-import simplekml
 
+import simplekml
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
