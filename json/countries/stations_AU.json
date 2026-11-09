@@ -14944,7 +14944,7 @@
         "city": "GEEBUNG",
         "state": "QLD",
         "postcode": "4034",
-        "telephone": "+61 7 3265 6763",
+        "telephone": "",
         "facilities": [
             "gift_card",
             "truck_suitable_site",
@@ -15546,6 +15546,7 @@
             "bp_rewards_redemption",
             "bp_rewards_unlocked",
             "bp_rewards_cents_per_litre",
+            "bp_rewards_member_pricing",
             "loyalty",
             "pump_rewards",
             "bpmeplus",
@@ -17058,6 +17059,36 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-1604",
+        "name": "BP KINGLAKE WEST",
+        "lat": -37.4746,
+        "lng": 145.2385,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "1274 Whittlesea-Yea Road",
+        "city": "Kinglake West",
+        "state": "VIC",
+        "postcode": "3757",
+        "telephone": "+61 3 5786 1171",
+        "facilities": [
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "bp_rewards_unlocked_convenience",
+            "loyalty",
+            "pump_rewards"
+        ],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1274 Whittlesea-Yea Road\n3757\nKinglake West",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-1605",
         "name": "BP BURDEKIN DUCK ROADHOUSE",
         "lat": -20.0072,
@@ -17189,6 +17220,32 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "2 Box Street\n4725\nBarcaldine",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1620",
+        "name": "BP BAROSSA ROADHOUSE",
+        "lat": -34.4939,
+        "lng": 139.0277,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "371 Angaston Road",
+        "city": "Angaston",
+        "state": "SA",
+        "postcode": "5353",
+        "telephone": "+61 8 8151 1211",
+        "facilities": [
+            "open_24_hours",
+            "toilet"
+        ],
+        "products": [
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "371 Angaston Road\n5353\nAngaston",
         "channel_of_trade": null
     },
     {
@@ -17367,6 +17424,81 @@
         "channel_of_trade": null
     },
     {
+        "id": "AU-1630",
+        "name": "BP BULLSBROOK",
+        "lat": -31.6715,
+        "lng": 116.0312,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "2539B Great Northern Highway",
+        "city": "Bullsbrook",
+        "state": "WA",
+        "postcode": "6084",
+        "telephone": "",
+        "facilities": [
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "loyalty",
+            "pump_rewards",
+            "bpmeplus"
+        ],
+        "products": [
+            "ultimate_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "2539B Great Northern Highway\n6084\nBullsbrook",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1648",
+        "name": "LEIGH CREEK SERVICE STATION & CAF\u00c9",
+        "lat": -30.5925,
+        "lng": 138.3997,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "1 Black Oak Drive",
+        "city": "Leigh Creek",
+        "state": "SA",
+        "postcode": "5731",
+        "telephone": "",
+        "facilities": [],
+        "products": [
+            "regular_diesel",
+            "ultimate_unleaded",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1 Black Oak Drive\n5731\nLeigh Creek",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1650",
+        "name": "BP OPT LEIGH CREEK",
+        "lat": -30.5925,
+        "lng": 138.3997,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "1 Black Oak Drive",
+        "city": "Leigh Creek",
+        "state": "SA",
+        "postcode": "5731",
+        "telephone": "",
+        "facilities": [],
+        "products": [
+            "premium_unlead",
+            "regular_diesel",
+            "unlead"
+        ],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1 Black Oak Drive\n5731\nLeigh Creek",
+        "channel_of_trade": null
+    },
+    {
         "id": "AU-1653",
         "name": "BP WATERFORD",
         "lat": -27.694,
@@ -17415,6 +17547,31 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "CNR NERANG & KINGSTON STREETS\n4133\nWATERFORD",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1654",
+        "name": "BP CLAYTON OPT",
+        "lat": -37.929,
+        "lng": 145.1204,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "1358 Centre Road",
+        "city": "Clayton South",
+        "state": "VIC",
+        "postcode": "3169",
+        "telephone": "",
+        "facilities": [
+            "bp_rewards_redemption",
+            "bp_rewards_unlocked",
+            "bp_rewards_unlocked_convenience",
+            "loyalty",
+            "pump_rewards"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "1358 Centre Road\n3169\nClayton South",
         "channel_of_trade": null
     },
     {
@@ -17720,6 +17877,29 @@
         "website": null,
         "watchlist_id": null,
         "formatted_address": "SOUTH BOUND BRUCE HIGHWAY\n4510\nCABOOLTURE",
+        "channel_of_trade": null
+    },
+    {
+        "id": "AU-1681",
+        "name": "BP OPT BAROSSA ROADHOUSE",
+        "lat": -34.4939,
+        "lng": 139.0277,
+        "site_brand": "BP",
+        "country_code": "AU",
+        "address": "371 Angaston Road",
+        "city": "Angaston",
+        "state": "SA",
+        "postcode": "5353",
+        "telephone": "+61 8 8151 1211",
+        "facilities": [
+            "open_24_hours",
+            "toilet",
+            "wifi"
+        ],
+        "products": [],
+        "website": null,
+        "watchlist_id": null,
+        "formatted_address": "371 Angaston Road\n5353\nAngaston",
         "channel_of_trade": null
     },
     {
@@ -32974,7 +33154,7 @@
         "city": "PORT MACQUARIE",
         "state": "NSW",
         "postcode": "2444",
-        "telephone": "+61 448 919 379",
+        "telephone": "+61 452 440 450",
         "facilities": [
             "open_24_hours",
             "gift_card",
@@ -58391,7 +58571,7 @@
         "city": "MOLENDINAR",
         "state": "QLD",
         "postcode": "4214",
-        "telephone": "+61 499 862 236",
+        "telephone": "+61 402 227 505",
         "facilities": [
             "gift_card",
             "cash_point",
