@@ -127,7 +127,9 @@ jobs:
         name: tmp-data-sitemap
         path: out/sitemap/
     - name: upload to GitHub release
-      run: gh release upload ${REF#refs/tags/} out/*
+      run: |
+        mapfile -t files < <(find out -type f)
+        gh release upload "${REF#refs/tags/}" "${files[@]}" --clobber
       env:
         REF: ${{ github.ref }}
         GH_TOKEN: ${{ github.token }}
