@@ -12,6 +12,8 @@ workflows:
         - 'fnkr/github-action-ghr@v1'
         - 'geekyeggo/delete-artifact@v6.0.0'
         - 'peaceiris/actions-gh-pages@v4.1.0'
+    '.github/workflows/verify-lockfile.yml':
+        - 'actions/checkout@v7.0.1'
     '.github/workflows/version.yml':
         - 'actions/checkout@v7.0.1'
         - 'mathieudutour/github-tag-action@v7.0.0'
