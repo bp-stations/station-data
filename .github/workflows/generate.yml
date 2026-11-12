@@ -99,7 +99,8 @@ jobs:
   deploy:
     needs: [generate-small-files, generate-ov2]
     timeout-minutes: 20
-    permissions: contents: write
+    permissions:
+      contents: write
     runs-on: ubuntu-slim
     steps:
     - uses: actions/checkout@v7.0.1
