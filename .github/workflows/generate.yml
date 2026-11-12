@@ -9,95 +9,8 @@ on:
 permissions: {}
 
 jobs:
-  fetch:
+  fetch-and-deploy:
     if: startsWith(github.ref, 'refs/tags/')
-    timeout-minutes: 20
-    runs-on: ubuntu-slim
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v7.0.1
-        with:
-          persist-credentials: false
-      - uses: actions/setup-python@v7.1.0
-        with:
-          python-version: '3.13'
-          cache: 'pip'
-      - name: install requirements
-        run: pip install -r requirements.txt
-      - name: generate all station data
-        run: python fetch_stations.py
-      - uses: actions/upload-artifact@v7.0.2
-        with:
-          name: tmp-data
-          path: out/json
-
-  generate-small-files:
-    needs: [ fetch ]
-    timeout-minutes: 5
-    runs-on: ubuntu-slim
-    steps:
-      - uses: actions/checkout@v7.0.1
-        with:
-          persist-credentials: false
-      - uses: actions/download-artifact@v7.0.0
-        with:
-          name: tmp-data
-          path: out/json
-      - uses: actions/setup-python@v7.1.0
-        with:
-          python-version: '3.13'
-          cache: 'pip'
-      - name: install requirements
-        run: pip install -r requirements.txt
-      - name: generate aral.db
-        run: python generate_sqlite3.py
-      - name: generate fuel.json
-        run: python generate_json_sitemap.py -ff
-      - name: generate facilities.json
-        run: python generate_json_sitemap.py -f
-      - name: generate sitemap.xml
-        run: python generate_json_sitemap.py -s
-      - uses: actions/upload-artifact@v4.6.2
-        with:
-          name: tmp-data-small-files
-          path: out/json/other
-      - uses: actions/upload-artifact@v7.0.2
-        with:
-          name: tmp-data-sqlite3
-          path: out/sqlite3
-      - uses: actions/upload-artifact@v7.0.2
-        with:
-          name: tmp-data-sitemap
-          path: out/sitemap/
-
-  generate-ov2:
-    needs: [ fetch ]
-    timeout-minutes: 15
-    runs-on: ubuntu-slim
-    steps:
-      - uses: actions/checkout@v7.0.1
-        with:
-          persist-credentials: false
-      - uses: actions/download-artifact@v7.0.0
-        with:
-          name: tmp-data
-          path: out/json
-      - uses: actions/setup-python@v7.1.0
-        with:
-          python-version: '3.13'
-          cache: 'pip'
-      - name: install requirements
-        run: pip install -r requirements.txt
-      - name: generate ov2 files
-        run: python generate_ov2.py auto
-      - uses: actions/upload-artifact@v7.0.2
-        with:
-          name: tmp-data-ov2
-          path: out/ov2/
-
-  deploy:
-    needs: [generate-small-files, generate-ov2]
     timeout-minutes: 20
     permissions:
       contents: write
@@ -110,26 +23,35 @@ jobs:
       with:
         name: tmp-data
         path: out/json
-    - uses: actions/download-artifact@v7.0.0
+    - uses: actions/setup-python@v7.1.0
       with:
-        name: tmp-data-small-files
-        path: out/json/other
-    - uses: actions/download-artifact@v7.0.0
-      with:
-        name: tmp-data-ov2
-        path: out/ov2/
-    - uses: actions/download-artifact@v7.0.0
-      with:
-        name: tmp-data-sqlite3
-        path: out/sqlite3/
-    - uses: actions/download-artifact@v7.0.0
-      with:
-        name: tmp-data-sitemap
-        path: out/sitemap/
+        python-version: '3.13'
+        cache: 'pip'
+    - name: install requirements
+      run: pip install -r requirements.txt
+
+    # fetch data
+    - name: generate all station data
+      run: python fetch_stations.py
+
+    # generate data files
+    - name: generate ov2 files
+      run: python generate_ov2.py auto
+    - name: generate aral.db
+      run: python generate_sqlite3.py
+    - name: generate fuel.json
+      run: python generate_json_sitemap.py -ff
+    - name: generate facilities.json
+      run: python generate_json_sitemap.py -f
+    - name: generate sitemap.xml
+      run: python generate_json_sitemap.py -s
+
     - name: upload to GitHub release
       run: |
-        mapfile -t files < <(find out -type f)
-        gh release upload "${REF#refs/tags/}" "${files[@]}" --clobber
+        DATE=$(date -u +%Y-%m-%d)
+        ARCHIVE="station-data-${DATE}.tar.gz"
+        tar -czf "${ARCHIVE}" -C out .
+        gh release upload "${REF#refs/tags/}" "${ARCHIVE}" --clobber
       env:
         REF: ${{ github.ref }}
         GH_TOKEN: ${{ github.token }}
@@ -138,19 +60,3 @@ jobs:
       with:
         github_token: ${{ secrets.SECRET }}
         publish_dir: out/
-
-  cleanup:
-    needs: [deploy]
-    permissions:
-      actions: write
-    timeout-minutes: 5
-    runs-on: ubuntu-slim
-    steps:
-      - uses: geekyeggo/delete-artifact@v6.0.0
-        with:
-          name: |
-            tmp-data
-            tmp-data-small-files
-            tmp-data-ov2
-            tmp-data-sqlite3
-            tmp-data-sitemap
