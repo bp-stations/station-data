@@ -99,6 +99,7 @@ jobs:
   deploy:
     needs: [generate-small-files, generate-ov2]
     timeout-minutes: 20
+    permissions: contents: write
     runs-on: ubuntu-slim
     steps:
     - uses: actions/checkout@v7.0.1
@@ -125,7 +126,7 @@ jobs:
         name: tmp-data-sitemap
         path: out/sitemap/
     - name: upload to GitHub release
-      run: gh release upload ${REF} out/
+      run: gh release upload ${REF#refs/tags/} out/*
       env:
         REF: ${{ github.ref }}
         GH_TOKEN: ${{ github.token }}
