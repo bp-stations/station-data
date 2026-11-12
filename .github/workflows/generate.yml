@@ -121,11 +121,11 @@ jobs:
       with:
         name: tmp-data-sitemap
         path: out/sitemap/
-    - name: create github Release
-      uses: fnkr/github-action-ghr@v1
+    - name: upload to GitHub release
+      run: gh release upload ${REF} out/
       env:
-        GHR_PATH: out/
-        GITHUB_TOKEN: ${{ secrets.SECRET }}
+        REF: ${{ github.ref }}
+        GH_TOKEN: ${{ github.token }}
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v4.1.0
       with:

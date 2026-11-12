@@ -9,7 +9,6 @@ workflows:
         - 'actions/setup-python@v7.1.0'
         - 'actions/upload-artifact@v4.6.2'
         - 'actions/upload-artifact@v7.0.2'
-        - 'fnkr/github-action-ghr@v1'
         - 'geekyeggo/delete-artifact@v6.0.0'
         - 'peaceiris/actions-gh-pages@v4.1.0'
     '.github/workflows/verify-lockfile.yml':
@@ -17,7 +16,6 @@ workflows:
     '.github/workflows/version.yml':
         - 'actions/checkout@v7.0.1'
         - 'mathieudutour/github-tag-action@v7.0.0'
-        - 'ncipollo/release-action@v1.21.0'
 dependencies:
     'actions/checkout@v7.0.1':
         ref: 'v7.0.1'
@@ -44,11 +42,6 @@ dependencies:
         commit: 'sha1-cf430e030ddbb5b0abf93d22962f4752f3646cd9'
         owner_id: 44036562
         repo_id: 192625955
-    'fnkr/github-action-ghr@v1':
-        ref: 'v1'
-        commit: 'sha1-8ed8fc2f0a781340421ad61acdc0e3d665a95692'
-        owner_id: 616991
-        repo_id: 179881420
     'geekyeggo/delete-artifact@v6.0.0':
         ref: 'v6.0.0'
         commit: 'sha1-176a747ab7e287e3ff4787bf8a148716375ca118'
@@ -59,11 +52,6 @@ dependencies:
         commit: 'sha1-af99e60ce8132224b8e6ebab5023449fe256ed46'
         owner_id: 3254314
         repo_id: 218823535
-    'ncipollo/release-action@v1.21.0':
-        ref: 'v1.21.0'
-        commit: 'sha1-339a81892b84b4eeb0f6e744e4574d79d0d9b8dd'
-        owner_id: 5712756
-        repo_id: 204020546
     'peaceiris/actions-gh-pages@v4.1.0':
         ref: 'v4.1.0'
         commit: 'sha1-84c30a85c19949d7eee79c4ff27748b70285e453'
